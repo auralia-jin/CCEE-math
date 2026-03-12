@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2021 Beijing Chaoyang Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "我国脱贫攻坚战取得全面胜利，现行标准下农村贫困人口全部脱贫，消除了绝对贫困。为了解脱贫家庭人均年纯收入情况，某扶贫工作组对A，B两个地区2019年脱贫家庭进行简单随机抽样，共抽取500户家庭作为样本，获得数据如表：A地区2019年人均年纯收入超过10000元有100户、未超过10000元有200户；B地区2019年人均年纯收入超过10000元有150户、未超过10000元有50户。假设所有脱贫家庭的人均年纯收入是否超过10000元相互独立。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从A地区2019年脱贫家庭中随机抽取1户，估计该家庭2019年人均年纯收入超过10000元的概率；",
+            "solutionSteps": "1. 设事件C为从A地区2019年脱贫家庭中随机抽取1户，该家庭2019年人均纯收入超过10000元；\n2. 由样本数据可知，A地区抽出的300户家庭中2019年人均年收入超过10000元的有100户；\n3. 根据古典概型概率公式，P(C)=符合条件的户数/总抽样户数，代入数据计算得结果。",
+            "standardAnswer": "$\\\\frac{1}{3}$",
+            "scoringCriteria": "本问总分4分，正确设定事件得1分；明确A地区抽样总戶数和符合条件户数得1分；写出古典概型概率公式得1分；代入数据计算出正确答案得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）在样本中，分别从A地区和B地区2019年脱贫家庭中各随机抽取1户，记X为这2户家庭中2019年人均年纯收入超过10000元的户数，求X的分布列和数学期望；",
+            "solutionSteps": "1. 设事件A为从样本中A地区脱贫家庭抽1户超过10000元，事件B为从样本中B地区脱贫家庭抽1户超过10000元，计算得P(A)=1/3，P(B)=3/4；\n2. 确定X的可能取值为0，1，2；\n3. 分别计算P(X=0)=P(\\overline{A}\\overline{B})、P(X=1)=P(\\overline{A}B\\bigcup A\\overline{B})、P(X=2)=P(AB)，利用独立事件概率乘法公式计算；\n4. 列出X的分布列；\n5. 根据数学期望公式E(X)=0×P(X=0)+1×P(X=1)+2×P(X=2)计算期望。",
+            "standardAnswer": "分布列：X=0时P=1/6，X=1时P=7/12，X=2时P=1/4；数学期望：$\\\\frac{13}{12}$",
+            "scoringCriteria": "本问总分6分，正确计算P(A)和P(B)得1分；确定X的所有可能取值得1分；正确计算出三个概率值各得0.5分，共1.5分；列出规范的分布列得1分；写出期望公式并代入数据计算出正确结果得1.5分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（Ⅲ）从样本中A地区的300户脱贫家庭中随机抽取4户，发现这4户家庭2020年人均年纯收入都超过10000元。根据这个结果，能否认为样本中A地区2020年人均年纯收入超过10000元的户数相比2019年有变化？请说明理由。",
+            "solutionSteps": "1. 设事件E为从样本中A地区300户脱贫家庭中随机抽取4户，2020年人均年纯收入都超过10000元；\n2. 假设2020年相比2019年无变化，计算P(E)=$\\\\frac{C_{100}^{4}}{C_{300}^{4}}≈0.012$；\n3. 从概率角度分析事件E发生的可能性，给出两种合理的结论及理由。",
+            "standardAnswer": "答案示例1：可以认为有变化，理由是P(E)较小，小概率事件一般不容易发生，一旦发生有理由认为户数发生了变化；答案示例2：无法确定有没有变化，理由是事件E是随机事件，小概率事件仍有可能发生。",
+            "scoringCriteria": "本问总分4分，正确设定事件E并假设无变化得1分；正确写出P(E)的计算式并得到近似值得1分；给出合理的结论得1分；针对结论给出逻辑通顺的理由得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "China's poverty alleviation battle has achieved a comprehensive victory, and all rural poor people under the current standard have been lifted out of poverty, eliminating absolute poverty. To understand the per capita annual net income of poverty-alleviated households, a poverty alleviation working group conducted a simple random sampling of poverty-alleviated households in 2019 in regions A and B, and selected a total of 500 households as samples, with the obtained data as follows: In region A, 100 households had a per capita annual net income exceeding 10,000 yuan and 200 households did not in 2019; In region B, 150 households had a per capita annual net income exceeding 10,000 yuan and 50 households did not in 2019. Assume that whether the per capita annual net income of all poverty-alleviated households exceeds 10,000 yuan is independent of each other.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one household from the poverty-alleviated households in region A in 2019, estimate the probability that the per capita annual net income of this household exceeded 10,000 yuan in 2019;",
+            "solutionSteps": "1. Let event C be that a randomly selected household from the poverty-alleviated households in region A in 2019 had a per capita annual net income exceeding 10,000 yuan in 2019;\n2. According to the sample data, 100 out of 300 sampled households in region A had a per capita annual income exceeding 10,000 yuan in 2019;\n3. Calculate the result by substituting data into the classical probability formula P(C)=number of eligible households/total number of sampled households.",
+            "standardAnswer": "$\\\\frac{1}{3}$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly defining the event; 1 point for clarifying the total number of sampled households and the number of eligible households in region A; 1 point for writing the classical probability formula; 1 point for substituting data to calculate the correct answer.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) In the sample, randomly select one household from the poverty-alleviated households in 2019 in region A and region B respectively, let X be the number of these 2 households whose per capita annual net income exceeded 10,000 yuan in 2019, find the probability distribution and mathematical expectation of X;",
+            "solutionSteps": "1. Let event A be that a randomly selected household from the poverty-alleviated households in region A in the sample had a per capita annual net income exceeding 10,000 yuan, event B be that a randomly selected household from the poverty-alleviated households in region B in the sample had a per capita annual net income exceeding 10,000 yuan, calculate P(A)=1/3 and P(B)=3/4;\n2. Determine the possible values of X as 0, 1, 2;\n3. Calculate P(X=0)=P(\\overline{A}\\overline{B}), P(X=1)=P(\\overline{A}B\\bigcup A\\overline{B}), P(X=2)=P(AB) respectively by using the multiplication formula of independent event probability;\n4. List the probability distribution of X;\n5. Calculate the mathematical expectation according to the formula E(X)=0×P(X=0)+1×P(X=1)+2×P(X=2).",
+            "standardAnswer": "Probability distribution: P(X=0)=1/6, P(X=1)=7/12, P(X=2)=1/4; Mathematical expectation: $\\\\frac{13}{12}$",
+            "scoringCriteria": "This sub-question has a total of 6 points. 1 point for correctly calculating P(A) and P(B); 1 point for determining all possible values of X; 1.5 points in total for correctly calculating the three probability values (0.5 points each); 1 point for listing the standard probability distribution; 1.5 points for writing the expectation formula and substituting data to calculate the correct result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(Ⅲ) Randomly select 4 households from 300 poverty-alleviated households in region A in the sample, and it is found that the per capita annual net income of these 4 households all exceeded 10,000 yuan in 2020. Based on this result, can it be considered that the number of households in region A in the sample whose per capita annual net income exceeded 10,000 yuan in 2020 has changed compared with 2019? Please explain the reason.",
+            "solutionSteps": "1. Let event E be that 4 randomly selected households from 300 poverty-alleviated households in region A in the sample all had a per capita annual net income exceeding 10,000 yuan in 2020;\n2. Assume there is no change in 2020 compared with 2019, calculate P(E)=$\\\\frac{C_{100}^{4}}{C_{300}^{4}}≈0.012$;\n3. Analyze the possibility of the occurrence of event E from the perspective of probability and give two reasonable conclusions and reasons.",
+            "standardAnswer": "Answer Example 1: It can be considered that there is a change, because P(E) is small, and small probability events are generally not easy to occur. Once they occur, there is reason to believe that the number of households has changed; Answer Example 2: It is impossible to determine whether there is a change, because event E is a random event, and small probability events may still occur.",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly defining event E and assuming no change; 1 point for correctly writing the calculation formula of P(E) and obtaining the approximate value; 1 point for giving a reasonable conclusion; 1 point for giving a logically coherent reason for the conclusion.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆C的短轴的两个端点分别为$A(0,1)$、$B(0,-1)$，离心率为$\\\\frac{\\\\sqrt{6}}{3}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的方程及焦点的坐标；",
+            "solutionSteps": "1. 由椭圆短轴的两个端点得b=1；\n2. 已知离心率e=$\\\\frac{c}{a}$=$\\\\frac{\\\\sqrt{6}}{3}$，结合椭圆的基本关系$c^2=a^2-b^2$；\n3. 将b=1代入关系式，联立求解得$a^2=3$，$c=\\\\sqrt{2}$；\n4. 根据椭圆的标准方程形式写出椭圆C的方程，结合焦点位置写出焦点坐标。",
+            "standardAnswer": "椭圆C的方程：$\\\\frac{x^2}{3}+y^2=1$；焦点坐标：$(\\\\pm \\\\sqrt{2},0)$",
+            "scoringCriteria": "本问总分5分，由短轴端点正确得出b=1得1分；写出椭圆离心率公式和a、b、c的基本关系得1分；联立方程正确求解出$a^2$和c的值各得1分，共2分；写出正确的椭圆方程和焦点坐标得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若点M为椭圆C上异于A，B的任意一点，过原点且与直线MA平行的直线与直线$y=3$交于点P，直线MB与直线$y=3$交于点Q，试判断以线段PQ为直径的圆是否过定点？若过定点，求出定点的坐标；若不过定点，请说明理由。",
+            "solutionSteps": "1. 设直线MA的方程为$y=kx+1(k≠0)$，则过原点且与MA平行的直线方程为$y=kx$，联立$y=kx$与$y=3$得点P坐标$(\\\\frac{3}{k},3)$；\n2. 联立直线MA的方程与椭圆C的方程，消元求解得点M的坐标$(-\\\\frac{6k}{1+3k^2},\\\\frac{1-3k^2}{1+3k^2})$；\n3. 根据点M和点B的坐标，求出直线MB的方程为$y=-\\\\frac{x}{3k}-1$，联立$y=3$得点Q坐标$(-12k,3)$；\n4. 设定点$T(x_0,y_0)$，由以PQ为直径的圆过点T得$\\\\overrightarrow{PT}·\\\\overrightarrow{QT}=0$；\n5. 代入P、Q、T的坐标展开数量积，令含k的项系数为0，求解得定点坐标。",
+            "standardAnswer": "以线段PQ为直径的圆过定点，定点坐标为$(0,-3)$和$(0,9)$",
+            "scoringCriteria": "本问总分10分，正确设出直线MA和OP的方程并求出点P坐标得2分；联立直线与椭圆方程消元并正确求出点M坐标得2分；求出直线MB的方程并得到点Q坐标得2分；根据圆的性质写出向量数量积为0的关系式得2分；展开并求解出定点坐标得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the two endpoints of the minor axis of ellipse C are $A(0,1)$ and $B(0,-1)$ respectively, and its eccentricity is $\\\\frac{\\\\sqrt{6}}{3}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of ellipse C and the coordinates of its foci;",
+            "solutionSteps": "1. Obtain b=1 from the two endpoints of the minor axis of the ellipse;\n2. It is known that the eccentricity e=$\\\\frac{c}{a}$=$\\\\frac{\\\\sqrt{6}}{3}$, combined with the basic relation of the ellipse $c^2=a^2-b^2$;\n3. Substitute b=1 into the relation, solve the simultaneous equations to get $a^2=3$ and $c=\\\\sqrt{2}$;\n4. Write the equation of ellipse C according to the standard form of the ellipse equation, and write the coordinates of the foci according to the position of the foci.",
+            "standardAnswer": "Equation of ellipse C: $\\\\frac{x^2}{3}+y^2=1$; Coordinates of foci: $(\\\\pm \\\\sqrt{2},0)$",
+            "scoringCriteria": "This sub-question has a total of 5 points. 1 point for correctly obtaining b=1 from the endpoints of the minor axis; 1 point for writing the ellipse eccentricity formula and the basic relation of a, b and c; 2 points in total for correctly solving the values of $a^2$ and c by simultaneous equations (1 point each); 1 point for writing the correct ellipse equation and the coordinates of the foci.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If point M is any point on ellipse C different from A and B, the line passing through the origin and parallel to line MA intersects the line $y=3$ at point P, and line MB intersects the line $y=3$ at point Q. Judge whether the circle with segment PQ as the diameter passes through a fixed point? If it passes through a fixed point, find the coordinates of the fixed point; if not, please explain the reason.",
+            "solutionSteps": "1. Let the equation of line MA be $y=kx+1(k≠0)$, then the equation of the line passing through the origin and parallel to MA is $y=kx$, solve the simultaneous equations of $y=kx$ and $y=3$ to get the coordinates of point P $(\\\\frac{3}{k},3)$;\n2. Solve the simultaneous equations of the equation of line MA and the equation of ellipse C, eliminate the variable and solve to get the coordinates of point M $(-\\\\frac{6k}{1+3k^2},\\\\frac{1-3k^2}{1+3k^2})$;\n3. Find the equation of line MB as $y=-\\\\frac{x}{3k}-1$ according to the coordinates of point M and point B, solve the simultaneous equations with $y=3$ to get the coordinates of point Q $(-12k,3)$;\n4. Let the fixed point be $T(x_0,y_0)$, from the circle with PQ as the diameter passing through point T, we get $\\\\overrightarrow{PT}·\\\\overrightarrow{QT}=0$;\n5. Substitute the coordinates of P, Q and T to expand the dot product, set the coefficient of the term containing k to 0, and solve to get the coordinates of the fixed point.",
+            "standardAnswer": "The circle with segment PQ as the diameter passes through fixed points, and the coordinates of the fixed points are $(0,-3)$ and $(0,9)$",
+            "scoringCriteria": "This sub-question has a total of 10 points. 2 points for correctly setting the equations of line MA and OP and finding the coordinates of point P; 2 points for eliminating the variable by simultaneous equations of the line and the ellipse and correctly finding the coordinates of point M; 2 points for finding the equation of line MB and obtaining the coordinates of point Q; 2 points for writing the relation of the dot product of vectors being 0 according to the property of the circle; 2 points for expanding and solving the coordinates of the fixed point.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=(ax-1)e^x(a\\\\in R)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求$f(x)$的单调区间；",
+            "solutionSteps": "1. 对函数$f(x)$求导，根据乘积求导法则得$f'(x)=(ax+a-1)e^x$；\n2. 令$f'(x)=0$，解得$ax=1-a$；\n3. 分三种情况讨论：$a=0$、$a>0$、$a<0$；\n4. 当$a=0$时，判断$f'(x)$的符号，得出函数单调性；\n5. 当$a>0$和$a<0$时，分别确定$f'(x)$大于0和小于0的x取值范围，得出对应单调区间。",
+            "standardAnswer": "当$a=0$时，$f(x)$在$R$上单调递减；当$a>0$时，$f(x)$的单调递减区间是$(-\\\\infty,\\\\frac{1-a}{a})$，单调递增区间是$(\\\\frac{1-a}{a},+\\\\infty)$；当$a<0$时，$f(x)$的单调递增区间是$(-\\\\infty,\\\\frac{1-a}{a})$，单调递减区间是$(\\\\frac{1-a}{a},+\\\\infty)$",
+            "scoringCriteria": "本问总分5分，正确求出函数的导数$f'(x)$得2分；令$f'(x)=0$并整理得1分；分$a=0$、$a>0$、$a<0$三种情况讨论，每种情况得出正确的单调区间各得1分，共3分（缺一种情况扣1分）。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若直线$y=ax+a$与曲线$y=f(x)$相切，求证：$a\\\\in(-1,-\\\\frac{2}{3})$。",
+            "solutionSteps": "1. 设切点为$(x_0,y_0)$，根据切线的性质列出方程组：$\\\\begin{cases}(ax_0-1)e^{x_0}=a(x_0+1)\\\\(ax_0+a-1)e^{x_0}=a\\\\end{cases}$；\n2. 两式作差得$-ae^{x_0}=ax_0$，结合$a≠0$得$e^{x_0}+x_0=0$；\n3. 令$\\\\varphi(x)=e^x+x$，根据其导数判断单调性，结合零点存在定理得出$x_0\\\\in(-1,-\\\\frac{1}{2})$；\n4. 将$e^{x_0}=-x_0$代入方程组，整理得$a=\\\\frac{x_0}{x_0^2+x_0+1}=\\\\frac{1}{x_0+\\\\frac{1}{x_0}+1}$；\n5. 分析函数$y=x+\\\\frac{1}{x}+1$在$(-1,-\\\\frac{1}{2})$上的单调性，进而得出$a$的取值范围。",
+            "standardAnswer": "证明见解析，$a\\\\in(-1,-\\\\frac{2}{3})$",
+            "scoringCriteria": "本问总分10分，根据切线性质列出正确的方程组得2分；两式作差并推出$e^{x_0}+x_0=0$得2分；构造函数$\\\\varphi(x)$并判断其单调性，得出$x_0$的取值范围得2分；将$e^{x_0}=-x_0$代入并整理出$a$的表达式得2分；分析函数单调性并推出$a$的取值范围得2分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=(ax-1)e^x(a\\\\in R)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the monotonic intervals of $f(x)$;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$, and obtain $f'(x)=(ax+a-1)e^x$ according to the product rule for differentiation;\n2. Let $f'(x)=0$, and solve to get $ax=1-a$;\n3. Discuss in three cases: $a=0$, $a>0$, $a<0$;\n4. When $a=0$, judge the sign of $f'(x)$ and obtain the monotonicity of the function;\n5. When $a>0$ and $a<0$, determine the value ranges of x where $f'(x)$ is greater than 0 and less than 0 respectively, and obtain the corresponding monotonic intervals.",
+            "standardAnswer": "When $a=0$, $f(x)$ is monotonically decreasing on $R$; when $a>0$, the monotonic decreasing interval of $f(x)$ is $(-\\\\infty,\\\\frac{1-a}{a})$, and the monotonic increasing interval is $(\\\\frac{1-a}{a},+\\\\infty)$; when $a<0$, the monotonic increasing interval of $f(x)$ is $(-\\\\infty,\\\\frac{1-a}{a})$, and the monotonic decreasing interval is $(\\\\frac{1-a}{a},+\\\\infty)$",
+            "scoringCriteria": "This sub-question has a total of 5 points. 2 points for correctly finding the derivative $f'(x)$ of the function; 1 point for letting $f'(x)=0$ and sorting out; 3 points in total for discussing in three cases of $a=0$, $a>0$ and $a<0$ and obtaining the correct monotonic intervals for each case (1 point deducted for missing one case).",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If the line $y=ax+a$ is tangent to the curve $y=f(x)$, prove that $a\\\\in(-1,-\\\\frac{2}{3})$.",
+            "solutionSteps": "1. Let the tangent point be $(x_0,y_0)$, list the system of equations according to the property of the tangent line: $\\\\begin{cases}(ax_0-1)e^{x_0}=a(x_0+1)\\\\(ax_0+a-1)e^{x_0}=a\\\\end{cases}$;\n2. Subtract the two equations to get $-ae^{x_0}=ax_0$, and obtain $e^{x_0}+x_0=0$ combined with $a≠0$;\n3. Let $\\\\varphi(x)=e^x+x$, judge its monotonicity according to its derivative, and obtain $x_0\\\\in(-1,-\\\\frac{1}{2})$ combined with the zero point existence theorem;\n4. Substitute $e^{x_0}=-x_0$ into the system of equations, and sort out to get $a=\\\\frac{x_0}{x_0^2+x_0+1}=\\\\frac{1}{x_0+\\\\frac{1}{x_0}+1}$;\n5. Analyze the monotonicity of the function $y=x+\\\\frac{1}{x}+1$ on $(-1,-\\\\frac{1}{2})$, and then obtain the value range of $a$.",
+            "standardAnswer": "See the analysis for the proof, $a\\\\in(-1,-\\\\frac{2}{3})$",
+            "scoringCriteria": "This sub-question has a total of 10 points. 2 points for listing the correct system of equations according to the property of the tangent line; 2 points for subtracting the two equations and deducing $e^{x_0}+x_0=0$; 2 points for constructing the function $\\\\varphi(x)$, judging its monotonicity and obtaining the value range of $x_0$; 2 points for substituting $e^{x_0}=-x_0$ and sorting out the expression of $a$; 2 points for analyzing the monotonicity of the function and deducing the value range of $a$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设数列$A_m: a_1,a_2,\\\\dots,a_m(m\\\\geq2)$，若存在公比为q的等比数列$B_{m+1}: b_1,b_2,\\\\dots,b_{m+1}$，使得$b_k<a_k<b_{k+1}$，其中$k=1,2,\\\\dots,m$，则称数列$B_{m+1}$为数列$A_m$的“等比分割数列”。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）写出数列$A_4: 3,6,12,24$的一个“等比分割数列”$B_5$；",
+            "solutionSteps": "1. 根据“等比分割数列”的定义，需找到等比数列$B_5: b_1,b_2,b_3,b_4,b_5$，满足$b_1<3<b_2$，$b_2<6<b_3$，$b_3<12<b_4$，$b_4<24<b_5$；\n2. 选取合适的首项和公比，构造等比数列，验证满足上述不等式即可。",
+            "standardAnswer": "$2,4,8,16,32$（答案不唯一）",
+            "scoringCriteria": "本问总分4分，构造的数列是等比数列得2分；满足$b_k<a_k<b_{k+1}(k=1,2,3,4)$的条件得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若数列$A_{10}$的通项公式为$a_n=2^n(n=1,2,\\\\dots,10)$，其“等比分割数列”$B_{11}$的首项为1，求数列$B_{11}$的公比q的取值范围；",
+            "solutionSteps": "1. 根据“等比分割数列”的定义，得$q^{n-1}<2^n<q^n(n=1,2,\\\\dots,10)$，且$B_{11}$首项$b_1=1$；\n2. 由$2^n<q^n$推出$q>2$；\n3. 由$q^{n-1}<2^n$变形得$q<2^{\\\\frac{n}{n-1}}(n=2,3,\\\\dots,10)$；\n4. 分析函数$y=2^{1+\\\\frac{1}{n-1}}$的单调性，得出其在$n=10$时取得最小值$2^{\\\\frac{10}{9}}$；\n5. 综合得出q的取值范围。",
+            "standardAnswer": "$(2,2^{\\\\frac{10}{9}})$",
+            "scoringCriteria": "本问总分5分，根据定义写出不等式$q^{n-1}<2^n<q^n$得1分；由$2^n<q^n$正确推出$q>2$得1分；将$q^{n-1}<2^n$正确变形为$q<2^{\\\\frac{n}{n-1}}$得1分；分析函数单调性得出$2^{\\\\frac{n}{n-1}}$的最小值为$2^{\\\\frac{10}{9}}$得1分；综合得出正确的q的取值范围得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅲ）若数列$A_m$的通项公式为$a_n=n^2(n=1,2,\\\\dots,m)$，且数列$A_m$存在“等比分割数列”，求m的最大值。",
+            "solutionSteps": "1. 设等比分割数列$B_{m+1}$首项为$b_1$，公比为q，由定义得$b_1q^{n-1}<n^2<b_1q^n(n=1,2,\\\\dots,m)$；\n2. 假设$m\\\\geq6$，根据不等式推出$q^3>9$，即$q>\\\\sqrt[3]{9}>2$；\n3. 由$b_1q^3>9$推出$b_1q^5>9×2^2=36$，与$b_1q^5<36$矛盾，故$m\\\\leq5$；\n4. 当$m=5$时，选取合适的$b_1=0.99$，$q=2.09$，验证满足$b_1q^{n-1}<n^2<b_1q^n(n=1,2,3,4,5)$，故m的最大值为5。",
+            "standardAnswer": "$5$",
+            "scoringCriteria": "本问总分6分，根据定义写出通用不等式得1分；假设$m\\\\geq6$并推出$q>\\\\sqrt[3]{9}>2$得2分；找出矛盾并得出$m\\\\leq5$得1分；选取具体的首项和公比验证$m=5$时存在等比分割数列得1分；最终得出m的最大值为5得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the sequence $A_m: a_1,a_2,\\\\dots,a_m(m\\\\geq2)$. If there exists a geometric sequence $B_{m+1}: b_1,b_2,\\\\dots,b_{m+1}$ with common ratio q such that $b_k<a_k<b_{k+1}$ for $k=1,2,\\\\dots,m$, then the sequence $B_{m+1}$ is called a \"geometric partition sequence\" of the sequence $A_m$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Write a \"geometric partition sequence\" $B_5$ of the sequence $A_4: 3,6,12,24$;",
+            "solutionSteps": "1. According to the definition of the \"geometric partition sequence\", it is necessary to find a geometric sequence $B_5: b_1,b_2,b_3,b_4,b_5$ that satisfies $b_1<3<b_2$, $b_2<6<b_3$, $b_3<12<b_4$, $b_4<24<b_5$;\n2. Select an appropriate first term and common ratio to construct a geometric sequence, and verify that it satisfies the above inequalities.",
+            "standardAnswer": "$2,4,8,16,32$ (the answer is not unique)",
+            "scoringCriteria": "This sub-question has a total of 4 points. 2 points for the constructed sequence being a geometric sequence; 2 points for satisfying the condition $b_k<a_k<b_{k+1}(k=1,2,3,4)$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If the general term formula of the sequence $A_{10}$ is $a_n=2^n(n=1,2,\\\\dots,10)$, and the first term of its \"geometric partition sequence\" $B_{11}$ is 1, find the value range of the common ratio q of the sequence $B_{11}$;",
+            "solutionSteps": "1. According to the definition of the \"geometric partition sequence\", we get $q^{n-1}<2^n<q^n(n=1,2,\\\\dots,10)$, and the first term $b_1=1$ of $B_{11}$;\n2. Deduce $q>2$ from $2^n<q^n$;\n3. Transform $q^{n-1}<2^n$ into $q<2^{\\\\frac{n}{n-1}}(n=2,3,\\\\dots,10)$;\n4. Analyze the monotonicity of the function $y=2^{1+\\\\frac{1}{n-1}}$, and conclude that it attains the minimum value $2^{\\\\frac{10}{9}}$ when $n=10$;\n5. Synthesize to obtain the value range of q.",
+            "standardAnswer": "$(2,2^{\\\\frac{10}{9}})$",
+            "scoringCriteria": "This sub-question has a total of 5 points. 1 point for writing the inequality $q^{n-1}<2^n<q^n$ according to the definition; 1 point for correctly deducing $q>2$ from $2^n<q^n$; 1 point for correctly transforming $q^{n-1}<2^n$ into $q<2^{\\\\frac{n}{n-1}}$; 1 point for analyzing the monotonicity of the function and obtaining the minimum value of $2^{\\\\frac{n}{n-1}}$ as $2^{\\\\frac{10}{9}}$; 1 point for synthesizing to obtain the correct value range of q.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅲ) If the general term formula of the sequence $A_m$ is $a_n=n^2(n=1,2,\\\\dots,m)$, and the sequence $A_m$ has a \"geometric partition sequence\", find the maximum value of m.",
+            "solutionSteps": "1. Let the first term of the geometric partition sequence $B_{m+1}$ be $b_1$ and the common ratio be q, then from the definition we have $b_1q^{n-1}<n^2<b_1q^n(n=1,2,\\\\dots,m)$;\n2. Assume $m\\\\geq6$, deduce $q^3>9$ from the inequality, that is $q>\\\\sqrt[3]{9}>2$;\n3. Deduce $b_1q^5>9×2^2=36$ from $b_1q^3>9$, which contradicts $b_1q^5<36$, so $m\\\\leq5$;\n4. When $m=5$, select the appropriate $b_1=0.99$ and $q=2.09$, verify that $b_1q^{n-1}<n^2<b_1q^n(n=1,2,3,4,5)$ is satisfied, so the maximum value of m is 5.",
+            "standardAnswer": "$5$",
+            "scoringCriteria": "This sub-question has a total of 6 points. 1 point for writing the general inequality according to the definition; 2 points for assuming $m\\\\geq6$ and deducing $q>\\\\sqrt[3]{9}>2$; 1 point for finding the contradiction and concluding $m\\\\leq5$; 1 point for selecting specific first term and common ratio to verify that a geometric partition sequence exists when $m=5$; 1 point for finally concluding that the maximum value of m is 5.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+    "paperTitle": "2021 Beijing Dongcheng Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "小明同学两次测试成绩(满分100分)如表所示：\\n| | 语文 | 数学 | 英语 | 物理 | 化学 | 生物 |\\n| --- | --- | --- | --- | --- | --- | --- |\\n| 第一次 | 87 | 92 | 91 | 92 | 85 | 93 |\\n| 第二次 | 82 | 94 | 95 | 88 | 94 | 87 |\\n现有另一名同学两次测试成绩(满分100分)及相关统计信息如表所示：\\n| | 语文 | 数学 | 英语 | 物理 | 化学 | 生物 | 6科成绩均值 | 成绩方差6科 |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n| 第一次 | a₁ | a₂ | a₃ | a₄ | a₅ | a₆ | x₁ | D₁ |\\n| 第二次 | b₁ | b₂ | b₃ | b₄ | b₅ | b₆ | x₂ | D₂ |\\n将每科两次测试成绩的均值作为该科的总评成绩，这6科总评成绩的方差为D₃。有一种观点认为：若x₁=x₂，D₁<D₂，则D₁<D₃<D₂。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从小明同学第一次测试的科目中随机抽取1科，求该科成绩大于90分的概率；",
+                        "solutionSteps": "1. 确定基本事件总数：第一次测试共6个科目，基本事件总数为6；\\n2. 找出成绩大于90分的科目：数学、英语、物理、生物，共4科；\\n3. 利用古典概型概率公式计算：P=符合条件的事件数/基本事件总数=4/6=2/3。",
+                        "standardAnswer": "$\\frac{2}{3}$",
+                        "scoringCriteria": "本问总分4分，指出第一次测试的科目总数得1分，找出成绩大于90分的科目数量得2分，代入古典概型公式计算出正确结果得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）从小明同学第一次测试和第二次测试的科目中各随机抽取1科，记X为抽取的2科中成绩大于90分的科目数量，求X的分布列和数学期望E(X)；",
+                        "solutionSteps": "1. 确定X的可能取值：0，1，2；\\n2. 计算各取值的概率：\\n   P(X=0)=（第一次不大于90分的科目数×第二次不大于90分的科目数）/（6×6）=(2×3)/36=1/6；\\n   P(X=1)=（第一次大于90分×第二次不大于90分 + 第一次不大于90分×第二次大于90分）/36=(4×3+2×3)/36=18/36=1/2；\\n   P(X=2)=（第一次大于90分×第二次大于90分）/36=(4×3)/36=1/3；\\n3. 列出X的分布列；\\n4. 计算数学期望：E(X)=0×1/6 + 1×1/2 + 2×1/3=7/6。",
+                        "standardAnswer": "X的分布列为：\\n| X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{1}{6}$ | $\\frac{1}{2}$ | $\\frac{1}{3}$ |\\n数学期望$E(X)=\\frac{7}{6}$",
+                        "scoringCriteria": "本问总分8分，确定X的可能取值为0、1、2得1分，正确计算P(X=0)得2分，正确计算P(X=1)得2分，正确计算P(X=2)得1分，规范列出分布列得1分，正确计算数学期望E(X)得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "（Ⅲ）判断上述观点是否正确？(只写“正确”或“不正确” )",
+                        "solutionSteps": "根据方差的定义和性质，结合两次成绩的均值和方差的关系进行分析，可知该观点不成立。",
+                        "standardAnswer": "不正确",
+                        "scoringCriteria": "本问总分2分，给出正确的判断结果得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Xiaoming's test scores (full score 100 points) in two tests are shown in the table below:\\n| | Chinese | Mathematics | English | Physics | Chemistry | Biology |\\n| --- | --- | --- | --- | --- | --- | --- |\\n| The first test | 87 | 92 | 91 | 92 | 85 | 93 |\\n| The second test | 82 | 94 | 95 | 88 | 94 | 87 |\\nThe test scores (full score 100 points) of another student in two tests and relevant statistical information are shown in the table below:\\n| | Chinese | Mathematics | English | Physics | Chemistry | Biology | Average score of 6 subjects | Variance of scores of 6 subjects |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n| The first test | a₁ | a₂ | a₃ | a₄ | a₅ | a₆ | x₁ | D₁ |\\n| The second test | b₁ | b₂ | b₃ | b₄ | b₅ | b₆ | x₂ | D₂ |\\nTake the average of the two test scores of each subject as the total evaluation score of the subject, and the variance of the total evaluation scores of these 6 subjects is D₃. There is a view that: if x₁=x₂ and D₁<D₂, then D₁<D₃<D₂.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one subject from Xiaoming's first test subjects, find the probability that the score of this subject is higher than 90 points;",
+                        "solutionSteps": "1. Determine the total number of basic events: there are 6 subjects in the first test, so the total number of basic events is 6;\\n2. Find the subjects with scores higher than 90 points: Mathematics, English, Physics, Biology, a total of 4 subjects;\\n3. Calculate by using the probability formula of classical probability model: P=Number of eligible events/Total number of basic events=4/6=2/3.",
+                        "standardAnswer": "$\\frac{2}{3}$",
+                        "scoringCriteria": "This sub-question has a total of 4 points. 1 point for pointing out the total number of subjects in the first test, 2 points for finding the number of subjects with scores higher than 90 points, and 1 point for calculating the correct result by substituting the classical probability model formula.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Randomly select one subject from Xiaoming's first test subjects and one from the second test subjects respectively, let X be the number of subjects with scores higher than 90 points among the 2 selected subjects, find the distribution column and mathematical expectation E(X) of X;",
+                        "solutionSteps": "1. Determine the possible values of X: 0, 1, 2;\\n2. Calculate the probability of each value: \\n   P(X=0)=(Number of subjects with scores not higher than 90 in the first test × Number of subjects with scores not higher than 90 in the second test)/(6×6)=(2×3)/36=1/6;\\n   P(X=1)=(Number of subjects with scores higher than 90 in the first test × Number of subjects with scores not higher than 90 in the second test + Number of subjects with scores not higher than 90 in the first test × Number of subjects with scores higher than 90 in the second test)/36=(4×3+2×3)/36=18/36=1/2;\\n   P(X=2)=(Number of subjects with scores higher than 90 in the first test × Number of subjects with scores higher than 90 in the second test)/36=(4×3)/36=1/3;\\n3. List the distribution column of X;\\n4. Calculate the mathematical expectation: E(X)=0×1/6 + 1×1/2 + 2×1/3=7/6.",
+                        "standardAnswer": "The distribution column of X is: \\n| X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{1}{6}$ | $\\frac{1}{2}$ | $\\frac{1}{3}$ |\\nThe mathematical expectation $E(X)=\\frac{7}{6}$",
+                        "scoringCriteria": "This sub-question has a total of 8 points. 1 point for determining the possible values of X as 0, 1, 2, 2 points for correctly calculating P(X=0), 2 points for correctly calculating P(X=1), 1 point for correctly calculating P(X=2), 1 point for listing the distribution column standardly, and 1 point for correctly calculating the mathematical expectation E(X).",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "(Ⅲ) Judge whether the above view is correct? (Only write \"Correct\" or \"Incorrect\")",
+                        "solutionSteps": "Analyze according to the definition and properties of variance combined with the relationship between the mean and variance of the two test scores, and it can be known that the view is not valid.",
+                        "standardAnswer": "Incorrect",
+                        "scoringCriteria": "This sub-question has a total of 2 points. 2 points for giving the correct judgment result.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数 $f(x)=x^{3}-a x^{2}-a^{2} x+1$，其中 $a>0$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当 $a=1$ 时，求 $f(x)$ 的单调区间；",
+                        "solutionSteps": "1. 当a=1时，函数解析式为$f(x)=x^3 - x^2 - x + 1$；\\n2. 对函数求导：$f'(x)=3x^2 - 2x - 1$；\\n3. 将导数因式分解：$f'(x)=(3x+1)(x-1)$；\\n4. 解导数大于0的不等式：$(3x+1)(x-1)>0$，得$x<-\\frac{1}{3}$或$x>1$，此为单调递增区间；\\n5. 解导数小于0的不等式：$(3x+1)(x-1)<0$，得$-\\frac{1}{3}<x<1$，此为单调递减区间。",
+                        "standardAnswer": "单调递增区间为$(-\\infty,-\\frac{1}{3})$和$(1,+\\infty)$，单调递减区间为$(-\\frac{1}{3},1)$",
+                        "scoringCriteria": "本问总分5分，代入a=1写出正确的函数解析式得1分，正确求导得2分，因式分解导数表达式得1分，正确求解不等式并写出单调区间得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若曲线 $y=f(x)$ 在点 $(-a, f(-a))$ 处的切线与 y 轴的交点为 $(0, m)$，求 $m+\\frac{1}{a}$ 的最小值。",
+                        "solutionSteps": "1. 求函数的导数：$f'(x)=3x^2 - 2ax - a^2$；\\n2. 计算切点处的导数值：$f'(-a)=3a^2 + 2a^2 - a^2=4a^2$，此为切线斜率；\\n3. 计算切点的纵坐标：$f(-a)=-a^3 - a^3 + a^3 + 1=-a^3 + 1$；\\n4. 写出切线方程：$y - (-a^3 + 1)=4a^2(x + a)$，整理得$y=4a^2x + 3a^3 + 1$；\\n5. 求m的值：令x=0，得m=3a³+1；\\n6. 构造函数：$g(a)=m+\\frac{1}{a}=3a^3 + 1 + \\frac{1}{a}(a>0)$；\\n7. 求g(a)的导数：$g'(a)=9a^2 - \\frac{1}{a^2}=\\frac{9a^4 - 1}{a^2}$；\\n8. 分析单调性：令g'(a)>0，得$a>\\frac{\\sqrt{3}}{3}$，g(a)单调递增；令g'(a)<0，得$0<a<\\frac{\\sqrt{3}}{3}$，g(a)单调递减；\\n9. 求最小值：g(a)在$a=\\frac{\\sqrt{3}}{3}$处取得极小值也是最小值，$g(\\frac{\\sqrt{3}}{3})=3×(\\frac{\\sqrt{3}}{3})^3 + 1 + \\frac{1}{\\frac{\\sqrt{3}}{3}}=1 + \\frac{4\\sqrt{3}}{3}$。",
+                        "standardAnswer": "$1+\\frac{4\\sqrt{3}}{3}$",
+                        "scoringCriteria": "本问总分10分，正确求导得1分，计算$f'(-a)$得2分，计算$f(-a)$得1分，写出切线方程并整理正确得2分，求出m的表达式得1分，构造函数g(a)得1分，求g'(a)并分析单调性得1分，计算出最小值得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=x^{3}-a x^{2}-a^{2} x+1$, where $a>0$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) When $a=1$, find the monotonic intervals of $f(x)$;",
+                        "solutionSteps": "1. When a=1, the analytical formula of the function is $f(x)=x^3 - x^2 - x + 1$;\\n2. Find the derivative of the function: $f'(x)=3x^2 - 2x - 1$;\\n3. Factorize the derivative: $f'(x)=(3x+1)(x-1)$;\\n4. Solve the inequality where the derivative is greater than 0: $(3x+1)(x-1)>0$, we get $x<-\\frac{1}{3}$ or $x>1$, which is the monotone increasing interval;\\n5. Solve the inequality where the derivative is less than 0: $(3x+1)(x-1)<0$, we get $-\\frac{1}{3}<x<1$, which is the monotone decreasing interval.",
+                        "standardAnswer": "The monotone increasing intervals are $(-\\infty,-\\frac{1}{3})$ and $(1,+\\infty)$, and the monotone decreasing interval is $(-\\frac{1}{3},1)$",
+                        "scoringCriteria": "This sub-question has a total of 5 points. 1 point for writing the correct analytical formula of the function by substituting a=1, 2 points for finding the derivative correctly, 1 point for factorizing the derivative expression, and 1 point for solving the inequality correctly and writing the monotonic intervals.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If the tangent line of the curve $y=f(x)$ at the point $(-a, f(-a))$ intersects the y-axis at the point $(0, m)$, find the minimum value of $m+\\frac{1}{a}$. ",
+                        "solutionSteps": "1. Find the derivative of the function: $f'(x)=3x^2 - 2ax - a^2$;\\n2. Calculate the derivative value at the tangent point: $f'(-a)=3a^2 + 2a^2 - a^2=4a^2$, which is the slope of the tangent line;\\n3. Calculate the ordinate of the tangent point: $f(-a)=-a^3 - a^3 + a^3 + 1=-a^3 + 1$;\\n4. Write the equation of the tangent line: $y - (-a^3 + 1)=4a^2(x + a)$, sorted out as $y=4a^2x + 3a^3 + 1$;\\n5. Find the value of m: let x=0, we get m=3a³+1;\\n6. Construct the function: $g(a)=m+\\frac{1}{a}=3a^3 + 1 + \\frac{1}{a}(a>0)$;\\n7. Find the derivative of g(a): $g'(a)=9a^2 - \\frac{1}{a^2}=\\frac{9a^4 - 1}{a^2}$;\\n8. Analyze the monotonicity: let g'(a)>0, we get $a>\\frac{\\sqrt{3}}{3}$, g(a) is monotonically increasing; let g'(a)<0, we get $0<a<\\frac{\\sqrt{3}}{3}$, g(a) is monotonically decreasing;\\n9. Find the minimum value: g(a) attains the minimum value (also the极小值) at $a=\\frac{\\sqrt{3}}{3}$, $g(\\frac{\\sqrt{3}}{3})=3×(\\frac{\\sqrt{3}}{3})^3 + 1 + \\frac{1}{\\frac{\\sqrt{3}}{3}}=1 + \\frac{4\\sqrt{3}}{3}$.",
+                        "standardAnswer": "$1+\\frac{4\\sqrt{3}}{3}$",
+                        "scoringCriteria": "This sub-question has a total of 10 points. 1 point for finding the derivative correctly, 2 points for calculating $f'(-a)$, 1 point for calculating $f(-a)$, 2 points for writing and sorting out the tangent line equation correctly, 1 point for finding the expression of m, 1 point for constructing the function g(a), 1 point for finding g'(a) and analyzing the monotonicity, and 1 point for calculating the minimum value.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 过点 $D(-2,0)$，焦距为 $2\\sqrt{3}$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆 C 的方程；",
+                        "solutionSteps": "1. 根据椭圆过点D(-2,0)，得a=2，即a²=4；\\n2. 由焦距2c=2√3，得c=√3；\\n3. 根据椭圆中a²=b²+c²，得b²=a² - c²=4 - 3=1；\\n4. 代入椭圆标准方程，得椭圆C的方程为$\\frac{x^2}{4}+y^2=1$。",
+                        "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+                        "scoringCriteria": "本问总分4分，由椭圆过点D求出a²得2分，由焦距求出c的值得1分，利用a²=b²+c²求出b²并写出椭圆方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）过点 $A(-4,0)$ 的直线 l (不与 x 轴重合)与椭圆 C 交于 P，Q 两点，点 T 与点 Q 关于 x 轴对称，直线 $T P$ 与 x 轴交于点 H。是否存在常数 λ ,使得 $|A D| \\cdot|D H|=\\lambda(|A D|-|D H|)$ 成立,若存在,求出 λ 的值;若不存在,说明理由。",
+                        "solutionSteps": "1. 设$P(x_1,y_1)$，$Q(x_2,y_2)$，则T(x₂,-y₂)，计算|AD|=2；\\n2. 求直线TP的斜率$k_{TP}=\\frac{y_1+y_2}{x_1-x_2}$，写出直线TP的方程：$y - y_1=\\frac{y_1+y_2}{x_1-x_2}(x - x_1)$；\\n3. 求H点横坐标：令y=0，得$x_H=\\frac{x_2y_1+x_1y_2}{y_1+y_2}$，则$|DH|=x_H + 2$；\\n4. 将等式$|AD|\\cdot|DH|=λ(|AD|-|DH|)$转化为$2(x_H+2)=-λx_H$，进一步化简为$2x_1x_2+6(x_1+x_2)+16=-λ[x_1x_2+2(x_1+x_2)]$；\\n5. 设直线l的方程为y=k(x+4)(k≠0)，联立椭圆方程得$(1+4k²)x²+32k²x+64k²-4=0$；\\n6. 由韦达定理得$x_1+x_2=-\\frac{32k²}{1+4k²}$，$x_1x_2=\\frac{64k²-4}{1+4k²}$；\\n7. 代入化简后的等式，计算得$\\frac{8}{1+4k²}=-λ\\cdot\\frac{-4}{1+4k²}$，解得λ=2。",
+                        "standardAnswer": "存在常数λ，λ的值为2",
+                        "scoringCriteria": "本问总分11分，设点坐标并写出T点坐标得1分，求直线TP的斜率和方程得2分，求出H点横坐标得1分，转化原等式为代数形式得2分，设直线方程并联立椭圆方程得2分，利用韦达定理求出x₁+x₂和x₁x₂得1分，代入计算求出λ的值得2分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ passing through the point $D(-2,0)$ with a focal length of $2\\sqrt{3}$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of the ellipse C;",
+                        "solutionSteps": "1. According to the ellipse passing through point D(-2,0), we get a=2, that is, a²=4;\\n2. From the focal length 2c=2√3, we get c=√3;\\n3. According to a²=b²+c² in the ellipse, we get b²=a² - c²=4 - 3=1;\\n4. Substitute into the standard equation of the ellipse, the equation of ellipse C is $\\frac{x^2}{4}+y^2=1$.",
+                        "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+                        "scoringCriteria": "This sub-question has a total of 4 points. 2 points for finding a² by the ellipse passing through point D, 1 point for finding the value of c by the focal length, and 1 point for finding b² by using a²=b²+c² and writing the ellipse equation.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) A straight line l (not coinciding with the x-axis) passing through point $A(-4,0)$ intersects the ellipse C at points P and Q, point T is symmetric to point Q about the x-axis, and the straight line $TP$ intersects the x-axis at point H. Is there a constant λ such that $|A D| \\cdot|D H|=\\lambda(|A D|-|D H|)$ holds? If it exists, find the value of λ; if not, explain the reason.",
+                        "solutionSteps": "1. Let $P(x_1,y_1)$ and $Q(x_2,y_2)$, then T(x₂,-y₂), and calculate |AD|=2;\\n2. Find the slope of line TP $k_{TP}=\\frac{y_1+y_2}{x_1-x_2}$, and write the equation of line TP: $y - y_1=\\frac{y_1+y_2}{x_1-x_2}(x - x_1)$;\\n3. Find the abscissa of point H: let y=0, we get $x_H=\\frac{x_2y_1+x_1y_2}{y_1+y_2}$, then $|DH|=x_H + 2$;\\n4. Transform the equation $|AD|\\cdot|DH|=λ(|AD|-|DH|)$ into $2(x_H+2)=-λx_H$, and further simplify it to $2x_1x_2+6(x_1+x_2)+16=-λ[x_1x_2+2(x_1+x_2)]$;\\n5. Let the equation of line l be y=k(x+4)(k≠0), and联立 it with the ellipse equation to get $(1+4k²)x²+32k²x+64k²-4=0$;\\n6. From Vieta's theorem, we get $x_1+x_2=-\\frac{32k²}{1+4k²}$ and $x_1x_2=\\frac{64k²-4}{1+4k²}$;\\n7. Substitute into the simplified equation and calculate to get $\\frac{8}{1+4k²}=-λ\\cdot\\frac{-4}{1+4k²}$, and solve to get λ=2.",
+                        "standardAnswer": "There exists a constant λ, and the value of λ is 2",
+                        "scoringCriteria": "This sub-question has a total of 11 points. 1 point for setting the coordinates of the points and writing the coordinates of point T, 2 points for finding the slope and equation of line TP, 1 point for finding the abscissa of point H, 2 points for transforming the original equation into an algebraic form, 2 points for setting the line equation and combining it with the ellipse equation, 1 point for finding x₁+x₂ and x₁x₂ by using Vieta's theorem, and 2 points for substituting and calculating to find the value of λ.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "设 $n(n≥2)$ 为正整数，若 $\\alpha=(x_{1}, x_{2}, ..., x_{n})$ 满足：(1) $x_{i} \\in\\{0,1, ..., n-1\\}, i=1,2, ..., n$；(2) 对于 $1≤i<j≤n$，均有 $x_{i} ≠x_{j}$；则称α具有性质 $E(n)$。对于 $\\alpha=(x_{1}, x_{2}, ..., x_{n})$ 和 $\\beta=(y_{1}, y_{2}, ..., y_{n})$，定义集合 $T(\\alpha, \\beta)={t|t=| x_{i}-y_{i} |,i=1,2, ..., n}$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）设 $\\alpha=(0,1,2)$，若 $\\beta=(y_{1}, y_{2}, y_{3})$ 具有性质 E (3)，写出一个 β 及相应的 $T(\\alpha, \\beta)$；",
+                        "solutionSteps": "1. 根据性质E(3)的定义，β的元素需属于{0,1,2}且互不相等；\\n2. 选取符合条件的β，如β=(2,1,0)；\\n3. 计算|xᵢ-yᵢ|：|0-2|=2，|1-1|=0，|2-0|=2，得T(α,β)={0,2}。",
+                        "standardAnswer": "示例：$\\beta=(2,1,0)$，$T(\\alpha,\\beta)={0,2}$（答案不唯一）",
+                        "scoringCriteria": "本问总分4分，写出符合性质E(3)的β得2分，正确计算出对应的T(α,β)得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设 α 和 β 具有性质 E (6)，那么 $T(\\alpha, \\beta)$ 是否可能为{0 ,1,2,3,4,5}，若可能，写出一组 α 和 β，若不可能，说明理由；",
+                        "solutionSteps": "1. 假设存在这样的α和β，使得T(α,β)={0,1,2,3,4,5}；\\n2. 计算集合元素和：0+1+2+3+4+5=15；\\n3. 分析奇偶性：$\\sum_{i=1}^6|x_i-y_i|=15$（奇数），而$\\sum_{i=1}^6(x_i-y_i)=\\sum_{i=1}^6x_i - \\sum_{i=1}^6y_i$，α和β均是0-5的排列，和相等，故该式为0（偶数）；\\n4. 得出矛盾：|xᵢ-yᵢ|的和与xᵢ-yᵢ的和奇偶性必相同，此处矛盾，故假设不成立。",
+                        "standardAnswer": "不可能，理由见解析",
+                        "scoringCriteria": "本问总分5分，提出反证法的假设得1分，计算T(α,β)的元素和得1分，分析出α和β元素和相等且$\\sum_{i=1}^6(x_i-y_i)=0$得2分，根据奇偶性矛盾得出结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）设 α 和 β 具有性质 $E(n)$，对于给定的 α ,求证:满足 $T(\\alpha, \\beta)={0,1, ..., n-1}$ 的 β 有偶数个。",
+                        "solutionSteps": "1. 构造α和β的对应数表，交换数表两行并调整列顺序得到γ，γ也具有性质E(n)且T(α,γ)={0,1,...,n-1}；\\n2. 证明β≠γ：若β=γ，会推出|x₁-y₁|=|x_k-y_k|，与T(α,β)中元素互不相同矛盾；\\n3. 证明β与γ一一对应：给定β可唯一构造γ，给定γ也可唯一构造β；\\n4. 得出结论：满足条件的β可两两配对，故个数为偶数。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "本问总分6分，构造数表并定义符合条件的γ得2分，推出β与γ不相等的矛盾得2分，证明β与γ的一一对应关系得1分，根据配对关系得出β有偶数个的结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let $n(n≥2)$ be a positive integer, if $\\alpha=(x_{1}, x_{2}, ..., x_{n})$ satisfies: (1) $x_{i} \\in\\{0,1, ..., n-1\\}, i=1,2, ..., n$; (2) For $1≤i<j≤n$, $x_{i} ≠x_{j}$ always holds; then α is said to have the property $E(n)$. For $\\alpha=(x_{1}, x_{2}, ..., x_{n})$ and $\\beta=(y_{1}, y_{2}, ..., y_{n})$, the set $T(\\alpha, \\beta)={t|t=| x_{i}-y_{i} |,i=1,2, ..., n}$ is defined.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Let $\\alpha=(0,1,2)$, if $\\beta=(y_{1}, y_{2}, y_{3})$ has the property E(3), write a β and the corresponding $T(\\alpha, \\beta)$;",
+                        "solutionSteps": "1. According to the definition of property E(3), the elements of β must belong to {0,1,2} and be distinct from each other;\\n2. Select a β that meets the conditions, such as β=(2,1,0);\\n3. Calculate |xᵢ-yᵢ|: |0-2|=2, |1-1|=0, |2-0|=2, so T(α,β)={0,2}.",
+                        "standardAnswer": "Example: $\\beta=(2,1,0)$, $T(\\alpha,\\beta)={0,2}$ (the answer is not unique)",
+                        "scoringCriteria": "This sub-question has a total of 4 points. 2 points for writing β that conforms to the property E(3), and 2 points for correctly calculating the corresponding T(α,β).",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let α and β have the property E(6), is it possible that $T(\\alpha, \\beta)$ is {0,1,2,3,4,5}? If possible, write a set of α and β; if not, explain the reason;",
+                        "solutionSteps": "1. Assume that there exist such α and β that T(α,β)={0,1,2,3,4,5};\\n2. Calculate the sum of the set elements: 0+1+2+3+4+5=15;\\n3. Analyze the parity: $\\sum_{i=1}^6|x_i-y_i|=15$ (odd number), while $\\sum_{i=1}^6(x_i-y_i)=\\sum_{i=1}^6x_i - \\sum_{i=1}^6y_i$. Both α and β are permutations of 0-5, so their sums are equal, thus the expression is 0 (even number);\\n4. Draw a contradiction: the sum of |xᵢ-yᵢ| and the sum of xᵢ-yᵢ must have the same parity, which is a contradiction here, so the assumption is not valid.",
+                        "standardAnswer": "Impossible, see the analysis for the reason",
+                        "scoringCriteria": "This sub-question has a total of 5 points. 1 point for putting forward the assumption of proof by contradiction, 1 point for calculating the sum of the elements of T(α,β), 2 points for analyzing that the sums of the elements of α and β are equal and $\\sum_{i=1}^6(x_i-y_i)=0$, and 1 point for drawing the conclusion according to the parity contradiction.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Let α and β have the property $E(n)$, for a given α, prove that the number of β satisfying $T(\\alpha, \\beta)={0,1, ..., n-1}$ is even.",
+                        "solutionSteps": "1. Construct the corresponding number table of α and β, exchange the two rows of the number table and adjust the column order to get γ, which also has the property E(n) and T(α,γ)={0,1,...,n-1};\\n2. Prove that β≠γ: if β=γ, it can be deduced that |x₁-y₁|=|x_k-y_k|, which contradicts the distinctness of the elements in T(α,β);\\n3. Prove the one-to-one correspondence between β and γ: a given β can uniquely construct γ, and a given γ can also uniquely construct β;\\n4. Draw the conclusion: the β satisfying the conditions can be paired two by two, so the number is even.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question has a total of 6 points. 2 points for constructing the number table and defining the eligible γ, 2 points for deducing the contradiction that β and γ are not equal, 1 point for proving the one-to-one correspondence between β and γ, and 1 point for drawing the conclusion that the number of β is even according to the pairing relationship.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}
