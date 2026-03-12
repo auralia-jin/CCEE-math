@@ -1,5 +1,4 @@
-# Beijing-GaoKao-Math-Dataset 2021–2025
-# Standardized Dataset for Beijing Gaokao Math & Mock Exams (2021–2025)
+# CCEE-Math-Dataset 2021–2025
 For evaluating mathematical reasoning in large language models
 
 ---
