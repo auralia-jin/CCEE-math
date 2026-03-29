@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2021 Beijing Haidian Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "每年的4月23日是联合国教科文组织确定的“世界读书日”，又称“世界图书和版权日”。为了解某地区高一学生阅读时间的分配情况，从该地区随机抽取了500名高一学生进行在线调查，得到了这500名学生的日平均阅读时间(单位:小时)，并将样本数据分成[0,2],(2,4],(4,6],(6,8],(8,10],(10,12],(12,14],(14,16],(16,18]九组，绘制成如图所示的频率分布直方图。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求a的值；",
+            "solutionSteps": "根据频率分布直方图的性质，所有矩形面积之和为1，每组组距为2，因此列方程：2×(0.02+0.03+0.05+0.05+0.15+a+0.04+0.01)=1；\\n化简括号内数值得2×(0.45+a)=1；\\n进一步计算得0.45+a=0.5，解得a=0.10。",
+            "standardAnswer": "$0.10$",
+            "scoringCriteria": "第一问总分4分，根据频率分布直方图性质列出正确方程得2分，化简并计算出a的正确值得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）为进一步了解这500名学生数字媒体阅读时间和纸质图书阅读时间的分配情况，从日平均阅读时间在(12,14],(14,16],(16,18]三组内的学生中，采用分层抽样的方法抽取了10人，现从这10人中随机抽取3人，记日平均阅读时间在(14,16]内的学生人数为X，求X的分布列；",
+            "solutionSteps": "1. 计算三组学生人数：(12,14]组：500×0.10=50人，(14,16]组：500×0.04=20人，(16,18]组：500×0.01=10人；\\n2. 分层抽样抽取10人，计算(14,16]组抽取人数：$\\frac{20}{50+20+10}×10=2$人，其余两组共抽取8人；\\n3. 确定X的可能取值为0,1,2；\\n4. 计算各取值概率：$P(X=0)=\\frac{C_{8}^{3}}{C_{10}^{3}}=\\frac{56}{120}=\\frac{7}{15}$，$P(X=1)=\\frac{C_{2}^{1}C_{8}^{2}}{C_{10}^{3}}=\\frac{56}{120}=\\frac{7}{15}$，$P(X=2)=\\frac{C_{2}^{2}C_{8}^{1}}{C_{10}^{3}}=\\frac{8}{120}=\\frac{1}{15}$；\\n5. 以表格形式列出X的取值与对应概率的分布列。",
+            "standardAnswer": "X的可能取值为0,1,2，分布列为：\\n| X | 0 | 1 | 2 |\\n|----|----|----|----|\\n| P | $\\frac{7}{15}$ | $\\frac{7}{15}$ | $\\frac{1}{15}$ |",
+            "scoringCriteria": "第二问总分8分，计算出三组学生的正确人数得2分，分层抽样求出(14,16]组抽取人数得2分，正确求出X各取值的概率各1分（共3分），正确列出分布列得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（Ⅲ）以调查结果的频率估计概率，从该地区所有高一学生中随机抽取20名学生，用“$P_{20}(k)$”表示这20名学生中恰有k名学生日平均阅读时间在(10,12](单位:小时)内的概率，其中$k=0,1,2,...,20$。当$P_{20}(k)$最大时，写出k的值。(只需写出结论)",
+            "solutionSteps": "根据二项分布性质，若$X\\sim B(n,p)$，则$(n+1)p-1\\leq k\\leq(n+1)p$时$P(X=k)$最大；\\n先求日平均阅读时间在(10,12]内的频率为0.15×2=0.3，即p=0.3，n=20；\\n计算$(20+1)×0.3=6.3$，故k取6时概率最大。",
+            "standardAnswer": "$6$",
+            "scoringCriteria": "第三问总分2分，直接写出正确的k值得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "April 23rd every year is the \"World Book Day\" designated by UNESCO, also known as the \"World Book and Copyright Day\". To understand the distribution of reading time of senior one students in a certain area, 500 senior one students in the area were randomly selected for an online survey, and the average daily reading time (in hours) of these 500 students was obtained. The sample data was divided into nine groups: [0,2],(2,4],(4,6],(6,8],(8,10],(10,12],(12,14],(14,16],(16,18], and a frequency distribution histogram as shown in the figure was drawn.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the value of a;",
+            "solutionSteps": "According to the property of the frequency distribution histogram, the sum of the areas of all rectangles is 1, and the class interval of each group is 2, so the equation is listed: 2×(0.02+0.03+0.05+0.05+0.15+a+0.04+0.01)=1;\\nSimplify the values in the parentheses to get 2×(0.45+a)=1;\\nCalculate further to get 0.45+a=0.5, and solve for a=0.10.",
+            "standardAnswer": "$0.10$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points. 2 points for listing the correct equation according to the properties of the frequency distribution histogram, and 2 points for simplifying and calculating the correct value of a.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) To further understand the distribution of digital media reading time and paper book reading time of these 500 students, 10 students are selected by stratified sampling from the students whose average daily reading time is in the three groups (12,14],(14,16],(16,18]. Now 3 students are randomly selected from these 10 students, and let X be the number of students whose average daily reading time is in (14,16]. Find the probability distribution of X;",
+            "solutionSteps": "1. Calculate the number of students in the three groups: Group (12,14]: 500×0.10=50 students, Group (14,16]: 500×0.04=20 students, Group (16,18]: 500×0.01=10 students;\\n2. Select 10 students by stratified sampling, calculate the number of students selected from Group (14,16]: $\\frac{20}{50+20+10}×10=2$ students, and a total of 8 students are selected from the other two groups;\\n3. Determine the possible values of X are 0,1,2;\\n4. Calculate the probability of each value: $P(X=0)=\\frac{C_{8}^{3}}{C_{10}^{3}}=\\frac{56}{120}=\\frac{7}{15}$, $P(X=1)=\\frac{C_{2}^{1}C_{8}^{2}}{C_{10}^{3}}=\\frac{56}{120}=\\frac{7}{15}$, $P(X=2)=\\frac{C_{2}^{2}C_{8}^{1}}{C_{10}^{3}}=\\frac{8}{120}=\\frac{1}{15}$;\\n5. List the probability distribution of X showing the values and the corresponding probabilities in the form of a table.",
+            "standardAnswer": "The possible values of X are 0,1,2, and the probability distribution is: \\n| X | 0 | 1 | 2 |\\n|----|----|----|----|\\n| P | $\\frac{7}{15}$ | $\\frac{7}{15}$ | $\\frac{1}{15}$ |",
+            "scoringCriteria": "The total score of the second subquestion is 8 points. 2 points for calculating the correct number of students in the three groups, 2 points for finding the number of students selected from Group (14,16] by stratified sampling, 1 point for correctly calculating the probability of each value of X (3 points in total), and 1 point for correctly listing the probability distribution.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(III) Estimate the probability by the frequency of the survey results, 20 senior one students are randomly selected from all senior one students in the area. Let $P_{20}(k)$ be the probability that exactly k of the 20 students have an average daily reading time in (10,12] (in hours), where k=0,1,2,...,20. Write the value of k when $P_{20}(k)$ is the largest. (Only write the conclusion)",
+            "solutionSteps": "According to the property of the binomial distribution, if $X\\sim B(n,p)$, then the probability $P(X=k)$ is the largest when $(n+1)p-1\\leq k\\leq(n+1)p$;\\nFirst, find the frequency of the average daily reading time in (10,12] is 0.15×2=0.3, that is, p=0.3, n=20;\\nCalculate $(20+1)×0.3=6.3$, so the probability is the largest when k=6.",
+            "standardAnswer": "$6$",
+            "scoringCriteria": "The total score of the third subquestion is 2 points, 2 points for directly writing the correct value of k.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数 $f(x)=x \\sin x$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）判断函数 $f(x)$ 在区间 $(0, \\frac{\\pi}{2})$ 上的单调性，并说明理由；",
+            "solutionSteps": "1. 对函数$f(x)=x\\sin x$求导，由乘积求导法则得：$f'(x)=(x)'\\sin x + x(\\sin x)'=\\sin x + x\\cos x$；\\n2. 分析$x\\in(0,\\frac{\\pi}{2})$时导函数符号：该区间内$\\sin x>0$，$\\cos x>0$，$x>0$，故$f'(x)=\\sin x + x\\cos x>0$；\\n3. 根据导数与函数单调性的关系，导函数大于0时函数单调递增，因此$f(x)$在$(0,\\frac{\\pi}{2})$上单调递增。",
+            "standardAnswer": "函数$f(x)$在区间$(0, \\frac{\\pi}{2})$上单调递增，理由见解析。",
+            "scoringCriteria": "第一问总分4分，正确求出函数的导函数得2分，正确分析导函数在区间内的符号得1分，根据导数得出单调性结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）求证:函数 $f(x)$ 在 $(\\frac{\\pi}{2}, \\pi)$ 内有且只有一个极值点；",
+            "solutionSteps": "1. 令$h(x)=f'(x)=\\sin x + x\\cos x$，对$h(x)$求导得$h'(x)=2\\cos x - x\\sin x$；\\n2. 分析$x\\in(\\frac{\\pi}{2},\\pi)$时$h'(x)$的符号：该区间内$\\cos x<0$，$\\sin x>0$，$x>0$，故$h'(x)=2\\cos x - x\\sin x<0$，即$h(x)$在$(\\frac{\\pi}{2},\\pi)$上单调递减；\\n3. 计算区间端点的导函数值：$f'(\\frac{\\pi}{2})=\\sin\\frac{\\pi}{2}+\\frac{\\pi}{2}\\cos\\frac{\\pi}{2}=1>0$，$f'(\\pi)=\\sin\\pi+\\pi\\cos\\pi=-\\pi<0$；\\n4. 由零点存在定理，单调递减的函数$h(x)$在$(\\frac{\\pi}{2},\\pi)$内有且只有一个零点$x_0$，即$f'(x_0)=0$；\\n5. 分析极值点：当$x\\in(\\frac{\\pi}{2},x_0)$时，$f'(x)>0$，$f(x)$单调递增；当$x\\in(x_0,\\pi)$时，$f'(x)<0$，$f(x)$单调递减，故$x_0$是$f(x)$在$(\\frac{\\pi}{2},\\pi)$内唯一的极值点。",
+            "standardAnswer": "函数$f(x)$在$(\\frac{\\pi}{2}, \\pi)$内有且只有一个极值点，证明见解析。",
+            "scoringCriteria": "第二问总分6分，正确构造$h(x)=f'(x)$并求出$h'(x)$得2分，正确分析$h(x)$在区间内的单调性得1分，计算出区间端点的导函数值并判断符号得1分，利用零点存在定理说明$f'(x)$有唯一零点得1分，结合单调性说明该零点为唯一极值点得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）求函数 $g(x)=\\frac{f(x)+1}{\\ln x}$ 在区间 $(1, \\pi]$ 上的最小值。",
+            "solutionSteps": "1. 由（Ⅰ）（Ⅱ）知，$f(x)$在$(1,x_0)$内单调递增，在$(x_0,\\pi)$内单调递减，其中$x_0\\in(\\frac{\\pi}{2},\\pi)$；\\n2. 分析$f(x)$在$(1,\\pi]$上的取值：$f(1)=\\sin1>0$，$f(\\pi)=\\pi\\sin\\pi=0$，故当$x\\in(1,\\pi]$时，$f(x)\\geq0$，即$f(x)+1\\geq1$；\\n3. 分析分母$\\ln x$在$(1,\\pi]$上的取值：该区间内$\\ln x$单调递增，故$0<\\ln x\\leq\\ln\\pi$；\\n4. 分析$g(x)$的最值：$f(x)+1$在$(1,\\pi]$上先增后减，$\\ln x$单调递增，当$x=\\pi$时，$f(x)+1=1$，$\\ln x=\\ln\\pi$，此时$g(x)=\\frac{1}{\\ln\\pi}$，结合函数单调性可知该值为最小值。",
+            "standardAnswer": "$\\frac{1}{\\ln \\pi}$",
+            "scoringCriteria": "第三问总分5分，结合前两问得出$f(x)$在$(1,\\pi]$上的单调性得1分，正确分析$f(x)+1$在区间内的取值范围得1分，正确分析$\\ln x$在区间内的取值范围得1分，分析出函数$g(x)$的最小值取点得1分，计算出最小值的正确表达式得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=x \\sin x$.",
+        "subQuestions": [
+          {
+            "question": "(I) Judge the monotonicity of the function $f(x)$ on the interval $(0, \\frac{\\pi}{2})$, and explain the reason;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)=x\\sin x$, and get $f'(x)=(x)'\\sin x + x(\\sin x)'=\\sin x + x\\cos x$ by the product rule for differentiation;\\n2. Analyze the sign of the derivative function when $x\\in(0,\\frac{\\pi}{2})$: $\\sin x>0$, $\\cos x>0$ and $x>0$ in this interval, so $f'(x)=\\sin x + x\\cos x>0$;\\n3. According to the relationship between the derivative and the monotonicity of a function, the function is monotonically increasing when the derivative function is greater than 0, so $f(x)$ is monotonically increasing on $(0,\\frac{\\pi}{2})$.",
+            "standardAnswer": "The function $f(x)$ is monotonically increasing on the interval $(0, \\frac{\\pi}{2})$, see the analysis for the reason.",
+            "scoringCriteria": "The total score of the first subquestion is 4 points. 2 points for correctly finding the derivative of the function, 1 point for correctly analyzing the sign of the derivative function in the interval, and 1 point for drawing the conclusion of monotonicity according to the derivative.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(II) Prove that the function $f(x)$ has exactly one extreme point in $(\\frac{\\pi}{2}, \\pi)$;",
+            "solutionSteps": "1. Let $h(x)=f'(x)=\\sin x + x\\cos x$, find the derivative of $h(x)$ to get $h'(x)=2\\cos x - x\\sin x$;\\n2. Analyze the sign of $h'(x)$ when $x\\in(\\frac{\\pi}{2},\\pi)$: $\\cos x<0$, $\\sin x>0$ and $x>0$ in this interval, so $h'(x)=2\\cos x - x\\sin x<0$, that is, $h(x)$ is monotonically decreasing on $(\\frac{\\pi}{2},\\pi)$;\\n3. Calculate the value of the derivative function at the endpoints of the interval: $f'(\\frac{\\pi}{2})=\\sin\\frac{\\pi}{2}+\\frac{\\pi}{2}\\cos\\frac{\\pi}{2}=1>0$, $f'(\\pi)=\\sin\\pi+\\pi\\cos\\pi=-\\pi<0$;\\n4. According to the Zero Existence Theorem, the monotonically decreasing function $h(x)$ has exactly one zero point $x_0$ in $(\\frac{\\pi}{2},\\pi)$, that is, $f'(x_0)=0$;\\n5. Analyze the extreme point: when $x\\in(\\frac{\\pi}{2},x_0)$, $f'(x)>0$ and $f(x)$ is monotonically increasing; when $x\\in(x_0,\\pi)$, $f'(x)<0$ and $f(x)$ is monotonically decreasing, so $x_0$ is the only extreme point of $f(x)$ in $(\\frac{\\pi}{2},\\pi)$.",
+            "standardAnswer": "The function $f(x)$ has exactly one extreme point in $(\\frac{\\pi}{2}, \\pi)$, see the proof for details.",
+            "scoringCriteria": "The total score of the second subquestion is 6 points. 2 points for correctly constructing $h(x)=f'(x)$ and finding $h'(x)$, 1 point for correctly analyzing the monotonicity of $h(x)$ in the interval, 1 point for calculating the value of the derivative function at the interval endpoints and judging the sign, 1 point for explaining that $f'(x)$ has a unique zero point by using the Zero Existence Theorem, and 1 point for explaining that the zero point is the only extreme point combined with monotonicity.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(III) Find the minimum value of the function $g(x)=\\frac{f(x)+1}{\\ln x}$ on the interval $(1, \\pi]$." ,
+            "solutionSteps": "1. From (I) and (II), it is known that $f(x)$ is monotonically increasing in $(1,x_0)$ and monotonically decreasing in $(x_0,\\pi)$, where $x_0\\in(\\frac{\\pi}{2},\\pi)$;\\n2. Analyze the value of $f(x)$ on $(1,\\pi]$: $f(1)=\\sin1>0$, $f(\\pi)=\\pi\\sin\\pi=0$, so when $x\\in(1,\\pi]$, $f(x)\\geq0$, that is, $f(x)+1\\geq1$;\\n3. Analyze the value of the denominator $\\ln x$ on $(1,\\pi]$: $\\ln x$ is monotonically increasing in this interval, so $0<\\ln x\\leq\\ln\\pi$;\\n4. Analyze the minimum value of $g(x)$: $f(x)+1$ first increases and then decreases on $(1,\\pi]$, $\\ln x$ is monotonically increasing, when $x=\\pi$, $f(x)+1=1$, $\\ln x=\\ln\\pi$, at this time $g(x)=\\frac{1}{\\ln\\pi}$, which is the minimum value combined with the monotonicity of the function.",
+            "standardAnswer": "$\\frac{1}{\\ln \\pi}$",
+            "scoringCriteria": "The total score of the third subquestion is 5 points. 1 point for obtaining the monotonicity of $f(x)$ on $(1,\\pi]$ combined with the first two subquestions, 1 point for correctly analyzing the value range of $f(x)+1$ in the interval, 1 point for correctly analyzing the value range of $\\ln x$ in the interval, 1 point for analyzing the point where the minimum value of the function $g(x)$ is taken, and 1 point for calculating the correct expression of the minimum value.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆 $M: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 过 $A(-2,0)$、$B(0,1)$ 两点。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆 M 的离心率；",
+            "solutionSteps": "1. 由椭圆过点$A(-2,0)$得长半轴$a=2$，由椭圆过点$B(0,1)$得短半轴$b=1$；\\n2. 根据椭圆中$a,b,c$的关系$c^2=a^2-b^2$，计算得$c=\\sqrt{4-1}=\\sqrt{3}$；\\n3. 由椭圆离心率公式$e=\\frac{c}{a}$，代入得$e=\\frac{\\sqrt{3}}{2}$。",
+            "standardAnswer": "$\\frac{\\sqrt{3}}{2}$",
+            "scoringCriteria": "第一问总分4分，根据椭圆过的点正确求出a和b的值各1分（共2分），根据$a,b,c$的关系正确求出c的值得1分，代入离心率公式求出正确离心率得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设椭圆 M 的右顶点为 C，点 P 在椭圆 M 上(P 不与椭圆 M 的顶点重合)，直线 $AB$ 与直线 $CP$ 交于点 Q，直线 $BP$ 交 x 轴于点 S，求证:直线 $SQ$ 过定点。",
+            "solutionSteps": "1. 由（Ⅰ）得椭圆M的方程为$\\frac{x^2}{4}+y^2=1$，右顶点$C(2,0)$，直线AB的方程为$y=\\frac{1}{2}x+1$，即$x=2y-2$；\\n2. 设$P(x_0,y_0)(y_0≠0,y_0≠±1)$，$Q(2y_Q-2,y_Q)$，$S(x_S,0)$，由C、P、Q三点共线得$\\overrightarrow{CP}//\\overrightarrow{CQ}$，即$(x_0-2)y_Q=y_0(2y_Q-4)$，解得$y_Q=\\frac{4y_0}{2y_0-x_0+2}$，进而得Q点坐标$\\left(\\frac{4y_0+2x_0-4}{2y_0-x_0+2},\\frac{4y_0}{2y_0-x_0+2}\\right)$；\\n3. 由B、S、P三点共线，根据斜率相等得$\\frac{1}{-x_S}=\\frac{y_0-1}{x_0}$，解得$x_S=\\frac{x_0}{1-y_0}$，即S点坐标$\\left(\\frac{x_0}{1-y_0},0\\right)$；\\n4. 由点P在椭圆上得$x_0^2=4-4y_0^2$，结合两点式写出直线SQ的方程，将$x_0^2=4-4y_0^2$代入化简；\\n5. 化简后直线SQ的方程为$x=\\frac{2-2y_0-x_0}{1-y_0}(y-1)+2$，由此可知直线SQ过定点$(2,1)$。",
+            "standardAnswer": "直线SQ过定点$(2,1)$，证明见解析。",
+            "scoringCriteria": "第二问总分10分，求出椭圆方程和直线AB的方程得2分，设出点的坐标并利用三点共线求出Q点坐标得3分，利用斜率相等求出S点坐标得2分，结合椭圆方程化简直线SQ的方程得2分，得出直线过的定点坐标得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $M: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ passing through points $A(-2,0)$ and $B(0,1)$.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the eccentricity of ellipse M;",
+            "solutionSteps": "1. Get the semi-major axis $a=2$ because the ellipse passes through point $A(-2,0)$, and get the semi-minor axis $b=1$ because the ellipse passes through point $B(0,1)$;\\n2. Calculate $c=\\sqrt{4-1}=\\sqrt{3}$ according to the relationship $c^2=a^2-b^2$ among $a,b,c$ in the ellipse;\\n3. Substitute into the eccentricity formula of the ellipse $e=\\frac{c}{a}$ to get $e=\\frac{\\sqrt{3}}{2}$.",
+            "standardAnswer": "$\\frac{\\sqrt{3}}{2}$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points. 1 point each for correctly finding the values of a and b according to the points through which the ellipse passes (2 points in total), 1 point for correctly finding the value of c according to the relationship among $a,b,c$, and 1 point for finding the correct eccentricity by substituting into the eccentricity formula.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Let C be the right vertex of ellipse M, point P is on ellipse M (P does not coincide with the vertices of ellipse M), the line AB intersects the line CP at point Q, the line BP intersects the x-axis at point S. Prove that the line SQ passes through a fixed point.",
+            "solutionSteps": "1. Obtain the equation of ellipse M as $\\frac{x^2}{4}+y^2=1$ from (I), the right vertex $C(2,0)$, and the equation of line AB is $y=\\frac{1}{2}x+1$, that is, $x=2y-2$;\\n2. Let $P(x_0,y_0)(y_0≠0,y_0≠±1)$, $Q(2y_Q-2,y_Q)$, $S(x_S,0)$. Since points C, P, Q are collinear, $\\overrightarrow{CP}//\\overrightarrow{CQ}$, that is, $(x_0-2)y_Q=y_0(2y_Q-4)$, solve to get $y_Q=\\frac{4y_0}{2y_0-x_0+2}$, and then obtain the coordinates of Q as $\\left(\\frac{4y_0+2x_0-4}{2y_0-x_0+2},\\frac{4y_0}{2y_0-x_0+2}\\right)$;\\n3. Since points B, S, P are collinear, get $\\frac{1}{-x_S}=\\frac{y_0-1}{x_0}$ according to the equal slopes, solve to get $x_S=\\frac{x_0}{1-y_0}$, that is, the coordinates of S are $\\left(\\frac{x_0}{1-y_0},0\\right)$;\\n4. Get $x_0^2=4-4y_0^2$ because point P is on the ellipse, write the equation of line SQ by the two-point form, and substitute $x_0^2=4-4y_0^2$ for simplification;\\n5. The simplified equation of line SQ is $x=\\frac{2-2y_0-x_0}{1-y_0}(y-1)+2$, from which it can be known that the line SQ passes through the fixed point $(2,1)$. ",
+            "standardAnswer": "The line SQ passes through the fixed point $(2,1)$, see the proof for details.",
+            "scoringCriteria": "The total score of the second subquestion is 10 points. 2 points for finding the equation of the ellipse and the equation of line AB, 3 points for setting the coordinates of the points and finding the coordinates of Q by using collinear points, 2 points for finding the coordinates of S by using equal slopes, 2 points for simplifying the equation of line SQ combined with the ellipse equation, and 1 point for obtaining the coordinates of the fixed point through which the line passes.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知无穷数列 $\\{a_{n}\\}$，对于 $m \\in N^{*}$，若 $\\{a_{n}\\}$ 同时满足以下三个条件，则称数列 $\\{a_{n}\\}$ 具有性质 $P(m)$。条件①: $a_{n}>0(n=1,2,...)$；条件②:存在常数 $T>0$，使得 $a_{n}\\leq T(n=1,2,...)$；条件③: $a_{n}+a_{n+1}=m a_{n+2}(n=1,2,...)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若 $a_{n}=5+4×(-\\frac{1}{2})^{n}(n=1,2,...)$，且数列 $\\{a_{n}\\}$ 具有性质 $P(m)$，直接写出m的值和一个T的值；",
+            "solutionSteps": "1. 将$a_n$、$a_{n+1}$、$a_{n+2}$代入性质P(m)的条件③：$[5+4×(-\\frac{1}{2})^n]+[5+4×(-\\frac{1}{2})^{n+1}]=m[5+4×(-\\frac{1}{2})^{n+2}]$；\\n2. 化简左边得$10+2×(-\\frac{1}{2})^n$，化简右边得$m[5+(-\\frac{1}{2})^n]$；\\n3. 对比等式两边系数得$m=2$；\\n4. 分析$a_n$的取值范围：$(-\\frac{1}{2})^n\\in(-\\frac{1}{2},\\frac{1}{4}]$，故$a_n<5+4×\\frac{1}{2}=7$，可取T=6（T≥6的正数均可）。",
+            "standardAnswer": "$m=2$，$T=6$（T答案不唯一，T≥6即可）",
+            "scoringCriteria": "第一问总分3分，正确写出m的值得2分，写出一个符合条件的T的值得1分。",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）是否存在具有性质 P (1)的数列 $\\{a_{n}\\}$？若存在，求数列 $\\{a_{n}\\}$ 的通项公式；若不存在，说明理由；",
+            "solutionSteps": "1. 若数列具有性质P(1)，则条件③为$a_n+a_{n+1}=a_{n+2}(n=1,2,...)$；\\n2. 由$a_n>0$得$a_{n+2}=a_n+a_{n+1}>a_{n+1}$，即数列$\\{a_n\\}$从第三项起单调递增；\\n3. 推导得$a_{n+3}>n a_2+a_3$，结合性质P(m)的条件②，存在T>0使$a_n≤T$；\\n4. 当$n>\\frac{T-a_3}{a_2}$时，$a_{n+3}>T$，与条件②矛盾，故不存在该数列。",
+            "standardAnswer": "不存在具有性质P(1)的数列$\\{a_{n}\\}$，理由见解析。",
+            "scoringCriteria": "第二问总分5分，写出性质P(1)对应的递推公式得1分，分析出数列的单调性得1分，推导数列的增长趋势得1分，结合条件②找出矛盾点得1分，得出不存在的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_PROOF_AND_INQUIRY",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）设数列 $\\{a_{n}\\}$ 具有性质 $P(m)$，且各项均为正整数，求数列 $\\{a_{n}\\}$ 的通项公式。",
+            "solutionSteps": "1. 由（Ⅱ）知$m≠1$，分情况讨论：\\n情况1：$m=2$，递推公式为$a_n+a_{n+1}=2a_{n+2}$，变形得$a_{n+2}-a_{n+1}=-\\frac{1}{2}(a_{n+1}-a_n)$，则$|a_{n+2}-a_{n+1}|=\\frac{1}{2^n}|a_2-a_1|$；因数列各项为正整数，故只有$a_2=a_1=c$（c为正整数）时，$a_n=c$恒成立，满足性质P(2)的所有条件；\\n情况2：$m≥3$，令$b_n=max\\{a_n,a_{n+1}\\}$，则$a_{n+2}=\\frac{1}{m}(a_n+a_{n+1})<b_n$，同理$a_{n+3}<b_n$，故$b_{n+2}≤b_n-1$，推得$b_{2n+1}≤b_1-n$；当$n≥b_1$时，$b_{2n+1}≤0$，与$a_n$为正整数矛盾，故$m≥3$不成立；\\n2. 综上，数列$\\{a_n\\}$的通项公式为常数列$a_n=c$（c为正整数）。",
+            "standardAnswer": "$a_n=c$（c为常数，且c为正整数）",
+            "scoringCriteria": "第三问总分6分，排除m=1的情况得1分，分析m=2时的递推公式并结合正整数条件得出常数列结论得2分，构造$b_n$分析m≥3时的矛盾得2分，综合得出唯一的通项公式得1分。",
+            "knowledgePoint": "NEW_DEFINITION_PROOF_AND_INQUIRY",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given an infinite sequence $\\{a_{n}\\}$, for $m \\in N^{*}$, if $\\{a_{n}\\}$ satisfies the following three conditions at the same time, the sequence $\\{a_{n}\\}$ is said to have the property $P(m)$. Condition ①: $a_{n}>0(n=1,2,...)$; Condition ②: There exists a constant $T>0$ such that $a_{n}\\leq T(n=1,2,...)$; Condition ③: $a_{n}+a_{n+1}=m a_{n+2}(n=1,2,...)$.",
+        "subQuestions": [
+          {
+            "question": "(I) If $a_{n}=5+4×(-\\frac{1}{2})^{n}(n=1,2,...)$ and the sequence $\\{a_{n}\\}$ has the property $P(m)$, write the value of m and a value of T directly;",
+            "solutionSteps": "1. Substitute $a_n$, $a_{n+1}$, $a_{n+2}$ into Condition ③ of property P(m): $[5+4×(-\\frac{1}{2})^n]+[5+4×(-\\frac{1}{2})^{n+1}]=m[5+4×(-\\frac{1}{2})^{n+2}]$;\\n2. Simplify the left side to get $10+2×(-\\frac{1}{2})^n$, and simplify the right side to get $m[5+(-\\frac{1}{2})^n]$;\\n3. Get $m=2$ by comparing the coefficients on both sides of the equation;\\n4. Analyze the value range of $a_n$: $(-\\frac{1}{2})^n\\in(-\\frac{1}{2},\\frac{1}{4}]$, so $a_n<5+4×\\frac{1}{2}=7$, and T=6 can be taken (any positive number T≥6 is acceptable).",
+            "standardAnswer": "$m=2$, $T=6$ (The answer of T is not unique, T≥6 is acceptable)",
+            "scoringCriteria": "The total score of the first subquestion is 3 points. 2 points for correctly writing the value of m, and 1 point for writing a value of T that meets the conditions.",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(II) Does there exist a sequence $\\{a_{n}\\}$ with property P(1)? If it exists, find the general term formula of the sequence $\\{a_{n}\\}$; if not, explain the reason;",
+            "solutionSteps": "1. If the sequence has property P(1), then Condition ③ is $a_n+a_{n+1}=a_{n+2}(n=1,2,...)$;\\n2. Get $a_{n+2}=a_n+a_{n+1}>a_{n+1}$ from $a_n>0$, that is, the sequence $\\{a_n\\}$ is monotonically increasing from the third term;\\n3. Deduce that $a_{n+3}>n a_2+a_3$, combined with Condition ② of property P(m), there exists T>0 such that $a_n≤T$;\\n4. When $n>\\frac{T-a_3}{a_2}$, $a_{n+3}>T$, which contradicts Condition ②, so the sequence does not exist.",
+            "standardAnswer": "There is no sequence $\\{a_{n}\\}$ with property P(1), see the analysis for the reason.",
+            "scoringCriteria": "The total score of the second subquestion is 5 points. 1 point for writing the recurrence formula corresponding to property P(1), 1 point for analyzing the monotonicity of the sequence, 1 point for deducing the growth trend of the sequence, 1 point for finding the contradiction combined with Condition ②, and 1 point for drawing the conclusion of non-existence.",
+            "knowledgePoint": "NEW_DEFINITION_PROOF_AND_INQUIRY",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(III) Let the sequence $\\{a_{n}\\}$ have the property $P(m)$ and all terms are positive integers, find the general term formula of the sequence $\\{a_{n}\\}$.",
+            "solutionSteps": "1. It is known from (II) that $m≠1$, discuss by cases: \\nCase 1: $m=2$, the recurrence formula is $a_n+a_{n+1}=2a_{n+2}$, which can be transformed into $a_{n+2}-a_{n+1}=-\\frac{1}{2}(a_{n+1}-a_n)$, then $|a_{n+2}-a_{n+1}|=\\frac{1}{2^n}|a_2-a_1|$; since all terms of the sequence are positive integers, $a_n=c$ holds for all n only when $a_2=a_1=c$ (c is a positive integer), which satisfies all conditions of property P(2);\\nCase 2: $m≥3$, let $b_n=max\\{a_n,a_{n+1}\\}$, then $a_{n+2}=\\frac{1}{m}(a_n+a_{n+1})<b_n$, similarly $a_{n+3}<b_n$, so $b_{n+2}≤b_n-1$, and it is deduced that $b_{2n+1}≤b_1-n$; when $n≥b_1$, $b_{2n+1}≤0$, which contradicts that $a_n$ is a positive integer, so $m≥3$ is not valid;\\n2. In conclusion, the general term formula of the sequence $\\{a_n\\}$ is the constant sequence $a_n=c$ (c is a positive integer).",
+            "standardAnswer": "$a_n=c$ (c is a constant and a positive integer)",
+            "scoringCriteria": "The total score of the third subquestion is 6 points. 1 point for excluding the case of m=1, 2 points for analyzing the recurrence formula when m=2 and drawing the conclusion of the constant sequence combined with the positive integer condition, 2 points for constructing $b_n$ and analyzing the contradiction when m≥3, and 1 point for synthesizing to obtain the unique general term formula.",
+            "knowledgePoint": "NEW_DEFINITION_PROOF_AND_INQUIRY",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

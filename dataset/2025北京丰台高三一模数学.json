@@ -1,0 +1,217 @@
+{
+    "paperTitle": "2025 Beijing Fengtai Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "京广高速铁路是世界上运营里程最长的高速铁路之一，也是中国客运量最大、运输最为繁忙的高速铁路之一。某日从北京西到广州南的部分G字头高铁车次情况如下表：注：以下高铁车次均能准点到达",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）某乘客从上表中随机选取一趟高铁车次从北京西出发到广州南，求这趟列车的运行时长不超过10小时的概率；",
+                        "solutionSteps": "1. 确定总车次数量：表格中有7趟高铁车次；2. 找出运行时长不超过10小时的车次数量：共4趟；3. 根据古典概型概率公式$P(A)=\\frac{符合条件的基本事件数}{基本事件总数}$，代入数据计算得$P=\\frac{4}{7}$。",
+                        "standardAnswer": "$\\frac{4}{7}$",
+                        "scoringCriteria": "第一问，确定总车次数量得1分；找出符合条件的车次数量得1分；正确写出古典概型概率公式得1分；代入数据计算出正确结果得1分，共4分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（II）甲、乙、丙3人分别从上表中随机选取一趟高铁车次从北京西出发到广州南，其中甲必须上午出发，乙必须下午出发，丙的出发时间没有限制，且甲、乙、丙3人的选择互不影响。(i)记随机变量X为甲、乙、丙选取的列车中运行时长不超过10小时的个数，求X的分布列和数学期望；(ii)甲、乙、丙3人中，谁选取的列车运行时长最短的概率最大？(结论不要求证明)",
+                        "solutionSteps": "(i) 1. 分别计算三人选取时长不超过10小时的概率：甲的概率$P_甲=\\frac{2}{4}=\\frac{1}{2}$，乙的概率$P_乙=\\frac{2}{3}$，丙的概率$P_丙=\\frac{4}{7}$；2. 确定X的所有可能取值：0，1，2，3；3. 分别计算各取值的概率：$P(X=0)=\\frac{1}{2}×\\frac{1}{3}×\\frac{3}{7}=\\frac{1}{14}$，$P(X=1)=\\frac{1}{2}×\\frac{1}{3}×\\frac{3}{7}+\\frac{1}{2}×\\frac{2}{3}×\\frac{3}{7}+\\frac{1}{2}×\\frac{1}{3}×\\frac{4}{7}=\\frac{13}{42}$，$P(X=2)=\\frac{1}{2}×\\frac{2}{3}×\\frac{4}{7}+\\frac{1}{2}×\\frac{1}{3}×\\frac{4}{7}+\\frac{1}{2}×\\frac{2}{3}×\\frac{3}{7}=\\frac{3}{7}$，$P(X=3)=\\frac{1}{2}×\\frac{2}{3}×\\frac{4}{7}=\\frac{4}{21}$；4. 列出X的分布列；5. 根据数学期望公式$E(X)=\\sum_{k=0}^3 k·P(X=k)$计算期望：$E(X)=0×\\frac{1}{14}+1×\\frac{13}{42}+2×\\frac{3}{7}+3×\\frac{4}{21}=\\frac{73}{42}$；(ii) 直接得出结论：甲。",
+                        "standardAnswer": "(i) 分布列为：X：0，1，2，3；P：$\\frac{1}{14}$，$\\frac{13}{42}$，$\\frac{3}{7}$，$\\frac{4}{21}$；数学期望为$\\frac{73}{42}$；(ii) 甲",
+                        "scoringCriteria": "第二问，(i)计算出三人各自的概率得3分；确定X的所有可能取值得1分；正确计算出各取值的概率得3分；列出完整分布列得1分；正确计算出数学期望得1分，共9分；(ii)写出正确结论得0分（结论不要求证明），本小问总分9分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "The Beijing-Guangzhou High-Speed Railway is one of the high-speed railways with the longest operating mileage in the world, and also one of the high-speed railways with the largest passenger volume and the busiest transportation in China. The information of some G-head high-speed train trips from Beijing West to Guangzhou South on a certain day is shown in the following table: Note: All the following high-speed train trips arrive on time.",
+                "subQuestions": [
+                    {
+                        "question": "(I) A passenger randomly selects a high-speed train trip from Beijing West to Guangzhou South from the above table, find the probability that the running time of this train does not exceed 10 hours;",
+                        "solutionSteps": "1. Determine the total number of train trips: there are 7 high-speed train trips in the table; 2. Find the number of train trips whose running time does not exceed 10 hours: 4 trips in total; 3. According to the probability formula of classical probability model $P(A)=\\frac{Number of basic events meeting the conditions}{Total number of basic events}$, substitute the data to calculate and get $P=\\frac{4}{7}$.",
+                        "standardAnswer": "$\\frac{4}{7}$",
+                        "scoringCriteria": "Question (I), 1 point for determining the total number of train trips; 1 point for finding the number of train trips meeting the conditions; 1 point for correctly writing the probability formula of classical probability model; 1 point for substituting data to calculate the correct result, total 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) Three people, A, B and C, randomly select a high-speed train trip from Beijing West to Guangzhou South from the above table respectively, where A must depart in the morning, B must depart in the afternoon, C has no restriction on the departure time, and the choices of A, B and C are independent of each other. (i) Let the random variable X be the number of trains with running time not exceeding 10 hours selected by A, B and C, find the distribution column and mathematical expectation of X; (ii) Among A, B and C, who has the maximum probability of selecting the train with the shortest running time? (No need to prove the conclusion)",
+                        "solutionSteps": "(i) 1. Calculate the probability that each of the three people selects a train with running time not exceeding 10 hours respectively: $P_A=\\frac{2}{4}=\\frac{1}{2}$, $P_B=\\frac{2}{3}$, $P_C=\\frac{4}{7}$; 2. Determine all possible values of X: 0, 1, 2, 3; 3. Calculate the probability of each value respectively: $P(X=0)=\\frac{1}{2}×\\frac{1}{3}×\\frac{3}{7}=\\frac{1}{14}$, $P(X=1)=\\frac{1}{2}×\\frac{1}{3}×\\frac{3}{7}+\\frac{1}{2}×\\frac{2}{3}×\\frac{3}{7}+\\frac{1}{2}×\\frac{1}{3}×\\frac{4}{7}=\\frac{13}{42}$, $P(X=2)=\\frac{1}{2}×\\frac{2}{3}×\\frac{4}{7}+\\frac{1}{2}×\\frac{1}{3}×\\frac{4}{7}+\\frac{1}{2}×\\frac{2}{3}×\\frac{3}{7}=\\frac{3}{7}$, $P(X=3)=\\frac{1}{2}×\\frac{2}{3}×\\frac{4}{7}=\\frac{4}{21}$; 4. List the distribution column of X; 5. Calculate the mathematical expectation according to the formula $E(X)=\\sum_{k=0}^3 k·P(X=k)$: $E(X)=0×\\frac{1}{14}+1×\\frac{13}{42}+2×\\frac{3}{7}+3×\\frac{4}{21}=\\frac{73}{42}$; (ii) Draw the conclusion directly: A.",
+                        "standardAnswer": "(i) The distribution column is: X: 0, 1, 2, 3; P: $\\frac{1}{14}$, $\\frac{13}{42}$, $\\frac{3}{7}$, $\\frac{4}{21}$; The mathematical expectation is $\\frac{73}{42}$; (ii) A",
+                        "scoringCriteria": "Question (II), (i) 3 points for calculating the respective probabilities of the three people; 1 point for determining all possible values of X; 3 points for correctly calculating the probability of each value; 1 point for listing the complete distribution column; 1 point for correctly calculating the mathematical expectation, total 9 points; (ii) 0 points for writing the correct conclusion (no need to prove the conclusion), the total score of this sub-question is 9 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知椭圆E：$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ 以E的两个焦点与短轴的一个端点为顶点的三角形是等腰直角三角形，且面积为1，求椭圆E的方程；",
+                        "solutionSteps": "1. 根据等腰直角三角形的性质得出$b=c$；2. 根据三角形面积公式$\\frac{1}{2}×2bc=1$，结合$b=c$，解得$b=c=1$；3. 根据椭圆中$a^2=b^2+c^2$，计算得$a^2=2$，即$a=\\sqrt{2}$；4. 代入椭圆标准方程得$\\frac{x^2}{2}+y^2=1$。",
+                        "standardAnswer": "$\\frac{x^2}{2}+y^2=1$",
+                        "scoringCriteria": "第一问，由等腰直角三角形性质得出$b=c$得2分；根据面积公式列出方程并解得$b=c=1$得2分；利用椭圆中$a^2=b^2+c^2$计算出$a^2$得1分；写出椭圆的标准方程得1分，共6分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）过点$P(2,0)$的直线与椭圆E交于不同的两点M，N，过M作直线$x=1$的垂线，垂足为Q，求证：直线NQ过定点。",
+                        "solutionSteps": "1. 由题意设直线MP的方程为$y=k(x-2)$，设点$M(x_1,y_1)$，$N(x_2,y_2)(x_1≠x_2)$，则$Q(1,y_1)$；2. 联立椭圆方程与直线方程$\\begin{cases}\\frac{x^2}{2}+y^2=1\\\\y=k(x-2)\\end{cases}$，消元整理得$(1+2k^2)x^2-8k^2x+8k^2-2=0$；3. 由$\\Delta>0$得出$k^2<\\frac{1}{2}$，并根据韦达定理得$x_1+x_2=\\frac{8k^2}{1+2k^2}$，$x_1x_2=\\frac{8k^2-2}{1+2k^2}$；4. 写出直线NQ的点斜式方程$y-y_1=\\frac{y_1-y_2}{1-x_2}(x-1)$；5. 令$y=0$，代入$y_1=k(x_1-2)$，$y_2=k(x_2-2)$化简，当$k≠0$时，计算得$x=\\frac{3}{2}$；6. 验证当$k=0$时，直线NQ为x轴，也过点$(\\frac{3}{2},0)$；7. 综上得出直线NQ过定点$(\\frac{3}{2},0)$。",
+                        "standardAnswer": "直线NQ过定点$(\\frac{3}{2},0)$，证明见解析",
+                        "scoringCriteria": "第二问，设出直线方程和点的坐标得2分；联立方程并正确消元得2分；由$\\Delta>0$得出k的范围并正确运用韦达定理得2分；写出直线NQ的方程得1分；令$y=0$并正确化简计算出定点横坐标得3分；验证k=0的情况并得出最终结论得1分，共9分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "(I) Given the ellipse E: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$, the triangle with the two foci of E and one endpoint of the minor axis as vertices is an isosceles right triangle, and its area is 1, find the equation of the ellipse E;",
+                        "solutionSteps": "1. Obtain $b=c$ according to the properties of the isosceles right triangle; 2. According to the triangle area formula $\\frac{1}{2}×2bc=1$, combined with $b=c$, solve to get $b=c=1$; 3. According to $a^2=b^2+c^2$ in the ellipse, calculate to get $a^2=2$, that is $a=\\sqrt{2}$; 4. Substitute into the standard equation of the ellipse to get $\\frac{x^2}{2}+y^2=1$.",
+                        "standardAnswer": "$\\frac{x^2}{2}+y^2=1$",
+                        "scoringCriteria": "Question (I), 2 points for obtaining $b=c$ from the properties of the isosceles right triangle; 2 points for listing the equation according to the area formula and solving to get $b=c=1$; 1 point for calculating $a^2$ by using $a^2=b^2+c^2$ in the ellipse; 1 point for writing the standard equation of the ellipse, total 6 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) A straight line passing through the point $P(2,0)$ intersects the ellipse E at two distinct points M and N, draw a perpendicular line from M to the straight line $x=1$, and the foot of the perpendicular is Q, prove that the straight line NQ passes through a fixed point.",
+                        "solutionSteps": "1. According to the meaning of the question, set the equation of the straight line MP as $y=k(x-2)$, let the points $M(x_1,y_1)$, $N(x_2,y_2)(x_1≠x_2)$, then $Q(1,y_1)$; 2. Simultaneously solve the ellipse equation and the straight line equation $\\begin{cases}\\frac{x^2}{2}+y^2=1\\\\y=k(x-2)\\end{cases}$, eliminate the variable and sort out to get $(1+2k^2)x^2-8k^2x+8k^2-2=0$; 3. Obtain $k^2<\\frac{1}{2}$ from $\\Delta>0$, and get $x_1+x_2=\\frac{8k^2}{1+2k^2}$, $x_1x_2=\\frac{8k^2-2}{1+2k^2}$ according to Vieta's formulas; 4. Write the point-slope form equation of the straight line NQ: $y-y_1=\\frac{y_1-y_2}{1-x_2}(x-1)$; 5. Let $y=0$, substitute $y_1=k(x_1-2)$, $y_2=k(x_2-2)$ and simplify, when $k≠0$, calculate to get $x=\\frac{3}{2}$; 6. Verify that when $k=0$, the straight line NQ is the x-axis, which also passes through the point $(\\frac{3}{2},0)$; 7. In conclusion, the straight line NQ passes through the fixed point $(\\frac{3}{2},0)$. ",
+                        "standardAnswer": "The straight line NQ passes through the fixed point $(\\frac{3}{2},0)$, see the analysis for the proof",
+                        "scoringCriteria": "Question (II), 2 points for setting the equation of the straight line and the coordinates of the points; 2 points for simultaneously solving the equations and eliminating the variable correctly; 2 points for obtaining the range of k from $\\Delta>0$ and applying Vieta's formulas correctly; 1 point for writing the equation of the straight line NQ; 3 points for letting $y=0$ and simplifying and calculating the abscissa of the fixed point correctly; 1 point for verifying the case of k=0 and drawing the final conclusion, total 9 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数$f(x)=\\ln x-\\frac{a}{x}$，直线l是曲线$y=f(x)$在点$(t,f(t))(t>0)$处的切线。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当$a=0$，$t=e$（e为自然对数的底数）时，求l的方程；",
+                        "solutionSteps": "1. 当$a=0$时，$f(x)=\\ln x$，计算$f(e)=\\ln e=1$；2. 求导得$f'(x)=\\frac{1}{x}$，计算$f'(e)=\\frac{1}{e}$；3. 根据点斜式方程$y-y_0=f'(x_0)(x-x_0)$，代入点$(e,1)$和斜率$\\frac{1}{e}$，化简得切线方程$y=\\frac{1}{e}x$。",
+                        "standardAnswer": "$y=\\frac{1}{e}x$",
+                        "scoringCriteria": "第一问，计算出$f(e)$的值得1分；正确求导并计算出$f'(e)$的值得2分；根据点斜式写出切线方程并化简正确得2分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若存在l经过点$(0,0)$，求实数a的取值范围；",
+                        "solutionSteps": "1. 计算$f(t)=\\ln t-\\frac{a}{t}$，求导得$f'(x)=\\frac{x+a}{x^2}$，则$f'(t)=\\frac{t+a}{t^2}$；2. 写出切线l的方程$y-(\\ln t-\\frac{a}{t})=\\frac{t+a}{t^2}(x-t)$；3. 因为切线过点$(0,0)$，代入方程化简得$t\\ln t=t+2a$；4. 构造函数$g(t)=t\\ln t-t-2a(t>0)$，问题转化为存在$t>0$使$g(t)=0$；5. 求导得$g'(t)=\\ln t$，分析单调性：当$0<t<1$时，$g'(t)<0$，$g(t)$单调递减；当$t>1$时，$g'(t)>0$，$g(t)$单调递增；6. 得出$g(t)$在$t=1$处取得最小值$g(1)=-1-2a$；7. 由存在性知$g(t)_{min}≤0$，即$-1-2a≤0$，解得$a≥-\\frac{1}{2}$；8. 验证当$a≥-\\frac{1}{2}$时，$g(e^{2a+2})>0$，故a的取值范围为$[-\\frac{1}{2},+\\infty)$。",
+                        "standardAnswer": "$[-\\frac{1}{2},+\\infty)$",
+                        "scoringCriteria": "第二问，计算$f(t)$和$f'(t)$并写出切线方程得2分；代入点$(0,0)$化简得到等式得1分；构造函数并转化问题得1分；正确求导并分析函数单调性得2分；求出函数最小值并列出不等式得1分；解不等式并验证得出取值范围得1分，共8分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）当$a=-1$时，设点$A(t,f(t))(t>0)$，$O(0,0)$，B为l与y轴的交点，$S_{\\triangle AOB}$表示$\\triangle AOB$的面积，求$S_{\\triangle AOB}$的最小值。",
+                        "solutionSteps": "1. 当$a=-1$时，$f(x)=\\ln x+\\frac{1}{x}$，求导得$f'(x)=\\frac{x-1}{x^2}$，计算$f(t)=\\ln t+\\frac{1}{t}$，$f'(t)=\\frac{t-1}{t^2}$；2. 写出切线l的方程$y-(\\ln t+\\frac{1}{t})=\\frac{t-1}{t^2}(x-t)$；3. 令$x=0$，求出B点纵坐标$y=\\ln t+\\frac{2-t}{t}$，即$B(0,\\ln t+\\frac{2-t}{t})$；4. 根据三角形面积公式得$S_{\\triangle AOB}=\\frac{1}{2}|t|·|\\ln t+\\frac{2-t}{t}|=\\frac{1}{2}|t\\ln t-t+2|$；5. 由（Ⅱ）知$g(t)=t\\ln t-t+2$在$t=1$处取最小值$g(1)=1>0$，故$|t\\ln t-t+2|=t\\ln t-t+2$；6. 因此$S_{\\triangle AOB}=\\frac{1}{2}(t\\ln t-t+2)$，当$t=1$时，取得最小值$\\frac{1}{2}×1=\\frac{1}{2}$。",
+                        "standardAnswer": "$\\frac{1}{2}$",
+                        "scoringCriteria": "第三问，计算$f(t)$和$f'(t)$并写出切线方程得1分；求出B点坐标得1分；正确写出三角形面积表达式得1分；判断绝对值内式子的符号得1分；求出面积的最小值得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=\\ln x-\\frac{a}{x}$, the straight line l is the tangent line of the curve $y=f(x)$ at the point $(t,f(t))(t>0)$. ",
+                "subQuestions": [
+                    {
+                        "question": "(I) When $a=0$ and $t=e$ (e is the base of the natural logarithm), find the equation of l;",
+                        "solutionSteps": "1. When $a=0$, $f(x)=\\ln x$, calculate $f(e)=\\ln e=1$; 2. Find the derivative: $f'(x)=\\frac{1}{x}$, calculate $f'(e)=\\frac{1}{e}$; 3. According to the point-slope form equation $y-y_0=f'(x_0)(x-x_0)$, substitute the point $(e,1)$ and the slope $\\frac{1}{e}$, simplify to get the tangent line equation $y=\\frac{1}{e}x$.",
+                        "standardAnswer": "$y=\\frac{1}{e}x$",
+                        "scoringCriteria": "Question (I), 1 point for calculating the value of $f(e)$; 2 points for finding the derivative correctly and calculating the value of $f'(e)$; 2 points for writing the tangent line equation according to the point-slope form and simplifying it correctly, total 5 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) If there exists l passing through the point $(0,0)$, find the range of the real number a;",
+                        "solutionSteps": "1. Calculate $f(t)=\\ln t-\\frac{a}{t}$, find the derivative: $f'(x)=\\frac{x+a}{x^2}$, then $f'(t)=\\frac{t+a}{t^2}$; 2. Write the equation of the tangent line l: $y-(\\ln t-\\frac{a}{t})=\\frac{t+a}{t^2}(x-t)$; 3. Since the tangent line passes through the point $(0,0)$, substitute into the equation and simplify to get $t\\ln t=t+2a$; 4. Construct the function $g(t)=t\\ln t-t-2a(t>0)$, the problem is transformed into the existence of $t>0$ such that $g(t)=0$; 5. Find the derivative: $g'(t)=\\ln t$, analyze the monotonicity: when $0<t<1$, $g'(t)<0$, $g(t)$ is monotonically decreasing; when $t>1$, $g'(t)>0$, $g(t)$ is monotonically increasing; 6. Conclude that $g(t)$ attains its minimum value at $t=1$: $g(1)=-1-2a$; 7. From the existence, we have $g(t)_{min}≤0$, that is $-1-2a≤0$, solve to get $a≥-\\frac{1}{2}$; 8. Verify that when $a≥-\\frac{1}{2}$, $g(e^{2a+2})>0$, so the range of a is $[-\\frac{1}{2},+\\infty)$. ",
+                        "standardAnswer": "$[-\\frac{1}{2},+\\infty)$",
+                        "scoringCriteria": "Question (II), 2 points for calculating $f(t)$ and $f'(t)$ and writing the tangent line equation; 1 point for substituting the point $(0,0)$ and simplifying to get the equation; 1 point for constructing the function and transforming the problem; 2 points for finding the derivative correctly and analyzing the monotonicity of the function; 1 point for finding the minimum value of the function and listing the inequality; 1 point for solving the inequality and verifying to get the range of values, total 8 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(III) When $a=-1$, let the point $A(t,f(t))(t>0)$, $O(0,0)$, B be the intersection of l and the y-axis, $S_{\\triangle AOB}$ represents the area of $\\triangle AOB$, find the minimum value of $S_{\\triangle AOB}$. ",
+                        "solutionSteps": "1. When $a=-1$, $f(x)=\\ln x+\\frac{1}{x}$, find the derivative: $f'(x)=\\frac{x-1}{x^2}$, calculate $f(t)=\\ln t+\\frac{1}{t}$, $f'(t)=\\frac{t-1}{t^2}$; 2. Write the equation of the tangent line l: $y-(\\ln t+\\frac{1}{t})=\\frac{t-1}{t^2}(x-t)$; 3. Let $x=0$, find the ordinate of point B: $y=\\ln t+\\frac{2-t}{t}$, that is $B(0,\\ln t+\\frac{2-t}{t})$; 4. According to the triangle area formula, get $S_{\\triangle AOB}=\\frac{1}{2}|t|·|\\ln t+\\frac{2-t}{t}|=\\frac{1}{2}|t\\ln t-t+2|$; 5. From (II), we know that $g(t)=t\\ln t-t+2$ attains its minimum value at $t=1$: $g(1)=1>0$, so $|t\\ln t-t+2|=t\\ln t-t+2$; 6. Therefore, $S_{\\triangle AOB}=\\frac{1}{2}(t\\ln t-t+2)$, when $t=1$, the minimum value $\\frac{1}{2}×1=\\frac{1}{2}$ is attained. ",
+                        "standardAnswer": "$\\frac{1}{2}$",
+                        "scoringCriteria": "Question (III), 1 point for calculating $f(t)$ and $f'(t)$ and writing the tangent line equation; 1 point for finding the coordinates of point B; 1 point for writing the expression of the triangle area correctly; 1 point for judging the sign of the expression inside the absolute value; 1 point for finding the minimum value of the area, total 5 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知无穷递增数列$\\{a_n\\}$各项均为正整数，记数列$\\{a_{a_n}\\}$为数列$\\{a_n\\}$的自身子数列。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若$a_n=2n-1(n\\in N^*)$，写出数列$\\{a_n\\}$的自身子数列的前4项；",
+                        "solutionSteps": "1. 由$a_n=2n-1$，计算自身子数列的项为$a_{a_n}$；2. 计算前4项：$a_{a_1}=a_1=2×1-1=1$，$a_{a_2}=a_3=2×3-1=5$，$a_{a_3}=a_5=2×5-1=9$，$a_{a_4}=a_7=2×7-1=13$。",
+                        "standardAnswer": "1，5，9，13",
+                        "scoringCriteria": "第一问，理解自身子数列的定义得1分；正确计算出前4项中的每一项各1分，共4分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）证明：$a_{k+1}-a_k ≤a_{k+1}-a_{a_k}(k\\in N^*)$；",
+                        "solutionSteps": "1. 由数列$\\{a_n\\}$是无穷递增的正整数列，得$a_{n+1}-a_n≥1$，且$a_{a_k}≤a_k$（递增正整数列性质）；2. 对不等式$a_{a_k}≤a_k$两边同时乘-1，得$-a_{a_k}≥-a_k$；3. 两边同时加上$a_{k+1}$，得$a_{k+1}-a_{a_k}≥a_{k+1}-a_k$，即$a_{k+1}-a_k ≤a_{k+1}-a_{a_k}$，得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问，由数列性质得出$a_{n+1}-a_n≥1$和$a_{a_k}≤a_k$得2分；对不等式进行正确变形得2分；得出最终结论完成证明得1分，共5分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）若数列$\\{a_{a_n}\\}$与$\\{a_{a_n+1}\\}$是公差分别为$d_1$、$d_2$的等差数列。(i)证明：$d_1=d_2$；(ii)当$a_1=1$，$d_1=9$时，求数列$\\{a_n\\}$的通项公式。",
+                        "solutionSteps": "(i) 1. 由等差数列性质得$a_{a_n}=a_{a_1}+(n-1)d_1$，$a_{a_n+1}=a_{a_1+1}+(n-1)d_2$；2. 由数列递增得$a_n<a_n+1≤a_{n+1}$，故$a_{a_n}<a_{a_n+1}≤a_{a_{n+1}}$；3. 代入等差数列通项式得$a_{a_1}+(n-1)d_1 < a_{a_1+1}+(n-1)d_2 ≤ a_{a_1}+nd_1$；4. 对不等式变形，结合对任意正整数k成立，推出$d_2-d_1=0$，即$d_1=d_2$；(ii) 1. 由（Ⅱ）及$d_1=d_2$，推导得出对任意k，$a_{k+1}-a_k=a_{a_{k+1}}-a_{a_k}=d_1$；2. 故数列$\\{a_n\\}$是等差数列，设公差为d，则$a_n=a_1+(n-1)d=1+(n-1)d$；3. 计算$a_{a_n}=1+(a_n-1)d=1+[(1+(n-1)d)-1]d=1+d^2(n-1)$；4. 由$\\{a_{a_n}\\}$的公差$d_1=9$，得$d^2=9$，又数列递增且各项为正整数，故$d=3$；5. 因此通项公式为$a_n=1+3(n-1)=3n-2$。",
+                        "standardAnswer": "(i) 证明见解析；(ii) $a_n=3n-2$",
+                        "scoringCriteria": "第三问，(i)写出两个等差数列的通项公式得2分；由数列递增得出不等关系得1分；代入通项式并变形推导得出$d_1=d_2$得2分，共5分；(ii)推导得出$\\{a_n\\}$为等差数列得1分；设出公差并写出通项得1分；计算$a_{a_n}$的通项得1分；由公差求出d的值得1分；写出最终通项公式得1分，共5分，本问总分10分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given an infinite increasing sequence $\\{a_n\\}$ with all positive integer terms, the sequence $\\{a_{a_n}\\}$ is called the self-subsequence of the sequence $\\{a_n\\}$. ",
+                "subQuestions": [
+                    {
+                        "question": "(I) If $a_n=2n-1(n\\in N^*)$, write the first 4 terms of the self-subsequence of the sequence $\\{a_n\\}$;",
+                        "solutionSteps": "1. From $a_n=2n-1$, the terms of the self-subsequence are $a_{a_n}$; 2. Calculate the first 4 terms: $a_{a_1}=a_1=2×1-1=1$, $a_{a_2}=a_3=2×3-1=5$, $a_{a_3}=a_5=2×5-1=9$, $a_{a_4}=a_7=2×7-1=13$.",
+                        "standardAnswer": "1, 5, 9, 13",
+                        "scoringCriteria": "Question (I), 1 point for understanding the definition of the self-subsequence; 1 point for correctly calculating each of the first 4 terms, total 4 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(II) Prove that: $a_{k+1}-a_k ≤a_{k+1}-a_{a_k}(k\\in N^*)$;",
+                        "solutionSteps": "1. Since the sequence $\\{a_n\\}$ is an infinite increasing positive integer sequence, we have $a_{n+1}-a_n≥1$, and $a_{a_k}≤a_k$ (property of increasing positive integer sequence); 2. Multiply both sides of the inequality $a_{a_k}≤a_k$ by -1, we get $-a_{a_k}≥-a_k$; 3. Add $a_{k+1}$ to both sides, we get $a_{k+1}-a_{a_k}≥a_{k+1}-a_k$, that is $a_{k+1}-a_k ≤a_{k+1}-a_{a_k}$, which completes the proof.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "Question (II), 2 points for obtaining $a_{n+1}-a_n≥1$ and $a_{a_k}≤a_k$ from the properties of the sequence; 2 points for transforming the inequality correctly; 1 point for drawing the final conclusion and completing the proof, total 5 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(III) If the sequences $\\{a_{a_n}\\}$ and $\\{a_{a_n+1}\\}$ are arithmetic sequences with common differences $d_1$ and $d_2$ respectively. (i) Prove that $d_1=d_2$; (ii) When $a_1=1$ and $d_1=9$, find the general term formula of the sequence $\\{a_n\\}$. ",
+                        "solutionSteps": "(i) 1. From the properties of arithmetic sequences, we have $a_{a_n}=a_{a_1}+(n-1)d_1$, $a_{a_n+1}=a_{a_1+1}+(n-1)d_2$; 2. From the increasing property of the sequence, we have $a_n<a_n+1≤a_{n+1}$, so $a_{a_n}<a_{a_n+1}≤a_{a_{n+1}}$; 3. Substitute the general term formulas of the arithmetic sequences to get $a_{a_1}+(n-1)d_1 < a_{a_1+1}+(n-1)d_2 ≤ a_{a_1}+nd_1$; 4. Transform the inequality, and combined with holding for any positive integer k, deduce that $d_2-d_1=0$, that is $d_1=d_2$; (ii) 1. From (II) and $d_1=d_2$, deduce that for any k, $a_{k+1}-a_k=a_{a_{k+1}}-a_{a_k}=d_1$; 2. Therefore, the sequence $\\{a_n\\}$ is an arithmetic sequence, let the common difference be d, then $a_n=a_1+(n-1)d=1+(n-1)d$; 3. Calculate $a_{a_n}=1+(a_n-1)d=1+[(1+(n-1)d)-1]d=1+d^2(n-1)$; 4. Since the common difference of $\\{a_{a_n}\\}$ is $d_1=9$, we get $d^2=9$, and since the sequence is increasing with all positive integer terms, so $d=3$; 5. Therefore, the general term formula is $a_n=1+3(n-1)=3n-2$.",
+                        "standardAnswer": "(i) See the analysis for the proof; (ii) $a_n=3n-2$",
+                        "scoringCriteria": "Question (III), (i) 2 points for writing the general term formulas of the two arithmetic sequences; 1 point for obtaining the inequality relation from the increasing property of the sequence; 2 points for substituting the general term formulas and transforming to deduce $d_1=d_2$, total 5 points; (ii) 1 point for deducing that $\\{a_n\\}$ is an arithmetic sequence; 1 point for setting the common difference and writing the general term; 1 point for calculating the general term of $a_{a_n}$; 1 point for finding the value of d from the common difference; 1 point for writing the final general term formula, total 5 points, the total score of this question is 10 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

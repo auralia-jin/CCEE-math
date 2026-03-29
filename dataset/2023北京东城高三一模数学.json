@@ -1,0 +1,117 @@
+{
+    "paperTitle": "2023 Beijing Dongcheng Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1}=AD=2$。$BD_{1}$ 和 $B_{1}D$ 交于点 E，F 为 $AB$ 的中点。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求证：$EF \\parallel$ 平面 $ADD_{1}A_{1}$；",
+                        "solutionSteps": "1. 连接 $AD_{1}$、$B_{1}D_{1}$、$BD$；2. 由长方体性质，$BB_{1} \\parallel DD_{1}$ 且 $BB_{1}=DD_{1}$，故四边形 $BB_{1}D_{1}D$ 为平行四边形，得 E 为 $BD_{1}$ 中点；3. 在 $\\triangle ABD_{1}$ 中，E、F 分别为 $BD_{1}$、AB 中点，由中位线定理得 $EF \\parallel AD_{1}$；4. 因 $EF \\not\\subset$ 平面 $ADD_{1}A_{1}$，$AD_{1} \\subset$ 平面 $ADD_{1}A_{1}$，由线面平行判定定理得 $EF \\parallel$ 平面 $ADD_{1}A_{1}$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第一问，连接相关辅助线得1分；证明四边形 $BB_{1}D_{1}D$ 为平行四边形并得出E为中点得2分；利用中位线定理证明 $EF \\parallel AD_{1}$ 得2分；结合线面平行判定定理完成证明得1分，共6分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    },
+                    {
+                        "question": "（Ⅱ）再从条件①、条件②这两个条件中选择一个作为已知，求(i)平面 $CEF$ 与平面 $BCE$ 的夹角的余弦值；(ii)点 A 到平面 $CEF$ 的距离。条件①：$CE \\perp B_{1}D$；条件②：$B_{1}D$ 与平面 $BCC_{1}B_{1}$ 所成角为 $\\frac{\\pi}{4}$。",
+                        "solutionSteps": "选条件①/②均得 $CD=2\\sqrt{2}$，步骤如下：1. 建立空间直角坐标系 $D-xyz$，确定各点坐标：$D(0,0,0)$、$A(2,0,0)$、$C(0,2\\sqrt{2},0)$、$B(2,2\\sqrt{2},0)$、$F(2,\\sqrt{2},0)$、$B_{1}(2,2\\sqrt{2},2)$、$E(1,\\sqrt{2},1)$；2. 求向量：$\\overrightarrow{CE}=(1,-\\sqrt{2},1)$、$\\overrightarrow{CF}=(2,-\\sqrt{2},0)$、$\\overrightarrow{CB}=(2,0,0)$；3. 求平面 $CEF$ 法向量 $m$：联立 $m \\cdot \\overrightarrow{CE}=0$、$m \\cdot \\overrightarrow{CF}=0$，令 $x_{1}=1$，得 $m=(1,\\sqrt{2},1)$；4. 求平面 $BCE$ 法向量 $n$：联立 $n \\cdot \\overrightarrow{CE}=0$、$n \\cdot \\overrightarrow{CB}=0$，令 $y_{2}=1$，得 $n=(0,1,\\sqrt{2})$；5. 求平面夹角余弦值：$\\cos\\theta=|\\cos<m,n>|=\\frac{|m \\cdot n|}{|m||n|}=\\frac{\\sqrt{6}}{3}$；6. 求点A到平面 $CEF$ 的距离：取 $\\overrightarrow{AF}=(0,\\sqrt{2},0)$，则 $d=\\frac{|\\overrightarrow{AF} \\cdot m|}{|m|}=1$。",
+                        "standardAnswer": "(i) $\\frac{\\sqrt{6}}{3}$；(ii) 1",
+                        "scoringCriteria": "第二问，确定CD的长度得2分；建立空间直角坐标系并正确写出各点坐标得2分；求出平面CEF和平面BCE的法向量各2分；计算平面夹角余弦值正确得2分；求出点A到平面CEF的距离正确得1分，共9分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数 $f(x)=ax^{2}-x\\ln x$，",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当 $a=0$ 时，求 $f(x)$ 的单调递增区间；",
+                        "solutionSteps": "1. 当 $a=0$ 时，$f(x)=-x\\ln x$，定义域为 $(0,+\\infty)$；2. 求导得 $f'(x)=-\\ln x -1$；3. 令 $f'(x)=0$，解得 $x=\\frac{1}{e}$；4. 分析导数符号：当 $x \\in(0,\\frac{1}{e})$ 时，$f'(x)>0$，函数单调递增；当 $x \\in(\\frac{1}{e},+\\infty)$ 时，$f'(x)<0$，函数单调递减；5. 得出单调递增区间为 $(0,\\frac{1}{e})$。",
+                        "standardAnswer": "$(0, \\frac{1}{e})$",
+                        "scoringCriteria": "第一问，写出函数解析式并确定定义域得1分；正确求导得2分；求解导数为0的点得1分；分析导数符号并得出单调递增区间得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设直线 l 为曲线 $y=f(x)$ 的切线，当 $a \\geq\\frac{e}{2}$ 时，记直线 l 的斜率的最小值为 $g(a)$，求 $g(a)$ 的最小值；",
+                        "solutionSteps": "1. 求导得 $f'(x)=2ax - \\ln x -1$，设 $h(x)=2ax - \\ln x -1$，切线斜率即为 $h(x)$ 的值；2. 求 $h'(x)=2a - \\frac{1}{x}=\\frac{2ax -1}{x}$；3. 令 $h'(x)=0$，解得 $x=\\frac{1}{2a}$；4. 分析 $h(x)$ 单调性：$x \\in(0,\\frac{1}{2a})$ 时，$h'(x)<0$，$h(x)$ 单调递减；$x \\in(\\frac{1}{2a},+\\infty)$ 时，$h'(x)>0$，$h(x)$ 单调递增；5. 得 $h(x)_{\\min}=h(\\frac{1}{2a})=\\ln(2a)$，即 $g(a)=\\ln(2a)$；6. 当 $a \\geq\\frac{e}{2}$ 时，$2a \\geq e$，$\\ln(2a) \\geq1$，故 $g(a)$ 最小值为1。",
+                        "standardAnswer": "1",
+                        "scoringCriteria": "第二问，构造函数 $h(x)$ 并正确求导得2分；求解 $h'(x)=0$ 的点并分析 $h(x)$ 单调性得3分；求出 $h(x)$ 最小值即 $g(a)$ 解析式得3分；分析 $g(a)$ 单调性并求出最小值得3分，共11分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "（Ⅲ）当 $a>0$ 时设 $M=\\{y | y=f'(x), x \\in(\\frac{1}{2a}, \\frac{3}{4a})\\}$，$N=\\{y | y=f'(x), x \\in(\\frac{1}{4a}, \\frac{1}{2a})\\}$，求证：$M \\varsubsetneqq N$。",
+                        "solutionSteps": "1. 由（Ⅱ）知 $f'(x)$ 在 $[\\frac{1}{4a},\\frac{1}{2a}]$ 上单调递减，在 $[\\frac{1}{2a},\\frac{3}{4a}]$ 上单调递增；2. 计算端点值：$f'(\\frac{3}{4a})=\\frac{1}{2}-\\ln\\frac{3}{4a}$，$f'(\\frac{1}{4a})=-\\frac{1}{2}-\\ln\\frac{1}{4a}$，$f'(\\frac{1}{2a})=\\ln(2a)$；3. 确定集合范围：$M=(\\ln(2a),\\frac{1}{2}-\\ln\\frac{3}{4a})$，$N=(\\ln(2a),-\\frac{1}{2}-\\ln\\frac{1}{4a})$；4. 作差比较上界：$(-\\frac{1}{2}-\\ln\\frac{1}{4a})-(\\frac{1}{2}-\\ln\\frac{3}{4a})=\\ln3 -1>0$，故M的上界小于N的上界；5. 结合集合区间得 $M \\varsubsetneqq N$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，明确 $f'(x)$ 的单调区间得1分；正确计算各端点的导数值得2分；确定集合M、N的区间范围得1分；作差比较区间上界并判断符号得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆 $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$，",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆 E 的方程；",
+                        "solutionSteps": "1. 由椭圆一个焦点为 $A(0,1)$ 得 $b=1$，$c=1$；2. 由离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{6}}{3}$，解得 $a=\\sqrt{3}$；3. 验证 $a^2=b^2+c^2$ 成立，代入椭圆标准方程得 $\\frac{x^2}{3}+y^2=1$。",
+                        "standardAnswer": "$\\frac{x^{2}}{3}+y^{2}=1$",
+                        "scoringCriteria": "第一问，由焦点坐标得出b、c的值得2分；结合离心率求出a的值得2分；写出椭圆标准方程得1分，共5分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）过点 $P(-\\sqrt{3}, 1)$ 作斜率为k的直线与椭圆 E 交于不同的两点 B、C，直线 $AB$、$AC$ 分别与 x 轴交于点 M，N。设椭圆的左顶点为 D，求 $\\frac{|MD|}{|MN|}$ 的值。",
+                        "solutionSteps": "1. 设直线BC方程为 $y-1=k(x+\\sqrt{3})$，联立椭圆方程 $\\begin{cases}y-1=k(x+\\sqrt{3})\\\\x^2+3y^2=3\\end{cases}$，消元得 $(3k^2+1)x^2+(6\\sqrt{3}k^2+6k)x+9k^2+6\\sqrt{3}k=0$；2. 由 $\\Delta>0$ 得 $k<0$，设 $B(x_1,y_1)$、$C(x_2,y_2)$，由韦达定理得 $x_1+x_2=-\\frac{6\\sqrt{3}k^2+6k}{3k^2+1}$，$x_1x_2=\\frac{9k^2+6\\sqrt{3}k}{3k^2+1}$；3. 求直线AB方程为 $y=\\frac{y_1-1}{x_1}x+1$，令 $y=0$ 得 $x_M=-\\frac{x_1}{k(x_1+\\sqrt{3})}$，同理得 $x_N=-\\frac{x_2}{k(x_2+\\sqrt{3})}$；4. 计算 $x_M+x_N=-\\frac{1}{k} \\cdot \\frac{2x_1x_2+\\sqrt{3}(x_1+x_2)}{x_1x_2+\\sqrt{3}(x_1+x_2)+3}$，代入韦达定理结果化简得 $x_M+x_N=-2\\sqrt{3}$；5. 椭圆左顶点 $D(-\\sqrt{3},0)$，故D为MN中点，得 $\\frac{|MD|}{|MN|}=\\frac{1}{2}$。",
+                        "standardAnswer": "$\\frac{1}{2}$",
+                        "scoringCriteria": "第二问，设出直线BC方程并与椭圆联立消元得3分；由判别式得出k的范围并正确使用韦达定理得3分；求出M、N的横坐标表达式得2分；化简计算 $x_M+x_N$ 的值得3分；结合D点坐标得出比例值得3分，共14分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知数表 $A_{2n}=\\begin{pmatrix}a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n}\\end{pmatrix}$ 中所有 $a_{ij}(i=1,2;j=1,2,\\cdots,n)$ 互不相同，且满足下列条件：(1) $a_{ij} \\in\\{1,2,\\cdots,2n\\}$；(2) $(-1)^{m+1}(a_{1m}-a_{2m})<0(m=1,2,\\cdots,n)$。则称这样的数表 $A_{2n}$ 具有性质 P。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若数表 $A_{22}$ 具有性质 P，且 $a_{12}=4$，写出所有满足条件的数表 $A_{22}$，并求出 $a_{11}+a_{12}$ 的值；",
+                        "solutionSteps": "1. 由性质P，当m=1时，$(-1)^{1+1}(a_{11}-a_{21})=a_{11}-a_{21}<0$，即 $a_{11}<a_{21}$；当m=2时，$(-1)^{2+1}(a_{12}-a_{22})=-(4-a_{22})<0$，即 $a_{22}<4$；2. 数表元素为1,2,3,4且互不相同，$a_{12}=4$，故 $a_{22} \\in\\{1,2,3\\}$，$a_{11},a_{21}$ 为剩余两个数且 $a_{11}<a_{21}$；3. 枚举得所有数表：$\\begin{pmatrix}1 & 4 \\\\ 2 & 3\\end{pmatrix}$、$\\begin{pmatrix}1 & 4 \\\\ 3 & 2\\end{pmatrix}$、$\\begin{pmatrix}2 & 4 \\\\ 3 & 1\\end{pmatrix}$；4. 计算 $a_{11}+a_{12}$ 分别为5、5、6。",
+                        "standardAnswer": "数表为$\\begin{pmatrix}1 & 4 \\\\ 2 & 3\\end{pmatrix}$、$\\begin{pmatrix}1 & 4 \\\\ 3 & 2\\end{pmatrix}$、$\\begin{pmatrix}2 & 4 \\\\ 3 & 1\\end{pmatrix}$；$a_{11}+a_{12}$ 的值为5、5、6",
+                        "scoringCriteria": "第一问，根据性质P分析出m=1和m=2时的大小关系得2分；正确枚举所有满足条件的数表得2分；计算出 $a_{11}+a_{12}$ 的值得1分，共5分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）对于具有性质 P 的数表 $A_{2n}$，当 $a_{11}+a_{12}+\\cdots+a_{1n}$ 取最大值时，求证：存在正整数 $k(1 ≤k ≤n)$，使得 $a_{1k}=2n$；",
+                        "solutionSteps": "1. 反证法，假设 $a_{2j}=2n$（$1≤j≤n$），由性质P得j为奇数，不妨设 $j=1$，数表为$\\begin{pmatrix}a_{11} & a_{12} & \\cdots & a_{1n} \\\\ 2n & a_{22} & \\cdots & a_{2n}\\end{pmatrix}$；2. 若存在偶数k，使 $a_{1k}>a_{11}$，交换 $a_{1k}$ 和2n的位置，新数表仍具有性质P，且第一行和更大，与原和为最大值矛盾；3. 若所有偶数k的 $a_{1k}<a_{11}$，交换 $a_{11}$ 和 $a_{12}$ 的位置，新数表仍具有性质P，转化为上述矛盾情况；4. 故假设不成立，存在正整数k使得 $a_{1k}=2n$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问，采用反证法假设 $a_{2j}=2n$ 并分析j的奇偶性得2分；分析存在偶数k使 $a_{1k}>a_{11}$ 的矛盾情况得2分；分析所有偶数k的 $a_{1k}<a_{11}$ 的转化情况得2分；得出结论完成证明得4分，共10分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）对于具有性质 P 的数表 $A_{2n}$，当 n 为偶数时，求 $a_{11}+a_{12}+\\cdots+a_{1n}$ 的最大值。",
+                        "solutionSteps": "1. 令n=2k，由性质P得：偶数项满足 $a_{12t}-a_{22t}<0$，故 $(a_{12}-a_{22})+\\cdots+(a_{1,2k}-a_{2,2k})≤(4k-1)+\\cdots+(2k+1)=3k^2$，即偶数项和 $≤$ 第二行偶数项和 $+3k^2$；奇数项满足 $a_{1(2t-1)}-a_{2(2t-1)}<0$，故奇数项和 $≤$ 第二行奇数项和 $-k$；2. 设 $S_1=a_{11}+\\cdots+a_{1,2k}$，$S_2=a_{21}+\\cdots+a_{2,2k}$，则 $S_1≤S_2+3k^2-k$，又 $S_1+S_2=1+2+\\cdots+4k=8k^2+2k$；3. 联立得 $2S_1≤8k^2+2k+3k^2-k=11k^2+k$，即 $S_1≤\\frac{11k^2+k}{2}$；4. 构造满足性质P的数表，验证该上界可取，代入n=2k得 $S_1=\\frac{11n^2+2n}{8}$。",
+                        "standardAnswer": "$\\frac{11n^{2}+2n}{8}$",
+                        "scoringCriteria": "第三问，令n=2k并分析奇偶项的不等式关系得3分；设出 $S_1$、$S_2$ 并得出 $S_1≤S_2+3k^2-k$ 得2分；结合 $S_1+S_2$ 的和联立求出 $S_1$ 的上界得3分；构造数表验证上界可取并转化为n的表达式得2分，共10分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

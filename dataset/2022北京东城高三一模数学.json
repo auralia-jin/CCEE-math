@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2022 Beijing Dongcheng Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "根据Z市2020年人口普查的数据，在该市15岁及以上常住人口中，各种受教育程度人口所占比例(精确到0.01)如下表所示：性别分男、女、合计，受教育程度依次为未上学、小学、初中、高中、大学专科、大学本科、研究生硕士、研究生博士，男性对应比例：0.00、0.03、0.14、0.11、0.07、0.11、0.03、0.01；女性对应比例：0.01、0.04、0.11、0.11、0.08、0.12、0.03、0.00；合计对应比例：0.01、0.07、0.25、0.22、0.15、0.23、0.06、0.01。",
+        "subQuestions": [
+          {
+            "question": "（1）已知Z市15岁及以上常住人口在全市常住人口中所占比例约为85%，从全市常住人口中随机选取1人，试估计该市民年龄为15岁及以上且受教育程度为硕士研究生的概率；",
+            "solutionSteps": "第一步，从表格中提取Z市15岁及以上常住人口中受教育程度为硕士研究生的人口所占比例为0.06；第二步，结合15岁及以上常住人口在全市常住人口中的占比85%，根据概率乘法公式，计算所求概率为85%×0.06；第三步，计算得出结果0.051。",
+            "standardAnswer": "0.051",
+            "scoringCriteria": "正确找到15岁及以上常住人口中硕士研究生的比例0.06得2分；结合85%列出概率乘法计算式得1分；最终结果计算正确0.051得1分，共4分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）从Z市15岁及以上常住人口中随机选取2人，记这2人中受教育程度为大学本科及以上的人数为X，求X的分布列和数学期望；",
+            "solutionSteps": "第一步，计算Z市15岁及以上常住人口中受教育程度为大学本科及以上的比例，即0.23+0.06+0.01=0.3；第二步，确定X的可能取值为0、1、2；第三步，根据二项分布概率公式计算各取值概率：P(X=0)=C_2^0×(0.3)^0×(1-0.3)^2=0.49，P(X=1)=C_2^1×0.3×(1-0.3)=0.42，P(X=2)=C_2^2×(0.3)^2×(1-0.3)^0=0.09；第四步，列出X的分布列；第五步，根据数学期望公式计算E(X)=0×0.49+1×0.42+2×0.09=0.6。",
+            "standardAnswer": "分布列：| X | 0 | 1 | 2 |\\n| P | 0.49 | 0.42 | 0.09 |；数学期望$E(X)=0.6$",
+            "scoringCriteria": "正确计算出大学本科及以上的比例0.3得1分；列出X的所有可能取值0、1、2得1分；正确计算出P(X=0)、P(X=1)、P(X=2)各1分，共3分；正确列出分布列得1分；正确计算数学期望$E(X)=0.6$得1分，共7分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（3）若受教育程度为未上学、小学、初中、高中、大学专科及以上的受教育年限分别记为0年、6年、9年、12年、16年，设Z市15岁及以上男性与女性常住人口的平均受教育年限分别为a年和b年，依据表中的数据直接写出a与b的大小关系.(结论不要求证明)",
+            "solutionSteps": "分析表格中男女各受教育程度的比例分布，男性未上学比例为0，高学历（本科、研究生）比例相对更高，女性低学历比例相对更高，因此男性平均受教育年限高于女性。",
+            "standardAnswer": "$a>b$",
+            "scoringCriteria": "正确写出$a>b$得2分，共2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "According to the data of the 2020 population census in City Z, the proportion of the permanent population aged 15 and above with various educational levels (accurate to 0.01) is shown in the following table: Genders are divided into male, female and total; educational levels are no schooling, primary school, junior high school, senior high school, college, undergraduate, master's degree, doctor's degree in turn. The corresponding proportions for males are: 0.00, 0.03, 0.14, 0.11, 0.07, 0.11, 0.03, 0.01; for females are: 0.01, 0.04, 0.11, 0.11, 0.08, 0.12, 0.03, 0.00; for the total are: 0.01, 0.07, 0.25, 0.22, 0.15, 0.23, 0.06, 0.01.",
+        "subQuestions": [
+          {
+            "question": "(1) It is known that the proportion of the permanent population aged 15 and above in City Z in the total permanent population is about 85%. If one person is randomly selected from the total permanent population of the city, estimate the probability that the citizen is aged 15 and above and has a master's degree as the educational level;",
+            "solutionSteps": "Step 1: Extract from the table that the proportion of the permanent population aged 15 and above in City Z with a master's degree is 0.06; Step 2: Combine the proportion of 85% of the permanent population aged 15 and above in the total permanent population, and calculate the required probability as 85%×0.06 according to the multiplication formula of probability; Step 3: Calculate the result 0.051.",
+            "standardAnswer": "0.051",
+            "scoringCriteria": "2 points for correctly finding the proportion 0.06 of the permanent population aged 15 and above with a master's degree; 1 point for listing the probability multiplication formula with 85%; 1 point for correctly calculating the final result 0.051, total 4 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Select 2 people randomly from the permanent population aged 15 and above in City Z, let X be the number of these 2 people with an educational level of undergraduate or above, find the probability mass function and mathematical expectation of X;",
+            "solutionSteps": "Step 1: Calculate the proportion of the permanent population aged 15 and above in City Z with an educational level of undergraduate or above, that is 0.23+0.06+0.01=0.3; Step 2: Determine the possible values of X are 0, 1, 2; Step 3: Calculate the probability of each value according to the binomial distribution probability formula: P(X=0)=C_2^0×(0.3)^0×(1-0.3)^2=0.49, P(X=1)=C_2^1×0.3×(1-0.3)=0.42, P(X=2)=C_2^2×(0.3)^2×(1-0.3)^0=0.09; Step 4: List the probability mass function of X; Step 5: Calculate E(X)=0×0.49+1×0.42+2×0.09=0.6 according to the mathematical expectation formula.",
+            "standardAnswer": "Probability mass function: | X | 0 | 1 | 2 |\\n| P | 0.49 | 0.42 | 0.09 |; Mathematical expectation $E(X)=0.6$",
+            "scoringCriteria": "1 point for correctly calculating the proportion 0.3 of undergraduate or above; 1 point for listing all possible values 0, 1, 2 of X; 1 point for each correct calculation of P(X=0), P(X=1), P(X=2), total 3 points; 1 point for correctly listing the probability mass function; 1 point for correctly calculating the mathematical expectation $E(X)=0.6$, total 7 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(3) If the years of education for no schooling, primary school, junior high school, senior high school, college and above are recorded as 0, 6, 9, 12, 16 years respectively, let a and b be the average years of education of the male and female permanent population aged 15 and above in City Z respectively, write the size relationship between a and b directly according to the data in the table. (No proof is required for the conclusion)",
+            "solutionSteps": "Analyze the proportional distribution of various educational levels of men and women in the table, the proportion of men with no schooling is 0, the proportion of men with high education (undergraduate, postgraduate) is relatively higher, and the proportion of women with low education is relatively higher, so the average years of education of men is higher than that of women.",
+            "standardAnswer": "$a>b$",
+            "scoringCriteria": "2 points for correctly writing $a>b$, total 2 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\frac{x-a}{x^2-1}$",
+        "subQuestions": [
+          {
+            "question": "（1）若曲线$y=f(x)$在点$(2, f(2))$处的切线斜率为-1，求a的值；",
+            "solutionSteps": "第一步，确定函数$f(x)$的定义域为$\\{x | x \\neq \\pm1\\}$，根据导数的商的运算法则求导：$f'(x)=\\frac{(x-a)'(x^2-1)-(x-a)(x^2-1)'}{(x^2-1)^2}=\\frac{-x^2+2ax-1}{(x^2-1)^2}$；第二步，将$x=2$代入导函数，结合切线斜率为-1，列出方程$f'(2)=\\frac{4a-5}{9}=-1$；第三步，解方程得$4a-5=-9$，即$4a=-4$，最终得$a=-1$。",
+            "standardAnswer": "$a=-1$",
+            "scoringCriteria": "正确求导得出$f'(x)=\\frac{-x^2+2ax-1}{(x^2-1)^2}$得3分；代入$x=2$并结合切线斜率-1列出方程得1分；解方程求出$a=-1$得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）若$f(x)$在$(1,+\\infty)$上有最大值，求a的取值范围。",
+            "solutionSteps": "第一步，令$g(x)=-x^2+2ax-1(x>1)$，则$f'(x)=\\frac{g(x)}{(x^2-1)^2}$，$(x^2-1)^2>0$，故$f(x)$的单调性由$g(x)$的符号决定；第二步，分情况讨论：1.当$a ≤0$时，对任意$x>1$，$g(x)=-x^2+2ax-1<0$恒成立，$f'(x)<0$，$f(x)$在$(1,+\\infty)$上单调递减，无最大值；2.当$0<a ≤1$时，$g(x)$的对称轴为$x=a≤1$，$g(x)$在$(1,+\\infty)$上单调递减，$g(x)<g(1)=2a-2≤0$，$f'(x)<0$，$f(x)$在$(1,+\\infty)$上单调递减，无最大值；3.当$a>1$时，$g(x)=0$的根为$x_1=a-\\sqrt{a^2-1}$，$x_2=a+\\sqrt{a^2-1}$，易知$0<x_1<1<x_2$，当$x∈(1,x_2)$时，$g(x)>0$，$f'(x)>0$，$f(x)$单调递增；当$x∈(x_2,+\\infty)$时，$g(x)<0$，$f'(x)<0$，$f(x)$单调递减，故$f(x)$在$x=x_2$处取得极大值，也是最大值；第三步，综上，a的取值范围为$(1,+\\infty)$。",
+            "standardAnswer": "$(1,+\\infty)$",
+            "scoringCriteria": "构造辅助函数$g(x)=-x^2+2ax-1$得1分；分$a ≤0$、$0<a ≤1$、$a>1$三种情况讨论，每种情况分析$g(x)$的符号及$f(x)$的单调性各2分，共6分；正确得出a的取值范围$(1,+\\infty)$得3分，共10分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=\\frac{x-a}{x^2-1}$",
+        "subQuestions": [
+          {
+            "question": "(1) If the slope of the tangent line of the curve $y=f(x)$ at the point $(2, f(2))$ is -1, find the value of a;",
+            "solutionSteps": "Step 1: Determine the domain of the function $f(x)$ is $\\{x | x \\neq \\pm1\\}$, and find the derivative according to the quotient rule of derivatives: $f'(x)=\\frac{(x-a)'(x^2-1)-(x-a)(x^2-1)'}{(x^2-1)^2}=\\frac{-x^2+2ax-1}{(x^2-1)^2}$; Step 2: Substitute $x=2$ into the derivative function, and list the equation $f'(2)=\\frac{4a-5}{9}=-1$ combined with the tangent slope of -1; Step 3: Solve the equation to get $4a-5=-9$, that is $4a=-4$, and finally get $a=-1$.",
+            "standardAnswer": "$a=-1$",
+            "scoringCriteria": "3 points for correctly finding the derivative $f'(x)=\\frac{-x^2+2ax-1}{(x^2-1)^2}$; 1 point for substituting $x=2$ and listing the equation with the tangent slope -1; 1 point for solving the equation to get $a=-1$, total 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) If $f(x)$ has a maximum value on $(1,+\\infty)$, find the range of values of a.",
+            "solutionSteps": "Step 1: Let $g(x)=-x^2+2ax-1(x>1)$, then $f'(x)=\\frac{g(x)}{(x^2-1)^2}$, and $(x^2-1)^2>0$, so the monotonicity of $f(x)$ is determined by the sign of $g(x)$; Step 2: Discuss by cases: 1. When $a ≤0$, for any $x>1$, $g(x)=-x^2+2ax-1<0$ holds constantly, $f'(x)<0$, $f(x)$ is monotonically decreasing on $(1,+\\infty)$ and has no maximum value; 2. When $0<a ≤1$, the axis of symmetry of $g(x)$ is $x=a≤1$, $g(x)$ is monotonically decreasing on $(1,+\\infty)$, $g(x)<g(1)=2a-2≤0$, $f'(x)<0$, $f(x)$ is monotonically decreasing on $(1,+\\infty)$ and has no maximum value; 3. When $a>1$, the roots of $g(x)=0$ are $x_1=a-\\sqrt{a^2-1}$ and $x_2=a+\\sqrt{a^2-1}$, it is easy to know that $0<x_1<1<x_2$, when $x∈(1,x_2)$, $g(x)>0$, $f'(x)>0$, $f(x)$ is monotonically increasing; when $x∈(x_2,+\\infty)$, $g(x)<0$, $f'(x)<0$, $f(x)$ is monotonically decreasing, so $f(x)$ attains a local maximum at $x=x_2$, which is also the maximum value; Step 3: In conclusion, the range of a is $(1,+\\infty)$.",
+            "standardAnswer": "$(1,+\\infty)$",
+            "scoringCriteria": "1 point for constructing the auxiliary function $g(x)=-x^2+2ax-1$; 2 points for each case of analyzing the sign of $g(x)$ and the monotonicity of $f(x)$ when discussing the three cases of $a ≤0$, $0<a ≤1$ and $a>1$, total 6 points; 3 points for correctly obtaining the range of a as $(1,+\\infty)$, total 10 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆$C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的离心率为$\\frac{\\sqrt{3}}{2}$，焦距为$2\\sqrt{3}$",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆C的方程；",
+            "solutionSteps": "第一步，由椭圆的焦距为$2\\sqrt{3}$，得$2c=2\\sqrt{3}$，解得$c=\\sqrt{3}$；第二步，结合椭圆的离心率$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，代入$c=\\sqrt{3}$，解得$a=2$；第三步，根据椭圆中$a^2=b^2+c^2$，计算$b^2=a^2-c^2=4-3=1$；第四步，写出椭圆C的标准方程为$\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "由焦距求出$c=\\sqrt{3}$得1分；结合离心率求出$a=2$得1分；利用$a^2=b^2+c^2$求出$b^2=1$得1分；写出椭圆标准方程得1分，共4分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）过点$P(4,0)$作斜率为k的直线l与椭圆C交于A，B两点。是否存在常数t，使得直线$x=t$与直线l的交点Q在A，B之间，且总有$\\frac{|PA|}{|PB|}=\\frac{|QA|}{|QB|}$？若存在，求出t的值；若不存在，说明理由。",
+            "solutionSteps": "第一步，设直线l的方程为$y=k(x-4)$，联立椭圆C的方程$\\frac{x^2}{4}+y^2=1$，消去y得$(4k^2+1)x^2-32k^2x+64k^2-4=0$；第二步，由直线与椭圆有两个交点，得判别式$\\Delta=(-32k^2)^2-4(4k^2+1)(64k^2-4)>0$，解得$k^2<\\frac{1}{12}$；第三步，设$A(x_1,y_1)$，$B(x_2,y_2)$，由韦达定理得$x_1+x_2=\\frac{32k^2}{4k^2+1}$，$x_1x_2=\\frac{64k^2-4}{4k^2+1}$；第四步，求直线$x=t$与直线l的交点Q的坐标为$(t,k(t-4))$，由Q在A、B之间，得$(t-x_1)(t-x_2)<0$，故$\\frac{|QA|}{|QB|}=-\\frac{t-x_1}{t-x_2}$，又$\\frac{|PA|}{|PB|}=\\frac{4-x_1}{4-x_2}$；第五步，由$\\frac{|PA|}{|PB|}=\\frac{|QA|}{|QB|}$得$\\frac{4-x_1}{4-x_2}=-\\frac{t-x_1}{t-x_2}$，交叉相乘整理得$2x_1x_2-(t+4)(x_1+x_2)+8t=0$；第六步，将韦达定理的结果代入上式，化简得$8t-8=0$，解得$t=1$；第七步，综上，存在常数$t=1$满足条件。",
+            "standardAnswer": "存在，$t=1$",
+            "scoringCriteria": "设出直线l的方程$y=k(x-4)$得1分；联立椭圆方程并消元整理得$(4k^2+1)x^2-32k^2x+64k^2-4=0$得2分；由$\\Delta>0$求出$k^2<\\frac{1}{12}$得1分；利用韦达定理求出$x_1+x_2$和$x_1x_2$得2分；结合Q的位置转化绝对值比例为代数等式得2分；代入韦达定理结果解方程得2分；得出存在$t=1$的结论得1分，共11分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ with an eccentricity of $\\frac{\\sqrt{3}}{2}$ and a focal length of $2\\sqrt{3}$",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation of the ellipse C;",
+            "solutionSteps": "Step 1: From the focal length of the ellipse being $2\\sqrt{3}$, we get $2c=2\\sqrt{3}$, and solve for $c=\\sqrt{3}$; Step 2: Combine the eccentricity of the ellipse $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$, substitute $c=\\sqrt{3}$, and solve for $a=2$; Step 3: According to $a^2=b^2+c^2$ in the ellipse, calculate $b^2=a^2-c^2=4-3=1$; Step 4: Write the standard equation of the ellipse C as $\\frac{x^2}{4}+y^2=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "1 point for finding $c=\\sqrt{3}$ from the focal length; 1 point for finding $a=2$ combined with the eccentricity; 1 point for finding $b^2=1$ using $a^2=b^2+c^2$; 1 point for writing the standard equation of the ellipse, total 4 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Draw a straight line l with slope k passing through the point $P(4,0)$ which intersects the ellipse C at points A and B. Does there exist a constant t such that the intersection Q of the straight line $x=t$ and the straight line l is between A and B, and $\\frac{|PA|}{|PB|}=\\frac{|QA|}{|QB|}$ always holds? If it exists, find the value of t; if not, explain the reason.",
+            "solutionSteps": "Step 1: Let the equation of the straight line l be $y=k(x-4)$, combine it with the equation of the ellipse C $\\frac{x^2}{4}+y^2=1$, and eliminate y to get $(4k^2+1)x^2-32k^2x+64k^2-4=0$; Step 2: Since the straight line intersects the ellipse at two points, the discriminant $\\Delta=(-32k^2)^2-4(4k^2+1)(64k^2-4)>0$, solve to get $k^2<\\frac{1}{12}$; Step 3: Let $A(x_1,y_1)$ and $B(x_2,y_2)$, get $x_1+x_2=\\frac{32k^2}{4k^2+1}$ and $x_1x_2=\\frac{64k^2-4}{4k^2+1}$ by Vieta's formulas; Step 4: Find the coordinates of the intersection Q of the straight line $x=t$ and the straight line l as $(t,k(t-4))$, since Q is between A and B, we have $(t-x_1)(t-x_2)<0$, so $\\frac{|QA|}{|QB|}=-\\frac{t-x_1}{t-x_2}$, and $\\frac{|PA|}{|PB|}=\\frac{4-x_1}{4-x_2}$; Step 5: From $\\frac{|PA|}{|PB|}=\\frac{|QA|}{|QB|}$, we get $\\frac{4-x_1}{4-x_2}=-\\frac{t-x_1}{t-x_2}$, cross-multiply and arrange to get $2x_1x_2-(t+4)(x_1+x_2)+8t=0$; Step 6: Substitute the results of Vieta's formulas into the above formula, simplify to get $8t-8=0$, and solve for $t=1$; Step 7: In conclusion, there exists a constant $t=1$ that satisfies the conditions.",
+            "standardAnswer": "Exists, $t=1$",
+            "scoringCriteria": "1 point for setting the equation of the straight line l as $y=k(x-4)$; 2 points for combining the ellipse equation and eliminating y to get $(4k^2+1)x^2-32k^2x+64k^2-4=0$; 1 point for finding $k^2<\\frac{1}{12}$ from $\\Delta>0$; 2 points for finding $x_1+x_2$ and $x_1x_2$ using Vieta's formulas; 2 points for transforming the absolute value ratio into an algebraic equation combined with the position of Q; 2 points for substituting the results of Vieta's formulas and solving the equation; 1 point for drawing the conclusion that $t=1$ exists, total 11 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设数列$A: a_1,a_2,\\cdots,a_n(n ≥2)$。如果$a_i \\in\\{1,2,\\cdots, n\\}(i=1,2,\\cdots, n)$，且当$i ≠j$时，$a_i ≠a_j(1 ≤i, j ≤n)$，则称数列A具有性质P。对于具有性质P的数列A，定义数列$T(A): t_1,t_2,\\cdots,t_{n-1}$，其中$t_k=\\begin{cases}1, a_k<a_{k+1}, \\\\ 0, a_k>a_{k+1}\\end{cases}(k=1,2,\\cdots, n-1)。$",
+        "subQuestions": [
+          {
+            "question": "（1）对$T(A)$:0,1,1，写出所有具有性质P的数列A；",
+            "solutionSteps": "第一步，由$T(A)$的项数为3，得$n-1=3$，解得$n=4$；第二步，根据$T(A)$的定义，$t_1=0$得$a_1>a_2$，$t_2=1$得$a_2<a_3$，$t_3=1$得$a_3<a_4$；第三步，由数列A具有性质P，$a_i\\in\\{1,2,3,4\\}$且互不相等，结合$a_1>a_2<a_3<a_4$，确定$a_2=1$；第四步，分情况写出所有符合条件的数列：当$a_1=4$时，$a_3=2$，$a_4=3$，数列为4,1,2,3；当$a_4=4$时，$a_1=3$、$a_3=2$时数列为3,1,2,4，$a_1=2$、$a_3=3$时数列为2,1,3,4。",
+            "standardAnswer": "4,1,2,3、3,1,2,4、2,1,3,4",
+            "scoringCriteria": "由$T(A)$的项数求出$n=4$得1分；根据$t_k$的定义得出$a_1>a_2$、$a_2<a_3$、$a_3<a_4$的关系得1分；确定$a_2=1$得1分；写出所有符合条件的数列得1分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）对数列$E: e_1,e_2,\\cdots,e_{n-1}(n ≥2)$，其中$e_i \\in\\{0,1\\}(i=1,2,\\cdots, n-1)$，证明：存在具有性质P的数列A，使得$T(A)$与E为同一个数列；",
+            "solutionSteps": "第一步，设数列E中有$s$项为1，分三种情况构造数列A：1.当$s=0$时，E的所有项均为0，构造数列A为$n,n-1,\\cdots,1$，该数列具有性质P，且$T(A)$的所有项均为0，与E一致；2.当$s=n-1$时，E的所有项均为1，构造数列A为$1,2,\\cdots,n$，该数列具有性质P，且$T(A)$的所有项均为1，与E一致；3.当$0<s<n-1$时，设$s$个1的位置为$k_1,k_2,\\cdots,k_s(k_1<k_2<\\cdots<k_s)$，令$a_{k_1+1},a_{k_2+1},\\cdots,a_{k_s+1}$依次为$n-s+1,n-s+2,\\cdots,n$，数列A的其余项依次为$n-s,n-s-1,\\cdots,1$，该数列的项均属于$\\{1,2,\\cdots,n\\}$且互不相等，具有性质P，且$T(A)$与E一致；第二步，综上，对任意满足条件的数列E，均存在具有性质P的数列A使得$T(A)=E$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "按$s=0$、$s=n-1$、$0<s<n-1$三种情况分类讨论得2分；每种情况构造出符合性质P的数列A各1分，共3分；总计5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）对具有性质P的数列A，若$|a_1-a_n|=1(n ≥5)$且数列$T(A)$满足$t_i= \\begin{cases}0, i 为奇数, \\\\ 1, i 为偶数\\end{cases}(i=1,2,\\cdots, n-1)$，证明：这样的数列A有偶数个。",
+            "solutionSteps": "第一步，分$n$为奇数和$n$为偶数两种情况讨论：1.当$n$为奇数时，对任意一个符合条件的数列$A: a_1,a_2,\\cdots,a_n$，构造数列$A': a_n,a_{n-1},\\cdots,a_1$，验证$A'$具有性质P，且$|a_n'-a_1'|=|a_1-a_n|=1$，$T(A')$满足题设的$t_i$取值规则，同时$A≠A'$，即所有符合条件的数列可两两配对，数量为偶数；2.当$n$为偶数时，再分两种情况：(1)若$n$和$n-1$在数列A中不相邻，交换$n$和$n-1$得到数列$A'$，$A'$符合条件且$A≠A'$，两两配对；(2)若$n$和$n-1$在数列A中相邻，由$T(A)$的规则得$a_{n-1}=n$，$a_n=n-1$，进而得$a_1=n-2$，除去这三项，$a_2,a_3,\\cdots,a_{n-2}$是$n-3$项的符合条件数列，由$n$为奇数的结论知该部分数列数量为偶数；第二步，综上，无论$n$为奇数还是偶数，符合条件的数列A的个数均为偶数。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "分$n$为奇数、$n$为偶数两种情况讨论得2分；$n$为奇数时构造配对数列$A'$并验证其符合所有条件得2分；$n$为偶数时分情况分析并结合奇数的结论完成证明得2分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the sequence $A: a_1,a_2,\\cdots,a_n(n ≥2)$. If $a_i \\in\\{1,2,\\cdots, n\\}(i=1,2,\\cdots, n)$, and $a_i ≠a_j$ when $i ≠j(1 ≤i, j ≤n)$, then the sequence A is said to have property P. For the sequence A with property P, define the sequence $T(A): t_1,t_2,\\cdots,t_{n-1}$, where $t_k=\\begin{cases}1, a_k<a_{k+1}, \\\\ 0, a_k>a_{k+1}\\end{cases}(k=1,2,\\cdots, n-1)。$",
+        "subQuestions": [
+          {
+            "question": "(1) For $T(A)$: 0,1,1, write all sequences A with property P;",
+            "solutionSteps": "Step 1: From the number of terms of $T(A)$ being 3, we get $n-1=3$ and solve for $n=4$; Step 2: According to the definition of $T(A)$, $t_1=0$ implies $a_1>a_2$, $t_2=1$ implies $a_2<a_3$, $t_3=1$ implies $a_3<a_4$; Step 3: Since sequence A has property P, $a_i\\in\\{1,2,3,4\\}$ and all terms are distinct, combined with $a_1>a_2<a_3<a_4$, we determine $a_2=1$; Step 4: Write all eligible sequences by cases: when $a_1=4$, $a_3=2$, $a_4=3$, the sequence is 4,1,2,3; when $a_4=4$, the sequence is 3,1,2,4 when $a_1=3$ and $a_3=2$, and 2,1,3,4 when $a_1=2$ and $a_3=3$.",
+            "standardAnswer": "4,1,2,3, 3,1,2,4, 2,1,3,4",
+            "scoringCriteria": "1 point for finding $n=4$ from the number of terms of $T(A)$; 1 point for deriving the relations $a_1>a_2$, $a_2<a_3$, $a_3<a_4$ according to the definition of $t_k$; 1 point for determining $a_2=1$; 1 point for writing all eligible sequences, total 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) For the sequence $E: e_1,e_2,\\cdots,e_{n-1}(n ≥2)$ where $e_i \\in\\{0,1\\}(i=1,2,\\cdots, n-1)$, prove that there exists a sequence A with property P such that $T(A)$ is the same as E;",
+            "solutionSteps": "Step 1: Let there be $s$ terms of 1 in sequence E, and construct sequence A in three cases: 1. When $s=0$, all terms of E are 0, construct sequence A as $n,n-1,\\cdots,1$, which has property P, and all terms of $T(A)$ are 0, consistent with E; 2. When $s=n-1$, all terms of E are 1, construct sequence A as $1,2,\\cdots,n$, which has property P, and all terms of $T(A)$ are 1, consistent with E; 3. When $0<s<n-1$, let the positions of the $s$ terms of 1 be $k_1,k_2,\\cdots,k_s(k_1<k_2<\\cdots<k_s)$, let $a_{k_1+1},a_{k_2+1},\\cdots,a_{k_s+1}$ be $n-s+1,n-s+2,\\cdots,n$ in turn, and the remaining terms of sequence A be $n-s,n-s-1,\\cdots,1$ in turn. The terms of this sequence all belong to $\\{1,2,\\cdots,n\\}$ and are distinct, so it has property P, and $T(A)$ is consistent with E; Step 2: In conclusion, for any eligible sequence E, there exists a sequence A with property P such that $T(A)=E$.",
+            "standardAnswer": "Proof see analysis",
+            "scoringCriteria": "2 points for classifying and discussing according to the three cases of $s=0$, $s=n-1$ and $0<s<n-1$; 1 point for constructing a sequence A with property P in each case, total 3 points; total 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) For the sequence A with property P, if $|a_1-a_n|=1(n ≥5)$ and the sequence $T(A)$ satisfies $t_i= \\begin{cases}0, i is odd, \\\\ 1, i is even\\end{cases}(i=1,2,\\cdots, n-1)$, prove that the number of such sequences A is even.",
+            "solutionSteps": "Step 1: Discuss in two cases where $n$ is odd and $n$ is even: 1. When $n$ is odd, for any eligible sequence $A: a_1,a_2,\\cdots,a_n$, construct the sequence $A': a_n,a_{n-1},\\cdots,a_1$, verify that $A'$ has property P, and $|a_n'-a_1'|=|a_1-a_n|=1$, $T(A')$ satisfies the given rule of $t_i$, and $A≠A'$ at the same time, that is, all eligible sequences can be paired two by two, so the number is even; 2. When $n$ is even, discuss in two subcases: (1) If $n$ and $n-1$ are not adjacent in sequence A, exchange $n$ and $n-1$ to get the sequence $A'$, which is eligible and $A≠A'$, paired two by two; (2) If $n$ and $n-1$ are adjacent in sequence A, from the rule of $T(A)$, we get $a_{n-1}=n$, $a_n=n-1$, and then $a_1=n-2$. Except for these three terms, $a_2,a_3,\\cdots,a_{n-2}$ is an eligible sequence with $n-3$ terms, and the number of such sequences is even according to the conclusion when $n$ is odd; Step 2: In conclusion, the number of eligible sequences A is even whether $n$ is odd or even.",
+            "standardAnswer": "Proof see analysis",
+            "scoringCriteria": "2 points for discussing in two cases where $n$ is odd and $n$ is even; 2 points for constructing the paired sequence $A'$ and verifying that it meets all conditions when $n$ is odd; 2 points for analyzing by cases and completing the proof combined with the conclusion of odd $n$ when $n$ is even, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "paperTitle": "2022 Beijing Dongcheng Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "平面PAC⊥平面ABC，AB⊥BC，AB=BC，D、O分别为PA、AC的中点，AC=8，PA=PC=5。",
+        "subQuestions": [
+          {
+            "question": "（1）设平面PBC∩平面BOD=l，判断直线l与PC的位置关系，并证明；",
+            "solutionSteps": "1. 由D、O分别为PA、AC的中点，根据三角形中位线定理，在△APC中可得DO∥PC；\n2. 因为DO⊂平面BOD，PC⊄平面BOD，根据线面平行的判定定理，可得PC∥平面BOD；\n3. 又因为PC⊂平面PBC，平面PBC∩平面BOD=l，根据线面平行的性质定理，可得PC∥l。",
+            "standardAnswer": "l∥PC，证明见解析",
+            "scoringCriteria": "正确利用三角形中位线定理证明DO∥PC得2分；根据线面平行判定定理证明PC∥平面BOD得2分；由线面平行性质定理得出l∥PC得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          },
+          {
+            "question": "（2）求直线PB与平面BOD所成角的正弦值。",
+            "solutionSteps": "1. 由AB=BC，O是AC中点，得BO⊥AC，结合平面PAC⊥平面ABC，平面PAC∩平面ABC=AC，BO⊂平面ABC，得BO⊥平面APC；由PA=PC，O是AC中点，得PO⊥AC，故OB、OC、OP三线两两垂直；\n2. 以O为原点，OB、OC、OP分别为x、y、z轴建立空间直角坐标系，由AC=8，AB=BC=4√2，PA=PC=5，得OA=OC=OB=4，OP=3，写出各点坐标：A(0,-4,0)，B(4,0,0)，P(0,0,3)，D(0,-2,3/2)；\n3. 求出向量\\(\\overrightarrow{BP}=(-4,0,3)\\)，\\(\\overrightarrow{OB}=(4,0,0)\\)，\\(\\overrightarrow{OD}=(0,-2,3/2)\\)，设平面BOD的法向量为\\(\\vec{m}=(x,y,z)\\)，由\\(\\vec{m}·\\overrightarrow{OB}=0\\)和\\(\\vec{m}·\\overrightarrow{OD}=0\\)得4x=0，-2y+(3/2)z=0，取z=4得y=3，即\\(\\vec{m}=(0,3,4)\\)；\n4. 计算法向量\\(\\vec{m}\\)与向量\\(\\overrightarrow{BP}\\)的夹角余弦值：\\(cos<\\vec{m},\\overrightarrow{BP}> = \\frac{\\vec{m}·\\overrightarrow{BP}}{|\\vec{m}||\\overrightarrow{BP}|} = \\frac{12}{5×5} = \\frac{12}{25}\\)，该值即为直线PB与平面BOD所成角的正弦值。",
+            "standardAnswer": "$\\\\frac{12}{25}$",
+            "scoringCriteria": "证明OB、OC、OP三线两两垂直并建立空间直角坐标系得2分；正确写出各点坐标及相关向量得2分；求出平面BOD的法向量得2分；利用向量夹角公式计算出余弦值并转化为线面角的正弦值得2分，共8分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Plane PAC is perpendicular to plane ABC, AB is perpendicular to BC, AB=BC, D and O are the midpoints of PA and AC respectively, AC=8, PA=PC=5.",
+        "subQuestions": [
+          {
+            "question": "(1) Let the intersection of plane PBC and plane BOD be l, judge the positional relationship between line l and PC, and prove it;",
+            "solutionSteps": "1. Since D and O are the midpoints of PA and AC respectively, according to the triangle midline theorem, DO∥PC can be obtained in △APC;\n2. Because DO⊂plane BOD and PC⊄plane BOD, according to the determination theorem of line-plane parallelism, PC∥plane BOD can be obtained;\n3. Also, because PC⊂plane PBC and the intersection of plane PBC and plane BOD is l, according to the property theorem of line-plane parallelism, PC∥l can be obtained.",
+            "standardAnswer": "l∥PC, see the analysis for proof",
+            "scoringCriteria": "2 points for proving DO∥PC correctly by the triangle midline theorem; 2 points for proving PC∥plane BOD by the determination theorem of line-plane parallelism; 1 point for concluding l∥PC by the property theorem of line-plane parallelism, total 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          },
+          {
+            "question": "(2) Find the sine value of the angle formed by line PB and plane BOD.",
+            "solutionSteps": "1. Since AB=BC and O is the midpoint of AC, BO⊥AC is obtained. Combined with plane PAC⊥plane ABC, the intersection of plane PAC and plane ABC is AC, and BO⊂plane ABC, BO⊥plane APC is obtained; since PA=PC and O is the midpoint of AC, PO⊥AC is obtained, so OB, OC and OP are perpendicular to each other pairwise;\n2. Establish a space rectangular coordinate system with O as the origin, OB, OC and OP as the x, y and z axes respectively. From AC=8, AB=BC=4√2, PA=PC=5, we get OA=OC=OB=4, OP=3, and write the coordinates of each point: A(0,-4,0), B(4,0,0), P(0,0,3), D(0,-2,3/2);\n3. Find the vectors $\\overrightarrow{BP}=(-4,0,3)$, $\\overrightarrow{OB}=(4,0,0)$, $\\overrightarrow{OD}=(0,-2,3/2)$. Let the normal vector of plane BOD be $\\vec{m}=(x,y,z)$. From $\\vec{m}·\\overrightarrow{OB}=0$ and $\\vec{m}·\\overrightarrow{OD}=0$, we get 4x=0, -2y+(3/2)z=0. Take z=4, then y=3, that is $\\vec{m}=(0,3,4)$;\n4. Calculate the cosine value of the included angle between the normal vector $\\vec{m}$ and the vector $\\overrightarrow{BP}$: $cos<\\vec{m},\\overrightarrow{BP}> = \\frac{\\vec{m}·\\overrightarrow{BP}}{|\\vec{m}||\\overrightarrow{BP}|} = \\frac{12}{5×5} = \\frac{12}{25}$, which is the sine value of the angle formed by line PB and plane BOD.",
+            "standardAnswer": "$\\\\frac{12}{25}$",
+            "scoringCriteria": "2 points for proving that OB, OC and OP are perpendicular to each other pairwise and establishing a space rectangular coordinate system; 2 points for writing the coordinates of each point and related vectors correctly; 2 points for finding the normal vector of plane BOD; 2 points for calculating the cosine value by the vector included angle formula and converting it into the sine value of the line-plane angle, total 8 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数$f(x)=x+\\\\frac{2a^2}{x}+a\\\\ln x(a\\\\in R)$",
+        "subQuestions": [
+          {
+            "question": "（1）当a=1时，求曲线y=f(x)在点(1,f(1))处的切线方程；",
+            "solutionSteps": "1. 当a=1时，代入函数得$f(x)=x+\\\\frac{2}{x}+\\\\ln x(x>0)$；\n2. 对f(x)求导，得$f'(x)=1-\\\\frac{2}{x^2}+\\\\frac{1}{x}$；\n3. 计算f(1)和f'(1)，$f(1)=1+2+0=3$，$f'(1)=1-2+1=0$；\n4. 根据导数的几何意义，切线斜率为0，过点(1,3)，故切线方程为y=3。",
+            "standardAnswer": "y=3",
+            "scoringCriteria": "代入a=1求出函数解析式得1分；正确求导得出f'(x)得2分；计算出f(1)和f'(1)的值得1分；写出切线方程得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）当x∈[e,+∞)时，曲线y=f(x)在x轴的上方，求实数a的取值范围。",
+            "solutionSteps": "1. 曲线y=f(x)在x轴上方即$f(x)>0$在x∈[e,+∞)上恒成立；\n2. 当a≥0时，x∈[e,+∞)，$x>0$，$\\\\frac{2a^2}{x}≥0$，$a\\\\ln x≥0$，故$f(x)>0$，满足题意；\n3. 当a<0时，对f(x)求导得$f'(x)=1-\\\\frac{2a^2}{x^2}+\\\\frac{a}{x}=\\\\frac{(x-a)(x+2a)}{x^2}$，令f'(x)=0，得x=a（舍去，因a<0）或x=-2a；\n4. 当-2a≤e即$-\\\\frac{e}{2}≤a<0$时，f(x)在[e,+∞)上单调递增，$f(x)≥f(e)=e+\\\\frac{2a^2}{e}+a=\\\\frac{2}{e}(a+\\\\frac{e}{4})^2+\\\\frac{7}{8}e>0$，满足题意；\n5. 当-2a>e即$a<-\\\\frac{e}{2}$时，f(x)在[e,-2a)上单调递减，在(-2a,+∞)上单调递增，$f(x)_{min}=f(-2a)=-3a+a\\\\ln(-2a)$，令$f(-2a)>0$，解得$a>-\\\\frac{e^3}{2}$；\n6. 综合以上情况，实数a的取值范围为$(-\\\\frac{e^3}{2},+∞)$。",
+            "standardAnswer": "$(-\\\\frac{e^3}{2},+∞)$",
+            "scoringCriteria": "判断a≥0时f(x)>0恒成立得2分；对a<0正确求导并求出极值点x=-2a得2分；分-2a≤e和-2a>e两种情况讨论函数单调性得3分；对-2a>e时求解f(-2a)>0的不等式得2分；综合所有情况得出a的取值范围得1分，共10分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=x+\\\\frac{2a^2}{x}+a\\\\ln x(a\\\\in R)$",
+        "subQuestions": [
+          {
+            "question": "(1) When a=1, find the tangent equation of the curve y=f(x) at the point (1,f(1));",
+            "solutionSteps": "1. When a=1, substitute into the function to get $f(x)=x+\\\\frac{2}{x}+\\\\ln x(x>0)$;\n2. Derivate f(x) to get $f'(x)=1-\\\\frac{2}{x^2}+\\\\frac{1}{x}$;\n3. Calculate f(1) and f'(1), $f(1)=1+2+0=3$, $f'(1)=1-2+1=0$;\n4. According to the geometric meaning of the derivative, the slope of the tangent is 0 and it passes through the point (1,3), so the tangent equation is y=3.",
+            "standardAnswer": "y=3",
+            "scoringCriteria": "1 point for finding the function analytic formula by substituting a=1; 2 points for deriving f'(x) correctly; 1 point for calculating the values of f(1) and f'(1); 1 point for writing the tangent equation, total 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) When x∈[e,+∞), the curve y=f(x) is above the x-axis, find the range of the real number a.",
+            "solutionSteps": "1. The curve y=f(x) is above the x-axis means $f(x)>0$ holds for all x∈[e,+∞);\n2. When a≥0, x∈[e,+∞), $x>0$, $\\\\frac{2a^2}{x}≥0$, $a\\\\ln x≥0$, so $f(x)>0$, which satisfies the condition;\n3. When a<0, derivate f(x) to get $f'(x)=1-\\\\frac{2a^2}{x^2}+\\\\frac{a}{x}=\\\\frac{(x-a)(x+2a)}{x^2}$. Let f'(x)=0, we get x=a (discarded because a<0) or x=-2a;\n4. When -2a≤e, that is $-\\\\frac{e}{2}≤a<0$, f(x) is monotonically increasing on [e,+∞), $f(x)≥f(e)=e+\\\\frac{2a^2}{e}+a=\\\\frac{2}{e}(a+\\\\frac{e}{4})^2+\\\\frac{7}{8}e>0$, which satisfies the condition;\n5. When -2a>e, that is $a<-\\\\frac{e}{2}$, f(x) is monotonically decreasing on [e,-2a) and monotonically increasing on (-2a,+∞), $f(x)_{min}=f(-2a)=-3a+a\\\\ln(-2a)$. Let $f(-2a)>0$, solve to get $a>-\\\\frac{e^3}{2}$;\n6. Combining the above cases, the range of the real number a is $(-\\\\frac{e^3}{2},+∞)$.",
+            "standardAnswer": "$(-\\\\frac{e^3}{2},+∞)$",
+            "scoringCriteria": "2 points for judging that f(x)>0 holds for all x when a≥0; 2 points for deriving correctly and finding the extreme point x=-2a when a<0; 3 points for discussing the monotonicity of the function in two cases: -2a≤e and -2a>e; 2 points for solving the inequality f(-2a)>0 when -2a>e; 1 point for concluding the range of a by combining all cases, total 10 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆E：$\\\\frac{x^2}{a^2}+\\\\frac{y^2}{b^2}=1(a>b>0)$的右顶点为A(2,0)，离心率为$\\\\frac{1}{2}$。过点P(6,0)与x轴不重合的直线l交椭圆E于不同的两点B，C，直线AB，AC分别交直线x=6于点M，N。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆E的方程；",
+            "solutionSteps": "1. 由椭圆右顶点为A(2,0)，得a=2；\n2. 由离心率$e=\\\\frac{c}{a}=\\\\frac{1}{2}$，代入a=2得c=1；\n3. 根据椭圆中a²=b²+c²，得$b²=a²-c²=4-1=3$；\n4. 代入椭圆标准方程，得椭圆E的方程为$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "由右顶点得出a=2得1分；由离心率求出c=1得2分；利用a²=b²+c²计算出b²=3得1分；写出椭圆E的标准方程得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）设O为原点，求证：∠PAN+∠POM=90°。",
+            "solutionSteps": "1. 要证∠PAN+∠POM=90°，只需证∠PAN=90°-∠POM，即证$tan∠PAN=\\\\frac{1}{tan∠POM}$，进一步转化为证$k_{AN}·k_{OM}=1$；\n2. 设直线l的方程为y=k(x-6)(k≠0)，联立椭圆方程$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$，消去y整理得$(3+4k²)x²-48k²x+144k²-12=0$；\n3. 设B(x₁,y₁)，C(x₂,y₂)，由韦达定理得$x₁+x₂=\\\\frac{48k²}{3+4k²}$，$x₁x₂=\\\\frac{144k²-12}{3+4k²}$；\n4. 由A、B、M三点共线，$\\\\frac{m}{6-2}=\\\\frac{y₁}{x₁-2}$，得$m=\\\\frac{4y₁}{x₁-2}$，同理由A、C、N三点共线得$n=\\\\frac{4y₂}{x₂-2}$；\n5. 计算mn，$mn=\\\\frac{16k²(x₁-6)(x₂-6)}{(x₁-2)(x₂-2)}$，展开分子分母并代入韦达定理计算，得mn=24；\n6. 由$k_{AN}=\\\\frac{n}{6-2}=\\\\frac{n}{4}$，$k_{OM}=\\\\frac{m}{6}$，得$k_{AN}·k_{OM}=\\\\frac{mn}{24}=1$，故原结论成立。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "将证明结论转化为证明$k_{AN}·k_{OM}=1$得2分；设直线l方程并联立椭圆方程，整理得到一元二次方程得2分；正确写出韦达定理的结果得2分；由三点共线求出m、n的表达式并化简mn的式子得2分；代入韦达定理计算出mn=24并验证斜率乘积为1完成证明得2分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse E: $\\\\frac{x^2}{a^2}+\\\\frac{y^2}{b^2}=1(a>b>0)$, its right vertex is A(2,0) and the eccentricity is $\\\\frac{1}{2}$. A line l passing through point P(6,0) and not coinciding with the x-axis intersects the ellipse E at two distinct points B and C. Lines AB and AC intersect the line x=6 at points M and N respectively.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation of the ellipse E;",
+            "solutionSteps": "1. From the right vertex of the ellipse being A(2,0), we get a=2;\n2. From the eccentricity $e=\\\\frac{c}{a}=\\\\frac{1}{2}$, substitute a=2 to get c=1;\n3. According to $a²=b²+c²$ in the ellipse, we get $b²=a²-c²=4-1=3$;\n4. Substitute into the standard equation of the ellipse, the equation of ellipse E is $\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "1 point for getting a=2 from the right vertex; 2 points for finding c=1 from the eccentricity; 1 point for calculating b²=3 by using $a²=b²+c²$; 1 point for writing the standard equation of ellipse E, total 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Let O be the origin, prove that ∠PAN+∠POM=90°.",
+            "solutionSteps": "1. To prove ∠PAN+∠POM=90°, it is only necessary to prove ∠PAN=90°-∠POM, that is, to prove $tan∠PAN=\\\\frac{1}{tan∠POM}$, and further convert it to proving $k_{AN}·k_{OM}=1$;\n2. Let the equation of line l be y=k(x-6)(k≠0),联立 the ellipse equation $\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$, eliminate y and sort out to get $(3+4k²)x²-48k²x+144k²-12=0$;\n3. Let B(x₁,y₁), C(x₂,y₂), from Vieta's theorem, we get $x₁+x₂=\\\\frac{48k²}{3+4k²}$, $x₁x₂=\\\\frac{144k²-12}{3+4k²}$;\n4. Since points A, B, M are collinear, $\\\\frac{m}{6-2}=\\\\frac{y₁}{x₁-2}$, we get $m=\\\\frac{4y₁}{x₁-2}$. Similarly, since points A, C, N are collinear, we get $n=\\\\frac{4y₂}{x₂-2}$;\n5. Calculate mn, $mn=\\\\frac{16k²(x₁-6)(x₂-6)}{(x₁-2)(x₂-2)}$, expand the numerator and denominator and substitute Vieta's theorem to calculate, we get mn=24;\n6. From $k_{AN}=\\\\frac{n}{6-2}=\\\\frac{n}{4}$, $k_{OM}=\\\\frac{m}{6}$, we get $k_{AN}·k_{OM}=\\\\frac{mn}{24}=1$, so the original conclusion holds.",
+            "standardAnswer": "See the analysis for proof",
+            "scoringCriteria": "2 points for converting the proof conclusion to proving $k_{AN}·k_{OM}=1$; 2 points for setting the equation of line l,联立 it with the ellipse equation and sorting out to get a quadratic equation with one variable; 2 points for writing the results of Vieta's theorem correctly; 2 points for finding the expressions of m and n from collinear points and simplifying the expression of mn; 2 points for substituting Vieta's theorem to calculate mn=24 and verifying the product of slopes is 1 to complete the proof, total 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "对于数列A: a₁,a₂,...,aₙ(n≥3)，定义变换T，T将数列A变换成数列T(A): a₂,a₃,...,aₙ,a₁，记T¹(A)=T(A)，Tᵐ(A)=T(Tᵐ⁻¹(A))，m≥2。对于数列A: a₁,a₂,...,aₙ与B: b₁,b₂,...,bₙ，定义A·B=a₁b₁+a₂b₂+⋯+aₙbₙ。若数列A: a₁,a₂,...,aₙ(n≥3)满足a_i∈{-1,1}(i=1,2,⋯,n)，则称数列A为ℜₙ数列。",
+        "subQuestions": [
+          {
+            "question": "（1）若A:-1,-1,1,-1,1,1，写出T(A)，并求A·T²(A)；",
+            "solutionSteps": "1. 根据变换T的定义，将数列A的首项移至末尾，得T(A)：-1,1,-1,1,1,-1；\n2. 对T(A)再次应用变换T，得T²(A)：1,-1,1,1,-1,-1；\n3. 根据A·B的定义，计算点积：A·T²(A)=(-1)×1 + (-1)×(-1) + 1×1 + (-1)×1 + 1×(-1) + 1×(-1) = -1+1+1-1-1-1 = -2。",
+            "standardAnswer": "T(A)：-1,1,-1,1,1,-1；A·T²(A)=-2",
+            "scoringCriteria": "根据变换T的定义正确写出T(A)得2分；正确求出T²(A)得1分；根据点积定义计算出A·T²(A)的结果得1分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）对于任意给定的正整数n(n≥3)，是否存在ℜₙ数列A，使得A·T(A)=n-3？若存在，写出一个数列A，若不存在，说明理由；",
+            "solutionSteps": "1. 根据定义，A·T(A)=a₁a₂+a₂a₃+⋯+aₙa₁，令aₙ₊₁=a₁；\n2. 因A是ℜₙ数列，a_i∈{-1,1}，故a_i a_{i+1}的取值为1或-1，设其中有t个-1，n-t个1；\n3. 则A·T(A)=(n-t)×1 + t×(-1)=n-2t；\n4. n-2t与n的奇偶性相同，而n-3与n的奇偶性不同，故不存在满足条件的ℜₙ数列A。",
+            "standardAnswer": "不存在适合题意的数列A，理由见解析",
+            "scoringCriteria": "写出A·T(A)的表达式并分析a_i a_{i+1}的取值为1或-1得2分；引入t表示-1的个数并推导出A·T(A)=n-2t得1分；分析n-2t与n、n-3与n的奇偶性差异得1分；得出不存在的结论得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）若ℜₙ数列A满足Tᵏ(A)·Tᵏ⁺¹(A)=n-4(k=1,2,⋯,n-2)，求数列A的个数。",
+            "solutionSteps": "1. 先证A·T(A)=Tᵏ(A)·Tᵏ⁺¹(A)：Tᵏ(A)为a_{k+1},a_{k+2},...,aₙ,a₁,...,a_k，Tᵏ⁺¹(A)为a_{k+2},a_{k+3},...,aₙ,a₁,...,a_{k+1}，则Tᵏ(A)·Tᵏ⁺¹(A)=a_{k+1}a_{k+2}+⋯+aₙa₁+⋯+a_k a_{k+1}=A·T(A)；\n2. 由题得A·T(A)=n-4，结合A·T(A)=n-2t，得n-2t=n-4，解得t=2，即数列A中相邻两项乘积为-1的情况有2次，即相邻两项不同的情况有2次；\n3. 对于ℜₙ数列，相邻两项不同的情况有2次，说明数列由连续的1和-1两段组成，从n个位置中选2个位置作为相邻两项不同的分界点，共有n(n-1)种情况，即数列A的个数为n(n-1)。",
+            "standardAnswer": "n(n-1)",
+            "scoringCriteria": "证明A·T(A)=Tᵏ(A)·Tᵏ⁺¹(A)的等式成立得2分；结合A·T(A)=n-2t求出t=2并分析出相邻两项不同的情况有2次得2分；根据组合原理推导出数列A的个数为n(n-1)得2分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "For a sequence A: a₁,a₂,...,aₙ(n≥3), a transformation T is defined. T transforms the sequence A into the sequence T(A): a₂,a₃,...,aₙ,a₁. Denote T¹(A)=T(A), Tᵐ(A)=T(Tᵐ⁻¹(A)) for m≥2. For two sequences A: a₁,a₂,...,aₙ and B: b₁,b₂,...,bₙ, define A·B=a₁b₁+a₂b₂+⋯+aₙbₙ. If a sequence A: a₁,a₂,...,aₙ(n≥3) satisfies a_i∈{-1,1}(i=1,2,⋯,n), then the sequence A is called an ℜₙ sequence.",
+        "subQuestions": [
+          {
+            "question": "(1) If A:-1,-1,1,-1,1,1, write T(A) and find A·T²(A);",
+            "solutionSteps": "1. According to the definition of transformation T, move the first term of sequence A to the end to get T(A): -1,1,-1,1,1,-1;\n2. Apply the transformation T to T(A) again to get T²(A): 1,-1,1,1,-1,-1;\n3. According to the definition of A·B, calculate the dot product: A·T²(A)=(-1)×1 + (-1)×(-1) + 1×1 + (-1)×1 + 1×(-1) + 1×(-1) = -1+1+1-1-1-1 = -2.",
+            "standardAnswer": "T(A): -1,1,-1,1,1,-1; A·T²(A)=-2",
+            "scoringCriteria": "2 points for writing T(A) correctly according to the definition of transformation T; 1 point for finding T²(A) correctly; 1 point for calculating the result of A·T²(A) according to the definition of dot product, total 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) For any given positive integer n(n≥3), does there exist an ℜₙ sequence A such that A·T(A)=n-3? If it exists, write a sequence A; if not, explain the reason;",
+            "solutionSteps": "1. According to the definition, A·T(A)=a₁a₂+a₂a₃+⋯+aₙa₁, let aₙ₊₁=a₁;\n2. Since A is an ℜₙ sequence, a_i∈{-1,1}, so the value of a_i a_{i+1} is 1 or -1. Let there be t -1s and n-t 1s among them;\n3. Then A·T(A)=(n-t)×1 + t×(-1)=n-2t;\n4. n-2t has the same parity as n, while n-3 has a different parity from n, so there is no ℜₙ sequence A satisfying the condition.",
+            "standardAnswer": "There is no sequence A that meets the requirements, see the analysis for reasons",
+            "scoringCriteria": "2 points for writing the expression of A·T(A) and analyzing that the value of a_i a_{i+1} is 1 or -1; 1 point for introducing t to represent the number of -1s and deriving A·T(A)=n-2t; 1 point for analyzing the parity difference between n-2t and n, n-3 and n; 1 point for drawing the conclusion of non-existence, total 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) If an ℜₙ sequence A satisfies Tᵏ(A)·Tᵏ⁺¹(A)=n-4(k=1,2,⋯,n-2), find the number of such sequences A.",
+            "solutionSteps": "1. First prove A·T(A)=Tᵏ(A)·Tᵏ⁺¹(A): Tᵏ(A) is a_{k+1},a_{k+2},...,aₙ,a₁,...,a_k, Tᵏ⁺¹(A) is a_{k+2},a_{k+3},...,aₙ,a₁,...,a_{k+1}, then Tᵏ(A)·Tᵏ⁺¹(A)=a_{k+1}a_{k+2}+⋯+aₙa₁+⋯+a_k a_{k+1}=A·T(A);\n2. From the problem, A·T(A)=n-4. Combined with A·T(A)=n-2t, we get n-2t=n-4, solve to get t=2, which means there are 2 cases where the product of adjacent terms in sequence A is -1, i.e., 2 cases where adjacent terms are different;\n3. For an ℜₙ sequence, there are 2 cases where adjacent terms are different, which means the sequence consists of two consecutive segments of 1 and -1. Select 2 positions from n positions as the boundary points where adjacent terms are different, there are n(n-1) cases in total, so the number of sequences A is n(n-1).",
+            "standardAnswer": "n(n-1)",
+            "scoringCriteria": "2 points for proving the equality A·T(A)=Tᵏ(A)·Tᵏ⁺¹(A) holds; 2 points for finding t=2 by combining A·T(A)=n-2t and analyzing that there are 2 cases where adjacent terms are different; 2 points for deriving the number of sequences A is n(n-1) according to the combination principle, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

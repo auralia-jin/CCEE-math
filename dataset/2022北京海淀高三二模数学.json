@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2022 Beijing Haidian Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "PMI值是国际上通行的宏观经济监测指标之一，能够反映经济的变化趋势。下图是国家统计局发布的某年12个月的制造业和非制造业PMI值趋势图。将每连续3个月的PMI值做为一个观测组，对国家经济活动进行监测和预测。",
+        "subQuestions": [
+          {
+            "question": "（1）(ⅰ)现从制造业的10个观测组中任取一组，求组内三个PMI值至少有一个低于50.0的概率；",
+            "solutionSteps": "1. 确定基本事件总数：制造业的10个观测组为基本事件，总数为10；\n2. 确定事件A包含的基本事件数：设“组内三个PMI值至少有一个低于50.0”为事件A，事件A包含的观测组有(50.4,50.1,49.6)、(50.1,49.6,49.2)、(49.6,49.2,50.1)、(49.2,50.1,50.3)，共4个；\n3. 由古典概型概率公式计算：$P(A)=\\frac{事件A包含的基本事件数}{基本事件总数}=\\frac{4}{10}=\\frac{2}{5}$。",
+            "standardAnswer": "$\\\\frac{2}{5}$",
+            "scoringCriteria": "本问总分4分，正确列出制造业的10个观测组得1分；准确找出事件A包含的4个基本事件得2分；代入古典概型公式计算出正确概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（1）(ⅱ)现从制造业的10个观测组中任取一组，若当月的PMI值大于上一个月的PMI值，则称该月的经济向好。设X表示抽取的观测组中经济向好的月份的个数（由已有数据知1月份的PMI值低于去年12月份的PMI值），求X的分布列与数学期望；",
+            "solutionSteps": "1. 确定X的可能取值：根据题意，X的可能取值为0、1、2；\n2. 计算各取值的概率：$P(X=0)=\\frac{6}{10}=\\frac{3}{5}$，$P(X=1)=\\frac{3}{10}$，$P(X=2)=\\frac{1}{10}$；\n3. 列出X的分布列：以X为行、概率为列，依次填写0对应$\\\\frac{3}{5}$，1对应$\\\\frac{3}{10}$，2对应$\\\\frac{1}{10}$；\n4. 计算数学期望：根据期望公式$E(X)=x_1P_1+x_2P_2+x_3P_3$，得$E(X)=0×\\\\frac{3}{5}+1×\\\\frac{3}{10}+2×\\\\frac{1}{10}=\\\\frac{1}{2}$。",
+            "standardAnswer": "分布列为：| X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\\\frac{3}{5}$ | $\\\\frac{3}{10}$ | $\\\\frac{1}{10}$ |；数学期望为$\\\\frac{1}{2}$",
+            "scoringCriteria": "本问总分6分，正确确定X的可能取值0、1、2得1分；准确计算出三个取值对应的概率得2分；规范列出分布列得1分；正确写出数学期望公式得1分；计算出期望的正确结果得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（2）用$b_{j}(j=1,2, \\mathrm{L}, 12)$表示第j月非制造业所对应的PMI值，$\\bar{b}$表示非制造业12个月PMI值的平均数，请直接写出$|b_{j}-\\bar{b}|$取得最大值所对应的月份；",
+            "solutionSteps": "1. 计算非制造业12个月PMI值的平均数$\\\\bar{b}$：代入数据计算得$\\\\bar{b}=\\\\frac{52.4+51.4+56.3+54.9+55.2+53.5+53.3+47.5+53.2+52.4+52.3+52.7}{12} \\approx 52.9$；\n2. 计算各月份$|b_j-\\\\bar{b}|$的值：逐一计算得8月份的$b_8=47.5$，$|47.5-52.9|=5.4$，为所有月份中的最大值；\n3. 确定结果：8月份为$|b_{j}-\\bar{b}|$取得最大值的月份。",
+            "standardAnswer": "8月份",
+            "scoringCriteria": "本问总分3分，正确计算出非制造业PMI值的平均数$\\\\bar{b}$得1分；计算出各月份$|b_j-\\\\bar{b}|$的值得1分；准确得出8月份的结论得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The PMI value is one of the internationally accepted macroeconomic monitoring indicators, which can reflect the changing trend of the economy. The figure below is the trend chart of the manufacturing and non-manufacturing PMI values for 12 months of a certain year released by the National Bureau of Statistics. Take the PMI values of every consecutive 3 months as an observation group to monitor and predict national economic activities.",
+        "subQuestions": [
+          {
+            "question": "(1)(i) Randomly select one group from the 10 observation groups of the manufacturing industry, find the probability that at least one of the three PMI values in the group is lower than 50.0;",
+            "solutionSteps": "1. Determine the total number of basic events: The 10 observation groups of the manufacturing industry are basic events, with a total of 10;\\n2. Determine the number of basic events included in event A: Let event A be \"at least one of the three PMI values in the group is lower than 50.0\", the observation groups included in event A are (50.4,50.1,49.6), (50.1,49.6,49.2), (49.6,49.2,50.1), (49.2,50.1,50.3), a total of 4;\\n3. Calculate by the classical probability formula: $P(A)=\\frac{Number of basic events included in event A}{Total number of basic events}=\\frac{4}{10}=\\frac{2}{5}$.",
+            "standardAnswer": "$\\\\frac{2}{5}$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly listing the 10 observation groups of the manufacturing industry; 2 points for accurately finding the 4 basic events included in event A; 1 point for calculating the correct probability by substituting the classical probability formula.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(1)(ii) Randomly select one group from the 10 observation groups of the manufacturing industry. If the PMI value of a month is greater than that of the previous month, the economy of the month is said to be improving. Let X denote the number of months with an improving economy in the selected observation group (it is known from the existing data that the PMI value of January is lower than that of December of the previous year), find the probability distribution and mathematical expectation of X;",
+            "solutionSteps": "1. Determine the possible values of X: According to the question, the possible values of X are 0, 1, 2;\\n2. Calculate the probability of each value: $P(X=0)=\\frac{6}{10}=\\frac{3}{5}$，$P(X=1)=\\frac{3}{10}$，$P(X=2)=\\frac{1}{10}$;\\n3. List the probability distribution of X: With X as the row and probability as the column, fill in 0 corresponding to $\\\\frac{3}{5}$, 1 corresponding to $\\\\frac{3}{10}$, 2 corresponding to $\\\\frac{1}{10}$ in turn;\\n4. Calculate the mathematical expectation: According to the expectation formula $E(X)=x_1P_1+x_2P_2+x_3P_3$, we get $E(X)=0×\\\\frac{3}{5}+1×\\\\frac{3}{10}+2×\\\\frac{1}{10}=\\\\frac{1}{2}$.",
+            "standardAnswer": "The probability distribution is: | X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\\\frac{3}{5}$ | $\\\\frac{3}{10}$ | $\\\\frac{1}{10}$ |; The mathematical expectation is $\\\\frac{1}{2}$",
+            "scoringCriteria": "This sub-question has a total of 6 points. 1 point for correctly determining the possible values 0, 1, 2 of X; 2 points for accurately calculating the probabilities corresponding to the three values; 1 point for standardly listing the probability distribution; 1 point for correctly writing the mathematical expectation formula; 1 point for calculating the correct result of the expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(2) Let $b_{j}(j=1,2, \\mathrm{L}, 12)$ denote the PMI value of the non-manufacturing industry in the j-th month, and $\\bar{b}$ denote the average of the PMI values of the non-manufacturing industry in 12 months, write directly the month in which $|b_{j}-\\bar{b}|$ reaches the maximum value;",
+            "solutionSteps": "1. Calculate the average $\\\\bar{b}$ of the PMI values of the non-manufacturing industry in 12 months: Substitute the data to get $\\\\bar{b}=\\\\frac{52.4+51.4+56.3+54.9+55.2+53.5+53.3+47.5+53.2+52.4+52.3+52.7}{12} \\approx 52.9$;\\n2. Calculate the value of $|b_j-\\\\bar{b}|$ for each month: Calculate one by one to get $b_8=47.5$ in August, $|47.5-52.9|=5.4$, which is the maximum value among all months;\\n3. Determine the result: August is the month in which $|b_{j}-\\bar{b}|$ reaches the maximum value.",
+            "standardAnswer": "August",
+            "scoringCriteria": "This sub-question has a total of 3 points. 1 point for correctly calculating the average $\\\\bar{b}$ of the PMI values of the non-manufacturing industry; 1 point for calculating the value of $|b_j-\\\\bar{b}|$ for each month; 1 point for accurately drawing the conclusion of August.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "椭圆$M: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的左顶点为$A(-2,0)$，离心率为$\\frac{\\sqrt{3}}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆M的方程；",
+            "solutionSteps": "1. 由椭圆左顶点确定a的值：椭圆左顶点为$A(-2,0)$，故$a=2$；\n2. 由离心率求c的值：离心率$e=\\\\frac{c}{a}=\\\\frac{\\\\sqrt{3}}{2}$，代入$a=2$得$c=\\\\sqrt{3}$；\n3. 由椭圆中a、b、c的关系求b²：根据$b^2=a^2-c^2$，得$b^2=2^2-(\\\\sqrt{3})^2=1$；\n4. 写出椭圆M的方程：将a²=4、b²=1代入椭圆标准方程，得$\\\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "$\\\\frac{x^{2}}{4}+y^{2}=1$",
+            "scoringCriteria": "本问总分4分，由左顶点正确求出a=2得1分；由离心率正确求出c=\\\\sqrt{3}得1分；正确运用$b^2=a^2-c^2$求出b²=1得1分；写出椭圆的正确方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）过$(0, \\frac{\\sqrt{3}}{2})$的直线l交椭圆M于B、C两点，D是直线$x=-4$上一点。若四边形ABCD为平行四边形，求直线l的方程。",
+            "solutionSteps": "1. 设点与斜率：设$D(-4, t)$，$B(x_1, y_1)$，$C(x_2, y_2)$，由$A(-2,0)$得$k_{AD}=-\\\\frac{t}{2}$，因ABCD为平行四边形，故$k_{BC}=k_{AD}=-\\\\frac{t}{2}$；\n2. 写直线l的方程：直线l过$(0, \\\\frac{\\\\sqrt{3}}{2})$，斜率为$-\\\\frac{t}{2}$，方程为$y=-\\\\frac{t}{2}x+\\\\frac{\\\\sqrt{3}}{2}$；\n3. 联立方程并消元：将直线方程与椭圆方程$\\\\frac{x^2}{4}+y^2=1$联立，整理得$(1+t^2)x^2-2\\\\sqrt{3}tx-1=0$；\n4. 求弦长|BC|：由韦达定理得$x_1+x_2=\\\\frac{2\\\\sqrt{3}t}{1+t^2}$，$x_1x_2=-\\\\frac{1}{1+t^2}$，结合弦长公式得$|BC|=\\\\sqrt{1+(\\\\frac{t}{2})^2}\\\\sqrt{(x_1+x_2)^2-4x_1x_2}=\\\\frac{\\\\sqrt{(4+t^2)(4t^2+1)}}{1+t^2}$；\n5. 求|AD|并建立等式：由两点间距离公式得$|AD|=\\\\sqrt{4+t^2}$，因平行四边形对边相等，故$|BC|=|AD|$；\n6. 求解t的值：代入等式化简得$\\\\frac{\\\\sqrt{(4+t^2)(4t^2+1)}}{1+t^2}=\\\\sqrt{4+t^2}$，解得$t=\\\\pm\\\\sqrt{2}$；\n7. 写直线l的方程：将t=\\\\pm\\\\sqrt{2}$代入直线方程，得$y=\\\\pm\\\\frac{\\\\sqrt{2}}{2}x+\\\\frac{\\\\sqrt{3}}{2}$。",
+            "standardAnswer": "$y= \\pm \\frac{\\sqrt{2}}{2} x+\\frac{\\sqrt{3}}{2}$",
+            "scoringCriteria": "本问总分11分，正确设点并求出$k_{AD}=k_{BC}$得1分；写出直线l的斜截式方程得1分；联立椭圆与直线方程并正确消元得2分；正确运用韦达定理求出$x_1+x_2$和$x_1x_2$得2分；结合弦长公式求出|BC|的表达式得2分；求出|AD|并建立$|BC|=|AD|$的等式得1分；解出t的正确值并写出直线l的最终方程得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The left vertex of the ellipse $M: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $A(-2,0)$, and its eccentricity is $\\frac{\\sqrt{3}}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation of the ellipse M;",
+            "solutionSteps": "1. Determine the value of a from the left vertex of the ellipse: The left vertex of the ellipse is $A(-2,0)$, so $a=2$;\\n2. Find the value of c from the eccentricity: The eccentricity $e=\\\\frac{c}{a}=\\\\frac{\\\\sqrt{3}}{2}$, substitute $a=2$ to get $c=\\\\sqrt{3}$;\\n3. Find $b^2$ from the relationship among a, b and c in the ellipse: According to $b^2=a^2-c^2$, we get $b^2=2^2-(\\\\sqrt{3})^2=1$;\\n4. Write the equation of the ellipse M: Substitute $a^2=4$ and $b^2=1$ into the standard equation of the ellipse to get $\\\\frac{x^2}{4}+y^2=1$.",
+            "standardAnswer": "$\\\\frac{x^{2}}{4}+y^{2}=1$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly finding $a=2$ from the left vertex; 1 point for correctly finding $c=\\\\sqrt{3}$ from the eccentricity; 1 point for correctly finding $b^2=1$ by using $b^2=a^2-c^2$; 1 point for writing the correct equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) A straight line l passing through $(0, \\frac{\\sqrt{3}}{2})$ intersects the ellipse M at points B and C, and point D is on the straight line $x=-4$. If the quadrilateral ABCD is a parallelogram, find the equation of the straight line l.",
+            "solutionSteps": "1. Set points and slope: Let $D(-4, t)$, $B(x_1, y_1)$, $C(x_2, y_2)$, from $A(-2,0)$ we get $k_{AD}=-\\\\frac{t}{2}$. Since ABCD is a parallelogram, $k_{BC}=k_{AD}=-\\\\frac{t}{2}$;\\n2. Write the equation of the straight line l: The straight line l passes through $(0, \\\\frac{\\\\sqrt{3}}{2})$ with a slope of $-\\\\frac{t}{2}$, and its equation is $y=-\\\\frac{t}{2}x+\\\\frac{\\\\sqrt{3}}{2}$;\\n3. Simultaneous equations and elimination: Simultaneously solve the straight line equation with the ellipse equation $\\\\frac{x^2}{4}+y^2=1$, and sort out to get $(1+t^2)x^2-2\\\\sqrt{3}tx-1=0$;\\n4. Find the chord length |BC|: From Vieta's formulas, we get $x_1+x_2=\\\\frac{2\\\\sqrt{3}t}{1+t^2}$, $x_1x_2=-\\\\frac{1}{1+t^2}$. Combined with the chord length formula, we get $|BC|=\\\\sqrt{1+(\\\\frac{t}{2})^2}\\\\sqrt{(x_1+x_2)^2-4x_1x_2}=\\\\frac{\\\\sqrt{(4+t^2)(4t^2+1)}}{1+t^2}$;\\n5. Find |AD| and establish an equation: From the distance formula between two points, we get $|AD|=\\\\sqrt{4+t^2}$. Since the opposite sides of a parallelogram are equal, $|BC|=|AD|$;\\n6. Solve for the value of t: Substitute into the equation and simplify to get $\\\\frac{\\\\sqrt{(4+t^2)(4t^2+1)}}{1+t^2}=\\\\sqrt{4+t^2}$, and solve to get $t=\\\\pm\\\\sqrt{2}$;\\n7. Write the equation of the straight line l: Substitute $t=\\\\pm\\\\sqrt{2}$ into the straight line equation to get $y=\\\\pm\\\\frac{\\\\sqrt{2}}{2}x+\\\\frac{\\\\sqrt{3}}{2}$.",
+            "standardAnswer": "$y= \\pm \\frac{\\sqrt{2}}{2} x+\\frac{\\sqrt{3}}{2}$",
+            "scoringCriteria": "This sub-question has a total of 11 points. 1 point for correctly setting points and finding $k_{AD}=k_{BC}$; 1 point for writing the slope-intercept form of the straight line l; 2 points for simultaneously solving the ellipse and straight line equations and correctly eliminating variables; 2 points for correctly using Vieta's formulas to find $x_1+x_2$ and $x_1x_2$; 2 points for finding the expression of |BC| combined with the chord length formula; 1 point for finding |AD| and establishing the equation $|BC|=|AD|$; 2 points for solving the correct value of t and writing the final equation of the straight line l.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\ln \\frac{1-x}{2}+\\frac{a}{x}$。",
+        "subQuestions": [
+          {
+            "question": "（1）当$a=0$时，求曲线$y=f(x)$在点$(-1, f(-1))$处的切线方程；",
+            "solutionSteps": "1. 求函数$f(x)$的导数：$f'(x)=\\\\frac{1}{x-1}-\\\\frac{a}{x^2}$，当$a=0$时，$f'(x)=\\\\frac{1}{x-1}$；\\n2. 求切点处的导数值（切线斜率）：代入$x=-1$，得$f'(-1)=-\\\\frac{1}{2}$；\\n3. 求切点的纵坐标：当$a=0$时，$f(x)=\\\\ln \\\\frac{1-x}{2}$，代入$x=-1$得$f(-1)=0$，切点为$(-1,0)$；\\n4. 写切线方程：由点斜式$y-y_0=f'(x_0)(x-x_0)$，得$y=-\\\\frac{1}{2}(x+1)$，整理为$y=-\\\\frac{1}{2}x-\\\\frac{1}{2}$。",
+            "standardAnswer": "$y=-\\frac{1}{2} x-\\frac{1}{2}$",
+            "scoringCriteria": "本问总分4分，正确求出函数$f(x)$的导数$f'(x)$得1分；代入$a=0$并求出$f'(-1)=-\\\\frac{1}{2}$得1分；求出$f(-1)=0$确定切点得1分；由点斜式写出并整理出切线的正确方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）当$a=-\\frac{1}{2}$时，求函数$f(x)$的单调区间；",
+            "solutionSteps": "1. 确定函数的定义域：$f(x)=\\\\ln \\\\frac{1-x}{2}+\\\\frac{a}{x}$的定义域为$(-\\\\infty,0)\\cup(0,1)$；\\n2. 代入a的值求导数：当$a=-\\\\frac{1}{2}$时，$f'(x)=\\\\frac{1}{x-1}+\\\\frac{1}{2x^2}=\\\\frac{-(2x-1)(x+1)}{2x^2(1-x)}$；\\n3. 求导数的零点：令$f'(x)=0$，解得$x=\\\\frac{1}{2}$或$x=-1$；\\n4. 分析导数的符号：当$x<-1$或$\\\\frac{1}{2}<x<1$时，$f'(x)<0$；当$-1<x<0$或$0<x<\\\\frac{1}{2}$时，$f'(x)>0$；\\n5. 确定单调区间：根据导数符号，得出函数的单调递增和递减区间。",
+            "standardAnswer": "单调递增区间为$(-1,0)$、$(0, \\frac{1}{2})$；单调递减区间为$(-\\infty,-1)$、$(\\frac{1}{2}, 1)$",
+            "scoringCriteria": "本问总分5分，正确确定函数的定义域得1分；代入$a=-\\\\frac{1}{2}$并化简求出导数的正确表达式得2分；求出导数的零点并正确分析各区间内导数的符号得1分；写出函数的单调递增和递减区间得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（3）当$x<0$时，$f(x) ≥\\frac{1}{2}$恒成立，求a的取值范围。",
+            "solutionSteps": "1. 必要性分析：由$f(-1)=-a ≥\\\\frac{1}{2}$，得$a ≤-\\\\frac{1}{2}$，此为恒成立的必要条件；\\n2. 充分性证明：当$a ≤-\\\\frac{1}{2}$且$x<0$时，$f(x)=\\\\ln \\\\frac{1-x}{2}+\\\\frac{a}{x} ≥\\\\ln \\\\frac{1-x}{2}-\\\\frac{1}{2x}$，令$g(x)=\\\\ln \\\\frac{1-x}{2}-\\\\frac{1}{2x}$；\\n3. 利用单调性求$g(x)$的最小值：由（2）知$g(x)$在$(-\\\\infty,-1)$上单调递减，在$(-1,0)$上单调递增，故$g(x)_{min}=g(-1)=\\\\frac{1}{2}$；\\n4. 得出结论：因此$f(x) ≥g(x) ≥\\\\frac{1}{2}$，故a的取值范围为$a ≤-\\\\frac{1}{2}$。",
+            "standardAnswer": "$a \\leq -\\frac{1}{2}$",
+            "scoringCriteria": "本问总分6分，由$f(-1)$得出恒成立的必要条件$a ≤-\\\\frac{1}{2}$得2分；构造函数$g(x)=\\\\ln \\\\frac{1-x}{2}-\\\\frac{1}{2x}$并建立$f(x) ≥g(x)$的不等式得1分；利用（2）的结论分析$g(x)$的单调性得1分；求出$g(x)$的最小值$g(-1)=\\\\frac{1}{2}$得1分；得出a的取值范围的最终结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=\\ln \\frac{1-x}{2}+\\frac{a}{x}$.",
+        "subQuestions": [
+          {
+            "question": "(1) When $a=0$, find the equation of the tangent line to the curve $y=f(x)$ at the point $(-1, f(-1))$;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=\\\\frac{1}{x-1}-\\\\frac{a}{x^2}$, when $a=0$, $f'(x)=\\\\frac{1}{x-1}$;\\n2. Find the value of the derivative at the tangent point (slope of the tangent line): Substitute $x=-1$ to get $f'(-1)=-\\\\frac{1}{2}$;\\n3. Find the ordinate of the tangent point: When $a=0$, $f(x)=\\\\ln \\\\frac{1-x}{2}$, substitute $x=-1$ to get $f(-1)=0$, the tangent point is $(-1,0)$;\\n4. Write the tangent line equation: From the point-slope form $y-y_0=f'(x_0)(x-x_0)$, we get $y=-\\\\frac{1}{2}(x+1)$, which is sorted out to $y=-\\\\frac{1}{2}x-\\\\frac{1}{2}$.",
+            "standardAnswer": "$y=-\\frac{1}{2} x-\\frac{1}{2}$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly finding the derivative $f'(x)$ of the function $f(x)$; 1 point for substituting $a=0$ and finding $f'(-1)=-\\\\frac{1}{2}$; 1 point for finding $f(-1)=0$ to determine the tangent point; 1 point for writing and sorting out the correct equation of the tangent line by the point-slope form.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) When $a=-\\frac{1}{2}$, find the monotonic intervals of the function $f(x)$;",
+            "solutionSteps": "1. Determine the domain of the function: The domain of $f(x)=\\\\ln \\\\frac{1-x}{2}+\\\\frac{a}{x}$ is $(-\\\\infty,0)\\cup(0,1)$;\\n2. Substitute the value of a to find the derivative: When $a=-\\\\frac{1}{2}$, $f'(x)=\\\\frac{1}{x-1}+\\\\frac{1}{2x^2}=\\\\frac{-(2x-1)(x+1)}{2x^2(1-x)}$;\\n3. Find the zero points of the derivative: Let $f'(x)=0$, solve to get $x=\\\\frac{1}{2}$ or $x=-1$;\\n4. Analyze the sign of the derivative: When $x<-1$ or $\\\\frac{1}{2}<x<1$, $f'(x)<0$; When $-1<x<0$ or $0<x<\\\\frac{1}{2}$, $f'(x)>0$;\\n5. Determine the monotonic intervals: Draw the monotonic increasing and decreasing intervals of the function according to the sign of the derivative.",
+            "standardAnswer": "The monotonic increasing intervals are $(-1,0)$ and $(0, \\frac{1}{2})$; The monotonic decreasing intervals are $(-\\infty,-1)$ and $(\\frac{1}{2}, 1)$",
+            "scoringCriteria": "This sub-question has a total of 5 points. 1 point for correctly determining the domain of the function; 2 points for substituting $a=-\\\\frac{1}{2}$ and simplifying to find the correct expression of the derivative; 1 point for finding the zero points of the derivative and correctly analyzing the sign of the derivative in each interval; 1 point for writing the monotonic increasing and decreasing intervals of the function.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(3) When $x<0$, $f(x) ≥\\frac{1}{2}$ holds for all x, find the range of the value of a.",
+            "solutionSteps": "1. Necessity analysis: From $f(-1)=-a ≥\\\\frac{1}{2}$, we get $a ≤-\\\\frac{1}{2}$, which is the necessary condition for the universal establishment;\\n2. Sufficiency proof: When $a ≤-\\\\frac{1}{2}$ and $x<0$, $f(x)=\\\\ln \\\\frac{1-x}{2}+\\\\frac{a}{x} ≥\\\\ln \\\\frac{1-x}{2}-\\\\frac{1}{2x}$, let $g(x)=\\\\ln \\\\frac{1-x}{2}-\\\\frac{1}{2x}$;\\n3. Find the minimum value of $g(x)$ by using monotonicity: It is known from (2) that $g(x)$ is monotonically decreasing on $(-\\\\infty,-1)$ and monotonically increasing on $(-1,0)$, so $g(x)_{min}=g(-1)=\\\\frac{1}{2}$;\\n4. Draw the conclusion: Therefore, $f(x) ≥g(x) ≥\\\\frac{1}{2}$, so the range of a is $a ≤-\\\\frac{1}{2}$.",
+            "standardAnswer": "$a \\leq -\\frac{1}{2}$",
+            "scoringCriteria": "This sub-question has a total of 6 points. 2 points for deriving the necessary condition $a ≤-\\\\frac{1}{2}$ for the universal establishment from $f(-1)$; 1 point for constructing the function $g(x)=\\\\ln \\\\frac{1-x}{2}-\\\\frac{1}{2x}$ and establishing the inequality $f(x) ≥g(x)$; 1 point for analyzing the monotonicity of $g(x)$ by using the conclusion of (2); 1 point for finding the minimum value $g(-1)=\\\\frac{1}{2}$ of $g(x)$; 1 point for drawing the final conclusion of the range of the value of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知有限数列$\\{a_{n}\\}$共M项$(M ≥4)$，其任意连续三项均为某等腰三角形的三边长，且这些等腰三角形两两均不全等。将数列$\\{a_{n}\\}$的各项和记为S。",
+        "subQuestions": [
+          {
+            "question": "（1）若$a_{n} \\in{1,2}(n=1,2, \\mathrm{L}, M)$，直接写出M，S的值；",
+            "solutionSteps": "1. 列举边长为1或2的等腰三角形：仅有(1,1,1)、(1,2,2)、(2,2,2)三种；\\n2. 确定数列的项数M：若前三项为(1,2,2)，数列为1,2,2,2；若前三项为(2,2,2)，数列为2,2,2,1，均只有4项，故M=4；\\n3. 计算数列的各项和S：无论哪种数列，各项和均为1+2+2+2=7或2+2+2+1=7，故S=7。",
+            "standardAnswer": "$M=4$，$S=7$",
+            "scoringCriteria": "本问总分4分，正确列举出边长为1或2的所有等腰三角形得1分；准确确定M=4得2分；计算出S=7得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）若$a_{n} \\in{1,2,3}(n=1,2, \\mathrm{L}, M)$，求M的最大值；",
+            "solutionSteps": "1. 构造满足条件的数列：构造数列为1,2,2,2,3,3,3,1，此时项数M=8；\\n2. 排除含(1,1,1)的情况：若有连续三项(1,1,1)，数列仅有3项，与M≥4矛盾，舍去；\\n3. 列举所有有效等腰三角形：不存在(1,1,1)时，连续三项构成的等腰三角形有(1,2,2)、(1,3,3)、(2,2,2)、(2,2,3)、(2,3,3)、(3,3,3)共6种；\\n4. 确定M的最大值：相邻4项共用中间2项，总项数≤等腰三角形个数+2=6+2=8，故M的最大值为8。",
+            "standardAnswer": "8",
+            "scoringCriteria": "本问总分5分，构造出M=8的数列得1分；正确排除含(1,1,1)的情况得1分；完整列举出6种有效等腰三角形得1分；分析项数与等腰三角形个数的关系得1分；得出M的最大值为8的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）若$a_{n} \\in N^{*}(n=1,2, \\mathrm{L}, M)$，$M=16$，求S的最小值。",
+            "solutionSteps": "1. 构造数列求S的具体值：构造数列为1,2,2,2,3,3,3,4,4,4,5,5,5,3,3,1，计算得各项和S=50；\\n2. 建立S与连续三项和的关系：设T为所有连续三项和的和，得$3S=T+2a_1+2a_{16}+a_2+a_{15}$；\\n3. 列举最小的等腰三角形边长组合：选取和最小的等腰三角形边长组合，排除无法连续的组合，确定14个三角形的最小和；\\n4. 最小值验证：使T和$2a_1+2a_{16}+a_2+a_{15}$最小，取$a_1=1$，$a_{16}=1$，$a_2=2$，$a_{15}=3$，计算得$3S≥149$，故S≥50；\\n5. 得出结论：S的最小值为50。",
+            "standardAnswer": "50",
+            "scoringCriteria": "本问总分6分，构造出S=50的数列得2分；建立$3S=T+2a_1+2a_{16}+a_2+a_{15}$的关系式得1分；列举出和最小的等腰三角形边长组合得1分；计算并验证$3S≥149$得1分；得出S的最小值为50的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given a finite sequence $\\{a_{n}\\}$ with M terms $(M ≥4)$, any three consecutive terms are the side lengths of an isosceles triangle, and these isosceles triangles are not congruent to each other. Denote the sum of all terms of the sequence $\\{a_{n}\\}$ as S.",
+        "subQuestions": [
+          {
+            "question": "(1) If $a_{n} \\in{1,2}(n=1,2, \\mathrm{L}, M)$, write down the values of M and S directly;",
+            "solutionSteps": "1. Enumerate the isosceles triangles with side lengths 1 or 2: There are only three types: (1,1,1), (1,2,2), (2,2,2);\\n2. Determine the number of terms M of the sequence: If the first three terms are (1,2,2), the sequence is 1,2,2,2; if the first three terms are (2,2,2), the sequence is 2,2,2,1, both have only 4 terms, so M=4;\\n3. Calculate the sum S of all terms of the sequence: No matter which sequence it is, the sum of all terms is 1+2+2+2=7 or 2+2+2+1=7, so S=7.",
+            "standardAnswer": "$M=4$, $S=7$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly enumerating all isosceles triangles with side lengths 1 or 2; 2 points for accurately determining M=4; 1 point for calculating S=7.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) If $a_{n} \\in{1,2,3}(n=1,2, \\mathrm{L}, M)$, find the maximum value of M;",
+            "solutionSteps": "1. Construct a sequence that satisfies the conditions: Construct the sequence as 1,2,2,2,3,3,3,1, at this time the number of terms M=8;\\n2. Exclude the case containing (1,1,1): If there are three consecutive terms (1,1,1), the sequence has only 3 terms, which contradicts M≥4, so it is discarded;\\n3. Enumerate all valid isosceles triangles: When (1,1,1) does not exist, the isosceles triangles formed by three consecutive terms are (1,2,2), (1,3,3), (2,2,2), (2,2,3), (2,3,3), (3,3,3), a total of 6 types;\\n4. Determine the maximum value of M: Adjacent 4 terms share the middle 2 terms, the total number of terms ≤ the number of isosceles triangles + 2 = 6 + 2 = 8, so the maximum value of M is 8.",
+            "standardAnswer": "8",
+            "scoringCriteria": "This sub-question has a total of 5 points. 1 point for constructing a sequence with M=8; 1 point for correctly excluding the case containing (1,1,1); 1 point for completely enumerating 6 valid isosceles triangles; 1 point for analyzing the relationship between the number of terms and the number of isosceles triangles; 1 point for drawing the conclusion that the maximum value of M is 8.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) If $a_{n} \\in N^{*}(n=1,2, \\mathrm{L}, M)$ and $M=16$, find the minimum value of S;",
+            "solutionSteps": "1. Construct a sequence to find the specific value of S: Construct the sequence as 1,2,2,2,3,3,3,4,4,4,5,5,5,3,3,1, calculate the sum of all terms to get S=50;\\n2. Establish the relationship between S and the sum of three consecutive terms: Let T be the sum of the sums of all three consecutive terms, we get $3S=T+2a_1+2a_{16}+a_2+a_{15}$;\\n3. Enumerate the side length combinations of isosceles triangles with the smallest sum: Select the side length combinations of isosceles triangles with the smallest sum, exclude the combinations that cannot be consecutive, and determine the minimum sum of 14 triangles;\\n4. Minimum value verification: Minimize T and $2a_1+2a_{16}+a_2+a_{15}$, take $a_1=1$, $a_{16}=1$, $a_2=2$, $a_{15}=3$, calculate to get $3S≥149$, so S≥50;\\n5. Draw the conclusion: The minimum value of S is 50.",
+            "standardAnswer": "50",
+            "scoringCriteria": "This sub-question has a total of 6 points. 2 points for constructing a sequence with S=50; 1 point for establishing the relation $3S=T+2a_1+2a_{16}+a_2+a_{15}$; 1 point for enumerating the side length combinations of isosceles triangles with the smallest sum; 1 point for calculating and verifying $3S≥149$; 1 point for drawing the conclusion that the minimum value of S is 50.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

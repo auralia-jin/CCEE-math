@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2022 Beijing Xicheng Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "在三棱柱ABC-A₁B₁C₁中，四边形AA₁C₁C是边长为4的菱形，AB=BC=√13，点D为棱AC上动点(不与A，C重合)，平面B₁BD与棱A₁C₁交于点E。",
+        "subQuestions": [
+          {
+            "question": "（1）求证：BB₁//DE；",
+            "solutionSteps": "1. 由三棱柱的性质可得AA₁//BB₁；2. 因为BB₁⊄平面ACC₁A₁，AA₁⊂平面ACC₁A₁，根据线面平行的判定定理，可得BB₁//平面ACC₁A₁；3. 平面B₁BDE与平面ACC₁A₁的交线为DE，结合线面平行的性质定理，若一条直线平行于一个平面，经过这条直线的平面与该平面相交，则这条直线与交线平行，故BB₁//DE。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问总分4分，由三棱柱性质得出AA₁//BB₁得1分；利用线面平行判定定理证明BB₁//平面ACC₁A₁得2分；结合线面平行性质定理推出BB₁//DE得1分。",
+            "knowledgePoint": "GEOMETRY_ALGEBRA_TRANSFORMATION",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（2）若AD/AC=3/4，从条件①､条件②､条件③这三个条件中选择两个条件作为已知，求直线AB与平面B₁BDE所成角的正弦值。条件①:平面ABC⊥平面AA₁C₁C；条件②:∠A₁AC=60°；条件③:A₁B=√21。",
+            "solutionSteps": "以选条件①②为例：1. 连接A₁C，取AC中点O，连接A₁O、BO，菱形中∠A₁AC=60°，故△A₁AC为等边三角形，A₁O⊥AC；2. 由平面ABC⊥平面AA₁C₁C，交线为AC，A₁O⊂平面AA₁C₁C，得A₁O⊥平面ABC，故A₁O⊥OB，又AB=BC得BO⊥AC；3. 以O为原点，OB、OC、OA₁为x、y、z轴建空间直角坐标系，得各点坐标：O(0,0,0)、A(0,-2,0)、B(3,0,0)、D(0,1,0)，向量BD=(-3,1,0)，DE=AA₁=(0,2,2√3)；4. 设平面B₁BDE的法向量为$\\vec{n}=(x_1,y_1,z_1)$，由$\\vec{n}·\\overrightarrow{BD}=0$、$\\vec{n}·\\overrightarrow{DE}=0$得方程组，令z₁=-√3，解得$\\vec{n}=(1,3,-√3)$；5. 向量$\\overrightarrow{AB}=(3,2,0)$，设直线AB与平面所成角为θ，由线面角公式$sinθ=|cos<\\overrightarrow{AB},\\vec{n}>|=|\frac{\\overrightarrow{AB}·\\vec{n}}{|\\overrightarrow{AB}|·|\\vec{n}|}|$，代入计算得$sinθ=\frac{9}{13}$；选其他两组条件，推导过程类似，最终结果一致。",
+            "standardAnswer": "$\\frac{9}{13}$",
+            "scoringCriteria": "第二问总分9分，取AC中点并证明相关垂直关系得2分；建立空间直角坐标系并正确写出各点坐标得2分；求出平面的法向量得2分；写出直线的方向向量并代入线面角公式得2分；计算出最终正弦值得1分。",
+            "knowledgePoint": "GEOMETRY_ALGEBRA_TRANSFORMATION",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In the triangular prism ABC-A₁B₁C₁, the quadrilateral AA₁C₁C is a rhombus with side length 4, AB=BC=√13, point D is a moving point on the edge AC (not coinciding with A and C), and the plane B₁BD intersects the edge A₁C₁ at point E.",
+        "subQuestions": [
+          {
+            "question": "(1) Prove that BB₁//DE;",
+            "solutionSteps": "1. It can be obtained from the properties of the triangular prism that AA₁//BB₁; 2. Since BB₁⊄ the plane ACC₁A₁ and AA₁⊂ the plane ACC₁A₁, according to the determination theorem of line-plane parallelism, BB₁// the plane ACC₁A₁ can be proved; 3. The intersection line of the plane B₁BDE and the plane ACC₁A₁ is DE. Combined with the property theorem of line-plane parallelism, if a straight line is parallel to a plane, and a plane passing through this straight line intersects the plane, then the straight line is parallel to the intersection line, so BB₁//DE.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of the first subquestion is 4 points, 1 point for obtaining AA₁//BB₁ from the properties of the triangular prism; 2 points for proving BB₁// the plane ACC₁A₁ by the determination theorem of line-plane parallelism; 1 point for deducing BB₁//DE by the property theorem of line-plane parallelism.",
+            "knowledgePoint": "GEOMETRY_ALGEBRA_TRANSFORMATION",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(2) If AD/AC=3/4, select two conditions from condition ①, condition ② and condition ③ as known conditions to find the sine value of the angle formed by the straight line AB and the plane B₁BDE. Condition ①: plane ABC⊥plane AA₁C₁C; Condition ②: ∠A₁AC=60°; Condition ③: A₁B=√21.",
+            "solutionSteps": "Take selecting condition ① and ② as an example: 1. Connect A₁C, take O as the midpoint of AC, connect A₁O and BO. Since ∠A₁AC=60° in the rhombus, △A₁AC is an equilateral triangle, so A₁O⊥AC; 2. Because plane ABC⊥plane AA₁C₁C with the intersection line AC, and A₁O⊂ the plane AA₁C₁C, it can be obtained that A₁O⊥plane ABC, so A₁O⊥OB, and BO⊥AC because AB=BC; 3. Establish a space rectangular coordinate system with O as the origin, OB, OC and OA₁ as the x, y and z axes respectively, and obtain the coordinates of each point: O(0,0,0), A(0,-2,0), B(3,0,0), D(0,1,0), vector BD=(-3,1,0), DE=AA₁=(0,2,2√3); 4. Let the normal vector of the plane B₁BDE be $\\vec{n}=(x_1,y_1,z_1)$, obtain the system of equations from $\\vec{n}·\\overrightarrow{BD}=0$ and $\\vec{n}·\\overrightarrow{DE}=0$, let z₁=-√3, and solve to get $\\vec{n}=(1,3,-√3)$; 5. Vector $\\overrightarrow{AB}=(3,2,0)$, let θ be the angle formed by the straight line AB and the plane, according to the line-plane angle formula $sinθ=|cos<\\overrightarrow{AB},\\vec{n}>|=|\frac{\\overrightarrow{AB}·\\vec{n}}{|\\overrightarrow{AB}|·|\\vec{n}|}|$, substitute and calculate to get $sinθ=\frac{9}{13}$; The derivation process is similar when selecting the other two groups of conditions, and the final result is consistent.",
+            "standardAnswer": "$\\frac{9}{13}$",
+            "scoringCriteria": "The total score of the second subquestion is 9 points, 2 points for taking the midpoint of AC and proving the relevant perpendicular relations; 2 points for establishing a space rectangular coordinate system and correctly writing the coordinates of each point; 2 points for finding the normal vector of the plane; 2 points for writing the direction vector of the straight line and substituting it into the line-plane angle formula; 1 point for calculating the final sine value.",
+            "knowledgePoint": "GEOMETRY_ALGEBRA_TRANSFORMATION",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\frac{\\ln x+a}{x+1}$",
+        "subQuestions": [
+          {
+            "question": "（1）若$f'(1)=\\frac{1}{4}$，求a的值；",
+            "solutionSteps": "1. 对函数$f(x)=\\frac{\\ln x+a}{x+1}$求导，根据分式求导法则$(\\frac{u}{v})'=\\frac{u'v-uv'}{v^2}$，令$u=\\ln x+a$，$v=x+1$，则$u'=\\frac{1}{x}$，$v'=1$，得$f'(x)=\\frac{\\frac{1}{x}(x+1)-(\\ln x+a)·1}{(x+1)^2}=\\frac{1+\\frac{1}{x}-\\ln x-a}{(x+1)^2}$；2. 将x=1代入$f'(x)$，得$f'(1)=\\frac{2-a}{4}$；3. 由$f'(1)=\\frac{1}{4}$，列方程$\\frac{2-a}{4}=\\frac{1}{4}$，解得a=1。",
+            "standardAnswer": "$a=1$",
+            "scoringCriteria": "第一问总分4分，正确运用分式求导法则求出$f'(x)$的表达式得2分；将x=1代入$f'(x)$计算出$f'(1)=\\frac{2-a}{4}$得1分；解方程求出a的值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）当$a>2$时，①求证:$f(x)$有唯一的极值点$x_1$；",
+            "solutionSteps": "1. $f(x)$的定义域为$(0,+∞)$，$f'(x)=\\frac{1+\\frac{1}{x}-\\ln x-a}{(x+1)^2}$，令$f'(x)=0$，则等价于$1+\\frac{1}{x}-\\ln x-a=0$，设$g(x)=1+\\frac{1}{x}-\\ln x-a$；2. 分析$g(x)$的单调性，$y=\\frac{1}{x}$和$y=-\\ln x$在$(0,+∞)$上均单调递减，故$g(x)$在$(0,+∞)$上单调递减；3. 取特殊值判断符号，$g(e^{-a})=1+e^a>0$，$g(1)=2-a<0$，根据零点存在定理，$g(x)$在$(0,+∞)$上有唯一零点，设为$x_1$；4. 分析$f'(x)$的符号，当$x∈(0,x_1)$时，$g(x)>0$，$f'(x)>0$，$f(x)$单调递增；当$x∈(x_1,+∞)$时，$g(x)<0$，$f'(x)<0$，$f(x)$单调递减，故$x_1$是$f(x)$唯一的极值点。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问①总分5分，构造函数$g(x)$并写出其表达式得1分；证明$g(x)$在$(0,+∞)$上单调递减得1分；选取特殊值判断$g(e^{-a})$和$g(1)$的符号得1分；由零点存在定理得出$g(x)$有唯一零点得1分；分析$f'(x)$符号并证明$x_1$是唯一极值点得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（2）当$a>2$时，②记$f(x)$的零点为$x_0$，是否存在a使得$\\frac{x_1}{x_0} ≤e^2$? 说明理由。",
+            "solutionSteps": "1. 由$f(x_0)=0$，得$\\ln x_0+a=0$，解得$\\ln x_0=-a$，即$x_0=e^{-a}$；2. 假设存在$a>2$使得$\\frac{x_1}{x_0} ≤e^2$，则$x_1 ≤e^2·x_0=e^{2-a}$，且$e^{2-a}<1$，故$x_1∈(e^{-a},e^{2-a})$；3. 因为$g(x)$在$(0,+∞)$上单调递减，且$g(x_1)=0$，故需满足$g(e^{2-a})≤0$；4. 计算$g(e^{2-a})=1+\\frac{1}{e^{2-a}}-\\ln e^{2-a}-a=1+e^{a-2}-(2-a)-a=e^{a-2}-1$；5. 令$e^{a-2}-1≤0$，解得$a≤2$，与已知条件$a>2$矛盾，故不存在这样的a。",
+            "standardAnswer": "不存在，理由见解析",
+            "scoringCriteria": "第二问②总分6分，由零点定义求出$x_0=e^{-a}$得1分；作出假设并推出$x_1 ≤e^{2-a}$得1分；根据$g(x)$单调性得出$g(e^{2-a})≤0$的结论得1分；正确计算$g(e^{2-a})$的表达式得2分；推出矛盾并得出不存在的结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=\\frac{\\ln x+a}{x+1}$",
+        "subQuestions": [
+          {
+            "question": "(1) If $f'(1)=\\frac{1}{4}$, find the value of a;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)=\\frac{\\ln x+a}{x+1}$. According to the quotient rule of differentiation $(\\frac{u}{v})'=\\frac{u'v-uv'}{v^2}$, let $u=\\ln x+a$, $v=x+1$, then $u'=\\frac{1}{x}$, $v'=1$, and we get $f'(x)=\\frac{\\frac{1}{x}(x+1)-(\\ln x+a)·1}{(x+1)^2}=\\frac{1+\\frac{1}{x}-\\ln x-a}{(x+1)^2}$; 2. Substitute x=1 into $f'(x)$, we get $f'(1)=\\frac{2-a}{4}$; 3. From $f'(1)=\\frac{1}{4}$, set up the equation $\\frac{2-a}{4}=\\frac{1}{4}$ and solve to get a=1.",
+            "standardAnswer": "$a=1$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points, 2 points for correctly finding the expression of $f'(x)$ by the quotient rule of differentiation; 1 point for substituting x=1 into $f'(x)$ to calculate $f'(1)=\\frac{2-a}{4}$; 1 point for solving the equation to find the value of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) When $a>2$, ① Prove that $f(x)$ has a unique extreme point $x_1$;",
+            "solutionSteps": "1. The domain of $f(x)$ is $(0,+∞)$, $f'(x)=\\frac{1+\\frac{1}{x}-\\ln x-a}{(x+1)^2}$. Let $f'(x)=0$, which is equivalent to $1+\\frac{1}{x}-\\ln x-a=0$, let $g(x)=1+\\frac{1}{x}-\\ln x-a$; 2. Analyze the monotonicity of $g(x)$, both $y=\\frac{1}{x}$ and $y=-\\ln x$ are monotonically decreasing on $(0,+∞)$, so $g(x)$ is monotonically decreasing on $(0,+∞)$; 3. Take special values to judge the sign, $g(e^{-a})=1+e^a>0$, $g(1)=2-a<0$. According to the Zero Existence Theorem, $g(x)$ has a unique zero point on $(0,+∞)$, denoted as $x_1$; 4. Analyze the sign of $f'(x)$, when $x∈(0,x_1)$, $g(x)>0$, $f'(x)>0$, $f(x)$ is monotonically increasing; when $x∈(x_1,+∞)$, $g(x)<0$, $f'(x)<0$, $f(x)$ is monotonically decreasing, so $x_1$ is the unique extreme point of $f(x)$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of subquestion ②① is 5 points, 1 point for constructing the function $g(x)$ and writing its expression; 1 point for proving that $g(x)$ is monotonically decreasing on $(0,+∞)$; 1 point for selecting special values to judge the signs of $g(e^{-a})$ and $g(1)$; 1 point for concluding that $g(x)$ has a unique zero point by the Zero Existence Theorem; 1 point for analyzing the sign of $f'(x)$ and proving that $x_1$ is the unique extreme point.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(2) When $a>2$, ② Denote the zero point of $f(x)$ as $x_0$, does there exist a such that $\\frac{x_1}{x_0} ≤e^2$? Explain the reason.",
+            "solutionSteps": "1. From $f(x_0)=0$, we get $\\ln x_0+a=0$, solve to get $\\ln x_0=-a$, that is $x_0=e^{-a}$; 2. Assume that there exists $a>2$ such that $\\frac{x_1}{x_0} ≤e^2$, then $x_1 ≤e^2·x_0=e^{2-a}$, and $e^{2-a}<1$, so $x_1∈(e^{-a},e^{2-a})$; 3. Since $g(x)$ is monotonically decreasing on $(0,+∞)$ and $g(x_1)=0$, it is necessary to satisfy $g(e^{2-a})≤0$; 4. Calculate $g(e^{2-a})=1+\\frac{1}{e^{2-a}}-\\ln e^{2-a}-a=1+e^{a-2}-(2-a)-a=e^{a-2}-1$; 5. Let $e^{a-2}-1≤0$, solve to get $a≤2$, which contradicts the known condition $a>2$, so such a does not exist.",
+            "standardAnswer": "Does not exist, see the analysis for the reason",
+            "scoringCriteria": "The total score of subquestion ②② is 6 points, 1 point for finding $x_0=e^{-a}$ from the definition of zero point; 1 point for making the assumption and deducing $x_1 ≤e^{2-a}$; 1 point for concluding $g(e^{2-a})≤0$ according to the monotonicity of $g(x)$; 2 points for correctly calculating the expression of $g(e^{2-a})$; 1 point for deducing the contradiction and drawing the conclusion of non-existence.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆C：$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的左顶点为$A(-2,0)$，圆$O:x^2+y^2=1$经过椭圆C的上、下顶点。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆C的方程和焦距；",
+            "solutionSteps": "1. 由椭圆左顶点为A(-2,0)，得a=2；2. 圆O:x²+y²=1经过椭圆的上、下顶点，椭圆上、下顶点坐标为(0,±b)，代入圆的方程得b²=1，即b=1；3. 由椭圆中a²=b²+c²，得c=√(a²-b²)=√3，故焦距2c=2√3；4. 代入a、b的值，得椭圆C的方程为$\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "椭圆C的方程为$\\frac{x^2}{4}+y^2=1$，焦距为$2\\sqrt{3}$",
+            "scoringCriteria": "第一问总分4分，由左顶点求出a=2得1分；由圆过椭圆上下顶点求出b=1得1分；根据椭圆中a、b、c的关系求出c=√3得1分；写出椭圆方程和焦距得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）已知P，Q分别是椭圆C和圆O上的动点( P , Q 不在坐标轴上)，且直线PQ与x轴平行，线段AP的垂直平分线与y轴交于点M，圆O在点Q处的切线与y轴交于点N。求线段MN长度的最小值。",
+            "solutionSteps": "1. 设$P(x_0,y_0)(x_0y_0≠0)$，满足$\\frac{x_0^2}{4}+y_0^2=1$，Q$(x_1,y_0)(x_1≠0)$，满足$x_1^2+y_0^2=1$；2. 求AP的中点为$(\\frac{x_0-2}{2},\\frac{y_0}{2})$，直线AP的斜率$k_{AP}=\\frac{y_0}{x_0+2}$，故AP垂直平分线的斜率为$-\\frac{x_0+2}{y_0}$，写出垂直平分线方程：$y-\\frac{y_0}{2}=-\\frac{x_0+2}{y_0}(x-\\frac{x_0-2}{2})$；3. 令x=0，求M点纵坐标，化简得$y_M=-\\frac{3}{2}y_0$，即M$(0,-\\frac{3}{2}y_0)$；4. 圆O在Q点的切线斜率为$-\\frac{x_1}{y_0}$，切线方程为$y-y_0=-\\frac{x_1}{y_0}(x-x_1)$，令x=0，求N点纵坐标，化简得$y_N=\\frac{1}{y_0}$，即N$(0,\\frac{1}{y_0})$；5. 计算|MN|=$|\\frac{1}{y_0}+\\frac{3}{2}y_0|=\\frac{1}{|y_0|}+\\frac{3}{2}|y_0|$，由基本不等式$a+b≥2\\sqrt{ab}$，得$|MN|≥2\\sqrt{\\frac{1}{|y_0|}·\\frac{3}{2}|y_0|}=\\sqrt{6}$，当且仅当$\\frac{1}{|y_0|}=\\frac{3}{2}|y_0|$即$y_0=±\\frac{\\sqrt{6}}{3}$时取等号，故MN长度的最小值为√6。",
+            "standardAnswer": "$\\sqrt{6}$",
+            "scoringCriteria": "第二问总分11分，设出P、Q的坐标并写出满足的方程得2分；求出AP中点和垂直平分线的斜率并写出方程得2分；令x=0求出M点纵坐标得2分；求出圆O在Q点的切线方程并求出N点纵坐标得2分；写出|MN|的表达式并利用基本不等式求最小值得3分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse C: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ with its left vertex at $A(-2,0)$, and the circle O: $x^2+y^2=1$ passes through the upper and lower vertices of the ellipse C.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation of the ellipse C and its focal length;",
+            "solutionSteps": "1. From the left vertex of the ellipse being A(-2,0), we get a=2; 2. The circle O: $x^2+y^2=1$ passes through the upper and lower vertices of the ellipse, the coordinates of the upper and lower vertices of the ellipse are (0,±b), substitute into the equation of the circle to get $b^2=1$, that is b=1; 3. From the relation $a^2=b^2+c^2$ in the ellipse, we get $c=\\sqrt{a^2-b^2}=\\sqrt{3}$, so the focal length 2c=2√3; 4. Substitute the values of a and b to get the equation of the ellipse C as $\\frac{x^2}{4}+y^2=1$.",
+            "standardAnswer": "The equation of the ellipse C is $\\frac{x^2}{4}+y^2=1$, and the focal length is $2\\sqrt{3}$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points, 1 point for finding a=2 from the left vertex; 1 point for finding b=1 from the circle passing through the upper and lower vertices of the ellipse; 1 point for finding c=√3 according to the relation of a, b and c in the ellipse; 1 point for writing the equation of the ellipse and the focal length.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Given that P and Q are moving points on the ellipse C and the circle O respectively (P and Q are not on the coordinate axes), the straight line PQ is parallel to the x-axis, the perpendicular bisector of the line segment AP intersects the y-axis at point M, and the tangent of the circle O at point Q intersects the y-axis at point N. Find the minimum value of the length of the line segment MN.",
+            "solutionSteps": "1. Let $P(x_0,y_0)(x_0y_0≠0)$ satisfying $\\frac{x_0^2}{4}+y_0^2=1$, and Q$(x_1,y_0)(x_1≠0)$ satisfying $x_1^2+y_0^2=1$; 2. Find the midpoint of AP as $(\\frac{x_0-2}{2},\\frac{y_0}{2})$, the slope of the straight line AP is $k_{AP}=\\frac{y_0}{x_0+2}$, so the slope of the perpendicular bisector of AP is $-\\frac{x_0+2}{y_0}$, and write the equation of the perpendicular bisector: $y-\\frac{y_0}{2}=-\\frac{x_0+2}{y_0}(x-\\frac{x_0-2}{2})$; 3. Let x=0, find the ordinate of point M, simplify to get $y_M=-\\frac{3}{2}y_0$, that is M$(0,-\\frac{3}{2}y_0)$; 4. The slope of the tangent of the circle O at point Q is $-\\frac{x_1}{y_0}$, the tangent equation is $y-y_0=-\\frac{x_1}{y_0}(x-x_1)$, let x=0, find the ordinate of point N, simplify to get $y_N=\\frac{1}{y_0}$, that is N$(0,\\frac{1}{y_0})$; 5. Calculate $|MN|=|\\frac{1}{y_0}+\\frac{3}{2}y_0|=\\frac{1}{|y_0|}+\\frac{3}{2}|y_0|$. From the basic inequality $a+b≥2\\sqrt{ab}$, we get $|MN|≥2\\sqrt{\\frac{1}{|y_0|}·\\frac{3}{2}|y_0|}=\\sqrt{6}$, the equal sign holds when and only when $\\frac{1}{|y_0|}=\\frac{3}{2}|y_0|$ i.e. $y_0=±\\frac{\\sqrt{6}}{3}$, so the minimum value of the length of MN is √6.",
+            "standardAnswer": "$\\sqrt{6}$",
+            "scoringCriteria": "The total score of the second subquestion is 11 points, 2 points for setting the coordinates of P and Q and writing the satisfied equations; 2 points for finding the midpoint of AP and the slope of the perpendicular bisector and writing the equation; 2 points for letting x=0 to find the ordinate of point M; 2 points for finding the tangent equation of the circle O at point Q and finding the ordinate of point N; 3 points for writing the expression of |MN| and finding the minimum value by the basic inequality.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知数列A : $a_1,a_2,...,a_{2m}$，其中m是给定的正整数，且$m ≥2$。令$b_i=min \\{a_{2i-1},a_{2i}\\}$，$i=1,⋯,m$，$X(A)=max \\{b_1,b_2,⋯,b_m\\}$。$c_i=max \\{a_{2i-1},a_{2i}\\}$，$i=1,⋯,m$，$Y(A)=min \\{c_1,c_2,⋯,c_m\\}$。这里，max表示括号中各数的最大值，min表示括号中各数的最小值。",
+        "subQuestions": [
+          {
+            "question": "（1）若数列A :2,0,2,1,-4,2，求X(A)，Y(A)的值；",
+            "solutionSteps": "1. 由定义，m=3，计算各$b_i$：$b_1=min{2,0}=0$，$b_2=min{2,1}=1$，$b_3=min{-4,2}=-4$；2. 计算X(A)=max{0,1,-4}=1；3. 计算各$c_i$：$c_1=max{2,0}=2$，$c_2=max{2,1}=2$，$c_3=max{-4,2}=2$；4. 计算Y(A)=min{2,2,2}=2。",
+            "standardAnswer": "$X(A)=1$，$Y(A)=2$",
+            "scoringCriteria": "第一问总分4分，正确计算出三个$b_i$的值得1分；求出X(A)的值得1分；正确计算出三个$c_i$的值得1分；求出Y(A)的值得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）若数列A是首项为1，公比为q的等比数列，且X(A)=Y(A)，求q的值；",
+            "solutionSteps": "1. 若数列A任意两项均不相等，则$b_i≠c_i$，且不同组的$\\{a_{2i-1},a_{2i}\\}$无交集，故$\\{b_1,...,b_m\\}$与$\\{c_1,...,c_m\\}$无交集，X(A)≠Y(A)，不合题意；2. 故数列A存在相等项，等比数列通项为$a_n=q^{n-1}$，存在$i≠j$使$q^{i-1}=q^{j-1}$，q≠0，得q=±1；3. 当q=-1时，数列A为1,-1,1,-1,...,1,-1，计算$b_i=min{1,-1}=-1$，X(A)=-1，$c_i=max{1,-1}=1$，Y(A)=1，X(A)≠Y(A)，舍去；4. 当q=1时，数列A各项均为1，$b_i=1$，X(A)=1，$c_i=1$，Y(A)=1，满足X(A)=Y(A)，故q=1。",
+            "standardAnswer": "$q=1$",
+            "scoringCriteria": "第二问总分5分，证明各项不相等时X(A)≠Y(A)得1分；由等比数列有相等项推出q=±1得2分；验证q=-1时不满足条件得1分；验证q=1时满足条件得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（3）若数列A是公差$d=1$的等差数列，数列B是数列A中所有项的一个排列，求X(B)-Y(B)的所有可能值(用m表示)。",
+            "solutionSteps": "1. 数列A单调递增，$a_n=a_1+n-1$，由定义知X(B)≠Y(B)；2. 确定取值范围：X(B)≥$a_m$，Y(B)≤$a_{m+1}$，故X(B)-Y(B)≥$a_m-a_{m+1}=-1$；X(B)≤$a_{2m-1}$，Y(B)≥$a_2$，故X(B)-Y(B)≤$a_{2m-1}-a_2=2m-3$；3. 证明取值范围内的整数（除0外）均可取到：①当按$x_{2i-1}=a_i$，$x_{2i}=a_{m+i}$排列时，X(B)=$a_m$，Y(B)=$a_{m+1}$，差为-1；②当k=1,2,...,m-1时，构造排列使X(B)=$a_{m+k}$，Y(B)=$a_m$，差为k；③当t=1,2,...,m-2时，构造排列使X(B)=$a_{2m-1}$，Y(B)=$a_{t+1}$，差为2m-2-t，覆盖m到2m-3的整数；4. 综上，X(B)-Y(B)的所有可能值为-1,1,2,...,2m-3。",
+            "standardAnswer": "$-1,1,2,...,2m-3$",
+            "scoringCriteria": "第三问总分6分，确定数列A的单调性并得出X(B)≠Y(B)得1分；求出X(B)-Y(B)的取值范围得2分；构造排列证明-1可取得1分；构造排列证明1到2m-3的整数均可取得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the sequence A: $a_1,a_2,...,a_{2m}$, where m is a given positive integer and $m ≥2$. Let $b_i=min \\{a_{2i-1},a_{2i}\\}$, $i=1,⋯,m$, $X(A)=max \\{b_1,b_2,⋯,b_m\\}$. $c_i=max \\{a_{2i-1},a_{2i}\\}$, $i=1,⋯,m$, $Y(A)=min \\{c_1,c_2,⋯,c_m\\}$. Here, max represents the maximum value of the numbers in the brackets, and min represents the minimum value of the numbers in the brackets.",
+        "subQuestions": [
+          {
+            "question": "(1) If the sequence A: 2,0,2,1,-4,2, find the values of X(A) and Y(A);",
+            "solutionSteps": "1. By definition, m=3, calculate each $b_i$: $b_1=min{2,0}=0$, $b_2=min{2,1}=1$, $b_3=min{-4,2}=-4$; 2. Calculate X(A)=max{0,1,-4}=1; 3. Calculate each $c_i$: $c_1=max{2,0}=2$, $c_2=max{2,1}=2$, $c_3=max{-4,2}=2$; 4. Calculate Y(A)=min{2,2,2}=2.",
+            "standardAnswer": "$X(A)=1$, $Y(A)=2$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points, 1 point for correctly calculating the values of the three $b_i$; 1 point for finding the value of X(A); 1 point for correctly calculating the values of the three $c_i$; 1 point for finding the value of Y(A).",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) If the sequence A is a geometric sequence with the first term 1 and the common ratio q, and X(A)=Y(A), find the value of q;",
+            "solutionSteps": "1. If any two terms of the sequence A are not equal, then $b_i≠c_i$, and the $\\{a_{2i-1},a_{2i}\\}$ of different groups have no intersection, so $\\{b_1,...,b_m\\}$ and $\\{c_1,...,c_m\\}$ have no intersection, X(A)≠Y(A), which is not in line with the meaning of the question; 2. Therefore, the sequence A has equal terms, the general term of the geometric sequence is $a_n=q^{n-1}$, there exists $i≠j$ such that $q^{i-1}=q^{j-1}$, q≠0, so q=±1; 3. When q=-1, the sequence A is 1,-1,1,-1,...,1,-1, calculate $b_i=min{1,-1}=-1$, X(A)=-1, $c_i=max{1,-1}=1$, Y(A)=1, X(A)≠Y(A), discard it; 4. When q=1, all terms of the sequence A are 1, $b_i=1$, X(A)=1, $c_i=1$, Y(A)=1, which satisfies X(A)=Y(A), so q=1.",
+            "standardAnswer": "$q=1$",
+            "scoringCriteria": "The total score of the second subquestion is 5 points, 1 point for proving that X(A)≠Y(A) when all terms are not equal; 2 points for deducing q=±1 from the geometric sequence having equal terms; 1 point for verifying that q=-1 does not satisfy the condition; 1 point for verifying that q=1 satisfies the condition.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(3) If the sequence A is an arithmetic sequence with the common difference $d=1$, and the sequence B is a permutation of all terms in the sequence A, find all possible values of X(B)-Y(B) (expressed in terms of m).",
+            "solutionSteps": "1. The sequence A is monotonically increasing, $a_n=a_1+n-1$, and X(B)≠Y(B) by definition; 2. Determine the value range: X(B)≥$a_m$, Y(B)≤$a_{m+1}$, so X(B)-Y(B)≥$a_m-a_{m+1}=-1$; X(B)≤$a_{2m-1}$, Y(B)≥$a_2$, so X(B)-Y(B)≤$a_{2m-1}-a_2=2m-3$; 3. Prove that all integers in the value range (except 0) are attainable: ① When arranged as $x_{2i-1}=a_i$, $x_{2i}=a_{m+i}$, X(B)=$a_m$, Y(B)=$a_{m+1}$, the difference is -1; ② When k=1,2,...,m-1, construct a permutation such that X(B)=$a_{m+k}$, Y(B)=$a_m$, the difference is k; ③ When t=1,2,...,m-2, construct a permutation such that X(B)=$a_{2m-1}$, Y(B)=$a_{t+1}$, the difference is 2m-2-t, covering the integers from m to 2m-3; 4. In conclusion, all possible values of X(B)-Y(B) are -1,1,2,...,2m-3.",
+            "standardAnswer": "$-1,1,2,...,2m-3$",
+            "scoringCriteria": "The total score of the third subquestion is 6 points, 1 point for determining the monotonicity of the sequence A and concluding X(B)≠Y(B); 2 points for finding the value range of X(B)-Y(B); 1 point for constructing a permutation to prove that -1 is attainable; 2 points for constructing a permutation to prove that all integers from 1 to 2m-3 are attainable.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

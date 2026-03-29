@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2024 Beijing Haidian Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某学校为提升学生的科学素养，要求所有学生在学年中完成规定的学习任务，并获得相应过程性积分。现从该校随机抽取100名学生，获得其科普测试成绩(百分制，且均为整数)及相应过程性积分数据，整理如下表：科普测试成绩x分为90≤x≤100（人数10）、80≤x<90（人数a）两类，对应科普过程性积分相关数据未完整展示。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当a=35时，(ⅰ)从该校随机抽取一名学生，估计这名学生的科普过程性积分不少于3分的概率；",
+            "solutionSteps": "1. 确定科普过程性积分不少于3分的学生人数：由题知该类学生人数为10+35=45人；2. 计算频率：频率=符合条件人数/总抽样人数=45/100=0.45；3. 用频率估计概率，得到所求概率。",
+            "standardAnswer": "0.45",
+            "scoringCriteria": "本小问共4分，正确确定积分不少于3分的学生人数得2分，正确计算频率得1分，明确用频率估计概率并给出最终答案得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅰ）当a=35时，(ⅱ)从该校科普测试成绩不低于80分的学生中随机抽取2名，记X为这2名学生的科普过程性积分之和，估计X的数学期望E(X)；",
+            "solutionSteps": "1. 确定成绩不低于80分的学生总数：35+10=45人；2. 计算积分3分、4分的概率：积3分的概率为35/45=7/9，积4分的概率为10/45=2/9；3. 确定X的所有可能取值：6、7、8；4. 计算各取值的概率：P(X=6)=(7/9)×(7/9)=49/81，P(X=7)=2×(7/9)×(2/9)=28/81，P(X=8)=(2/9)×(2/9)=4/81；5. 代入数学期望公式计算：E(X)=6×49/81+7×28/81+8×4/81=58/9。",
+            "standardAnswer": "$\\\\frac{58}{9}$",
+            "scoringCriteria": "本小问共6分，正确计算成绩不低于80分的总人数及对应积分概率得2分，正确列出X的所有可能取值得1分，正确计算各取值的概率得1分，正确代入期望公式计算得1分，最终结果正确得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从该校科普过程性积分不高于1分的学生中随机抽取一名，其科普测试成绩记为Y₁，上述100名学生科普测试成绩的平均值记为Y₂。若根据表中信息能推断Y₁≤Y₂恒成立，直接写出a的最小值；",
+            "solutionSteps": "根据科普测试成绩的分布特征，结合Y₁≤Y₂恒成立的条件，通过分析不同a取值下的成绩平均值与积分不高于1分学生的成绩关系，推导得出a的最小值。",
+            "standardAnswer": "7",
+            "scoringCriteria": "本小问共3分，直接写出正确的a的最小值得3分，答案错误不得分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In order to improve students' scientific literacy, a school requires all students to complete the specified learning tasks during the academic year and obtain the corresponding process-based credits. 100 students are randomly selected from the school, and the data of their popular science test scores (percentage system, all integers) and corresponding process-based credits are collected and sorted into the following table: the popular science test score x is divided into two categories: 90≤x≤100 (10 students) and 80≤x<90 (a students), and the relevant data of the corresponding process-based credits are not fully displayed.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When a=35, (ⅰ) Randomly select a student from the school, estimate the probability that the student's process-based credit for popular science is no less than 3;",
+            "solutionSteps": "1. Determine the number of students with process-based credit for popular science no less than 3: it is known from the question that the number of such students is 10+35=45; 2. Calculate the frequency: frequency = number of eligible students / total number of sampled students = 45/100=0.45; 3. Estimate the probability by frequency to get the required probability.",
+            "standardAnswer": "0.45",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for correctly determining the number of students with credits no less than 3, 1 point for correctly calculating the frequency, and 1 point for clearly estimating the probability by frequency and giving the final answer.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅰ) When a=35, (ⅱ) Randomly select 2 students from the students whose popular science test scores are not lower than 80, let X be the sum of their process-based credits for popular science, estimate the mathematical expectation E(X) of X;",
+            "solutionSteps": "1. Determine the total number of students with scores not lower than 80: 35+10=45; 2. Calculate the probabilities of 3 credits and 4 credits: the probability of 3 credits is 35/45=7/9, and the probability of 4 credits is 10/45=2/9; 3. Determine all possible values of X: 6, 7, 8; 4. Calculate the probability of each value: P(X=6)=(7/9)×(7/9)=49/81, P(X=7)=2×(7/9)×(2/9)=28/81, P(X=8)=(2/9)×(2/9)=4/81; 5. Substitute into the mathematical expectation formula for calculation: E(X)=6×49/81+7×28/81+8×4/81=58/9.",
+            "standardAnswer": "$\\\\frac{58}{9}$",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for correctly calculating the total number of students with scores not lower than 80 and the corresponding credit probabilities, 1 point for correctly listing all possible values of X, 1 point for correctly calculating the probability of each value, 1 point for correctly substituting into the expectation formula for calculation, and 1 point for the correct final result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select a student from the students whose process-based credit for popular science is no more than 1, record his popular science test score as Y₁, and record the average popular science test score of the above 100 students as Y₂. If it can be inferred from the table information that Y₁≤Y₂ holds for all cases, write down the minimum value of a directly;",
+            "solutionSteps": "According to the distribution characteristics of popular science test scores, combined with the condition that Y₁≤Y₂ holds for all cases, the minimum value of a is derived by analyzing the relationship between the average score under different a values and the scores of students with credits no more than 1.",
+            "standardAnswer": "7",
+            "scoringCriteria": "This sub-question is worth 3 points in total. 3 points for directly writing the correct minimum value of a, and no points for wrong answers.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆G: $x^2+my^2=m$ 的离心率为 $\\\\frac{\\\\sqrt{2}}{2}$ 。$A_1$、$A_2$ 分别是G的左、右顶点，F是G的右焦点。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求m的值及点F的坐标；",
+            "solutionSteps": "1. 将椭圆方程化为标准形式：$\\\\frac{x^2}{m}+\\\\frac{y^2}{1}=1(m>1)$，得$a^2=m$，$b^2=1$；2. 计算$c^2$：$c^2=a^2-b^2=m-1$；3. 由离心率公式$e=\\\\frac{c}{a}=\\\\frac{\\\\sqrt{2}}{2}$得$a^2=2c^2$，即$m=2(m-1)$；4. 解方程得m=2，进而得c=1；5. 确定右焦点F的坐标为(1,0)。",
+            "standardAnswer": "m=2，F(1,0)",
+            "scoringCriteria": "本小问共5分，将椭圆方程化为标准形式并正确写出$a^2$、$b^2$得2分，正确计算$c^2$得1分，结合离心率公式列出方程得1分，正确求解m和F的坐标得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设P是椭圆G上异于顶点的动点，点Q在直线x=2上，且$PF\\\\perp FQ$，直线PQ与x轴交于点M，比较$|MP|$与$\\\\sqrt{|MA_1|\\\\cdot|MA_2|}$的大小；",
+            "solutionSteps": "1. 设$P(x_0,y_0)(x_0y_0≠0)$，$Q(2,y_Q)$，$M(x_M,0)$，由椭圆方程得$x_0^2+2y_0^2=2$；2. 由$PF\\\\perp FQ$，得向量$\\\\overrightarrow{PF}=(x_0-1,y_0)$与$\\\\overrightarrow{FQ}=(1,y_Q)$点积为0，解得$y_Q=\\\\frac{1-x_0}{y_0}$；3. 由Q、P、M三点共线，得$\\\\frac{y_Q-y_0}{2-x_0}=\\\\frac{y_0}{x_0-x_M}$，联立以上式子解得$x_M=\\\\frac{2}{x_0}$；4. 计算$|MP|^2=(x_0-\\\\frac{2}{x_0})^2+y_0^2$，$|MA_1|\\\\cdot|MA_2|=(\\\\frac{2}{x_0}+\\\\sqrt{2})(\\\\frac{2}{x_0}-\\\\sqrt{2})$；5. 代入椭圆方程化简得$|MP|^2-|MA_1|\\\\cdot|MA_2|=\\\\frac{x_0^2}{2}-1<0$，故$|MP|<\\\\sqrt{|MA_1|\\\\cdot|MA_2|}$。",
+            "standardAnswer": "$|MP|<\\\\sqrt{|MA_1|\\\\cdot|MA_2|}$",
+            "scoringCriteria": "本小问共10分，正确设点并写出椭圆约束条件得2分，由垂直关系正确求解$y_Q$得2分，由三点共线正确推导$x_M$得2分，正确写出$|MP|^2$和$|MA_1|\\\\cdot|MA_2|$的表达式得2分，化简并得出大小关系得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the eccentricity of the ellipse G: $x^2+my^2=m$ is $\\\\frac{\\\\sqrt{2}}{2}$. $A_1$ and $A_2$ are the left and right vertices of G respectively, and F is the right focus of G.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the value of m and the coordinates of point F;",
+            "solutionSteps": "1. Convert the ellipse equation to the standard form: $\\\\frac{x^2}{m}+\\\\frac{y^2}{1}=1(m>1)$, and get $a^2=m$, $b^2=1$; 2. Calculate $c^2$: $c^2=a^2-b^2=m-1$; 3. From the eccentricity formula $e=\\\\frac{c}{a}=\\\\frac{\\\\sqrt{2}}{2}$, we get $a^2=2c^2$, that is $m=2(m-1)$; 4. Solve the equation to get m=2, and then get c=1; 5. Determine the coordinates of the right focus F as (1,0).",
+            "standardAnswer": "m=2, F(1,0)",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 2 points for converting the ellipse equation to the standard form and correctly writing $a^2$ and $b^2$, 1 point for correctly calculating $c^2$, 1 point for listing the equation combined with the eccentricity formula, and 1 point for correctly solving the value of m and the coordinates of F.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let P be a moving point on the ellipse G different from the vertices, point Q is on the line x=2, and $PF\\\\perp FQ$, the line PQ intersects the x-axis at point M, compare the sizes of $|MP|$ and $\\\\sqrt{|MA_1|\\\\cdot|MA_2|}$;",
+            "solutionSteps": "1. Let $P(x_0,y_0)(x_0y_0≠0)$, $Q(2,y_Q)$, $M(x_M,0)$, from the ellipse equation, we get $x_0^2+2y_0^2=2$; 2. From $PF\\\\perp FQ$, the dot product of vectors $\\\\overrightarrow{PF}=(x_0-1,y_0)$ and $\\\\overrightarrow{FQ}=(1,y_Q)$ is 0, and solve to get $y_Q=\\\\frac{1-x_0}{y_0}$; 3. From the collinearity of Q, P and M, we get $\\\\frac{y_Q-y_0}{2-x_0}=\\\\frac{y_0}{x_0-x_M}$, and solve to get $x_M=\\\\frac{2}{x_0}$ by combining the above formulas; 4. Calculate $|MP|^2=(x_0-\\\\frac{2}{x_0})^2+y_0^2$, $|MA_1|\\\\cdot|MA_2|=(\\\\frac{2}{x_0}+\\\\sqrt{2})(\\\\frac{2}{x_0}-\\\\sqrt{2})$; 5. Substitute the ellipse equation to simplify and get $|MP|^2-|MA_1|\\\\cdot|MA_2|=\\\\frac{x_0^2}{2}-1<0$, so $|MP|<\\\\sqrt{|MA_1|\\\\cdot|MA_2|}$.",
+            "standardAnswer": "$|MP|<\\\\sqrt{|MA_1|\\\\cdot|MA_2|}$",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 2 points for correctly setting the points and writing the ellipse constraint condition, 2 points for correctly solving $y_Q$ from the perpendicular relationship, 2 points for correctly deriving $x_M$ from the collinearity of three points, 2 points for correctly writing the expressions of $|MP|^2$ and $|MA_1|\\\\cdot|MA_2|$, and 2 points for simplifying and obtaining the size relationship.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=x\\\\cdot e^{a-\\\\frac{1}{2}x}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求$f(x)$的单调区间；",
+            "solutionSteps": "1. 求导函数：$f'(x)=e^{a-\\\\frac{1}{2}x}-\\\\frac{x}{2}\\\\cdot e^{a-\\\\frac{1}{2}x}=e^{a-\\\\frac{1}{2}x}(1-\\\\frac{x}{2})$；2. 令$f'(x)=0$，解得$x=2$；3. 分析导函数符号：当$x<2$时，$f'(x)>0$；当$x>2$时，$f'(x)<0$；4. 确定单调区间：递增区间为$(-\\\\infty,2)$，递减区间为$(2,+\\\\infty)$。",
+            "standardAnswer": "单调递增区间是$(-\\\\infty,2)$，单调递减区间是$(2,+\\\\infty)$",
+            "scoringCriteria": "本小问共5分，正确求导并化简导函数得3分，正确求解导函数零点得1分，正确分析导函数符号并写出单调区间得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若函数$g(x)=|f(x)+e^{-2}a|$，$x\\\\in(0,+\\\\infty)$存在最大值，求a的取值范围；",
+            "solutionSteps": "1. 令$h(x)=f(x)+e^{-2}a$，则$h'(x)=f'(x)$，故$h(x)$在$(-\\\\infty,2)$递增，$(2,+\\\\infty)$递减，在$x=2$处取最大值$h(2)=2e^{a-1}+e^{-2}a$；2. 分析$x\\\\in(0,+\\\\infty)$时$h(x)$的范围：$h(x)\\\\in(h(0),h(2)]$，其中$h(0)=e^{-2}a$；3. $g(x)=|h(x)|$存在最大值的充要条件是$|h(2)|\\\\geq|h(0)|$，即$|2e^{a-1}+e^{-2}a|\\\\geq|e^{-2}a|$；4. 化简不等式得$e^{a-1}+e^{-2}a\\\\geq0$，令$m(x)=e^{x-1}+e^{-2}x$，求导得$m'(x)=e^{x-1}+e^{-2}>0$，故$m(x)$单调递增；5. 由$m(-1)=e^{-2}-e^{-2}=0$，得$m(a)\\\\geq0$的充要条件为$a\\\\geq-1$。",
+            "standardAnswer": "$[-1,+\\\\infty)$",
+            "scoringCriteria": "本小问共10分，正确构造函数$h(x)$并分析其单调性与最大值得2分，正确确定$x\\\\in(0,+\\\\infty)$时$h(x)$的取值范围得2分，正确得出$g(x)$存在最大值的充要条件得2分，正确化简不等式并构造函数$m(x)$得2分，分析$m(x)$单调性并求解a的范围得2分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=x\\\\cdot e^{a-\\\\frac{1}{2}x}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the monotonic intervals of $f(x)$;",
+            "solutionSteps": "1. Find the derivative function: $f'(x)=e^{a-\\\\frac{1}{2}x}-\\\\frac{x}{2}\\\\cdot e^{a-\\\\frac{1}{2}x}=e^{a-\\\\frac{1}{2}x}(1-\\\\frac{x}{2})$; 2. Let $f'(x)=0$ and solve to get $x=2$; 3. Analyze the sign of the derivative function: when $x<2$, $f'(x)>0$; when $x>2$, $f'(x)<0$; 4. Determine the monotonic intervals: the increasing interval is $(-\\\\infty,2)$, and the decreasing interval is $(2,+\\\\infty)$.",
+            "standardAnswer": "The monotone increasing interval is $(-\\\\infty,2)$, and the monotone decreasing interval is $(2,+\\\\infty)$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 3 points for correctly finding and simplifying the derivative function, 1 point for correctly solving the zero point of the derivative function, and 1 point for correctly analyzing the sign of the derivative function and writing the monotonic intervals.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If the function $g(x)=|f(x)+e^{-2}a|$ has a maximum value for $x\\\\in(0,+\\\\infty)$, find the range of the value of a;",
+            "solutionSteps": "1. Let $h(x)=f(x)+e^{-2}a$, then $h'(x)=f'(x)$, so $h(x)$ is increasing on $(-\\\\infty,2)$ and decreasing on $(2,+\\\\infty)$, and attains the maximum value at $x=2$: $h(2)=2e^{a-1}+e^{-2}a$; 2. Analyze the range of $h(x)$ when $x\\\\in(0,+\\\\infty)$: $h(x)\\\\in(h(0),h(2)]$, where $h(0)=e^{-2}a$; 3. The necessary and sufficient condition for $g(x)=|h(x)|$ to have a maximum value is $|h(2)|\\\\geq|h(0)|$, that is $|2e^{a-1}+e^{-2}a|\\\\geq|e^{-2}a|$; 4. Simplify the inequality to get $e^{a-1}+e^{-2}a\\\\geq0$, let $m(x)=e^{x-1}+e^{-2}x$, find the derivative to get $m'(x)=e^{x-1}+e^{-2}>0$, so $m(x)$ is monotonically increasing; 5. From $m(-1)=e^{-2}-e^{-2}=0$, the necessary and sufficient condition for $m(a)\\\\geq0$ is $a\\\\geq-1$.",
+            "standardAnswer": "$[-1,+\\\\infty)$",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 2 points for correctly constructing the function $h(x)$ and analyzing its monotonicity and maximum value, 2 points for correctly determining the value range of $h(x)$ when $x\\\\in(0,+\\\\infty)$, 2 points for correctly obtaining the necessary and sufficient condition for $g(x)$ to have a maximum value, 2 points for correctly simplifying the inequality and constructing the function $m(x)$, and 2 points for analyzing the monotonicity of $m(x)$ and solving the range of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知Q: $a_1,a_2,\\cdots,a_m$ $(m ≥2, m \\in N^*)$为有穷正整数数列，其最大项的值为m，且当$k=0,1,\\cdots,m-1$时，均有$a_{km+i} ≠a_{km+j} (1 ≤i<j ≤m)$。设$b_0=0$，对于$t \\in{0,1,\\cdots,m-1}$，定义$b_{t+1}=min \\{n | n>b_t, a_n>t\\}$，其中，$min M$表示数集M中最小的数。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若Q:3,1,2,2,1,3,1,2,3，写出$b_1$，$b_3$的值；",
+            "solutionSteps": "1. 求$b_1$：$t=0$时，$b_1=min\\{n|n>0,a_n>0\\}$，数列所有项均为正整数，最小的n为1，故$b_1=1$；2. 求$b_3$：先求$b_2=min\\{n|n>1,a_n>1\\}$，满足的最小n为3；再求$b_3=min\\{n|n>3,a_n>2\\}$，满足的最小n为6，故$b_3=6$。",
+            "standardAnswer": "$b_1=1$，$b_3=6$",
+            "scoringCriteria": "本小问共4分，正确求出$b_1$的值得2分，正确求出$b_3$的值得2分，单值错误扣对应分值。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若存在Q满足: $b_1+b_2+b_3=11$，求m的最小值；",
+            "solutionSteps": "1. 由题意知$m\\\\geq3$，先验证$m=3$：此时$b_1=1$，$b_2\\\\leq3$，$b_3\\\\leq6$，故$b_1+b_2+b_3\\\\leq10$，不满足条件；2. 验证$m=4$：构造数列Q:4,1,3,2,1,2,3,4,1,2,3,4,1,2,3,4$，计算得$b_1=1$，$b_2=3$，$b_3=7$，满足$b_1+b_2+b_3=11$；3. 故m的最小值为4。",
+            "standardAnswer": "4",
+            "scoringCriteria": "本小问共5分，正确分析$m\\\\geq3$并验证$m=3$不满足条件得2分，构造$m=4$的符合条件的数列得2分，得出m的最小值为4得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅲ）当$m=2024$时，证明:对所有Q，$b_{2023} ≤20240$；",
+            "solutionSteps": "1. 由定义知$b_{t+1}>b_t$，先证$b_{1012}\\\\leq2024$：若$b_{t+1}\\\\leq2024$，小于$b_{t+1}$的n至多有$2t$个，故$b_{t+1}\\\\leq2t+1$，令$2t+1\\\\leq2024$得$t+1\\\\leq1012$，即$b_{1012}\\\\leq2024$；2. 定义$C_1=1012$，$C_{k+1}=[\\\\frac{2025+C_k}{2}]$，依次计算得$C_{10}=2023$；3. 对$k\\\\in N^*$，若$b_t\\\\leq2024k<b_{t+1}$，可推得$b_{t+l+1}\\\\leq2024k+t+2l+1$，令$t+2l+1\\\\leq2024$，可得$b_{C_{k+1}}\\\\leq2024(k+1)$；4. 故$b_{2023}=b_{C_{10}}\\\\leq2024×10=20240$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本小问共6分，正确证明$b_{1012}\\\\leq2024$得2分，正确定义递推式并计算出$C_{10}=2023$得2分，完成后续推导并得出结论得2分，写出部分合理推理步骤可酌情给分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that Q: $a_1,a_2,\\cdots,a_m$ $(m ≥2, m \\in N^*)$ is a finite positive integer sequence, the value of its maximum term is m, and for $k=0,1,\\cdots,m-1$, $a_{km+i} ≠a_{km+j} (1 ≤i<j ≤m)$ always holds. Let $b_0=0$, for $t \\in{0,1,\\cdots,m-1}$, define $b_{t+1}=min \\{n | n>b_t, a_n>t\\}$, where $min M$ denotes the minimum number in the number set M.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If Q:3,1,2,2,1,3,1,2,3, write down the values of $b_1$ and $b_3$;",
+            "solutionSteps": "1. Find $b_1$: when $t=0$, $b_1=min\\{n|n>0,a_n>0\\}$, all terms of the sequence are positive integers, the minimum n is 1, so $b_1=1$; 2. Find $b_3$: first find $b_2=min\\{n|n>1,a_n>1\\}$, the minimum n satisfying the condition is 3; then find $b_3=min\\{n|n>3,a_n>2\\}$, the minimum n satisfying the condition is 6, so $b_3=6$.",
+            "standardAnswer": "$b_1=1$, $b_3=6$",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for correctly finding the value of $b_1$, 2 points for correctly finding the value of $b_3$, and deduct the corresponding points for a single wrong value.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If there exists Q such that $b_1+b_2+b_3=11$, find the minimum value of m;",
+            "solutionSteps": "1. It is known from the meaning of the question that $m\\\\geq3$, first verify $m=3$: at this time $b_1=1$, $b_2\\\\leq3$, $b_3\\\\leq6$, so $b_1+b_2+b_3\\\\leq10$, which does not satisfy the condition; 2. Verify $m=4$: construct the sequence Q:4,1,3,2,1,2,3,4,1,2,3,4,1,2,3,4$, calculate to get $b_1=1$, $b_2=3$, $b_3=7$, which satisfies $b_1+b_2+b_3=11$; 3. Therefore, the minimum value of m is 4.",
+            "standardAnswer": "4",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 2 points for correctly analyzing $m\\\\geq3$ and verifying that $m=3$ does not satisfy the condition, 2 points for constructing a sequence meeting the conditions when $m=4$, and 1 point for concluding that the minimum value of m is 4.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅲ) When $m=2024$, prove that for all Q, $b_{2023} ≤20240$;",
+            "solutionSteps": "1. It can be known from the definition that $b_{t+1}>b_t$, first prove $b_{1012}\\\\leq2024$: if $b_{t+1}\\\\leq2024$, the number of n less than $b_{t+1}$ is at most $2t$, so $b_{t+1}\\\\leq2t+1$, let $2t+1\\\\leq2024$ to get $t+1\\\\leq1012$, that is $b_{1012}\\\\leq2024$; 2. Define $C_1=1012$, $C_{k+1}=[\\\\frac{2025+C_k}{2}]$, calculate in turn to get $C_{10}=2023$; 3. For $k\\\\in N^*$, if $b_t\\\\leq2024k<b_{t+1}$, it can be deduced that $b_{t+l+1}\\\\leq2024k+t+2l+1$, let $t+2l+1\\\\leq2024$, then $b_{C_{k+1}}\\\\leq2024(k+1)$; 4. Therefore, $b_{2023}=b_{C_{10}}\\\\leq2024×10=20240$, which is proved.",
+            "standardAnswer": "The proof is shown in the analysis",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for correctly proving $b_{1012}\\\\leq2024$, 2 points for correctly defining the recurrence formula and calculating $C_{10}=2023$, and 2 points for completing the subsequent derivation and drawing the conclusion. Partial reasonable reasoning steps can be given points as appropriate.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

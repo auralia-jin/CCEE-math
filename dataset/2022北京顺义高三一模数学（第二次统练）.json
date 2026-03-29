@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2022 Beijing Shunyi Senior Three First Mock Mathematics (Second Unified Practice)",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "为了解顺义区某中学高一年级学生身体素质情况，对高一年级的(1)班~ (8)班进行了抽测，采取如下方式抽样：每班随机各抽10 名学生进行身体素质监测。经统计，每班10 名学生中身体素质监测成绩达到优秀的人数散点图如下( x 轴表示对应的班号， y 轴表示对应的优秀人数)：",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若用散点图预测高一年级学生身体素质情况，从高一年级学生中任意抽测1 人，求该生身体素质监测成绩达到优秀的概率；",
+            "solutionSteps": "1. 统计抽取的80名学生中身体素质达到优秀的总人数：8+6+9+4+7+5+9+8=56人；\\n2. 根据古典概型概率公式，概率P=优秀人数/总抽测人数；\\n3. 代入数据计算得P=56/80，化简为7/10。",
+            "standardAnswer": "$\\\\frac{7}{10}$",
+            "scoringCriteria": "第一问总分5分，正确统计出优秀总人数得3分，正确运用古典概型概率公式得1分，计算并化简结果正确得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若从以上统计的高一(4)班的10 名学生中抽出2 人，设 X 表示2 人中身体素质监测成绩达到优秀的人数，求 X 的分布列及其数学期望；",
+            "solutionSteps": "1. 确定X的所有可能取值为0、1、2；\\n2. 明确高一(4)班10名学生中优秀4人，非优秀6人；\\n3. 根据组合数公式计算各取值概率：P(X=0)=C_{6}^{2}/C_{10}^{2}=1/3，P(X=1)=C_{6}^{1}C_{4}^{1}/C_{10}^{2}=8/15，P(X=2)=C_{4}^{2}/C_{10}^{2}=2/15；\\n4. 列出X的分布列；\\n5. 根据数学期望公式E(X)=0×P(X=0)+1×P(X=1)+2×P(X=2)，代入数据计算得E(X)=4/5。",
+            "standardAnswer": "分布列：X取0时概率为$\\\\frac{1}{3}$，X取1时概率为$\\\\frac{8}{15}$，X取2时概率为$\\\\frac{2}{15}$；数学期望为$\\\\frac{4}{5}$",
+            "scoringCriteria": "第二问总分5分，正确确定X的可能取值得1分，正确计算出三个概率各得1分（共3分），正确计算数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）假设每个班学生身体素质优秀的概率与该班随机抽到的10名学生的身体素质优秀率相等。现在从每班中分别随机抽取1 名同学，用“$\\\\xi_{k}=1$”表示第 k 班抽到的这名同学身体素质优秀，“$\\\\xi_{k}=0$”表示第 k 班抽到的这名同学身体素质不是优秀 $(k=1,2, ..., 8)$。写出方差 $D \\xi_{1}$ , $D \\xi_{2}$ , $D \\xi_{3}$ , $D \\xi_{4}$ 的大小关系(不必写出证明过程)。",
+            "solutionSteps": "1. 根据两点分布的方差公式D(ξ)=p(1-p)，分别计算四个方差：\\n   D(ξ₁)=4/5×1/5=4/25，D(ξ₂)=3/5×2/5=6/25，D(ξ₃)=9/10×1/10=9/100，D(ξ₄)=2/5×3/5=6/25；\\n2. 比较四个方差的大小，得出关系。",
+            "standardAnswer": "$D(\\\\xi_{2})=D(\\\\xi_{4})>D(\\\\xi_{1})>D(\\\\xi_{3})$",
+            "scoringCriteria": "第三问总分3分，正确写出方差大小关系得3分，写错不得分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "To understand the physical fitness of senior one students in a middle school in Shunyi District, a sampling test was conducted on Class 1 to Class 8 of senior one. The sampling method is as follows: 10 students are randomly selected from each class for physical fitness monitoring. According to statistics, the scatter plot of the number of students with excellent physical fitness monitoring results among 10 students in each class is as follows (the x-axis represents the corresponding class number, and the y-axis represents the corresponding number of excellent students):",
+        "subQuestions": [
+          {
+            "question": "(I) If the physical fitness of senior one students is predicted by the scatter plot, and one student is randomly selected from senior one students for the test, find the probability that the student's physical fitness monitoring result is excellent;",
+            "solutionSteps": "1. Count the total number of students with excellent physical fitness among the 80 sampled students: 8+6+9+4+7+5+9+8=56;\\n2. According to the classical probability formula, the probability P = the number of excellent students / the total number of sampled students;\\n3. Substitute the data to calculate P=56/80, and simplify it to 7/10.",
+            "standardAnswer": "$\\\\frac{7}{10}$",
+            "scoringCriteria": "The total score of the first sub-question is 5 points. 3 points for correctly counting the total number of excellent students, 1 point for correctly applying the classical probability formula, and 1 point for correctly calculating and simplifying the result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) If 2 students are selected from the 10 students of Class 4, Senior One counted above, let X represent the number of students with excellent physical fitness monitoring results among the 2 students, find the distribution column and mathematical expectation of X;",
+            "solutionSteps": "1. Determine all possible values of X as 0, 1, 2;\\n2. Clarify that there are 4 excellent students and 6 non-excellent students among the 10 students in Class 4, Senior One;\\n3. Calculate the probability of each value according to the combination formula: P(X=0)=C_{6}^{2}/C_{10}^{2}=1/3, P(X=1)=C_{6}^{1}C_{4}^{1}/C_{10}^{2}=8/15, P(X=2)=C_{4}^{2}/C_{10}^{2}=2/15;\\n4. List the distribution column of X;\\n5. According to the mathematical expectation formula E(X)=0×P(X=0)+1×P(X=1)+2×P(X=2), substitute the data to calculate E(X)=4/5.",
+            "standardAnswer": "Distribution column: the probability is $\\\\frac{1}{3}$ when X=0, $\\\\frac{8}{15}$ when X=1, $\\\\frac{2}{15}$ when X=2; the mathematical expectation is $\\\\frac{4}{5}$",
+            "scoringCriteria": "The total score of the second sub-question is 5 points. 1 point for correctly determining the possible values of X, 1 point for each of the three correctly calculated probabilities (3 points in total), and 1 point for correctly calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(III) Assume that the probability of a student's physical fitness being excellent in each class is equal to the excellent rate of physical fitness of the 10 students randomly selected from the class. Now one student is randomly selected from each class, let “$\\\\xi_{k}=1$” indicate that the student selected from the k-th class has excellent physical fitness, and “$\\\\xi_{k}=0$” indicate that the student selected from the k-th class does not have excellent physical fitness $(k=1,2, ..., 8)$. Write the size relationship of the variances $D \\xi_{1}$ , $D \\xi_{2}$ , $D \\xi_{3}$ , $D \\xi_{4}$ (no need to write the proof process).",
+            "solutionSteps": "1. Calculate the four variances respectively according to the variance formula of the two-point distribution D(ξ)=p(1-p):\\n   D(ξ₁)=4/5×1/5=4/25, D(ξ₂)=3/5×2/5=6/25, D(ξ₃)=9/10×1/10=9/100, D(ξ₄)=2/5×3/5=6/25;\\n2. Compare the sizes of the four variances to obtain the relationship.",
+            "standardAnswer": "$D(\\\\xi_{2})=D(\\\\xi_{4})>D(\\\\xi_{1})>D(\\\\xi_{3})$",
+            "scoringCriteria": "The total score of the third sub-question is 3 points. 3 points for correctly writing the size relationship of the variances, and no points for wrong answers.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）已知椭圆 $C: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 过定点(2,0)，离心率 $e=\\\\frac{\\\\sqrt{3}}{2}$，求椭圆 C 的标准方程；",
+            "solutionSteps": "1. 由椭圆过定点(2,0)得a=2；\\n2. 根据离心率公式e=c/a，代入e=√3/2、a=2，解得c=√3；\\n3. 由椭圆中a²=b²+c²的关系，得b²=a²-c²=4-3=1，即b=1；\\n4. 代入椭圆标准方程形式，得到椭圆C的标准方程。",
+            "standardAnswer": "$\\\\frac{x^{2}}{4}+y^{2}=1$",
+            "scoringCriteria": "第一问总分4分，由定点求出a的值得1分，根据离心率求出c的值得1分，利用a、b、c的关系求出b²得1分，写出椭圆标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）斜率为 $\\\\frac{1}{2}$ 的直线与椭圆交于A、B两点，O为坐标原点，求 $\\\\triangle O A B$ 面积的最大值及此时直线 $A B$ 的方程。",
+            "solutionSteps": "1. 设直线AB的方程为y=1/2 x+m，设A(x₁,y₁)、B(x₂,y₂)；\\n2. 联立直线与椭圆方程$\\\\begin{cases}y=\\\\frac{1}{2} x+m \\\\ \\\\frac{x^{2}}{4}+y^{2}=1\\end{cases}$，消去y化简得x²+2mx+2m²-2=0；\\n3. 由判别式△>0得4m²-4(2m²-2)>0，解得m²<2；\\n4. 根据韦达定理得x₁+x₂=-2m，x₁·x₂=2m²-2；\\n5. 由弦长公式计算|AB|=√(1+(1/2)²)·√[(x₁+x₂)²-4x₁x₂]=√5·√(2-m²)；\\n6. 求原点O到直线AB的距离d=|2m|/√5；\\n7. 根据三角形面积公式S=1/2·|AB|·d，代入化简得S=√[m²(2-m²)]；\\n8. 由基本不等式，m²(2-m²)≤[(m²+2-m²)/2]²=1，当且仅当m²=2-m²即m=±1时取等号，得面积最大值1；\\n9. 代入m的值，得到此时直线AB的方程。",
+            "standardAnswer": "△OAB面积的最大值为1，此时直线AB的方程为$y=\\\\frac{1}{2}x\\\\pm1$",
+            "scoringCriteria": "第二问总分10分，正确设出直线方程得1分，联立方程并消元化简正确得2分，求出判别式并确定m的范围得1分，正确运用韦达定理得1分，弦长公式计算正确得1分，求出原点到直线的距离正确得1分，写出面积表达式并化简得1分，利用基本不等式求出最大值及取等条件得1分，写出直线方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(I) Given that the ellipse $C: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ passes through the fixed point (2,0) and has an eccentricity $e=\\\\frac{\\\\sqrt{3}}{2}$, find the standard equation of the ellipse C;",
+            "solutionSteps": "1. Obtain a=2 from the ellipse passing through the fixed point (2,0);\\n2. Substitute e=√3/2 and a=2 into the eccentricity formula e=c/a, and solve to get c=√3;\\n3. From the relationship a²=b²+c² in the ellipse, get b²=a²-c²=4-3=1, that is, b=1;\\n4. Substitute into the standard form of the ellipse equation to get the standard equation of ellipse C.",
+            "standardAnswer": "$\\\\frac{x^{2}}{4}+y^{2}=1$",
+            "scoringCriteria": "The total score of the first sub-question is 4 points. 1 point for finding the value of a from the fixed point, 1 point for finding the value of c according to the eccentricity, 1 point for finding b² using the relationship of a, b and c, and 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) A straight line with a slope of $\\\\frac{1}{2}$ intersects the ellipse at points A and B, O is the origin of coordinates, find the maximum area of $\\\\triangle O A B$ and the equation of the straight line AB at this time.",
+            "solutionSteps": "1. Let the equation of the straight line AB be y=1/2 x+m, and let A(x₁,y₁), B(x₂,y₂);\\n2. Simultaneously solve the equations of the straight line and the ellipse $\\\\begin{cases}y=\\\\frac{1}{2} x+m \\\\ \\\\frac{x^{2}}{4}+y^{2}=1\\end{cases}$, eliminate y and simplify to get x²+2mx+2m²-2=0;\\n3. From the discriminant △>0, get 4m²-4(2m²-2)>0, and solve to get m²<2;\\n4. According to Vieta's formulas, get x₁+x₂=-2m, x₁·x₂=2m²-2;\\n5. Calculate |AB| by the chord length formula: |AB|=√(1+(1/2)²)·√[(x₁+x₂)²-4x₁x₂]=√5·√(2-m²);\\n6. Find the distance d from the origin O to the straight line AB: d=|2m|/√5;\\n7. Substitute into the triangle area formula S=1/2·|AB|·d, simplify to get S=√[m²(2-m²)];\\n8. From the basic inequality, m²(2-m²)≤[(m²+2-m²)/2]²=1, the equal sign holds when and only when m²=2-m², that is, m=±1, and the maximum area is 1;\\n9. Substitute the value of m to get the equation of the straight line AB at this time.",
+            "standardAnswer": "The maximum area of △OAB is 1, and the equation of the straight line AB at this time is $y=\\\\frac{1}{2}x\\\\pm1$",
+            "scoringCriteria": "The total score of the second sub-question is 10 points. 1 point for correctly setting the equation of the straight line, 2 points for correctly simulating and simplifying the equations by eliminating y, 1 point for finding the discriminant and determining the range of m, 1 point for correctly applying Vieta's formulas, 1 point for correctly calculating by the chord length formula, 1 point for correctly finding the distance from the origin to the straight line, 1 point for writing and simplifying the area expression, 1 point for finding the maximum value and the equal sign condition by the basic inequality, and 1 point for writing the equation of the straight line.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）已知函数 $f(x)=(x+1) e^{-x}$，判断方程 $f(x)=1$ 解的个数，并说明理由；",
+            "solutionSteps": "1. 对函数f(x)求导，f'(x)=-x e^{-x}；\\n2. 分析导数的符号：令f'(x)>0，解得x<0，令f'(x)<0，解得x>0；\\n3. 得出函数单调性：f(x)在(-∞,0)上单调递增，在(0,+∞)上单调递减；\\n4. 求出函数的最大值f(0)=(0+1)e⁰=1；\\n5. 结合单调性可知，f(x)≤1，当且仅当x=0时取等号，故方程f(x)=1仅有一个解x=0。",
+            "standardAnswer": "方程$f(x)=1$仅有一个实数解，理由见解析",
+            "scoringCriteria": "第一问总分5分，正确求导得1分，正确分析导数符号并得出函数单调性得2分，求出函数最大值得1分，结合单调性判断方程解的个数并说明理由得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）当 $a>0$，设 $g(x)=f(x)+\\\\frac{1}{2} a x^{2}$，求 $g(x)$ 的单调区间。",
+            "solutionSteps": "1. 写出g(x)的表达式：g(x)=(x+1)e⁻ˣ + 1/2 a x²；\\n2. 对g(x)求导得g'(x)=x(a - e⁻ˣ)；\\n3. 令g'(x)=0，解得x=0或x=-lna；\\n4. 分三种情况讨论：\\n   ①当0<a<1时，-lna>0，令g'(x)>0，解得x<0或x>-lna，令g'(x)<0，解得0<x<-lna，故增区间为(-∞,0)、(-lna,+∞)，减区间为(0,-lna)；\\n   ②当a=1时，-lna=0，g'(x)=x(1 - e⁻ˣ)≥0恒成立，故g(x)在R上单调递增；\\n   ③当a>1时，-lna<0，令g'(x)>0，解得x<-lna或x>0，令g'(x)<0，解得-lna<x<0，故增区间为(-∞,-lna)、(0,+∞)，减区间为(-lna,0)。",
+            "standardAnswer": "当$0<a<1$时，单调增区间为$(-\\\\infty, 0)$、$(-\\\\ln a,+\\\\infty)$，单调减区间为$(0,-\\\\ln a)$；当$a=1$时，单调增区间为$R$；当$a>1$时，单调增区间为$(-\\\\infty,-\\\\ln a)$、$(0,+\\\\infty)$，单调减区间为$(-\\\\ln a, 0)$",
+            "scoringCriteria": "第二问总分10分，正确写出g(x)表达式并求导得2分，正确求出导数的零点得1分，分0<a<1、a=1、a>1三种情况讨论各得2分（共6分），每种情况正确写出单调区间得1分，结论总结正确得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(I) Given the function $f(x)=(x+1) e^{-x}$, judge the number of solutions of the equation $f(x)=1$ and explain the reasons;",
+            "solutionSteps": "1. Find the derivative of the function f(x), f'(x)=-x e^{-x};\\n2. Analyze the sign of the derivative: let f'(x)>0, solve to get x<0, let f'(x)<0, solve to get x>0;\\n3. Obtain the monotonicity of the function: f(x) is monotonically increasing on (-∞,0) and monotonically decreasing on (0,+∞);\\n4. Find the maximum value of the function f(0)=(0+1)e⁰=1;\\n5. It can be known from the monotonicity that f(x)≤1, and the equal sign holds if and only if x=0, so the equation f(x)=1 has only one solution x=0.",
+            "standardAnswer": "The equation $f(x)=1$ has only one real solution, see the analysis for reasons",
+            "scoringCriteria": "The total score of the first sub-question is 5 points. 1 point for correctly finding the derivative, 2 points for correctly analyzing the sign of the derivative and obtaining the monotonicity of the function, 1 point for finding the maximum value of the function, and 1 point for judging the number of solutions of the equation and explaining the reasons in combination with the monotonicity.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(II) When $a>0$, let $g(x)=f(x)+\\\\frac{1}{2} a x^{2}$, find the monotonic intervals of $g(x)$. ",
+            "solutionSteps": "1. Write the expression of g(x): g(x)=(x+1)e⁻ˣ + 1/2 a x²;\\n2. Find the derivative of g(x) to get g'(x)=x(a - e⁻ˣ);\\n3. Let g'(x)=0, solve to get x=0 or x=-lna;\\n4. Discuss in three cases: \\n   ①When 0<a<1, -lna>0, let g'(x)>0, solve to get x<0 or x>-lna, let g'(x)<0, solve to get 0<x<-lna, so the increasing intervals are (-∞,0), (-lna,+∞), and the decreasing interval is (0,-lna);\\n   ②When a=1, -lna=0, g'(x)=x(1 - e⁻ˣ)≥0 holds for all x, so g(x) is monotonically increasing on R;\\n   ③When a>1, -lna<0, let g'(x)>0, solve to get x<-lna or x>0, let g'(x)<0, solve to get -lna<x<0, so the increasing intervals are (-∞,-lna), (0,+∞), and the decreasing interval is (-lna,0).",
+            "standardAnswer": "When $0<a<1$, the monotonic increasing intervals are $(-\\\\infty, 0)$ and $(-\\\\ln a,+\\\\infty)$, and the monotonic decreasing interval is $(0,-\\\\ln a)$; when $a=1$, the monotonic increasing interval is $R$; when $a>1$, the monotonic increasing intervals are $(-\\\\infty,-\\\\ln a)$ and $(0,+\\\\infty)$, and the monotonic decreasing interval is $(-\\\\ln a, 0)$",
+            "scoringCriteria": "The total score of the second sub-question is 10 points. 2 points for correctly writing the expression of g(x) and finding the derivative, 1 point for correctly finding the zero points of the derivative, 2 points for each of the three discussion cases of 0<a<1, a=1 and a>1 (6 points in total), 1 point for correctly writing the monotonic intervals for each case, and 1 point for correctly summarizing the conclusions.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设正整数数列 $\\\\{a_{n}\\\\}$ 满足 $a_{n+1}= \\\\begin{cases}\\\\frac{a_{n}}{2}, & a_{n}为偶数 \\\\ a_{n}+3, & a_{n}为奇数\\end{cases} (n=1,2, ...)$",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若 $a_{5}=1$，请写出 $a_{1}$ 所有可能的取值；",
+            "solutionSteps": "1. 由a₅=1，逆向推导a₄：a₅由a₄得到，若a₄为偶数则a₅=a₄/2=1→a₄=2；若a₄为奇数则a₅=a₄+3=1→a₄=-2（非正整数，舍去），故a₄=2；\\n2. 推导a₃：a₄=2，若a₃为偶数则a₄=a₃/2=2→a₃=4；若a₃为奇数则a₄=a₃+3=2→a₃=-1（舍去），故a₃=4；\\n3. 推导a₂：a₃=4，若a₂为偶数则a₃=a₂/2=4→a₂=8；若a₂为奇数则a₃=a₂+3=4→a₂=1，故a₂=8或1；\\n4. 分情况推导a₁：\\n   ①当a₂=8时，若a₁为偶数则a₂=a₁/2=8→a₁=16；若a₁为奇数则a₂=a₁+3=8→a₁=5；\\n   ②当a₂=1时，若a₁为偶数则a₂=a₁/2=1→a₁=2；若a₁为奇数则a₂=a₁+3=1→a₁=-2（舍去）；\\n5. 综上，a₁的可能取值为16、5、2。",
+            "standardAnswer": "$2,5,16$",
+            "scoringCriteria": "第一问总分4分，逆向正确推导得出a₄得1分，推导得出a₃得1分，推导得出a₂的两个可能值得1分，分情况推导得出a₁的所有可能值得1分。",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）记集合 $M=\\\\{a_{n} | n \\\\in N^{*}\\\\}$，证明：若集合 M 存在一个元素是3 的倍数，则 M 的所有元素都是3 的倍数；",
+            "solutionSteps": "1. 设存在正整数k，使得aₖ是3的倍数，用数学归纳法证明对任意n∈N*，aₙ是3的倍数；\\n2. 基础步：n=k时，aₖ是3的倍数，结论成立；\\n3. 归纳步：假设n=m(m≥k)时，aₘ是3的倍数，证明n=m+1时aₘ₊₁是3的倍数：\\n   若aₘ为偶数，aₘ₊₁=aₘ/2，aₘ是3的倍数则aₘ₊₁也是3的倍数；\\n   若aₘ为奇数，aₘ₊₁=aₘ+3，3的倍数加3仍为3的倍数，故aₘ₊₁是3的倍数；\\n4. 再证明n=m-1(m>k)时aₘ₋₁是3的倍数：\\n   由递推式得aₘ₋₁=\\begin{cases}2aₘ, & aₘ为偶数 \\\\ aₘ-3, & aₘ为奇数\\end{cases}；\\n   若aₘ为偶数，aₘ₋₁=2aₘ，3的倍数乘2仍为3的倍数；\\n   若aₘ为奇数，aₘ₋₁=aₘ-3，3的倍数减3仍为3的倍数，故aₘ₋₁是3的倍数；\\n5. 由数学归纳法，所有正整数n对应的aₙ都是3的倍数，即M的所有元素都是3的倍数。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问总分5分，明确设出存在的k并提出用数学归纳法证明得1分，基础步验证成立得1分，正确证明n=m+1时结论成立得1分，正确推导aₘ₋₁的表达式并证明n=m-1时结论成立得1分，归纳总结得出结论得1分。",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）若 $\\\\{a_{n}}\\\\$ 为周期数列，求 $a_{1}$ 所有可能的取值。",
+            "solutionSteps": "1. 由$\\\\{a_{n}}\\\\$是正整数数列，故数列必有最小值，设最小值为t；\\n2. 证明t为奇数：若t为偶数，则aₖ=t时aₖ₊₁=t/2<t，与t是最小值矛盾，故t为奇数；\\n3. 证明t只能为1或3：t为奇数则aₖ₊₁=t+3为偶数，aₖ₊₂=(t+3)/2，若t≥5，则(t+3)/2<t，与t是最小值矛盾，故t为小于5的正奇数，即1或3；\\n4. 分情况分析周期：\\n   ①当t=1时，数列后续项为1+3=4，4/2=2，2/2=1，形成1,4,2,1…的周期循环；\\n   ②当t=3时，数列后续项为3+3=6，6/2=3，形成3,6,3…的周期循环；\\n5. 找出所有能递推到1或3的正整数a₁：1、2（2→1）、3、4（4→2→1）、6（6→3），经检验这些值均能使数列成为周期数列。",
+            "standardAnswer": "$1,2,3,4,6$",
+            "scoringCriteria": "第三问总分6分，提出数列有最小值并设为t得1分，证明t为奇数得1分，证明t只能为1或3得1分，分别分析t=1和t=3时的周期规律得1分，找出所有可能的a₁值得1分，检验并确认结论得1分。",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the positive integer sequence $\\\\{a_{n}}\\\\$ satisfy $a_{n+1}= \\\\begin{cases}\\\\frac{a_{n}}{2}, & a_{n} is even \\\\ a_{n}+3, & a_{n} is odd\\end{cases} (n=1,2, ...)$",
+        "subQuestions": [
+          {
+            "question": "(I) If $a_{5}=1$, write all possible values of $a_{1}$;",
+            "solutionSteps": "1. From a₅=1, deduce a₄ in reverse: a₅ is obtained from a₄, if a₄ is even, then a₅=a₄/2=1→a₄=2; if a₄ is odd, then a₅=a₄+3=1→a₄=-2 (not a positive integer, discarded), so a₄=2;\\n2. Deduce a₃: a₄=2, if a₃ is even, then a₄=a₃/2=2→a₃=4; if a₃ is odd, then a₄=a₃+3=2→a₃=-1 (discarded), so a₃=4;\\n3. Deduce a₂: a₃=4, if a₂ is even, then a₃=a₂/2=4→a₂=8; if a₂ is odd, then a₃=a₂+3=4→a₂=1, so a₂=8 or 1;\\n4. Deduce a₁ by cases: \\n   ①When a₂=8, if a₁ is even, then a₂=a₁/2=8→a₁=16; if a₁ is odd, then a₂=a₁+3=8→a₁=5;\\n   ②When a₂=1, if a₁ is even, then a₂=a₁/2=1→a₁=2; if a₁ is odd, then a₂=a₁+3=1→a₁=-2 (discarded);\\n5. In summary, the possible values of a₁ are 16, 5, 2.",
+            "standardAnswer": "$2,5,16$",
+            "scoringCriteria": "The total score of the first sub-question is 4 points. 1 point for correctly deducing a₄ in reverse, 1 point for deducing a₃, 1 point for deducing the two possible values of a₂, and 1 point for deducing all possible values of a₁ by cases.",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Denote the set $M=\\\\{a_{n} | n \\\\in N^{*}\\\\}$, prove that if the set M has an element which is a multiple of 3, then all elements of M are multiples of 3;",
+            "solutionSteps": "1. Assume that there exists a positive integer k such that aₖ is a multiple of 3, and prove by mathematical induction that aₙ is a multiple of 3 for any n∈N*;\\n2. Basic step: when n=k, aₖ is a multiple of 3, the conclusion holds;\\n3. Inductive step: assume that when n=m(m≥k), aₘ is a multiple of 3, prove that aₘ₊₁ is a multiple of 3 when n=m+1: \\n   If aₘ is even, aₘ₊₁=aₘ/2, if aₘ is a multiple of 3, then aₘ₊₁ is also a multiple of 3;\\n   If aₘ is odd, aₘ₊₁=aₘ+3, a multiple of 3 plus 3 is still a multiple of 3, so aₘ₊₁ is a multiple of 3;\\n4. Prove that aₘ₋₁ is a multiple of 3 when n=m-1(m>k): \\n   From the recurrence formula, aₘ₋₁=\\begin{cases}2aₘ, & aₘ is even \\\\ aₘ-3, & aₘ is odd\\end{cases};\\n   If aₘ is even, aₘ₋₁=2aₘ, a multiple of 3 multiplied by 2 is still a multiple of 3;\\n   If aₘ is odd, aₘ₋₁=aₘ-3, a multiple of 3 minus 3 is still a multiple of 3, so aₘ₋₁ is a multiple of 3;\\n5. By mathematical induction, aₙ corresponding to all positive integers n are multiples of 3, that is, all elements of M are multiples of 3.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of the second sub-question is 5 points. 1 point for clearly setting the existing k and proposing to prove by mathematical induction, 1 point for verifying the establishment of the basic step, 1 point for correctly proving the conclusion holds when n=m+1, 1 point for correctly deducing the expression of aₘ₋₁ and proving the conclusion holds when n=m-1, and 1 point for summarizing the conclusion by induction.",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(III) If $\\\\{a_{n}}\\\\$ is a periodic sequence, find all possible values of $a_{1}$. ",
+            "solutionSteps": "1. Since $\\\\{a_{n}}\\\\$ is a positive integer sequence, the sequence must have a minimum value, let the minimum value be t;\\n2. Prove that t is odd: if t is even, then when aₖ=t, aₖ₊₁=t/2<t, which contradicts that t is the minimum value, so t is odd;\\n3. Prove that t can only be 1 or 3: if t is odd, then aₖ₊₁=t+3 is even, aₖ₊₂=(t+3)/2, if t≥5, then (t+3)/2<t, which contradicts that t is the minimum value, so t is a positive odd number less than 5, that is, 1 or 3;\\n4. Analyze the periodicity by cases: \\n   ①When t=1, the subsequent terms of the sequence are 1+3=4, 4/2=2, 2/2=1, forming a periodic cycle of 1,4,2,1…;\\n   ②When t=3, the subsequent terms of the sequence are 3+3=6, 6/2=3, forming a periodic cycle of 3,6,3…;\\n5. Find all positive integers a₁ that can be recursively reduced to 1 or 3: 1, 2 (2→1), 3, 4 (4→2→1), 6 (6→3). After verification, these values can all make the sequence a periodic sequence.",
+            "standardAnswer": "$1,2,3,4,6$",
+            "scoringCriteria": "The total score of the third sub-question is 6 points. 1 point for proposing that the sequence has a minimum value and setting it as t, 1 point for proving that t is odd, 1 point for proving that t can only be 1 or 3, 1 point for analyzing the periodic rules when t=1 and t=3 respectively, 1 point for finding all possible values of a₁, and 1 point for verifying and confirming the conclusion.",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

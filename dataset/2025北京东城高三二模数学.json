@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2025 Beijing Dongcheng Senior Three Second Mock Mathematics Examination",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "已知近10年北京市12月和1月历史气温分别如下图所示。图1为北京市12月历史气温，图2为北京市1月历史气温。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从2016年至2024年这9年中随机抽取一年，求该年12月平均高温和平均低温都低于前一年的概率；",
+                        "solutionSteps": "1. 确定符合条件的年份：2016年至2024年这9年中，12月平均高温和平均低温都低于前一年的年份为2017年、2018年、2020年和2022年，共4个。\\n2. 计算概率：根据古典概型概率公式，概率=符合条件的基本事件数/总基本事件数，即P=4/9。",
+                        "standardAnswer": "$\\\\frac{4}{9}$",
+                        "scoringCriteria": "该问总分4分，正确找出符合条件的4个年份得2分，正确运用古典概型概率公式并计算出结果得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）将当年12月和次年1月作为当年的冬季周期，记当年12月平均高温与平均低温的差值为a（单位：摄氏度），次年1月平均高温与平均低温的差值为b（单位：摄氏度）。从2015年至2024年这10个冬季周期中随机抽取3个，求至少有2个冬季周期中a=b的概率；",
+                        "solutionSteps": "1. 确定满足a=b的冬季周期：2015年至2024年这10个冬季周期中，满足a=b的为2015、2020、2023和2024年，共4个，不满足的有6个。\\n2. 计算总组合数：从10个中抽取3个的总组合数为$C_{10}^{3}=120$。\\n3. 计算符合条件的组合数：恰有2个满足a=b的组合数为$C_{4}^{2}C_{6}^{1}=36$，有3个满足a=b的组合数为$C_{4}^{3}=4$，总计36+4=40。\\n4. 计算概率：P=40/120=1/3。",
+                        "standardAnswer": "$\\\\frac{1}{3}$",
+                        "scoringCriteria": "该问总分6分，正确找出满足a=b的4个冬季周期得1分，正确计算总组合数$C_{10}^{3}$得1分，分别正确计算恰有2个、3个满足a=b的组合数各得1分，正确求和并计算出最终概率得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）依据图2中信息，能否预测北京市2026年1月平均高温低于4摄氏度？请说明理由。",
+                        "solutionSteps": "答案示例1：可以预测，理由为北京市近10年1月平均高温有9年低于4摄氏度，据此可预测2026年1月平均高温低于4摄氏度。\\n答案示例2：无法预测，理由为北京市1月平均高温受诸多因素影响，仅依据近10年的气温信息，无法准确预测2026年1月平均高温是否低于4摄氏度。",
+                        "standardAnswer": "答案示例1：可以预测，理由见解析；答案示例2：无法预测，理由见解析",
+                        "scoringCriteria": "该问总分3分，明确给出能否预测的结论得1分，给出合理且符合题意的理由得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "The historical temperatures of Beijing in December and January over the past 10 years are shown in the following figures respectively. Figure 1 is the historical temperature of Beijing in December, and Figure 2 is the historical temperature of Beijing in January.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one year from the 9 years from 2016 to 2024, find the probability that both the average high temperature and the average low temperature in December of that year are lower than those of the previous year;",
+                        "solutionSteps": "1. Determine the eligible years: Among the 9 years from 2016 to 2024, the years in which both the average high temperature and average low temperature in December were lower than those of the previous year are 2017, 2018, 2020 and 2022, a total of 4 years.\\n2. Calculate the probability: According to the probability formula of classical probability model, probability = number of eligible basic events / total number of basic events, that is P=4/9.",
+                        "standardAnswer": "$\\\\frac{4}{9}$",
+                        "scoringCriteria": "This sub-question has a total score of 4 points. 2 points are awarded for correctly finding the 4 eligible years, and 2 points are awarded for correctly applying the classical probability model formula and calculating the result.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Take December of the current year and January of the next year as the winter cycle of the current year, denote the difference between the average high temperature and the average low temperature in December of the current year as a (unit: degrees Celsius), and the difference between the average high temperature and the average low temperature in January of the next year as b (unit: degrees Celsius). Randomly select 3 winter cycles from the 10 winter cycles from 2015 to 2024, find the probability that at least 2 of them satisfy a=b;",
+                        "solutionSteps": "1. Determine the winter cycles satisfying a=b: Among the 10 winter cycles from 2015 to 2024, the ones satisfying a=b are 2015, 2020, 2023 and 2024, a total of 4, and 6 do not satisfy.\\n2. Calculate the total number of combinations: The total number of combinations of selecting 3 from 10 is $C_{10}^{3}=120$.\\n3. Calculate the number of eligible combinations: The number of combinations with exactly 2 satisfying a=b is $C_{4}^{2}C_{6}^{1}=36$, the number of combinations with 3 satisfying a=b is $C_{4}^{3}=4$, with a total of 36+4=40.\\n4. Calculate the probability: P=40/120=1/3.",
+                        "standardAnswer": "$\\\\frac{1}{3}$",
+                        "scoringCriteria": "This sub-question has a total score of 6 points. 1 point is awarded for correctly finding the 4 winter cycles satisfying a=b, 1 point for correctly calculating the total number of combinations $C_{10}^{3}$, 1 point each for correctly calculating the number of combinations with exactly 2 and 3 satisfying a=b respectively, and 2 points for correctly summing and calculating the final probability.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Based on the information in Figure 2, can we predict that the average high temperature in Beijing in January 2026 is lower than 4 degrees Celsius? Please explain the reason.",
+                        "solutionSteps": "Answer Example 1: Predictable, the reason is that the average high temperature in Beijing in January was lower than 4 degrees Celsius in 9 out of the past 10 years, so it can be predicted that the average high temperature in January 2026 is lower than 4 degrees Celsius.\\nAnswer Example 2: Unpredictable, the reason is that the average high temperature in Beijing in January is affected by many factors, and it is impossible to accurately predict whether the average high temperature in January 2026 is lower than 4 degrees Celsius only based on the temperature information of the past 10 years.",
+                        "standardAnswer": "Answer Example 1: Predictable, see the analysis for reasons; Answer Example 2: Unpredictable, see the analysis for reasons",
+                        "scoringCriteria": "This sub-question has a total score of 3 points. 1 point is awarded for clearly giving the conclusion of whether it can be predicted, and 2 points for giving a reasonable reason in line with the meaning of the question.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆$E: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$的一个顶点为$A(0,1)$，且过点$(1, \\\\frac{\\\\sqrt{3}}{2})$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆E的方程及焦距；",
+                        "solutionSteps": "1. 确定b的值：由椭圆的一个顶点为$A(0,1)$，得$b=1$。\\n2. 求a的值：将点$(1, \\\\frac{\\\\sqrt{3}}{2})$代入椭圆方程$\\\\frac{x^{2}}{a^{2}}+y^{2}=1$，得$\\\\frac{1}{a^{2}}+\\\\frac{3}{4}=1$，解得$a^{2}=4$，即$a=2$。\\n3. 求椭圆方程：椭圆E的方程为$\\\\frac{x^{2}}{4}+y^{2}=1$。\\n4. 求焦距：由$a^{2}=b^{2}+c^{2}$，得$c=\\\\sqrt{a^{2}-b^{2}}=\\\\sqrt{3}$，故焦距为$2c=2\\\\sqrt{3}$。",
+                        "standardAnswer": "椭圆E的方程为$\\\\frac{x^{2}}{4}+y^{2}=1$，焦距为$2\\\\sqrt{3}$",
+                        "scoringCriteria": "该问总分5分，由顶点坐标正确得出b=1得1分，将点代入方程正确求出a²=4得2分，写出椭圆标准方程得1分，正确计算出c的值并求出焦距得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）过点(0,2)的直线与椭圆E交于不同的两点B、C，直线AB，AC的斜率分别记为$k_{1}$与$k_{2}$，当$k_{1}+k_{2}=\\\\frac{2}{3}$时，求$\\\\triangle ABC$的面积。",
+                        "solutionSteps": "1. 设直线方程：由题意设直线BC的方程为$y=kx+2$。\\n2. 联立方程并消元：将$y=kx+2$代入椭圆方程$x^{2}+4y^{2}=4$，得$(4k^{2}+1)x^{2}+16kx+12=0$。\\n3. 求k的取值范围：由$\\\\Delta=(16k)^{2}-4\\\\times(4k^{2}+1)\\\\times12=16(4k^{2}-3)>0$，得$|k|>\\\\frac{\\\\sqrt{3}}{2}$。\\n4. 运用韦达定理：设$B(x_{1},y_{1})$，$C(x_{2},y_{2})$，则$x_{1}+x_{2}=\\\\frac{-16k}{4k^{2}+1}$，$x_{1}x_{2}=\\\\frac{12}{4k^{2}+1}$。\\n5. 表示斜率并化简：$k_{1}=\\\\frac{y_{1}-1}{x_{1}}$，$k_{2}=\\\\frac{y_{2}-1}{x_{2}}$，$k_{1}+k_{2}=\\\\frac{kx_{1}+1}{x_{1}}+\\\\frac{kx_{2}+1}{x_{2}}=\\\\frac{2kx_{1}x_{2}+(x_{1}+x_{2})}{x_{1}x_{2}}$，代入韦达定理结果得$\\\\frac{2k}{3}=\\\\frac{2}{3}$，解得$k=1$。\\n6. 求点A到直线的距离：直线BC的方程为$y=x+2$，点$A(0,1)$到直线的距离$d=\\\\frac{|0-1+2|}{\\\\sqrt{1^{2}+(-1)^{2}}}=\\\\frac{\\\\sqrt{2}}{2}$。\\n7. 求弦长|BC|：$|BC|=\\\\sqrt{1+k^{2}}|x_{1}-x_{2}|=\\\\sqrt{2}\\\\times\\\\sqrt{(x_{1}+x_{2})^{2}-4x_{1}x_{2}}=\\\\frac{4\\\\sqrt{2}}{5}$。\\n8. 计算三角形面积：$S=\\\\frac{1}{2}\\\\times|BC|\\\\times d=\\\\frac{1}{2}\\\\times\\\\frac{4\\\\sqrt{2}}{5}\\\\times\\\\frac{\\\\sqrt{2}}{2}=\\\\frac{2}{5}$。",
+                        "standardAnswer": "$\\\\frac{2}{5}$",
+                        "scoringCriteria": "该问总分10分，正确设出直线方程得1分，联立方程并正确消元得1分，求出k的取值范围得1分，正确运用韦达定理写出根与系数的关系得1分，正确表示出斜率和并化简求解出k=1得2分，正确计算点A到直线的距离得1分，正确计算弦长|BC|得2分，正确计算出三角形面积得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that one vertex of the ellipse $E: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $A(0,1)$, and it passes through the point $(1, \\\\frac{\\\\sqrt{3}}{2})$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of ellipse E and its focal length;",
+                        "solutionSteps": "1. Determine the value of b: From one vertex of the ellipse being $A(0,1)$, we get $b=1$.\\n2. Find the value of a: Substitute the point $(1, \\\\frac{\\\\sqrt{3}}{2})$ into the ellipse equation $\\\\frac{x^{2}}{a^{2}}+y^{2}=1$, we have $\\\\frac{1}{a^{2}}+\\\\frac{3}{4}=1$, solving it gives $a^{2}=4$, that is $a=2$.\\n3. Find the ellipse equation: The equation of ellipse E is $\\\\frac{x^{2}}{4}+y^{2}=1$.\\n4. Find the focal length: From $a^{2}=b^{2}+c^{2}$, we get $c=\\\\sqrt{a^{2}-b^{2}}=\\\\sqrt{3}$, so the focal length is $2c=2\\\\sqrt{3}$.",
+                        "standardAnswer": "The equation of ellipse E is $\\\\frac{x^{2}}{4}+y^{2}=1$, and its focal length is $2\\\\sqrt{3}$",
+                        "scoringCriteria": "This sub-question has a total score of 5 points. 1 point is awarded for correctly obtaining b=1 from the vertex coordinates, 2 points for correctly finding a²=4 by substituting the point into the equation, 1 point for writing the standard equation of the ellipse, and 1 point for correctly calculating the value of c and finding the focal length.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) A straight line passing through the point (0,2) intersects ellipse E at two distinct points B and C. The slopes of straight lines AB and AC are denoted as $k_{1}$ and $k_{2}$ respectively. When $k_{1}+k_{2}=\\\\frac{2}{3}$, find the area of $\\\\triangle ABC$.",
+                        "solutionSteps": "1. Set the straight line equation: According to the meaning of the question, let the equation of straight line BC be $y=kx+2$.\\n2. Simultaneous equations and elimination: Substitute $y=kx+2$ into the ellipse equation $x^{2}+4y^{2}=4$, we get $(4k^{2}+1)x^{2}+16kx+12=0$.\\n3. Find the range of k: From $\\\\Delta=(16k)^{2}-4\\\\times(4k^{2}+1)\\\\times12=16(4k^{2}-3)>0$, we get $|k|>\\\\frac{\\\\sqrt{3}}{2}$.\\n4. Apply Vieta's formulas: Let $B(x_{1},y_{1})$, $C(x_{2},y_{2})$, then $x_{1}+x_{2}=\\\\frac{-16k}{4k^{2}+1}$, $x_{1}x_{2}=\\\\frac{12}{4k^{2}+1}$.\\n5. Express the slopes and simplify: $k_{1}=\\\\frac{y_{1}-1}{x_{1}}$, $k_{2}=\\\\frac{y_{2}-1}{x_{2}}$, $k_{1}+k_{2}=\\\\frac{kx_{1}+1}{x_{1}}+\\\\frac{kx_{2}+1}{x_{2}}=\\\\frac{2kx_{1}x_{2}+(x_{1}+x_{2})}{x_{1}x_{2}}$. Substitute the results of Vieta's formulas to get $\\\\frac{2k}{3}=\\\\frac{2}{3}$, solving it gives $k=1$.\\n6. Find the distance from point A to the straight line: The equation of straight line BC is $y=x+2$, the distance $d$ from point $A(0,1)$ to the straight line is $d=\\\\frac{|0-1+2|}{\\\\sqrt{1^{2}+(-1)^{2}}}=\\\\frac{\\\\sqrt{2}}{2}$.\\n7. Find the chord length |BC|: $|BC|=\\\\sqrt{1+k^{2}}|x_{1}-x_{2}|=\\\\sqrt{2}\\\\times\\\\sqrt{(x_{1}+x_{2})^{2}-4x_{1}x_{2}}=\\\\frac{4\\\\sqrt{2}}{5}$.\\n8. Calculate the area of the triangle: $S=\\\\frac{1}{2}\\\\times|BC|\\\\times d=\\\\frac{1}{2}\\\\times\\\\frac{4\\\\sqrt{2}}{5}\\\\times\\\\frac{\\\\sqrt{2}}{2}=\\\\frac{2}{5}$.",
+                        "standardAnswer": "$\\\\frac{2}{5}$",
+                        "scoringCriteria": "This sub-question has a total score of 10 points. 1 point is awarded for correctly setting the straight line equation, 1 point for simultaneous equations and correct elimination, 1 point for finding the range of k, 1 point for correctly applying Vieta's formulas to write the relationship between roots and coefficients, 2 points for correctly expressing the sum of slopes, simplifying and solving k=1, 1 point for correctly calculating the distance from point A to the straight line, 2 points for correctly calculating the chord length |BC|, and 1 point for correctly calculating the area of the triangle.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "设函数$f(x)=(x^{2}+ax) \\\\ln x$，其中$a \\\\in R$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当$a>0$时，求$f(x)$的零点；",
+                        "solutionSteps": "1. 确定定义域：函数$f(x)$的定义域为$(0,+\\\\infty)$。\\n2. 分析式子取值：当$a>0$时，$x^{2}+ax=x(x+a)>0$在$(0,+\\\\infty)$上恒成立。\\n3. 求零点：由$f(x)=(x^{2}+ax)\\\\ln x=0$，得$\\\\ln x=0$，解得$x=1$，故$f(x)$的零点为1。",
+                        "standardAnswer": "1",
+                        "scoringCriteria": "该问总分3分，正确写出函数定义域得1分，正确分析出$x^{2}+ax>0$得1分，正确求出零点x=1得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）当$a=-1$时，证明：(i)1为$f(x)$的极小值点；",
+                        "solutionSteps": "1. 写出函数解析式：当$a=-1$时，$f(x)=(x^{2}-x)\\\\ln x$。\\n2. 求导函数：$f'(x)=(2x-1)\\\\ln x+x-1$。\\n3. 分析导数符号：当$x>1$时，$2x-1>1$，$\\\\ln x>0$，$x-1>0$，故$f'(x)>0$，$f(x)$在$(1,+\\\\infty)$上单调递增；当$\\\\frac{1}{2}<x<1$时，$2x-1>0$，$\\\\ln x<0$，$x-1<0$，故$f'(x)<0$，$f(x)$在$(\\\\frac{1}{2},1)$上单调递减。\\n4. 得出结论：由极值点的定义，1为$f(x)$的极小值点。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "该问总分6分，正确写出函数解析式得1分，正确求出导函数得2分，分别正确分析出x>1和1/2<x<1时导函数的符号及函数的单调性各得1分，根据极值点定义正确得出结论得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "（Ⅱ）当$a=-1$时，证明：(ii)对于任意$m \\\\in(\\\\frac{1}{2}, 1)$，存在$n \\\\in(1,2)$，使得曲线$y=f(x)$在点$A(m, f(m))$处的切线斜率与在点$B(n, f(n))$处的切线斜率互为相反数。",
+                        "solutionSteps": "1. 构造函数：令$g(x)=f'(x)=(2x-1)\\\\ln x+x-1(x>0)$，需证对任意$m \\\\in(\\\\frac{1}{2},1)$，存在$n \\\\in(1,2)$，使得$g(m)+g(n)=0$。\\n2. 求$g(x)$的导函数：$g'(x)=2\\\\ln x+3-\\\\frac{1}{x}$，易知$y=2\\\\ln x$和$y=3-\\\\frac{1}{x}$在$(0,+\\\\infty)$上单调递增，故$g'(x)$在$(0,+\\\\infty)$上单调递增。\\n3. 确定$g'(x)$的零点：$g'(1)=2>0$，$g'(\\\\frac{1}{2})=1-2\\\\ln 2<0$，故存在唯一$x_{0} \\\\in(\\\\frac{1}{2},1)$，使得$g'(x_{0})=0$，$g(x)$在$(0,x_{0})$上单调递减，在$(x_{0},+\\\\infty)$上单调递增。\\n4. 求$g(x)$的最小值：$g(x_{0})=\\\\frac{1}{2}[3-(4x_{0}+\\\\frac{1}{x_{0}})]$，且$g(x_{0}) \\\\in(-1,-\\\\frac{1}{2})$。\\n5. 分析$g(x)$在$(\\\\frac{1}{2},1)$的取值：$g(\\\\frac{1}{2})=-\\\\frac{1}{2}$，$g(1)=0$，故当$m \\\\in(\\\\frac{1}{2},1)$时，$g(m) \\\\in[g(x_{0}),0)$。\\n6. 分析$g(x)$在$(1,2)$的取值：$g(x)$在$(1,2)$上单调递增，$g(2)=1+3\\\\ln 2>1$，故$g(n) \\\\in(0,g(2))$。\\n7. 得出结论：因为$g(2)>1$，所以对任意$g(m) \\\\in[g(x_{0}),0)$，存在$g(n)=-g(m) \\\\in(0,g(2))$，即存在$n \\\\in(1,2)$满足题意。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "该问总分6分，正确构造函数g(x)并明确证明目标得1分，正确求出g'(x)并分析其单调性得1分，正确确定g'(x)的零点及g(x)的单调性区间得1分，正确分析g(x)在(1/2,1)和(1,2)上的取值范围各得1分，根据取值范围正确得出结论得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let the function $f(x)=(x^{2}+ax) \\\\ln x$, where $a \\\\in R$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) When $a>0$, find the zero point of $f(x)$;",
+                        "solutionSteps": "1. Determine the domain: The domain of the function $f(x)$ is $(0,+\\\\infty)$.\\n2. Analyze the value of the expression: When $a>0$, $x^{2}+ax=x(x+a)>0$ holds for all $x \\\\in(0,+\\\\infty)$.\\n3. Find the zero point: From $f(x)=(x^{2}+ax)\\\\ln x=0$, we get $\\\\ln x=0$, solving it gives $x=1$, so the zero point of $f(x)$ is 1.",
+                        "standardAnswer": "1",
+                        "scoringCriteria": "This sub-question has a total score of 3 points. 1 point is awarded for correctly writing the domain of the function, 1 point for correctly analyzing that $x^{2}+ax>0$, and 1 point for correctly finding the zero point x=1.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) When $a=-1$, prove that: (i) 1 is the minimum extreme point of $f(x)$;",
+                        "solutionSteps": "1. Write the analytical formula of the function: When $a=-1$, $f(x)=(x^{2}-x)\\\\ln x$.\\n2. Find the derivative function: $f'(x)=(2x-1)\\\\ln x+x-1$.\\n3. Analyze the sign of the derivative: When $x>1$, $2x-1>1$, $\\\\ln x>0$, $x-1>0$, so $f'(x)>0$, and $f(x)$ is monotonically increasing on $(1,+\\\\infty)$; when $\\\\frac{1}{2}<x<1$, $2x-1>0$, $\\\\ln x<0$, $x-1<0$, so $f'(x)<0$, and $f(x)$ is monotonically decreasing on $(\\\\frac{1}{2},1)$.\\n4. Draw the conclusion: According to the definition of extreme points, 1 is the minimum extreme point of $f(x)$. ",
+                        "standardAnswer": "See the analysis for proof",
+                        "scoringCriteria": "This sub-question has a total score of 6 points. 1 point is awarded for correctly writing the analytical formula of the function, 2 points for correctly finding the derivative function, 1 point each for correctly analyzing the sign of the derivative function and the monotonicity of the function when x>1 and 1/2<x<1 respectively, and 1 point for correctly drawing the conclusion according to the definition of extreme points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "(Ⅱ) When $a=-1$, prove that: (ii) For any $m \\\\in(\\\\frac{1}{2}, 1)$, there exists $n \\\\in(1,2)$ such that the slope of the tangent line of the curve $y=f(x)$ at point $A(m, f(m))$ and the slope of the tangent line at point $B(n, f(n))$ are opposite numbers to each other.",
+                        "solutionSteps": "1. Construct a function: Let $g(x)=f'(x)=(2x-1)\\\\ln x+x-1(x>0)$, we need to prove that for any $m \\\\in(\\\\frac{1}{2},1)$, there exists $n \\\\in(1,2)$ such that $g(m)+g(n)=0$.\\n2. Find the derivative of $g(x)$: $g'(x)=2\\\\ln x+3-\\\\frac{1}{x}$. It is easy to know that $y=2\\\\ln x$ and $y=3-\\\\frac{1}{x}$ are monotonically increasing on $(0,+\\\\infty)$, so $g'(x)$ is monotonically increasing on $(0,+\\\\infty)$.\\n3. Determine the zero point of $g'(x)$: $g'(1)=2>0$, $g'(\\\\frac{1}{2})=1-2\\\\ln 2<0$, so there exists a unique $x_{0} \\\\in(\\\\frac{1}{2},1)$ such that $g'(x_{0})=0$, $g(x)$ is monotonically decreasing on $(0,x_{0})$ and monotonically increasing on $(x_{0},+\\\\infty)$.\\n4. Find the minimum value of $g(x)$: $g(x_{0})=\\\\frac{1}{2}[3-(4x_{0}+\\\\frac{1}{x_{0}})]$, and $g(x_{0}) \\\\in(-1,-\\\\frac{1}{2})$.\\n5. Analyze the value of $g(x)$ on $(\\\\frac{1}{2},1)$: $g(\\\\frac{1}{2})=-\\\\frac{1}{2}$, $g(1)=0$, so when $m \\\\in(\\\\frac{1}{2},1)$, $g(m) \\\\in[g(x_{0}),0)$.\\n6. Analyze the value of $g(x)$ on $(1,2)$: $g(x)$ is monotonically increasing on $(1,2)$, $g(2)=1+3\\\\ln 2>1$, so $g(n) \\\\in(0,g(2))$.\\n7. Draw the conclusion: Since $g(2)>1$, for any $g(m) \\\\in[g(x_{0}),0)$, there exists $g(n)=-g(m) \\\\in(0,g(2))$, that is, there exists $n \\\\in(1,2)$ satisfying the meaning of the question.",
+                        "standardAnswer": "See the analysis for proof",
+                        "scoringCriteria": "This sub-question has a total score of 6 points. 1 point is awarded for correctly constructing the function g(x) and clarifying the proof goal, 1 point for correctly finding g'(x) and analyzing its monotonicity, 1 point for correctly determining the zero point of g'(x) and the monotonic intervals of g(x), 1 point each for correctly analyzing the value range of g(x) on (1/2,1) and (1,2) respectively, and 1 point for correctly drawing the conclusion according to the value range.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知有穷整数数列$A: a_{1}, a_{2}, \\\\cdots, a_{n}(n \\\\geq4)$，满足$a_{1}=a_{n}=1$。记集合$\\\\Omega$为$\\{B: b_{1}, b_{2}, \\\\cdots, b_{n} | b_{1}=b_{n}=1, b_{i}=a_{i+1}-a_{i-1}，或$b_{i}=a_{i-1}-a_{i+1}$，或$b_{i}=a_{i-1}+a_{i+1}, i=2,3, \\\\cdots, n-1\\}$。若数列$A \\\\in \\\\Omega$，则称数列A是$\\\\Omega$的“恒元”。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知数列$A: 1,3,4,1$，请写出$\\\\Omega$中所有满足$b_{2}<b_{3}$的数列；",
+                        "solutionSteps": "1. 计算$b_{2}$的可能取值：对于$i=2$，$a_{1}=1$，$a_{3}=4$，故$b_{2}=4-1=3$或$b_{2}=1-4=-3$或$b_{2}=1+4=5$，即$b_{2} \\\\in\\{-3,3,5\\}$。\\n2. 计算$b_{3}$的可能取值：对于$i=3$，$a_{2}=3$，$a_{4}=1$，故$b_{3}=1-3=-2$或$b_{3}=3-1=2$或$b_{3}=3+1=4$，即$b_{3} \\\\in\\{-2,2,4\\}$。\\n3. 筛选满足$b_{2}<b_{3}$的组合：逐一验证组合，满足的有$(-3,-2)$、$(-3,2)$、$(-3,4)$、$(3,4)$，对应数列为1,-3,-2,1；1,-3,2,1；1,-3,4,1；1,3,4,1。",
+                        "standardAnswer": "1,-3,-2,1；1,-3,2,1；1,-3,4,1；1,3,4,1",
+                        "scoringCriteria": "该问总分4分，正确求出$b_{2}$的所有可能取值得1分，正确求出$b_{3}$的所有可能取值得1分，正确筛选出满足$b_{2}<b_{3}$的组合并写出对应数列得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）当$n=3 m+2(m \\\\in N^{*})$时，是否存在数列A满足$a_{2}=2$，且A是$\\\\Omega$的\"恒元\"？若存在，请写出一个满足条件的数列A；若不存在，请说明理由；",
+                        "solutionSteps": "1. 假设存在满足条件的数列A：由A是$\\\\Omega$的“恒元”，得对$\\\\forall i \\\\in\\{2,3, \\\\cdots, 3m+1\\}$，$a_{i}=a_{i+1}-a_{i-1}$或$a_{i}=a_{i-1}-a_{i+1}$或$a_{i}=a_{i-1}+a_{i+1}$，故$a_{i}$与$a_{i-1}+a_{i+1}$同奇偶，进而$a_{i-1}+a_{i}+a_{i+1}$为偶数。\\n2. 分析数列和的奇偶性：$\\\\sum_{i=1}^{3m+2}a_{i}=a_{1}+\\\\sum_{i=2}^{3m+1}a_{i}+a_{3m+2}=2+\\\\sum_{i=2}^{3m+1}a_{i}$，为偶数；又$\\\\sum_{i=1}^{3m+2}a_{i}=a_{1}+a_{2}+\\\\sum_{i=3}^{3m+2}a_{i}=3+\\\\sum_{i=3}^{3m+2}a_{i}$，为奇数，奇偶性矛盾。\\n3. 得出结论：假设不成立，不存在满足条件的数列A。",
+                        "standardAnswer": "不存在，理由见解析",
+                        "scoringCriteria": "该问总分5分，正确作出假设并根据“恒元”定义推出$a_{i-1}+a_{i}+a_{i+1}$为偶数得2分，分别从两个角度分析数列和的奇偶性得出矛盾得2分，根据矛盾否定假设得出结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）当数列A是$\\\\Omega$的“恒元”时，若$a_{2}, a_{3}, \\\\cdots, a_{n-1}$是$n-2$个连续正整数的一个排列，求数列A的项数n的最大值。",
+                        "solutionSteps": "1. 分析最大值项的表达式：设$a_{n_{0}}=max\\{a_{2},a_{3},\\\\cdots,a_{n-1}\\} =k$，由“恒元”定义得$a_{n_{0}}=a_{n_{0}-1}+a_{n_{0}+1}=k$。\\n2. 分析n的初步范围：当$k \\\\leq4$时，$n \\\\leq6$；当$n \\\\geq7$时，$k \\\\geq5$，此时可得$a_{n_{0}-2}=a_{n_{0}+1}$，$a_{n_{0}+2}=a_{n_{0}-1}$。\\n3. 结合$a_{1}=a_{n}=1$分类讨论：\\n   (1) 若$a_{n_{0}-2}=a_{n_{0}+1}=1$，则$n_{0}+1=n$且$n_{0}-2=1$，即$n_{0}=n-1$或$n_{0}=3$，$n_{0}=n-1$时推得$n=7$，$n_{0}=3$时$n=4$（舍去）。\\n   (2) 若$a_{n_{0}-1}=a_{n_{0}+2}=1$，则$n_{0}-1=1$且$n_{0}+2=n$，即$n_{0}=2$或$n_{0}=n-2$，$n_{0}=2$时推得$n=7$，$n_{0}=n-2$时$n=4$（舍去）。\\n4. 举例验证：数列1,2,3,1,4,5,1和1,5,4,1,3,2,1均满足条件。\\n5. 得出结论：数列A的项数n的最大值为7。",
+                        "standardAnswer": "7",
+                        "scoringCriteria": "该问总分6分，正确分析出最大值项的表达式得1分，初步分析出n的范围得1分，结合首末项为1进行分类讨论并推导出n=7得2分，给出满足条件的数列进行验证得1分，正确得出n的最大值为7得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given a finite integer sequence $A: a_{1}, a_{2}, \\\\cdots, a_{n}(n \\\\geq4)$ satisfying $a_{1}=a_{n}=1$. Denote the set $\\\\Omega$ as $\\{B: b_{1}, b_{2}, \\\\cdots, b_{n} | b_{1}=b_{n}=1, b_{i}=a_{i+1}-a_{i-1}, or $b_{i}=a_{i-1}-a_{i+1}$, or $b_{i}=a_{i-1}+a_{i+1}, i=2,3, \\\\cdots, n-1\\}$. If the sequence $A \\\\in \\\\Omega$, then the sequence A is called the \"fixed element\" of $\\\\Omega$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Given the sequence $A: 1,3,4,1$, write all sequences in $\\\\Omega$ that satisfy $b_{2}<b_{3}$;",
+                        "solutionSteps": "1. Calculate the possible values of $b_{2}$: For $i=2$, $a_{1}=1$, $a_{3}=4$, so $b_{2}=4-1=3$ or $b_{2}=1-4=-3$ or $b_{2}=1+4=5$, that is $b_{2} \\\\in\\{-3,3,5\\}$.\\n2. Calculate the possible values of $b_{3}$: For $i=3$, $a_{2}=3$, $a_{4}=1$, so $b_{3}=1-3=-2$ or $b_{3}=3-1=2$ or $b_{3}=3+1=4$, that is $b_{3} \\\\in\\{-2,2,4\\}$.\\n3. Screen the combinations satisfying $b_{2}<b_{3}$: Verify the combinations one by one, the satisfying ones are $(-3,-2)$, $(-3,2)$, $(-3,4)$, $(3,4)$, corresponding to the sequences 1,-3,-2,1; 1,-3,2,1; 1,-3,4,1; 1,3,4,1.",
+                        "standardAnswer": "1,-3,-2,1; 1,-3,2,1; 1,-3,4,1; 1,3,4,1",
+                        "scoringCriteria": "This sub-question has a total score of 4 points. 1 point is awarded for correctly finding all possible values of $b_{2}$, 1 point for correctly finding all possible values of $b_{3}$, and 2 points for correctly screening the combinations satisfying $b_{2}<b_{3}$ and writing the corresponding sequences.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) When $n=3 m+2(m \\\\in N^{*})$, does there exist a sequence A satisfying $a_{2}=2$ and A is the \"fixed element\" of $\\\\Omega$? If it exists, write a sequence A that satisfies the condition; if not, explain the reason;",
+                        "solutionSteps": "1. Assume that there exists a sequence A satisfying the condition: Since A is the \"fixed element\" of $\\\\Omega$, for $\\\\forall i \\\\in\\{2,3, \\\\cdots, 3m+1\\}$, $a_{i}=a_{i+1}-a_{i-1}$ or $a_{i}=a_{i-1}-a_{i+1}$ or $a_{i}=a_{i-1}+a_{i+1}$, so $a_{i}$ and $a_{i-1}+a_{i+1}$ have the same parity, and thus $a_{i-1}+a_{i}+a_{i+1}$ is an even number.\\n2. Analyze the parity of the sum of the sequence: $\\\\sum_{i=1}^{3m+2}a_{i}=a_{1}+\\\\sum_{i=2}^{3m+1}a_{i}+a_{3m+2}=2+\\\\sum_{i=2}^{3m+1}a_{i}$, which is an even number; and $\\\\sum_{i=1}^{3m+2}a_{i}=a_{1}+a_{2}+\\\\sum_{i=3}^{3m+2}a_{i}=3+\\\\sum_{i=3}^{3m+2}a_{i}$, which is an odd number, leading to a parity contradiction.\\n3. Draw the conclusion: The assumption is not valid, and there is no sequence A satisfying the condition.",
+                        "standardAnswer": "Does not exist, see the analysis for reasons",
+                        "scoringCriteria": "This sub-question has a total score of 5 points. 2 points are awarded for making the assumption correctly and deducing that $a_{i-1}+a_{i}+a_{i+1}$ is an even number according to the definition of \"fixed element\", 2 points for analyzing the parity of the sum of the sequence from two perspectives and drawing a contradiction, and 1 point for negating the assumption and drawing the conclusion according to the contradiction.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) When the sequence A is the \"fixed element\" of $\\\\Omega$, if $a_{2}, a_{3}, \\\\cdots, a_{n-1}$ is a permutation of $n-2$ consecutive positive integers, find the maximum value of the number of terms n of the sequence A.",
+                        "solutionSteps": "1. Analyze the expression of the maximum term: Let $a_{n_{0}}=max\\{a_{2},a_{3},\\\\cdots,a_{n-1}\\} =k$, from the definition of \"fixed element\", we have $a_{n_{0}}=a_{n_{0}-1}+a_{n_{0}+1}=k$.\\n2. Analyze the preliminary range of n: When $k \\\\leq4$, $n \\\\leq6$; when $n \\\\geq7$, $k \\\\geq5$, at this time we can get $a_{n_{0}-2}=a_{n_{0}+1}$, $a_{n_{0}+2}=a_{n_{0}-1}$.\\n3. Classify and discuss combined with $a_{1}=a_{n}=1$: \\n   (1) If $a_{n_{0}-2}=a_{n_{0}+1}=1$, then $n_{0}+1=n$ and $n_{0}-2=1$, that is $n_{0}=n-1$ or $n_{0}=3$. When $n_{0}=n-1$, we deduce $n=7$; when $n_{0}=3$, $n=4$ (discarded).\\n   (2) If $a_{n_{0}-1}=a_{n_{0}+2}=1$, then $n_{0}-1=1$ and $n_{0}+2=n$, that is $n_{0}=2$ or $n_{0}=n-2$. When $n_{0}=2$, we deduce $n=7$; when $n_{0}=n-2$, $n=4$ (discarded).\\n4. Verify with examples: The sequences 1,2,3,1,4,5,1 and 1,5,4,1,3,2,1 all satisfy the conditions.\\n5. Draw the conclusion: The maximum value of the number of terms n of the sequence A is 7.",
+                        "standardAnswer": "7",
+                        "scoringCriteria": "This sub-question has a total score of 6 points. 1 point is awarded for correctly analyzing the expression of the maximum term, 1 point for preliminarily analyzing the range of n, 2 points for classifying and discussing combined with the first and last terms being 1 and deducing n=7, 1 point for giving a sequence satisfying the condition for verification, and 1 point for correctly finding the maximum value of n as 7.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

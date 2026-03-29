@@ -1,0 +1,217 @@
+{
+    "paperTitle": "2024 Beijing Dongcheng Senior Three Second Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "北京市共有16 个行政区，东城区、西城区、朝阳区、丰台区、石景山区和海淀区为中心城区，其他为非中心城区。根据《北京市人口蓝皮书﹒北京人口发展研究报告(2023)》显示，2022 年北京市常住人口为2184.3 万人，由城镇人口和乡村人口两个部分构成，各区常住人口数量如下表所示（表格包含16个行政区的城镇人口、乡村人口数据）。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）在16 个行政区中随机选择一个，求该区为非中心城区且2022 年乡村人口在20 万人以下的概率；",
+                        "solutionSteps": "1. 确定非中心城区数量：16个行政区中中心城区有6个，故非中心城区有16-6=10个；\n2. 筛选非中心城区中乡村人口20万人以下的区域：门头沟区、怀柔区、平谷区、密云区、延庆区，共5个；\n3. 根据古典概型概率公式计算：P=符合条件的区域数/总区域数=5/16。",
+                        "standardAnswer": "$\\frac{5}{16}$",
+                        "scoringCriteria": "第一问总分4分，确定非中心城区数量得1分；筛选出乡村人口20万人以下的非中心城区数量得2分；代入古典概型公式计算出正确概率得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若随机从中心城区选取1 个，非中心城区选取2 个行政区，记选出的3 个区中2022 年常住人口超过 100 万人的行政区的个数为 X，求 X 的分布列及数学期望 $E(X)$；",
+                        "solutionSteps": "1. 确定各类区域数量：6个中心城区中常住人口超100万的有4个，未超的有2个；10个非中心城区中常住人口超100万的有5个，未超的有5个；\n2. 确定X的所有可能取值：0,1,2,3；\n3. 分别计算各取值的概率：\n   P(X=0)=\\frac{C_{2}^{1} C_{5}^{2}}{C_{6}^{1} C_{10}^{2}}=\\frac{2}{27}；\n   P(X=1)=\\frac{C_{4}^{1} C_{5}^{2}+C_{2}^{1} C_{5}^{1} C_{5}^{1}}{C_{6}^{1} C_{10}^{2}}=\\frac{1}{3}；\n   P(X=2)=\\frac{C_{4}^{1} C_{5}^{1} C_{5}^{1}+C_{2}^{1} C_{5}^{2}}{C_{6}^{1} C_{10}^{2}}=\\frac{4}{9}；\n   P(X=3)=\\frac{C_{4}^{1} C_{5}^{2}}{C_{6}^{1} C_{10}^{2}}=\\frac{4}{27}；\n4. 列出X的分布列；\n5. 根据数学期望公式计算：E(X)=0×\\frac{2}{27}+1×\\frac{1}{3}+2×\\frac{4}{9}+3×\\frac{4}{27}=\\frac{5}{3}。",
+                        "standardAnswer": "X的分布列为：<table><thead><tr><th>X</th><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>P</td><td>$\\frac{2}{27}$</td><td>$\\frac{1}{3}$</td><td>$\\frac{4}{9}$</td><td>$\\frac{4}{27}$</td></tr></tbody></table>；数学期望$E(X)=\\frac{5}{3}$",
+                        "scoringCriteria": "第二问总分6分，确定中心城区、非中心城区中常住人口超100万和未超的数量得1分；确定X的所有可能取值得1分；正确计算出X各取值的概率共得2分；正确列出分布列得1分；计算出正确的数学期望得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）记2022 年这16 个区的常住人口、城镇人口、乡村人口的方差分别为$s_{1}^{2}$，$s_{2}^{2}$，$s_{3}^{2}$，试判断$s_{1}^{2}$，$s_{2}^{2}$，$s_{3}^{2}$的大小关系（结论不要求证明）。",
+                        "solutionSteps": "根据方差反映数据离散程度的性质，结合表格中常住人口、城镇人口、乡村人口的数据分布离散程度直接判断大小关系。",
+                        "standardAnswer": "$s_{1}^{2}>s_{2}^{2}>s_{3}^{2}$",
+                        "scoringCriteria": "第三问总分3分，直接写出正确的方差大小关系得3分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "There are 16 administrative districts in Beijing, among which Dongcheng District, Xicheng District, Chaoyang District, Fengtai District, Shijingshan District and Haidian District are central urban districts, and the others are non-central urban districts. According to the \"Beijing Population Blue Book · Beijing Population Development Research Report (2023)\", the permanent population of Beijing in 2022 was 21.843 million, consisting of urban population and rural population. The permanent population of each district is shown in the following table (the table contains the urban population and rural population data of 16 administrative districts).",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one from the 16 administrative districts, find the probability that the district is a non-central urban district and the rural population in 2022 is less than 200,000 people;",
+                        "solutionSteps": "1. Determine the number of non-central urban districts: there are 6 central urban districts among 16 administrative districts, so there are 16-6=10 non-central urban districts;\n2. Screen the non-central urban districts with rural population less than 200,000 people: Mentougou District, Huairou District, Pinggu District, Miyun District, Yanqing District, a total of 5 districts;\n3. Calculate according to the classical probability formula: P=Number of qualified districts/Total number of districts=5/16.",
+                        "standardAnswer": "$\\frac{5}{16}$",
+                        "scoringCriteria": "The total score of the first sub-question is 4 points. 1 point for determining the number of non-central urban districts; 2 points for screening out the number of non-central urban districts with rural population less than 200,000 people; 1 point for calculating the correct probability by substituting the classical probability formula.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Randomly select 1 from central urban districts and 2 from non-central urban districts. Let X be the number of administrative districts with permanent population exceeding 1 million in 2022 among the selected 3 districts, find the probability mass function of X and the mathematical expectation $E(X)$;",
+                        "solutionSteps": "1. Determine the number of various districts: among 6 central urban districts, 4 have permanent population exceeding 1 million and 2 do not; among 10 non-central urban districts, 5 have permanent population exceeding 1 million and 5 do not;\n2. Determine all possible values of X: 0,1,2,3;\n3. Calculate the probability of each value respectively:\n   P(X=0)=\\frac{C_{2}^{1} C_{5}^{2}}{C_{6}^{1} C_{10}^{2}}=\\frac{2}{27}；\n   P(X=1)=\\frac{C_{4}^{1} C_{5}^{2}+C_{2}^{1} C_{5}^{1} C_{5}^{1}}{C_{6}^{1} C_{10}^{2}}=\\frac{1}{3}；\n   P(X=2)=\\frac{C_{4}^{1} C_{5}^{1} C_{5}^{1}+C_{2}^{1} C_{5}^{2}}{C_{6}^{1} C_{10}^{2}}=\\frac{4}{9}；\n   P(X=3)=\\frac{C_{4}^{1} C_{5}^{2}}{C_{6}^{1} C_{10}^{2}}=\\frac{4}{27}；\n4. List the probability mass function of X;\n5. Calculate according to the mathematical expectation formula: E(X)=0×\\frac{2}{27}+1×\\frac{1}{3}+2×\\frac{4}{9}+3×\\frac{4}{27}=\\frac{5}{3}.",
+                        "standardAnswer": "The probability mass function of X is: <table><thead><tr><th>X</th><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>P</td><td>$\\frac{2}{27}$</td><td>$\\frac{1}{3}$</td><td>$\\frac{4}{9}$</td><td>$\\frac{4}{27}$</td></tr></tbody></table>; The mathematical expectation $E(X)=\\frac{5}{3}$",
+                        "scoringCriteria": "The total score of the second sub-question is 6 points. 1 point for determining the number of central and non-central urban districts with permanent population exceeding 1 million and those not; 1 point for determining all possible values of X; 2 points for correctly calculating the probabilities of each value of X; 1 point for correctly listing the probability mass function; 1 point for calculating the correct mathematical expectation.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Denote the variances of the permanent population, urban population and rural population of these 16 districts in 2022 as $s_{1}^{2}$, $s_{2}^{2}$, $s_{3}^{2}$ respectively, judge the size relationship of $s_{1}^{2}$, $s_{2}^{2}$, $s_{3}^{2}$ (no need to prove the conclusion).",
+                        "solutionSteps": "Judge the size relationship directly according to the property that variance reflects the degree of data dispersion and the dispersion degree of the distribution of permanent population, urban population and rural population data in the table.",
+                        "standardAnswer": "$s_{1}^{2}>s_{2}^{2}>s_{3}^{2}$",
+                        "scoringCriteria": "The total score of the third sub-question is 3 points. 3 points for directly writing the correct size relationship of variances.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的右焦点为 $F(\\sqrt{2}, 0)$，左、右顶点分别为 A，B，直线 $l: x=2 \\sqrt{2}$ 且 A 到 F 的距离与 A 到 l 的距离之比为 $\\frac{\\sqrt{2}}{2}$，求椭圆 C 的方程；",
+                        "solutionSteps": "1. 确定椭圆基本量的关系：椭圆右焦点F($\\sqrt{2}$,0)，故c=$\\sqrt{2}$，左顶点A(-a,0)；\n2. 计算A到F的距离和A到直线l的距离：|AF|=a+\\sqrt{2}，A到l:x=2\\sqrt{2}的距离为a+2\\sqrt{2}；\n3. 根据距离比列方程：$\\frac{a+\\sqrt{2}}{a+2\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$，解得a=2；\n4. 由椭圆中a,b,c的关系$b^2=a^2-c^2$计算b²：b²=4-2=2；\n5. 写出椭圆C的方程：$\\frac{x^2}{4}+\\frac{y^2}{2}=1$。",
+                        "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+                        "scoringCriteria": "第一问总分5分，确定c的值及左顶点坐标得1分；正确计算A到F和A到直线l的距离得1分；根据距离比列出正确方程得1分；解出a的正确值得1分；利用a,b,c关系算出b²并写出椭圆方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设 M，N 为椭圆 C 上不同的两点（不在坐标轴上），过点 N 作直线 $B M$ 的平行线与直线 $A M$ 交于点 D，过点 M 作直线 $B N$ 的平行线与直线 $A N$ 交于点 E，求证：点 D 与点 E 到直线 l 的距离相等。",
+                        "solutionSteps": "1. 确定椭圆顶点坐标：A(-2,0)，B(2,0)，设M(x₁,y₁)，N(x₂,y₂)；\n2. 写出相关直线的斜率：$k_{ND}=k_{BM}=\\frac{y_{1}}{x_{1}-2}$，$k_{ME}=k_{BN}=\\frac{y_{2}}{x_{2}-2}$；\n3. 写出直线AM和ND的方程：直线AM：$y=\\frac{y_{1}}{x_{1}+2}(x+2)$，直线ND：$y=\\frac{y_{1}}{x_{1}-2}(x-x_{2})+y_{2}$；\n4. 联立直线AM和ND的方程，整理化简：通过移项、通分得到-4y₁x=(x₁²-4)y₂-2y₁(x₁-2)-y₁x₂(x₁+2)；\n5. 结合椭圆方程替换化简：由$\\frac{x_{1}^{2}}{4}+\\frac{y_{1}^{2}}{2}=1$得x₁²-4=-2y₁²，代入上式化简求出$x_{D}=\\frac{x_{1} x_{2}}{4}+\\frac{y_{1} y_{2}}{2}+\\frac{x_{1}}{2}+\\frac{x_{2}}{2}-1$；\n6. 同理求出x_E：按照上述方法联立直线AN和ME的方程，化简可得$x_{E}=\\frac{x_{1} x_{2}}{4}+\\frac{y_{1} y_{2}}{2}+\\frac{x_{1}}{2}+\\frac{x_{2}}{2}-1$；\n7. 证明距离相等：因为x_D=x_E，点到直线l:x=2√2的距离为|2√2 - x|，故点D和点E到直线l的距离相等。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问总分10分，确定椭圆顶点坐标并设出M、N坐标得1分；正确写出相关直线的斜率得1分；写出直线AM、ND的方程得1分；联立方程并进行初步整理化简得2分；结合椭圆方程替换并求出x_D的表达式得2分；同理求出x_E的表达式得1分；根据x_D=x_E证明点D、E到直线l的距离相等得2分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Given that the right focus of the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $F(\\sqrt{2}, 0)$, the left and right vertices are A and B respectively, the straight line $l: x=2 \\sqrt{2}$, and the ratio of the distance from A to F to the distance from A to l is $\\frac{\\sqrt{2}}{2}$, find the equation of the ellipse C;",
+                        "solutionSteps": "1. Determine the relationship of the basic quantities of the ellipse: the right focus of the ellipse is F($\\sqrt{2}$,0), so c=$\\sqrt{2}$, and the left vertex A is (-a,0);\n2. Calculate the distance from A to F and the distance from A to the straight line l: |AF|=a+\\sqrt{2}, the distance from A to l:x=2\\sqrt{2} is a+2\\sqrt{2};\n3. List the equation according to the distance ratio: $\\frac{a+\\sqrt{2}}{a+2\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$, solve to get a=2;\n4. Calculate b² by the relationship $b^2=a^2-c^2$ in the ellipse: b²=4-2=2;\n5. Write the equation of the ellipse C: $\\frac{x^2}{4}+\\frac{y^2}{2}=1$.",
+                        "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+                        "scoringCriteria": "The total score of the first sub-question is 5 points. 1 point for determining the value of c and the coordinates of the left vertex; 1 point for correctly calculating the distance from A to F and the distance from A to the straight line l; 1 point for listing the correct equation according to the distance ratio; 1 point for solving the correct value of a; 1 point for calculating b² by the relationship of a, b, c and writing the ellipse equation.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let M and N be two different points on the ellipse C (not on the coordinate axes). Draw a line parallel to the straight line $B M$ through point N intersecting the straight line $A M$ at point D, and draw a line parallel to the straight line $B N$ through point M intersecting the straight line $A N$ at point E. Prove that the distances from point D and point E to the straight line l are equal.",
+                        "solutionSteps": "1. Determine the coordinates of the ellipse vertices: A(-2,0), B(2,0), let M(x₁,y₁), N(x₂,y₂);\n2. Write the slopes of the relevant straight lines: $k_{ND}=k_{BM}=\\frac{y_{1}}{x_{1}-2}$, $k_{ME}=k_{BN}=\\frac{y_{2}}{x_{2}-2}$;\n3. Write the equations of the straight lines AM and ND: the straight line AM: $y=\\frac{y_{1}}{x_{1}+2}(x+2)$, the straight line ND: $y=\\frac{y_{1}}{x_{1}-2}(x-x_{2})+y_{2}$;\n4. Simultaneously solve the equations of the straight lines AM and ND, and sort out and simplify: get -4y₁x=(x₁²-4)y₂-2y₁(x₁-2)-y₁x₂(x₁+2) by transposing and common denominators;\n5. Substitute and simplify combined with the ellipse equation: get x₁²-4=-2y₁² from $\\frac{x_{1}^{2}}{4}+\\frac{y_{1}^{2}}{2}=1$, substitute it into the above formula and simplify to find $x_{D}=\\frac{x_{1} x_{2}}{4}+\\frac{y_{1} y_{2}}{2}+\\frac{x_{1}}{2}+\\frac{x_{2}}{2}-1$;\n6. Find x_E in the same way: simultaneously solve the equations of the straight lines AN and ME according to the above method, and simplify to get $x_{E}=\\frac{x_{1} x_{2}}{4}+\\frac{y_{1} y_{2}}{2}+\\frac{x_{1}}{2}+\\frac{x_{2}}{2}-1$;\n7. Prove that the distances are equal: because x_D=x_E, the distance from a point to the straight line l:x=2√2 is |2√2 - x|, so the distances from point D and point E to the straight line l are equal.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "The total score of the second sub-question is 10 points. 1 point for determining the coordinates of the ellipse vertices and setting the coordinates of M and N; 1 point for correctly writing the slopes of the relevant straight lines; 1 point for writing the equations of the straight lines AM and ND; 2 points for simultaneously solving the equations and conducting preliminary arrangement and simplification; 2 points for substituting combined with the ellipse equation and finding the expression of x_D; 1 point for finding the expression of x_E in the same way; 2 points for proving that the distances from point D and E to the straight line l are equal according to x_D=x_E.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知函数 $f(x)=x sin 2 x+cos 2 x$，求曲线 $y=f(x)$ 在 $(-\\frac{\\pi}{4}, f(-\\frac{\\pi}{4}))$ 处的切线方程；",
+                        "solutionSteps": "1. 求函数f(x)的导数：$f'(x)=sin2x+2xcos2x-2sin2x=2xcos2x-sin2x$；\n2. 计算$f(-\\frac{\\pi}{4})$的值：$f(-\\frac{\\pi}{4})=-\\frac{\\pi}{4}sin(-\\frac{\\pi}{2})+cos(-\\frac{\\pi}{2})=\\frac{\\pi}{4}$；\n3. 计算切线斜率k=f'(-\\frac{\\pi}{4})：$f'(-\\frac{\\pi}{4})=2×(-\\frac{\\pi}{4})cos(-\\frac{\\pi}{2})-sin(-\\frac{\\pi}{2})=1$；\n4. 根据点斜式写出切线方程：$y-\\frac{\\pi}{4}=1×(x+\\frac{\\pi}{4})$，整理得$y=x+\\frac{\\pi}{2}$。",
+                        "standardAnswer": "$y=x+\\frac{\\pi}{2}$",
+                        "scoringCriteria": "第一问总分5分，正确求导得出f'(x)的表达式得2分；准确计算出$f(-\\frac{\\pi}{4})$的值得1分；计算出切线的斜率得1分；根据点斜式写出并整理出正确的切线方程得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）已知函数 $f(x)=x sin 2 x+cos 2 x$，求函数 $f(x)$ 在区间 $[-\\frac{2 \\pi}{3}, \\frac{5 \\pi}{6}]$ 上的极值点个数。",
+                        "solutionSteps": "1. 确定极值点与导数的关系：极值点为f'(x)=0的点，先求$f'(x)=2xcos2x-sin2x$，令g(x)=f'(x)；\n2. 求g(x)的导数：$g'(x)=2cos2x-4xsin2x-2cos2x=-4xsin2x$；\n3. 求g'(x)=0在区间$[-\\frac{2 \\pi}{3}, \\frac{5 \\pi}{6}]$的解：x=-\\frac{\\pi}{2},0,\\frac{\\pi}{2}；\n4. 分析g(x)在区间内的单调性：根据g'(x)的符号，确定g(x)在$(-\\frac{2\\pi}{3},-\\frac{\\pi}{2})$上递增，$(-\\frac{\\pi}{2},0)$上递减，$(0,\\frac{\\pi}{2})$上递减，$(\\frac{\\pi}{2},\\frac{5\\pi}{6})$上递增；\n5. 计算g(x)在关键节点的函数值：$f'(-\\frac{2 \\pi}{3})=\\frac{2 \\pi}{3}-\\frac{\\sqrt{3}}{2}>0$，$f'(-\\frac{\\pi}{2})>0$，$f'(0)=0$，$f'(\\frac{\\pi}{2})<0$，$f'(\\frac{5 \\pi}{6})=\\frac{5 \\pi}{6}+\\frac{\\sqrt{3}}{2}>0$；\n6. 确定f'(x)=0的根的个数：存在$x_0\\in(\\frac{\\pi}{2},\\frac{5\\pi}{6})$使得f'(x₀)=0，结合f'(0)=0，判断f(x)的单调性：在$[-\\frac{2\\pi}{3},0]$上单调递增，$[0,x_0]$上单调递减，$[x_0,\\frac{5\\pi}{6}]$上单调递增；\n7. 确定极值点个数：根据单调性变化，极值点为0和x₀，共2个。",
+                        "standardAnswer": "2个",
+                        "scoringCriteria": "第二问总分10分，令g(x)=f'(x)并正确求导得g'(x)得2分；求出g'(x)=0在区间内的解得1分；正确分析g(x)在各子区间的单调性得2分；准确计算f'(x)在关键节点的函数值并判断符号得2分；确定f'(x)=0的根的个数得1分；根据单调性变化判断出极值点的个数得2分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Given the function $f(x)=x sin 2 x+cos 2 x$, find the equation of the tangent line to the curve $y=f(x)$ at the point $(-\\frac{\\pi}{4}, f(-\\frac{\\pi}{4}))$;",
+                        "solutionSteps": "1. Find the derivative of the function f(x): $f'(x)=sin2x+2xcos2x-2sin2x=2xcos2x-sin2x$；\n2. Calculate the value of $f(-\\frac{\\pi}{4})$: $f(-\\frac{\\pi}{4})=-\\frac{\\pi}{4}sin(-\\frac{\\pi}{2})+cos(-\\frac{\\pi}{2})=\\frac{\\pi}{4}$；\n3. Calculate the slope k of the tangent line k=f'(-\\frac{\\pi}{4}): $f'(-\\frac{\\pi}{4})=2×(-\\frac{\\pi}{4})cos(-\\frac{\\pi}{2})-sin(-\\frac{\\pi}{2})=1$；\n4. Write the tangent line equation according to the point-slope form: $y-\\frac{\\pi}{4}=1×(x+\\frac{\\pi}{4})$, and sort out to get $y=x+\\frac{\\pi}{2}$.",
+                        "standardAnswer": "$y=x+\\frac{\\pi}{2}$",
+                        "scoringCriteria": "The total score of the first sub-question is 5 points. 2 points for correctly finding the derivative to get the expression of f'(x); 1 point for accurately calculating the value of $f(-\\frac{\\pi}{4})$; 1 point for calculating the slope of the tangent line; 1 point for writing and sorting out the correct tangent line equation according to the point-slope form.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Given the function $f(x)=x sin 2 x+cos 2 x$, find the number of extreme points of the function $f(x)$ on the interval $[-\\frac{2 \\pi}{3}, \\frac{5 \\pi}{6}]$.",
+                        "solutionSteps": "1. Determine the relationship between extreme points and derivatives: extreme points are the points where f'(x)=0, first find $f'(x)=2xcos2x-sin2x$, let g(x)=f'(x)；\n2. Find the derivative of g(x): $g'(x)=2cos2x-4xsin2x-2cos2x=-4xsin2x$；\n3. Find the solutions of g'(x)=0 on the interval $[-\\frac{2 \\pi}{3}, \\frac{5 \\pi}{6}]$: x=-\\frac{\\pi}{2},0,\\frac{\\pi}{2}；\n4. Analyze the monotonicity of g(x) in the interval: determine the monotonicity of g(x) according to the sign of g'(x), g(x) is increasing on $(-\\frac{2\\pi}{3},-\\frac{\\pi}{2})$, decreasing on $(-\\frac{\\pi}{2},0)$, decreasing on $(0,\\frac{\\pi}{2})$, increasing on $(\\frac{\\pi}{2},\\frac{5\\pi}{6})$；\n5. Calculate the function values of g(x) at key nodes: $f'(-\\frac{2 \\pi}{3})=\\frac{2 \\pi}{3}-\\frac{\\sqrt{3}}{2}>0$, $f'(-\\frac{\\pi}{2})>0$, $f'(0)=0$, $f'(\\frac{\\pi}{2})<0$, $f'(\\frac{5 \\pi}{6})=\\frac{5 \\pi}{6}+\\frac{\\sqrt{3}}{2}>0$；\n6. Determine the number of roots of f'(x)=0: there exists $x_0\\in(\\frac{\\pi}{2},\\frac{5\\pi}{6})$ such that f'(x₀)=0, combined with f'(0)=0, judge the monotonicity of f(x): increasing on $[-\\frac{2\\pi}{3},0]$, decreasing on $[0,x_0]$, increasing on $[x_0,\\frac{5\\pi}{6}]$；\n7. Determine the number of extreme points: according to the change of monotonicity, the extreme points are 0 and x₀, a total of 2.",
+                        "standardAnswer": "2",
+                        "scoringCriteria": "The total score of the second sub-question is 10 points. 2 points for letting g(x)=f'(x) and correctly finding the derivative to get g'(x); 1 point for finding the solutions of g'(x)=0 in the interval; 2 points for correctly analyzing the monotonicity of g(x) in each subinterval; 2 points for accurately calculating the function values of f'(x) at key nodes and judging the signs; 1 point for determining the number of roots of f'(x)=0; 2 points for judging the number of extreme points according to the change of monotonicity.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知 $A_{n}: a_{1}, a_{2}, \\cdots, a_{n}(n ≥3)$ 为有穷整数数列，若 $A_{n}$ 满足：$a_{i+1}-a_{i} \\in{p, q}(i=1,2, \\cdots, n-1)$，其中 $p, q$ 是两个给定的不同非零整数，且 $a_{1}=a_{n}=0$，则称 $A_{n}$ 具有性质 T。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若 $p=-1$，$q=2$，那么是否存在具有性质 T 的 $A_{5}$？若存在，写出一个这样的 $A_{5}$；若不存在，请说明理由；",
+                        "solutionSteps": "1. 假设存在具有性质T的A₅，设A₅：a₁,a₂,a₃,a₄,a₅，其中a₁=a₅=0，a_{i+1}-a_i∈{-1,2}(i=1,2,3,4)；\n2. 设差值中有m个-1，4-m个2，根据数列累加性质：(a₂-a₁)+(a₃-a₂)+(a₄-a₃)+(a₅-a₄)=a₅-a₁=0；\n3. 列方程求解m：-m+2(4-m)=0，即8-3m=0，解得m=8/3；\n4. 得出结论：m不是整数，与m为差值中-1的个数矛盾，故不存在具有性质T的A₅。",
+                        "standardAnswer": "不存在，理由见解析",
+                        "scoringCriteria": "第一问总分4分，假设存在并设出A₅及差值中-1的个数m得1分；根据数列累加性质列出方程得1分；解方程得出m非整数的结果得1分；根据矛盾得出不存在的结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若 $p=-1$，$q=2$，且 $A_{10}$ 具有性质 T，求证：$a_{1}, a_{2}, \\cdots, a_{9}$ 中必有两项相同；",
+                        "solutionSteps": "1. 设$|a_{1}|,|a_{2}|, \\cdots,|a_{10}|$中的最大值为M，则存在a_k使得a_k=M或a_k=-M；\n2. 若a_k=M，证明a_k,a_{k+1},\\cdots,a_{10}可取遍0到M之间所有整数：假设存在正整数m<M，该数列段中无m，设i₀是a_i>m的最大下标，则a_{i₀}>m>a_{i₀+1}，与a_{i+1}-a_i∈{-1,2}矛盾，故可取遍0到M所有整数；\n3. 分类讨论M的取值：\n   ①M=1时，a₁到a₉的取值仅为0,±1，9个数中必有两项相同；\n   ②M=2时，a₁到a₉的取值仅为0,±1,±2，9个数中必有两项相同；\n   ③M≥3时，a₁到a_k有异于0和M的正整数，且a_k到a₁₀可取遍0到M所有整数，故9个数中必有两项相同；\n4. 若a_k=-M，同理可证a₁到a_k可取遍-M到0所有整数，故a₁到a₉中必有两项相同；\n5. 综合上述情况，得出结论。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问总分5分，设出最大值M并指出存在a_k=M或a_k=-M得1分；用反证法证明a_k到a₁₀可取遍0到M所有整数得1分；对M=1、M=2、M≥3分类讨论并得出各情况下必有两项相同的结论得2分；说明a_k=-M时同理可证得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）若 $p+q=1$，求证：存在正整数 k，使得对任意具有性质 T 的 $A_{k}$，都有 $a_{1}, a_{2}, \\cdots, a_{k-1}$ 中任意两项均 不相同。",
+                        "solutionSteps": "1. 不妨设p<0<q，由p+q=1，当A_k具有性质T时，设差值中有q个p，-p个q，满足q×p+(-p)×q=0，此时k=q-p+1；\n2. 假设存在1≤i<j≤k-1，使得a_i=a_j，设a_i=u₁p+v₁q，a_j=u₂p+v₂q，其中0≤u₁≤u₂≤q，0≤v₁≤v₂≤-p；\n3. 令s=u₂-u₁，t=v₂-v₁，则ps+qt=0，且0≤s≤q，0≤t≤-p；\n4. 结合p+q=1化简：由ps+q(1-p)t=0，得s=q(s-t)；\n5. 分类讨论s和t的关系：\n   ①s=t时，s=0，即u₁=u₂，此时v₁=v₂，推出i=j，与i<j矛盾；\n   ②s≠t时，s=q且s=t+1，推出u₂=q，u₁=0，v₂=q-1，v₁=0，此时a_i=a₁，a_j=a_n，与i<j≤k-1矛盾；\n6. 由反证法得出假设不成立，故a₁到a_{k-1}中任意两项均不相同，即存在这样的正整数k=q-p+1。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问总分6分，不妨设p<0<q并确定k=q-p+1得1分；假设存在i<j使得a_i=a_j并设出a_i、a_j的表达式得1分；令s=u₂-u₁，t=v₂-v₁并得出ps+qt=0得1分；结合p+q=1化简得到s=q(s-t)得1分；对s=t和s≠t分类讨论并推出矛盾得1分；由反证法得出结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given that $A_{n}: a_{1}, a_{2}, \\cdots, a_{n}(n ≥3)$ is a finite integer sequence. If $A_{n}$ satisfies: $a_{i+1}-a_{i} \\in{p, q}(i=1,2, \\cdots, n-1)$, where p and q are two given different non-zero integers, and $a_{1}=a_{n}=0$, then $A_{n}$ is said to have property T.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $p=-1$ and $q=2$, does there exist $A_{5}$ with property T? If it exists, write one such $A_{5}$; if not, explain the reason;",
+                        "solutionSteps": "1. Assume that there exists A₅ with property T, let A₅: a₁,a₂,a₃,a₄,a₅, where a₁=a₅=0, a_{i+1}-a_i∈{-1,2}(i=1,2,3,4)；\n2. Let there be m -1s and 4-m 2s in the differences, according to the accumulation property of the sequence: (a₂-a₁)+(a₃-a₂)+(a₄-a₃)+(a₅-a₄)=a₅-a₁=0；\n3. List the equation to solve m: -m+2(4-m)=0, that is 8-3m=0, solve to get m=8/3；\n4. Draw the conclusion: m is not an integer, which contradicts the fact that m is the number of -1s in the differences, so there is no A₅ with property T.",
+                        "standardAnswer": "Does not exist, see the analysis for the reason",
+                        "scoringCriteria": "The total score of the first sub-question is 4 points. 1 point for assuming existence and setting A₅ and the number m of -1s in the differences; 1 point for listing the equation according to the accumulation property of the sequence; 1 point for solving the equation to get the result that m is not an integer; 1 point for drawing the conclusion of non-existence according to the contradiction.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If $p=-1$, $q=2$, and $A_{10}$ has property T, prove that there must be two identical terms among $a_{1}, a_{2}, \\cdots, a_{9}$;",
+                        "solutionSteps": "1. Let M be the maximum value of $|a_{1}|,|a_{2}|, \\cdots,|a_{10}|$, then there exists a_k such that a_k=M or a_k=-M；\n2. If a_k=M, prove that a_k,a_{k+1},\\cdots,a_{10} can take all integers from 0 to M: assume that there exists a positive integer m<M such that m does not appear in this sequence segment, let i₀ be the maximum subscript with a_i>m, then a_{i₀}>m>a_{i₀+1}, which contradicts a_{i+1}-a_i∈{-1,2}, so it can take all integers from 0 to M；\n3. Discuss the value of M by classification: \n   ①When M=1, the values of a₁ to a₉ are only 0,±1, there must be two identical terms among 9 numbers；\n   ②When M=2, the values of a₁ to a₉ are only 0,±1,±2, there must be two identical terms among 9 numbers；\n   ③When M≥3, there are positive integers different from 0 and M in a₁ to a_k, and a_k to a₁₀ can take all integers from 0 to M, so there must be two identical terms among 9 numbers；\n4. If a_k=-M, it can be proved similarly that a₁ to a_k can take all integers from -M to 0, so there must be two identical terms among a₁ to a₉；\n5. Synthesize the above situations and draw the conclusion.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "The total score of the second sub-question is 5 points. 1 point for setting the maximum value M and pointing out that there exists a_k=M or a_k=-M; 1 point for proving that a_k to a₁₀ can take all integers from 0 to M by reduction to absurdity; 2 points for discussing the values of M=1, M=2 and M≥3 by classification and drawing the conclusion that there must be two identical terms in each case; 1 point for explaining that it can be proved similarly when a_k=-M.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) If $p+q=1$, prove that there exists a positive integer k such that for any $A_{k}$ with property T, any two terms among $a_{1}, a_{2}, \\cdots, a_{k-1}$ are different.",
+                        "solutionSteps": "1. Without loss of generality, let p<0<q. Since p+q=1, when A_k has property T, let there be q p-s and -p q-s in the differences, which satisfy q×p+(-p)×q=0, at this time k=q-p+1；\n2. Assume that there exist 1≤i<j≤k-1 such that a_i=a_j, let a_i=u₁p+v₁q, a_j=u₂p+v₂q, where 0≤u₁≤u₂≤q, 0≤v₁≤v₂≤-p；\n3. Let s=u₂-u₁, t=v₂-v₁, then ps+qt=0, and 0≤s≤q, 0≤t≤-p；\n4. Simplify combined with p+q=1: from ps+q(1-p)t=0, we get s=q(s-t)；\n5. Discuss the relationship between s and t by classification: \n   ①When s=t, s=0, that is u₁=u₂, at this time v₁=v₂, which infers i=j, contradicting i<j；\n   ②When s≠t, s=q and s=t+1, which infers u₂=q, u₁=0, v₂=q-1, v₁=0, at this time a_i=a₁, a_j=a_n, contradicting i<j≤k-1；\n6. The assumption is not valid by reduction to absurdity, so any two terms among a₁ to a_{k-1} are different, that is, there exists such a positive integer k=q-p+1.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "The total score of the third sub-question is 6 points. 1 point for letting p<0<q without loss of generality and determining k=q-p+1; 1 point for assuming that there exist i<j such that a_i=a_j and setting the expressions of a_i and a_j; 1 point for letting s=u₂-u₁, t=v₂-v₁ and getting ps+qt=0; 1 point for simplifying to get s=q(s-t) combined with p+q=1; 1 point for discussing the cases of s=t and s≠t by classification and inferring contradictions; 1 point for drawing the conclusion by reduction to absurdity.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

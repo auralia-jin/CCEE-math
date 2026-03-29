@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2025 Beijing Haidian Senior Three Third Mock Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某公司为了了解A，B两个地区用户对其产品的满意程度，从A地区随机抽取400名用户，从B地区随机抽取100名用户，通过问卷的形式请用户对公司产品评分。该公司将收集的数据按照[20,40),[40,60),[60,80),[80,100]分组，绘制成评分分布表如下：\nA地区：[20,40)40人，[40,60)120人，[60,80)160人，[80,100]80人，合计400人；\nB地区：[20,40)30人，[40,60)20人，[60,80)40人，[80,100]10人，合计100人。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）采取按组分层随机抽样的方法，从A地区抽取的400名用户中抽取10名用户参加座谈活动。求参加座谈的用户中，对公司产品的评分不低于60分的用户有多少名？",
+            "solutionSteps": "1. 先计算A地区评分不低于60分的用户数：160 + 80 = 240人；\n2. 设抽取的10名用户中评分不低于60分的有m名，根据分层抽样的比例关系列等式：\\(\\frac{m}{10}=\\frac{240}{400}\\)；\n3. 求解等式：m = 10 × (240/400) = 6。",
+            "standardAnswer": "6",
+            "scoringCriteria": "该问共4分，计算出A地区评分不低于60分的用户数得1分，列出分层抽样比例等式得2分，计算出最终结果得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从（Ⅰ）中参加座谈的且评分不低于60分的用户中随机选取2名用户，求这2名用户的评分恰有1名低于80分的概率；",
+            "solutionSteps": "1. 确定样本构成：评分[60,80)有4名，[80,100]有2名，共6名；\n2. 列出从6人中选2人的所有基本事件，样本空间Ω包含的基本事件数为\\(C_{6}^{2}=15\\)个；\n3. 确定事件M（恰有1名低于80分）包含的基本事件数：从4名[60,80)中选1名，从2名[80,100]中选1名，即\\(C_{4}^{1}×C_{2}^{1}=8\\)个；\n4. 根据古典概型概率公式计算：\\(P(M)=\\frac{n(M)}{n(Ω)}=\\frac{8}{15}\\)。",
+            "standardAnswer": "$\\\\frac{8}{15}$",
+            "scoringCriteria": "该问共7分，确定样本构成得1分，计算出样本空间基本事件数得2分，计算出事件M包含的基本事件数得2分，代入古典概型公式并算出结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）若A地区用户对该公司产品的评分的平均值为$\\mu_{1}$，B地区用户对该公司产品的评分的平均值为$\\mu_{2}$，两个地区的所有用户对该公司产品的评分的平均值为$\\mu_{0}$，试比较$\\mu_{0}$和$\\frac{\\mu_{1}+\\mu_{2}}{2}$的大小，并说明理由。",
+            "solutionSteps": "1. 计算$\\mu_{1}$：\\(\\mu_{1}=30×\\frac{40}{400}+50×\\frac{120}{400}+70×\\frac{160}{400}+90×\\frac{80}{400}=64\\)；\n2. 计算$\\mu_{2}$：\\(\\mu_{2}=30×\\frac{30}{100}+50×\\frac{20}{100}+70×\\frac{40}{100}+90×\\frac{10}{100}=56\\)；\n3. 计算$\\mu_{0}$：\\(\\mu_{0}=30×\\frac{70}{500}+50×\\frac{140}{500}+70×\\frac{200}{500}+90×\\frac{90}{500}=62.4\\)；\n4. 计算$\\frac{\\mu_{1}+\\mu_{2}}{2}$：\\(\\frac{64+56}{2}=60\\)；\n5. 比较大小：62.4 > 60，故$\\mu_{0}>\\frac{\\mu_{1}+\\mu_{2}}{2}$，也可通过权重分析：$\\mu_{0}=\\frac{4}{5}\\mu_{1}+\\frac{1}{5}\\mu_{2}$，因$\\mu_{1}>\\mu_{2}$，故该加权平均大于算术平均。",
+            "standardAnswer": "$\\\\mu_{0}>\\\\frac{\\mu_{1}+\\mu_{2}}{2}$，理由见解析",
+            "scoringCriteria": "该问共2分，正确判断大小关系得1分，给出合理的计算或理论理由得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "A company wants to understand the satisfaction of users in regions A and B with its products. It randomly selected 400 users from region A and 100 users from region B, and asked the users to rate the company's products through questionnaires. The company grouped the collected data into [20,40), [40,60), [60,80), [80,100] and compiled the following score distribution table:\nRegion A: [20,40) 40 people, [40,60) 120 people, [60,80) 160 people, [80,100] 80 people, total 400 people;\nRegion B: [20,40) 30 people, [40,60) 20 people, [60,80) 40 people, [80,100] 10 people, total 100 people.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Using the method of stratified random sampling by groups, 10 users are selected from 400 users in region A to participate in a forum activity. Find the number of users whose ratings for the company's products are not less than 60 points among the participating users?",
+            "solutionSteps": "1. First calculate the number of users in region A with ratings not less than 60 points: 160 + 80 = 240 people;\n2. Let m be the number of users with ratings not less than 60 points among the 10 selected users, and list the equation according to the proportional relationship of stratified sampling: $\\\\frac{m}{10}=\\\\frac{240}{400}$;\n3. Solve the equation: m = 10 × (240/400) = 6.",
+            "standardAnswer": "6",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for calculating the number of users in region A with ratings not less than 60 points, 2 points for listing the proportional equation of stratified sampling, and 1 point for calculating the final result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 2 users from the participating users with ratings not less than 60 points in (Ⅰ), find the probability that exactly 1 of the 2 users has a rating lower than 80 points?",
+            "solutionSteps": "1. Determine the sample composition: 4 users with ratings in [60,80), 2 users with ratings in [80,100], total 6 users;\n2. List all basic events of selecting 2 from 6 people, the number of basic events contained in the sample space Ω is $C_{6}^{2}=15$;\n3. Determine the number of basic events contained in event M (exactly 1 with rating lower than 80 points): select 1 from 4 users in [60,80) and 1 from 2 users in [80,100], that is $C_{4}^{1}×C_{2}^{1}=8$;\n4. Calculate according to the classical probability formula: $P(M)=\\\\frac{n(M)}{n(Ω)}=\\\\frac{8}{15}$.",
+            "standardAnswer": "$\\\\frac{8}{15}$",
+            "scoringCriteria": "This sub-question is worth 7 points. 1 point for determining the sample composition, 2 points for calculating the number of basic events in the sample space, 2 points for calculating the number of basic events contained in event M, and 2 points for substituting the classical probability formula and calculating the result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) If the average score of users in region A for the company's products is $\\\\mu_{1}$, the average score of users in region B for the company's products is $\\\\mu_{2}$, and the average score of all users in the two regions for the company's products is $\\\\mu_{0}$, compare the sizes of $\\\\mu_{0}$ and $\\\\frac{\\\\mu_{1}+\\\\mu_{2}}{2}$, and explain the reason.",
+            "solutionSteps": "1. Calculate $\\\\mu_{1}$: $\\\\mu_{1}=30×\\\\frac{40}{400}+50×\\\\frac{120}{400}+70×\\\\frac{160}{400}+90×\\\\frac{80}{400}=64$;\n2. Calculate $\\\\mu_{2}$: $\\\\mu_{2}=30×\\\\frac{30}{100}+50×\\\\frac{20}{100}+70×\\\\frac{40}{100}+90×\\\\frac{10}{100}=56$;\n3. Calculate $\\\\mu_{0}$: $\\\\mu_{0}=30×\\\\frac{70}{500}+50×\\\\frac{140}{500}+70×\\\\frac{200}{500}+90×\\\\frac{90}{500}=62.4$;\n4. Calculate $\\\\frac{\\\\mu_{1}+\\\\mu_{2}}{2}$: $\\\\frac{64+56}{2}=60$;\n5. Compare the sizes: 62.4 > 60, so $\\\\mu_{0}>\\\\frac{\\\\mu_{1}+\\\\mu_{2}}{2}$. It can also be analyzed by weight: $\\\\mu_{0}=\\\\frac{4}{5}\\\\mu_{1}+\\\\frac{1}{5}\\\\mu_{2}$, since $\\\\mu_{1}>\\\\mu_{2}$, the weighted average is greater than the arithmetic average.",
+            "standardAnswer": "$\\\\mu_{0}>\\\\frac{\\\\mu_{1}+\\\\mu_{2}}{2}$, see the analysis for reasons",
+            "scoringCriteria": "This sub-question is worth 2 points. 1 point for correctly judging the size relationship, and 1 point for giving a reasonable calculation or theoretical reason.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$的焦距为2，长轴长为4。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆E的方程；",
+            "solutionSteps": "1. 根据椭圆的基本性质，焦距$2c=2$，得$c=1$；长轴长$2a=4$，得$a=2$；\n2. 由椭圆中$a^2=b^2+c^2$，计算$b^2=a^2-c^2=4-1=3$；\n3. 代入椭圆标准方程得$\\frac{x^2}{4}+\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "该问共3分，求出a和c的值各得1分，计算出b²并写出椭圆方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）过点$M(-3,0)$且与x轴不重合的直线l与椭圆E交于不同的两点B，C，点B关于x轴的对称点为$B'$。问：平面内是否存在定点P，使得$B'$恒在直线$PC$上？若存在，求出点P的坐标；若不存在，说明理由。",
+            "solutionSteps": "1. 设直线l的方程为$x=my-3$，设$B(x_1,y_1)$，$C(x_2,y_2)$，则$B'(x_1,-y_1)$，假设存在定点$P(t,0)$（由对称性猜测在x轴上）；\n2. 联立直线与椭圆方程：$\\begin{cases}\\frac{x^2}{4}+\\frac{y^2}{3}=1 \\\\ x=my-3\\end{cases}$，消去x得$(3m^2+4)y^2-18my+15=0$；\n3. 由韦达定理得$y_1+y_2=\\frac{18m}{3m^2+4}$，$y_1y_2=\\frac{15}{3m^2+4}$；\n4. 由$B'$、P、C共线，得$k_{PB'}=k_{PC}$，即$\\frac{-y_1}{x_1-t}=\\frac{y_2}{x_2-t}$，变形为$(x_1-t)y_2+(x_2-t)y_1=0$；\n5. 代入$x_1=my_1-3$，$x_2=my_2-3$，化简得$2my_1y_2-(3+t)(y_1+y_2)=0$；\n6. 将韦达定理结果代入：$2m×\\frac{15}{3m^2+4}-(3+t)×\\frac{18m}{3m^2+4}=0$，约去m并解得$t=-\\frac{4}{3}$；\n7. 故存在定点$P(-\\frac{4}{3},0)$使得$B'$恒在直线$PC$上。",
+            "standardAnswer": "存在，定点P的坐标为$(-\\\\frac{4}{3},0)$",
+            "scoringCriteria": "该问共7分，设出直线方程和点的坐标得1分，联立方程并消元正确得1分，求出韦达定理的结果得1分，根据共线列出斜率相等的等式得1分，代入化简等式得1分，求解出定点坐标得1分，给出最终结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the focal length of the ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ is 2, and the length of the major axis is 4.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse E?",
+            "solutionSteps": "1. According to the basic properties of the ellipse, the focal length $2c=2$, so $c=1$; the length of the major axis $2a=4$, so $a=2$;\n2. From $a^2=b^2+c^2$ in the ellipse, calculate $b^2=a^2-c^2=4-1=3$;\n3. Substitute into the standard equation of the ellipse to get $\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "This sub-question is worth 3 points. 1 point for finding the values of a and c respectively, and 1 point for calculating b² and writing the ellipse equation.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) A straight line l passing through point $M(-3,0)$ and not coinciding with the x-axis intersects the ellipse E at two distinct points B and C, and the symmetric point of point B about the x-axis is $B'$. Question: Is there a fixed point P in the plane such that $B'$ is always on the straight line $PC$? If it exists, find the coordinates of point P; if not, explain the reason.",
+            "solutionSteps": "1. Let the equation of the straight line l be $x=my-3$, let $B(x_1,y_1)$, $C(x_2,y_2)$, then $B'(x_1,-y_1)$, assume there is a fixed point $P(t,0)$ (guessed on the x-axis by symmetry);\n2. Simultaneously solve the equations of the straight line and the ellipse: $\\\\begin{cases}\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1 \\\\ x=my-3\\\\end{cases}$, eliminate x to get $(3m^2+4)y^2-18my+15=0$;\n3. From Vieta's formulas, $y_1+y_2=\\\\frac{18m}{3m^2+4}$, $y_1y_2=\\\\frac{15}{3m^2+4}$;\n4. Since $B'$, P, C are collinear, we have $k_{PB'}=k_{PC}$, that is $\\\\frac{-y_1}{x_1-t}=\\\\frac{y_2}{x_2-t}$, which is transformed into $(x_1-t)y_2+(x_2-t)y_1=0$;\n5. Substitute $x_1=my_1-3$, $x_2=my_2-3$ and simplify to get $2my_1y_2-(3+t)(y_1+y_2)=0$;\n6. Substitute the results of Vieta's formulas: $2m×\\\\frac{15}{3m^2+4}-(3+t)×\\\\frac{18m}{3m^2+4}=0$, cancel m and solve to get $t=-\\\\frac{4}{3}$;\n7. Therefore, there exists a fixed point $P(-\\\\frac{4}{3},0)$ such that $B'$ is always on the straight line $PC$.",
+            "standardAnswer": "Exists, the coordinates of the fixed point P are $(-\\\\frac{4}{3},0)$",
+            "scoringCriteria": "This sub-question is worth 7 points. 1 point for setting the equation of the straight line and the coordinates of the points, 1 point for correctly simulating and eliminating the equations, 1 point for finding the results of Vieta's formulas, 1 point for listing the equation of equal slopes according to collinearity, 1 point for substituting and simplifying the equation, 1 point for solving the coordinates of the fixed point, and 1 point for giving the final conclusion.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=x^{2}-a \\ln x-1(a \\in R)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当$a=2$时，求$f(x)$的极值；",
+            "solutionSteps": "1. 确定函数定义域为$(0,+\\infty)$，当$a=2$时，$f(x)=x^2-2\\ln x-1$；\n2. 求导得$f'(x)=2x-\\frac{2}{x}=\\frac{2(x^2-1)}{x}$；\n3. 令$f'(x)=0$，解得$x=1$（$x=-1$舍去，因不在定义域内）；\n4. 分析单调性：当$x\\in(0,1)$时，$f'(x)<0$，$f(x)$单调递减；当$x\\in(1,+\\infty)$时，$f'(x)>0$，$f(x)$单调递增；\n5. 故$x=1$时，$f(x)$取得极小值$f(1)=1^2-2\\ln1-1=0$，无极大值。",
+            "standardAnswer": "极小值为0，无极大值",
+            "scoringCriteria": "该问共4分，写出函数定义域和求导正确得1分，求解导数为0的根并舍去无效根得1分，分析函数单调性得1分，求出极值并说明无极大值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若对$\\forall x \\in(1,+\\infty)$，$f(x)>0$恒成立，求a的取值范围；",
+            "solutionSteps": "1. 求导得$f'(x)=2x-\\frac{a}{x}=\\frac{2x^2-a}{x}$，$x\\in(1,+\\infty)$；\n2. 分类讨论：\n   ①当$a\\leq2$时，$2x^2-a>2×1-a\\geq0$，故$f'(x)>0$，$f(x)$在$(1,+\\infty)$上单调递增，$f(x)>f(1)=0$，满足题意；\n   ②当$a>2$时，令$f'(x)=0$，得$x=\\frac{\\sqrt{2a}}{2}>1$，当$x\\in(1,\\frac{\\sqrt{2a}}{2})$时，$f'(x)<0$，$f(x)$单调递减，此时$f(\\frac{\\sqrt{2a}}{2})<f(1)=0$，不满足题意；\n3. 综上，a的取值范围为$(-\\infty,2]$。",
+            "standardAnswer": "$(-\\\\infty,2]$",
+            "scoringCriteria": "该问共5分，求导正确得1分，分$a\\leq2$和$a>2$两类讨论各得1分，分析每类下函数的单调性和$f(x)$的取值情况各得1分，给出最终取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）证明：若$f(x)$在区间$(1,+\\infty)$上存在唯一零点$x_{0}$，则$x_{0}<e^{a-2}$（其中$e=2.71828 \\cdots$）。",
+            "solutionSteps": "1. 由（Ⅱ）知，当$a\\leq2$时，$f(x)$在$(1,+\\infty)$上无零点，故$a>2$，此时$f(x)$在$(1,\\frac{\\sqrt{2a}}{2})$单调递减，在$(\\frac{\\sqrt{2a}}{2},+\\infty)$单调递增，且唯一零点$x_0>\\frac{\\sqrt{2a}}{2}$；\n2. 要证$x_0<e^{a-2}$，只需证$f(e^{a-2})>0$（因$f(x)$在$(\\frac{\\sqrt{2a}}{2},+\\infty)$单调递增，$f(x_0)=0$）；\n3. 计算$f(e^{a-2})=e^{2a-4}-a(a-2)-1$，令$t=a-2(t>0)$，则需证$e^{2t}-t(t+2)-1>0$；\n4. 构造函数$g(x)=e^{2x}-x(x+2)-1(x>0)$，求导得$g'(x)=2e^{2x}-2x-2$，再构造$h(x)=2e^{2x}-2x-2$，$h'(x)=4e^{2x}-2>0(x>0)$，故$h(x)$在$(0,+\\infty)$单调递增，$h(x)>h(0)=0$，即$g'(x)>0$；\n5. 故$g(x)$在$(0,+\\infty)$单调递增，$g(x)>g(0)=e^0-0-1=0$，即$e^{2t}-t(t+2)-1>0$成立；\n6. 因此$f(e^{a-2})>0=f(x_0)$，结合单调性得$x_0<e^{a-2}$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问共6分，分析得出$a>2$及$x_0$的范围得1分，将证明$x_0<e^{a-2}$转化为证明$f(e^{a-2})>0$得1分，换元构造函数$g(x)$得1分，对$g(x)$求导并构造$h(x)$分析单调性得1分，证明$g(x)>0$得1分，结合函数单调性得出结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=x^{2}-a \\ln x-1(a \\in R)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $a=2$, find the extreme values of $f(x)$?",
+            "solutionSteps": "1. Determine the domain of the function is $(0,+\\\\infty)$, when $a=2$, $f(x)=x^2-2\\\\ln x-1$;\n2. Find the derivative: $f'(x)=2x-\\\\frac{2}{x}=\\\\frac{2(x^2-1)}{x}$;\n3. Let $f'(x)=0$, solve to get $x=1$ ($x=-1$ is discarded because it is not in the domain);\n4. Analyze the monotonicity: when $x\\\\in(0,1)$, $f'(x)<0$, $f(x)$ is monotonically decreasing; when $x\\\\in(1,+\\\\infty)$, $f'(x)>0$, $f(x)$ is monotonically increasing;\n5. Therefore, when $x=1$, $f(x)$ attains a minimum value $f(1)=1^2-2\\\\ln1-1=0$, and there is no maximum value.",
+            "standardAnswer": "The minimum value is 0, no maximum value",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for writing the domain of the function and finding the derivative correctly, 1 point for solving the root of the derivative being 0 and discarding the invalid root, 1 point for analyzing the monotonicity of the function, and 1 point for finding the extreme value and explaining that there is no maximum value.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $f(x)>0$ holds for all $\\\\forall x \\in(1,+\\\\infty)$, find the range of values of a?",
+            "solutionSteps": "1. Find the derivative: $f'(x)=2x-\\\\frac{a}{x}=\\\\frac{2x^2-a}{x}$, $x\\\\in(1,+\\\\infty)$;\n2. Classified discussion:\n   ①When $a\\\\leq2$, $2x^2-a>2×1-a\\\\geq0$, so $f'(x)>0$, $f(x)$ is monotonically increasing on $(1,+\\\\infty)$, $f(x)>f(1)=0$, which satisfies the condition;\n   ②When $a>2$, let $f'(x)=0$, get $x=\\\\frac{\\\\sqrt{2a}}{2}>1$, when $x\\\\in(1,\\\\frac{\\\\sqrt{2a}}{2})$, $f'(x)<0$, $f(x)$ is monotonically decreasing, at this time $f(\\\\frac{\\\\sqrt{2a}}{2})<f(1)=0$, which does not satisfy the condition;\n3. In summary, the range of a is $(-\\\\infty,2]$.",
+            "standardAnswer": "$(-\\\\infty,2]$",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for finding the derivative correctly, 1 point for each of the two discussions of $a\\\\leq2$ and $a>2$, 1 point for analyzing the monotonicity of the function and the value of $f(x)$ under each category, and 1 point for giving the final range of values.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Prove that if $f(x)$ has a unique zero point $x_{0}$ in the interval $(1,+\\\\infty)$, then $x_{0}<e^{a-2}$ (where $e=2.71828 \\cdots$).",
+            "solutionSteps": "1. From (Ⅱ), when $a\\\\leq2$, $f(x)$ has no zero point on $(1,+\\\\infty)$, so $a>2$. At this time, $f(x)$ is monotonically decreasing on $(1,\\\\frac{\\\\sqrt{2a}}{2})$ and monotonically increasing on $(\\\\frac{\\\\sqrt{2a}}{2},+\\\\infty)$, and the unique zero point $x_0>\\\\frac{\\\\sqrt{2a}}{2}$;\n2. To prove $x_0<e^{a-2}$, it is only necessary to prove $f(e^{a-2})>0$ (because $f(x)$ is monotonically increasing on $(\\\\frac{\\\\sqrt{2a}}{2},+\\\\infty)$ and $f(x_0)=0$);\n3. Calculate $f(e^{a-2})=e^{2a-4}-a(a-2)-1$, let $t=a-2(t>0)$, then it is necessary to prove $e^{2t}-t(t+2)-1>0$;\n4. Construct the function $g(x)=e^{2x}-x(x+2)-1(x>0)$, find the derivative $g'(x)=2e^{2x}-2x-2$, then construct $h(x)=2e^{2x}-2x-2$, $h'(x)=4e^{2x}-2>0(x>0)$, so $h(x)$ is monotonically increasing on $(0,+\\\\infty)$, $h(x)>h(0)=0$, that is $g'(x)>0$;\n5. Therefore, $g(x)$ is monotonically increasing on $(0,+\\\\infty)$, $g(x)>g(0)=e^0-0-1=0$, that is $e^{2t}-t(t+2)-1>0$ holds;\n6. Thus $f(e^{a-2})>0=f(x_0)$, combined with monotonicity, we get $x_0<e^{a-2}$, which is proved.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 6 points. 1 point for analyzing and obtaining $a>2$ and the range of $x_0$, 1 point for transforming the proof of $x_0<e^{a-2}$ into proving $f(e^{a-2})>0$, 1 point for substituting variables to construct the function $g(x)$, 1 point for finding the derivative of $g(x)$ and constructing $h(x)$ to analyze monotonicity, 1 point for proving $g(x)>0$, and 1 point for drawing the conclusion combined with the monotonicity of the function.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）证明：不论a取何值，曲线$y=f(x)$均与一条定直线相切，并求出该切线方程；",
+            "solutionSteps": "1. 已知$f(x)=ax^{2}+(x^{2}-2 x+2) e^{x}$，求导得$f'(x)=2ax+(x^2-2x+2+2x-2)e^x=2ax+x^2e^x$；\n2. 分析导数和函数在$x=0$处的取值：$f(0)=0+(0-0+2)e^0=2$，$f'(0)=0+0=0$，该取值与a无关；\n3. 因此曲线$y=f(x)$在点$(0,2)$处的切线斜率为0，切线方程为$y=2$，即不论a取何值，曲线均与定直线$y=2$相切。",
+            "standardAnswer": "定直线为$y=2$，证明见解析",
+            "scoringCriteria": "该问共4分，求导正确得1分，求出$f(0)$和$f'(0)$的值并说明与a无关得2分，求出切线方程并给出结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）若0为函数$f(x)$的极小值点，求a的取值范围；",
+            "solutionSteps": "1. 由$f'(x)=2ax+x^2e^x=x(2a+xe^x)$，令$g(x)=xe^x$，求导得$g'(x)=(x+1)e^x$；\n2. 分析$g(x)$的单调性：当$x<-1$时，$g'(x)<0$，$g(x)$单调递减；当$x>-1$时，$g'(x)>0$，$g(x)$单调递增，且$g(0)=0$，$x\\to-\\infty$时$g(x)\\to0$，$x\\to+\\infty$时$g(x)\\to+\\infty$；\n3. 分类讨论a的取值：\n   ①当$a=0$时，$f'(x)=x^2e^x\\geq0$，$f(x)$在R上单调递增，无极值，不符合；\n   ②当$a<0$时，存在$x_1>0$，使得$x\\in(0,x_1)$时$f'(x)<0$，$f(x)$单调递减，与0为极小值点矛盾，不符合；\n   ③当$a>0$时，存在$x_2<0$，使得$x\\in(x_2,0)$时$f'(x)<0$，$f(x)$单调递减；$x\\in(0,+\\infty)$时$f'(x)>0$，$f(x)$单调递增，故0为极小值点，符合；\n4. 综上，a的取值范围为$(0,+\\infty)$。",
+            "standardAnswer": "$(0,+\\\\infty)$",
+            "scoringCriteria": "该问共5分，分解导数并构造$g(x)$求导得1分，分析$g(x)$的单调性和取值趋势得1分，分$a=0$、$a<0$、$a>0$三类讨论各得1分，给出最终取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）曲线$y=f(x)$是否存在两个不同的点关于y轴对称，若存在，请给出这两个点的坐标及此时a的值，若不存在，请说明理由。",
+            "solutionSteps": "1. 假设曲线存在两个不同的点$(x_0,y_0)$和$(-x_0,y_0)$（$x_0≠0$）关于y轴对称，则$f(x_0)=f(-x_0)$；\n2. 代入函数得：$ax_0^2+(x_0^2-2x_0+2)e^{x_0}=a(-x_0)^2+((-x_0)^2-2(-x_0)+2)e^{-x_0}$，化简得$(x_0^2-2x_0+2)e^{x_0}=(x_0^2+2x_0+2)e^{-x_0}$，即$(x_0^2-2x_0+2)e^{2x_0}-(x_0^2+2x_0+2)=0$；\n3. 构造函数$h(x)=(x^2-2x+2)e^{2x}-(x^2+2x+2)$（$x≠0$），求导分析单调性：$h'(x)=(2x-2)e^{2x}+2(x^2-2x+2)e^{2x}-(2x+2)=[2x^2-2x+2]e^{2x}-2x-2=2[(x^2-x+1)e^{2x}-x-1]$；\n4. 令$φ(x)=(x^2-x+1)e^{2x}-x-1$，$φ'(x)=(2x-1)e^{2x}+2(x^2-x+1)e^{2x}-1=(2x^2+1)e^{2x}-1$，当$x>0$时，$φ'(x)>1×1-1=0$，$φ(x)$单调递增，$φ(x)>φ(0)=1-0-1=0$，故$h'(x)>0$，$h(x)$单调递增，$h(x)>h(0)=2×1-2=0$；\n5. 当$x<0$时，$φ'(x)=(2x^2+1)e^{2x}-1$，$2x^2+1>0$，$e^{2x}<1$，故$φ'(x)<(2x^2+1)-1=2x^2≥0$，且仅当$x=0$时取等，故$φ(x)$在$x<0$时单调递减，$φ(x)>φ(0)=0$，故$h'(x)>0$，$h(x)$在$x<0$时单调递增，$h(x)<h(0)=0$；\n6. 因此$h(x)=0$无实数解，即不存在满足条件的$x_0$，故曲线$y=f(x)$不存在两个不同的点关于y轴对称。",
+            "standardAnswer": "不存在，理由见解析",
+            "scoringCriteria": "该问共6分，作出假设并列出$f(x_0)=f(-x_0)$的等式得1分，化简等式得1分，构造函数$h(x)$并求导得1分，构造$φ(x)$分析其单调性得1分，分$x>0$和$x<0$分析$h(x)$的取值得1分，给出最终结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Prove that no matter what value a takes, the curve $y=f(x)$ is tangent to a fixed straight line, and find the equation of the tangent line?",
+            "solutionSteps": "1. It is known that $f(x)=ax^{2}+(x^{2}-2 x+2) e^{x}$, find the derivative: $f'(x)=2ax+(x^2-2x+2+2x-2)e^x=2ax+x^2e^x$;\n2. Analyze the values of the derivative and the function at $x=0$: $f(0)=0+(0-0+2)e^0=2$, $f'(0)=0+0=0$, the values are independent of a;\n3. Therefore, the slope of the tangent line of the curve $y=f(x)$ at the point $(0,2)$ is 0, and the equation of the tangent line is $y=2$, that is, no matter what value a takes, the curve is always tangent to the fixed straight line $y=2$.",
+            "standardAnswer": "The fixed straight line is $y=2$, see the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for finding the derivative correctly, 2 points for finding the values of $f(0)$ and $f'(0)$ and explaining that they are independent of a, and 1 point for finding the tangent line equation and giving the conclusion.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅱ) If 0 is the minimum point of the function $f(x)$, find the range of values of a?",
+            "solutionSteps": "1. From $f'(x)=2ax+x^2e^x=x(2a+xe^x)$, let $g(x)=xe^x$, find the derivative: $g'(x)=(x+1)e^x$;\n2. Analyze the monotonicity of $g(x)$: when $x<-1$, $g'(x)<0$, $g(x)$ is monotonically decreasing; when $x>-1$, $g'(x)>0$, $g(x)$ is monotonically increasing, and $g(0)=0$, $x\\\\to-\\\\infty$时$g(x)\\\\to0$, $x\\\\to+\\\\infty$时$g(x)\\\\to+\\\\infty$;\n3. Classified discussion of the value of a:\n   ①When $a=0$, $f'(x)=x^2e^x\\\\geq0$, $f(x)$ is monotonically increasing on R, has no extreme value, which is not in line with the condition;\n   ②When $a<0$, there exists $x_1>0$ such that $f'(x)<0$ when $x\\\\in(0,x_1)$, $f(x)$ is monotonically decreasing, which contradicts that 0 is the minimum point, not in line with the condition;\n   ③When $a>0$, there exists $x_2<0$ such that $f'(x)<0$ when $x\\\\in(x_2,0)$, $f(x)$ is monotonically decreasing; $f'(x)>0$ when $x\\\\in(0,+\\\\infty)$, $f(x)$ is monotonically increasing, so 0 is the minimum point, which is in line with the condition;\n4. In summary, the range of a is $(0,+\\\\infty)$.",
+            "standardAnswer": "$(0,+\\\\infty)$",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for decomposing the derivative and constructing $g(x)$ to find the derivative, 1 point for analyzing the monotonicity and value trend of $g(x)$, 1 point for each of the three discussions of $a=0$, $a<0$ and $a>0$, and 1 point for giving the final range of values.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Does the curve $y=f(x)$ have two different points symmetric about the y-axis? If it exists, give the coordinates of these two points and the value of a at this time; if not, explain the reason.",
+            "solutionSteps": "1. Assume that the curve has two different points $(x_0,y_0)$ and $(-x_0,y_0)$ ($x_0≠0$) symmetric about the y-axis, then $f(x_0)=f(-x_0)$;\n2. Substitute into the function: $ax_0^2+(x_0^2-2x_0+2)e^{x_0}=a(-x_0)^2+((-x_0)^2-2(-x_0)+2)e^{-x_0}$, simplify to get $(x_0^2-2x_0+2)e^{x_0}=(x_0^2+2x_0+2)e^{-x_0}$, that is $(x_0^2-2x_0+2)e^{2x_0}-(x_0^2+2x_0+2)=0$;\n3. Construct the function $h(x)=(x^2-2x+2)e^{2x}-(x^2+2x+2)$ ($x≠0$), find the derivative to analyze monotonicity: $h'(x)=(2x-2)e^{2x}+2(x^2-2x+2)e^{2x}-(2x+2)=[2x^2-2x+2]e^{2x}-2x-2=2[(x^2-x+1)e^{2x}-x-1]$;\n4. Let $φ(x)=(x^2-x+1)e^{2x}-x-1$, $φ'(x)=(2x-1)e^{2x}+2(x^2-x+1)e^{2x}-1=(2x^2+1)e^{2x}-1$. When $x>0$, $φ'(x)>1×1-1=0$, $φ(x)$ is monotonically increasing, $φ(x)>φ(0)=1-0-1=0$, so $h'(x)>0$, $h(x)$ is monotonically increasing, $h(x)>h(0)=2×1-2=0$;\n5. When $x<0$, $φ'(x)=(2x^2+1)e^{2x}-1$, $2x^2+1>0$, $e^{2x}<1$, so $φ'(x)<(2x^2+1)-1=2x^2≥0$, and the equality holds only when $x=0$, so $φ(x)$ is monotonically decreasing when $x<0$, $φ(x)>φ(0)=0$, so $h'(x)>0$, $h(x)$ is monotonically increasing when $x<0$, $h(x)<h(0)=0$;\n6. Therefore, the equation $h(x)=0$ has no real solution, that is, there is no $x_0$ satisfying the condition, so the curve $y=f(x)$ has no two different points symmetric about the y-axis.",
+            "standardAnswer": "Does not exist, see the analysis for the reason",
+            "scoringCriteria": "This sub-question is worth 6 points. 1 point for making the assumption and listing the equation $f(x_0)=f(-x_0)$, 1 point for simplifying the equation, 1 point for constructing the function $h(x)$ and finding the derivative, 1 point for constructing $φ(x)$ to analyze its monotonicity, 1 point for analyzing the value of $h(x)$ when $x>0$ and $x<0$ respectively, and 1 point for giving the final conclusion.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    }
+  ]
+}

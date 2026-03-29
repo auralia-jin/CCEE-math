@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2024 Beijing Fengtai Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "某医学小组为了比较白鼠注射A,B两种药物后产生的皮肤疱疹的面积，选20只健康白鼠做试验。将这20只白鼠随机分成两组，每组10只，其中第1组注射药物A，第2组注射药物B。试验结果如下表所示。\n| 疱疹面积(单位:mm²) | [30,40) | [40,50) | [50,60) | [60,70) | [70,80) |\n| --- | --- | --- | --- | --- | --- |\n| 第1组(只) | 3 | 4 | 1 | 2 | 0 |\n| 第2组(只) | 1 | 3 | 2 | 3 | 1 |",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）现分别从第1组，第2组的白鼠中各随机选取1只，求被选出的2只白鼠皮肤疱疹面积均小于60 mm²的概率：",
+                        "solutionSteps": "1. 计算第1组疱疹面积小于60mm²的白鼠数量：3+4+1=8只，该组总数量为10只；\\n2. 计算第2组疱疹面积小于60mm²的白鼠数量：1+3+2=6只，该组总数量为10只；\\n3. 计算从两组各选1只且均符合条件的情况数：8×6=48种；\\n4. 计算从两组各选1只的总情况数：10×10=100种；\\n5. 根据古典概型概率公式，得概率P=48/100=12/25。",
+                        "standardAnswer": "$\\frac{12}{25}$",
+                        "scoringCriteria": "（Ⅰ）共4分，正确算出第1组符合条件白鼠数量得1分，正确算出第2组符合条件白鼠数量得1分，正确列出总情况数和符合条件情况数得1分，计算并化简出正确概率得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）从两组皮肤疱疹面积在[60,80)区间内的白鼠中随机选取3只抽血化验，求第2组中被抽中白鼠只数X的分布列和数学期望EX：",
+                        "solutionSteps": "1. 确定[60,80)区间内白鼠总数：第1组2只，第2组3+1=4只，总计6只；\\n2. 确定X的可能取值为1、2、3；\\n3. 根据超几何分布概率公式$P(X=k)=\\frac{C_{2}^{3-k}C_{4}^{k}}{C_{6}^{3}}$计算各概率：\\n   - $P(X=1)=\\frac{C_{2}^{2}C_{4}^{1}}{C_{6}^{3}}=\\frac{1×4}{20}=\\frac{1}{5}$；\\n   - $P(X=2)=\\frac{C_{2}^{1}C_{4}^{2}}{C_{6}^{3}}=\\frac{2×6}{20}=\\frac{3}{5}$；\\n   - $P(X=3)=\\frac{C_{2}^{0}C_{4}^{3}}{C_{6}^{3}}=\\frac{1×4}{20}=\\frac{1}{5}$；\\n4. 列出X的分布列，以表格呈现取值与对应概率；\\n5. 根据数学期望公式计算：$EX=1×\\frac{1}{5}+2×\\frac{3}{5}+3×\\frac{1}{5}=2$。",
+                        "standardAnswer": "X的分布列：\\n| X | 1 | 2 | 3 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{1}{5}$ | $\\frac{3}{5}$ | $\\frac{1}{5}$ |\\n数学期望$EX=2$",
+                        "scoringCriteria": "（Ⅱ）共8分，正确确定X的可能取值得1分，正确计算P(X=1)得2分，正确计算P(X=2)得2分，正确计算P(X=3)得1分，正确列出分布列得1分，正确计算出数学期望EX得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）用“$\\xi_{k}=0$”表示第k组白鼠注射药物后皮肤疱疹面积在[30,50)区间内，“$\\xi_{k}=1$”表示第k组白鼠注射药物后皮肤疱疹面积在[50,80)区间内(k=1,2)，写出方差$D\\xi_{1}$，$D\\xi_{2}$的大小关系。(结论不要求证明)",
+                        "solutionSteps": "1. 计算两组中$\\xi_{k}$取0和1的概率：\\n   - 第1组：$P(\\xi_{1}=0)=\\frac{7}{10}$，$P(\\xi_{1}=1)=\\frac{3}{10}$；\\n   - 第2组：$P(\\xi_{2}=0)=\\frac{4}{10}$，$P(\\xi_{2}=1)=\\frac{6}{10}$；\\n2. 根据两点分布方差公式$D\\xi=p(1-p)$计算：\\n   - $D\\xi_{1}=0.7×0.3=0.21$；\\n   - $D\\xi_{2}=0.4×0.6=0.24$；\\n3. 比较得方差大小关系。",
+                        "standardAnswer": "$D\\xi_{1}<D\\xi_{2}$",
+                        "scoringCriteria": "（Ⅲ）共1分，直接写出正确的方差大小关系即可得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "A medical team selected 20 healthy white mice to conduct an experiment to compare the area of skin herpes in white mice after injection of drugs A and B. The 20 white mice were randomly divided into two groups with 10 mice in each group. The first group was injected with drug A, and the second group was injected with drug B. The test results are shown in the following table.\\n| Herpes area (Unit: mm²) | [30,40) | [40,50) | [50,60) | [60,70) | [70,80) |\\n| --- | --- | --- | --- | --- | --- |\\n| Group 1 (Number of mice) | 3 | 4 | 1 | 2 | 0 |\\n| Group 2 (Number of mice) | 1 | 3 | 2 | 3 | 1 |",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select 1 white mouse from Group 1 and 1 from Group 2 respectively, find the probability that the skin herpes areas of the 2 selected white mice are both less than 60 mm²:",
+                        "solutionSteps": "1. Calculate the number of white mice with herpes area less than 60mm² in Group 1: 3+4+1=8, the total number of the group is 10;\\n2. Calculate the number of white mice with herpes area less than 60mm² in Group 2: 1+3+2=6, the total number of the group is 10;\\n3. Calculate the number of favorable cases for selecting 1 mouse from each group meeting the conditions: 8×6=48;\\n4. Calculate the total number of cases for selecting 1 mouse from each group: 10×10=100;\\n5. According to the classical probability formula, the probability P=48/100=12/25.",
+                        "standardAnswer": "$\\frac{12}{25}$",
+                        "scoringCriteria": "(Ⅰ) Total 4 points, 1 point for correctly calculating the number of eligible white mice in Group 1, 1 point for correctly calculating the number of eligible white mice in Group 2, 1 point for correctly listing the total number of cases and the number of favorable cases, 1 point for calculating and simplifying the correct probability.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Randomly select 3 white mice from the mice with herpes area in the interval [60,80) in both groups for blood test, find the probability distribution and mathematical expectation EX of the number X of white mice selected from the second group:",
+                        "solutionSteps": "1. Determine the total number of white mice in the interval [60,80): 2 in Group 1, 3+1=4 in Group 2, a total of 6;\\n2. Determine the possible values of X are 1, 2, 3;\\n3. Calculate each probability according to the hypergeometric distribution probability formula $P(X=k)=\\frac{C_{2}^{3-k}C_{4}^{k}}{C_{6}^{3}}$: \\n   - $P(X=1)=\\frac{C_{2}^{2}C_{4}^{1}}{C_{6}^{3}}=\\frac{1×4}{20}=\\frac{1}{5}$; \\n   - $P(X=2)=\\frac{C_{2}^{1}C_{4}^{2}}{C_{6}^{3}}=\\frac{2×6}{20}=\\frac{3}{5}$; \\n   - $P(X=3)=\\frac{C_{2}^{0}C_{4}^{3}}{C_{6}^{3}}=\\frac{1×4}{20}=\\frac{1}{5}$;\\n4. List the probability distribution of X, presenting the values and corresponding probabilities in a table;\\n5. Calculate according to the mathematical expectation formula: $EX=1×\\frac{1}{5}+2×\\frac{3}{5}+3×\\frac{1}{5}=2$.",
+                        "standardAnswer": "Probability distribution of X: \\n| X | 1 | 2 | 3 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{1}{5}$ | $\\frac{3}{5}$ | $\\frac{1}{5}$ |\\nMathematical expectation $EX=2$",
+                        "scoringCriteria": "(Ⅱ) Total 8 points, 1 point for correctly determining the possible values of X, 2 points for correctly calculating P(X=1), 2 points for correctly calculating P(X=2), 1 point for correctly calculating P(X=3), 1 point for correctly listing the probability distribution, 1 point for correctly calculating the mathematical expectation EX.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Let “$\\xi_{k}=0$” denote that the skin herpes area of the k-th group of white mice after drug injection is in the interval [30,50), and “$\\xi_{k}=1$” denote that the skin herpes area is in the interval [50,80) (k=1,2). Write the size relationship between the variances $D\\xi_{1}$ and $D\\xi_{2}$. (No proof is required for the conclusion)",
+                        "solutionSteps": "1. Calculate the probabilities of $\\xi_{k}$ taking 0 and 1 in the two groups: \\n   - Group 1: $P(\\xi_{1}=0)=\\frac{7}{10}$, $P(\\xi_{1}=1)=\\frac{3}{10}$; \\n   - Group 2: $P(\\xi_{2}=0)=\\frac{4}{10}$, $P(\\xi_{2}=1)=\\frac{6}{10}$;\\n2. Calculate according to the two-point distribution variance formula $D\\xi=p(1-p)$: \\n   - $D\\xi_{1}=0.7×0.3=0.21$; \\n   - $D\\xi_{2}=0.4×0.6=0.24$;\\n3. Compare to get the size relationship of the variances.",
+                        "standardAnswer": "$D\\xi_{1}<D\\xi_{2}$",
+                        "scoringCriteria": "(Ⅲ) Total 1 point, 1 point for directly writing the correct size relationship of the variances.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆$E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$的焦距为$4\\sqrt{2}$，以椭圆E的两个顶点为顶点的四边形的周长为16。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆E的标准方程；",
+                        "solutionSteps": "1. 由椭圆焦距性质得$2c=4\\sqrt{2}$，解得$c=2\\sqrt{2}$，且满足$a^2=b^2+c^2$；\\n2. 以椭圆两顶点为顶点的四边形为菱形，周长$4\\sqrt{a^2+b^2}=16$，化简得$\\sqrt{a^2+b^2}=4$，即$a^2+b^2=16$；\\n3. 联立方程组$\\begin{cases}a^2 - b^2 = 8\\\\a^2 + b^2 = 16\\end{cases}$，两式相加得$2a^2=24$，解得$a^2=12$；\\n4. 代入得$b^2=16-12=4$；\\n5. 写出椭圆E的标准方程为$\\frac{x^2}{12}+\\frac{y^2}{4}=1$。",
+                        "standardAnswer": "$\\frac{x^{2}}{12}+\\frac{y^{2}}{4}=1$",
+                        "scoringCriteria": "（Ⅰ）共5分，由焦距正确求出c的值得1分，根据四边形周长正确推出$a^2+b^2=16$得2分，联立方程正确求解$a^2$和$b^2$得1分，写出正确的椭圆标准方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）过点$S(0,1)$的直线l交椭圆E于P，Q两点，线段PQ的中点为M，是否存在定点D，使得$\\frac{|DM|}{|PQ|}=\\frac{1}{2}$？若存在，求出D的坐标；若不存在，请说明理由。",
+                        "solutionSteps": "1. 分析几何意义：$\\frac{|DM|}{|PQ|}=\\frac{1}{2}$等价于以PQ为直径的圆恒过定点D；\\n2. 求特殊情况的圆方程找定点候选：\\n   - 直线l斜率不存在时，PQ为x=0，代入椭圆得y=±2，圆方程为$x^2+y^2=4$；\\n   - 直线l斜率为0时，方程为y=1，代入椭圆得x=±3，圆方程为$x^2+(y-1)^2=9$；\\n   - 联立两圆方程，解得$x=0$，$y=-2$，即候选定点D(0,-2)；\\n3. 验证一般情况，设直线l方程为$y=kx+1$，联立椭圆方程$\\begin{cases}y=kx+1\\\\\\frac{x^2}{12}+\\frac{y^2}{4}=1\\end{cases}$，消y得$(3k^2+1)x^2+6kx-9=0$；\\n4. 设$P(x_1,y_1)$，$Q(x_2,y_2)$，由韦达定理得$x_1+x_2=-\\frac{6k}{3k^2+1}$，$x_1x_2=-\\frac{9}{3k^2+1}$；\\n5. 计算向量$\\overrightarrow{DP}·\\overrightarrow{DQ}=(x_1,y_1+2)·(x_2,y_2+2)$，展开后代入韦达定理结果，化简得$\\overrightarrow{DP}·\\overrightarrow{DQ}=0$，即$DP⊥DQ$；\\n6. 故点D在以PQ为直径的圆上，存在该定点。",
+                        "standardAnswer": "存在定点D，坐标为$(0,-2)$",
+                        "scoringCriteria": "（Ⅱ）共9分，正确分析出几何意义得1分，求出特殊情况的圆方程并解得定点候选得2分，正确设直线方程并与椭圆联立消元得2分，正确运用韦达定理得1分，正确计算向量数量积并化简得2分，得出结论并写出定点坐标得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the focal length of the ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ is $4\\sqrt{2}$, and the perimeter of the quadrilateral with the two vertices of the ellipse E as its vertices is 16.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the standard equation of the ellipse E;",
+                        "solutionSteps": "1. From the focal length property of the ellipse, $2c=4\\sqrt{2}$, solve to get $c=2\\sqrt{2}$, and it satisfies $a^2=b^2+c^2$;\\n2. The quadrilateral with the two vertices of the ellipse as its vertices is a rhombus, the perimeter $4\\sqrt{a^2+b^2}=16$, simplify to get $\\sqrt{a^2+b^2}=4$, that is $a^2+b^2=16$;\\n3. Solve the system of equations $\\begin{cases}a^2 - b^2 = 8\\\\a^2 + b^2 = 16\\end{cases}$, add the two equations to get $2a^2=24$, solve to get $a^2=12$;\\n4. Substitute to get $b^2=16-12=4$;\\n5. Write the standard equation of the ellipse E as $\\frac{x^2}{12}+\\frac{y^2}{4}=1$.",
+                        "standardAnswer": "$\\frac{x^{2}}{12}+\\frac{y^{2}}{4}=1$",
+                        "scoringCriteria": "(Ⅰ) Total 5 points, 1 point for correctly finding the value of c from the focal length, 2 points for correctly deducing $a^2+b^2=16$ according to the perimeter of the quadrilateral, 1 point for correctly solving $a^2$ and $b^2$ by solving the system of equations, 1 point for writing the correct standard equation of the ellipse.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) A straight line l passing through the point $S(0,1)$ intersects the ellipse E at points P and Q, and M is the midpoint of the line segment PQ. Does there exist a fixed point D such that $\\frac{|DM|}{|PQ|}=\\frac{1}{2}$? If it exists, find the coordinates of D; if not, explain the reason.",
+                        "solutionSteps": "1. Analyze the geometric meaning: $\\frac{|DM|}{|PQ|}=\\frac{1}{2}$ is equivalent to the circle with PQ as the diameter passing through the fixed point D all the time;\\n2. Find the candidate fixed point by solving the circle equations in special cases: \\n   - When the slope of line l does not exist, PQ is x=0, substitute into the ellipse to get y=±2, the circle equation is $x^2+y^2=4$; \\n   - When the slope of line l is 0, the equation is y=1, substitute into the ellipse to get x=±3, the circle equation is $x^2+(y-1)^2=9$; \\n   - Solve the system of the two circle equations, get $x=0$, $y=-2$, that is the candidate fixed point D(0,-2);\\n3. Verify the general case, let the equation of line l be $y=kx+1$, combine with the ellipse equation $\\begin{cases}y=kx+1\\\\\\frac{x^2}{12}+\\frac{y^2}{4}=1\\end{cases}$, eliminate y to get $(3k^2+1)x^2+6kx-9=0$;\\n4. Let $P(x_1,y_1)$, $Q(x_2,y_2)$, from Vieta's formulas, get $x_1+x_2=-\\frac{6k}{3k^2+1}$, $x_1x_2=-\\frac{9}{3k^2+1}$;\\n5. Calculate the dot product $\\overrightarrow{DP}·\\overrightarrow{DQ}=(x_1,y_1+2)·(x_2,y_2+2)$, expand and substitute the results of Vieta's formulas, simplify to get $\\overrightarrow{DP}·\\overrightarrow{DQ}=0$, that is $DP⊥DQ$;\\n6. Therefore, point D is on the circle with PQ as the diameter, and the fixed point exists.",
+                        "standardAnswer": "There exists a fixed point D with the coordinates $(0,-2)$",
+                        "scoringCriteria": "(Ⅱ) Total 9 points, 1 point for correctly analyzing the geometric meaning, 2 points for finding the circle equations in special cases and solving the candidate fixed point, 2 points for correctly setting the line equation and eliminating y by combining with the ellipse, 1 point for correctly applying Vieta's formulas, 2 points for correctly calculating the dot product of vectors and simplifying, 1 point for drawing the conclusion and writing the coordinates of the fixed point.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数$f(x)=e^{x}+\\ln (x+1)-x$，曲线$C: y=f(x)$在点$(x_{0}, f(x_{0}))$处的切线为$l: y=g(x)$，记$h(x)=f(x)-g(x)$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当$x_{0}=0$时，求切线l的方程；",
+                        "solutionSteps": "1. 确定函数$f(x)$的定义域为$(-1,+\\infty)$；\\n2. 计算$x_0=0$时的函数值：$f(0)=e^0+\\ln1-0=1$；\\n3. 求$f(x)$的导数：$f'(x)=e^x+\\frac{1}{x+1}-1$；\\n4. 计算$x_0=0$时的导数值（切线斜率）：$f'(0)=1+1-1=1$；\\n5. 根据点斜式$y-y_0=f'(x_0)(x-x_0)$，得切线方程$y-1=1×(x-0)$，化简为$y=x+1$。",
+                        "standardAnswer": "$y=x+1$",
+                        "scoringCriteria": "（Ⅰ）共4分，正确求出$f(0)$得1分，正确求导得出$f'(x)$表达式得2分，根据点斜式求出并化简切线方程得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）在（Ⅰ）的条件下，求函数$h(x)$的零点并证明$x h(x) ≥0$：",
+                        "solutionSteps": "1. 由（Ⅰ）得$g(x)=x+1$，故$h(x)=e^x+\\ln(x+1)-2x-1$；\\n2. 求$h(x)$的导数：$h'(x)=e^x+\\frac{1}{x+1}-2$，令$m(x)=(x+1)e^x-2x-1$，则$h'(x)=\\frac{m(x)}{x+1}$；\\n3. 求$m(x)$的导数：$m'(x)=(x+2)e^x-2$，分区间讨论单调性：\\n   - 当$x\\in(-1,0)$时，$m'(x)<0$，$m(x)$单调递减，$m(x)>m(0)=0$，故$h'(x)>0$；\\n   - 当$x\\in(0,+\\infty)$时，$m'(x)>0$，$m(x)$单调递增，$m(x)>m(0)=0$，故$h'(x)>0$；\\n4. 因此$h(x)$在$(-1,+\\infty)$单调递增，又$h(0)=0$，故$h(x)$唯一零点为$x=0$；\\n5. 证明$x h(x)≥0$：\\n   - $x\\in(-1,0)$时，$x<0$，$h(x)<0$，故$x h(x)>0$；\\n   - $x=0$时，$x h(x)=0$；\\n   - $x\\in(0,+\\infty)$时，$x>0$，$h(x)>0$，故$x h(x)>0$；\\n   综上$x h(x)≥0$恒成立。",
+                        "standardAnswer": "函数$h(x)$的零点为$x=0$，且$x h(x) ≥0$得证",
+                        "scoringCriteria": "（Ⅱ）共6分，正确写出$h(x)$表达式得1分，正确求导并构造辅助函数得1分，分区间正确讨论$h'(x)$的符号得2分，正确求出$h(x)$的零点得1分，完整证明$x h(x)≥0$得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "（Ⅲ）当$x_{0} ≠0$时，直接写出函数$h(x)$的零点个数。(结论不要求证明)",
+                        "solutionSteps": "根据函数$f(x)$的凹凸性和切线的几何性质，当$x_0≠0$时，曲线$y=f(x)$与切线$l$有两个不同交点，故$h(x)=f(x)-g(x)$有两个零点。",
+                        "standardAnswer": "2",
+                        "scoringCriteria": "（Ⅲ）共5分，直接写出正确的零点个数即可得5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the function $f(x)=e^{x}+\\ln (x+1)-x$, the tangent line of the curve $C: y=f(x)$ at the point $(x_{0}, f(x_{0}))$ is $l: y=g(x)$, and let $h(x)=f(x)-g(x)$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) When $x_{0}=0$, find the equation of the tangent line l;",
+                        "solutionSteps": "1. Determine the domain of the function $f(x)$ is $(-1,+\\infty)$;\\n2. Calculate the function value when $x_0=0$: $f(0)=e^0+\\ln1-0=1$;\\n3. Find the derivative of $f(x)$: $f'(x)=e^x+\\frac{1}{x+1}-1$;\\n4. Calculate the derivative value (slope of the tangent line) when $x_0=0$: $f'(0)=1+1-1=1$;\\n5. According to the point-slope form $y-y_0=f'(x_0)(x-x_0)$, get the tangent line equation $y-1=1×(x-0)$, simplify to $y=x+1$.",
+                        "standardAnswer": "$y=x+1$",
+                        "scoringCriteria": "(Ⅰ) Total 4 points, 1 point for correctly finding $f(0)$, 2 points for correctly finding the derivative to get the expression of $f'(x)$, 1 point for finding and simplifying the tangent line equation according to the point-slope form.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Under the condition of (Ⅰ), find the zero point of the function $h(x)$ and prove that $x h(x) ≥0$:",
+                        "solutionSteps": "1. From (Ⅰ), get $g(x)=x+1$, so $h(x)=e^x+\\ln(x+1)-2x-1$;\\n2. Find the derivative of $h(x)$: $h'(x)=e^x+\\frac{1}{x+1}-2$, let $m(x)=(x+1)e^x-2x-1$, then $h'(x)=\\frac{m(x)}{x+1}$;\\n3. Find the derivative of $m(x)$: $m'(x)=(x+2)e^x-2$, discuss the monotonicity by intervals: \\n   - When $x\\in(-1,0)$, $m'(x)<0$, $m(x)$ is monotonically decreasing, $m(x)>m(0)=0$, so $h'(x)>0$; \\n   - When $x\\in(0,+\\infty)$, $m'(x)>0$, $m(x)$ is monotonically increasing, $m(x)>m(0)=0$, so $h'(x)>0$;\\n4. Therefore, $h(x)$ is monotonically increasing on $(-1,+\\infty)$, and $h(0)=0$, so the only zero point of $h(x)$ is $x=0$;\\n5. Prove $x h(x)≥0$: \\n   - When $x\\in(-1,0)$, $x<0$, $h(x)<0$, so $x h(x)>0$; \\n   - When $x=0$, $x h(x)=0$; \\n   - When $x\\in(0,+\\infty)$, $x>0$, $h(x)>0$, so $x h(x)>0$; \\n   In conclusion, $x h(x)≥0$ holds for all $x$ in the domain.",
+                        "standardAnswer": "The zero point of the function $h(x)$ is $x=0$, and $x h(x) ≥0$ is proved",
+                        "scoringCriteria": "(Ⅱ) Total 6 points, 1 point for correctly writing the expression of $h(x)$, 1 point for correctly finding the derivative and constructing the auxiliary function, 2 points for correctly discussing the sign of $h'(x)$ by intervals, 1 point for correctly finding the zero point of $h(x)$, 1 point for completely proving $x h(x)≥0$.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "(Ⅲ) When $x_{0} ≠0$, directly write the number of zero points of the function $h(x)$. (No proof is required for the conclusion)",
+                        "solutionSteps": "According to the concavity and convexity of the function $f(x)$ and the geometric properties of the tangent line, when $x_0≠0$, the curve $y=f(x)$ has two different intersection points with the tangent line $l$, so $h(x)=f(x)-g(x)$ has two zero points.",
+                        "standardAnswer": "2",
+                        "scoringCriteria": "(Ⅲ) Total 5 points, 5 points for directly writing the correct number of zero points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知集合$M_{n}=\\{x \\in N^{*} | x ≤2 n\\}(n\\in N^{*},n≥4)$，若存在数阵$T=\\begin{bmatrix}a_{1} & a_{2} & \\cdots & a_{n} \\\\b_{1} & b_{2} & \\cdots & b_{n}\\\\end{bmatrix}$满足: (1) $\\{a_{1}, a_{2}, \\cdots, a_{n}\\} \\cup \\{b_{1}, b_{2}, \\cdots, b_{n}\\} = M_{n}$; (2) $a_{k}-b_{k}=k(k=1,2, \\cdots, n)$。则称集合$M_{n}$为“好集合”，并称数阵T为$M_{n}$的一个“好数阵”。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知数阵$T=\\begin{bmatrix}x & y & z & 6 \\\\7 & w & 1 & 2\\\\end{bmatrix}$是$M_{4}$的一个“好数阵”，试写出x，y，z，w的值；",
+                        "solutionSteps": "1. 确定$M_4=\\{1,2,3,4,5,6,7,8\\}$；\\n2. 根据$a_k-b_k=k$依次计算：\\n   - k=4：$6-2=4$，符合条件；\\n   - k=3：$z-1=3$，解得$z=4$；\\n   - k=1：$x-7=1$，解得$x=8$；\\n3. 确定已用元素：8,y,4,6和7,w,1,2，未用元素为3,5；\\n4. 由k=2时$y-w=2$，匹配未用元素得$y=5$，$w=3$；\\n5. 验证并集为$M_4$，符合好数阵条件。",
+                        "standardAnswer": "$x=8，y=5，z=4，w=3$",
+                        "scoringCriteria": "（Ⅰ）共4分，正确求出x得1分，正确求出z得1分，正确求出y得1分，正确求出w得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若集合$M_{n}$为“好集合”，证明：集合$M_{n}$的“好数阵”必有偶数个；",
+                        "solutionSteps": "1. 设$T=\\begin{bmatrix}a_{1} & \\cdots & a_{n} \\\\b_{1} & \\cdots & b_{n}\\\\end{bmatrix}$是$M_n$的好数阵，构造数阵$\\bar{T}=\\begin{bmatrix}2n+1-b_1 & \\cdots & 2n+1-b_n \\\\2n+1-a_1 & \\cdots & 2n+1-a_n\\\\end{bmatrix}$；\\n2. 证明$\\bar{T}$是好数阵：\\n   - 由$a_k,b_k\\in M_n$，得$2n+1-b_k,2n+1-a_k\\in M_n$；\\n   - 验证并集条件：$\\{2n+1-b_k\\} \\cup \\{2n+1-a_k\\}=M_n$；\\n   - 验证差值条件：$(2n+1-b_k)-(2n+1-a_k)=a_k-b_k=k$；\\n3. 证明$\\bar{T}≠T$：假设$\\bar{T}=T$，则$2n+1-b_2=a_2$，结合$a_2-b_2=2$，得$b_2=\\frac{2n-1}{2}$，与$b_2\\in N^*$矛盾；\\n4. 证明配对性：$\\overline{\\bar{T}}=T$，即每个好数阵都有唯一配对的好数阵，故个数为偶数。",
+                        "standardAnswer": "集合$M_{n}$的“好数阵”必有偶数个，证明见解析",
+                        "scoringCriteria": "（Ⅱ）共5分，正确构造配对数阵$\\bar{T}$得1分，完整证明$\\bar{T}$是好数阵得2分，用反证法证明$\\bar{T}≠T$得1分，说明配对性并得出结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）判断$M_{n}(n=5,6)$是否为“好集合”。若是，求出满足条件$n \\in\\{a_{1}, a_{2}, \\cdots, a_{n}\\}$的所有“好数阵”；若不是，说明理由。",
+                        "solutionSteps": "1. 推导必要条件：由并集和差值条件得$2\\sum_{i=1}^n a_i=\\frac{n(5n+3)}{2}$，即$\\sum_{i=1}^n a_i=\\frac{n(5n+3)}{4}$，结果需为正整数；\\n2. 判断n=6：$\\sum_{i=1}^6 a_i=\\frac{6×33}{4}=\\frac{99}{2}$，非正整数，故$M_6$不是好集合；\\n3. 判断n=5：$\\sum_{i=1}^5 a_i=\\frac{5×28}{4}=35$，是正整数，$M_5=\\{1,2,\\dots,10\\}$，且$5\\in\\{a_1,\\dots,a_5\\}$；\\n4. 确定$a$列元素的两种可能组合：$\\{10,5,9,8,3\\}$、$\\{10,5,9,7,4\\}$；\\n5. 对每种组合结合$a_k-b_k=k$穷举，得到四个满足条件的好数阵。",
+                        "standardAnswer": "$M_6$不是“好集合”，$M_5$是“好集合”；满足条件的好数阵有四个：$T_1=\\begin{bmatrix}3 & 8 & 10 & 5 & 9 \\\\2 & 6 & 7 & 1 & 4\\\\end{bmatrix}$，$T_2=\\begin{bmatrix}8 & 3 & 5 & 10 & 9 \\\\7 & 1 & 2 & 6 & 4\\\\end{bmatrix}$，$T_3=\\begin{bmatrix}4 & 10 & 9 & 5 & 7 \\\\3 & 8 & 6 & 1 & 2\\\\end{bmatrix}$，$T_4=\\begin{bmatrix}9 & 5 & 4 & 10 & 7 \\\\8 & 3 & 1 & 6 & 2\\\\end{bmatrix}$",
+                        "scoringCriteria": "（Ⅲ）共6分，正确推导出好集合的必要条件得1分，判断$M_6$不是好集合并说明理由得1分，计算$M_5$的$a$列元素和并确定组合得2分，穷举出所有满足条件的好数阵得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the set $M_{n}=\\{x \\in N^{*} | x ≤2 n\\}(n\\in N^{*},n≥4)$. If there exists a matrix $T=\\begin{bmatrix}a_{1} & a_{2} & \\cdots & a_{n} \\\\b_{1} & b_{2} & \\cdots & b_{n}\\\\end{bmatrix}$ satisfying: (1) $\\{a_{1}, a_{2}, \\cdots, a_{n}\\} \\cup \\{b_{1}, b_{2}, \\cdots, b_{n}\\} = M_{n}$; (2) $a_{k}-b_{k}=k(k=1,2, \\cdots, n)$. Then the set $M_{n}$ is called a \"good set\", and the matrix T is called a \"good matrix\" of $M_{n}$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) It is known that the matrix $T=\\begin{bmatrix}x & y & z & 6 \\\\7 & w & 1 & 2\\\\end{bmatrix}$ is a \"good matrix\" of $M_{4}$, try to write the values of x, y, z, w;",
+                        "solutionSteps": "1. Determine $M_4=\\{1,2,3,4,5,6,7,8\\}$;\\n2. Calculate in turn according to $a_k-b_k=k$: \\n   - k=4: $6-2=4$, which meets the condition; \\n   - k=3: $z-1=3$, solve to get $z=4$; \\n   - k=1: $x-7=1$, solve to get $x=8$;\\n3. Determine the used elements: 8,y,4,6 and 7,w,1,2, the unused elements are 3,5;\\n4. From $y-w=2$ when k=2, match the unused elements to get $y=5$, $w=3$;\\n5. Verify that the union is $M_4$, which meets the condition of a good matrix.",
+                        "standardAnswer": "$x=8, y=5, z=4, w=3$",
+                        "scoringCriteria": "(Ⅰ) Total 4 points, 1 point for correctly finding x, 1 point for correctly finding z, 1 point for correctly finding y, 1 point for correctly finding w.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If the set $M_{n}$ is a \"good set\", prove that the number of \"good matrices\" of the set $M_{n}$ must be even;",
+                        "solutionSteps": "1. Let $T=\\begin{bmatrix}a_{1} & \\cdots & a_{n} \\\\b_{1} & \\cdots & b_{n}\\\\end{bmatrix}$ be a good matrix of $M_n$, construct the matrix $\\bar{T}=\\begin{bmatrix}2n+1-b_1 & \\cdots & 2n+1-b_n \\\\2n+1-a_1 & \\cdots & 2n+1-a_n\\\\end{bmatrix}$;\\n2. Prove that $\\bar{T}$ is a good matrix: \\n   - From $a_k,b_k\\in M_n$, we get $2n+1-b_k,2n+1-a_k\\in M_n$; \\n   - Verify the union condition: $\\{2n+1-b_k\\} \\cup \\{2n+1-a_k\\}=M_n$; \\n   - Verify the difference condition: $(2n+1-b_k)-(2n+1-a_k)=a_k-b_k=k$;\\n3. Prove $\\bar{T}≠T$: Assume $\\bar{T}=T$, then $2n+1-b_2=a_2$, combined with $a_2-b_2=2$, we get $b_2=\\frac{2n-1}{2}$, which contradicts $b_2\\in N^*$;\\n4. Prove the pairing property: $\\overline{\\bar{T}}=T$, that is, each good matrix has a unique paired good matrix, so the number is even.",
+                        "standardAnswer": "The number of \"good matrices\" of the set $M_{n}$ must be even, see the analysis for the proof",
+                        "scoringCriteria": "(Ⅱ) Total 5 points, 1 point for correctly constructing the paired matrix $\\bar{T}$, 2 points for completely proving that $\\bar{T}$ is a good matrix, 1 point for proving $\\bar{T}≠T$ by contradiction, 1 point for explaining the pairing property and drawing the conclusion.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Judge whether $M_{n}(n=5,6)$ is a \"good set\". If yes, find all the \"good matrices\" that satisfy the condition $n \\in\\{a_{1}, a_{2}, \\cdots, a_{n}\\}$; if not, explain the reason.",
+                        "solutionSteps": "1. Deduce the necessary condition: From the union and difference conditions, we get $2\\sum_{i=1}^n a_i=\\frac{n(5n+3)}{2}$, that is $\\sum_{i=1}^n a_i=\\frac{n(5n+3)}{4}$, the result must be a positive integer;\\n2. Judge n=6: $\\sum_{i=1}^6 a_i=\\frac{6×33}{4}=\\frac{99}{2}$, which is not a positive integer, so $M_6$ is not a good set;\\n3. Judge n=5: $\\sum_{i=1}^5 a_i=\\frac{5×28}{4}=35$, which is a positive integer, $M_5=\\{1,2,\\dots,10\\}$, and $5\\in\\{a_1,\\dots,a_5\\}$;\\n4. Determine the two possible combinations of elements in column a: $\\{10,5,9,8,3\\}$, $\\{10,5,9,7,4\\}$;\\n5. Enumerate for each combination combined with $a_k-b_k=k$, and obtain four good matrices that meet the conditions.",
+                        "standardAnswer": "$M_6$ is not a \"good set\", $M_5$ is a \"good set\"; there are four good matrices that meet the conditions: $T_1=\\begin{bmatrix}3 & 8 & 10 & 5 & 9 \\\\2 & 6 & 7 & 1 & 4\\\\end{bmatrix}$, $T_2=\\begin{bmatrix}8 & 3 & 5 & 10 & 9 \\\\7 & 1 & 2 & 6 & 4\\\\end{bmatrix}$, $T_3=\\begin{bmatrix}4 & 10 & 9 & 5 & 7 \\\\3 & 8 & 6 & 1 & 2\\\\end{bmatrix}$, $T_4=\\begin{bmatrix}9 & 5 & 4 & 10 & 7 \\\\8 & 3 & 1 & 6 & 2\\\\end{bmatrix}$",
+                        "scoringCriteria": "(Ⅲ) Total 6 points, 1 point for correctly deducing the necessary condition of a good set, 1 point for judging that $M_6$ is not a good set and explaining the reason, 2 points for calculating the sum of elements in column a of $M_5$ and determining the combinations, 2 points for enumerating all good matrices that meet the conditions.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

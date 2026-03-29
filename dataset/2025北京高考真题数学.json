@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2025 Beijing College Entrance Examination (Mathematics)",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "有一道选择题考查了一个知识点，甲、乙两校各随机抽取100人，甲校有80人答对，乙校有75人答对，用频率估计概率。",
+        "subQuestions": [
+          {
+            "question": "（1）从甲校随机抽取1人，求这个人做对该题目的概率。",
+            "solutionSteps": "根据频率估计概率的核心方法，做对题目的人数与抽取总人数的比值即为所求概率，代入数据得：$\\frac{80}{100}=\\frac{4}{5}$。",
+            "standardAnswer": "$\\frac{4}{5}$",
+            "scoringCriteria": "第一问总分4分，正确理解频率估计概率的思想得2分，代入数据化简得到正确结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）从甲、乙两校各随机抽取1人，设X为做对的人数，求恰有1人做对的概率以及X的数学期望。",
+            "solutionSteps": "1. 定义事件：设A为“从甲校抽取1人做对”，则$P(A)=0.8$，$P(\\bar{A})=0.2$；设B为“从乙校抽取1人做对”，则$P(B)=0.75$，$P(\\bar{B})=0.25$。2. 计算恰有1人做对的概率：$P(A\\bar{B})+P(\\bar{A}B)=0.8×0.25+0.2×0.75=0.35$。3. 求X的分布列：X的可能取值为0、1、2，$P(X=0)=0.2×0.25=0.05$，$P(X=1)=0.35$，$P(X=2)=0.8×0.75=0.6$。4. 计算数学期望：$E(X)=0×0.05+1×0.35+2×0.6=1.55$。",
+            "standardAnswer": "恰有1人做对的概率为0.35，X的数学期望为1.55",
+            "scoringCriteria": "第二问总分7分，正确定义事件并写出对应概率得2分，计算恰有1人做对的概率步骤正确、结果准确得2分，列出X的所有取值并计算各概率得1分，正确计算数学期望得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（3）若甲校同学掌握这个知识点则有100%的概率做对该题目，乙校同学掌握这个知识点则有85%的概率做对该题目，未掌握该知识点的同学都是从四个选项里面随机选择一个，设甲校学生掌握该知识点的概率为$p_1$，乙校学生掌握该知识点的概率为$p_2$，试比较$p_1$与$p_2$的大小(结论不要求证明)。",
+            "solutionSteps": "1. 对甲校列方程：$p_1+\\frac{1}{4}(1-p_1)=0.8$，解得$p_1=\\frac{11}{15}$；2. 对乙校列方程：$0.85p_2+\\frac{1}{4}(1-p_2)=0.75$，解得$p_2=\\frac{5}{6}$；3. 比较数值大小得$p_1<p_2$。",
+            "standardAnswer": "$p_1 < p_2$",
+            "scoringCriteria": "第三问总分2分，直接写出正确的大小关系即可得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "A multiple-choice question tests a certain knowledge point. 100 people are randomly selected from each of School A and School B. 80 people in School A answer it correctly, and 75 people in School B answer it correctly. Estimate the probability by frequency.",
+        "subQuestions": [
+          {
+            "question": "(1) Randomly select one person from School A, find the probability that this person answers the question correctly.",
+            "solutionSteps": "According to the core method of estimating probability by frequency, the probability is the ratio of the number of people who answer correctly to the total number of selected people. Substitute the data to get: $\\frac{80}{100}=\\frac{4}{5}$.",
+            "standardAnswer": "$\\frac{4}{5}$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 2 points for correctly understanding the idea of estimating probability by frequency, and 2 points for substituting data and simplifying to get the correct result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Randomly select one person from each of School A and School B, let X be the number of people who answer correctly, find the probability that exactly one person answers correctly and the mathematical expectation of X.",
+            "solutionSteps": "1. Define events: Let A be the event that \"one person randomly selected from School A answers correctly\", then $P(A)=0.8$, $P(\\bar{A})=0.2$; Let B be the event that \"one person randomly selected from School B answers correctly\", then $P(B)=0.75$, $P(\\bar{B})=0.25$. 2. Calculate the probability that exactly one person answers correctly: $P(A\\bar{B})+P(\\bar{A}B)=0.8×0.25+0.2×0.75=0.35$. 3. Find the probability distribution of X: The possible values of X are 0, 1, 2, $P(X=0)=0.2×0.25=0.05$, $P(X=1)=0.35$, $P(X=2)=0.8×0.75=0.6$. 4. Calculate the mathematical expectation: $E(X)=0×0.05+1×0.35+2×0.6=1.55$.",
+            "standardAnswer": "The probability that exactly one person answers correctly is 0.35, and the mathematical expectation of X is 1.55.",
+            "scoringCriteria": "This sub-question has a total of 7 points, 2 points for correctly defining events and writing the corresponding probabilities, 2 points for correct steps and accurate results in calculating the probability that exactly one person answers correctly, 1 point for listing all values of X and calculating each probability, and 2 points for correctly calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(3) If a student in School A masters this knowledge point, he or she has a 100% probability of answering the question correctly; if a student in School B masters this knowledge point, he or she has an 85% probability of answering the question correctly. Students who do not master the knowledge point choose randomly from four options. Let $p_1$ be the probability that a student in School A masters the knowledge point, and $p_2$ be the probability that a student in School B masters the knowledge point. Compare the sizes of $p_1$ and $p_2$ (no proof required for the conclusion).",
+            "solutionSteps": "1. Set up the equation for School A: $p_1+\\frac{1}{4}(1-p_1)=0.8$, solving it gives $p_1=\\frac{11}{15}$; 2. Set up the equation for School B: $0.85p_2+\\frac{1}{4}(1-p_2)=0.75$, solving it gives $p_2=\\frac{5}{6}$; 3. Compare the values to get $p_1<p_2$.",
+            "standardAnswer": "$p_1 < p_2$",
+            "scoringCriteria": "This sub-question has a total of 2 points, 2 points for directly writing the correct size relationship.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆E：$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$的离心率为$\\frac{\\sqrt{2}}{2}$，椭圆上的点到两焦点距离之和为4。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆方程；",
+            "solutionSteps": "1. 由椭圆的定义得$2a=4$，解得$a=2$；2. 由离心率公式$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$，代入$a=2$得$c=\\sqrt{2}$；3. 由椭圆中$a,b,c$的关系$b^2=a^2-c^2$，得$b^2=4-2=2$；4. 代入椭圆标准方程得$\\frac{x^2}{4}+\\frac{y^2}{2}=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+            "scoringCriteria": "第一问总分5分，利用椭圆定义求出$a$的值得2分，根据离心率求出$c$的值得1分，利用$a,b,c$的关系求出$b^2$得1分，写出正确的椭圆标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）设O为原点，$M(x_0,y_0)(x_0≠0)$为椭圆上一点，直线$x_0x+2y_0y-4=0$与直线$y=2$，$y=-2$交于A，B。$\\triangle OAM$与$\\triangle OBM$的面积为$S_1,S_2$，比较$\\frac{S_1}{S_2}$与$\\frac{|OA|}{|OB|}$的大小。",
+            "solutionSteps": "1. 证明直线与椭圆相切：由$M$在椭圆上得$x_0^2+2y_0^2=4$，联立直线$x_0x+2y_0y-4=0$与椭圆方程消去$x$，化简得$(y-y_0)^2=0$，故直线与椭圆相切于$M$点；2. 求A、B坐标：联立$\\begin{cases}x_0x+2y_0y-4=0\\\\y=2\\end{cases}$得$A(\\frac{4-4y_0}{x_0},2)$，联立$\\begin{cases}x_0x+2y_0y-4=0\\\\y=-2\\end{cases}$得$B(\\frac{4+4y_0}{x_0},-2)$；3. 计算$\\frac{S_1}{S_2}$：由面积比等于水平距离比得$\\frac{S_1}{S_2}=\\frac{|\\frac{4-4y_0}{x_0}-x_0|}{|x_0-\\frac{4+4y_0}{x_0}|}=\\frac{2-y_0}{2+y_0}$；4. 计算$\\frac{|OA|}{|OB|}$：代入距离公式得$\\frac{|OA|}{|OB|}=\\frac{\\sqrt{(\\frac{4-4y_0}{x_0})^2+4}}{\\sqrt{(\\frac{4+4y_0}{x_0})^2+4}}$，结合$x_0^2=4-2y_0^2$化简得$\\frac{2-y_0}{2+y_0}$；5. 比较得$\\frac{S_1}{S_2}=\\frac{|OA|}{|OB|}$。",
+            "standardAnswer": "$\\frac{S_1}{S_2}=\\frac{|OA|}{|OB|}$",
+            "scoringCriteria": "第二问总分10分，证明直线与椭圆相切得2分，正确求出A、B两点坐标得2分，正确推导面积比$\\frac{S_1}{S_2}$的表达式并化简得2分，正确计算模长比$\\frac{|OA|}{|OB|}$的表达式并化简得2分，得出最终大小关系得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given an ellipse E: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ with an eccentricity of $\\frac{\\sqrt{2}}{2}$, and the sum of the distances from any point on the ellipse to the two foci is 4.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation of the ellipse;",
+            "solutionSteps": "1. From the definition of an ellipse, $2a=4$, solving it gives $a=2$; 2. From the eccentricity formula $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$, substitute $a=2$ to get $c=\\sqrt{2}$; 3. From the relationship $b^2=a^2-c^2$ in an ellipse, we get $b^2=4-2=2$; 4. Substitute into the standard equation of the ellipse to get $\\frac{x^2}{4}+\\frac{y^2}{2}=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+            "scoringCriteria": "This sub-question has a total of 5 points, 2 points for finding the value of $a$ using the definition of the ellipse, 1 point for finding the value of $c$ according to the eccentricity, 1 point for finding $b^2$ using the relationship of $a,b,c$, and 1 point for writing the correct standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Let O be the origin, $M(x_0,y_0)(x_0≠0)$ be a point on the ellipse, the line $x_0x+2y_0y-4=0$ intersects the lines $y=2$ and $y=-2$ at points A and B respectively. The areas of $\\triangle OAM$ and $\\triangle OBM$ are $S_1$ and $S_2$, compare the sizes of $\\frac{S_1}{S_2}$ and $\\frac{|OA|}{|OB|}$. ",
+            "solutionSteps": "1. Prove the line is tangent to the ellipse: Since M is on the ellipse, $x_0^2+2y_0^2=4$. Simultaneously solve the line $x_0x+2y_0y-4=0$ and the ellipse equation, eliminate $x$ and simplify to get $(y-y_0)^2=0$, so the line is tangent to the ellipse at point M; 2. Find the coordinates of A and B: Solve $\\begin{cases}x_0x+2y_0y-4=0\\\\y=2\\end{cases}$ to get $A(\\frac{4-4y_0}{x_0},2)$, solve $\\begin{cases}x_0x+2y_0y-4=0\\\\y=-2\\end{cases}$ to get $B(\\frac{4+4y_0}{x_0},-2)$; 3. Calculate $\\frac{S_1}{S_2}$: The area ratio is equal to the horizontal distance ratio, so $\\frac{S_1}{S_2}=\\frac{|\\frac{4-4y_0}{x_0}-x_0|}{|x_0-\\frac{4+4y_0}{x_0}|}=\\frac{2-y_0}{2+y_0}$; 4. Calculate $\\frac{|OA|}{|OB|}$: Substitute into the distance formula to get $\\frac{|OA|}{|OB|}=\\frac{\\sqrt{(\\frac{4-4y_0}{x_0})^2+4}}{\\sqrt{(\\frac{4+4y_0}{x_0})^2+4}}$, simplify by combining $x_0^2=4-2y_0^2$ to get $\\frac{2-y_0}{2+y_0}$; 5. Compare to get $\\frac{S_1}{S_2}=\\frac{|OA|}{|OB|}$.",
+            "standardAnswer": "$\\frac{S_1}{S_2}=\\frac{|OA|}{|OB|}$",
+            "scoringCriteria": "This sub-question has a total of 10 points, 2 points for proving the line is tangent to the ellipse, 2 points for correctly finding the coordinates of points A and B, 2 points for correctly deriving and simplifying the expression of the area ratio $\\frac{S_1}{S_2}$, 2 points for correctly calculating and simplifying the expression of the modulus ratio $\\frac{|OA|}{|OB|}$, and 2 points for drawing the final size relationship.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "函数$f(x)$的定义域为$(-1,+\\infty)$，$f(0)=0$，$f'(x)=\\frac{\\ln (1+x)}{1+x}$，$l_1$为$A(a, f(a))(a \\neq 0)$处的切线。",
+        "subQuestions": [
+          {
+            "question": "（1）求$f'(x)$的最大值；",
+            "solutionSteps": "1. 设$g(x)=f'(x)=\\frac{\\ln(1+x)}{1+x}$，求导得$g'(x)=\\frac{1-\\ln(1+x)}{(1+x)^2}$；2. 令$g'(x)=0$，解得$x=e-1$；3. 分析单调性：当$x\\in(-1,e-1)$时，$g'(x)>0$，$g(x)$单调递增；当$x\\in(e-1,+\\infty)$时，$g'(x)<0$，$g(x)$单调递减；4. 故$g(x)_{max}=g(e-1)=\\frac{1}{e}$，即$f'(x)$的最大值为$\\frac{1}{e}$。",
+            "standardAnswer": "$\\frac{1}{e}$",
+            "scoringCriteria": "第一问总分4分，正确构造函数并求导得1分，求出导数为0的临界点得1分，正确分析函数的单调性得1分，计算出最大值并得出结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）证明：当$-1<a<0$时，除点A外，曲线$y=f(x)$均在$l_1$上方；",
+            "solutionSteps": "1. 求$f(x)$解析式：由$f'(x)=\\frac{\\ln(1+x)}{1+x}$积分得$f(x)=\\frac{\\ln^2(1+x)}{2}+C$，结合$f(0)=0$得$C=0$，即$f(x)=\\frac{\\ln^2(1+x)}{2}$；2. 求切线$l_1$方程：$f'(a)=\\frac{\\ln(1+a)}{1+a}$，切线方程为$y=\\frac{\\ln(1+a)}{1+a}(x-a)+\\frac{\\ln^2(1+a)}{2}$；3. 构造函数$h(x)=f(x)-[\\frac{\\ln(1+a)}{1+a}(x-a)+\\frac{\\ln^2(1+a)}{2}]$，求导得$h'(x)=\\frac{\\ln(1+x)}{1+x}-\\frac{\\ln(1+a)}{1+a}$；4. 分析$h'(x)$单调性：由（1）知$f'(x)$在$(-1,e-1)$单调递增，$-1<a<0$，故当$-1<x<a$时，$h'(x)<0$，$h(x)$递减；当$x>a$时，$h'(x)>0$，$h(x)$递增；5. 故$h(x)_{min}=h(a)=0$，且仅当$x=a$时取等号，即除A外，$h(x)>0$，曲线在切线上方。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问总分5分，正确求出$f(x)$的解析式得1分，写出切线$l_1$的正确方程得1分，构造正确的差值函数$h(x)$并求导得1分，正确分析$h(x)$的单调性得1分，得出$h(x)$的最小值并完成证明得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（3）若$a>0$时，直线$l_2$过A且与$l_1$垂直，$l_1$、$l_2$分别与x轴的交点为$x_1$与$x_2$，求$\\frac{2a-x_1-x_2}{x_2-x_1}$的取值范围。",
+            "solutionSteps": "1. 求$x_1$：令切线$l_1$方程$y=0$，解得$x_1=a-\\frac{(1+a)\\ln(1+a)}{2}$；2. 求$l_2$方程：$l_2$斜率为$-\\frac{1+a}{\\ln(1+a)}$，方程为$y=-\\frac{1+a}{\\ln(1+a)}(x-a)+\\frac{\\ln^2(1+a)}{2}$；3. 求$x_2$：令$l_2$方程$y=0$，解得$x_2=a+\\frac{\\ln^3(1+a)}{2(1+a)}$；4. 化简所求式子：代入$x_1,x_2$得$\\frac{2a-x_1-x_2}{x_2-x_1}=\\frac{(1+a)^2-\\ln^2(1+a)}{(1+a)^2+\\ln^2(1+a)}=\\frac{1-t^2}{1+t^2}$（令$t=\\frac{\\ln(1+a)}{1+a}$）；5. 求$t$的范围：由（1）知$a>0$时，$0<t\\leq\\frac{1}{e}$，则$0<t^2\\leq\\frac{1}{e^2}$；6. 求函数值域：令$g(t)=\\frac{1-t^2}{1+t^2}=-1+\\frac{2}{1+t^2}$，该函数在$t^2\\in(0,\\frac{1}{e^2}]$上单调递减，故$g(t)\\in[\\frac{e^2-1}{e^2+1},1)$。",
+            "standardAnswer": "$\\left[\\frac{e^2-1}{e^2+1},1\\right)$",
+            "scoringCriteria": "第三问总分6分，正确求出$x_1$的值得1分，写出$l_2$的正确方程并求出$x_2$的值得2分，正确化简所求代数式并完成换元得1分，求出换元后变量的取值范围得1分，分析函数单调性并求出最终取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The domain of the function $f(x)$ is $(-1,+\\infty)$, $f(0)=0$, $f'(x)=\\frac{\\ln (1+x)}{1+x}$, and $l_1$ is the tangent line at the point $A(a, f(a))(a \\neq 0)$. ",
+        "subQuestions": [
+          {
+            "question": "(1) Find the maximum value of $f'(x)$;",
+            "solutionSteps": "1. Let $g(x)=f'(x)=\\frac{\\ln(1+x)}{1+x}$, find the derivative: $g'(x)=\\frac{1-\\ln(1+x)}{(1+x)^2}$; 2. Let $g'(x)=0$, solve to get $x=e-1$; 3. Analyze monotonicity: When $x\\in(-1,e-1)$, $g'(x)>0$, $g(x)$ is monotonically increasing; When $x\\in(e-1,+\\infty)$, $g'(x)<0$, $g(x)$ is monotonically decreasing; 4. Thus $g(x)_{max}=g(e-1)=\\frac{1}{e}$, that is, the maximum value of $f'(x)$ is $\\frac{1}{e}$.",
+            "standardAnswer": "$\\frac{1}{e}$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for correctly constructing the function and finding its derivative, 1 point for finding the critical point where the derivative is 0, 1 point for correctly analyzing the monotonicity of the function, and 1 point for calculating the maximum value and drawing the conclusion.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Prove that when $-1<a<0$, except for point A, the curve $y=f(x)$ is all above $l_1$;",
+            "solutionSteps": "1. Find the analytic expression of $f(x)$: Integrate $f'(x)=\\frac{\\ln(1+x)}{1+x}$ to get $f(x)=\\frac{\\ln^2(1+x)}{2}+C$, combine with $f(0)=0$ to get $C=0$, that is $f(x)=\\frac{\\ln^2(1+x)}{2}$; 2. Find the equation of tangent line $l_1$: $f'(a)=\\frac{\\ln(1+a)}{1+a}$, the tangent equation is $y=\\frac{\\ln(1+a)}{1+a}(x-a)+\\frac{\\ln^2(1+a)}{2}$; 3. Construct the function $h(x)=f(x)-[\\frac{\\ln(1+a)}{1+a}(x-a)+\\frac{\\ln^2(1+a)}{2}]$, find the derivative: $h'(x)=\\frac{\\ln(1+x)}{1+x}-\\frac{\\ln(1+a)}{1+a}$; 4. Analyze the monotonicity of $h'(x)$: From (1), $f'(x)$ is monotonically increasing on $(-1,e-1)$, $-1<a<0$, so when $-1<x<a$, $h'(x)<0$, $h(x)$ is decreasing; when $x>a$, $h'(x)>0$, $h(x)$ is increasing; 5. Thus $h(x)_{min}=h(a)=0$, and the equality holds only when $x=a$, that is, except for A, $h(x)>0$, the curve is above the tangent line.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 5 points, 1 point for correctly finding the analytic expression of $f(x)$, 1 point for writing the correct equation of the tangent line $l_1$, 1 point for constructing the correct difference function $h(x)$ and finding its derivative, 1 point for correctly analyzing the monotonicity of $h(x)$, and 1 point for finding the minimum value of $h(x)$ and completing the proof.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(3) If $a>0$, the line $l_2$ passes through A and is perpendicular to $l_1$, $l_1$ and $l_2$ intersect the x-axis at $x_1$ and $x_2$ respectively, find the range of $\\frac{2a-x_1-x_2}{x_2-x_1}$. ",
+            "solutionSteps": "1. Find $x_1$: Let $y=0$ in the tangent line $l_1$ equation, solve to get $x_1=a-\\frac{(1+a)\\ln(1+a)}{2}$; 2. Find the equation of $l_2$: The slope of $l_2$ is $-\\frac{1+a}{\\ln(1+a)}$, the equation is $y=-\\frac{1+a}{\\ln(1+a)}(x-a)+\\frac{\\ln^2(1+a)}{2}$; 3. Find $x_2$: Let $y=0$ in the $l_2$ equation, solve to get $x_2=a+\\frac{\\ln^3(1+a)}{2(1+a)}$; 4. Simplify the required expression: Substitute $x_1,x_2$ to get $\\frac{2a-x_1-x_2}{x_2-x_1}=\\frac{(1+a)^2-\\ln^2(1+a)}{(1+a)^2+\\ln^2(1+a)}=\\frac{1-t^2}{1+t^2}$ (let $t=\\frac{\\ln(1+a)}{1+a}$); 5. Find the range of $t$: From (1), when $a>0$, $0<t\\leq\\frac{1}{e}$, then $0<t^2\\leq\\frac{1}{e^2}$; 6. Find the value range of the function: Let $g(t)=\\frac{1-t^2}{1+t^2}=-1+\\frac{2}{1+t^2}$, the function is monotonically decreasing on $t^2\\in(0,\\frac{1}{e^2}]$, so $g(t)\\in[\\frac{e^2-1}{e^2+1},1)$.",
+            "standardAnswer": "$\\left[\\frac{e^2-1}{e^2+1},1\\right)$",
+            "scoringCriteria": "This sub-question has a total of 6 points, 1 point for correctly finding the value of $x_1$, 2 points for writing the correct equation of $l_2$ and finding the value of $x_2$, 1 point for correctly simplifying the required algebraic expression and completing the substitution, 1 point for finding the range of the variable after substitution, and 1 point for analyzing the monotonicity of the function and finding the final value range.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设集合$A=\\{1,2,3,4,5,6,7,8\\}$，$M=\\{(x_i, y_i) | x_i \\in A, y_i \\in A\\}$，从M中选出n个有序数对构成一列：$(x_1, y_1), ...,(x_n, y_n)$，相邻两项$(x_i, y_i)$与$(x_{i+1}, y_{i+1})$满足$x_{i+1}=x_i\\pm3$且$y_{i+1}=y_i\\pm4$，称为k列。",
+        "subQuestions": [
+          {
+            "question": "（1）若k列的第一项为$(3,3)$，求第二项；",
+            "solutionSteps": "1. 根据k列定义，第二项需满足$x_2=3\\pm3$且$y_2=3\\pm4$；2. 筛选集合A内的取值：$x_2=3+3=6$（$3-3=0$舍去，不在A中），$y_2$可取$3+4=7$或$3-4=-1$（舍去）；或$x_2$无其他有效取值，$y_2$另一种结合为$x_2=3+3=6$，$y_2=7$或$x_2=3$无其他解，实际有效解为$x_2=6,y_2=7$或$x_2=7,y_2=6$（验证：$3+4=7$，$3+3=6$，交叉组合有效）；3. 最终第二项为$(6,7)$或$(7,6)$。",
+            "standardAnswer": "$(6,7)$或$(7,6)$",
+            "scoringCriteria": "第一问总分4分，正确写出k列的相邻项取值规则得1分，筛选出x的有效取值得1分，筛选出y的有效取值得1分，写出所有正确的第二项坐标得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）若k列满足i为奇数时，$x_i \\in\\{1,2,7,8\\}$；i为偶数时，$x_i \\in\\{3,4,5,6\\}$，判断：$(3,2)$与$(4,4)$能否同时在k列中，并说明理由。",
+            "solutionSteps": "1. 结论：不能同时在k列中；2. 反证法：假设二者同时在k列中，k列取反序后仍为k列，不妨设$(3,2)$在$(4,4)$之前；3. 分析奇偶性：k列中相邻两项横纵坐标之和的奇偶性相反，$(3,2)$横纵坐标和为5（奇），$(4,4)$和为8（偶），故两点之间的项数为奇数；4. 结合x的取值规则：$(3,2)$和$(4,4)$的x均属于$\\{3,4,5,6\\}$，对应i为偶数，两点之间的i的奇偶性变化次数为偶数，与项数为奇数矛盾；5. 故二者不能同时在k列中。",
+            "standardAnswer": "不能，理由见解析",
+            "scoringCriteria": "第二问总分5分，给出正确的判断结论得1分，采用反证法并做出合理假设得1分，正确分析k列相邻项的奇偶性规律得1分，结合x的取值规则分析奇偶性矛盾得1分，完整阐述理由并得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）证明：M中所有元素都不构成k列。",
+            "solutionSteps": "1. 反证法：假设M中所有64个元素能构成一个k列，即该k列有64项；2. 划分集合：设$T_1=\\{(x,y)|x\\in\\{1,2,7,8\\},y\\in A\\}$，$T_2=\\{(x,y)|x\\in\\{3,4,5,6\\},y\\in A\\}$，则$T_1$和$T_2$各含32个元素，且$T_1$中元素的相邻项必在$T_2$中，$T_2$中元素的相邻项必在$T_1$中；3. 分析项数奇偶性：若无相邻项同属$T_2$，则k列奇数项属$T_1$，偶数项属$T_2$，但64项中偶数项32个（$T_2$），奇数项32个（$T_1$），看似符合；4. 再划分集合：设$T_3=\\{(x,y)|y\\in\\{1,2,7,8\\},x\\in A\\}$，$T_4=\\{(x,y)|y\\in\\{3,4,5,6\\},x\\in A\\}$，同理$T_3$、$T_4$各32个元素，奇数项属$T_3$，偶数项属$T_4$；5. 推出矛盾：结合两次划分，可得$T_1=T_3$，但$T_1$是x取特定值，$T_3$是y取特定值，二者显然不是同一集合，矛盾；6. 故假设不成立，M中所有元素都不构成k列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问总分6分，采用反证法并做出合理假设得1分，正确划分$T_1$、$T_2$并分析元素个数及相邻项关系得1分，分析k列项数的奇偶性分布得1分，再正确划分$T_3$、$T_4$并分析相关性质得1分，推出$T_1=T_3$的矛盾结论得1分，完整完成证明并得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the set $A=\\{1,2,3,4,5,6,7,8\\}$, $M=\\{(x_i, y_i) | x_i \\in A, y_i \\in A\\}$. Select n ordered pairs from M to form a sequence: $(x_1, y_1), ...,(x_n, y_n)$. If two adjacent terms $(x_i, y_i)$ and $(x_{i+1}, y_{i+1})$ satisfy $x_{i+1}=x_i\\pm3$ and $y_{i+1}=y_i\\pm4$, the sequence is called a k-sequence.",
+        "subQuestions": [
+          {
+            "question": "(1) If the first term of the k-sequence is $(3,3)$, find the second term;",
+            "solutionSteps": "1. According to the definition of the k-sequence, the second term must satisfy $x_2=3\\pm3$ and $y_2=3\\pm4$; 2. Screen the values within set A: $x_2=3+3=6$ (3-3=0 is discarded, not in A), $y_2$ can be $3+4=7$ (3-4=-1 is discarded); the valid cross combination is $x_2=6,y_2=7$ or $x_2=7,y_2=6$ (verified: valid for the definition); 3. The final second term is $(6,7)$ or $(7,6)$. ",
+            "standardAnswer": "$(6,7)$ or $(7,6)$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for correctly writing the value rule of adjacent terms of the k-sequence, 1 point for screening the valid values of x, 1 point for screening the valid values of y, and 1 point for writing all correct coordinates of the second term.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) If the k-sequence satisfies that $x_i \\in\\{1,2,7,8\\}$ when i is odd, and $x_i \\in\\{3,4,5,6\\}$ when i is even, judge whether $(3,2)$ and $(4,4)$ can be in the k-sequence at the same time and explain the reason.",
+            "solutionSteps": "1. Conclusion: They cannot be in the k-sequence at the same time; 2. Proof by contradiction: Assume both are in the k-sequence, the reverse of the k-sequence is still a k-sequence, so we may assume $(3,2)$ is before $(4,4)$; 3. Analyze parity: The parity of the sum of the abscissa and ordinate of two adjacent terms in the k-sequence is opposite. The sum of the abscissa and ordinate of $(3,2)$ is 5 (odd), and that of $(4,4)$ is 8 (even), so the number of terms between the two points is odd; 4. Combine the x value rule: The x of both $(3,2)$ and $(4,4)$ belong to $\\{3,4,5,6\\}$, corresponding to even i, the number of parity changes of i between the two points is even, which contradicts the odd number of terms; 5. Therefore, they cannot be in the k-sequence at the same time.",
+            "standardAnswer": "No, see the analysis for the reason",
+            "scoringCriteria": "This sub-question has a total of 5 points, 1 point for giving the correct judgment conclusion, 1 point for using proof by contradiction and making a reasonable assumption, 1 point for correctly analyzing the parity rule of adjacent terms of the k-sequence, 1 point for analyzing the parity contradiction combined with the x value rule, and 1 point for elaborating the reason completely and drawing the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) Prove that all elements in M cannot form a k-sequence.",
+            "solutionSteps": "1. Proof by contradiction: Assume all 64 elements in M can form a k-sequence, that is, the k-sequence has 64 terms; 2. Divide the sets: Let $T_1=\\{(x,y)|x\\in\\{1,2,7,8\\},y\\in A\\}$, $T_2=\\{(x,y)|x\\in\\{3,4,5,6\\},y\\in A\\}$, then $T_1$ and $T_2$ each contain 32 elements, the adjacent term of an element in $T_1$ must be in $T_2$, and the adjacent term of an element in $T_2$ must be in $T_1$; 3. Analyze the parity of the number of terms: If no adjacent terms belong to $T_2$ at the same time, the odd terms of the k-sequence belong to $T_1$ and the even terms belong to $T_2$, with 32 even terms (T2) and 32 odd terms (T1) in 64 terms, which seems to be consistent; 4. Divide the sets again: Let $T_3=\\{(x,y)|y\\in\\{1,2,7,8\\},x\\in A\\}$, $T_4=\\{(x,y)|y\\in\\{3,4,5,6\\},x\\in A\\}$, similarly, $T_3$ and $T_4$ each have 32 elements, the odd terms belong to $T_3$ and the even terms belong to $T_4$; 5. Deduce the contradiction: Combining the two divisions, we can get $T_1=T_3$, but $T_1$ is for x taking specific values and $T_3$ is for y taking specific values, which are obviously not the same set, leading to a contradiction; 6. Therefore, the assumption is not valid, and all elements in M cannot form a k-sequence.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 6 points, 1 point for using proof by contradiction and making a reasonable assumption, 1 point for correctly dividing $T_1$ and $T_2$ and analyzing the number of elements and the relationship of adjacent terms, 1 point for analyzing the parity distribution of the number of terms of the k-sequence, 1 point for correctly dividing $T_3$ and $T_4$ and analyzing the relevant properties, 1 point for deducing the contradictory conclusion of $T_1=T_3$, and 1 point for completing the proof completely and drawing the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

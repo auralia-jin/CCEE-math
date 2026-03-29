@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2025 Beijing Chaoyang Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某高中组织学生研学旅行。现有A,B 两地可供选择，学生按照自愿的原则选择一地进行研学旅行。研学旅行结束后，学校从全体学生中随机抽取100 名学生进行满意度调查，调查结果如下表：（表格：高一A地满意12、一般2、不满意1；高一B地满意2、一般2、不满意1；高二A地满意18、一般6、不满意6；高二B地满意3、一般5、不满意2；高三A地满意15、一般6、不满意3；高三B地满意6、一般8、不满意2）。假设所有学生的研学旅行地点选择相互独立。用频率估计概率。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）估计该校学生对本次研学旅行满意的概率；",
+            "solutionSteps": "1. 从表格数据统计随机抽取的100名学生中满意的人数：12+2+18+3+15+6=56；2. 根据频率估计概率的方法，用满意人数除以总抽样人数，计算概率：56/100=14/25。",
+            "standardAnswer": "$\\frac{14}{25}$",
+            "scoringCriteria": "本问总分4分；正确统计出满意的学生人数得2分；正确运用频率估计概率的公式并计算出最终结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）分别从高一､高二､高三三个年级中各随机抽取1人，估计这 3 人中至少有 2 人选择去B 地的概率；",
+            "solutionSteps": "1. 定义事件：$A_1$为抽取的高一学生选B地，$A_2$为抽取的高二学生选B地，$A_3$为抽取的高三学生选B地，D为3人中至少2人选B地；2. 计算各年级选B地的概率：高一总人数20，选B地5人，$P(A_1)=5/20=1/4$；高二总人数40，选B地10人，$P(A_2)=10/40=1/4$；高三总人数40，选B地16人，$P(A_3)=16/40=2/5$；3. 分解事件D：$D=A_1A_2\\overline{A_3} \\cup A_1\\overline{A_2}A_3 \\cup \\overline{A_1}A_2A_3 \\cup A_1A_2A_3$；4. 根据相互独立事件概率公式计算：$P(D)=P(A_1)P(A_2)P(\\overline{A_3})+2P(A_1)P(\\overline{A_2})P(A_3)+P(A_1)P(A_2)P(A_3)$；5. 代入数值计算：$1/4×1/4×3/5 + 2×1/4×3/4×2/5 + 1/4×1/4×2/5 = 17/80$。",
+            "standardAnswer": "$\\frac{17}{80}$",
+            "scoringCriteria": "本问总分9分；正确计算出三个年级选B地的概率各得1分，共3分；正确分解“至少2人选B地”的事件得2分；正确运用独立事件概率公式列出计算式得2分；代入数值准确计算出最终结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（Ⅲ）对于上述样本，在三个年级去A 地研学旅行的学生中，调查结果为满意的学生人数的方差为 $s_{1}^{2}$，调查结果为不满意的学生人数的方差为 $s_{2}^{2}$，写出 $s_{1}^{2}$ 和 $s_{2}^{2}$ 的大小关系。（结论不要求证明）",
+            "solutionSteps": "根据样本数据直接判断满意人数和不满意人数的离散程度，得出方差大小关系。",
+            "standardAnswer": "$s_1^2 > s_2^2$",
+            "scoringCriteria": "本问总分1分；直接写出正确的方差大小关系即可得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "A senior high school organizes students to participate in study tours. There are two places A and B to choose from, and students choose one place for the study tour on a voluntary basis. After the study tour, the school randomly selected 100 students from all students to conduct a satisfaction survey, and the survey results are shown in the following table: (Table: Grade 10, Place A: 12 satisfied, 2 average, 1 dissatisfied; Grade 10, Place B: 2 satisfied, 2 average, 1 dissatisfied; Grade 11, Place A: 18 satisfied, 6 average, 6 dissatisfied; Grade 11, Place B: 3 satisfied, 5 average, 2 dissatisfied; Grade 12, Place A: 15 satisfied, 6 average, 3 dissatisfied; Grade 12, Place B: 6 satisfied, 8 average, 2 dissatisfied). Assume that the choice of study tour place for all students is independent of each other. Estimate the probability by frequency.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Estimate the probability that the students of this school are satisfied with this study tour;",
+            "solutionSteps": "1. Count the number of satisfied students among the 100 randomly selected students from the table data: 12+2+18+3+15+6=56; 2. Estimate the probability by dividing the number of satisfied students by the total number of sampled students according to the method of estimating probability by frequency: 56/100=14/25.",
+            "standardAnswer": "$\\frac{14}{25}$",
+            "scoringCriteria": "Total score for this sub-question is 4 points; 2 points for correctly counting the number of satisfied students; 2 points for correctly applying the formula of estimating probability by frequency and calculating the final result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 1 student from each of the three grades: Grade 10, Grade 11 and Grade 12 respectively, estimate the probability that at least 2 of the 3 students choose to go to Place B;",
+            "solutionSteps": "1. Define events: $A_1$ is the event that the selected Grade 10 student chooses Place B, $A_2$ is the event that the selected Grade 11 student chooses Place B, $A_3$ is the event that the selected Grade 12 student chooses Place B, D is the event that at least 2 of the 3 students choose Place B; 2. Calculate the probability of choosing Place B for each grade: the total number of Grade 10 students is 20, 5 choose Place B, $P(A_1)=5/20=1/4$; the total number of Grade 11 students is 40, 10 choose Place B, $P(A_2)=10/40=1/4$; the total number of Grade 12 students is 40, 16 choose Place B, $P(A_3)=16/40=2/5$; 3. Decompose event D: $D=A_1A_2\\overline{A_3} \\cup A_1\\overline{A_2}A_3 \\cup \\overline{A_1}A_2A_3 \\cup A_1A_2A_3$; 4. Calculate according to the probability formula of independent events: $P(D)=P(A_1)P(A_2)P(\\overline{A_3})+2P(A_1)P(\\overline{A_2})P(A_3)+P(A_1)P(A_2)P(A_3)$; 5. Substitute the values for calculation: $1/4×1/4×3/5 + 2×1/4×3/4×2/5 + 1/4×1/4×2/5 = 17/80$.",
+            "standardAnswer": "$\\frac{17}{80}$",
+            "scoringCriteria": "Total score for this sub-question is 9 points; 1 point for correctly calculating the probability of choosing Place B for each of the three grades, 3 points in total; 2 points for correctly decomposing the event of \"at least 2 students choose Place B\"; 2 points for correctly listing the calculation formula by applying the probability formula of independent events; 2 points for accurately calculating the final result by substituting the values.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(Ⅲ) For the above sample, among the students who went to Place A for the study tour in the three grades, the variance of the number of students with a satisfied survey result is $s_{1}^{2}$, and the variance of the number of students with a dissatisfied survey result is $s_{2}^{2}$. Write the size relationship between $s_{1}^{2}$ and $s_{2}^{2}$. (No proof is required for the conclusion)",
+            "solutionSteps": "Judge the degree of dispersion of the number of satisfied students and dissatisfied students directly according to the sample data, and obtain the size relationship of the variances.",
+            "standardAnswer": "$s_1^2 > s_2^2$",
+            "scoringCriteria": "Total score for this sub-question is 1 point; 1 point for directly writing the correct size relationship of the variances.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆 $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ 的右焦点为$F$，离心率为 $\\frac{1}{2}$，点$C(\\frac{5}{2}, \\frac{3}{2})$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆 E 的方程；",
+            "solutionSteps": "1. 由椭圆性质可知离心率$e=\\frac{c}{a}=\\frac{1}{2}$，且椭圆右焦点$c=1$；2. 联立$\\frac{c}{a}=\\frac{1}{2}$和$c=1$，解得$a=2$；3. 根据椭圆中$a^2=b^2+c^2$，代入$a=2$、$c=1$，得$b^2=4-1=3$，即$b=\\sqrt{3}$；4. 代入椭圆标准方程得$\\frac{x^2}{4}+\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "本问总分4分；正确写出椭圆离心率公式和$a^2=b^2+c^2$的关系得1分；正确求出$a=2$得1分；正确计算出$b^2=3$得1分；写出椭圆的标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）过点 $M(4,0)$ 作直线l 与椭圆E 交于不同的两点A,B，设$C(\\frac{5}{2}, \\frac{3}{2})$，直线BC与直线x=1交于点N，求证：直线AN的斜率为定值。",
+            "solutionSteps": "1. 设直线l的方程为$y=k(x-4)$（斜率存在），设$A(x_1,y_1)$，$B(x_2,y_2)$；2. 联立椭圆方程$3x^2+4y^2-12=0$与直线l方程，消去y得$(4k^2+3)x^2-32k^2x+64k^2-12=0$；3. 由韦达定理得$x_1+x_2=\\frac{32k^2}{4k^2+3}$，$x_1x_2=\\frac{64k^2-12}{4k^2+3}$；4. 写出直线BC的方程：$y-\\frac{3}{2}=\\frac{y_2-\\frac{3}{2}}{x_2-\\frac{5}{2}}(x-\\frac{5}{2})$，令$x=1$，求出点N的纵坐标$y_N$；5. 计算直线AN的斜率$k_{AN}=\\frac{y_1-y_N}{x_1-1}$，将$y_1=k(x_1-4)$、$y_2=k(x_2-4)$代入并化简；6. 代入韦达定理的结果，计算得$2x_1x_2-5(x_1+x_2)+8=0$，进而推出$k_{AN}+1=0$，即$k_{AN}=-1$，为定值。",
+            "standardAnswer": "直线AN的斜率为定值$-1$，证明见解析",
+            "scoringCriteria": "本问总分11分；正确设出直线l的方程并设出点A、B坐标得1分；联立椭圆与直线方程并正确消元得2分；正确运用韦达定理求出$x_1+x_2$和$x_1x_2$得2分；正确写出直线BC的方程并求出点N的纵坐标得2分；正确写出直线AN的斜率表达式并代入化简得2分；结合韦达定理推出斜率为定值$-1$得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given an ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ with the right focus $F$ and the eccentricity of $\\frac{1}{2}$, and the point $C(\\frac{5}{2}, \\frac{3}{2})$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse E;",
+            "solutionSteps": "1. From the properties of the ellipse, the eccentricity $e=\\frac{c}{a}=\\frac{1}{2}$, and the right focus of the ellipse $c=1$; 2. Solve the equations $\\frac{c}{a}=\\frac{1}{2}$ and $c=1$ simultaneously to get $a=2$; 3. According to $a^2=b^2+c^2$ in the ellipse, substitute $a=2$ and $c=1$ to get $b^2=4-1=3$, that is $b=\\sqrt{3}$; 4. Substitute into the standard equation of the ellipse to get $\\frac{x^2}{4}+\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "Total score for this sub-question is 4 points; 1 point for correctly writing the eccentricity formula of the ellipse and the relationship of $a^2=b^2+c^2$; 1 point for correctly finding $a=2$; 1 point for correctly calculating $b^2=3$; 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Draw a straight line l through the point $M(4,0)$ which intersects the ellipse E at two distinct points A and B. Let $C(\\frac{5}{2}, \\frac{3}{2})$, the straight line BC intersects the straight line x=1 at point N. Prove that the slope of the straight line AN is a constant value.",
+            "solutionSteps": "1. Let the equation of the straight line l be $y=k(x-4)$ (the slope exists), and let $A(x_1,y_1)$, $B(x_2,y_2)$; 2. Simultaneously solve the ellipse equation $3x^2+4y^2-12=0$ and the equation of the straight line l, eliminate y to get $(4k^2+3)x^2-32k^2x+64k^2-12=0$; 3. From Vieta's formulas, we get $x_1+x_2=\\frac{32k^2}{4k^2+3}$, $x_1x_2=\\frac{64k^2-12}{4k^2+3}$; 4. Write the equation of the straight line BC: $y-\\frac{3}{2}=\\frac{y_2-\\frac{3}{2}}{x_2-\\frac{5}{2}}(x-\\frac{5}{2})$, let $x=1$ and find the ordinate $y_N$ of point N; 5. Calculate the slope of the straight line AN $k_{AN}=\\frac{y_1-y_N}{x_1-1}$, substitute $y_1=k(x_1-4)$ and $y_2=k(x_2-4)$ and simplify; 6. Substitute the results of Vieta's formulas, calculate to get $2x_1x_2-5(x_1+x_2)+8=0$, and then deduce $k_{AN}+1=0$, that is $k_{AN}=-1$, a constant value.",
+            "standardAnswer": "The slope of the straight line AN is a constant value $-1$, see the analysis for proof",
+            "scoringCriteria": "Total score for this sub-question is 11 points; 1 point for correctly setting the equation of the straight line l and the coordinates of points A and B; 2 points for simultaneously solving the ellipse and straight line equations and eliminating y correctly; 2 points for correctly finding $x_1+x_2$ and $x_1x_2$ by applying Vieta's formulas; 2 points for correctly writing the equation of the straight line BC and finding the ordinate of point N; 2 points for correctly writing the slope expression of the straight line AN and substituting for simplification; 2 points for deducing that the slope is the constant value $-1$ combined with Vieta's formulas.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=a\\ln x - \\frac{2x}{x+1}$，$a \\in R$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当 $a=1$ 时，求曲线 $y=f(x)$ 在点$(1,f(1))$ 处的切线方程；",
+            "solutionSteps": "1. 当$a=1$时，$f(x)=\\ln x - \\frac{2x}{x+1}$，计算$f(1)=\\ln1 - \\frac{2×1}{1+1}=0$；2. 求导得$f'(x)=\\frac{1}{x}-\\frac{2}{(x+1)^2}$；3. 计算切点处的导数$f'(1)=\\frac{1}{1}-\\frac{2}{(1+1)^2}=\\frac{1}{2}$，即切线斜率为$\\frac{1}{2}$；4. 由点斜式得切线方程：$y-0=\\frac{1}{2}(x-1)$，整理为$x-2y-1=0$。",
+            "standardAnswer": "$x-2y-1=0$",
+            "scoringCriteria": "本问总分4分；正确计算$f(1)$的值得1分；正确求出函数的导数$f'(x)$得1分；正确计算$f'(1)$即切线斜率得1分；由点斜式写出并整理出切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若 $a ≥\\frac{1}{2}$，求证：当 $x ≥1$ 时，$f(x) ≥0$；",
+            "solutionSteps": "1. 求导得$f'(x)=\\frac{a}{x}-\\frac{2}{(x+1)^2}=\\frac{ax^2+(2a-2)x+a}{x(x+1)^2}$，令$h(x)=ax^2+(2a-2)x+a$；2. 计算$h(x)$的判别式$\\Delta=(2a-2)^2-4a^2=-8a+4=4(1-2a)$，当$a≥\\frac{1}{2}$时，$\\Delta≤0$；3. 因为$a≥\\frac{1}{2}$，$x≥1$，所以$h(x)≥0$，且$x(x+1)^2>0$，故$f'(x)≥0$；4. 因此$f(x)$在$[1,+\\infty)$上单调递增，所以$f(x)≥f(1)=0$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问总分5分；正确求出$f'(x)$并构造函数$h(x)$得1分；正确计算$h(x)$的判别式并分析其符号得2分；正确判断$f'(x)$的符号及$f(x)$的单调性得1分；结合单调性推出$f(x)≥f(1)=0$完成证明得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）若函数 $f(x)$ 有 3 个不同的零点，求 a 的取值范围。",
+            "solutionSteps": "1. 求导得$f'(x)=\\frac{a(x+1)^2-2x}{x(x+1)^2}=\\frac{ax^2+(2a-2)x+a}{x(x+1)^2}$，分情况讨论：①当$a≤0$时，$f'(x)<0$，$f(x)$在$(0,+\\infty)$单调递减，至多1个零点，不合题意；②当$a≥\\frac{1}{2}$时，由（Ⅱ）知$f(x)$单调递增，至多1个零点，不合题意；③当$0<a<\\frac{1}{2}$时，$\\Delta=4(1-2a)>0$，方程$h(x)=0$有两个正根$x_1,x_2$，且$x_1x_2=1$，故$0<x_1<1<x_2$；2. 分析$f(x)$的单调性：在$(0,x_1)$上$f'(x)>0$，$f(x)$递增；在$(x_1,x_2)$上$f'(x)<0$，$f(x)$递减；在$(x_2,+\\infty)$上$f'(x)>0$，$f(x)$递增；3. 结合$f(1)=0$，且$f(e^{-\\frac{1}{a}})<0$，$f(e^{\\frac{1}{a}})>0$，可知$f(x)$在$(0,1)$和$(1,+\\infty)$各有一个零点，加上$x=1$的零点，共3个零点；4. 综上，a的取值范围为$(0,\\frac{1}{2})$。",
+            "standardAnswer": "$(0,\\frac{1}{2})$",
+            "scoringCriteria": "本问总分6分；正确求导并对$a≤0$和$a≥\\frac{1}{2}$的情况分析，得出不合题意的结论各得1分，共2分；分析$0<a<\\frac{1}{2}$时方程$h(x)=0$的根的分布得1分；正确分析$f(x)$的单调区间得1分；结合函数值的趋势判断零点个数得1分；写出a的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=a\\ln x - \\frac{2x}{x+1}$, $a \\in R$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $a=1$, find the equation of the tangent line to the curve $y=f(x)$ at the point $(1,f(1))$;",
+            "solutionSteps": "1. When $a=1$, $f(x)=\\ln x - \\frac{2x}{x+1}$, calculate $f(1)=\\ln1 - \\frac{2×1}{1+1}=0$; 2. Find the derivative $f'(x)=\\frac{1}{x}-\\frac{2}{(x+1)^2}$; 3. Calculate the derivative at the tangent point $f'(1)=\\frac{1}{1}-\\frac{2}{(1+1)^2}=\\frac{1}{2}$, that is the slope of the tangent line is $\\frac{1}{2}$; 4. Obtain the tangent line equation from the point-slope form: $y-0=\\frac{1}{2}(x-1)$, and arrange it to $x-2y-1=0$.",
+            "standardAnswer": "$x-2y-1=0$",
+            "scoringCriteria": "Total score for this sub-question is 4 points; 1 point for correctly calculating the value of $f(1)$; 1 point for correctly finding the derivative $f'(x)$ of the function; 1 point for correctly calculating $f'(1)$ i.e., the slope of the tangent line; 1 point for writing and arranging the tangent line equation from the point-slope form.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $a ≥\\frac{1}{2}$, prove that $f(x) ≥0$ when $x ≥1$;",
+            "solutionSteps": "1. Find the derivative $f'(x)=\\frac{a}{x}-\\frac{2}{(x+1)^2}=\\frac{ax^2+(2a-2)x+a}{x(x+1)^2}$, let $h(x)=ax^2+(2a-2)x+a$; 2. Calculate the discriminant of $h(x)$: $\\Delta=(2a-2)^2-4a^2=-8a+4=4(1-2a)$, when $a≥\\frac{1}{2}$, $\\Delta≤0$; 3. Since $a≥\\frac{1}{2}$ and $x≥1$, $h(x)≥0$, and $x(x+1)^2>0$, so $f'(x)≥0$; 4. Therefore, $f(x)$ is monotonically increasing on $[1,+\\infty)$, so $f(x)≥f(1)=0$, proved.",
+            "standardAnswer": "See the analysis for proof",
+            "scoringCriteria": "Total score for this sub-question is 5 points; 1 point for correctly finding $f'(x)$ and constructing the function $h(x)$; 2 points for correctly calculating the discriminant of $h(x)$ and analyzing its sign; 1 point for correctly judging the sign of $f'(x)$ and the monotonicity of $f(x)$; 1 point for completing the proof by deducing $f(x)≥f(1)=0$ combined with monotonicity.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) If the function $f(x)$ has 3 distinct zeros, find the range of values of a.",
+            "solutionSteps": "1. Find the derivative $f'(x)=\\frac{a(x+1)^2-2x}{x(x+1)^2}=\\frac{ax^2+(2a-2)x+a}{x(x+1)^2}$, discuss by cases: ①When $a≤0$, $f'(x)<0$, $f(x)$ is monotonically decreasing on $(0,+\\infty)$, with at most 1 zero, which does not meet the requirements; ②When $a≥\\frac{1}{2}$, from (Ⅱ), $f(x)$ is monotonically increasing, with at most 1 zero, which does not meet the requirements; ③When $0<a<\\frac{1}{2}$, $\\Delta=4(1-2a)>0$, the equation $h(x)=0$ has two positive roots $x_1,x_2$, and $x_1x_2=1$, so $0<x_1<1<x_2$; 2. Analyze the monotonicity of $f(x)$: $f'(x)>0$ on $(0,x_1)$, $f(x)$ is increasing; $f'(x)<0$ on $(x_1,x_2)$, $f(x)$ is decreasing; $f'(x)>0$ on $(x_2,+\\infty)$, $f(x)$ is increasing; 3. Combined with $f(1)=0$, and $f(e^{-\\frac{1}{a}})<0$, $f(e^{\\frac{1}{a}})>0$, it can be seen that $f(x)$ has one zero in $(0,1)$ and one zero in $(1,+\\infty)$ respectively, plus the zero at $x=1$, there are 3 zeros in total; 4. In conclusion, the range of values of a is $(0,\\frac{1}{2})$.",
+            "standardAnswer": "$(0,\\frac{1}{2})$",
+            "scoringCriteria": "Total score for this sub-question is 6 points; 1 point for each of the analysis of the cases $a≤0$ and $a≥\\frac{1}{2}$ to draw the conclusion that they do not meet the requirements, 2 points in total; 1 point for analyzing the root distribution of the equation $h(x)=0$ when $0<a<\\frac{1}{2}$; 1 point for correctly analyzing the monotonic intervals of $f(x)$; 1 point for judging the number of zeros combined with the trend of the function value; 1 point for writing the range of values of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知 $Q: a_{1}, a_{2}, \\cdots, a_{n}(n ≥3, n \\in N^{*})$ 为有穷正整数数列，若存在 $i, j \\in{1,2, \\cdots, n}(i<j)$，使得 $s_{i} a_{i}+s_{i+1} a_{i+1}+\\cdots+s_{j} a_{j}=0$，其中 $s_{i}, s_{i+1}, \\cdots, s_{j} \\in{-1,1}$，则称 Q 为连续可归零数列。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）判断 $Q_{1}: 1,3,2$ 和 $Q_{2}:4,2,4$ 是否为连续可归零数列？并说明理由；",
+            "solutionSteps": "1. 判断$Q_1:1,3,2$：取$s_1=1$，$s_2=-1$，$s_3=1$，则$s_1a_1+s_2a_2+s_3a_3=1×1+(-1)×3+1×2=0$，满足定义，故$Q_1$是连续可归零数列；2. 判断$Q_2:4,2,4$：分三种情况验证，①$(i,j)=(1,2)$：$4s_1+2s_2=2(2s_1+s_2)$，$2s_1+s_2$为奇数，结果不为0；②$(i,j)=(2,3)$：$2s_2+4s_3=2(s_2+2s_3)$，$s_2+2s_3$为奇数，结果不为0；③$(i,j)=(1,3)$：$4s_1+2s_2+4s_3=2(2s_1+s_2+2s_3)$，$2s_1+s_2+2s_3$为奇数，结果不为0，故$Q_2$不是连续可归零数列。",
+            "standardAnswer": "$Q_1$是连续可归零数列，$Q_2$不是连续可归零数列，理由见解析",
+            "scoringCriteria": "本问总分4分；正确判断$Q_1$并给出合理的取值验证得2分；正确判断$Q_2$并分情况验证说明理由得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）对任意的正整数i，记 $v(i)=max{ v \\in N | i=u·2^{v}, u \\in N^{*}}$，$a_{i}=2^{2-v(i)}(i=1,2, \\cdots,7)$，求证：数列 $Q: a_{1}, a_{2}, \\cdots, a_{7}$ 不是连续可归零数列；",
+            "solutionSteps": "1. 计算各$v(i)$和$a_i$：$v(1)=v(3)=v(5)=v(7)=0$，故$a_1=a_3=a_5=a_7=4$；$v(2)=v(6)=1$，故$a_2=a_6=2$；$v(4)=2$，故$a_4=1$，得数列$Q:4,2,4,1,4,2,4$；2. 由定义知$s_ia_i+\\dots+s_ja_j$与$a_i+\\dots+a_j$奇偶性相同；3. 分情况分析：①当区间包含$a_4=1$时，和为奇数，不可能为0；②当区间为$(1,2),(1,3),(2,3),(5,6),(5,7),(6,7)$时，由（Ⅰ）的方法可知和不为0；4. 综上，数列Q不是连续可归零数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问总分5分；正确计算出数列Q的各项值得2分；指出和的奇偶性相同的关键结论得1分；分情况分析各区间的和均不为0得1分；完成证明得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若数列 $Q: a_{1}, a_{2}, \\cdots, a_{n}$ 的每一项均为不大于 $k(k \\in N^{*})$ 的正整数，求证：当 $n ≥2 k$ 时，Q 是连续可归零数列。",
+            "solutionSteps": "1. 构造数列$b_1=a_1$，$b_{i+1}=\\begin{cases}b_i+a_{i+1}, b_i ≤ 0, \\\\ b_i-a_{i+1}, b_i>0\\end{cases}(i=1,2, \\cdots, n-1)$，先证明$-k+1 ≤b_i ≤k$对任意$i$成立，用反证法：假设存在$b_t>k$或$b_t<-k+1$，推出与假设矛盾的结论，故该不等式成立；2. 分两种情况讨论：①若存在$b_j=0$，则存在$s_1,\\dots,s_j\\in\\{-1,1\\}$使$s_1a_1+\\dots+s_ja_j=0$，Q是连续可归零数列；②若所有$b_i≠0$，则$b_i$的取值为$-k+1,\\dots,-1,1,\\dots,k$共$2k-1$个，当$n≥2k$时，由抽屉原理，存在$p<q$使$b_p=b_q$，则$s_{p+1}a_{p+1}+\\dots+s_qa_q=b_q-b_p=0$，Q是连续可归零数列；3. 综上，当$n≥2k$时，Q是连续可归零数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问总分6分；正确构造数列$b_i$并证明$-k+1 ≤b_i ≤k$得2分；正确分析存在$b_j=0$的情况得1分；运用抽屉原理分析所有$b_i≠0$的情况得2分；综合两种情况完成证明得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given a finite positive integer sequence $Q: a_{1}, a_{2}, \\cdots, a_{n}(n ≥3, n \\in N^{*})$, if there exist $i, j \\in{1,2, \\cdots, n}(i<j)$ such that $s_{i} a_{i}+s_{i+1} a_{i+1}+\\cdots+s_{j} a_{j}=0$, where $s_{i}, s_{i+1}, \\cdots, s_{j} \\in{-1,1}$, then Q is called a continuously zeroable sequence.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Judge whether $Q_{1}: 1,3,2$ and $Q_{2}:4,2,4$ are continuously zeroable sequences? And explain the reasons;",
+            "solutionSteps": "1. Judge $Q_1:1,3,2$: Take $s_1=1$, $s_2=-1$, $s_3=1$, then $s_1a_1+s_2a_2+s_3a_3=1×1+(-1)×3+1×2=0$, which satisfies the definition, so $Q_1$ is a continuously zeroable sequence; 2. Judge $Q_2:4,2,4$: Verify in three cases, ①$(i,j)=(1,2)$: $4s_1+2s_2=2(2s_1+s_2)$, $2s_1+s_2$ is an odd number, the result is not 0; ②$(i,j)=(2,3)$: $2s_2+4s_3=2(s_2+2s_3)$, $s_2+2s_3$ is an odd number, the result is not 0; ③$(i,j)=(1,3)$: $4s_1+2s_2+4s_3=2(2s_1+s_2+2s_3)$, $2s_1+s_2+2s_3$ is an odd number, the result is not 0, so $Q_2$ is not a continuously zeroable sequence.",
+            "standardAnswer": "$Q_1$ is a continuously zeroable sequence, $Q_2$ is not a continuously zeroable sequence, see the analysis for reasons",
+            "scoringCriteria": "Total score for this sub-question is 4 points; 2 points for correctly judging $Q_1$ and giving reasonable value selection for verification; 2 points for correctly judging $Q_2$ and verifying the reasons by cases.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) For any positive integer i, let $v(i)=max{ v \\in N | i=u·2^{v}, u \\in N^{*}}$, $a_{i}=2^{2-v(i)}(i=1,2, \\cdots,7)$. Prove that the sequence $Q: a_{1}, a_{2}, \\cdots, a_{7}$ is not a continuously zeroable sequence;",
+            "solutionSteps": "1. Calculate each $v(i)$ and $a_i$: $v(1)=v(3)=v(5)=v(7)=0$, so $a_1=a_3=a_5=a_7=4$; $v(2)=v(6)=1$, so $a_2=a_6=2$; $v(4)=2$, so $a_4=1$, and the sequence $Q:4,2,4,1,4,2,4$ is obtained; 2. From the definition, $s_ia_i+\\dots+s_ja_j$ has the same parity as $a_i+\\dots+a_j$; 3. Analyze by cases: ①When the interval contains $a_4=1$, the sum is an odd number and cannot be 0; ②When the interval is $(1,2),(1,3),(2,3),(5,6),(5,7),(6,7)$, it can be known from the method in (Ⅰ) that the sum is not 0; 4. In conclusion, the sequence Q is not a continuously zeroable sequence.",
+            "standardAnswer": "See the analysis for proof",
+            "scoringCriteria": "Total score for this sub-question is 5 points; 2 points for correctly calculating each term of the sequence Q; 1 point for pointing out the key conclusion that the sums have the same parity; 1 point for analyzing that the sums of all intervals are not 0 by cases; 1 point for completing the proof and drawing the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If each term of the sequence $Q: a_{1}, a_{2}, \\cdots, a_{n}$ is a positive integer not greater than $k(k \\in N^{*})$, prove that Q is a continuously zeroable sequence when $n ≥2 k$.",
+            "solutionSteps": "1. Construct the sequence $b_1=a_1$, $b_{i+1}=\\begin{cases}b_i+a_{i+1}, b_i ≤ 0, \\\\ b_i-a_{i+1}, b_i>0\\end{cases}(i=1,2, \\cdots, n-1)$, first prove that $-k+1 ≤b_i ≤k$ holds for any $i$, by contradiction: assume there exists $b_t>k$ or $b_t<-k+1$, deduce a conclusion that contradicts the assumption, so the inequality holds; 2. Discuss in two cases: ①If there exists $b_j=0$, then there exist $s_1,\\dots,s_j\\in\\{-1,1\\}$ such that $s_1a_1+\\dots+s_ja_j=0$, and Q is a continuously zeroable sequence; ②If all $b_i≠0$, then the values of $b_i$ are $-k+1,\\dots,-1,1,\\dots,k$, a total of $2k-1$ values. When $n≥2k$, by the pigeonhole principle, there exist $p<q$ such that $b_p=b_q$, then $s_{p+1}a_{p+1}+\\dots+s_qa_q=b_q-b_p=0$, and Q is a continuously zeroable sequence; 3. In conclusion, Q is a continuously zeroable sequence when $n≥2k$.",
+            "standardAnswer": "See the analysis for proof",
+            "scoringCriteria": "Total score for this sub-question is 6 points; 2 points for correctly constructing the sequence $b_i$ and proving $-k+1 ≤b_i ≤k$; 1 point for correctly analyzing the case where there exists $b_j=0$; 2 points for analyzing the case where all $b_i≠0$ by applying the pigeonhole principle; 1 point for completing the proof by synthesizing the two cases.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

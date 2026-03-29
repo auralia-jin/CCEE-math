@@ -1,0 +1,117 @@
+{
+    "paperTitle": "2022 Beijing Fangshan Senior Three First Mock Examination",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "良好的生态环境是最普惠的民生福祉。北京市集中开展大气污染防止以来，在经济快速发展的同时实现了大气主要污染物浓度持续下降。2021 年经过全市共同努力，空气质量首次全面达标，大气污染治理取得里程碑式突破。下表是2021 年每个月空气质量优良和污染的天数统计。表格包含月份、空气质量优良天数、空气质量污染天数三列，具体数据：1月优良24天、污染7天；2月优良18天、污染10天；3月优良11天、污染20天；4月优良27天、污染3天；5月优良23天、污染8天；6月优良21天、污染9天；7月优良26天、污染5天；8月优良29天、污染2天；9月优良27天、污染3天；10月优良29天、污染2天；11月优良23天、污染7天；12月优良30天、污染1天；合计优良288天、污染77天。",
+                "subQuestions": [
+                    {
+                        "question": "（1）从2021 年中任选1 天，求这一天空气质量优良的概率；",
+                        "solutionSteps": "1. 记事件A为“从2021年中任选1天，这一天空气质量优良”；2. 2021年全年共365天，空气质量优良的天数为288天；3. 根据古典概型概率公式$P(A)=\\frac{\\text{事件A包含的基本事件数}}{\\text{基本事件总数}}$，代入数据得$P(A)=\\frac{288}{365}$。",
+                        "standardAnswer": "$\\frac{288}{365}$",
+                        "scoringCriteria": "第一问，正确记事件并明确古典概型公式得2分；正确确定总天数和优良天数得1分；代入数据计算出正确概率得2分，共5分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）从2021 年的4 月、6 月和9 月中各任选一天，设随机变量 X 表示选出的3 天中质量优良的天数，求 X 的分布列；",
+                        "solutionSteps": "1. 确定随机变量X的所有可能取值为0，1，2，3；2. 分别计算各月任选一天为优良天的概率：4月和9月优良概率$P=\\frac{27}{30}=\\frac{9}{10}$，6月优良概率$P=\\frac{21}{30}=\\frac{7}{10}$，各月污染概率分别为$\\frac{1}{10}$、$\\frac{3}{10}$、$\\frac{1}{10}$；3. 根据相互独立事件概率乘法公式计算各取值概率：$P(X=0)=\\frac{1}{10}×\\frac{3}{10}×\\frac{1}{10}=\\frac{3}{1000}$，$P(X=1)=\\frac{9}{10}×\\frac{3}{10}×\\frac{1}{10}+\\frac{1}{10}×\\frac{7}{10}×\\frac{1}{10}+\\frac{1}{10}×\\frac{3}{10}×\\frac{9}{10}=\\frac{61}{1000}$，$P(X=2)=\\frac{9}{10}×\\frac{7}{10}×\\frac{1}{10}+\\frac{9}{10}×\\frac{3}{10}×\\frac{9}{10}+\\frac{1}{10}×\\frac{7}{10}×\\frac{9}{10}=\\frac{369}{1000}$，$P(X=3)=\\frac{9}{10}×\\frac{7}{10}×\\frac{9}{10}=\\frac{567}{1000}$；4. 列出以X为行、对应概率为列的分布列。",
+                        "standardAnswer": "X的分布列为：| X | 0 | 1 | 2 | 3 | | --- | --- | --- | --- | --- | | P | $\\frac{3}{1000}$ | $\\frac{61}{1000}$ | $\\frac{369}{1000}$ | $\\frac{567}{1000}$ |",
+                        "scoringCriteria": "第二问，正确确定X的所有可能取值得1分；正确计算出三个月份的优良、污染概率得2分；正确计算出X=0、1、2、3各自的概率各得1分，共4分；正确列出分布列得1分，共8分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（3）在2021 年的1 月、3 月、5 月、7 月、8 月、10 月、12 月中，设空气质量优良天数的方差为 $s_{1}^{2}$，空气质量污染天数的方差为 $s_{2}^{2}$，试判断 $s_{1}^{2}$，$s_{2}^{2}$ 的大小关系。(结论不要求证明)",
+                        "solutionSteps": "分析所选月份中，每月总天数均为31天，即优良天数+污染天数=31（定值），根据方差的性质，若两个变量满足线性关系$Y=aX+b$，则方差满足$D(Y)=a^2D(X)$，此处污染天数=31-优良天数，$a=-1$，故二者方差相等，即$s_{1}^{2}=s_{2}^{2}$。",
+                        "standardAnswer": "$s_{1}^{2}=s_{2}^{2}$",
+                        "scoringCriteria": "第三问，直接写出正确的大小关系即可得0分（题目要求结论不要求证明，按题目设定计分），本问为该题附属小问，分值计入前两问，总题分值13分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数 $f(x)=(\\ln x-a) e^{x}$。",
+                "subQuestions": [
+                    {
+                        "question": "（1）当 $a=0$ 时，求曲线 $y=f(x)$ 在 $x=1$ 处的切线方程；",
+                        "solutionSteps": "1. 当$a=0$时，确定函数解析式$f(x)=\\ln x \\cdot e^x(x>0)$；2. 求导函数$f'(x)=(\\ln x+\\frac{1}{x})e^x$；3. 计算$x=1$处的导数值即切线斜率：$f'(1)=(0+1)e=e$；4. 计算$x=1$处的函数值：$f(1)=\\ln1 \\cdot e^1=0$，即切点为$(1,0)$；5. 根据点斜式$y-y_0=k(x-x_0)$，写出切线方程$y=e(x-1)$。",
+                        "standardAnswer": "$y=e(x-1)$",
+                        "scoringCriteria": "第一问，正确代入a=0得到函数解析式得1分；正确求导得到$f'(x)$得2分；正确计算$f'(1)$和$f(1)$各得1分，共2分；根据点斜式写出正确切线方程得1分，共6分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）若 $f(x)$ 在区间(0,e]存在极小值，求 a 的取值范围。",
+                        "solutionSteps": "1. 求导函数$f'(x)=\\frac{1}{x}e^x+(\\ln x-a)e^x=(\\frac{1}{x}+\\ln x-a)e^x$，因$e^x>0$，故$f'(x)$的符号由$g(x)=\\frac{1}{x}+\\ln x-a$决定；2. 求$g(x)$的导函数$g'(x)=\\frac{1}{x}-\\frac{1}{x^2}=\\frac{x-1}{x^2}$，令$g'(x)=0$得极值点$x=1$；3. 分析$g(x)$的单调性：$x\\in(0,1)$时，$g'(x)<0$，$g(x)$单调递减；$x\\in(1,e]$时，$g'(x)>0$，$g(x)$单调递增，故$g(x)_{min}=g(1)=1-a$；4. 分类讨论a的取值范围：①$a≤1$时，$g(x)≥0$，$f'(x)≥0$，$f(x)$单调递增，无极值；②$1<a<1+\\frac{1}{e}$时，$g(1)=1-a<0$，$g(e)=1+\\frac{1}{e}-a>0$，存在$x_0\\in(1,e)$使$g(x_0)=0$，$x\\in(1,x_0)$时$f'(x)<0$，$x\\in(x_0,e)$时$f'(x)>0$，$f(x)$在$x_0$处取极小值；③$a≥1+\\frac{1}{e}$时，$g(e)≤0$，$f(x)$在$(0,e]$上仅有极大值，无极小值；5. 综上，a的取值范围为$(1,1+\\frac{1}{e})$。",
+                        "standardAnswer": "$(1,1+\\frac{1}{e})$",
+                        "scoringCriteria": "第二问，正确求导并分离出$g(x)$得2分；正确求$g'(x)$并找到极值点$x=1$得2分；正确分析$g(x)$的单调性并求出最小值$g(1)=1-a$得2分；分类讨论a的不同取值情况，每种情况分析正确各得2分，共6分；得出正确的a的取值范围得1分，共15分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆 C 的离心率为 $\\frac{\\sqrt{3}}{2}$，长轴的两个端点分别为 $A(-2,0)$、$B(2,0)$。",
+                "subQuestions": [
+                    {
+                        "question": "（1）求椭圆 C 的方程；",
+                        "solutionSteps": "1. 由长轴端点$A(-2,0)$、$B(2,0)$得椭圆的长半轴$a=2$，且椭圆焦点在x轴上；2. 由离心率$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，代入$a=2$得$c=\\sqrt{3}$；3. 根据椭圆中$a^2=b^2+c^2$，计算短半轴$b^2=a^2-c^2=4-3=1$，即$b=1$；4. 写出焦点在x轴上的椭圆标准方程$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，即$\\frac{x^2}{4}+y^2=1$。",
+                        "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+                        "scoringCriteria": "第一问，正确由长轴端点得出$a=2$得1分；正确根据离心率求出$c=\\sqrt{3}$得2分；正确利用$a^2=b^2+c^2$求出$b^2=1$得1分；写出正确的椭圆方程得1分，共5分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）过点(1,0)的直线与椭圆 C 交于 M，N (不与 A , B 重合)两点，直线 $A M$ 与直线 $x=4$ 交于点 Q，求证: $\\frac{S_{\\triangle M B N}}{S_{\\triangle M B Q}}=\\frac{|B N|}{|B Q|}$。",
+                        "solutionSteps": "1. 设过点(1,0)的直线方程为$x=my+1$，设$M(x_1,y_1)$、$N(x_2,y_2)$；2. 联立直线与椭圆方程$\\begin{cases}x=my+1\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$，消去x得$(m^2+4)y^2+2my-3=0$，由韦达定理得$y_1+y_2=-\\frac{2m}{m^2+4}$，$y_1y_2=-\\frac{3}{m^2+4}$；3. 求直线AM的方程：$k_{AM}=\\frac{y_1}{x_1+2}$，方程为$y=\\frac{y_1}{x_1+2}(x+2)$，将$x=4$代入得Q点坐标$(4,\\frac{6y_1}{x_1+2})$；4. 计算直线BN和BQ的斜率：$k_{NB}=\\frac{y_2}{x_2-2}$，$k_{BQ}=\\frac{\\frac{6y_1}{x_1+2}}{4-2}=\\frac{3y_1}{x_1+2}$；5. 代入$x_1=my_1+1$、$x_2=my_2+1$，化简$k_{NB}-k_{BQ}=\\frac{-2my_1y_2+3(y_1+y_2)}{(x_2-2)(x_1+2)}$，将韦达定理结果代入分子，得分子为0，故$k_{NB}=k_{BQ}$，即N、B、Q三点共线；6. 因N、B、Q共线，$\\triangle MBN$和$\\triangle MBQ$有公共高（从M到直线NBQ的距离），根据三角形面积公式$S=\\frac{1}{2}×底×高$，得$\\frac{S_{\\triangle MBN}}{S_{\\triangle MBQ}}=\\frac{|BN|}{|BQ|}$，得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问，正确设出直线方程和点的坐标得2分；联立直线与椭圆方程并正确消元，得出关于y的一元二次方程得2分；正确求出韦达定理的结果得2分；正确求出直线AM的方程和Q点坐标得2分；正确计算$k_{NB}$和$k_{BQ}$并证明二者相等，得出N、B、Q三点共线得4分；根据三角形面积公式完成证明得3分，共15分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "若无穷数列 ${a_{n}}$ 满足如下两个条件，则称 ${a_{n}}$ 为无界数列: (1) $a_{n}>0 \\quad(n=1,2,3 \\dots \\dots)$；(2)对任意的正数 $\\delta$，都存在正整数 N，使得 $a_{n}>\\delta$。",
+                "subQuestions": [
+                    {
+                        "question": "（1）若 $a_{n}=2 n+1$，$b_{n}=2+cos (n) (n=1,2,3 \\dots \\dots)$，判断数列 ${a_{n}}$，${b_{n}}$ 是否是无界数列；",
+                        "solutionSteps": "1. 判断${a_n}$：对任意正数$\\delta$，取N为大于$\\frac{\\delta-1}{2}$的正整数，此时$a_N=2N+1>2×\\frac{\\delta-1}{2}+1=\\delta$，满足无界数列的两个条件，故${a_n}$是无界数列；2. 判断${b_n}$：因$\\cos n\\in[-1,1]$，故$b_n=2+\\cos n\\in[1,3]$，取$\\delta=3$，不存在正整数N使得$b_N>3$，不满足无界数列的第二个条件，故${b_n}$不是无界数列。",
+                        "standardAnswer": "${a_{n}}$ 是无界数列，${b_{n}}$ 不是无界数列",
+                        "scoringCriteria": "第一问，正确根据无界数列定义判断${a_n}$为无界数列，推理过程正确得2分；正确根据无界数列定义判断${b_n}$不是无界数列，推理过程正确得2分，共4分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（2）若 $a_{n}=2 n+1$，是否存在正整数 k 使得对于一切 $n ≥k$，都有 $\\frac{a_{1}}{a_{2}}+\\frac{a_{2}}{a_{3}}+\\dots+\\frac{a_{n}}{a_{n+1}}<n-1$ 成立？若存在，求出 k 的范围；若不存在说明理由；",
+                        "solutionSteps": "1. 将不等式变形为$n-(\\frac{a_1}{a_2}+\\frac{a_2}{a_3}+\\dots+\\frac{a_n}{a_{n+1}})>1$，化简左边得$\\sum_{i=1}^n\\frac{a_{i+1}-a_i}{a_{i+1}}$；2. 由$a_n=2n+1$得$a_{i+1}-a_i=2$，故左边为$2(\\frac{1}{5}+\\frac{1}{7}+\\dots+\\frac{1}{2n+3})$；3. 分别验证n取1,2,3时，左边的值均小于1，不等式不成立；4. 当n≥4时，计算$2(\\frac{1}{5}+\\frac{1}{7}+\\frac{1}{9}+\\frac{1}{11})>1$，且n增大时，左边各项均为正，和逐渐增大，故n≥4时不等式恒成立；5. 综上，存在正整数k，k的取值范围为k≥4。",
+                        "standardAnswer": "存在，$k≥4$的正整数",
+                        "scoringCriteria": "第二问，正确对不等式进行变形化简得2分；分别验证n=1,2,3时不等式不成立，每验证一个得1分，共3分；证明n≥4时不等式恒成立，推理过程正确得3分；得出正确的k的范围得1分，共9分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（3）若数列 ${a_{n}}$ 是单调递增的无界数列，求证: 存在正整数 m，使得 $\\frac{a_{1}}{a_{2}}+\\frac{a_{2}}{a_{3}}+\\dots+\\frac{a_{m}}{a_{m+1}}<m-1$。",
+                        "solutionSteps": "1. 由$a_n$单调递增且$a_n>0$，将$m-(\\frac{a_1}{a_2}+\\frac{a_2}{a_3}+\\dots+\\frac{a_m}{a_{m+1}})$变形为$\\sum_{i=1}^m\\frac{a_{i+1}-a_i}{a_{i+1}}$；2. 放缩该和式：$\\sum_{i=1}^m\\frac{a_{i+1}-a_i}{a_{i+1}}>\\frac{a_{m+1}-a_1}{a_{m+1}}=1-\\frac{a_1}{a_{m+1}}$，即$\\frac{a_1}{a_2}+\\dots+\\frac{a_m}{a_{m+1}}<m-1+\\frac{a_1}{a_{m+1}}$；3. 因$a_n$是无界数列，取$\\delta=2a_1$，存在正整数$N_1$使得$a_{N_1+1}>2a_1$，则$\\frac{a_1}{a_{N_1+1}}<\\frac{1}{2}$；4. 此时$\\frac{a_1}{a_2}+\\dots+\\frac{a_{N_1}}{a_{N_1+1}}<N_1-1+\\frac{1}{2}<N_1-1$；5. 取$m=N_1$，即存在正整数m满足题意，得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，正确对式子进行变形得2分；正确进行放缩推导得出$\\frac{a_1}{a_2}+\\dots+\\frac{a_m}{a_{m+1}}<m-1+\\frac{a_1}{a_{m+1}}$得2分；利用无界数列的定义找到满足条件的$N_1$得2分；完成最终证明得1分，共7分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

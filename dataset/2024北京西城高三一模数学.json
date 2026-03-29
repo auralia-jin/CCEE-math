@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2024 Beijing Xicheng Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "10米气步枪是国际射击联合会的比赛项目之一，资格赛比赛规则如下：每位选手采用立姿射击60发子弹，总环数排名前8的选手进入决赛。三位选手甲、乙、丙的资格赛成绩有相关频数统计（甲的射击频数依次为1、1、10、24、24）。假设用频率估计概率，且甲、乙、丙的射击成绩相互独立。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若丙进入决赛，试判断甲是否进入决赛，说明理由；",
+            "solutionSteps": "1. 计算丙射击成绩的总环数：2×6+4×7+10×8+18×9+26×10=542；\\n2. 计算甲射击成绩的总环数：1×6+1×7+10×8+24×9+24×10=549；\\n3. 比较甲和丙的总环数，549>542，甲的总环数高于丙，因此甲进入决赛。",
+            "standardAnswer": "甲进入决赛，理由见解析",
+            "scoringCriteria": "总分3分，正确计算丙的总环数得1分，正确计算甲的总环数得1分，比较环数并得出甲进入决赛的结论得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（Ⅱ）若甲、乙各射击2次，估计这4次射击中出现2个“9环”和2个“10环”的概率；",
+            "solutionSteps": "1. 计算甲、乙命中对应环数的概率：甲命中9环的概率为24/60=2/5，甲命中10环的概率为24/60=2/5；乙命中9环的概率为30/60=1/2，乙命中10环的概率为15/60=1/4；\\n2. 分三种情况计算概率：①甲2次9环、乙2次10环：$(\\\\frac{2}{5})^2×(\\\\frac{1}{4})^2$；②甲2次10环、乙2次9环：$(\\\\frac{2}{5})^2×(\\\\frac{1}{2})^2$；③甲1次9环1次10环、乙1次9环1次10环：$C_{2}^{1}(\\\\frac{2}{5})×C_{2}^{1}(\\\\frac{2}{5})×C_{2}^{1}(\\\\frac{1}{2})×C_{2}^{1}(\\\\frac{1}{4})$；\\n3. 求和计算总概率：$\\\\frac{4}{25}×\\\\frac{1}{16}+\\\\frac{4}{25}×\\\\frac{1}{4}+4×\\\\frac{4}{25}×\\\\frac{1}{8}=\\\\frac{1}{100}+\\\\frac{1}{25}+\\\\frac{2}{25}=\\\\frac{13}{100}$。",
+            "standardAnswer": "$\\\\frac{13}{100}$",
+            "scoringCriteria": "总分7分，正确求出甲命中9环、10环的概率各得1分，正确求出乙命中9环、10环的概率各得1分，正确分类并列出三种情况的概率计算式得2分，计算出最终概率结果得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）甲、乙、丙各射击10次，用$X_{i}(i=1,2,3)$分别表示甲、乙、丙的10次射击中大于a环的次数，其中$a \\in{6,7,8,9}$。写出一个a的值，使$D(X_{3})>D(X_{2})>D(X_{1})$（结论不要求证明）。",
+            "solutionSteps": "根据甲、乙、丙射击成绩的分布特征，结合二项分布方差的性质，直接选取满足方差大小关系的a值即可。",
+            "standardAnswer": "$a=7$（或$a=8$）",
+            "scoringCriteria": "总分3分，写出符合要求的任意一个a值即可得3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "10-meter air rifle is one of the competition events of the International Shooting Sport Federation. The rules for the qualification round are as follows: each contestant shoots 60 bullets in a standing position, and the top 8 contestants with the total ring number advance to the final. There are relevant frequency statistics for the qualification round results of three contestants A, B and C (the shooting frequencies of A are 1, 1, 10, 24, 24 in turn). Assume that probability is estimated by frequency, and the shooting results of A, B and C are independent of each other.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If contestant C advances to the final, judge whether contestant A advances to the final and explain the reason;",
+            "solutionSteps": "1. Calculate the total ring number of C's shooting results: 2×6+4×7+10×8+18×9+26×10=542;\\n2. Calculate the total ring number of A's shooting results: 1×6+1×7+10×8+24×9+24×10=549;\\n3. Compare the total ring numbers of A and C, 549>542, A's total ring number is higher than C's, so A advances to the final.",
+            "standardAnswer": "A advances to the final, see the analysis for reasons",
+            "scoringCriteria": "Total 3 points, 1 point for correctly calculating C's total ring number, 1 point for correctly calculating A's total ring number, 1 point for comparing the ring numbers and drawing the conclusion that A advances to the final.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(Ⅱ) If each of contestant A and contestant B shoots twice, estimate the probability that there are 2 \"9 rings\" and 2 \"10 rings\" in these 4 shots;",
+            "solutionSteps": "1. Calculate the probabilities of A and B hitting the corresponding rings: The probability that A hits 9 rings is 24/60=2/5, the probability that A hits 10 rings is 24/60=2/5; The probability that B hits 9 rings is 30/60=1/2, the probability that B hits 10 rings is 15/60=1/4;\\n2. Calculate the probability in three cases: ① A hits 9 rings twice and B hits 10 rings twice: $(\\\\frac{2}{5})^2×(\\\\frac{1}{4})^2$; ② A hits 10 rings twice and B hits 9 rings twice: $(\\\\frac{2}{5})^2×(\\\\frac{1}{2})^2$; ③ A hits 9 rings once and 10 rings once, B hits 9 rings once and 10 rings once: $C_{2}^{1}(\\\\frac{2}{5})×C_{2}^{1}(\\\\frac{2}{5})×C_{2}^{1}(\\\\frac{1}{2})×C_{2}^{1}(\\\\frac{1}{4})$;\\n3. Sum to calculate the total probability: $\\\\frac{4}{25}×\\\\frac{1}{16}+\\\\frac{4}{25}×\\\\frac{1}{4}+4×\\\\frac{4}{25}×\\\\frac{1}{8}=\\\\frac{1}{100}+\\\\frac{1}{25}+\\\\frac{2}{25}=\\\\frac{13}{100}$.",
+            "standardAnswer": "$\\\\frac{13}{100}$",
+            "scoringCriteria": "Total 7 points, 1 point for each correctly calculated probability of A hitting 9 rings and 10 rings, 1 point for each correctly calculated probability of B hitting 9 rings and 10 rings, 2 points for correctly classifying and listing the probability calculation formulas of the three cases, 1 point for calculating the final probability result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) Each of contestant A, B and C shoots 10 times, let $X_{i}(i=1,2,3)$ denote the number of times that the shooting result is greater than a rings in 10 shots of A, B and C respectively, where $a \\in{6,7,8,9}$. Write a value of a such that $D(X_{3})>D(X_{2})>D(X_{1})$ (no proof is required for the conclusion).",
+            "solutionSteps": "According to the distribution characteristics of the shooting results of A, B and C, combined with the properties of the variance of the binomial distribution, directly select a value of a that satisfies the variance size relationship.",
+            "standardAnswer": "$a=7$ (or $a=8$)",
+            "scoringCriteria": "Total 3 points, 3 points for writing any one value of a that meets the requirements.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$G: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$的一个顶点为$A(-2,0)$，离心率为$\\\\frac{1}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆G的方程；",
+            "solutionSteps": "1. 由椭圆的一个顶点为$A(-2,0)$，得长半轴$a=2$；\\n2. 由离心率$e=\\\\frac{c}{a}=\\\\frac{1}{2}$，代入$a=2$得半焦距$c=1$；\\n3. 根据椭圆的性质$a^2=b^2+c^2$，计算得$b^2=a^2-c^2=4-1=3$；\\n4. 将$a^2=4$，$b^2=3$代入椭圆标准方程，得$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "总分5分，由顶点坐标得出$a=2$得1分，由离心率求出$c=1$得1分，利用椭圆性质推导$b^2$的计算公式得1分，计算出$b^2=3$得1分，写出椭圆的标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设O为原点，直线l与椭圆G交于C、D两点（C、D不是椭圆的顶点），l与直线$x=2$交于点E，直线AC、AD分别与直线OE交于点M、N。求证：$|OM|=|ON|$。",
+            "solutionSteps": "1. 设直线l的方程为$y=kx+m$，代入$x=2$得点E坐标为$(2,2k+m)$，进而得直线OE的方程为$y=(k+\\\\frac{m}{2})x$；\\n2. 联立椭圆与直线l的方程：$\\\\begin{cases}y=kx+m \\\\ 3x^2+4y^2=12\\end{cases}$，消去y整理得$(4k^2+3)x^2+8kmx+4m^2-12=0$，由判别式$\\\\Delta=48(4k^2-m^2+3)>0$得$m^2<4k^2+3$；\\n3. 设$C(x_1,y_1)$、$D(x_2,y_2)$，由韦达定理得$x_1+x_2=-\\\\frac{8km}{4k^2+3}$，$x_1x_2=\\\\frac{4m^2-12}{4k^2+3}$；\\n4. 写出直线AC的方程$y=\\\\frac{y_1}{x_1+2}(x+2)$，联立OE的方程解得$x_M=\\\\frac{4(kx_1+m)}{mx_1+4k}$，同理得$x_N=\\\\frac{4(kx_2+m)}{mx_2+4k}$；\\n5. 计算$x_M+x_N$，将分子展开并代入韦达定理化简：$2kmx_1x_2+(4k^2+m^2)(x_1+x_2)+8km=0$，故$x_M+x_N=0$；\\n6. 由$x_M+x_N=0$可知点M、N关于原点O对称，因此$|OM|=|ON|$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "总分10分，设出直线l的方程并求出E点坐标、直线OE的方程得2分，联立椭圆与直线l的方程并消元整理得2分，正确写出韦达定理的两根和与两根积得2分，求出$x_M$和$x_N$的表达式得2分，化简证明$x_M+x_N=0$并得出$|OM|=|ON|$的结论得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that one vertex of the ellipse $G: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $A(-2,0)$ and its eccentricity is $\\\\frac{1}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse G;",
+            "solutionSteps": "1. From one vertex of the ellipse being $A(-2,0)$, the semi-major axis $a=2$ is obtained;\\n2. From the eccentricity $e=\\\\frac{c}{a}=\\\\frac{1}{2}$, substitute $a=2$ to get the semi-focal length $c=1$;\\n3. According to the property of the ellipse $a^2=b^2+c^2$, calculate to get $b^2=a^2-c^2=4-1=3$;\\n4. Substitute $a^2=4$ and $b^2=3$ into the standard equation of the ellipse to get $\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "Total 5 points, 1 point for obtaining $a=2$ from the vertex coordinates, 1 point for finding $c=1$ from the eccentricity, 1 point for deriving the calculation formula of $b^2$ using the properties of the ellipse, 1 point for calculating $b^2=3$, 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let O be the origin, a straight line l intersects the ellipse G at points C and D (C and D are not the vertices of the ellipse), l intersects the straight line $x=2$ at point E, and the straight lines AC and AD intersect the straight line OE at points M and N respectively. Prove that $|OM|=|ON|$.",
+            "solutionSteps": "1. Let the equation of the straight line l be $y=kx+m$, substitute $x=2$ to get the coordinates of point E as $(2,2k+m)$, then the equation of the straight line OE is $y=(k+\\\\frac{m}{2})x$;\\n2. Simultaneously solve the equations of the ellipse and the straight line l: $\\\\begin{cases}y=kx+m \\\\ 3x^2+4y^2=12\\end{cases}$, eliminate y and sort out to get $(4k^2+3)x^2+8kmx+4m^2-12=0$, from the discriminant $\\\\Delta=48(4k^2-m^2+3)>0$, we get $m^2<4k^2+3$;\\n3. Let $C(x_1,y_1)$ and $D(x_2,y_2)$, from Vieta's formulas, we get $x_1+x_2=-\\\\frac{8km}{4k^2+3}$ and $x_1x_2=\\\\frac{4m^2-12}{4k^2+3}$;\\n4. Write the equation of the straight line AC as $y=\\\\frac{y_1}{x_1+2}(x+2)$, solve the simultaneous equations of OE to get $x_M=\\\\frac{4(kx_1+m)}{mx_1+4k}$, and similarly get $x_N=\\\\frac{4(kx_2+m)}{mx_2+4k}$;\\n5. Calculate $x_M+x_N$, expand the numerator and simplify by substituting Vieta's formulas: $2kmx_1x_2+(4k^2+m^2)(x_1+x_2)+8km=0$, so $x_M+x_N=0$;\\n6. From $x_M+x_N=0$, it can be known that points M and N are symmetric about the origin O, so $|OM|=|ON|$.",
+            "standardAnswer": "See the analysis for proof",
+            "scoringCriteria": "Total 10 points, 2 points for setting the equation of the straight line l and finding the coordinates of point E and the equation of the straight line OE, 2 points for simultaneously solving the equations of the ellipse and the straight line l and eliminating the variable to sort out, 2 points for correctly writing the sum and product of the two roots from Vieta's formulas, 2 points for finding the expressions of $x_M$ and $x_N$, 2 points for simplifying to prove $x_M+x_N=0$ and drawing the conclusion that $|OM|=|ON|$.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=x+\\\\ln (ax)+\\\\frac{1}{a} x e^{x}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当$a=1$时，求曲线$y=f(x)$在点$(1, f(1))$处切线的斜率；",
+            "solutionSteps": "1. 当$a=1$时，代入函数得$f(x)=x+\\\\ln x+xe^x$；\\n2. 对$f(x)$求导，根据基本求导公式和乘积法则得$f'(x)=1+\\\\frac{1}{x}+(1+x)e^x$；\\n3. 将$x=1$代入导函数，计算得$f'(1)=1+1+(1+1)e=2e+2$，该值即为曲线在点$(1,f(1))$处切线的斜率。",
+            "standardAnswer": "$2e+2$",
+            "scoringCriteria": "总分4分，代入$a=1$写出$f(x)$的表达式得1分，正确求出$f(x)$的导函数得2分，代入$x=1$计算出导数值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）当$a=-1$时，讨论$f(x)$的单调性；",
+            "solutionSteps": "1. 当$a=-1$时，代入函数得$f(x)=x+\\\\ln (-x)-xe^x$，其定义域为$(-\\\\infty,0)$；\\n2. 对$f(x)$求导并因式分解：$f'(x)=1+\\\\frac{1}{x}-(1+x)e^x=(1+x)(\\\\frac{1}{x}-e^x)$；\\n3. 分析定义域内导数的符号：在$(-\\\\infty,0)$内，$\\\\frac{1}{x}-e^x<0$恒成立，故当$x\\\\in(-\\\\infty,-1)$时，$1+x<0$，$f'(x)>0$；当$x\\\\in(-1,0)$时，$1+x>0$，$f'(x)<0$；\\n4. 根据导数符号得出单调性：$f(x)$在$(-\\\\infty,-1)$上单调递增，在$(-1,0)$上单调递减。",
+            "standardAnswer": "$f(x)$的单调递增区间为$(-\\\\infty,-1)$，单调递减区间为$(-1,0)$",
+            "scoringCriteria": "总分5分，代入$a=-1$写出$f(x)$的表达式并注明定义域得1分，正确求导并对导函数因式分解得2分，分析导数的符号分布得1分，得出$f(x)$的单调区间得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若集合${x | f(x) \\\\geqslant-1}$有且只有一个元素，求a的值。",
+            "solutionSteps": "1. 对$f(x)$求导并因式分解得$f'(x)=(1+x)(\\\\frac{1}{x}+\\\\frac{e^x}{a})$；\\n2. 分情况讨论函数单调性：①当$a>0$时，定义域为$(0,+\\\\infty)$，$f'(x)>0$恒成立，$f(x)$单调递增，集合${x | f(x) \\\\geqslant-1}$有无穷多个元素，不合题意；②当$a<0$时，定义域为$(-\\\\infty,0)$，$x\\\\in(-\\\\infty,-1)$时$f'(x)>0$，$x\\\\in(-1,0)$时$f'(x)<0$，故$f(x)_{max}=f(-1)=-1+\\\\ln (-a)-\\\\frac{1}{ae}$；\\n3. 构造函数$g(x)=-1+\\\\ln (-x)-\\\\frac{1}{ex}$，求导得$g'(x)=\\\\frac{ex+1}{ex^2}$，分析得$g(x)$在$(-\\\\infty,-\\\\frac{1}{e})$上单调递减，在$(-\\\\frac{1}{e},0)$上单调递增，$g(x)_{min}=g(-\\\\frac{1}{e})=-1$；\\n4. 结合集合条件：${x | f(x) \\\\geqslant-1}$仅有一个元素，即$f(x)_{max}=-1$，故$g(-a)=-1$，解得$a=-\\\\frac{1}{e}$。",
+            "standardAnswer": "$a=-\\\\frac{1}{e}$",
+            "scoringCriteria": "总分6分，正确求导并对导函数因式分解得1分，分$a>0$和$a<0$讨论$f(x)$的单调性并判断$a>0$不合题意得2分，求出$a<0$时$f(x)$的最大值表达式得1分，构造函数$g(x)$并求出其最小值得1分，结合条件解出$a$的值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=x+\\\\ln (ax)+\\\\frac{1}{a} x e^{x}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $a=1$, find the slope of the tangent line of the curve $y=f(x)$ at the point $(1, f(1))$;",
+            "solutionSteps": "1. When $a=1$, substitute into the function to get $f(x)=x+\\\\ln x+xe^x$;\\n2. Find the derivative of $f(x)$, get $f'(x)=1+\\\\frac{1}{x}+(1+x)e^x$ according to the basic derivative formulas and the product rule;\\n3. Substitute $x=1$ into the derivative function, calculate to get $f'(1)=1+1+(1+1)e=2e+2$, which is the slope of the tangent line of the curve at the point $(1,f(1))$.",
+            "standardAnswer": "$2e+2$",
+            "scoringCriteria": "Total 4 points, 1 point for writing the expression of $f(x)$ by substituting $a=1$, 2 points for correctly finding the derivative of $f(x)$, 1 point for calculating the derivative value by substituting $x=1$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) When $a=-1$, discuss the monotonicity of $f(x)$;",
+            "solutionSteps": "1. When $a=-1$, substitute into the function to get $f(x)=x+\\\\ln (-x)-xe^x$, whose domain is $(-\\\\infty,0)$;\\n2. Find the derivative of $f(x)$ and factorize it: $f'(x)=1+\\\\frac{1}{x}-(1+x)e^x=(1+x)(\\\\frac{1}{x}-e^x)$;\\n3. Analyze the sign of the derivative in the domain: In $(-\\\\infty,0)$, $\\\\frac{1}{x}-e^x<0$ holds for all x, so when $x\\\\in(-\\\\infty,-1)$, $1+x<0$ and $f'(x)>0$; when $x\\\\in(-1,0)$, $1+x>0$ and $f'(x)<0$;\\n4. Draw the conclusion of monotonicity according to the sign of the derivative: $f(x)$ is monotonically increasing on $(-\\\\infty,-1)$ and monotonically decreasing on $(-1,0)$. ",
+            "standardAnswer": "The monotone increasing interval of $f(x)$ is $(-\\\\infty,-1)$, and the monotone decreasing interval is $(-1,0)$",
+            "scoringCriteria": "Total 5 points, 1 point for writing the expression of $f(x)$ by substituting $a=-1$ and indicating the domain, 2 points for correctly finding the derivative and factorizing the derivative function, 1 point for analyzing the sign distribution of the derivative, 1 point for obtaining the monotonic intervals of $f(x)$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If the set ${x | f(x) \\\\geqslant-1}$ has exactly one element, find the value of a.",
+            "solutionSteps": "1. Find the derivative of $f(x)$ and factorize it to get $f'(x)=(1+x)(\\\\frac{1}{x}+\\\\frac{e^x}{a})$;\\n2. Discuss the monotonicity of the function by cases: ① When $a>0$, the domain is $(0,+\\\\infty)$, $f'(x)>0$ holds for all x, $f(x)$ is monotonically increasing, and the set ${x | f(x) \\\\geqslant-1}$ has infinitely many elements, which does not meet the requirements; ② When $a<0$, the domain is $(-\\\\infty,0)$, $f'(x)>0$ when $x\\\\in(-\\\\infty,-1)$, and $f'(x)<0$ when $x\\\\in(-1,0)$, so $f(x)_{max}=f(-1)=-1+\\\\ln (-a)-\\\\frac{1}{ae}$;\\n3. Construct the function $g(x)=-1+\\\\ln (-x)-\\\\frac{1}{ex}$, find the derivative to get $g'(x)=\\\\frac{ex+1}{ex^2}$, analyze to get that $g(x)$ is monotonically decreasing on $(-\\\\infty,-\\\\frac{1}{e})$ and monotonically increasing on $(-\\\\frac{1}{e},0)$, and $g(x)_{min}=g(-\\\\frac{1}{e})=-1$;\\n4. Combine with the set condition: the set ${x | f(x) \\\\geqslant-1}$ has exactly one element, that is, $f(x)_{max}=-1$, so $g(-a)=-1$, and solve to get $a=-\\\\frac{1}{e}$.",
+            "standardAnswer": "$a=-\\\\frac{1}{e}$",
+            "scoringCriteria": "Total 6 points, 1 point for correctly finding the derivative and factorizing the derivative function, 2 points for discussing the monotonicity of $f(x)$ when $a>0$ and $a<0$ and judging that $a>0$ does not meet the requirements, 1 point for finding the maximum value expression of $f(x)$ when $a<0$, 1 point for constructing the function $g(x)$ and finding its minimum value, 1 point for solving the value of $a$ combined with the conditions.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "对正整数$m \\\\geqslant3$，$n \\\\geqslant6$，设数列$A: a_{1}, a_{2}, \\\\cdots, a_{n}$，$a_{i} \\\\in{0,1}(i=1,2, \\\\cdots, n)$，B是m行n列的数阵，$b_{i j}$表示B中第i行第j列的数，$b_{i j} \\\\in{0,1}(i=1,2, \\\\cdots, m ; j=1,2, \\\\cdots, n)$，且B同时满足下列三个条件：①每行恰有三个1；②每列至少有一个1；③任意两行不相同。记集合${i | a_{1} b_{i 1}+a_{2} b_{i 2}+\\\\cdots+a_{n} b_{i n}=0或3, i=1,2, \\\\cdots, m}$中元素的个数为K。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$A: 1,1,1,0,0,0$，$B=\\\\begin{pmatrix}1 & 1 & 1 & 0 & 0 & 0 \\\\ 1 & 0 & 1 & 1 & 0 & 0 \\\\ 0 & 0 & 0 & 1 & 1 & 1\\\\end{pmatrix}$，求K的值；",
+            "solutionSteps": "1. 记$t_i=a_{1} b_{i 1}+a_{2} b_{i 2}+\\\\cdots+a_{6} b_{i 6}$，分别计算各行列的乘积和：\\n2. $t_1=1×1+1×1+1×1+0×0+0×0+0×0=3$，$t_2=1×1+1×0+1×1+0×1+0×0+0×0=2$，$t_3=1×0+1×0+1×0+0×1+0×1+0×1=0$；\\n3. 根据K的定义，找出满足$t_i=0$或3的i值为1、3，集合中元素个数为2，故K=2。",
+            "standardAnswer": "$K=2$",
+            "scoringCriteria": "总分4分，正确定义$t_i$得1分，准确计算出$t_1$、$t_2$、$t_3$的值得1分，根据K的定义找出符合条件的i值得1分，得出K的值得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）（ⅰ）若对任意$p, q \\\\in{1,2, \\\\cdots, n}(p<q)$，B中都恰有r行满足第p列和第q列的数均为1，判断B能否满足$m=3 r$，说明理由；",
+            "solutionSteps": "1. 假设B满足$m=3r$，分析满足$b_{ip}=b_{iq}=1$的$(i,p,q)$的个数：①B中每行恰有三个1，每行可确定$C_3^2=3$组$(p,q)$，故总个数为$3m$；②任意两列恰有r行满足$b_{ip}=b_{iq}=1$，总列数为n，组合数为$C_n^2$，故总个数为$rC_n^2$；\\n2. 由两种计算方式得等式$3m=rC_n^2$；\\n3. 将$m=3r$代入等式，约去r（r≠0）得$C_n^2=9$，即$\\\\frac{n(n-1)}{2}=9$，整理得$n^2-n-18=0$；\\n4. 该一元二次方程无正整数解，故假设不成立，B不能满足$m=3r$。",
+            "standardAnswer": "B不能满足$m=3r$，理由见解析",
+            "scoringCriteria": "总分5分，作出假设并分析出满足$b_{ip}=b_{iq}=1$的$(i,p,q)$个数的两种计算方式得2分，列出等式$3m=rC_n^2$并代入$m=3r$得1分，推出$C_n^2=9$且判断方程无正整数解得1分，作出B不能满足$m=3r$的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅱ）（ⅱ）证明：$K \\\\geqslant\\\\frac{1}{24}(n^{2}-4 n)$；",
+            "solutionSteps": "1. 由（ⅰ）得$3m=rC_n^2$，即$m=\\\\frac{rC_n^2}{3}$；\\n2. 分析满足$b_{ip}=b_{iq}=1$但$a_p \\\\neq a_q$的$(i,p,q)$的个数：①对$t_i \\\\neq0$和3的$m-K$行，每行恰有2组$(p,q)$满足条件，总个数为$2(m-K)$；②设A中有x个1，$n-x$个0，满足$a_p \\\\neq a_q$的$(p,q)$有$x(n-x)$组，总个数为$rx(n-x)$；\\n3. 由等式$rx(n-x)=2(\\\\frac{rC_n^2}{3}-K)$，整理得$K=\\\\frac{r}{6}(3x^2-3nx+n^2-n)$；\\n4. 由二次函数性质，$3x^2-3nx=3(x-\\\\frac{n}{2})^2-\\\\frac{3n^2}{4} \\\\geqslant-\\\\frac{3n^2}{4}$，代入得$K \\\\geqslant\\\\frac{r}{6}(\\\\frac{n^2}{4}-n)$；\\n5. 因r为正整数，$r \\\\geqslant1$，故$K \\\\geqslant\\\\frac{1}{6}(\\\\frac{n^2}{4}-n)=\\\\frac{1}{24}(n^2-4n)$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "总分6分，由（ⅰ）推出$m=\\\\frac{rC_n^2}{3}$得1分，分析出满足条件的$(i,p,q)$个数的两种表达形式并列出等式得2分，整理出K的表达式得1分，利用二次函数性质求K的下界得1分，结合r≥1得出$K \\\\geqslant\\\\frac{1}{24}(n^2-4n)$的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "For positive integers $m \\\\geqslant3$ and $n \\\\geqslant6$, let the sequence $A: a_{1}, a_{2}, \\\\cdots, a_{n}$ with $a_{i} \\\\in{0,1}(i=1,2, \\\\cdots, n)$, and B be an m×n matrix where $b_{ij}$ denotes the number in the i-th row and j-th column of B with $b_{ij} \\\\in{0,1}(i=1,2, \\\\cdots, m ; j=1,2, \\\\cdots, n)$. Matrix B satisfies the following three conditions simultaneously: ① Each row has exactly three 1s; ② Each column has at least one 1; ③ Any two rows are different. Let K be the number of elements in the set ${i | a_{1} b_{i 1}+a_{2} b_{i 2}+\\\\cdots+a_{n} b_{i n}=0 or 3, i=1,2, \\\\cdots, m}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If $A: 1,1,1,0,0,0$ and $B=\\\\begin{pmatrix}1 & 1 & 1 & 0 & 0 & 0 \\\\ 1 & 0 & 1 & 1 & 0 & 0 \\\\ 0 & 0 & 0 & 1 & 1 & 1\\\\end{pmatrix}$, find the value of K;",
+            "solutionSteps": "1. Let $t_i=a_{1} b_{i 1}+a_{2} b_{i 2}+\\\\cdots+a_{6} b_{i 6}$, calculate the sum of products of each row and column respectively: \\n2. $t_1=1×1+1×1+1×1+0×0+0×0+0×0=3$, $t_2=1×1+1×0+1×1+0×1+0×0+0×0=2$, $t_3=1×0+1×0+1×0+0×1+0×1+0×1=0$;\\n3. According to the definition of K, find the values of i satisfying $t_i=0$ or 3 are 1 and 3, the number of elements in the set is 2, so K=2.",
+            "standardAnswer": "$K=2$",
+            "scoringCriteria": "Total 4 points, 1 point for correctly defining $t_i$, 1 point for accurately calculating the values of $t_1$, $t_2$ and $t_3$, 1 point for finding the values of i that meet the conditions according to the definition of K, 1 point for obtaining the value of K.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ)(i) If for any $p, q \\\\in{1,2, \\\\cdots, n}(p<q)$, there are exactly r rows in B such that the numbers in the p-th column and q-th column are both 1, judge whether B can satisfy $m=3 r$ and explain the reason;",
+            "solutionSteps": "1. Assume that B satisfies $m=3r$, analyze the number of $(i,p,q)$ satisfying $b_{ip}=b_{iq}=1$: ① Each row in B has exactly three 1s, each row can determine $C_3^2=3$ groups of $(p,q)$, so the total number is $3m$; ② For any two columns, there are exactly r rows satisfying $b_{ip}=b_{iq}=1$, the total number of columns is n, the combination number is $C_n^2$, so the total number is $rC_n^2$;\\n2. Obtain the equation $3m=rC_n^2$ from the two calculation methods;\\n3. Substitute $m=3r$ into the equation, cancel r (r≠0) to get $C_n^2=9$, that is $\\\\frac{n(n-1)}{2}=9$, and sort out to get $n^2-n-18=0$;\\n4. This quadratic equation with one variable has no positive integer solutions, so the assumption is not valid, and B cannot satisfy $m=3r$.",
+            "standardAnswer": "B cannot satisfy $m=3r$, see the analysis for reasons",
+            "scoringCriteria": "Total 5 points, 2 points for making the assumption and analyzing the two calculation methods of the number of $(i,p,q)$ satisfying $b_{ip}=b_{iq}=1$, 1 point for listing the equation $3m=rC_n^2$ and substituting $m=3r$, 1 point for deducing $C_n^2=9$ and judging that the equation has no positive integer solutions, 1 point for drawing the conclusion that B cannot satisfy $m=3r$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅱ)(ii) Prove that $K \\\\geqslant\\\\frac{1}{24}(n^{2}-4 n)$;",
+            "solutionSteps": "1. From (i), we get $3m=rC_n^2$, that is $m=\\\\frac{rC_n^2}{3}$;\\n2. Analyze the number of $(i,p,q)$ satisfying $b_{ip}=b_{iq}=1$ but $a_p \\\\neq a_q$: ① For the $m-K$ rows where $t_i \\\\neq0$ and 3, each row has exactly 2 groups of $(p,q)$ satisfying the condition, and the total number is $2(m-K)$; ② Let there be x 1s and $n-x$ 0s in sequence A, there are $x(n-x)$ groups of $(p,q)$ satisfying $a_p \\\\neq a_q$, and the total number is $rx(n-x)$;\\n3. From the equation $rx(n-x)=2(\\\\frac{rC_n^2}{3}-K)$, sort out to get $K=\\\\frac{r}{6}(3x^2-3nx+n^2-n)$;\\n4. From the properties of quadratic functions, $3x^2-3nx=3(x-\\\\frac{n}{2})^2-\\\\frac{3n^2}{4} \\\\geqslant-\\\\frac{3n^2}{4}$, substitute to get $K \\\\geqslant\\\\frac{r}{6}(\\\\frac{n^2}{4}-n)$;\\n5. Since r is a positive integer and $r \\\\geqslant1$, so $K \\\\geqslant\\\\frac{1}{6}(\\\\frac{n^2}{4}-n)=\\\\frac{1}{24}(n^2-4n)$, which is proved.",
+            "standardAnswer": "See the analysis for proof",
+            "scoringCriteria": "Total 6 points, 1 point for deducing $m=\\\\frac{rC_n^2}{3}$ from (i), 2 points for analyzing the two expression forms of the number of $(i,p,q)$ satisfying the conditions and listing the equation, 1 point for sorting out the expression of K, 1 point for finding the lower bound of K by using the properties of quadratic functions, 1 point for drawing the conclusion that $K \\\\geqslant\\\\frac{1}{24}(n^2-4n)$ combined with r≥1.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

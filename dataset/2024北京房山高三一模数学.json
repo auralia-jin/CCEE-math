@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2024 Beijing Fangshan Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "《中华人民共和国体育法》规定，国家实行运动员技术等级制度，下表是我国现行《田径运动员技术等级标准》(单位:m)(部分摘抄)：男子跳远国际级运动健将8.00、运动健将7.80、一级运动员7.30、二级运动员6.50、三级运动员5.60；女子跳远国际级运动健将6.65、运动健将6.35、一级运动员5.85、二级运动员5.20、三级运动员4.50。在某市组织的考级比赛中，甲、乙、丙三名同学参加了跳远考级比赛，其中甲、乙为男生，丙为女生，为预测考级能达到国家二级及二级以上运动员的人数，收集了甲、乙、丙以往的比赛成绩，并整理得到如下数据(单位:m)：甲:6.60,6.67,6.55,6.44,6.48,6.42,6.40,6.35,6.75,6.25；乙:6.38,6.56,6.45,6.36,6.82,7.38；丙:5.16,5.65,5.18,5.86。假设用频率估计概率，且甲、乙、丙的比赛成绩相互独立。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）估计甲在此次跳远考级比赛中成绩达到二级及二级以上运动员的概率；",
+                        "solutionSteps": "1. 设事件A为“甲在此次跳远考级比赛中成绩达到二级及二级以上运动员”；2. 统计甲10次比赛中成绩达到二级及二级以上（≥6.50m）的次数，共4次；3. 用频率估计概率，计算P(A)=达到二级及以上的次数/总次数=4/10=2/5。",
+                        "standardAnswer": "$\\\\frac{2}{5}$",
+                        "scoringCriteria": "第一问，正确设定事件得1分；准确统计甲达到二级及以上的次数得1分；正确运用频率估计概率的公式得1分；计算结果正确得1分，共4分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设X是甲、乙、丙在此次跳远考级比赛中成绩达到二级及二级以上运动员的总人数，估计X的数学期望EX；",
+                        "solutionSteps": "1. 设事件B为“乙达到二级及以上”，事件C为“丙达到二级及以上”；2. 计算P(B)=3/6=1/2，P(C)=2/4=1/2；3. 确定X的可能取值为0,1,2,3，分别计算P(X=0)=3/20，P(X=1)=2/5，P(X=2)=7/20，P(X=3)=1/10；4. 根据数学期望公式EX=0×P(X=0)+1×P(X=1)+2×P(X=2)+3×P(X=3)，代入计算得EX=7/5。",
+                        "standardAnswer": "$\\\\frac{7}{5}$",
+                        "scoringCriteria": "第二问，正确计算乙、丙达到二级及以上的概率各得1分；准确列出X的所有可能取值得1分；正确计算出各取值的概率共得3分；正确运用数学期望公式计算得2分，共8分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "（Ⅲ）在跳远考级比赛中，每位参加者按规则试跳6次，取6次试跳中的最好成绩作为其最终成绩。本次考级比赛中，甲已完成6次试跳，丙已完成5次试跳，成绩(单位:m)如下表：甲：6.50,6.48,6.47,6.51,6.46,6.49；丙：5.84,5.82,5.85,5.83,5.86，a。若丙第6次试跳的成绩为a，用$s_{1}^{2}$，$s_{2}^{2}$分别表示甲、丙试跳6次成绩的方差，当$s_{1}^{2}=s_{2}^{2}$时，写出a的值。(结论不要求证明)",
+                        "standardAnswer": "5.81或5.87",
+                        "solutionSteps": "根据方差的定义和计算规则，结合甲的6次成绩计算出方差$s_{1}^{2}$，再令丙的6次成绩方差$s_{2}^{2}$等于该值，直接得出满足条件的a的取值。",
+                        "scoringCriteria": "第三问，直接写出正确的两个a值得2分，写出一个正确值得1分，错误得0分，共2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "The Sports Law of the People's Republic of China stipulates that the state implements the athlete technical grade system. The following table is an excerpt of the current National Technical Grade Standards for Track and Field Athletes (unit: m): For men's long jump, international master athlete: 8.00, master athlete: 7.80, first-class athlete: 7.30, second-class athlete: 6.50, third-class athlete: 5.60; For women's long jump, international master athlete: 6.65, master athlete: 6.35, first-class athlete: 5.85, second-class athlete: 5.20, third-class athlete: 4.50. In a grade examination competition organized by a certain city, three students A, B and C participated in the long jump grade examination, among whom A and B are boys and C is a girl. To predict the number of athletes who can reach the national second-class and above level in the examination, the previous competition results of A, B and C were collected and sorted out as follows (unit: m): A: 6.60, 6.67, 6.55, 6.44, 6.48, 6.42, 6.40, 6.35, 6.75, 6.25; B: 6.38, 6.56, 6.45, 6.36, 6.82, 7.38; C: 5.16, 5.65, 5.18, 5.86. Assume that the probability is estimated by frequency, and the competition results of A, B and C are independent of each other.",
+                "subQuestions": [
+                    {
+                        "question": "(I) Estimate the probability that A's result in this long jump grade examination reaches the level of second-class and above athletes;",
+                        "solutionSteps": "1. Let event A be 'A's result in this long jump grade examination reaches the level of second-class and above athletes'; 2. Count the number of times A's result reaches second-class and above (≥6.50m) in 10 competitions, which is 4 times in total; 3. Estimate the probability by frequency, calculate P(A)=Number of times reaching second-class and above/Total number of times=4/10=2/5.",
+                        "standardAnswer": "$\\\\frac{2}{5}$",
+                        "scoringCriteria": "For the first sub-question, 1 point for correctly defining the event; 1 point for accurately counting the number of times A reaches second-class and above; 1 point for correctly applying the formula of estimating probability by frequency; 1 point for the correct calculation result, total 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) Let X be the total number of athletes among A, B and C whose results in this long jump grade examination reach the level of second-class and above, estimate the mathematical expectation EX of X;",
+                        "solutionSteps": "1. Let event B be 'B reaches second-class and above' and event C be 'C reaches second-class and above'; 2. Calculate P(B)=3/6=1/2, P(C)=2/4=1/2; 3. Determine the possible values of X are 0,1,2,3, calculate P(X=0)=3/20, P(X=1)=2/5, P(X=2)=7/20, P(X=3)=1/10 respectively; 4. According to the mathematical expectation formula EX=0×P(X=0)+1×P(X=1)+2×P(X=2)+3×P(X=3), substitute the values to calculate EX=7/5.",
+                        "standardAnswer": "$\\\\frac{7}{5}$",
+                        "scoringCriteria": "For the second sub-question, 1 point for each correct calculation of the probability that B and C reach second-class and above; 1 point for accurately listing all possible values of X; 3 points for correctly calculating the probabilities of each value; 2 points for correctly calculating with the mathematical expectation formula, total 8 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "(III) In the long jump grade examination, each participant takes 6 trial jumps according to the rules, and the best result among the 6 trial jumps is taken as the final result. In this grade examination, A has completed 6 trial jumps and C has completed 5 trial jumps, the results (unit: m) are shown in the following table: A: 6.50, 6.48, 6.47, 6.51, 6.46, 6.49; C: 5.84, 5.82, 5.85, 5.83, 5.86, a. If the result of C's 6th trial jump is a, let $s_{1}^{2}$ and $s_{2}^{2}$ be the variances of A's and C's 6 trial jump results respectively, write the value of a when $s_{1}^{2}=s_{2}^{2}$. (Proof is not required for the conclusion)",
+                        "solutionSteps": "Calculate the variance $s_{1}^{2}$ according to the definition and calculation rules of variance combined with A's 6 results, then make the variance $s_{2}^{2}$ of C's 6 results equal to this value, and directly obtain the value of a that satisfies the condition.",
+                        "standardAnswer": "5.81 or 5.87",
+                        "scoringCriteria": "For the third sub-question, 2 points for directly writing the two correct values of a, 1 point for writing one correct value, 0 points for wrong answers, total 2 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆 $E: \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的离心率为 $\frac{1}{2}$，左焦点为 $F_{1}(-1,0)$，过 $F_{1}$ 的直线交椭圆E于A，B两点，点M为弦AB的中点，O是坐标原点，且M不与O，$F_{1}$ 重合。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆E的方程；",
+                        "solutionSteps": "1. 由椭圆左焦点$F_{1}(-1,0)$得$c=1$；2. 结合离心率$e=c/a=1/2$，解得$a=2$；3. 根据椭圆中$a^2=b^2+c^2$，计算得$b^2=4-1=3$；4. 代入椭圆标准方程得$\frac{x^2}{4}+\frac{y^2}{3}=1$。",
+                        "standardAnswer": "$\\\\frac{x^{2}}{4}+\\\\frac{y^{2}}{3}=1$",
+                        "scoringCriteria": "第一问，由焦点坐标正确得出c=1得1分；根据离心率公式正确解得a=2得1分；熟练运用椭圆中a、b、c的关系得1分；写出正确的椭圆方程得2分，共5分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若P是OM延长线上一点，且OP的长度为2，求四边形OAPB面积的取值范围。",
+                        "solutionSteps": "解法1：1. 设直线AB的方程为$y=k(x+1)(k≠0)$，联立椭圆方程得$(4k^2+3)x^2+8k^2x+4k^2-12=0$；2. 计算判别式$Δ=144(k^2+1)>0$，由韦达定理得$x_1+x_2=-8k^2/(4k^2+3)$，$x_1x_2=(4k^2-12)/(4k^2+3)$；3. 求AB中点M的坐标为$(-4k^2/(4k^2+3), 3k/(4k^2+3))$，得直线OP的斜率为$-3/(4k)$，方程为$3x+4ky=0$；4. 求点A、B到直线OP的距离$d_1$、$d_2$，推导得$d_1+d_2=12\\sqrt{k^2+1}/\\sqrt{9+16k^2}$；5. 由四边形面积公式$S=1/2|OP|·(d_1+d_2)$得$S=12\\sqrt{k^2+1}/\\sqrt{9+16k^2}$；6. 令$t=\\sqrt{k^2+1}(t>1)$，化简得$S=12\\sqrt{(t^2)/(16t^2-7)}$，分析得面积取值范围为(3,4)。解法2：1. 设直线AB的方程为$x=my-1(m≠0)$，联立椭圆方程得$(3m^2+4)y^2-6my-9=0$；2. 计算判别式$Δ=144(m^2+1)>0$，由韦达定理得$y_1+y_2=6m/(3m^2+4)$，$y_1y_2=-9/(3m^2+4)$；3. 求AB中点M的坐标为$(-4/(3m^2+4), 3m/(3m^2+4))$，得直线OP的斜率为$-3m/4$，方程为$3mx+4y=0$；4. 求点A、B到直线OP的距离$d_1$、$d_2$，推导得$d_1+d_2=12\\sqrt{m^2+1}/\\sqrt{9m^2+16}$；5. 由四边形面积公式$S=1/2|OP|·(d_1+d_2)$得$S=12\\sqrt{m^2+1}/\\sqrt{9m^2+16}$；6. 令$t=\\sqrt{m^2+1}(t>1)$，化简分析得面积取值范围为(3,4)。",
+                        "standardAnswer": "$(3,4)$",
+                        "scoringCriteria": "第二问，正确设出直线方程得2分；联立椭圆方程并正确消元得2分；熟练运用韦达定理求出根与系数的关系得2分；正确求出中点M坐标及直线OP方程得2分；推导得出点到直线的距离和的表达式得2分；正确推导面积公式并分析出取值范围得3分，共10分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the eccentricity of the ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $\\frac{1}{2}$, the left focus is $F_{1}(-1,0)$, a straight line passing through $F_{1}$ intersects the ellipse E at points A and B, point M is the midpoint of chord AB, O is the origin of coordinates, and M does not coincide with O and $F_{1}$. ",
+                "subQuestions": [
+                    {
+                        "question": "(I) Find the equation of the ellipse E;",
+                        "solutionSteps": "1. Obtain c=1 from the coordinate of the left focus $F_{1}(-1,0)$ of the ellipse; 2. Solve a=2 combined with the eccentricity $e=c/a=1/2$; 3. Calculate $b^2=4-1=3$ according to the relationship $a^2=b^2+c^2$ in the ellipse; 4. Substitute into the standard equation of the ellipse to get $\\frac{x^2}{4}+\\frac{y^2}{3}=1$.",
+                        "standardAnswer": "$\\\\frac{x^{2}}{4}+\\\\frac{y^{2}}{3}=1$",
+                        "scoringCriteria": "For the first sub-question, 1 point for correctly obtaining c=1 from the focus coordinates; 1 point for correctly solving a=2 according to the eccentricity formula; 1 point for proficiently using the relationship among a, b and c in the ellipse; 2 points for writing the correct ellipse equation, total 5 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) If P is a point on the extension of OM and the length of OP is 2, find the value range of the area of quadrilateral OAPB.",
+                        "solutionSteps": "Method 1: 1. Let the equation of straight line AB be $y=k(x+1)(k≠0)$,联立 the ellipse equation to get $(4k^2+3)x^2+8k^2x+4k^2-12=0$; 2. Calculate the discriminant $Δ=144(k^2+1)>0$, obtain $x_1+x_2=-8k^2/(4k^2+3)$, $x_1x_2=(4k^2-12)/(4k^2+3)$ by Vieta's formulas; 3. Find the coordinates of the midpoint M of AB as $(-4k^2/(4k^2+3), 3k/(4k^2+3))$, get the slope of straight line OP as $-3/(4k)$ and the equation as $3x+4ky=0$; 4. Find the distances $d_1$, $d_2$ from points A, B to the straight line OP, deduce $d_1+d_2=12\\sqrt{k^2+1}/\\sqrt{9+16k^2}$; 5. Obtain $S=12\\sqrt{k^2+1}/\\sqrt{9+16k^2}$ from the quadrilateral area formula $S=1/2|OP|·(d_1+d_2)$; 6. Let $t=\\sqrt{k^2+1}(t>1)$, simplify to get $S=12\\sqrt{(t^2)/(16t^2-7)}$, analyze to get the area value range as (3,4). Method 2: 1. Let the equation of straight line AB be $x=my-1(m≠0)$,联立 the ellipse equation to get $(3m^2+4)y^2-6my-9=0$; 2. Calculate the discriminant $Δ=144(m^2+1)>0$, obtain $y_1+y_2=6m/(3m^2+4)$, $y_1y_2=-9/(3m^2+4)$ by Vieta's formulas; 3. Find the coordinates of the midpoint M of AB as $(-4/(3m^2+4), 3m/(3m^2+4))$, get the slope of straight line OP as $-3m/4$ and the equation as $3mx+4y=0$; 4. Find the distances $d_1$, $d_2$ from points A, B to the straight line OP, deduce $d_1+d_2=12\\sqrt{m^2+1}/\\sqrt{9m^2+16}$; 5. Obtain $S=12\\sqrt{m^2+1}/\\sqrt{9m^2+16}$ from the quadrilateral area formula $S=1/2|OP|·(d_1+d_2)$; 6. Let $t=\\sqrt{m^2+1}(t>1)$, simplify and analyze to get the area value range as (3,4).",
+                        "standardAnswer": "$(3,4)$",
+                        "scoringCriteria": "For the second sub-question, 2 points for correctly setting the straight line equation; 2 points for联立 the ellipse equation and correctly eliminating variables; 2 points for proficiently using Vieta's formulas to find the relationship between roots and coefficients; 2 points for correctly finding the coordinates of midpoint M and the equation of straight line OP; 2 points for deducing the expression of the sum of distances from points to the straight line; 3 points for correctly deducing the area formula and analyzing the value range, total 10 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数 $f(x)=e^{a x}+\\frac{1}{x}$",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当 $a=0$ 时，求曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程；",
+                        "solutionSteps": "1. 当a=0时，$f(x)=1+1/x$，计算$f(1)=2$；2. 求导得$f'(x)=-1/x^2$，计算$f'(1)=-1$；3. 根据点斜式切线方程$y-f(x_0)=f'(x_0)(x-x_0)$，代入得$y-2=-1×(x-1)$；4. 整理得切线方程为$y=-x+3$。",
+                        "standardAnswer": "$y=-x+3$",
+                        "scoringCriteria": "第一问，正确求出a=0时的函数解析式得1分；准确计算f(1)的值得1分；正确求导并计算f'(1)得1分；运用点斜式写出并整理出切线方程得1分，共4分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设 $g(x)=f'(x)·x^{2}$，求函数 $g(x)$ 的极大值；",
+                        "solutionSteps": "1. 求$f'(x)=a e^{ax}-1/x^2$，则$g(x)=a x^2 e^{ax}-1$，定义域为$(-∞,0)∪(0,+∞)$；2. 求导得$g'(x)=a·e^{ax}·(a x^2+2x)$；3. 分类讨论：当a=0时，g(x)=-1，无极大值；当a<0时，令g'(x)=0得x=0或x=-2/a，分析单调性得无极大值；当a>0时，令g'(x)=0得x=-2/a或x=0，分析单调性得x=-2/a时取极大值；4. 代入x=-2/a计算得$g(-2/a)=4/(a e^2)-1$。",
+                        "standardAnswer": "当$a>0$时，极大值为$\\\\frac{4}{a e^{2}}-1$；当$a≤0$时，无极大值",
+                        "scoringCriteria": "第二问，正确求f'(x)并化简得到g(x)的解析式得2分；正确求导得到g'(x)得1分；对a=0、a<0分类讨论并得出无极大值的结论各得1分；对a>0分析单调性找到极大值点得2分；正确计算出极大值得1分，共7分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）若 $a<-e$，求函数 $f(x)$ 的零点个数。",
+                        "solutionSteps": "1. 当x>0时，$e^{ax}>0$，$1/x>0$，故$f(x)=e^{ax}+1/x>0$，无零点；2. 当x<0时，求导分析$f(x)$的单调性，得$f(x)$在$(-∞,0)$上单调递减；3. 计算特殊点函数值：$f(-1)=e^{-a}-1>0$（因a<-e，-a>e>1），$f(1/a)=e+a<0$（因a<-e）；4. 根据零点存在定理及单调性，得f(x)在$(-∞,0)$上有且仅有一个零点；5. 综上，函数f(x)的零点个数为1。",
+                        "standardAnswer": "1",
+                        "scoringCriteria": "第三问，正确分析x>0时无零点得2分；正确分析x<0时函数的单调性得2分；准确计算特殊点的函数值并判断符号得2分；根据零点存在定理得出零点个数得1分，共4分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the function $f(x)=e^{a x}+\\frac{1}{x}$",
+                "subQuestions": [
+                    {
+                        "question": "(I) When $a=0$, find the tangent equation of the curve $y=f(x)$ at the point $(1, f(1))$;",
+                        "solutionSteps": "1. When a=0, $f(x)=1+1/x$, calculate $f(1)=2$; 2. Find the derivative $f'(x)=-1/x^2$, calculate $f'(1)=-1$; 3. Substitute into the point-slope form of the tangent equation $y-f(x_0)=f'(x_0)(x-x_0)$ to get $y-2=-1×(x-1)$; 4. Rearrange to get the tangent equation $y=-x+3$.",
+                        "standardAnswer": "$y=-x+3$",
+                        "scoringCriteria": "For the first sub-question, 1 point for correctly finding the function expression when a=0; 1 point for accurately calculating the value of f(1); 1 point for correctly finding the derivative and calculating f'(1); 1 point for writing and rearranging the tangent equation using the point-slope form, total 4 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) Let $g(x)=f'(x)·x^{2}$, find the maximum value of the function $g(x)$;",
+                        "solutionSteps": "1. Find $f'(x)=a e^{ax}-1/x^2$, then $g(x)=a x^2 e^{ax}-1$, the domain is $(-∞,0)∪(0,+∞)$; 2. Find the derivative $g'(x)=a·e^{ax}·(a x^2+2x)$; 3. Classified discussion: When a=0, g(x)=-1, no maximum value; When a<0, let g'(x)=0 to get x=0 or x=-2/a, analyze the monotonicity to get no maximum value; When a>0, let g'(x)=0 to get x=-2/a or x=0, analyze the monotonicity to get the maximum value at x=-2/a; 4. Substitute x=-2/a to calculate $g(-2/a)=4/(a e^2)-1$.",
+                        "standardAnswer": "When $a>0$, the maximum value is $\\\\frac{4}{a e^{2}}-1$; When $a≤0$, there is no maximum value",
+                        "scoringCriteria": "For the second sub-question, 2 points for correctly finding f'(x) and simplifying to get the expression of g(x); 1 point for correctly finding the derivative g'(x); 1 point each for classifying and discussing a=0, a<0 and drawing the conclusion of no maximum value; 2 points for analyzing the monotonicity and finding the maximum point when a>0; 1 point for correctly calculating the maximum value, total 7 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(III) If $a<-e$, find the number of zero points of the function $f(x)$.",
+                        "solutionSteps": "1. When x>0, $e^{ax}>0$, $1/x>0$, so $f(x)=e^{ax}+1/x>0$, no zero points; 2. When x<0, analyze the monotonicity of $f(x)$ by finding the derivative, get that $f(x)$ is monotonically decreasing on $(-∞,0)$; 3. Calculate the function values at special points: $f(-1)=e^{-a}-1>0$ (because a<-e, -a>e>1), $f(1/a)=e+a<0$ (because a<-e); 4. According to the zero point existence theorem and monotonicity, get that f(x) has exactly one zero point on $(-∞,0)$; 5. In summary, the number of zero points of the function f(x) is 1.",
+                        "standardAnswer": "1",
+                        "scoringCriteria": "For the third sub-question, 2 points for correctly analyzing that there are no zero points when x>0; 2 points for correctly analyzing the monotonicity of the function when x<0; 2 points for accurately calculating the function values at special points and judging the signs; 1 point for drawing the number of zero points according to the zero point existence theorem, total 4 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知无穷数列 $\\{a_{n}\\}$ 是首项为1，各项均为正整数的递增数列，集合 $A=\\{k \\in N^{*} | a_{n}<k<a_{n+1}, n \\in N^{*}\\}$。若对于集合 A 中的元素 k，数列 $\\{a_{n}\\}$ 中存在不相同的项$a_{i_{1}}, a_{i_{2}}, \\cdots, a_{i_{t}}$，使$a_{i_{1}}+a_{i_{2}}+\\cdots+a_{i_{t}}=k$，则称数列$\\{a_{n}\\}$具有性质$N(k)$，集合$B=\\{k |$数列$\\{a_{n}\\}$具有性质$N(k)\\}$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）数列 $\\{a_{n}\\}$ 的通项公式为 $a_{n}= \\begin{cases}2 n-1, n ≤4 \\\\ n+6, n>4 \\end{cases}$，写出集合A与集合B；",
+                        "solutionSteps": "1. 计算数列前几项：a₁=1，a₂=3，a₃=5，a₄=7，a₅=11，a₆=12，……；2. 根据集合A的定义，找出满足aₙ<k<aₙ₊₁的正整数k，得A={2,4,6,8,9,10}；3. 验证集合A中每个k是否满足性质N(k)，2无法用数列不同项相加得到，4=1+3，6=1+5，8=1+7，9=3+6（错误），9=1+3+5，10=3+7，故B={4,6,8,9,10}。",
+                        "standardAnswer": "$A=\\\\{2,4,6,8,9,10\\\\}$，$B=\\\\{4,6,8,9,10\\\\}$",
+                        "scoringCriteria": "第一问，正确计算出数列的前几项得1分；根据定义准确写出集合A得2分；正确验证并写出集合B得1分，共4分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若集合 A 与集合 B 都是非空集合，且集合 A 中的最小元素为 t，集合 B 中的最小元素为 S，当 $t ≥3$ 时，证明: $t=s$；",
+                        "solutionSteps": "1. 由数列首项为1且是正整数递增数列，A的最小元素为t≥3，得aₙ=n（n≤t-1），即前t-1项为连续正整数1,2,…,t-1；2. 因为t≥3，存在不同项a₁=1和aₜ₋₁=t-1，满足a₁+aₜ₋₁=1+(t-1)=t，故t∈B；3. 因为s是B的最小元素，所以s≤t；4. 假设s<t，由s∈B则s∈A，与t是A的最小元素矛盾，故s≥t；5. 综上，t=s。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问，正确推导数列前t-1项为连续正整数得2分；证明t∈B得1分；得出s≤t的结论得1分；通过反证法证明s≥t得1分，共5分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）若 $\\{a_{n}\\}$ 满足 $2 a_{n} ≥a_{n+1}$，$n \\in N^{*}$，证明: $A=B$。",
+                        "solutionSteps": "1. 先证$B\\subseteq A$：由集合A、B的定义，B中的元素必属于A，故该包含关系成立；2. 再用数学归纳法证明$A\\subseteq B$，即对任意n∈A，有n∈B：①当n≤3时，验证n=1,2∈M（数列项集），n=3若∈A则3=1+2∈B，命题成立；②假设当n≤k（k≥3，k∈N*）时命题成立；③当n=k+1时，若k+1∈M，无需证明；若k+1∈A，则存在aₘ<aₘ₊₁，使aₘ<k+1<aₘ₊₁，由2aₘ≥aₘ₊₁得k+1-aₘ<aₘ≤k；由归纳假设，k+1-aₘ∈A或M，若k+1-aₘ∈A则其可表示为数列不同项和，故k+1可表示为该和加aₘ；若k+1-aₘ∈M则其为数列某一项，故k+1可表示为该项加aₘ，均得k+1∈B；3. 由数学归纳法得A⊆B，结合B⊆A，故A=B。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，证明B⊆A得2分；正确写出数学归纳法的第一步验证过程得2分；完整写出归纳假设和递推证明过程得4分；最后得出A=B的结论得2分，共6分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the infinite sequence $\\{a_{n}\\}$ is an increasing sequence with the first term 1 and all terms being positive integers, and the set $A=\\{k \\in N^{*} | a_{n}<k<a_{n+1}, n \\in N^{*}\\}$. If for an element k in set A, there exist distinct terms $a_{i_{1}}, a_{i_{2}}, \\cdots, a_{i_{t}}$ in the sequence $\\{a_{n}\\}$ such that $a_{i_{1}}+a_{i_{2}}+\\cdots+a_{i_{t}}=k$, then the sequence $\\{a_{n}\\}$ is said to have the property $N(k)$, and the set $B=\\{k |$ the sequence $\\{a_{n}\\}$ has the property $N(k)\\}$.",
+                "subQuestions": [
+                    {
+                        "question": "(I) The general term formula of the sequence $\\{a_{n}\\}$ is $a_{n}= \\begin{cases}2 n-1, n ≤4 \\\\ n+6, n>4 \\end{cases}$, write the set A and set B;",
+                        "solutionSteps": "1. Calculate the first several terms of the sequence: a₁=1, a₂=3, a₃=5, a₄=7, a₅=11, a₆=12, …; 2. According to the definition of set A, find the positive integers k that satisfy aₙ<k<aₙ₊₁, get A={2,4,6,8,9,10}; 3. Verify whether each k in set A satisfies the property N(k), 2 cannot be expressed as the sum of distinct terms of the sequence, 4=1+3, 6=1+5, 8=1+7, 9=1+3+5, 10=3+7, so B={4,6,8,9,10}.",
+                        "standardAnswer": "$A=\\\\{2,4,6,8,9,10\\\\}$, $B=\\\\{4,6,8,9,10\\\\}$",
+                        "scoringCriteria": "For the first sub-question, 1 point for correctly calculating the first several terms of the sequence; 2 points for accurately writing set A according to the definition; 1 point for correctly verifying and writing set B, total 4 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(II) If both set A and set B are non-empty sets, the minimum element of set A is t, and the minimum element of set B is s, prove that $t=s$ when $t ≥3$;",
+                        "solutionSteps": "1. Since the first term of the sequence is 1 and it is an increasing sequence of positive integers, and the minimum element of A is t≥3, we get aₙ=n (n≤t-1), that is, the first t-1 terms are consecutive positive integers 1,2,…,t-1; 2. Because t≥3, there exist distinct terms a₁=1 and aₜ₋₁=t-1, satisfying a₁+aₜ₋₁=1+(t-1)=t, so t∈B; 3. Since s is the minimum element of B, then s≤t; 4. Assume s<t, since s∈B then s∈A, which contradicts that t is the minimum element of A, so s≥t; 5. In summary, t=s.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the second sub-question, 2 points for correctly deducing that the first t-1 terms of the sequence are consecutive positive integers; 1 point for proving t∈B; 1 point for drawing the conclusion s≤t; 1 point for proving s≥t by contradiction, total 5 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(III) If $\\{a_{n}\\}$ satisfies $2 a_{n} ≥a_{n+1}$ for $n \\in N^{*}$, prove that $A=B$.",
+                        "solutionSteps": "1. First prove $B\\subseteq A$: According to the definitions of set A and set B, the elements in B must belong to A, so this inclusion relationship holds; 2. Then prove $A\\subseteq B$ by mathematical induction, that is, for any n∈A, n∈B: ① When n≤3, verify that n=1,2∈M (the set of sequence terms), if n=3∈A then 3=1+2∈B, the proposition holds; ② Assume the proposition holds when n≤k (k≥3, k∈N*); ③ When n=k+1, if k+1∈M, no proof is needed; if k+1∈A, then there exist aₘ<aₘ₊₁ such that aₘ<k+1<aₘ₊₁, from 2aₘ≥aₘ₊₁ we get k+1-aₘ<aₘ≤k; From the induction hypothesis, k+1-aₘ∈A or M, if k+1-aₘ∈A it can be expressed as the sum of distinct terms of the sequence, so k+1 can be expressed as the sum plus aₘ; if k+1-aₘ∈M it is a certain term of the sequence, so k+1 can be expressed as this term plus aₘ, both lead to k+1∈B; 3. From mathematical induction, A⊆B, combined with B⊆A, so A=B.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the third sub-question, 2 points for proving B⊆A; 2 points for correctly writing the verification process of the first step of mathematical induction; 4 points for completely writing the induction hypothesis and the recursive proof process; 2 points for finally drawing the conclusion A=B, total 6 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

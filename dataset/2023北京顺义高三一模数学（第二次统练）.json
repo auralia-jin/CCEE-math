@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2023 Beijing Shunyi Senior Three First Mock Mathematics (Second Unified Practice)",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "精彩纷呈的春节档电影丰富了人们的节日文化生活，春节小长假期间大批观众走进电影院。某电影院统计了2023年正月初一放映的四部影片的上座率，整理得到如下数据：\n| 影片 | 排片场次 | 上座率( % ) |\n| --- | --- | --- |\n| A | 12 | 36 42 45 50 57 62 68 73 80 85 88 94 |\n| B | 10 | 35 40 46 52 65 65 78 84 90 95 |\n| C | 9 | 35 38 47 55 60 65 73 82 85 |\n| D | 9 | 34 37 46 54 60 64 72 81 84 |",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从以上所有排片场次中随机选取1场，求该场的上座率大于70%的概率；",
+                        "solutionSteps": "1. 统计上座率大于70%的场次：影片A有5场，影片B有4场，影片C有3场，影片D有3场，总计5+4+3+3=15场；\n2. 统计所有排片总场次：12+10+9+9=40场；\n3. 根据古典概型概率公式，概率P=符合条件的场次/总场次，代入数据得P=15/40=3/8。",
+                        "standardAnswer": "$\\frac{3}{8}$",
+                        "scoringCriteria": "第一问，正确统计出上座率大于70%的总场次得2分；正确计算出所有排片的总场次得1分；正确代入古典概型概率公式并计算出最终结果得2分，共5分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）假设每场影片的上座率相互独立。从影片A，B，C的以上排片场次中各随机抽取1场，求这3场中至少有2场上座率大于70%的概率；",
+                        "solutionSteps": "1. 分别计算单场抽中上座率大于70%的概率：P(A)=5/12，P(B)=4/10=2/5，P(C)=3/9=1/3；\n2. 分析“至少2场大于70%”包含的情况：AB大于C不大于、AC大于B不大于、BC大于A不大于、ABC都大于；\n3. 根据相互独立事件概率乘法公式和互斥事件概率加法公式，计算各情况概率并求和：\nP = P(A)P(B)(1-P(C)) + P(A)(1-P(B))P(C) + (1-P(A))P(B)P(C) + P(A)P(B)P(C)；\n4. 代入数值计算：5/12×2/5×2/3 + 5/12×3/5×1/3 + 7/12×2/5×1/3 + 5/12×2/5×1/3 = 59/180。",
+                        "standardAnswer": "$\\frac{59}{180}$",
+                        "scoringCriteria": "第二问，正确计算出影片A、B、C单场上座率大于70%的概率各得1分，共3分；正确分析出“至少2场大于70%”的所有情况得2分；正确运用独立事件乘法公式和互斥事件加法公式列出计算式得2分；代入数据准确计算出最终结果得2分，共9分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）将影片C和影片D在该电影院正月初一的上座率的方差分别记为$s_{1}^{2}$和$s_{2}^{2}$，试比较$s_{1}^{2}$和$s_{2}^{2}$的大小。(结论不要求证明)",
+                        "solutionSteps": "1. 分别计算影片C和影片D上座率的平均值，$\\overline{X_{1}}=60$，$\\overline{X_{2}}=59$；\n2. 根据方差公式分别计算$s_{1}^{2}$和$s_{2}^{2}$的数值，$s_{1}^{2}=289.5$，$s_{2}^{2}=289.7$；\n3. 比较数值大小得出结论。",
+                        "standardAnswer": "$s_{1}^{2}<s_{2}^{2}$",
+                        "scoringCriteria": "第三问，直接写出正确的大小比较结论得4分，共4分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "The wonderful Spring Festival movies have enriched people's festival cultural life, and a large number of audiences walked into the cinemas during the Spring Festival holiday. A cinema counted the attendance rates of four films screened on the first day of the first lunar month in 2023, and sorted out the following data:\n| Film | Number of Screenings | Attendance Rate ( % ) |\n| --- | --- | --- |\n| A | 12 | 36 42 45 50 57 62 68 73 80 85 88 94 |\n| B | 10 | 35 40 46 52 65 65 78 84 90 95 |\n| C | 9 | 35 38 47 55 60 65 73 82 85 |\n| D | 9 | 34 37 46 54 60 64 72 81 84 |",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one screening from all the above screenings, find the probability that the attendance rate of this screening is greater than 70%;",
+                        "solutionSteps": "1. Count the number of screenings with attendance rate greater than 70%: There are 5 screenings for Film A, 4 for Film B, 3 for Film C and 3 for Film D, with a total of 5+4+3+3=15 screenings;\n2. Count the total number of all screenings: 12+10+9+9=40 screenings;\n3. According to the probability formula of classical probability model, probability P = number of qualified screenings / total number of screenings, substitute the data to get P=15/40=3/8.",
+                        "standardAnswer": "$\\frac{3}{8}$",
+                        "scoringCriteria": "For the first subquestion, 2 points for correctly counting the total number of screenings with attendance rate greater than 70%; 1 point for correctly calculating the total number of all screenings; 2 points for correctly substituting the classical probability model formula and calculating the final result, total 5 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Assume that the attendance rate of each screening is independent of each other. Randomly select one screening from the above screenings of Film A, B and C respectively, find the probability that at least 2 of these 3 screenings have an attendance rate greater than 70%;",
+                        "solutionSteps": "1. Calculate the probability of selecting a screening with attendance rate greater than 70% for a single film respectively: P(A)=5/12, P(B)=4/10=2/5, P(C)=3/9=1/3;\n2. Analyze the situations included in \"at least 2 screenings with attendance rate greater than 70%\": A and B are greater, C is not; A and C are greater, B is not; B and C are greater, A is not; A, B and C are all greater;\n3. According to the multiplication formula of independent event probability and the addition formula of mutually exclusive event probability, calculate the probability of each situation and sum them up:\nP = P(A)P(B)(1-P(C)) + P(A)(1-P(B))P(C) + (1-P(A))P(B)P(C) + P(A)P(B)P(C);\n4. Substitute the values for calculation: 5/12×2/5×2/3 + 5/12×3/5×1/3 + 7/12×2/5×1/3 + 5/12×2/5×1/3 = 59/180.",
+                        "standardAnswer": "$\\frac{59}{180}$",
+                        "scoringCriteria": "For the second subquestion, 1 point for correctly calculating the probability that the single screening attendance rate of Film A, B and C is greater than 70% respectively, 3 points in total; 2 points for correctly analyzing all situations of \"at least 2 screenings with attendance rate greater than 70%\"; 2 points for correctly listing the calculation formula by using the multiplication formula of independent event probability and the addition formula of mutually exclusive event probability; 2 points for accurately calculating the final result by substituting data, total 9 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Denote the variances of the attendance rates of Film C and Film D in the cinema on the first day of the first lunar month as $s_{1}^{2}$ and $s_{2}^{2}$ respectively, compare the sizes of $s_{1}^{2}$ and $s_{2}^{2}$. (No proof is required for the conclusion)",
+                        "solutionSteps": "1. Calculate the average attendance rates of Film C and Film D respectively, $\\overline{X_{1}}=60$, $\\overline{X_{2}}=59$;\n2. Calculate the values of $s_{1}^{2}$ and $s_{2}^{2}$ respectively according to the variance formula, $s_{1}^{2}=289.5$, $s_{2}^{2}=289.7$;\n3. Compare the values to draw a conclusion.",
+                        "standardAnswer": "$s_{1}^{2}<s_{2}^{2}$",
+                        "scoringCriteria": "For the third subquestion, 4 points for directly writing the correct conclusion of size comparison, total 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数 $f(x)=x^{2}+cos x$",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求曲线 $y=f(x)$ 在点 $(0, f(0))$ 处的切线方程；",
+                        "solutionSteps": "1. 求函数$f(x)$的导数：$f'(x)=2x-sin x$；\n2. 计算切点处的导数值（切线斜率）：$f'(0)=2×0-sin0=0$；\n3. 计算切点的纵坐标：$f(0)=0^{2}+cos0=1$，即切点为$(0,1)$；\n4. 根据点斜式写出切线方程：$y-1=0×(x-0)$，化简得$y=1$。",
+                        "standardAnswer": "$y=1$",
+                        "scoringCriteria": "第一问，正确求出函数的导数得2分；正确计算出切点处的导数值和函数值各得1分，共2分；正确运用点斜式写出并化简切线方程得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）求函数 $f(x)$ 在 $[-2 \\pi, 2 \\pi]$ 上的最大值和最小值；",
+                        "solutionSteps": "1. 令$g(x)=f'(x)=2x-sin x$，求$g(x)$的导数：$g'(x)=2-cos x$；\n2. 分析$g'(x)$的符号：$cos x \\in [-1,1]$，故$g'(x)=2-cos x>0$恒成立，$g(x)$在$[-2\\pi,2\\pi]$上单调递增；\n3. 分析$f(x)$的单调性：$g(0)=0$，当$x\\in[-2\\pi,0)$时，$g(x)<0$，$f(x)$单调递减；当$x\\in(0,2\\pi]$时，$g(x)>0$，$f(x)$单调递增；\n4. 求最值：$f(x)$在$x=0$处取得最小值$f(0)=1$；计算端点值$f(2\\pi)=(2\\pi)^2+cos2\\pi=4\\pi^2+1$，$f(-2\\pi)=(-2\\pi)^2+cos(-2\\pi)=4\\pi^2+1$，故最大值为$4\\pi^2+1$。",
+                        "standardAnswer": "最小值为$1$，最大值为$4\\pi^2+1$",
+                        "scoringCriteria": "第二问，正确构造$g(x)=f'(x)$并求出$g'(x)$得2分；正确分析出$g'(x)>0$恒成立及$g(x)$的单调性得2分；根据$g(x)$的符号正确分析出$f(x)$的单调区间得3分；正确求出$f(x)$的最小值和最大值各得2分，共4分，总11分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）设 $g(x)=f'(x)$，证明：对任意的 $s>t$，有 $g(s)-g(t)<3 s-3 t$；",
+                        "solutionSteps": "1. 由题得$g(x)=2x-sin x$，将不等式变形为$g(s)-3s < g(t)-3t$；\n2. 构造函数$h(x)=g(x)-3x=2x-sin x-3x=-x-sin x$；\n3. 求$h(x)$的导数：$h'(x)=-1-cos x$；\n4. 分析$h'(x)$的符号：$cos x \\in [-1,1]$，故$h'(x)=-1-cos x \\leq 0$恒成立，$h(x)$在$R$上单调递减；\n5. 结合单调性证明：因为$s>t$，所以$h(s)<h(t)$，即$g(s)-3s < g(t)-3t$，整理得$g(s)-g(t)<3s-3t$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，正确将原不等式变形并构造函数$h(x)$得2分；正确求出$h(x)$的导数得1分；正确分析出$h'(x)\\leq0$及$h(x)$的单调性得2分；结合单调性完成不等式的证明得2分，共7分。" ,
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=x^{2}+cos x$",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the tangent equation of the curve $y=f(x)$ at the point $(0, f(0))$;",
+                        "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=2x-sin x$;\n2. Calculate the derivative value (tangent slope) at the tangent point: $f'(0)=2×0-sin0=0$;\n3. Calculate the ordinate of the tangent point: $f(0)=0^{2}+cos0=1$, that is, the tangent point is $(0,1)$;\n4. Write the tangent equation according to the point-slope form: $y-1=0×(x-0)$, simplify to get $y=1$.",
+                        "standardAnswer": "$y=1$",
+                        "scoringCriteria": "For the first subquestion, 2 points for correctly finding the derivative of the function; 1 point each for correctly calculating the derivative value and the function value at the tangent point, 2 points in total; 1 point for correctly writing and simplifying the tangent equation by using the point-slope form, total 5 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Find the maximum and minimum values of the function $f(x)$ on $[-2 \\pi, 2 \\pi]$;",
+                        "solutionSteps": "1. Let $g(x)=f'(x)=2x-sin x$, find the derivative of $g(x)$: $g'(x)=2-cos x$;\n2. Analyze the sign of $g'(x)$: $cos x \\in [-1,1]$, so $g'(x)=2-cos x>0$ holds for all $x$, and $g(x)$ is monotonically increasing on $[-2\\pi,2\\pi]$;\n3. Analyze the monotonicity of $f(x)$: $g(0)=0$, when $x\\in[-2\\pi,0)$, $g(x)<0$, $f(x)$ is monotonically decreasing; when $x\\in(0,2\\pi]$, $g(x)>0$, $f(x)$ is monotonically increasing;\n4. Find the maximum and minimum values: $f(x)$ attains the minimum value $f(0)=1$ at $x=0$; calculate the endpoint values $f(2\\pi)=(2\\pi)^2+cos2\\pi=4\\pi^2+1$, $f(-2\\pi)=(-2\\pi)^2+cos(-2\\pi)=4\\pi^2+1$, so the maximum value is $4\\pi^2+1$.",
+                        "standardAnswer": "The minimum value is $1$, the maximum value is $4\\pi^2+1$",
+                        "scoringCriteria": "For the second subquestion, 2 points for correctly constructing $g(x)=f'(x)$ and finding $g'(x)$; 2 points for correctly analyzing that $g'(x)>0$ holds for all $x$ and the monotonicity of $g(x)$; 3 points for correctly analyzing the monotonic intervals of $f(x)$ according to the sign of $g(x)$; 2 points each for correctly finding the minimum and maximum values of $f(x)$, 4 points in total, total 11 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Let $g(x)=f'(x)$, prove that for any $s>t$, $g(s)-g(t)<3 s-3 t$;",
+                        "solutionSteps": "1. It is known from the question that $g(x)=2x-sin x$, transform the inequality into $g(s)-3s < g(t)-3t$;\n2. Construct the function $h(x)=g(x)-3x=2x-sin x-3x=-x-sin x$;\n3. Find the derivative of $h(x)$: $h'(x)=-1-cos x$;\n4. Analyze the sign of $h'(x)$: $cos x \\in [-1,1]$, so $h'(x)=-1-cos x \\leq 0$ holds for all $x$, and $h(x)$ is monotonically decreasing on $R$;\n5. Prove combined with monotonicity: Since $s>t$, then $h(s)<h(t)$, that is, $g(s)-3s < g(t)-3t$, rearranged to get $g(s)-g(t)<3s-3t$.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the third subquestion, 2 points for correctly transforming the original inequality and constructing the function $h(x)$; 1 point for correctly finding the derivative of $h(x)$; 2 points for correctly analyzing that $h'(x)\\leq0$ and the monotonicity of $h(x)$; 2 points for completing the proof of the inequality combined with monotonicity, total 7 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ 过点 $A(0,2)$、$B(0,-2)$，且 $a=\\sqrt{2} b$",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆 C 的方程；",
+                        "solutionSteps": "1. 由椭圆过点$A(0,2)$、$B(0,-2)$，得椭圆的短半轴$b=2$；\n2. 结合条件$a=\\sqrt{2}b$，计算得$a=\\sqrt{2}×2=2\\sqrt{2}$；\n3. 将$a$、$b$代入椭圆标准方程，得$\\frac{x^2}{(2\\sqrt{2})^2}+\\frac{y^2}{2^2}=1$，化简为$\\frac{x^2}{8}+\\frac{y^2}{4}=1$。",
+                        "standardAnswer": "$\\frac{x^2}{8}+\\frac{y^2}{4}=1$",
+                        "scoringCriteria": "第一问，正确由椭圆过点得出$b=2$得2分；正确根据$a=\\sqrt{2}b$计算出$a$的值得1分；正确代入并化简得到椭圆方程得2分，共5分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）过点 $D(0,1)$ 斜率为 k 的直线l 交椭圆 C 于 M，N，直线 $MA$，$NB$ 分别交直线 $y=t(-2<t<2)$于点 P，Q。若 $|D P|=|D Q|$，求 t 的值。",
+                        "solutionSteps": "1. 设直线l的方程为$y=kx+1$，设$M(x_1,y_1)$，$N(x_2,y_2)$，联立直线与椭圆方程：$\\begin{cases}y=kx+1\\\\\\frac{x^2}{8}+\\frac{y^2}{4}=1\\end{cases}$，消元得$(1+2k^2)x^2+4kx-6=0$；\n2. 由韦达定理得$x_1+x_2=-\\frac{4k}{2k^2+1}$，$x_1x_2=-\\frac{6}{2k^2+1}$；\n3. 求直线MA、NB的方程并求P、Q横坐标：直线MA：$y=\\frac{y_1-2}{x_1}x+2$，令$y=t$得$x_P=\\frac{(t-2)x_1}{kx_1-1}$；直线NB：$y=\\frac{y_2+2}{x_2}x-2$，令$y=t$得$x_Q=\\frac{(t+2)x_2}{kx_2+3}$；\n4. 由$|DP|=|DQ|$得$x_P+x_Q=0$（$x_P$与$x_Q$异号），代入横坐标表达式并通分整理：$(t-2)x_1(kx_2+3)+(t+2)x_2(kx_1-1)=0$；\n5. 展开并代入韦达定理的结果，化简得$(x_1-\\frac{2k}{2k^2+1})(4t-4)=0$；\n6. 分析得$4t-4=0$，解得$t=1$。",
+                        "standardAnswer": "$t=1$",
+                        "scoringCriteria": "第二问，正确设出直线方程并联立椭圆方程消元得3分；正确运用韦达定理求出$x_1+x_2$和$x_1x_2$得2分；正确求出直线MA、NB的方程及P、Q的横坐标得3分；由$|DP|=|DQ|$正确推出$x_P+x_Q=0$并整理等式得3分；代入韦达定理化简并正确求解t的值得4分，共15分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ passes through the points $A(0,2)$ and $B(0,-2)$, and $a=\\sqrt{2} b$",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of the ellipse C;",
+                        "solutionSteps": "1. Since the ellipse passes through the points $A(0,2)$ and $B(0,-2)$, the minor semi-axis $b=2$ of the ellipse is obtained;\n2. Combined with the condition $a=\\sqrt{2}b$, calculate to get $a=\\sqrt{2}×2=2\\sqrt{2}$;\n3. Substitute $a$ and $b$ into the standard equation of the ellipse to get $\\frac{x^2}{(2\\sqrt{2})^2}+\\frac{y^2}{2^2}=1$, simplify to $\\frac{x^2}{8}+\\frac{y^2}{4}=1$.",
+                        "standardAnswer": "$\\frac{x^2}{8}+\\frac{y^2}{4}=1$",
+                        "scoringCriteria": "For the first subquestion, 2 points for correctly obtaining $b=2$ from the ellipse passing through the points; 1 point for correctly calculating the value of $a$ according to $a=\\sqrt{2}b$; 2 points for correctly substituting and simplifying to get the ellipse equation, total 5 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) A straight line l with slope k passing through the point $D(0,1)$ intersects the ellipse C at M and N. The straight lines $MA$ and $NB$ intersect the straight line $y=t(-2<t<2)$ at points P and Q respectively. If $|D P|=|D Q|$, find the value of t.",
+                        "solutionSteps": "1. Let the equation of the straight line l be $y=kx+1$, let $M(x_1,y_1)$, $N(x_2,y_2)$,联立 the equations of the straight line and the ellipse: $\\begin{cases}y=kx+1\\\\\\frac{x^2}{8}+\\frac{y^2}{4}=1\\end{cases}$, eliminate y to get $(1+2k^2)x^2+4kx-6=0$;\n2. From Vieta's formulas, we get $x_1+x_2=-\\frac{4k}{2k^2+1}$, $x_1x_2=-\\frac{6}{2k^2+1}$;\n3. Find the equations of straight lines MA and NB and the abscissas of P and Q: The straight line MA: $y=\\frac{y_1-2}{x_1}x+2$, let $y=t$ to get $x_P=\\frac{(t-2)x_1}{kx_1-1}$; The straight line NB: $y=\\frac{y_2+2}{x_2}x-2$, let $y=t$ to get $x_Q=\\frac{(t+2)x_2}{kx_2+3}$;\n4. From $|DP|=|DQ|$, we get $x_P+x_Q=0$ ($x_P$ and $x_Q$ have opposite signs), substitute the abscissa expressions and reduce the fraction to sort out: $(t-2)x_1(kx_2+3)+(t+2)x_2(kx_1-1)=0$;\n5. Expand and substitute the results of Vieta's formulas, simplify to get $(x_1-\\frac{2k}{2k^2+1})(4t-4)=0$;\n6. Analyze to get $4t-4=0$, solve to get $t=1$.",
+                        "standardAnswer": "$t=1$",
+                        "scoringCriteria": "For the second subquestion, 3 points for correctly setting the straight line equation and eliminating the variable by联立 the ellipse equation; 2 points for correctly finding $x_1+x_2$ and $x_1x_2$ by using Vieta's formulas; 3 points for correctly finding the equations of straight lines MA and NB and the abscissas of P and Q; 3 points for correctly deducing $x_P+x_Q=0$ from $|DP|=|DQ|$ and sorting out the equation; 4 points for substituting Vieta's formulas to simplify and correctly solving the value of t, total 15 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知实数集 $A={a_{1}, a_{2}, \\cdots, a_{n}} (n ≥3)$，定义 $\\varphi(A)={a_{i} a_{j} | a_{i}, a_{j} \\in A, i≠j}$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若 $A={-2,0,1,2}$，求 $\\varphi(A)$；",
+                        "solutionSteps": "1. 根据定义$\\varphi(A)$是集合A中两个不同元素的乘积构成的集合；\n2. 依次计算所有不同两元素的乘积：$-2×0=0$，$-2×1=-2$，$-2×2=-4$，$0×1=0$，$0×2=0$，$1×2=2$；\n3. 去重后得到$\\varphi(A)={-4,-2,0,2}$。",
+                        "standardAnswer": "$\\{-4,-2,0,2\\}$",
+                        "scoringCriteria": "第一问，正确理解新定义并列出所有两不同元素的乘积得2分；正确去重得到最终集合得2分，共4分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若 $\\varphi(A)={0,-6,-8,-12,12,18,24}$，求集合 A；",
+                        "solutionSteps": "1. 由$0\\in\\varphi(A)$，得$0\\in A$，设$A={0,a,b,c,d}$，非零元素的乘积为$\\{-6,-8,-12,12,18,24\\}$，非零元素符号为一负三正或一正三负；\n2. 不妨设$a<0<b<c<d$，则$\\{ab,ac,ad\\}={-6,-8,-12}$，$\\{bc,bd,cd\\}={12,18,24}$；\n3. 计算得$bcd=\\sqrt[3]{12×18×24}=72$，$a^3bcd=(-6)×(-8)×(-12)=-576$，故$a^3=-8$，解得$a=-2$；\n4. 由$a=-2$，得$\\{b,c,d\\}={3,4,6}$，即$A={0,-2,3,4,6}$；\n5. 同理，若一正三负，可得$A={0,2,-3,-4,-6}$。",
+                        "standardAnswer": "$A=\\{0,-2,3,4,6\\}$或$A=\\{0,2,-3,-4,-6\\}$",
+                        "scoringCriteria": "第二问，正确推出$0\\in A$并分析非零元素的符号情况得2分；正确设出集合并划分非零元素乘积的集合得2分；正确计算出负元素的值得2分；正确求出正元素集合并得到两种情况的集合A得2分，共8分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅲ）若 A 中的元素个数为9，求 $\\varphi(A)$ 的元素个数的最小值。",
+                        "solutionSteps": "1. 先证明$|\\varphi(A)|≥13$：将A中元素变相反数，$\\varphi(A)$不变，不妨设A中正数个数≥负数个数，分两种情况；\n2. 情况一：A中无负数，$0 ≤a_1<a_2<\\cdots<a_9$，可得$\\varphi(A)$中至少有14个元素；\n3. 情况二：A中至少有一个负数，设$s$个负数，$t$个非负数，$s+t=9$，$s≤4$，$t≥5$，可得$\\varphi(A)$中至少有8个非正数和5个正数，共13个元素；\n4. 构造实例验证：取$A={0,±1,±2,±2^2,±2^3}$，计算得$\\varphi(A)$恰有13个元素；\n5. 综上，$\\varphi(A)$元素个数的最小值为13。",
+                        "standardAnswer": "$13$",
+                        "scoringCriteria": "第三问，正确提出证明$|\\varphi(A)|≥13$的思路并分情况讨论得2分；正确分析两种情况得出$|\\varphi(A)|≥13$的结论得2分；正确构造满足条件的集合A并验证$\\varphi(A)$有13个元素得2分；最终得出最小值结论得1分，共7分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the real number set $A={a_{1}, a_{2}, \\cdots, a_{n}} (n ≥3)$, define $\\varphi(A)={a_{i} a_{j} | a_{i}, a_{j} \\in A, i≠j}$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $A={-2,0,1,2}$, find $\\varphi(A)$;",
+                        "solutionSteps": "1. According to the definition, $\\varphi(A)$ is the set composed of the products of two different elements in set A;\n2. Calculate the products of all different two elements in turn: $-2×0=0$, $-2×1=-2$, $-2×2=-4$, $0×1=0$, $0×2=0$, $1×2=2$;\n3. Get $\\varphi(A)={-4,-2,0,2}$ after removing duplicates.",
+                        "standardAnswer": "$\\{-4,-2,0,2\\}$",
+                        "scoringCriteria": "For the first subquestion, 2 points for correctly understanding the new definition and listing the products of all two different elements; 2 points for correctly removing duplicates to get the final set, total 4 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If $\\varphi(A)={0,-6,-8,-12,12,18,24}$, find the set A;",
+                        "solutionSteps": "1. Since $0\\in\\varphi(A)$, we get $0\\in A$, let $A={0,a,b,c,d}$, the products of non-zero elements are $\\{-6,-8,-12,12,18,24\\}$, and the signs of non-zero elements are one negative and three positive or one positive and three negative;\n2. Without loss of generality, let $a<0<b<c<d$, then $\\{ab,ac,ad\\}={-6,-8,-12}$, $\\{bc,bd,cd\\}={12,18,24}$;\n3. Calculate to get $bcd=\\sqrt[3]{12×18×24}=72$, $a^3bcd=(-6)×(-8)×(-12)=-576$, so $a^3=-8$, solve to get $a=-2$;\n4. Since $a=-2$, we get $\\{b,c,d\\}={3,4,6}$, that is, $A={0,-2,3,4,6}$;\n5. Similarly, if it is one positive and three negative, we can get $A={0,2,-3,-4,-6}$.",
+                        "standardAnswer": "$A=\\{0,-2,3,4,6\\}$ or $A=\\{0,2,-3,-4,-6\\}$",
+                        "scoringCriteria": "For the second subquestion, 2 points for correctly deducing $0\\in A$ and analyzing the sign situation of non-zero elements; 2 points for correctly setting the set and dividing the set of products of non-zero elements; 2 points for correctly calculating the value of the negative element; 2 points for correctly finding the positive element set and getting set A in two cases, total 8 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅲ) If the number of elements in A is 9, find the minimum value of the number of elements in $\\varphi(A)$.",
+                        "solutionSteps": "1. First prove $|\\varphi(A)|≥13$: When the elements in A are transformed into their opposite numbers, $\\varphi(A)$ remains unchanged, without loss of generality, assume the number of positive numbers in A is greater than or equal to the number of negative numbers, and divide into two cases;\n2. Case 1: There are no negative numbers in A, $0 ≤a_1<a_2<\\cdots<a_9$, it can be obtained that there are at least 14 elements in $\\varphi(A)$;\n3. Case 2: There is at least one negative number in A, let there be $s$ negative numbers and $t$ non-negative numbers, $s+t=9$, $s≤4$, $t≥5$, it can be obtained that there are at least 8 non-positive numbers and 5 positive numbers in $\\varphi(A)$, a total of 13 elements;\n4. Construct an example to verify: Take $A={0,±1,±2,±2^2,±2^3}$, calculate to get that $\\varphi(A)$ has exactly 13 elements;\n5. In conclusion, the minimum value of the number of elements in $\\varphi(A)$ is 13.",
+                        "standardAnswer": "$13$",
+                        "scoringCriteria": "For the third subquestion, 2 points for correctly putting forward the idea of proving $|\\varphi(A)|≥13$ and discussing by cases; 2 points for correctly analyzing the two cases and drawing the conclusion of $|\\varphi(A)|≥13$; 2 points for correctly constructing the set A that meets the conditions and verifying that $\\varphi(A)$ has 13 elements; 1 point for finally drawing the conclusion of the minimum value, total 7 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2024 Beijing Dongcheng Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "在五面体ABCDEF中，底面ABCD为正方形，AB=4，EF=1。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求证：AB//EF；",
+            "solutionSteps": "因为四边形ABCD是正方形，所以AB//CD。又AB⊄平面CDEF，CD⊂平面CDEF，根据线面平行的判定定理，可得AB//平面CDEF。又平面ABFE∩平面CDEF=EF，AB⊂平面ABFE，根据线面平行的性质定理，可得AB//EF。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问，由正方形性质得出AB//CD得1分；根据线面平行判定定理证明AB//平面CDEF得2分；根据线面平行性质定理推出AB//EF得1分，共4分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）若H为CD的中点，M为BH的中点，EM⊥BH，EM=2√3，再从条件①、条件②这两个条件中选择一个作为已知，求直线CF与平面ADE所成角的正弦值。条件①：ED=EA；条件②：AE=5。",
+            "solutionSteps": "选取条件①：ED=EA\\n1. 取AD的中点N，AB靠近点B的四等分点P，连接MN、MP、NE；N是AD中点，M是BH中点，故MN//AB，MP//AD；\\n2. 由ED=EA，得AD⊥NE，又AD⊥NM，NM∩NE=N，故AD⊥平面NME，因此AD⊥ME；\\n3. 又EM⊥BH，BH与AD为相交线，故ME⊥平面ABCD，且ME⊥NM、ME⊥MP；\\n4. 建立空间直角坐标系M-xyz，得A(3,2,0)、C(-1,-2,0)、D(3,-2,0)、E(0,0,2√3)、F(-1,0,2√3)，求出向量\\overrightarrow{CF}=(0,2,2√3)、\\overrightarrow{DA}=(0,4,0)、\\overrightarrow{DE}=(-3,2,2√3)；\\n5. 设平面ADE的法向量n=(x,y,z)，由n·\\overrightarrow{DA}=0、n·\\overrightarrow{DE}=0得\\begin{cases}4y=0\\\\-3x+2y+2√3 z=0\\end{cases}，令x=2，得y=0，z=√3，即n=(2,0,√3)；\\n6. 设直线CF与平面ADE所成角为α，由线面角公式得sinα=|cos<n,\\overrightarrow{CF}>|=\\frac{|n·\\overrightarrow{CF}|}{|n|·|\\overrightarrow{CF}|}=\\frac{6}{√7·4}=\\frac{3√7}{14}。\\n选取条件②：AE=5\\n1. 在△MAB中，MB=\\frac{1}{2}HB=√5，AB=4，cos∠MBA=\\frac{√5}{5}，由余弦定理得MA=√(MB²+AB²-2·MB·AB·cos∠MBA)=√13；\\n2. 由ME=2√3，AE=5，得AE²=ME²+AM²，故ME⊥AM；又EM⊥BH，BH∩AM=M，故ME⊥平面ABCD；\\n3. 后续建系、求向量、求法向量及计算线面角正弦值的步骤与条件①完全一致，最终得sinα=\\frac{3√7}{14}。",
+            "standardAnswer": "$\\\\frac{3\\\\sqrt{7}}{14}$",
+            "scoringCriteria": "第二问，证明ME⊥平面ABCD得3分；建立空间直角坐标系并正确写出各点坐标得2分；求出\\overrightarrow{CF}和平面ADE的法向量n得3分；利用线面角公式计算出正弦值得2分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In the pentahedron ABCDEF, the base ABCD is a square with AB=4 and EF=1.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Prove that AB//EF;",
+            "solutionSteps": "Since quadrilateral ABCD is a square, AB//CD. And AB is not a subset of plane CDEF, CD is a subset of plane CDEF. According to the determination theorem of a line parallel to a plane, AB is parallel to plane CDEF. The intersection of plane ABFE and plane CDEF is EF, and AB is a subset of plane ABFE. According to the property theorem of a line parallel to a plane, AB//EF.",
+            "standardAnswer": "Proof see analysis",
+            "scoringCriteria": "For the first subquestion, 1 point for deriving AB//CD from the properties of a square; 2 points for proving AB is parallel to plane CDEF by the determination theorem of a line parallel to a plane; 1 point for deducing AB//EF by the property theorem of a line parallel to a plane, total 4 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅱ) If H is the midpoint of CD, M is the midpoint of BH, EM⊥BH, EM=2√3, choose one of Condition ① and Condition ② as the known condition to find the sine value of the angle between line CF and plane ADE. Condition ①: ED=EA; Condition ②: AE=5.",
+            "solutionSteps": "Choose Condition ①: ED=EA\\n1. Take N as the midpoint of AD and P as the quarter point of AB close to B, connect MN, MP, NE; N is the midpoint of AD and M is the midpoint of BH, so MN//AB, MP//AD;\\n2. Since ED=EA, AD⊥NE. And AD⊥NM, NM∩NE=N, so AD⊥plane NME, thus AD⊥ME;\\n3. Moreover, EM⊥BH, BH and AD are intersecting lines, so ME⊥plane ABCD, and ME⊥NM, ME⊥MP;\\n4. Establish the space rectangular coordinate system M-xyz, obtain A(3,2,0), C(-1,-2,0), D(3,-2,0), E(0,0,2√3), F(-1,0,2√3), and find the vectors \\overrightarrow{CF}=(0,2,2√3), \\overrightarrow{DA}=(0,4,0), \\overrightarrow{DE}=(-3,2,2√3);\\n5. Let the normal vector of plane ADE be n=(x,y,z), from n·\\overrightarrow{DA}=0 and n·\\overrightarrow{DE}=0, we get \\begin{cases}4y=0\\\\-3x+2y+2√3 z=0\\end{cases}. Let x=2, then y=0, z=√3, that is n=(2,0,√3);\\n6. Let α be the angle between line CF and plane ADE, from the formula of the angle between a line and a plane, sinα=|cos<n,\\overrightarrow{CF}>|=\\frac{|n·\\overrightarrow{CF}|}{|n|·|\\overrightarrow{CF}|}=\\frac{6}{√7·4}=\\frac{3√7}{14}.\\nChoose Condition ②: AE=5\\n1. In △MAB, MB=\\frac{1}{2}HB=√5, AB=4, cos∠MBA=\\frac{√5}{5}. From the cosine theorem, MA=√(MB²+AB²-2·MB·AB·cos∠MBA)=√13;\\n2. Since ME=2√3, AE=5, we have AE²=ME²+AM², so ME⊥AM. Moreover, EM⊥BH, BH∩AM=M, so ME⊥plane ABCD;\\n3. The subsequent steps of establishing the coordinate system, finding vectors, finding the normal vector and calculating the sine value of the line-plane angle are exactly the same as Condition ①, and finally sinα=\\frac{3√7}{14}.",
+            "standardAnswer": "$\\\\frac{3\\\\sqrt{7}}{14}$",
+            "scoringCriteria": "For the second subquestion, 3 points for proving ME⊥plane ABCD; 2 points for establishing the space rectangular coordinate system and writing the coordinates of each point correctly; 3 points for finding \\overrightarrow{CF} and the normal vector n of plane ADE; 2 points for calculating the sine value by the formula of the angle between a line and a plane, total 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数$f(x)=x\\\\ln(x-1)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求曲线$y=f(x)$在$x=2$处的切线方程；",
+            "solutionSteps": "1. 对$f(x)$求导，得$f'(x)=\\\\ln(x-1)+\\\\frac{x}{x-1}=\\\\ln(x-1)+\\\\frac{1}{x-1}+1(x>1)$；\\n2. 计算切线斜率$k=f'(2)=\\\\ln1+1+1=2$，计算$f(2)=2\\\\ln1=0$，得切点为$(2,0)$；\\n3. 根据点斜式切线方程公式$y-y_0=k(x-x_0)$，代入得$y-0=2(x-2)$，整理为$y=2x-4$。",
+            "standardAnswer": "$y=2x-4$",
+            "scoringCriteria": "第一问，正确求导得出$f'(x)$得2分；计算出切线斜率和切点坐标得2分；写出切线方程并整理得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设$g(x)=f'(x)$，求函数$g(x)$的最小值；",
+            "solutionSteps": "1. 由题意得$g(x)=\\\\ln(x-1)+\\\\frac{1}{x-1}+1(x>1)$，对$g(x)$求导得$g'(x)=\\\\frac{1}{x-1}-\\\\frac{1}{(x-1)^2}=\\\\frac{x-2}{(x-1)^2}$；\\n2. 分析单调性：当$x∈(1,2)$时，$g'(x)<0$，$g(x)$单调递减；当$x∈(2,+∞)$时，$g'(x)>0$，$g(x)$单调递增；\\n3. 故$x=2$时，$g(x)$取得极小值，也是最小值，计算得$g(2)=\\\\ln1+1+1=2$。",
+            "standardAnswer": "$2$",
+            "scoringCriteria": "第二问，正确求导得出$g'(x)$得2分；分析$g'(x)$的符号并判断$g(x)$的单调性得2分；求出$g(x)$的最小值得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）若$\\\\frac{f(x)}{x-a}>2$，求实数$a$的值；",
+            "solutionSteps": "1. 分析$a≠2$的情况：当$a≠2$时，$\\\\frac{f(2)}{2-a}=\\\\frac{0}{2-a}=0<2$，不满足$\\\\frac{f(x)}{x-a}>2$的条件，故$a≠2$不合题意；\\n2. 分析$a=2$的情况：构造函数$φ(x)=f(x)-2(x-2)$，则$φ'(x)=f'(x)-2$；\\n3. 由（Ⅱ）知$g(x)=f'(x)$的最小值为2，故$φ'(x)≥0$，即$φ(x)$在$(1,+∞)$上单调递增；\\n4. 又$φ(2)=0$，当$x∈(1,2)$时，$φ(x)<0$且$x-2<0$，故$\\\\frac{φ(x)}{x-2}>0$，即$\\\\frac{f(x)}{x-2}>2$；当$x∈(2,+∞)$时，$φ(x)>0$且$x-2>0$，故$\\\\frac{φ(x)}{x-2}>0$，即$\\\\frac{f(x)}{x-2}>2$；\\n5. 综上，实数$a$的值为2。",
+            "standardAnswer": "$2$",
+            "scoringCriteria": "第三问，分析$a≠2$时不合题意得1分；构造函数$φ(x)$并求导得1分；利用（Ⅱ）结论判断$φ(x)$的单调性得2分；分区间验证$\\\\frac{f(x)}{x-2}>2$成立得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=x\\\\ln(x-1)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the tangent line to the curve $y=f(x)$ at $x=2$;",
+            "solutionSteps": "1. Find the derivative of $f(x)$, we get $f'(x)=\\\\ln(x-1)+\\\\frac{x}{x-1}=\\\\ln(x-1)+\\\\frac{1}{x-1}+1(x>1)$;\\n2. Calculate the slope of the tangent line $k=f'(2)=\\\\ln1+1+1=2$, calculate $f(2)=2\\\\ln1=0$, and get the tangent point $(2,0)$;\\n3. According to the point-slope form of the tangent line equation $y-y_0=k(x-x_0)$, substitute to get $y-0=2(x-2)$, and sort it out to $y=2x-4$.",
+            "standardAnswer": "$y=2x-4$",
+            "scoringCriteria": "For the first subquestion, 2 points for finding the derivative $f'(x)$ correctly; 2 points for calculating the slope of the tangent line and the coordinates of the tangent point; 1 point for writing and sorting out the tangent line equation, total 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let $g(x)=f'(x)$, find the minimum value of the function $g(x)$;",
+            "solutionSteps": "1. From the problem, $g(x)=\\\\ln(x-1)+\\\\frac{1}{x-1}+1(x>1)$, find the derivative of $g(x)$ to get $g'(x)=\\\\frac{1}{x-1}-\\\\frac{1}{(x-1)^2}=\\\\frac{x-2}{(x-1)^2}$;\\n2. Analyze the monotonicity: when $x∈(1,2)$, $g'(x)<0$, $g(x)$ is monotonically decreasing; when $x∈(2,+∞)$, $g'(x)>0$, $g(x)$ is monotonically increasing;\\n3. Therefore, when $x=2$, $g(x)$ attains the minimum value which is also the minimal extremum, calculate to get $g(2)=\\\\ln1+1+1=2$.",
+            "standardAnswer": "$2$",
+            "scoringCriteria": "For the second subquestion, 2 points for finding the derivative $g'(x)$ correctly; 2 points for analyzing the sign of $g'(x)$ and judging the monotonicity of $g(x)$; 1 point for finding the minimum value of $g(x)$, total 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) If $\\\\frac{f(x)}{x-a}>2$, find the value of the real number $a$;",
+            "solutionSteps": "1. Analyze the case of $a≠2$: when $a≠2$, $\\\\frac{f(2)}{2-a}=\\\\frac{0}{2-a}=0<2$, which does not satisfy the condition $\\\\frac{f(x)}{x-a}>2$, so $a≠2$ is not in line with the meaning of the question;\\n2. Analyze the case of $a=2$: construct the function $φ(x)=f(x)-2(x-2)$, then $φ'(x)=f'(x)-2$;\\n3. From (Ⅱ), we know that the minimum value of $g(x)=f'(x)$ is 2, so $φ'(x)≥0$, that is $φ(x)$ is monotonically increasing on $(1,+∞)$;\\n4. Moreover, $φ(2)=0$. When $x∈(1,2)$, $φ(x)<0$ and $x-2<0$, so $\\\\frac{φ(x)}{x-2}>0$, that is $\\\\frac{f(x)}{x-2}>2$; when $x∈(2,+∞)$, $φ(x)>0$ and $x-2>0$, so $\\\\frac{φ(x)}{x-2}>0$, that is $\\\\frac{f(x)}{x-2}>2$;\\n5. In conclusion, the value of the real number $a$ is 2.",
+            "standardAnswer": "$2$",
+            "scoringCriteria": "For the third subquestion, 1 point for analyzing that $a≠2$ is not in line with the meaning of the question; 1 point for constructing the function $φ(x)$ and finding its derivative; 2 points for judging the monotonicity of $φ(x)$ by using the conclusion of (Ⅱ); 1 point for verifying $\\\\frac{f(x)}{x-2}>2$ holds in different intervals, total 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆$C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的短轴长为$2\\\\sqrt{3}$，离心率$e=\\\\frac{\\\\sqrt{2}}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的方程；",
+            "solutionSteps": "1. 由椭圆短轴长为$2√3$，得$2b=2√3$，解得$b=√3$；\\n2. 由椭圆离心率$e=\\\\frac{c}{a}=\\\\frac{√2}{2}$，得$c=\\\\frac{√2}{2}a$；\\n3. 结合椭圆的基本关系$a^2=b^2+c^2$，代入得$a^2=3+(\\\\frac{√2}{2}a)^2$，化简得$a^2=6$，解得$a=√6$（$a>0$）；\\n4. 将$a=√6$，$b=√3$代入椭圆标准方程，得$\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "第一问，由短轴长得$b=√3$得1分；由离心率得$c$与$a$的关系得1分；结合$a^2=b^2+c^2$解得$a^2=6$得2分；写出椭圆C的标准方程得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设O为坐标原点，直线l是圆$x^2+y^2=1$的一条切线，且直线l与椭圆C交于M，N两点，若平行四边形OMPN的顶点P恰好在椭圆C上，求平行四边形OMPN的面积；",
+            "solutionSteps": "1. 斜率不存在的情况：设直线l：$x=1$，代入椭圆方程得$y=±\\\\frac{√10}{2}$，即M$(1,-\\\\frac{√10}{2})$、N$(1,\\\\frac{√10}{2})$，由平行四边形性质得P$(2,0)$，代入椭圆验证不成立，故此情况不合题意；\\n2. 斜率存在的情况：设直线l：$y=kx+m$，由直线与圆$x^2+y^2=1$相切，得圆心到直线的距离$d=\\\\frac{|m|}{√(k^2+1)}=1$，化简得$m^2=k^2+1$；\\n3. 设M$(x_1,y_1)$、N$(x_2,y_2)$，则P$(x_1+x_2,y_1+y_2)$，联立$\\\\begin{cases}y=kx+m\\\\\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1\\end{cases}$，消去y得$(2k^2+1)x^2+4kmx+2m^2-6=0$；\\n4. 由韦达定理得$x_1+x_2=-\\\\frac{4km}{2k^2+1}$，$y_1+y_2=k(x_1+x_2)+2m=\\\\frac{2m}{2k^2+1}$；\\n5. 因P在椭圆C上，代入椭圆方程得$(-\\\\frac{4km}{2k^2+1})^2+2(\\\\frac{2m}{2k^2+1})^2=6$，结合$m^2=k^2+1$，化简解得$k^2=\\\\frac{1}{2}$，$m^2=\\\\frac{3}{2}$；\\n6. 计算弦长$|MN|=√(k^2+1)·\\\\frac{√Δ}{2k^2+1}$，其中$Δ=(4km)^2-4(2k^2+1)(2m^2-6)=24(2k^2+1-m^2)=18$，得$|MN|=\\\\frac{3√6}{2}$；\\n7. 圆O到直线l的距离$d=1$，平行四边形面积$S=|MN|·d=\\\\frac{3√6}{2}$。",
+            "standardAnswer": "$\\\\frac{3\\\\sqrt{6}}{2}$",
+            "scoringCriteria": "第二问，判断斜率不存在的情况不合题意得1分；设直线方程并由相切得$m^2=k^2+1$得2分；联立椭圆与直线方程，由韦达定理得$x_1+x_2$、$y_1+y_2$得2分；将P点坐标代入椭圆解得$k^2$、$m^2$得3分；计算弦长$|MN|$和平行四边形面积得2分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ with the length of the minor axis being $2\\\\sqrt{3}$ and the eccentricity $e=\\\\frac{\\\\sqrt{2}}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse C;",
+            "solutionSteps": "1. From the length of the minor axis of the ellipse being $2√3$, we get $2b=2√3$ and solve for $b=√3$;\\n2. From the eccentricity of the ellipse $e=\\\\frac{c}{a}=\\\\frac{√2}{2}$, we get $c=\\\\frac{√2}{2}a$;\\n3. Combined with the basic relation of the ellipse $a^2=b^2+c^2$, substitute to get $a^2=3+(\\\\frac{√2}{2}a)^2$, simplify to get $a^2=6$, and solve for $a=√6$ ($a>0$);\\n4. Substitute $a=√6$ and $b=√3$ into the standard equation of the ellipse to get $\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "For the first subquestion, 1 point for getting $b=√3$ from the length of the minor axis; 1 point for getting the relationship between $c$ and $a$ from the eccentricity; 2 points for solving $a^2=6$ combined with $a^2=b^2+c^2$; 1 point for writing the standard equation of the ellipse C, total 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let O be the origin of coordinates, line l is a tangent to the circle $x^2+y^2=1$, and line l intersects the ellipse C at points M and N. If the vertex P of the parallelogram OMPN is exactly on the ellipse C, find the area of the parallelogram OMPN;",
+            "solutionSteps": "1. Case of non-existent slope: Let the line l be $x=1$, substitute into the ellipse equation to get $y=±\\\\frac{√10}{2}$, that is M$(1,-\\\\frac{√10}{2})$、N$(1,\\\\frac{√10}{2})$. From the property of the parallelogram, P$(2,0)$ is obtained, which is not valid after substituting into the ellipse, so this case is not in line with the meaning of the question;\\n2. Case of existing slope: Let the line l be $y=kx+m$. Since the line is tangent to the circle $x^2+y^2=1$, the distance from the center to the line $d=\\\\frac{|m|}{√(k^2+1)}=1$, simplified to $m^2=k^2+1$;\\n3. Let M$(x_1,y_1)$、N$(x_2,y_2)$, then P$(x_1+x_2,y_1+y_2)$. Simultaneously solve $\\\\begin{cases}y=kx+m\\\\\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1\\end{cases}$, eliminate y to get $(2k^2+1)x^2+4kmx+2m^2-6=0$;\\n4. From Vieta's formulas, $x_1+x_2=-\\\\frac{4km}{2k^2+1}$, $y_1+y_2=k(x_1+x_2)+2m=\\\\frac{2m}{2k^2+1}$;\\n5. Since P is on the ellipse C, substitute the coordinates of P into the ellipse equation to get $(-\\\\frac{4km}{2k^2+1})^2+2(\\\\frac{2m}{2k^2+1})^2=6$. Combined with $m^2=k^2+1$, simplify and solve to get $k^2=\\\\frac{1}{2}$, $m^2=\\\\frac{3}{2}$;\\n6. Calculate the chord length $|MN|=√(k^2+1)·\\\\frac{√Δ}{2k^2+1}$, where $Δ=(4km)^2-4(2k^2+1)(2m^2-6)=24(2k^2+1-m^2)=18$, and get $|MN|=\\\\frac{3√6}{2}$;\\n7. The distance from the circle O to the line l is $d=1$, and the area of the parallelogram $S=|MN|·d=\\\\frac{3√6}{2}$.",
+            "standardAnswer": "$\\\\frac{3\\\\sqrt{6}}{2}$",
+            "scoringCriteria": "For the second subquestion, 1 point for judging that the case of non-existent slope is not in line with the meaning of the question; 2 points for setting the line equation and getting $m^2=k^2+1$ from tangency; 2 points for getting $x_1+x_2$ and $y_1+y_2$ by Vieta's formulas after simultaneous solving the ellipse and line equations; 3 points for solving $k^2$ and $m^2$ by substituting the coordinates of P into the ellipse; 2 points for calculating the chord length $|MN|$ and the area of the parallelogram, total 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "有穷数列$a_1,a_2,\\cdots,a_n(n>2)$中，令$S(p,q)=a_p+a_{p+1}+\\cdots+a_q(1≤p≤q≤n,p,q∈N^*)$，当$p=q$时规定$S(p,q)=a_p$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）已知数列-3,2,-1,3，写出所有的有序数对$(p,q)$，且$p<q$，使得$S(p,q)>0$；",
+            "solutionSteps": "依次计算所有满足$p<q$的区间和$S(p,q)$：\\n1. $S(1,2)=-3+2=-1<0$，$S(1,3)=-3+2-1=-2<0$，$S(1,4)=-3+2-1+3=1>0$；\\n2. $S(2,3)=2-1=1>0$，$S(2,4)=2-1+3=4>0$；\\n3. $S(3,4)=-1+3=2>0$；\\n4. 筛选出满足$S(p,q)>0$的有序数对为$(1,4),(2,3),(2,4),(3,4)$。",
+            "standardAnswer": "$(1,4),(2,3),(2,4),(3,4)$",
+            "scoringCriteria": "第一问，正确计算出所有$p<q$的$S(p,q)$值为3分；准确写出所有满足条件的有序数对为1分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）已知整数列$a_1,a_2,\\cdots,a_n$，n为偶数，若$S(i,n-i+1)(i=1,2,\\cdots,\\\\frac{n}{2})$满足：当i为奇数时，$S(i,n-i+1)>0$；当i为偶数时，$S(i,n-i+1)<0$，求$|a_1|+|a_2|+\\cdots+|a_n|$的最小值；",
+            "solutionSteps": "1. 由已知得$S(k,n-k+1)$与$S(k+1,n-k)$异号（$k∈N^*,k≤\\\\frac{n}{2}-1$），故$|a_k+a_{n-k+1}|=|S(k,n-k+1)-S(k+1,n-k)|=|S(k,n-k+1)|+|S(k+1,n-k)|≥2$，即$|a_k|+|a_{n-k+1}|≥2$；\\n2. 对于中间两项$k=\\\\frac{n}{2}$，有$|a_{\\\\frac{n}{2}}|+|a_{\\\\frac{n}{2}+1}|≥1$；\\n3. 因此$|a_1|+|a_2|+\\cdots+|a_n|≥2(\\\\frac{n}{2}-1)+1=n-1$；\\n4. 构造数列验证最小值：令$n=2m$，m为奇数时，取$a_1=a_3=\\cdots=a_m=1$，$a_2=a_4=\\cdots=a_{m-1}=-1$，$a_{m+2}=a_{m+4}=\\cdots=a_{2m}=1$，$a_{m+1}=0$；m为偶数时，取$a_1=a_3=\\cdots=a_{m-1}=1$，$a_2=a_4=\\cdots=a_m=-1$，$a_{m+3}=a_{m+5}=\\cdots=a_{2m-1}=-1$，$a_{m+2}=a_{m+4}=\\cdots=a_{2m}=1$，$a_{m+1}=0$，此时$|a_1|+|a_2|+\\cdots+|a_n|=n-1$；\\n5. 综上，$|a_1|+|a_2|+\\cdots+|a_n|$的最小值为$n-1$。",
+            "standardAnswer": "$n-1$",
+            "scoringCriteria": "第二问，推出$S(k,n-k+1)$与$S(k+1,n-k)$异号得2分；得出$|a_k|+|a_{n-k+1}|≥2$和中间两项绝对值和≥1得2分；构造数列验证最小值为$n-1$得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）已知数列$a_1,a_2,\\cdots,a_n$满足$S(1,n)>0$，定义集合$A=\\\\{i | S(i+1,n)>0, i=1,2,\\cdots,n-1\\\\}$，若$A=\\\\{i_1,i_2,\\cdots,i_k\\\\}(k∈N^*)$且为非空集合，求证：$S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$；",
+            "solutionSteps": "不妨设$i_1<i_2<\\cdots<i_k$，分情况逐一证明：\\n1. 间隔型元素：当$i_{m+1}-i_m≥2(1≤m≤k-1)$且$2≤i_1≤i_k≤n-1$时，由$S(i_1,n)≤0$、$S(i_1+1,n)>0$，得$a_{i_1}=S(i_1,n)-S(i_1+1,n)<0$，同理$a_{i_2}<0,\\cdots,a_{i_k}<0$；结合$S(1,n)>0$，显然$S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$；\\n2. 连续型元素：当A中有连续正整数，设$i_p-1∉A$，$i_q+1∉A$，$i_{m+1}-i_m=1(p≤m≤q-1)$，则$S(i_p,n)-S(i_q+1,n)=a_{i_p+1}+a_{i_p+2}+\\cdots+a_{i_q}$，由已知得该式<0，即连续项的和为负；多段连续时，每段和均为负，结合间隔型结论得证；\\n3. 首项为1的情况：若$i_1=1$，$i_2=2,\\cdots,i_m=m$且$i_m+1∉A$，由$S(i_m+1,n)>0$，去掉前m项可转化为上述两种情况，结论成立；\\n4. 全连续型：若$A=\\\\{1,2,\\cdots,m\\\\}(m≤n-1)$，则$a_{m+1}+a_{m+2}+\\cdots+a_n>0$，结合$S(1,n)>0$可得$S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$；\\n5. 综上，所有情况均满足$S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$，结论得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问，证明间隔型元素的情况得2分；证明连续型元素的情况得2分；证明首项为1和全连续型的情况得1分；总结得出结论得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In the finite sequence $a_1,a_2,\\cdots,a_n(n>2)$, let $S(p,q)=a_p+a_{p+1}+\\cdots+a_q(1≤p≤q≤n,p,q∈N^*)$, and it is stipulated that $S(p,q)=a_p$ when $p=q$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Given the sequence -3,2,-1,3, write all the ordered pairs $(p,q)$ with $p<q$ such that $S(p,q)>0$;",
+            "solutionSteps": "Calculate the interval sums $S(p,q)$ for all $p<q$ in turn: \\n1. $S(1,2)=-3+2=-1<0$, $S(1,3)=-3+2-1=-2<0$, $S(1,4)=-3+2-1+3=1>0$;\\n2. $S(2,3)=2-1=1>0$, $S(2,4)=2-1+3=4>0$;\\n3. $S(3,4)=-1+3=2>0$;\\n4. Screen out the ordered pairs satisfying $S(p,q)>0$: $(1,4),(2,3),(2,4),(3,4)$. ",
+            "standardAnswer": "$(1,4),(2,3),(2,4),(3,4)$",
+            "scoringCriteria": "For the first subquestion, 3 points for correctly calculating all $S(p,q)$ values with $p<q$; 1 point for accurately writing all ordered pairs that meet the conditions, total 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) Given the integer sequence $a_1,a_2,\\cdots,a_n$ where n is an even number, if $S(i,n-i+1)(i=1,2,\\cdots,\\\\frac{n}{2})$ satisfies: $S(i,n-i+1)>0$ when i is an odd number, and $S(i,n-i+1)<0$ when i is an even number, find the minimum value of $|a_1|+|a_2|+\\cdots+|a_n|$;",
+            "solutionSteps": "1. From the known conditions, $S(k,n-k+1)$ and $S(k+1,n-k)$ have opposite signs ($k∈N^*,k≤\\\\frac{n}{2}-1$), so $|a_k+a_{n-k+1}|=|S(k,n-k+1)-S(k+1,n-k)|=|S(k,n-k+1)|+|S(k+1,n-k)|≥2$, that is $|a_k|+|a_{n-k+1}|≥2$;\\n2. For the middle two terms when $k=\\\\frac{n}{2}$, $|a_{\\\\frac{n}{2}}|+|a_{\\\\frac{n}{2}+1}|≥1$;\\n3. Therefore, $|a_1|+|a_2|+\\cdots+|a_n|≥2(\\\\frac{n}{2}-1)+1=n-1$;\\n4. Construct a sequence to verify the minimum value: let $n=2m$. When m is an odd number, take $a_1=a_3=\\cdots=a_m=1$, $a_2=a_4=\\cdots=a_{m-1}=-1$, $a_{m+2}=a_{m+4}=\\cdots=a_{2m}=1$, $a_{m+1}=0$; when m is an even number, take $a_1=a_3=\\cdots=a_{m-1}=1$, $a_2=a_4=\\cdots=a_m=-1$, $a_{m+3}=a_{m+5}=\\cdots=a_{2m-1}=-1$, $a_{m+2}=a_{m+4}=\\cdots=a_{2m}=1$, $a_{m+1}=0$. At this time, $|a_1|+|a_2|+\\cdots+|a_n|=n-1$;\\n5. In conclusion, the minimum value of $|a_1|+|a_2|+\\cdots+|a_n|$ is $n-1$.",
+            "standardAnswer": "$n-1$",
+            "scoringCriteria": "For the second subquestion, 2 points for deducing that $S(k,n-k+1)$ and $S(k+1,n-k)$ have opposite signs; 2 points for deriving $|a_k|+|a_{n-k+1}|≥2$ and the sum of the absolute values of the middle two terms is ≥1; 1 point for constructing a sequence to verify that the minimum value is $n-1$, total 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Given the sequence $a_1,a_2,\\cdots,a_n$ satisfying $S(1,n)>0$, define the set $A=\\\\{i | S(i+1,n)>0, i=1,2,\\cdots,n-1\\\\}$. If $A=\\\\{i_1,i_2,\\cdots,i_k\\\\}(k∈N^*)$ and is a non-empty set, prove that $S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$;",
+            "solutionSteps": "Without loss of generality, let $i_1<i_2<\\cdots<i_k$, and prove it case by case: \\n1. Spaced elements: When $i_{m+1}-i_m≥2(1≤m≤k-1)$ and $2≤i_1≤i_k≤n-1$, from $S(i_1,n)≤0$ and $S(i_1+1,n)>0$, we get $a_{i_1}=S(i_1,n)-S(i_1+1,n)<0$, similarly $a_{i_2}<0,\\cdots,a_{i_k}<0$; combined with $S(1,n)>0$, it is obvious that $S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$;\\n2. Consecutive elements: When there are consecutive positive integers in A, let $i_p-1∉A$, $i_q+1∉A$, $i_{m+1}-i_m=1(p≤m≤q-1)$, then $S(i_p,n)-S(i_q+1,n)=a_{i_p+1}+a_{i_p+2}+\\cdots+a_{i_q}$. From the known conditions, this expression is <0, that is the sum of consecutive terms is negative; for multiple segments of consecutive terms, the sum of each segment is negative, and the conclusion is proved combined with the conclusion of spaced elements;\\n3. Case with the first term 1: If $i_1=1$, $i_2=2,\\cdots,i_m=m$ and $i_m+1∉A$, from $S(i_m+1,n)>0$, removing the first m terms can be transformed into the above two cases, and the conclusion holds;\\n4. Fully consecutive type: If $A=\\\\{1,2,\\cdots,m\\\\}(m≤n-1)$, then $a_{m+1}+a_{m+2}+\\cdots+a_n>0$, and combined with $S(1,n)>0$, we get $S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$;\\n5. In conclusion, the condition $S(1,n)>a_{i_1}+a_{i_2}+\\cdots+a_{i_k}$ is satisfied in all cases, and the conclusion is proved.",
+            "standardAnswer": "Proof see analysis",
+            "scoringCriteria": "For the third subquestion, 2 points for proving the case of spaced elements; 2 points for proving the case of consecutive elements; 1 point for proving the case of the first term being 1 and the fully consecutive type; 1 point for summarizing and drawing the conclusion, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

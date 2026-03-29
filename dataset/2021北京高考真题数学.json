@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2021 Beijing College Entrance Examination (Mathematics)",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "为加快新冠肺炎检测效率，某检测机构采取“k合1检测法”，即将k个人的拭子样本合并检测，若为阴性，则可以确定所有样本都是阴性的，若为阳性，则还需要对本组的每个人再做检测。现有100人，已知其中2人感染病毒。",
+        "subQuestions": [
+          {
+            "question": "（I）①若采用“10合1检测法”，且两名患者在同一组，求总检测次数；",
+            "solutionSteps": "1. 第一轮将100人按10人一组划分，共10组，合并检测需10次；\n2. 两名患者在同一组，该组合并检测为阳性，需对组内10人单独检测，需10次；\n3. 总检测次数为两轮次数相加，即10+10=20次。",
+            "standardAnswer": "20次",
+            "scoringCriteria": "正确分析第一轮合并检测次数得2分；正确分析第二轮单独检测次数得1分；准确计算出总检测次数得1分，共4分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（I）②已知10人分成一组，两名感染患者在同一组的概率为$\\frac{1}{11}$，求检测次数X的分布列和数学期望$E(X)$；",
+            "solutionSteps": "1. 分析X的可能取值：两名患者同组时检测20次，不同组时需对两个阳性组各10人单独检测，总检测10+10+10=30次，故X取20、30；\n2. 确定概率：$P(X=20)=\\frac{1}{11}$，$P(X=30)=1-\\frac{1}{11}=\\frac{10}{11}$；\n3. 列出分布列：X为20时概率$\\frac{1}{11}$，X为30时概率$\\frac{10}{11}$；\n4. 计算数学期望：根据期望公式$E(X)=x_1P_1+x_2P_2$，代入得$E(X)=20×\\frac{1}{11}+30×\\frac{10}{11}=\\frac{320}{11}$。",
+            "standardAnswer": "分布列：$P(X=20)=\\frac{1}{11}$，$P(X=30)=\\frac{10}{11}$；数学期望$E(X)=\\frac{320}{11}$",
+            "scoringCriteria": "正确确定X的可能取值得1分；正确计算各取值对应概率得2分；规范列出分布列得1分；正确书写期望公式并代入数据得1分；准确计算出期望结果得1分，共6分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（II）若采用“5合1检测法”，检测次数Y的期望为$E(Y)$，试比较$E(X)$和$E(Y)$的大小(直接写出结果)；",
+            "solutionSteps": "根据k合1检测法的概率统计模型，结合10合1与5合1的分组特点、期望计算逻辑，直接比较两者期望大小。",
+            "standardAnswer": "$E(X)<E(Y)$",
+            "scoringCriteria": "准确写出$E(X)$与$E(Y)$的大小比较结果得3分，共3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "To speed up the COVID-19 testing efficiency, a testing institution adopts the k-in-1 testing method, that is, the swab samples of k people are tested together. If the result is negative, all samples can be confirmed negative; if the result is positive, each person in the group needs to be tested individually. There are 100 people in total, and it is known that 2 of them are infected with the virus.",
+        "subQuestions": [
+          {
+            "question": "(I) ① If the 10-in-1 testing method is adopted and the two infected patients are in the same group, find the total number of tests;",
+            "solutionSteps": "1. In the first round, divide 100 people into groups of 10, resulting in 10 groups, and 10 tests are needed for pooled testing;\n2. The two infected patients are in the same group, the pooled test result of this group is positive, and 10 individual tests are needed for the 10 people in the group;\n3. The total number of tests is the sum of the two rounds, which is 10+10=20.",
+            "standardAnswer": "20 times",
+            "scoringCriteria": "2 points for correctly analyzing the number of pooled tests in the first round; 1 point for correctly analyzing the number of individual tests in the second round; 1 point for accurately calculating the total number of tests, total 4 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(I) ② It is known that when dividing people into groups of 10, the probability that the two infected patients are in the same group is $\\frac{1}{11}$, find the probability distribution of the number of tests X and its mathematical expectation $E(X)$;",
+            "solutionSteps": "1. Analyze the possible values of X: 20 tests when the two patients are in the same group, and 10+10+10=30 tests when they are in different groups (needing individual tests for two positive groups), so X takes 20 and 30;\n2. Determine the probabilities: $P(X=20)=\\frac{1}{11}$, $P(X=30)=1-\\frac{1}{11}=\\frac{10}{11}$;\n3. List the probability distribution: $P(X=20)=\\frac{1}{11}$, $P(X=30)=\\frac{10}{11}$;\n4. Calculate the mathematical expectation: Substitute into the expectation formula $E(X)=x_1P_1+x_2P_2$, we get $E(X)=20×\\frac{1}{11}+30×\\frac{10}{11}=\\frac{320}{11}$.",
+            "standardAnswer": "Probability distribution: $P(X=20)=\\frac{1}{11}$, $P(X=30)=\\frac{10}{11}$; Mathematical expectation $E(X)=\\frac{320}{11}$",
+            "scoringCriteria": "1 point for correctly determining the possible values of X; 2 points for correctly calculating the probability corresponding to each value; 1 point for standardly listing the probability distribution; 1 point for correctly writing the expectation formula and substituting data; 1 point for accurately calculating the expectation result, total 6 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(II) If the 5-in-1 testing method is adopted and the mathematical expectation of the number of tests Y is $E(Y)$, compare the sizes of $E(X)$ and $E(Y)$ (write the result directly);",
+            "solutionSteps": "According to the probability and statistics model of the k-in-1 testing method, directly compare the two expectations combined with the grouping characteristics and expectation calculation logic of 10-in-1 and 5-in-1 methods.",
+            "standardAnswer": "$E(X)<E(Y)$",
+            "scoringCriteria": "3 points for accurately writing the result of the size comparison between $E(X)$ and $E(Y)$, total 3 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\frac{3-2x}{x^2+a}$",
+        "subQuestions": [
+          {
+            "question": "（I）若$a=0$，求$y=f(x)$在$(1, f(1))$处切线方程；",
+            "solutionSteps": "1. 当$a=0$时，$f(x)=\\frac{3-2x}{x^2}$，代入$x=1$得$f(1)=\\frac{3-2×1}{1^2}=1$；\n2. 由商的求导法则$(\\frac{u}{v})'=\\frac{u'v-uv'}{v^2}$，求导得$f'(x)=\\frac{x^2·(-2)-(3-2x)·2x}{x^4}=\\frac{2x-6}{x^3}$；\n3. 代入$x=1$得切线斜率$f'(1)=\\frac{2×1-6}{1^3}=-4$；\n4. 由点斜式$y-y_0=k(x-x_0)$，代入点$(1,1)$和斜率$-4$，得$y-1=-4(x-1)$，整理为$y=-4x+5$。",
+            "standardAnswer": "$y=-4x+5$",
+            "scoringCriteria": "正确代入$a=0$化简函数并计算$f(1)$得1分；正确运用商的求导法则求出$f'(x)$得2分；计算出$x=1$处的导数值（切线斜率）得1分；由点斜式写出并整理切线方程得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（II）若函数$f(x)$在$x=-1$处取得极值，求$f(x)$的单调区间，以及最大值和最小值；",
+            "solutionSteps": "1. 由商的求导法则求导得$f'(x)=\\frac{(x^2+a)·(-2)-(3-2x)·2x}{(x^2+a)^2}=\\frac{2(x^2-3x-a)}{(x^2+a)^2}$；\n2. 由$f(x)$在$x=-1$处取极值，得$f'(-1)=0$，代入得$\\frac{2(4-a)}{(a+1)^2}=0$，解得$a=4$，经检验$x=-1$为极大值点，符合题意；\n3. 代入$a=4$得$f(x)=\\frac{3-2x}{x^2+4}$，$f'(x)=\\frac{2(x-4)(x+1)}{(x^2+4)^2}$，令$f'(x)=0$，解得$x=-1$、$x=4$；\n4. 分析导数符号：$x\\in(-\\infty,-1)$或$x\\in(4,+\\infty)$时$f'(x)>0$，函数单调递增；$x\\in(-1,4)$时$f'(x)<0$，函数单调递减；\n5. 计算极值：$f(-1)=1$（极大值），$f(4)=-\\frac{1}{4}$（极小值）；\n6. 分析函数趋势：$x<\\frac{3}{2}$时$f(x)>0$，$x>\\frac{3}{2}$时$f(x)<0$，故最大值为$f(-1)=1$，最小值为$f(4)=-\\frac{1}{4}$。",
+            "standardAnswer": "单调递增区间为$(-\\infty,-1)$和$(4,+\\infty)$，单调递减区间为$(-1,4)$；最大值为1，最小值为$-\\frac{1}{4}$",
+            "scoringCriteria": "正确运用商的求导法则求出$f'(x)$通用表达式得2分；利用极值条件求出$a$并检验得2分；化简$f'(x)$并求出临界点得1分；正确分析导数符号确定单调区间得2分；计算极值并结合趋势得出最值得3分，共10分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=\\frac{3-2x}{x^2+a}$",
+        "subQuestions": [
+          {
+            "question": "(I) If $a=0$, find the equation of the tangent line to the curve $y=f(x)$ at the point $(1, f(1))$;",
+            "solutionSteps": "1. When $a=0$, $f(x)=\\frac{3-2x}{x^2}$, substitute $x=1$ to get $f(1)=\\frac{3-2×1}{1^2}=1$；\n2. By the quotient rule for differentiation $(\\frac{u}{v})'=\\frac{u'v-uv'}{v^2}$, find the derivative $f'(x)=\\frac{x^2·(-2)-(3-2x)·2x}{x^4}=\\frac{2x-6}{x^3}$；\n3. Substitute $x=1$ to get the slope of the tangent line $f'(1)=\\frac{2×1-6}{1^3}=-4$；\n4. From the point-slope form $y-y_0=k(x-x_0)$, substitute the point $(1,1)$ and slope $-4$ to get $y-1=-4(x-1)$, which is simplified to $y=-4x+5$。",
+            "standardAnswer": "$y=-4x+5$",
+            "scoringCriteria": "1 point for correctly substituting $a=0$ to simplify the function and calculate $f(1)$; 2 points for correctly using the quotient rule to find $f'(x)$; 1 point for calculating the derivative value (tangent slope) at $x=1$; 1 point for writing and simplifying the tangent line equation by point-slope form, total 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) If the function $f(x)$ has an extremum at $x=-1$, find the monotonic intervals of $f(x)$, as well as its maximum and minimum values;",
+            "solutionSteps": "1. Find the derivative by the quotient rule: $f'(x)=\\frac{(x^2+a)·(-2)-(3-2x)·2x}{(x^2+a)^2}=\\frac{2(x^2-3x-a)}{(x^2+a)^2}$；\n2. Since $f(x)$ has an extremum at $x=-1$, $f'(-1)=0$, substitute to get $\\frac{2(4-a)}{(a+1)^2}=0$, solve for $a=4$, and verify that $x=-1$ is the local maximum point, which is in line with the meaning of the question；\n3. Substitute $a=4$ to get $f(x)=\\frac{3-2x}{x^2+4}$, $f'(x)=\\frac{2(x-4)(x+1)}{(x^2+4)^2}$, let $f'(x)=0$, solve to get $x=-1$, $x=4$；\n4. Analyze the sign of the derivative: $f'(x)>0$ when $x\\in(-\\infty,-1)$ or $x\\in(4,+\\infty)$, the function is monotonically increasing; $f'(x)<0$ when $x\\in(-1,4)$, the function is monotonically decreasing；\n5. Calculate the extrema: $f(-1)=1$ (local maximum), $f(4)=-\\frac{1}{4}$ (local minimum)；\n6. Analyze the function trend: $f(x)>0$ when $x<\\frac{3}{2}$, $f(x)<0$ when $x>\\frac{3}{2}$, so the maximum value is $f(-1)=1$ and the minimum value is $f(4)=-\\frac{1}{4}$。",
+            "standardAnswer": "Monotonically increasing intervals are $(-\\infty,-1)$ and $(4,+\\infty)$, monotonically decreasing interval is $(-1,4)$; the maximum value is 1, the minimum value is $-\\frac{1}{4}$",
+            "scoringCriteria": "2 points for correctly using the quotient rule to find the general expression of $f'(x)$; 2 points for finding $a$ by the extremum condition and verifying it; 1 point for simplifying $f'(x)$ and finding critical points; 2 points for correctly analyzing the derivative sign to determine monotonic intervals; 3 points for calculating extrema and obtaining the maximum and minimum values combined with the function trend, total 10 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆$E: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$过点$A(0,-2)$，以四个顶点围成的四边形面积为$4\\sqrt{5}$",
+        "subQuestions": [
+          {
+            "question": "（I）求椭圆E的标准方程；",
+            "solutionSteps": "1. 椭圆$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$过点$A(0,-2)$，下顶点为$(0,-b)$，故$b=2$；\n2. 椭圆四个顶点围成的四边形为以$2a$、$2b$为邻边的矩形，面积$S=2ab$，代入$S=4\\sqrt{5}$、$b=2$得$2a×2=4\\sqrt{5}$；\n3. 解得$a=\\sqrt{5}$，代入椭圆标准方程得$\\frac{x^2}{5}+\\frac{y^2}{4}=1$。",
+            "standardAnswer": "$\\frac{x^2}{5}+\\frac{y^2}{4}=1$",
+            "scoringCriteria": "由椭圆过点$A(0,-2)$正确求出$b=2$得2分；正确写出四顶点围成四边形的面积公式并代入条件得2分；代入$a$、$b$值得椭圆标准方程得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（II）过点$P(0,-3)$的直线l斜率为k，交椭圆E于不同的两点B，C，直线AB交$y=-3$于点M，直线AC交$y=-3$于点N，若$|PM|+|PN| ≤15$，求k的取值范围；",
+            "solutionSteps": "1. 设直线l的方程为$y=kx-3$，设$B(x_1,y_1)$、$C(x_2,y_2)$，联立椭圆方程$4x^2+5y^2=20$与直线方程，消去y得$(5k^2+4)x^2-30kx+25=0$；\n2. 由直线与椭圆交于不同两点，得判别式$\\Delta=400(k^2-1)>0$，解得$k>1$或$k<-1$；\n3. 由韦达定理得$x_1+x_2=\\frac{30k}{5k^2+4}$，$x_1x_2=\\frac{25}{5k^2+4}$；\n4. 直线AB的方程为$y+2=\\frac{y_1+2}{x_1}x$，令$y=-3$得$M(-\\frac{x_1}{y_1+2},-3)$，同理得$N(-\\frac{x_2}{y_2+2},-3)$；\n5. 化简$|PM|+|PN|=|\\frac{x_1}{y_1+2}|+|\\frac{x_2}{y_2+2}|$，代入$y_1=kx_1-3$、$y_2=kx_2-3$，整理得$|3k|$；\n6. 由$|3k| ≤15$得$|k| ≤5$，结合$\\Delta>0$的条件，得k的取值范围为$[-3,-1)\\cup(1,3]$。",
+            "standardAnswer": "$[-3,-1)\\cup(1,3]$",
+            "scoringCriteria": "正确设出直线方程并与椭圆方程联立得2分；计算判别式求出k的初步范围得1分；正确运用韦达定理得2分；求出M、N坐标并表示出$|PM|+|PN|$得2分；代入化简并结合不等式求出k的最终范围得3分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $E: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ passing through the point $A(0,-2)$, and the area of the quadrilateral formed by its four vertices is $4\\sqrt{5}$",
+        "subQuestions": [
+          {
+            "question": "(I) Find the standard equation of the ellipse E;",
+            "solutionSteps": "1. The ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ passes through the point $A(0,-2)$, the lower vertex is $(0,-b)$, so $b=2$；\n2. The quadrilateral formed by the four vertices of the ellipse is a rectangle with $2a$ and $2b$ as adjacent sides, the area $S=2ab$, substitute $S=4\\sqrt{5}$ and $b=2$ to get $2a×2=4\\sqrt{5}$；\n3. Solve for $a=\\sqrt{5}$, substitute into the standard ellipse equation to get $\\frac{x^2}{5}+\\frac{y^2}{4}=1$。",
+            "standardAnswer": "$\\frac{x^2}{5}+\\frac{y^2}{4}=1$",
+            "scoringCriteria": "2 points for correctly finding $b=2$ from the ellipse passing through point $A(0,-2)$; 2 points for correctly writing the area formula of the quadrilateral formed by four vertices and substituting conditions; 1 point for substituting $a$ and $b$ to get the standard ellipse equation, total 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) A straight line l with slope k passes through the point $P(0,-3)$ and intersects the ellipse E at two distinct points B and C. The straight line AB intersects the line $y=-3$ at point M, and the straight line AC intersects the line $y=-3$ at point N. If $|PM|+|PN| ≤15$, find the range of values of k;",
+            "solutionSteps": "1. Let the equation of line l be $y=kx-3$, let $B(x_1,y_1)$, $C(x_2,y_2)$, simultaneously solve the ellipse equation $4x^2+5y^2=20$ and the line equation, eliminate y to get $(5k^2+4)x^2-30kx+25=0$；\n2. Since the line intersects the ellipse at two distinct points, the discriminant $\\Delta=400(k^2-1)>0$, solve to get $k>1$ or $k<-1$；\n3. By Vieta's formulas, $x_1+x_2=\\frac{30k}{5k^2+4}$, $x_1x_2=\\frac{25}{5k^2+4}$；\n4. The equation of line AB is $y+2=\\frac{y_1+2}{x_1}x$, let $y=-3$ to get $M(-\\frac{x_1}{y_1+2},-3)$, similarly get $N(-\\frac{x_2}{y_2+2},-3)$；\n5. Simplify $|PM|+|PN|=|\\frac{x_1}{y_1+2}|+|\\frac{x_2}{y_2+2}|$, substitute $y_1=kx_1-3$, $y_2=kx_2-3$ and arrange to get $|3k|$；\n6. From $|3k| ≤15$, get $|k| ≤5$, combined with the condition $\\Delta>0$, the range of k is $[-3,-1)\\cup(1,3]$。",
+            "standardAnswer": "$[-3,-1)\\cup(1,3]$",
+            "scoringCriteria": "2 points for correctly setting the line equation and solving it with the ellipse equation; 1 point for calculating the discriminant to find the preliminary range of k; 2 points for correctly using Vieta's formulas; 2 points for finding the coordinates of M and N and expressing $|PM|+|PN|$; 3 points for substituting and simplifying and finding the final range of k combined with the inequality, total 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "定义$R_{P}$数列$\\{a_{n}\\}$：对实数p，满足：(1) $a_{1}+p \\geq 0, a_{2}+p=0$；(2) $\\forall_{n} \\in N^{*}, a_{4 n-1}<a_{4 n}$；(3) $\\forall_{m}, n \\in N^{*}, a_{m+n} \\in\\{a_{m}+a_{n}+p, a_{m}+a_{n}+p+1\\}$。",
+        "subQuestions": [
+          {
+            "question": "（I）对前4项2,-2,0,1的数列，可以是$R_{2}$数列吗？说明理由；",
+            "solutionSteps": "1. 若该数列为$R_2$数列，则$p=2$，根据$R_P$数列定义，$a_{m+n} \\in \\{a_m+a_n+2,a_m+a_n+3\\}$；\n2. 由$a_1=2$，得$a_2 \\in \\{a_1+a_1+2,a_1+a_1+3\\}=\\{6,7\\}$；\n3. 已知数列中$a_2=-2$，$-2$不在$\\{6,7\\}$中，与$R_2$数列定义矛盾；\n4. 故该数列不可能是$R_2$数列。",
+            "standardAnswer": "不可以，理由见解析",
+            "scoringCriteria": "正确写出$R_2$数列的p值及集合条件得1分；正确计算$a_1+a_1+p$和$a_1+a_1+p+1$的结果得1分；指出计算结果与已知$a_2$矛盾得1分；给出明确结论并完整说明理由得1分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（II）若$\\{a_{n}\\}$是$R_{0}$数列，求$a_{5}$的值；",
+            "solutionSteps": "1. 若$\\{a_n\\}$是$R_0$数列，则$p=0$，由定义得$a_1≥0$，$a_2=0$，且$a_{m+n} \\in \\{a_m+a_n,a_m+a_n+1\\}$；\n2. 由$a_2 \\in \\{2a_1,2a_1+1\\}$且$a_2=0$、$a_1≥0$，得$2a_1=0$，解得$a_1=0$；\n3. 计算得$a_3 \\in \\{a_1+a_2,a_1+a_2+1\\}=\\{0,1\\}$，$a_4 \\in \\{a_3,a_3+1\\}$；\n4. 结合$a_3<a_4$的条件，得$a_3=0$，$a_4=1$；\n5. 计算$a_5 \\in \\{a_1+a_4,a_1+a_4+1\\}=\\{1,2\\}$且$a_5 \\in \\{a_2+a_3,a_2+a_3+1\\}=\\{0,1\\}$，取交集得$a_5=1$。",
+            "standardAnswer": "$a_5=1$",
+            "scoringCriteria": "正确分析$R_0$数列初始条件并求出$a_1=0$得2分；正确求出$a_3$可能取值并确定$a_3$、$a_4$的值得2分；正确求出$a_5$的取值交集并得出结果得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（III）是否存在p，使得存在$R_{P}$数列$\\{a_{n}\\}$，对$\\forall_{n} \\in N^{*}$，满足$S_{n} ≥S_{10}$？若存在，求出所有这样的p；若不存在，说明理由；",
+            "solutionSteps": "1. 必要条件分析：由$S_n≥S_{10}$对任意$n\\in N^*$成立，知$S_{10}$为前n项和最小值，故$a_{10} ≤0 ≤a_{11}$；\n2. 由$a_2=-p \\in \\{2a_1+p,2a_1+p+1\\}$，结合不等关系得$2a_1+p=-p$，解得$a_1=-p$；\n3. 依次推导得$a_3=-p$，$a_4=-p+1$，$a_5=-p+1$，$a_6=-p+1$，$a_7=-p+1$，$a_8=-p+2$，$a_9=-p+2$，$a_10=-p+2$，$a_11=-p+2$；\n4. 代入$a_{10} ≤0 ≤a_{11}$，得$-p+2 ≤0 ≤-p+2$，解得$p=2$；\n5. 充分性证明：当$p=2$时，$R_2$数列的前12项为-2,-2,-2,-1,-1,-1,-1,0,0,0,0,1，可证$S_{10}$为最小值；\n6. 用数学归纳法证明当$n≥8$时$a_n≥0$，故对任意$n\\in N^*$，$S_n≥S_{10}$，充分性成立。",
+            "standardAnswer": "存在，$p=2$",
+            "scoringCriteria": "由$S_n≥S_{10}$推出必要条件$a_{10} ≤0 ≤a_{11}$得1分；正确推导出$a_1=-p$得1分；依次推导得出$a_{10}$、$a_{11}$的表达式得1分；代入必要条件解得$p=2$得1分；完成$p=2$时的充分性证明得1分；用数学归纳法验证后续项的性质得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Define the $R_{P}$ sequence $\\{a_{n}\\}$: for a real number p, it satisfies: (1) $a_{1}+p \\geq 0, a_{2}+p=0$; (2) $\\forall_{n} \\in N^{*}, a_{4 n-1}<a_{4 n}$; (3) $\\forall_{m}, n \\in N^{*}, a_{m+n} \\in\\{a_{m}+a_{n}+p, a_{m}+a_{n}+p+1\\}$.",
+        "subQuestions": [
+          {
+            "question": "(I) Can the sequence with the first four terms 2, -2, 0, 1 be an $R_{2}$ sequence? Explain the reason;",
+            "solutionSteps": "1. If the sequence is an $R_2$ sequence, then $p=2$. According to the definition of $R_P$ sequence, $a_{m+n} \\in \\{a_m+a_n+2,a_m+a_n+3\\}$；\n2. Since $a_1=2$, we get $a_2 \\in \\{a_1+a_1+2,a_1+a_1+3\\}=\\{6,7\\}$；\n3. The known $a_2=-2$ in the sequence is not in $\\{6,7\\}$, which contradicts the definition of $R_2$ sequence；\n4. Therefore, the sequence cannot be an $R_2$ sequence。",
+            "standardAnswer": "No, see the analysis for reasons",
+            "scoringCriteria": "1 point for correctly writing the value of p and the set condition of the $R_2$ sequence; 1 point for correctly calculating the results of $a_1+a_1+p$ and $a_1+a_1+p+1$; 1 point for pointing out the contradiction between the calculation result and the known $a_2$; 1 point for giving a clear conclusion and explaining the reason completely, total 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(II) If $\\{a_{n}\\}$ is an $R_{0}$ sequence, find the value of $a_{5}$;",
+            "solutionSteps": "1. If $\\{a_n\\}$ is an $R_0$ sequence, then $p=0$. From the definition, $a_1≥0$, $a_2=0$, and $a_{m+n} \\in \\{a_m+a_n,a_m+a_n+1\\}$；\n2. Since $a_2 \\in \\{2a_1,2a_1+1\\}$, $a_2=0$ and $a_1≥0$, we get $2a_1=0$, solve for $a_1=0$；\n3. Calculate to get $a_3 \\in \\{a_1+a_2,a_1+a_2+1\\}=\\{0,1\\}$, $a_4 \\in \\{a_3,a_3+1\\}$；\n4. Combined with the condition $a_3<a_4$, we get $a_3=0$, $a_4=1$；\n5. Calculate $a_5 \\in \\{a_1+a_4,a_1+a_4+1\\}=\\{1,2\\}$ and $a_5 \\in \\{a_2+a_3,a_2+a_3+1\\}=\\{0,1\\}$, take the intersection to get $a_5=1$。",
+            "standardAnswer": "$a_5=1$",
+            "scoringCriteria": "2 points for correctly analyzing the initial conditions of the $R_0$ sequence and finding $a_1=0$; 2 points for correctly finding the possible values of $a_3$ and determining the values of $a_3$ and $a_4$; 1 point for correctly finding the intersection of the possible values of $a_5$ and getting the result, total 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(III) Does there exist a real number p such that there is an $R_{P}$ sequence $\\{a_{n}\\}$ satisfying $S_{n} ≥S_{10}$ for all $n \\in N^{*}$? If it exists, find all such p; if not, explain the reason;",
+            "solutionSteps": "1. Necessary condition analysis: Since $S_n≥S_{10}$ holds for all $n\\in N^*$, $S_{10}$ is the minimum value of the sum of the first n terms, so $a_{10} ≤0 ≤a_{11}$；\n2. From $a_2=-p \\in \\{2a_1+p,2a_1+p+1\\}$, combined with the inequality relation, we get $2a_1+p=-p$, solve for $a_1=-p$；\n3. Deduce in turn: $a_3=-p$, $a_4=-p+1$, $a_5=-p+1$, $a_6=-p+1$, $a_7=-p+1$, $a_8=-p+2$, $a_9=-p+2$, $a_10=-p+2$, $a_11=-p+2$；\n4. Substitute into $a_{10} ≤0 ≤a_{11}$, get $-p+2 ≤0 ≤-p+2$, solve for $p=2$；\n5. Sufficiency proof: When $p=2$, the first 12 terms of the $R_2$ sequence are -2,-2,-2,-1,-1,-1,-1,0,0,0,0,1, which can prove that $S_{10}$ is the minimum value；\n6. Prove $a_n≥0$ for $n≥8$ by mathematical induction, so $S_n≥S_{10}$ for all $n\\in N^*$, and the sufficiency holds。",
+            "standardAnswer": "Exists, $p=2$",
+            "scoringCriteria": "1 point for deducing the necessary condition $a_{10} ≤0 ≤a_{11}$ from $S_n≥S_{10}$; 1 point for correctly deducing $a_1=-p$; 1 point for deducing the expressions of $a_{10}$ and $a_{11}$ in turn; 1 point for solving $p=2$ by substituting the necessary condition; 1 point for completing the sufficiency proof when $p=2$; 1 point for verifying the properties of subsequent terms by mathematical induction, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

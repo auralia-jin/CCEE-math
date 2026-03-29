@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2022 Beijing College Entrance Examination (Mathematics)",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "在校运动会上，只有甲、乙、丙三名同学参加铅球比赛，比赛成绩达到9.50m以上(含9.50m)的同学将获得优秀奖，为预测获得优秀奖的人数及冠军得主，收集了甲、乙、丙以往的比赛成绩，并整理得到如下数据(单位: m)：甲:9.80,9.70,9.55,9.54,9.48,9.42,9.40,9.35,9.30,9.25；乙:9.78,9.56,9.51,9.36,9.32,9.23；丙:9.85,9.65,9.20,9.16。假设用频率估计概率，且甲、乙、丙的比赛成绩相互独立。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）估计甲在校运动会铅球比赛中获得优秀奖的概率；",
+            "solutionSteps": "1. 统计甲以往10次成绩中达到9.50m及以上的次数：9.80、9.70、9.55、9.54，共4次；\\n2. 根据频率估计概率的方法，概率为符合条件的次数除以总次数；\\n3. 计算得概率为$\\frac{4}{10}=\\frac{2}{5}$。",
+            "standardAnswer": "$\\frac{2}{5}$",
+            "scoringCriteria": "本问总分4分，统计出甲获得优秀奖的次数得2分，正确运用频率估计概率的公式得1分，计算出最终正确结果得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设X是甲、乙、丙在校运动会铅球比赛中获得优秀奖的总人数，估计X的数学期望EX；",
+            "solutionSteps": "1. 分别计算乙、丙获得优秀奖的概率：乙6次成绩中有3次达标，概率为$\\frac{3}{6}=\\frac{1}{2}$；丙4次成绩中有2次达标，概率为$\\frac{2}{4}=\\frac{1}{2}$；\\n2. 确定X的所有可能取值：0、1、2、3；\\n3. 根据独立事件概率乘法公式计算各取值的概率：$P(X=0)=\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{3}{20}$，$P(X=1)=\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{2}{5}$，$P(X=2)=\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{7}{20}$，$P(X=3)=\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{1}{10}$；\\n4. 根据数学期望公式$EX=\\sum_{i=0}^{3}i×P(X=i)$计算，代入数据得$EX=0×\\frac{3}{20}+1×\\frac{8}{20}+2×\\frac{7}{20}+3×\\frac{2}{20}=\\frac{7}{5}$。",
+            "standardAnswer": "$\\frac{7}{5}$",
+            "scoringCriteria": "本问总分7分，正确计算出乙、丙的获奖概率各得1分，确定X的所有可能取值得1分，正确计算出X各取值的概率共得2分，正确写出数学期望公式得1分，计算出最终正确结果得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（III）在校运动会铅球比赛中，甲、乙、丙谁获得冠军的概率估计值最大？（结论不要求证明）",
+            "solutionSteps": "分析三人的成绩数据，丙投出了三人成绩中的最大值9.85m，且丙获得优秀奖的概率与乙相同，高于甲的相关概率特征，据此判断冠军概率估计值最大的对象。",
+            "standardAnswer": "丙",
+            "scoringCriteria": "本问总分2分，直接给出正确结论得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In the school sports meeting, only three students A, B and C participate in the shot put competition. Students whose competition results reach 9.50m or more (including 9.50m) will win the Excellence Award. To predict the number of students who win the Excellence Award and the champion, the previous competition results of A, B and C are collected and sorted out as follows (unit: m): A:9.80,9.70,9.55,9.54,9.48,9.42,9.40,9.35,9.30,9.25; B:9.78,9.56,9.51,9.36,9.32,9.23; C:9.85,9.65,9.20,9.16. Assume that probability is estimated by frequency, and the competition results of A, B and C are independent of each other.",
+        "subQuestions": [
+          {
+            "question": "(I) Estimate the probability that A wins the Excellence Award in the shot put competition of the school sports meeting;",
+            "solutionSteps": "1. Count the number of times A's previous 10 results reach 9.50m or more: 9.80, 9.70, 9.55, 9.54, a total of 4 times;\\n2. Estimate the probability by the method of frequency estimating probability, which is the number of qualified times divided by the total number of times;\\n3. Calculate the probability as $\\frac{4}{10}=\\frac{2}{5}$.",
+            "standardAnswer": "$\\frac{2}{5}$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 2 points for counting the number of times A wins the Excellence Award, 1 point for correctly applying the formula of estimating probability by frequency, and 1 point for calculating the final correct result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Let X be the total number of students among A, B and C who win the Excellence Award in the shot put competition of the school sports meeting, and estimate the mathematical expectation EX of X;",
+            "solutionSteps": "1. Calculate the probabilities of B and C winning the Excellence Award respectively: B has 3 qualified results out of 6, the probability is $\\frac{3}{6}=\\frac{1}{2}$; C has 2 qualified results out of 4, the probability is $\\frac{2}{4}=\\frac{1}{2}$;\\n2. Determine all possible values of X: 0, 1, 2, 3;\\n3. Calculate the probability of each value according to the multiplication formula of independent event probability: $P(X=0)=\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{3}{20}$, $P(X=1)=\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{2}{5}$, $P(X=2)=\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}+\\frac{3}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{7}{20}$, $P(X=3)=\\frac{2}{5}×\\frac{1}{2}×\\frac{1}{2}=\\frac{1}{10}$;\\n4. Calculate according to the mathematical expectation formula $EX=\\sum_{i=0}^{3}i×P(X=i)$, substitute the data to get $EX=0×\\frac{3}{20}+1×\\frac{8}{20}+2×\\frac{7}{20}+3×\\frac{2}{20}=\\frac{7}{5}$.",
+            "standardAnswer": "$\\frac{7}{5}$",
+            "scoringCriteria": "This sub-question has a total of 7 points. 1 point for correctly calculating the winning probability of B and 1 point for C, 1 point for determining all possible values of X, 2 points for correctly calculating the probabilities of each value of X, 1 point for correctly writing the mathematical expectation formula, and 1 point for calculating the final correct result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(III) Who has the largest estimated probability of winning the championship in the shot put competition of the school sports meeting among A, B and C? (Proof is not required for the conclusion)",
+            "solutionSteps": "Analyze the performance data of the three people. C threw the maximum score of 9.85m among the three, and the probability that C wins the Excellence Award is the same as that of B, which is higher than the relevant probability characteristics of A. Judge the object with the largest estimated probability of winning the championship based on this.",
+            "standardAnswer": "C",
+            "scoringCriteria": "This sub-question has a total of 2 points, and 2 points for directly giving the correct conclusion.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆 $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ 的一个顶点为 $A(0,1)$，焦距为 $2\\sqrt{3}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆E的方程；",
+            "solutionSteps": "1. 根据椭圆的几何性质，顶点$A(0,1)$得$b=1$；\\n2. 由焦距$2c=2\\sqrt{3}$得$c=\\sqrt{3}$；\\n3. 根据椭圆中$a^2=b^2+c^2$的关系，计算得$a^2=1+3=4$，即$a=2$；\\n4. 将$a$、$b$的值代入椭圆标准方程，得$\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "本问总分4分，由顶点坐标正确得出$b=1$得1分，由焦距正确得出$c=\\sqrt{3}$得1分，正确写出椭圆中$a^2$、$b^2$、$c^2$的关系得1分，代入计算得出椭圆标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）过点 $P(-2,1)$ 作斜率为 k 的直线与椭圆 E 交于不同的两点 B，C，直线 $AB$，$AC$ 分别与 x 轴交于点 M，N。当 $|M N|=2$ 时，求 k 的值。",
+            "solutionSteps": "1. 设过点$P(-2,1)$的直线方程为$y-1=k(x+2)$，设$B(x_1,y_1)$，$C(x_2,y_2)$；\\n2. 联立直线与椭圆方程$\\begin{cases}y-1=k(x+2)\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$，消去y整理得$(1+4k^2)x^2+(16k^2+8k)x+16k^2+16k=0$；\\n3. 由直线与椭圆交于不同两点，得$\\Delta=(16k^2+8k)^2-4(1+4k^2)(16k^2+16k)>0$，解得$k<0$；\\n4. 根据韦达定理，得$x_1+x_2=-\\frac{16k^2+8k}{1+4k^2}$，$x_1·x_2=\\frac{16k^2+16k}{1+4k^2}$；\\n5. 求直线AB的方程为$y=\\frac{y_1-1}{x_1}x+1$，令$y=0$得M点坐标$M(\\frac{x_1}{1-y_1},0)$，同理得N点坐标$N(\\frac{x_2}{1-y_2},0)$；\\n6. 计算$|MN|=\\left|\\frac{x_1}{1-y_1}-\\frac{x_2}{1-y_2}\\right|$，将$y_1-1=k(x_1+2)$，$y_2-1=k(x_2+2)$代入化简，结合韦达定理代入$x_1+x_2$和$x_1·x_2$，得到关于k的方程；\\n7. 解方程$\\left|\\frac{2\\sqrt{-6k}}{4|k|}\\right|=2$，结合$k<0$的条件，解得$k=-4$。",
+            "standardAnswer": "$-4$",
+            "scoringCriteria": "本问总分11分，正确设出直线方程得1分，联立方程并正确消元整理得2分，由判别式得出k的范围得1分，正确运用韦达定理求出$x_1+x_2$和$x_1·x_2$各得1分，正确求出M、N点坐标得2分，正确化简$|MN|$的表达式得2分，解方程得出正确k值得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that one vertex of the ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a>b>0)$ is $A(0,1)$, and the focal length is $2\\sqrt{3}$.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the equation of the ellipse E;",
+            "solutionSteps": "1. According to the geometric properties of the ellipse, get $b=1$ from the vertex $A(0,1)$;\\n2. Get $c=\\sqrt{3}$ from the focal length $2c=2\\sqrt{3}$;\\n3. According to the relationship $a^2=b^2+c^2$ in the ellipse, calculate $a^2=1+3=4$, that is $a=2$;\\n4. Substitute the values of $a$ and $b$ into the standard equation of the ellipse to get $\\frac{x^2}{4}+y^2=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly obtaining $b=1$ from the vertex coordinates, 1 point for correctly obtaining $c=\\sqrt{3}$ from the focal length, 1 point for correctly writing the relationship among $a^2$, $b^2$ and $c^2$ in the ellipse, and 1 point for substituting and calculating to get the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Draw a straight line with slope k through the point $P(-2,1)$, which intersects the ellipse E at two distinct points B and C. The straight lines AB and AC intersect the x-axis at points M and N respectively. Find the value of k when $|MN|=2$.",
+            "solutionSteps": "1. Let the equation of the straight line passing through point $P(-2,1)$ be $y-1=k(x+2)$, and let $B(x_1,y_1)$, $C(x_2,y_2)$;\\n2. Simultaneously solve the equations of the straight line and the ellipse $\\begin{cases}y-1=k(x+2)\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$, eliminate y and sort out to get $(1+4k^2)x^2+(16k^2+8k)x+16k^2+16k=0$;\\n3. Since the straight line intersects the ellipse at two distinct points, we have $\\Delta=(16k^2+8k)^2-4(1+4k^2)(16k^2+16k)>0$, and solve to get $k<0$;\\n4. According to Vieta's theorem, get $x_1+x_2=-\\frac{16k^2+8k}{1+4k^2}$, $x_1·x_2=\\frac{16k^2+16k}{1+4k^2}$;\\n5. Find the equation of the straight line AB as $y=\\frac{y_1-1}{x_1}x+1$, let $y=0$ to get the coordinate of point M $M(\\frac{x_1}{1-y_1},0)$, and get the coordinate of point N $N(\\frac{x_2}{1-y_2},0)$ similarly;\\n6. Calculate $|MN|=\\left|\\frac{x_1}{1-y_1}-\\frac{x_2}{1-y_2}\\right|$, substitute $y_1-1=k(x_1+2)$ and $y_2-1=k(x_2+2)$ for simplification, substitute $x_1+x_2$ and $x_1·x_2$ combined with Vieta's theorem to obtain an equation about k;\\n7. Solve the equation $\\left|\\frac{2\\sqrt{-6k}}{4|k|}\\right|=2$, and combine with the condition $k<0$ to solve and get $k=-4$.",
+            "standardAnswer": "$-4$",
+            "scoringCriteria": "This sub-question has a total of 11 points. 1 point for correctly setting the straight line equation, 2 points for simultaneously solving the equations and correctly eliminating y for arrangement, 1 point for obtaining the range of k from the discriminant, 1 point each for correctly finding $x_1+x_2$ and $x_1·x_2$ by Vieta's theorem, 2 points for correctly finding the coordinates of points M and N, 2 points for correctly simplifying the expression of $|MN|$, and 1 point for solving the equation to get the correct value of k.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数 $f(x)=e^{x} \\ln (1+x)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求曲线 $y=f(x)$ 在点 $(0, f(0))$ 处的切线方程；",
+            "solutionSteps": "1. 计算$f(0)$：代入$x=0$得$f(0)=e^0\\ln(1+0)=0$，即切点为$(0,0)$；\\n2. 求$f(x)$的导数$f'(x)=e^x\\left[\\ln(1+x)+\\frac{1}{1+x}\\right]$；\\n3. 计算切线斜率$k=f'(0)$：代入$x=0$得$f'(0)=e^0\\left[\\ln1+\\frac{1}{1}\\right]=1$；\\n4. 根据点斜式$y-y_0=k(x-x_0)$，代入切点和斜率得切线方程为$y=x$。",
+            "standardAnswer": "$y=x$",
+            "scoringCriteria": "本问总分4分，正确计算出$f(0)$得1分，正确求出$f(x)$的导数得2分，利用点斜式求出切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设 $g(x)=f'(x)$，讨论函数 $g(x)$ 在 $[0,+\\infty)$ 上的单调性；",
+            "solutionSteps": "1. 由（Ⅰ）得$g(x)=e^x\\left[\\ln(1+x)+\\frac{1}{1+x}\\right]$，求$g(x)$的导数$g'(x)=e^x\\left[\\ln(1+x)+\\frac{2}{1+x}-\\frac{1}{(1+x)^2}\\right]$；\\n2. 令$h(x)=\\ln(1+x)+\\frac{2}{1+x}-\\frac{1}{(1+x)^2}$，令$t=1+x$（$t≥1$），则$m(t)=\\ln t+\\frac{2}{t}-\\frac{1}{t^2}$；\\n3. 求$m(t)$的导数$m'(t)=\\frac{1}{t}-\\frac{2}{t^2}+\\frac{2}{t^3}=\\frac{(t-1)^2+1}{t^3}$，易知$t≥1$时$m'(t)>0$恒成立；\\n4. 故$h(x)$在$[0,+\\infty)$上单调递增，且$h(0)=1>0$，因此$h(x)>0$在$[0,+\\infty)$上恒成立；\\n5. 又$e^x>0$恒成立，故$g'(x)=e^x·h(x)>0$在$[0,+\\infty)$上恒成立，即$g(x)$在$[0,+\\infty)$上单调递增。",
+            "standardAnswer": "$g(x)$在$[0,+\\infty)$上单调递增",
+            "scoringCriteria": "本问总分5分，正确求出$g'(x)$的表达式得2分，构造函数并进行换元得1分，正确判断换元后函数的单调性得1分，结合$e^x$的性质判断出$g(x)$的单调性得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）证明：对任意的s，$t \\in(0,+\\infty)$，有 $f(s+t)>f(s)+f(t)$。",
+            "solutionSteps": "1. 由（Ⅱ）知$g(x)=f'(x)$在$[0,+\\infty)$上单调递增，且$g(0)=1>0$，故$f'(x)>0$在$[0,+\\infty)$上恒成立，即$f(x)$在$[0,+\\infty)$上单调递增；\\n2. 构造函数$w(x)=f(x+t)-f(x)$（$x>0$，$t>0$），求导得$w'(x)=f'(x+t)-f'(x)$；\\n3. 由$g(x)$单调递增，且$x+t>x$，得$f'(x+t)>f'(x)$，故$w'(x)>0$，即$w(x)$在$(0,+\\infty)$上单调递增；\\n4. 因为$s>0$，所以$w(s)>w(0)$，即$f(s+t)-f(s)>f(t)-f(0)$；\\n5. 由$f(0)=0$，可得$f(s+t)-f(s)>f(t)$，即$f(s+t)>f(s)+f(t)$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问总分6分，正确判断$f(x)$的单调性得1分，合理构造函数$w(x)$并求导得2分，正确判断$w(x)$的单调性得1分，利用函数单调性得到不等式关系得1分，结合$f(0)=0$完成证明得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=e^{x} \\ln (1+x)$.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the equation of the tangent line of the curve $y=f(x)$ at the point $(0, f(0))$;",
+            "solutionSteps": "1. Calculate $f(0)$: substitute $x=0$ to get $f(0)=e^0\\ln(1+0)=0$, that is the tangent point is $(0,0)$;\\n2. Find the derivative of $f(x)$: $f'(x)=e^x\\left[\\ln(1+x)+\\frac{1}{1+x}\\right]$;\\n3. Calculate the slope of the tangent line $k=f'(0)$: substitute $x=0$ to get $f'(0)=e^0\\left[\\ln1+\\frac{1}{1}\\right]=1$;\\n4. According to the point-slope form $y-y_0=k(x-x_0)$, substitute the tangent point and slope to get the tangent line equation $y=x$.",
+            "standardAnswer": "$y=x$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly calculating $f(0)$, 2 points for correctly finding the derivative of $f(x)$, and 1 point for finding the tangent line equation by the point-slope form.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Let $g(x)=f'(x)$, discuss the monotonicity of the function $g(x)$ on $[0,+\\infty)$;",
+            "solutionSteps": "1. From (I), we get $g(x)=e^x\\left[\\ln(1+x)+\\frac{1}{1+x}\\right]$, find the derivative of $g(x)$: $g'(x)=e^x\\left[\\ln(1+x)+\\frac{2}{1+x}-\\frac{1}{(1+x)^2}\\right]$;\\n2. Let $h(x)=\\ln(1+x)+\\frac{2}{1+x}-\\frac{1}{(1+x)^2}$, let $t=1+x$ ($t≥1$), then $m(t)=\\ln t+\\frac{2}{t}-\\frac{1}{t^2}$;\\n3. Find the derivative of $m(t)$: $m'(t)=\\frac{1}{t}-\\frac{2}{t^2}+\\frac{2}{t^3}=\\frac{(t-1)^2+1}{t^3}$, it is easy to know that $m'(t)>0$ holds for all $t≥1$;\\n4. Therefore, $h(x)$ is monotonically increasing on $[0,+\\infty)$, and $h(0)=1>0$, so $h(x)>0$ holds for all $x \\in [0,+\\infty)$;\\n5. In addition, $e^x>0$ holds for all x, so $g'(x)=e^x·h(x)>0$ holds for all $x \\in [0,+\\infty)$, that is, $g(x)$ is monotonically increasing on $[0,+\\infty)$. ",
+            "standardAnswer": "$g(x)$ is monotonically increasing on $[0,+\\infty)$",
+            "scoringCriteria": "This sub-question has a total of 5 points. 2 points for correctly finding the expression of $g'(x)$, 1 point for constructing a function and making a substitution, 1 point for correctly judging the monotonicity of the function after substitution, and 1 point for judging the monotonicity of $g(x)$ combined with the properties of $e^x$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(III) Prove that for any $s, t \\in(0,+\\infty)$, $f(s+t)>f(s)+f(t)$ holds.",
+            "solutionSteps": "1. From (II), we know that $g(x)=f'(x)$ is monotonically increasing on $[0,+\\infty)$, and $g(0)=1>0$, so $f'(x)>0$ holds for all $x \\in [0,+\\infty)$, that is, $f(x)$ is monotonically increasing on $[0,+\\infty)$;\\n2. Construct the function $w(x)=f(x+t)-f(x)$ ($x>0$, $t>0$), and find its derivative: $w'(x)=f'(x+t)-f'(x)$;\\n3. Since $g(x)$ is monotonically increasing and $x+t>x$, we have $f'(x+t)>f'(x)$, so $w'(x)>0$, that is, $w(x)$ is monotonically increasing on $(0,+\\infty)$;\\n4. Because $s>0$, so $w(s)>w(0)$, that is $f(s+t)-f(s)>f(t)-f(0)$;\\n5. From $f(0)=0$, we can get $f(s+t)-f(s)>f(t)$, that is $f(s+t)>f(s)+f(t)$, which is proved.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 6 points. 1 point for correctly judging the monotonicity of $f(x)$, 2 points for reasonably constructing the function $w(x)$ and finding its derivative, 1 point for correctly judging the monotonicity of $w(x)$, 1 point for obtaining the inequality relationship by using the monotonicity of the function, and 1 point for completing the proof combined with $f(0)=0$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知 $Q: a_{1}, a_{2}, \\cdots, a_{k}$ 为有穷整数数列。给定正整数 m，若对任意的 $n \\in{1,2, \\cdots, m}$，在 Q 中存在 $a_{i}, a_{i+1}, a_{i+2}, \\cdots, a_{i+j}(j ≥0)$，使得 $a_{i}+a_{i+1}+a_{i+2}+\\cdots+a_{i+j}=n$，则称 Q 为 m﹣连续可表数列。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）判断 Q :2,1,4 是否为5﹣连续可表数列？是否为6﹣连续可表数列？说明理由；",
+            "solutionSteps": "1. 判断是否为5-连续可表数列：对$n=1,2,3,4,5$依次验证，$a_2=1$，$a_1=2$，$a_1+a_2=3$，$a_3=4$，$a_2+a_3=5$，所有1到5的正整数均可表示，故是5-连续可表数列；\\n2. 判断是否为6-连续可表数列：验证$n=6$，在数列2,1,4中，任意连续若干项的和均无法得到6，故不是6-连续可表数列。",
+            "standardAnswer": "是5﹣连续可表数列，不是6﹣连续可表数列，理由见解析",
+            "scoringCriteria": "本问总分4分，正确判断为5-连续可表数列并给出合理验证理由得2分，正确判断为6-连续可表数列并给出合理验证理由得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若 $Q: a_{1}, a_{2}, \\cdots, a_{k}$ 为8﹣连续可表数列，求证: k 的最小值为4；",
+            "solutionSteps": "1. 反证法假设$k=3$：一个有3项的整数数列，任意连续若干项的和最多有$3+2+1=6$种不同结果，无法表示8个不同的正整数，与8-连续可表数列的定义矛盾，故$k≥4$；\\n2. 构造k=4的数列验证：构造数列4,2,1,5，可依次表示出1,2,3(2+1),4,5,6(4+2),7(2+1+4),8(1+5)，所有1到8的正整数均可表示，故k的最小值为4。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问总分5分，采用反证法假设$k=3$并正确推出矛盾得3分，构造出k=4的符合条件的数列并验证得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若 $Q: a_{1}, a_{2}, \\cdots, a_{k}$ 为20﹣连续可表数列，且 $a_{1}+a_{2}+\\cdots+a_{k}<20$，求证: $k ≥7$；",
+            "solutionSteps": "1. 先证$k≥6$：一个有5项的整数数列，任意连续若干项的和最多有$5+4+3+2+1=15$种不同结果，无法表示20个不同的正整数，故$k≥6$；\\n2. 分析k=6的情况：6项数列最多可表示$6+5+4+3+2+1=21$种不同结果，因数列是20-连续可表数列且各项和$<20$，故数列中必有负数项；\\n3. 结合5项正整数数列无法表示20个正整数，6项数列因含负数项会减少可表示的正整数个数，也无法满足20-连续可表的要求；\\n4. 验证k=7的可行性：构造数列1,2,4,5,8,-2,-1，可表示出1到20的所有正整数，且各项和小于20，故$k≥7$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问总分6分，正确证明$k≥6$得2分，分析k=6时的矛盾点得2分，构造k=7的符合条件的数列并验证得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let $Q: a_{1}, a_{2}, \\cdots, a_{k}$ be a finite integer sequence. Given a positive integer m, if for any $n \\in{1,2, \\cdots, m}$, there exist $a_{i}, a_{i+1}, a_{i+2}, \\cdots, a_{i+j}(j ≥0)$ in Q such that $a_{i}+a_{i+1}+a_{i+2}+\\cdots+a_{i+j}=n$, then Q is called an m-continuously representable sequence.",
+        "subQuestions": [
+          {
+            "question": "(I) Judge whether Q:2,1,4 is a 5-continuously representable sequence? Is it a 6-continuously representable sequence? Explain the reasons;",
+            "solutionSteps": "1. Judge whether it is a 5-continuously representable sequence: Verify $n=1,2,3,4,5$ in turn, $a_2=1$, $a_1=2$, $a_1+a_2=3$, $a_3=4$, $a_2+a_3=5$. All positive integers from 1 to 5 can be represented, so it is a 5-continuously representable sequence;\\n2. Judge whether it is a 6-continuously representable sequence: Verify $n=6$. In the sequence 2,1,4, the sum of any consecutive terms cannot be 6, so it is not a 6-continuously representable sequence.",
+            "standardAnswer": "It is a 5-continuously representable sequence, not a 6-continuously representable sequence, see the analysis for reasons",
+            "scoringCriteria": "This sub-question has a total of 4 points. 2 points for correctly judging it as a 5-continuously representable sequence and giving a reasonable verification reason, and 2 points for correctly judging it as a 6-continuously representable sequence and giving a reasonable verification reason.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(II) If $Q: a_{1}, a_{2}, \\cdots, a_{k}$ is an 8-continuously representable sequence, prove that the minimum value of k is 4;",
+            "solutionSteps": "1. Prove by contradiction with the assumption $k=3$: An integer sequence with 3 terms has at most $3+2+1=6$ different results for the sum of any consecutive terms, which cannot represent 8 different positive integers, contradicting the definition of an 8-continuously representable sequence, so $k≥4$;\\n2. Construct a sequence with k=4 for verification: Construct the sequence 4,2,1,5, which can represent 1,2,3(2+1),4,5,6(4+2),7(2+1+4),8(1+5) in turn. All positive integers from 1 to 8 can be represented, so the minimum value of k is 4.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 5 points. 3 points for assuming $k=3$ by contradiction and correctly deducing the contradiction, and 2 points for constructing a qualified sequence with k=4 and verifying it.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(III) If $Q: a_{1}, a_{2}, \\cdots, a_{k}$ is a 20-continuously representable sequence and $a_{1}+a_{2}+\\cdots+a_{k}<20$, prove that $k ≥7$;",
+            "solutionSteps": "1. First prove $k≥6$: An integer sequence with 5 terms has at most $5+4+3+2+1=15$ different results for the sum of any consecutive terms, which cannot represent 20 different positive integers, so $k≥6$;\\n2. Analyze the case of k=6: A sequence with 6 terms can represent at most $6+5+4+3+2+1=21$ different results. Since the sequence is a 20-continuously representable sequence and the sum of each term is $<20$, there must be negative terms in the sequence;\\n3. Combined with the fact that a 5-term positive integer sequence cannot represent 20 positive integers, a 6-term sequence will reduce the number of representable positive integers due to negative terms, and also cannot meet the requirement of 20-continuous representability;\\n4. Verify the feasibility of k=7: Construct the sequence 1,2,4,5,8,-2,-1, which can represent all positive integers from 1 to 20, and the sum of each term is less than 20, so $k≥7$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 6 points. 2 points for correctly proving $k≥6$, 2 points for analyzing the contradiction when k=6, and 2 points for constructing a qualified sequence with k=7 and verifying it.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

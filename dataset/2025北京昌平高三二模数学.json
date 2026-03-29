@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2025 Beijing Changping Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "在探索数智技术赋能学科学习的过程中，某中学鼓励学生使用某听说平台进行英语口语自主练习。该中学有初中生1200人，高中生800人。为了解全校学生近一个月内使用此听说平台进行英语口语自主练习的次数，从全校学生中随机抽取200名学生进行问卷调查，将他们的使用次数按照[0,10),[10,20), [20,30),[30,40),[40,50]五个区间进行分组，所得样本数据如下表：使用次数分组区间 初中生人数 高中生人数[0,10) 4 3[10,20) 38 29[20,30) 48 28[30,40) a 17[40,50] 6 3假设每个学生是否使用此听说平台进行英语口语自主练习相互独立。用频率估计概率。",
+        "subQuestions": [
+          {
+            "question": "（1）估计近一个月内全校学生中使用此听说平台进行英语口语自主练习的次数不低于30次的总人数；",
+            "solutionSteps": "1. 先根据样本总数求出a的值：4+38+48+a+6+3+29+28+17+3=200，解得a=24；\\n2. 计算样本中使用次数不低于30次的频率：(24+6+17+3)/200=50/200=1/4；\\n3. 用频率估计概率，计算全校总人数中不低于30次的人数：(1200+800)×1/4=500。",
+            "standardAnswer": "500",
+            "scoringCriteria": "本问共4分，求出a的值得1分，计算出样本中不低于30次的频率得2分，计算出全校对应总人数得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）从上面参与问卷调查且使用此听说平台进行英语口语自主练习次数不足10次的学生中随机抽取3人，记X为这3人中高中生的人数，求X的分布列和数学期望；",
+            "solutionSteps": "1. 确定抽取样本构成：不足10次的学生中初中生4人，高中生3人，共7人；\\n2. 确定X的取值：0,1,2,3；\\n3. 分别计算各取值的概率：P(X=0)=C_4^3C_3^0/C_7^3=4/35，P(X=1)=C_4^2C_3^1/C_7^3=18/35，P(X=2)=C_4^1C_3^2/C_7^3=12/35，P(X=3)=C_4^0C_3^3/C_7^3=1/35；\\n4. 列出X的分布列；\\n5. 计算数学期望：E(X)=0×4/35+1×18/35+2×12/35+3×1/35=9/7。",
+            "standardAnswer": "分布列为：| X | 0 | 1 | 2 | 3 |\\n| --- | --- | --- | --- | --- |\\n| P | 4/35 | 18/35 | 12/35 | 1/35 |；数学期望为$\\\\frac{9}{7}$",
+            "scoringCriteria": "本问共7分，确定X的取值得1分，正确计算出每个概率值各得1分（共4分），列出分布列得1分，计算出数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（3）从该校初中生和高中生中各随机抽取8名学生进行调查，设其中初中生和高中生使用此听说平台进行英语口语自主练习次数位于[20,30)的人数分别为Y₁和Y₂，比较D(Y₁)与D(Y₂)的大小。(结论不要求证明)",
+            "solutionSteps": "1. 确定Y₁、Y₂服从二项分布：Y₁~B(8,0.4)，Y₂~B(8,0.35)；\\n2. 根据二项分布方差公式D(X)=np(1-p)，分别计算方差：D(Y₁)=8×0.4×0.6=1.92，D(Y₂)=8×0.35×0.65=1.82；\\n3. 比较方差大小得出结论。",
+            "standardAnswer": "$D(Y_1)>D(Y_2)$",
+            "scoringCriteria": "本问共2分，直接写出正确结论即可得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In the process of exploring the empowerment of subject learning by digital and intelligent technology, a middle school encourages students to use a listening and speaking platform for independent oral English practice. The middle school has 1200 junior high school students and 800 senior high school students. To understand the number of times all students in the school used this listening and speaking platform for independent oral English practice in the past month, 200 students were randomly selected from the whole school for a questionnaire survey. Their usage times were divided into five intervals: [0,10), [10,20), [20,30), [30,40), [40,50]. The sample data obtained are shown in the following table: Usage Frequency Interval Number of Junior High School Students Number of Senior High School Students[0,10) 4 3[10,20) 38 29[20,30) 48 28[30,40) a 17[40,50] 6 3It is assumed that whether each student uses this listening and speaking platform for independent oral English practice is independent of each other. Estimate the probability by frequency.",
+        "subQuestions": [
+          {
+            "question": "(1) Estimate the total number of students in the whole school who used this listening and speaking platform for independent oral English practice no less than 30 times in the past month;",
+            "solutionSteps": "1. First, find the value of a according to the total number of samples: 4+38+48+a+6+3+29+28+17+3=200, solve for a=24;\\n2. Calculate the frequency of usage no less than 30 times in the sample: (24+6+17+3)/200=50/200=1/4;\\n3. Estimate the probability by frequency, and calculate the number of people with no less than 30 times in the total number of the whole school: (1200+800)×1/4=500.",
+            "standardAnswer": "500",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for finding the value of a, 2 points for calculating the frequency of no less than 30 times in the sample, and 1 point for calculating the total number of corresponding students in the whole school.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Randomly select 3 students from the above surveyed students who used the listening and speaking platform for independent oral English practice less than 10 times, let X be the number of senior high school students among the 3 students, find the probability mass function and mathematical expectation of X;",
+            "solutionSteps": "1. Determine the composition of the sampling sample: there are 4 junior high school students and 3 senior high school students among the students with less than 10 uses, a total of 7 students;\\n2. Determine the possible values of X: 0,1,2,3;\\n3. Calculate the probability of each value respectively: P(X=0)=C_4^3C_3^0/C_7^3=4/35, P(X=1)=C_4^2C_3^1/C_7^3=18/35, P(X=2)=C_4^1C_3^2/C_7^3=12/35, P(X=3)=C_4^0C_3^3/C_7^3=1/35;\\n4. List the probability mass function of X;\\n5. Calculate the mathematical expectation: E(X)=0×4/35+1×18/35+2×12/35+3×1/35=9/7.",
+            "standardAnswer": "The probability mass function is: | X | 0 | 1 | 2 | 3 |\\n| --- | --- | --- | --- | --- |\\n| P | 4/35 | 18/35 | 12/35 | 1/35 |; The mathematical expectation is $\\\\frac{9}{7}$",
+            "scoringCriteria": "This sub-question is worth 7 points. 1 point for determining the possible values of X, 1 point for correctly calculating each probability value (4 points in total), 1 point for listing the probability mass function, and 1 point for calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(3) Randomly select 8 students from the junior high school students and senior high school students of the school respectively. Let Y₁ and Y₂ be the number of junior high school students and senior high school students whose usage times of this listening and speaking platform for independent oral English practice are in [20,30) respectively, compare the sizes of D(Y₁) and D(Y₂). (No proof is required for the conclusion)",
+            "solutionSteps": "1. Determine that Y₁ and Y₂ follow the binomial distribution: Y₁~B(8,0.4), Y₂~B(8,0.35);\\n2. Calculate the variances respectively according to the binomial distribution variance formula D(X)=np(1-p): D(Y₁)=8×0.4×0.6=1.92, D(Y₂)=8×0.35×0.65=1.82;\\n3. Compare the variances to draw a conclusion.",
+            "standardAnswer": "$D(Y_1)>D(Y_2)$",
+            "scoringCriteria": "This sub-question is worth 2 points, and 2 points are awarded for directly writing the correct conclusion.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆E的方程及离心率；",
+            "solutionSteps": "1. 根据椭圆长轴长得2a=2√6，解得a=√6；\\n2. 根据四边形面积得2bc=6，即bc=3；\\n3. 结合椭圆中a²=b²+c²，代入a=√6得6=b²+c²，联立bc=3解得b=√3，c=√3；\\n4. 写出椭圆方程：$\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$；\\n5. 计算离心率e=c/a=√3/√6=√2/2。",
+            "standardAnswer": "椭圆E的方程为$\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$，离心率为$\\\\frac{\\\\sqrt{2}}{2}$",
+            "scoringCriteria": "本问共4分，求出a的值得1分，联立方程求出b和c的值得2分，写出椭圆方程并计算出离心率得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）过点(2,0)且斜率为k(k≠0)的直线与椭圆E交于A，B两点，点C与点B关于x轴对称。在x轴上是否存在定点D(m, 0)，使A，C，D三点共线？若存在，求实数m的值，若不存在，说明理由。",
+            "solutionSteps": "1. 设直线AB的方程为y=k(x-2)，设A(x₁,y₁)，B(x₂,y₂)，则C(x₂,-y₂)；\\n2. 联立直线与椭圆方程：$\\\\begin{cases}y=k(x-2) \\\\ x^2+2y^2=6\\end{cases}$，消元得(1+2k²)x²-8k²x+8k²-6=0；\\n3. 由韦达定理得x₁+x₂=8k²/(1+2k²)，x₁x₂=(8k²-6)/(1+2k²)；\\n4. 若A、C、D三点共线，则k_AD=k_CD，即y₁/(x₁-m)=-y₂/(x₂-m)，整理得k[2x₁x₂-(m+2)(x₁+x₂)+4m]=0；\\n5. 代入韦达定理结果化简：2×(8k²-6)/(1+2k²)-(m+2)×8k²/(1+2k²)+4m=(-12+4m)/(1+2k²)=0；\\n6. 解得m=3，故存在定点D(3,0)。",
+            "standardAnswer": "存在，实数m的值为3",
+            "scoringCriteria": "本问共11分，设出直线方程和点的坐标得2分，联立方程并消元得2分，正确使用韦达定理得2分，根据三点共线推出斜率相等的等式并整理得2分，代入化简求解得2分，写出最终结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation and eccentricity of the ellipse E;",
+            "solutionSteps": "1. Obtain 2a=2√6 according to the length of the major axis of the ellipse, solve for a=√6;\\n2. Obtain 2bc=6 according to the area of the quadrilateral, that is, bc=3;\\n3. Combine a²=b²+c² in the ellipse, substitute a=√6 to get 6=b²+c², solve the simultaneous equations with bc=3 to get b=√3, c=√3;\\n4. Write the equation of the ellipse: $\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$;\\n5. Calculate the eccentricity e=c/a=√3/√6=√2/2.",
+            "standardAnswer": "The equation of ellipse E is $\\\\frac{x^2}{6}+\\\\frac{y^2}{3}=1$, and the eccentricity is $\\\\frac{\\\\sqrt{2}}{2}$",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for finding the value of a, 2 points for solving the values of b and c by simultaneous equations, and 1 point for writing the equation of the ellipse and calculating the eccentricity.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) A straight line passing through the point (2,0) with a slope of k(k≠0) intersects the ellipse E at points A and B, and point C is symmetric to point B about the x-axis. Is there a fixed point D(m, 0) on the x-axis such that points A, C, D are collinear? If it exists, find the value of the real number m; if not, explain the reason.",
+            "solutionSteps": "1. Let the equation of line AB be y=k(x-2), let A(x₁,y₁), B(x₂,y₂), then C(x₂,-y₂);\\n2. Simultaneously solve the equations of the line and the ellipse: $\\\\begin{cases}y=k(x-2) \\\\ x^2+2y^2=6\\end{cases}$, eliminate y to get (1+2k²)x²-8k²x+8k²-6=0;\\n3. Obtain from Vieta's formulas: x₁+x₂=8k²/(1+2k²), x₁x₂=(8k²-6)/(1+2k²);\\n4. If points A, C, D are collinear, then k_AD=k_CD, that is, y₁/(x₁-m)=-y₂/(x₂-m), which is sorted out to k[2x₁x₂-(m+2)(x₁+x₂)+4m]=0;\\n5. Substitute the results of Vieta's formulas and simplify: 2×(8k²-6)/(1+2k²)-(m+2)×8k²/(1+2k²)+4m=(-12+4m)/(1+2k²)=0;\\n6. Solve for m=3, so there exists a fixed point D(3,0).",
+            "standardAnswer": "Exists, the value of the real number m is 3",
+            "scoringCriteria": "This sub-question is worth 11 points. 2 points for setting the equation of the line and the coordinates of the points, 2 points for simultaneous equations and elimination, 2 points for correctly using Vieta's formulas, 2 points for deducing and sorting out the equality of slopes according to collinear points, 2 points for substituting and simplifying to solve, and 1 point for writing the final conclusion.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=(x-2) e^{x}-\\\\frac{a}{3} x^{3}+b x^{2}$，其中$a ≥0$，$b ≥0$",
+        "subQuestions": [
+          {
+            "question": "（1）当$a=0$，$b=0$时，①若$x ≤3$，求函数$f(x)$的最大值；",
+            "solutionSteps": "1. 代入a=0，b=0得$f(x)=(x-2)e^x$；\\n2. 求导得$f'(x)=(x-1)e^x$；\\n3. 分析单调性：当x<1时，f'(x)<0，f(x)单调递减；当1<x≤3时，f'(x)>0，f(x)单调递增；\\n4. 比较端点值和极值，f(3)=e³，x<1时f(x)<0，故x≤3时f(x)的最大值为e³。",
+            "standardAnswer": "$e^3$",
+            "scoringCriteria": "本问共4分，代入参数得到函数解析式得1分，正确求导得1分，分析出函数的单调性得1分，求出最大值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（1）当$a=0$，$b=0$时，②若直线l是曲线$f(x)$的切线，且l经过点$(t, 0)$，证明：$|t| ≥2$；",
+            "solutionSteps": "1. 设切点为$(x_0,(x_0-2)e^{x_0})$，切线斜率$f'(x_0)=(x_0-1)e^{x_0}$；\\n2. 写出切线方程：$y-(x_0-2)e^{x_0}=(x_0-1)e^{x_0}(x-x_0)$；\\n3. 代入点(t,0)得：$-(x_0-2)e^{x_0}=(x_0-1)e^{x_0}(t-x_0)$，约去$e^{x_0}$整理得$x_0^2-(t+2)x_0+t+2=0$；\\n4. 切线存在则方程有实根，判别式$Δ=(t+2)^2-4(t+2)≥0$，解得t²≥4，即$|t|≥2$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问共5分，设出切点并求出切线斜率得1分，写出切线方程得1分，代入点的坐标并整理得到一元二次方程得1分，利用判别式建立不等式得1分，解不等式得出结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（2）当$b>0$时，若$x=1$是函数$f(x)$的极小值点，求b的取值范围。",
+            "solutionSteps": "1. 求导得$f'(x)=(x-1)e^x-ax²+2bx$；\\n2. 由x=1是极小值点得$f'(1)=-a+2b=0$，即a=2b，代入得$f'(x)=(x-1)(e^x-2bx)$；\\n3. 令$g(x)=e^x-2bx$，求导得$g'(x)=e^x-2b$，令g'(x)=0得x=ln(2b)；\\n4. 分析g(x)单调性：x<ln(2b)时g'(x)<0，g(x)递减；x>ln(2b)时g'(x)>0，g(x)递增，$g(x)_{min}=2b(1-ln(2b))$；\\n5. 分类讨论：当$g(x)_{min}≥0$即0<b≤e/2时，g(x)≥0，f(x)在(-∞,1)递减，(1,+∞)递增，x=1是极小值点；当b>e/2时，g(1)=e-2b<0，存在x₁∈(0,1)使g(x₁)=0，x∈(x₁,1)时f'(x)>0，x=1不是极小值点；\\n6. 综上得b的取值范围为$(0, \\\\frac{e}{2}]$。",
+            "standardAnswer": "$(0, \\\\frac{e}{2}]$",
+            "scoringCriteria": "本问共6分，正确求导并由极小值点求出a=2b得1分，因式分解导数式并构造函数g(x)得1分，求g(x)的导数并分析单调性得1分，求出g(x)的最小值得1分，分类讨论并分析不同情况下f(x)的单调性得1分，得出b的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=(x-2) e^{x}-\\\\frac{a}{3} x^{3}+b x^{2}$, where $a ≥0$ and $b ≥0$",
+        "subQuestions": [
+          {
+            "question": "(1) When $a=0$ and $b=0$, ① if $x ≤3$, find the maximum value of the function $f(x)$;",
+            "solutionSteps": "1. Substitute a=0 and b=0 to get $f(x)=(x-2)e^x$;\\n2. Find the derivative to get $f'(x)=(x-1)e^x$;\\n3. Analyze the monotonicity: when x<1, f'(x)<0, f(x) is monotonically decreasing; when 1<x≤3, f'(x)>0, f(x) is monotonically increasing;\\n4. Compare the endpoint values and extreme values, f(3)=e³, f(x)<0 when x<1, so the maximum value of f(x) when x≤3 is e³.",
+            "standardAnswer": "$e^3$",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for obtaining the function analytic formula by substituting parameters, 1 point for correctly finding the derivative, 1 point for analyzing the monotonicity of the function, and 1 point for finding the maximum value.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(1) When $a=0$ and $b=0$, ② if the straight line l is the tangent of the curve $f(x)$ and l passes through the point $(t, 0)$, prove that $|t| ≥2$;",
+            "solutionSteps": "1. Let the tangent point be $(x_0,(x_0-2)e^{x_0})$, the slope of the tangent is $f'(x_0)=(x_0-1)e^{x_0}$;\\n2. Write the tangent equation: $y-(x_0-2)e^{x_0}=(x_0-1)e^{x_0}(x-x_0)$;\\n3. Substitute the point (t,0) to get: $-(x_0-2)e^{x_0}=(x_0-1)e^{x_0}(t-x_0)$, cancel out $e^{x_0}$ and sort out to get $x_0^2-(t+2)x_0+t+2=0$;\\n4. The existence of the tangent means the equation has real roots, the discriminant $Δ=(t+2)^2-4(t+2)≥0$, solve to get t²≥4, that is $|t|≥2$.",
+            "standardAnswer": "Proof is shown in the analysis",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for setting the tangent point and finding the slope of the tangent, 1 point for writing the tangent equation, 1 point for substituting the coordinates of the point and sorting out to get a quadratic equation with one variable, 1 point for establishing an inequality by using the discriminant, and 1 point for solving the inequality to draw a conclusion.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(2) When $b>0$, if $x=1$ is the minimum extreme point of the function $f(x)$, find the range of values of b.",
+            "solutionSteps": "1. Find the derivative to get $f'(x)=(x-1)e^x-ax²+2bx$;\\n2. Since x=1 is the minimum extreme point, $f'(1)=-a+2b=0$, that is a=2b, substitute to get $f'(x)=(x-1)(e^x-2bx)$;\\n3. Let $g(x)=e^x-2bx$, find the derivative to get $g'(x)=e^x-2b$, let g'(x)=0 to get x=ln(2b);\\n4. Analyze the monotonicity of g(x): g'(x)<0 when x<ln(2b), g(x) is decreasing; g'(x)>0 when x>ln(2b), g(x) is increasing, $g(x)_{min}=2b(1-ln(2b))$;\\n5. Discuss by cases: when $g(x)_{min}≥0$ i.e. 0<b≤e/2, g(x)≥0, f(x) is decreasing on (-∞,1) and increasing on (1,+∞), x=1 is the minimum extreme point; when b>e/2, g(1)=e-2b<0, there exists x₁∈(0,1) such that g(x₁)=0, f'(x)>0 when x∈(x₁,1), x=1 is not the minimum extreme point;\\n6. In conclusion, the range of values of b is $(0, \\\\frac{e}{2}]$.",
+            "standardAnswer": "$(0, \\\\frac{e}{2}]$",
+            "scoringCriteria": "This sub-question is worth 6 points. 1 point for correctly finding the derivative and finding a=2b from the minimum extreme point, 1 point for factoring the derivative expression and constructing the function g(x), 1 point for finding the derivative of g(x) and analyzing its monotonicity, 1 point for finding the minimum value of g(x), 1 point for discussing by cases and analyzing the monotonicity of f(x) in different cases, and 1 point for obtaining the range of values of b.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设m为正整数，数列$A: a_{1}, a_{2}, \\cdots, a_{5 m+2}$是公差不为0的等差数列，若从中去掉两项$a_{i}$和$a_{j}(i<j)$后剩余的$5 m$项可被平均分为m组，且每组的5个数都能构成等差数列，则称数列A是$(i, j)$的可分数列。",
+        "subQuestions": [
+          {
+            "question": "（1）写出所有$(i, j)$，$1 ≤i<j ≤7$，使得数列$a_{1}, a_{2}, \\cdots, a_{7}$是$(i, j)$的可分数列；",
+            "solutionSteps": "1. 由题意知5m+2=7，解得m=1，需去掉2项后剩余5项构成1组等差数列；\\n2. 根据可分数列的定义，逐一验证1≤i<j≤7的情况，得出符合条件的(i,j)为(1,2)、(1,7)、(6,7)。",
+            "standardAnswer": "(1,2)、(1,7)、(6,7)",
+            "scoringCriteria": "本问共4分，求出m的值得1分，正确写出所有符合条件的(i,j)每组得1分，共3分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）当$m ≥3$时，证明：数列$a_{1}, a_{2}, \\cdots, a_{5 m+2}$是(2,16)的可分数列；",
+            "solutionSteps": "1. 设数列的公差为d(d≠0)，分m=3和m>3两种情况证明；\\n2. 当m=3时，5m+2=17，去掉a₂和a₁₆后剩余15项，分为三组：$a_1,a_4,a_7,a_{10},a_{13}$；$a_3,a_6,a_9,a_{12},a_{15}$；$a_5,a_8,a_{11},a_{14},a_{17}$，每组均为公差3d的等差数列；\\n3. 当m>3时，去掉a₂和a₁₆后，前15项按m=3的方式分组，后面的项按原顺序每5项分为一组，每组均为公差d的等差数列；\\n4. 综上，当m≥3时，数列是(2,16)的可分数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问共5分，设出数列公差并确定分类标准得1分，证明m=3时的情况得2分，证明m>3时的情况得1分，写出最终证明结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）若数列$a_{1}, a_{2}, \\cdots, a_{5 m+2}$是$(i, j)$的可分数列，记所有满足条件的$(i, j)$的个数为p，求p的值。",
+            "solutionSteps": "1. 将数列表示为$a_{1}, a_{2}, \\cdots, a_{5 k+1}, a_{5 k+2}, \\cdots, a_{5 n+1}, a_{5 n+2}, \\cdots, a_{5 m+2}(0 ≤k ≤n ≤m)$；\\n2. 分两类情况讨论符合条件的(i,j)：第一类为去掉$a_{5k+1}$和$a_{5n+2}$，符合0≤k≤n≤m的组数为$C_{m+1}^2+m+1$；第二类为去掉$a_{5k+2}$和$a_{5n+1}$，符合0≤k<n≤m的组数为$C_{m+1}^2-m$；\\n3. 计算总个数p：$p=C_{m+1}^2+m+1+C_{m+1}^2-m$，化简得$p=m²+m+1$；\\n4. 结合集合分划验证，确认所有符合条件的(i,j)均在上述两类中，故p=m²+m+1。",
+            "standardAnswer": "$p=m^2+m+1$",
+            "scoringCriteria": "本问共6分，将数列合理表示并确定分类讨论的标准得1分，分析第一类符合条件的(i,j)个数得2分，分析第二类符合条件的(i,j)个数得1分，计算并化简得出p的表达式得1分，验证结论的合理性得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let m be a positive integer, and the sequence $A: a_{1}, a_{2}, \\cdots, a_{5 m+2}$ is an arithmetic sequence with a non-zero common difference. If after removing two terms $a_{i}$ and $a_{j}(i<j)$ from it, the remaining $5 m$ terms can be evenly divided into m groups, and each group of 5 numbers can form an arithmetic sequence, then the sequence A is called a divisible sequence of $(i, j)$. ",
+        "subQuestions": [
+          {
+            "question": "(1) Write all $(i, j)$ with $1 ≤i<j ≤7$ such that the sequence $a_{1}, a_{2}, \\cdots, a_{7}$ is a divisible sequence of $(i, j)$;",
+            "solutionSteps": "1. From the meaning of the question, 5m+2=7, solve for m=1, it is necessary to remove 2 terms and the remaining 5 terms form 1 group of arithmetic sequence;\\n2. According to the definition of the divisible sequence, verify the cases of 1≤i<j≤7 one by one, and obtain the eligible (i,j) as (1,2), (1,7), (6,7).",
+            "standardAnswer": "(1,2), (1,7), (6,7)",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for finding the value of m, and 1 point for each set of correctly writing all eligible (i,j), a total of 3 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) When $m ≥3$, prove that the sequence $a_{1}, a_{2}, \\cdots, a_{5 m+2}$ is a divisible sequence of (2,16);",
+            "solutionSteps": "1. Let the common difference of the sequence be d(d≠0), and prove by dividing into two cases: m=3 and m>3;\\n2. When m=3, 5m+2=17, after removing a₂ and a₁₆, 15 terms remain, which are divided into three groups: $a_1,a_4,a_7,a_{10},a_{13}$; $a_3,a_6,a_9,a_{12},a_{15}$; $a_5,a_8,a_{11},a_{14},a_{17}$, each group is an arithmetic sequence with a common difference of 3d;\\n3. When m>3, after removing a₂ and a₁₆, the first 15 terms are grouped in the same way as m=3, and the subsequent terms are divided into groups of 5 terms in the original order, each group is an arithmetic sequence with a common difference of d;\\n4. In conclusion, when m≥3, the sequence is a divisible sequence of (2,16).",
+            "standardAnswer": "Proof is shown in the analysis",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for setting the common difference of the sequence and determining the classification standard, 2 points for proving the case when m=3, 1 point for proving the case when m>3, and 1 point for writing the final proof conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) If the sequence $a_{1}, a_{2}, \\cdots, a_{5 m+2}$ is a divisible sequence of $(i, j)$, denote the number of all eligible $(i, j)$ as p, find the value of p.",
+            "solutionSteps": "1. Express the sequence as $a_{1}, a_{2}, \\cdots, a_{5 k+1}, a_{5 k+2}, \\cdots, a_{5 n+1}, a_{5 n+2}, \\cdots, a_{5 m+2}(0 ≤k ≤n ≤m)$;\\n2. Discuss the eligible (i,j) in two categories: the first category is removing $a_{5k+1}$ and $a_{5n+2}$, the number of groups eligible for 0≤k≤n≤m is $C_{m+1}^2+m+1$; the second category is removing $a_{5k+2}$ and $a_{5n+1}$, the number of groups eligible for 0≤k<n≤m is $C_{m+1}^2-m$;\\n3. Calculate the total number p: $p=C_{m+1}^2+m+1+C_{m+1}^2-m$, simplify to get $p=m²+m+1$;\\n4. Verify combined with set partition, confirm that all eligible (i,j) are in the above two categories, so p=m²+m+1.",
+            "standardAnswer": "$p=m^2+m+1$",
+            "scoringCriteria": "This sub-question is worth 6 points. 1 point for reasonably expressing the sequence and determining the standard of classified discussion, 2 points for analyzing the number of eligible (i,j) in the first category, 1 point for analyzing the number of eligible (i,j) in the second category, 1 point for calculating and simplifying to obtain the expression of p, and 1 point for verifying the rationality of the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

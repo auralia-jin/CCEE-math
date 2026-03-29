@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2024 Beijing Xicheng Senior Three Second Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "为研究中国工业机器人产量和销量的变化规律，收集得到了2015-2023年工业机器人的产量和销量数据，如下表所示。记2015-2023年工业机器人产量的中位数为a，销量的中位数为b。定义产销率为“产销率=销量/产量×100%”。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从2015-2023年中随机取1年，求工业机器人的产销率大于100%的概率；",
+                        "solutionSteps": "1. 记事件A为“工业机器人的产销率大于100%”；2. 从表中数据找出产销率大于100%的年份为2015年、2016年、2017年、2018年，共4年；3. 总年份数为9年，根据古典概型概率公式P(A)=符合条件的情况数/总情况数，计算得P(A)=4/9。",
+                        "standardAnswer": "$\\frac{4}{9}$",
+                        "scoringCriteria": "该问共3分，记出事件得1分，找出产销率大于100%的年份数量得1分，代入古典概型公式计算出正确概率得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）从2018-2023年这6年中随机取2年，这2年中有X年工业机器人的产量不小于a，有Y年工业机器人的销量不小于b。记Z=X+Y，求Z的分布列和数学期望EZ；",
+                        "solutionSteps": "1. 确定产量中位数a=18.7，销量中位数b=15.4；2. 分析得X的可能取值为1、2，Y的可能取值为1、2，因此Z的可能取值为2、3、4；3. 根据组合数公式计算概率：P(Z=2)=C_{2}^{2}/C_{6}^{2}=1/15，P(Z=3)=C_{2}^{1}C_{4}^{1}/C_{6}^{2}=8/15，P(Z=4)=C_{4}^{2}/C_{6}^{2}=2/5；4. 列出Z的分布列；5. 根据数学期望公式EZ=2×P(Z=2)+3×P(Z=3)+4×P(Z=4)，计算得EZ=10/3。",
+                        "standardAnswer": "Z的分布列为：Z:2，P:1/15；Z:3，P:8/15；Z:4，P:2/5；数学期望$E(Z)=\\frac{10}{3}$",
+                        "scoringCriteria": "该问共7分，确定a、b的值得1分，找出Z的所有可能取值得1分，正确计算出每个取值对应的概率各1分（共3分），列出分布列得1分，计算出正确的数学期望得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）从哪年开始的连续5年中随机取1年，工业机器人的产销率超过70%的概率最小。（结论不要求证明）",
+                        "solutionSteps": "根据表中数据直接分析判断，无需证明过程。",
+                        "standardAnswer": "2018年和2019年",
+                        "scoringCriteria": "该问共3分，直接写出正确结论得3分，结论错误不得分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "To study the variation laws of the output and sales volume of industrial robots in China, the data of the output and sales volume of industrial robots from 2015 to 2023 are collected as shown in the following table. Let a be the median of the output of industrial robots from 2015 to 2023, and b be the median of the sales volume. Define the production and sales rate as \"Production and sales rate = (sales volume / output) × 100%\".",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one year from 2015 to 2023, find the probability that the production and sales rate of industrial robots is greater than 100%;",
+                        "solutionSteps": "1. Denote event A as \"the production and sales rate of industrial robots is greater than 100%\"; 2. From the data in the table, find the years with production and sales rate greater than 100% are 2015, 2016, 2017 and 2018, a total of 4 years; 3. The total number of years is 9. According to the probability formula of classical probability model P(A)=number of favorable cases / total number of cases, calculate P(A)=4/9.",
+                        "standardAnswer": "$\\frac{4}{9}$",
+                        "scoringCriteria": "This sub-question is worth 3 points. 1 point for denoting the event, 1 point for finding the number of years with production and sales rate greater than 100%, and 1 point for calculating the correct probability by substituting the classical probability model formula.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Randomly select 2 years from the 6 years of 2018 to 2023. Among these 2 years, there are X years with the output of industrial robots not less than a, and Y years with the sales volume of industrial robots not less than b. Let Z=X+Y, find the probability mass function of Z and the mathematical expectation EZ;",
+                        "solutionSteps": "1. Determine the median of output a=18.7 and the median of sales volume b=15.4; 2. Analyze that the possible values of X are 1 and 2, and the possible values of Y are 1 and 2, so the possible values of Z are 2, 3 and 4; 3. Calculate the probabilities according to the combination formula: P(Z=2)=C_{2}^{2}/C_{6}^{2}=1/15, P(Z=3)=C_{2}^{1}C_{4}^{1}/C_{6}^{2}=8/15, P(Z=4)=C_{4}^{2}/C_{6}^{2}=2/5; 4. List the probability mass function of Z; 5. According to the mathematical expectation formula EZ=2×P(Z=2)+3×P(Z=3)+4×P(Z=4), calculate EZ=10/3.",
+                        "standardAnswer": "The probability mass function of Z is: Z:2, P:1/15; Z:3, P:8/15; Z:4, P:2/5; The mathematical expectation $E(Z)=\\frac{10}{3}$",
+                        "scoringCriteria": "This sub-question is worth 7 points. 1 point for determining the values of a and b, 1 point for finding all possible values of Z, 1 point for correctly calculating the probability corresponding to each value (3 points in total), 1 point for listing the probability mass function, and 1 point for calculating the correct mathematical expectation.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) From which year on, the probability that the production and sales rate of industrial robots exceeds 70% when randomly selecting one year from the consecutive 5 years is the smallest. (No proof is required for the conclusion)",
+                        "solutionSteps": "Directly analyze and judge according to the data in the table, no proof process is needed.",
+                        "standardAnswer": "2018 and 2019",
+                        "scoringCriteria": "This sub-question is worth 3 points. 3 points for directly writing the correct conclusion, and no points for wrong conclusion.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数$f(x)=4 a \\sin x+(a^{2}+1) x^{2}$，其中$a ≥0$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若$f(x)$在$x=0$处取得极小值，求a的值；",
+                        "solutionSteps": "1. 求函数$f(x)$的导数$f'(x)=4a\\cos x+2(a^2+1)x$；2. 由函数在$x=0$处取得极小值，得$f'(0)=0$，代入计算得$4a=0$，解得$a=0$；3. 验证当$a=0$时，$f(x)=x^2$，该函数在$(-\\infty,0)$上单调递减，在$(0,+\\infty)$上单调递增，在$x=0$处取得极小值，符合题意，故$a=0$。",
+                        "standardAnswer": "$0$",
+                        "scoringCriteria": "该问共4分，正确求出导数得2分，根据极小值条件求出a的值得1分，验证a的值符合题意得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）当$a=1$时，求$f(x)$在区间$[\\frac{\\pi}{2}, \\pi]$上的最大值；",
+                        "solutionSteps": "1. 当$a=1$时，$f(x)=4\\sin x+2x^2$，求导得$f'(x)=4\\cos x+4x=4(\\cos x+x)$；2. 分析区间$[\\frac{\\pi}{2}, \\pi]$内，$-1 ≤ \\cos x ≤ 0$，$x ≥ \\frac{\\pi}{2}$，故$f'(x)=4(\\cos x+x)>0$，即$f(x)$在该区间上单调递增；3. 因此$f(x)$在区间$[\\frac{\\pi}{2}, \\pi]$上的最大值为$f(\\pi)$，计算得$f(\\pi)=2\\pi^2$。",
+                        "standardAnswer": "$2\\pi^2$",
+                        "scoringCriteria": "该问共5分，代入a的值并求出正确导数得2分，判断出函数在区间内的单调性得2分，计算出正确的最大值得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）证明：$f(x)$有且只有一个极值点。",
+                        "solutionSteps": "1. 求导得$f'(x)=4a\\cos x+2(a^2+1)x$，令$g(x)=f'(x)$；2. 当$a=0$时，$f(x)=x^2$，其导数$f'(x)=2x$，仅在$x=0$处导数为0，且函数在$(-\\infty,0)$递减，$(0,+\\infty)$递增，恰有一个极值点；3. 当$a>0$时，求$g(x)$的导数$g'(x)=-4a\\sin x+2(a^2+1)=-4a(\\sin x-\\frac{a^2+1}{2a})$；4. 由基本不等式$\\frac{a^2+1}{2a}=\\frac{a}{2}+\\frac{1}{2a} ≥1$，且$\\sin x ≤1$，故$g'(x) ≥0$，即$g(x)$在$(-\\infty,+\\infty)$上单调递增；5. 计算$g(-\\frac{\\pi}{2})=-(a^2+1)\\pi<0$，$g(0)=4a>0$，根据零点存在定理，存在唯一$x_0 \\in (-\\frac{\\pi}{2}, 0)$，使$g(x_0)=f'(x_0)=0$；6. 故$f(x)$在$(-\\infty, x_0)$上单调递减，在$(x_0,+\\infty)$上单调递增，恰有一个极值点；7. 综上，当$a ≥0$时，$f(x)$有且只有一个极值点。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "该问共6分，求出$f'(x)$并构造$g(x)$得1分，讨论$a=0$时的情况得1分，求出$g'(x)$并利用基本不等式判断其符号得2分，利用零点存在定理找到唯一零点并分析函数单调性得1分，得出最终结论得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=4 a \\sin x+(a^{2}+1) x^{2}$, where $a ≥0$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $f(x)$ attains a local minimum at $x=0$, find the value of a;",
+                        "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=4a\\cos x+2(a^2+1)x$; 2. Since the function attains a local minimum at $x=0$, we have $f'(0)=0$. Substitute and calculate to get $4a=0$, so $a=0$; 3. Verify that when $a=0$, $f(x)=x^2$, this function is monotonically decreasing on $(-\\infty,0)$ and monotonically increasing on $(0,+\\infty)$, attaining a local minimum at $x=0$, which is in line with the meaning of the question, so $a=0$.",
+                        "standardAnswer": "$0$",
+                        "scoringCriteria": "This sub-question is worth 4 points. 2 points for correctly finding the derivative, 1 point for finding the value of a according to the local minimum condition, and 1 point for verifying that the value of a is in line with the meaning of the question.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) When $a=1$, find the maximum value of $f(x)$ on the interval $[\\frac{\\pi}{2}, \\pi]$;",
+                        "solutionSteps": "1. When $a=1$, $f(x)=4\\sin x+2x^2$, find the derivative: $f'(x)=4\\cos x+4x=4(\\cos x+x)$; 2. Analyze that in the interval $[\\frac{\\pi}{2}, \\pi]$, $-1 ≤ \\cos x ≤ 0$ and $x ≥ \\frac{\\pi}{2}$, so $f'(x)=4(\\cos x+x)>0$, that is, $f(x)$ is monotonically increasing on this interval; 3. Therefore, the maximum value of $f(x)$ on the interval $[\\frac{\\pi}{2}, \\pi]$ is $f(\\pi)$, and calculate to get $f(\\pi)=2\\pi^2$.",
+                        "standardAnswer": "$2\\pi^2$",
+                        "scoringCriteria": "This sub-question is worth 5 points. 2 points for substituting the value of a and finding the correct derivative, 2 points for judging the monotonicity of the function in the interval, and 1 point for calculating the correct maximum value.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Prove that $f(x)$ has exactly one extreme point.",
+                        "solutionSteps": "1. Find the derivative: $f'(x)=4a\\cos x+2(a^2+1)x$, let $g(x)=f'(x)$; 2. When $a=0$, $f(x)=x^2$, its derivative $f'(x)=2x$, the derivative is zero only at $x=0$, and the function is decreasing on $(-\\infty,0)$ and increasing on $(0,+\\infty)$, with exactly one extreme point; 3. When $a>0$, find the derivative of $g(x)$: $g'(x)=-4a\\sin x+2(a^2+1)=-4a(\\sin x-\\frac{a^2+1}{2a})$; 4. From the basic inequality $\\frac{a^2+1}{2a}=\\frac{a}{2}+\\frac{1}{2a} ≥1$, and $\\sin x ≤1$, so $g'(x) ≥0$, that is, $g(x)$ is monotonically increasing on $(-\\infty,+\\infty)$; 5. Calculate $g(-\\frac{\\pi}{2})=-(a^2+1)\\pi<0$, $g(0)=4a>0$. According to the Zero Existence Theorem, there exists a unique $x_0 \\in (-\\frac{\\pi}{2}, 0)$ such that $g(x_0)=f'(x_0)=0$; 6. Therefore, $f(x)$ is monotonically decreasing on $(-\\infty, x_0)$ and monotonically increasing on $(x_0,+\\infty)$, with exactly one extreme point; 7. In conclusion, when $a ≥0$, $f(x)$ has exactly one extreme point.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question is worth 6 points. 1 point for finding $f'(x)$ and constructing $g(x)$, 1 point for discussing the case when $a=0$, 2 points for finding $g'(x)$ and judging its sign by using the basic inequality, 1 point for finding the unique zero point by using the Zero Existence Theorem and analyzing the monotonicity of the function, and 1 point for drawing the final conclusion.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆$E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的一个顶点为$D(2,0)$，焦距为$2\\sqrt{2}$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆E的方程；",
+                        "solutionSteps": "1. 由椭圆的一个顶点为$D(2,0)$，得$a=2$；2. 由焦距为$2\\sqrt{2}$，得$2c=2\\sqrt{2}$，即$c=\\sqrt{2}$；3. 根据椭圆中$a^2-b^2=c^2$，代入计算得$4-b^2=2$，解得$b^2=2$；4. 因此椭圆E的方程为$\\frac{x^2}{4}+\\frac{y^2}{2}=1$。",
+                        "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+                        "scoringCriteria": "该问共4分，求出a的值得1分，求出c的值得1分，利用$a^2-b^2=c^2$求出$b^2$的值得1分，写出正确的椭圆方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设点P是第一象限内椭圆E上一点，过P作y轴的垂线，垂足为Q。点P关于原点的对称点为A，直线DQ与椭圆的另一个交点为B，直线DP与y轴的交点为C。求证：A，B，C三点共线。",
+                        "solutionSteps": "1. 设$P(m, n)$，则$Q(0, n)$，$A(-m,-n)$，其中$m^2+2n^2=4$，$m>0$，$n>0$；2. 求直线DP的方程为$y=\\frac{n}{m-2}(x-2)$，令$x=0$，得$C(0, \\frac{-2n}{m-2})$；3. 求直线DQ的方程为$y=-\\frac{n}{2}(x-2)$，联立椭圆方程$\\begin{cases}y=-\\frac{n}{2}(x-2) \\\\ x^2+2y^2=4\\end{cases}$，消元得$(n^2+2)x^2-4n^2x+4n^2-8=0$；4. 设$B(x_B, y_B)$，由韦达定理$x_B x_D=\\frac{4n^2-8}{n^2+2}$，$x_D=2$，解得$x_B=\\frac{2n^2-4}{n^2+2}$，代入直线DQ方程得$y_B=\\frac{4n}{n^2+2}$，即$B(\\frac{2n^2-4}{n^2+2}, \\frac{4n}{n^2+2})$；5. 计算直线AC和直线BC的斜率$k_{AC}$和$k_{BC}$，化简$k_{AC}-k_{BC}$，代入$m^2+2n^2=4$，得$k_{AC}-k_{BC}=0$，即$k_{AC}=k_{BC}$；6. 因为直线AC和BC有公共点C，故A，B，C三点共线。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "该问共11分，设出点的坐标并写出椭圆约束条件得1分，求出点C的坐标得2分，求出直线DQ方程并与椭圆方程联立消元得2分，利用韦达定理求出点B的坐标得2分，计算并化简斜率之差得3分，得出三点共线的结论得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given an ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ with one vertex at $D(2,0)$ and a focal length of $2\\sqrt{2}$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of the ellipse E;",
+                        "solutionSteps": "1. From one vertex of the ellipse being $D(2,0)$, we get $a=2$; 2. From the focal length being $2\\sqrt{2}$, we get $2c=2\\sqrt{2}$, that is, $c=\\sqrt{2}$; 3. According to $a^2-b^2=c^2$ in the ellipse, substitute and calculate to get $4-b^2=2$, so $b^2=2$; 4. Therefore, the equation of the ellipse E is $\\frac{x^2}{4}+\\frac{y^2}{2}=1$.",
+                        "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+                        "scoringCriteria": "This sub-question is worth 4 points. 1 point for finding the value of a, 1 point for finding the value of c, 1 point for finding the value of $b^2$ by using $a^2-b^2=c^2$, and 1 point for writing the correct ellipse equation.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let point P be a point on the ellipse E in the first quadrant, draw a perpendicular line from P to the y-axis with the foot of the perpendicular at Q. Let A be the symmetric point of P about the origin, B be the other intersection point of the line DQ and the ellipse, and C be the intersection point of the line DP and the y-axis. Prove that points A, B and C are collinear.",
+                        "solutionSteps": "1. Let $P(m, n)$, then $Q(0, n)$, $A(-m,-n)$, where $m^2+2n^2=4$, $m>0$, $n>0$; 2. Find the equation of the line DP: $y=\\frac{n}{m-2}(x-2)$, let $x=0$, get $C(0, \\frac{-2n}{m-2})$; 3. Find the equation of the line DQ: $y=-\\frac{n}{2}(x-2)$,联立 the ellipse equation $\\begin{cases}y=-\\frac{n}{2}(x-2) \\\\ x^2+2y^2=4\\end{cases}$, eliminate y to get $(n^2+2)x^2-4n^2x+4n^2-8=0$; 4. Let $B(x_B, y_B)$, from Vieta's theorem $x_B x_D=\\frac{4n^2-8}{n^2+2}$, $x_D=2$, solve to get $x_B=\\frac{2n^2-4}{n^2+2}$, substitute into the line DQ equation to get $y_B=\\frac{4n}{n^2+2}$, that is, $B(\\frac{2n^2-4}{n^2+2}, \\frac{4n}{n^2+2})$; 5. Calculate the slopes $k_{AC}$ and $k_{BC}$ of the line AC and the line BC, simplify $k_{AC}-k_{BC}$, substitute $m^2+2n^2=4$, get $k_{AC}-k_{BC}=0$, that is, $k_{AC}=k_{BC}$; 6. Since the line AC and BC have a common point C, points A, B and C are collinear.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question is worth 11 points. 1 point for setting the coordinates of the points and writing the ellipse constraint condition, 2 points for finding the coordinates of point C, 2 points for finding the equation of line DQ and eliminating the variable by联立 with the ellipse equation, 2 points for finding the coordinates of point B by using Vieta's theorem, 3 points for calculating and simplifying the difference of the slopes, and 1 point for drawing the conclusion that the three points are collinear.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知数列$A: a_1,a_2,\\dots,a_n$，从A中选取第$i_1$项、第$i_2$项、…、第$i_k$项$(i_1<i_2<\\dots<i_k)$构成数列$B: a_{i_1},a_{i_2},\\dots,a_{i_k}$，B称为A的k项子列。记数列B的所有项的和为$T(B)$。当$k ≥2$时，若B满足：对任意$s \\in{1,2, \\dots, k-1}$，$i_{s+1}-i_{s}=1$，则称B具有性质P。规定：A的任意一项都是A的1项子列，且具有性质P。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当$n=4$时，比较A的具有性质P的子列个数与不具有性质P的子列个数的大小，并说明理由；",
+                        "solutionSteps": "1. 计算数列A的所有子列个数：$2^4-1=15$个；2. 计算具有性质P的子列个数：1项子列有4个，2项连续子列有3个，3项连续子列有2个，4项连续子列有1个，总计$4+3+2+1=10$个；3. 计算不具有性质P的子列个数：$15-10=5$个；4. 比较大小得具有性质P的子列个数大于不具有性质P的子列个数。",
+                        "standardAnswer": "A的具有性质P的子列个数大于不具有性质P的子列个数，理由见解析",
+                        "scoringCriteria": "该问共4分，计算出所有子列个数得1分，计算出具有性质P的子列个数得2分，计算出不具有性质P的子列个数并比较大小得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）(ⅰ)给定正整数$k ≤\\frac{n}{2}$，对A的k项子列B，求所有$T(B)$的算术平均值；",
+                        "solutionSteps": "1. 设B：$a_{i_1},a_{i_2},\\dots,a_{i_k}$是A的k项子列，构造子列B'：$n+1-a_{i_1},n+1-a_{i_2},\\dots,n+1-a_{i_k}$，B'也是A的k项子列；2. 计算$T(B)+T(B')=\\sum_{j=1}^{k}a_{i_j}+\\sum_{j=1}^{k}(n+1-a_{i_j})=k(n+1)$；3. 数列A的k项子列共有$C_n^k$个，且子列可两两配对为(B,B')，每对和为$k(n+1)$；4. 所有$T(B)$的和为$\\frac{1}{2}C_n^k \\cdot k(n+1)$，因此算术平均值为$\\frac{1}{C_n^k} \\cdot \\frac{1}{2}C_n^k \\cdot k(n+1)=\\frac{k(n+1)}{2}$。",
+                        "standardAnswer": "$\\frac{k(n+1)}{2}$",
+                        "scoringCriteria": "该问共5分，构造对应的子列B'得1分，计算出$T(B)+T(B')$的结果得2分，确定k项子列的总数并分析配对情况得1分，计算出正确的算术平均值得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅱ）(ⅱ)若A有m个不同的具有性质P的子列$B_1,B_2,\\dots,B_m$，满足：$\\forall 1 ≤i<j ≤m$，$B_i$与$B_j$都有公共项，且公共项构成A的具有性质P的子列，求m的最大值。",
+                        "solutionSteps": "1. 设$B_k(k=1,2,\\dots,m)$的首项为$x_k$，末项为$y_k$，记$x_{k_0}=max \\{x_k\\}$，分析得对任意$j=1,2,\\dots,m$，$y_j ≥x_{k_0}$；2. 可知$x_k \\in{1,2,\\dots,x_{k_0}}$，$y_k \\in{x_{k_0},x_{k_0}+1,\\dots,n}$，共有$x_{k_0}(n+1-x_{k_0})$种不同情况，且不同子列的$x_i=x_j$与$y_i=y_j$至多一个成立，故$m ≤x_{k_0}(n+1-x_{k_0})$；3. 当n为奇数时，取$x_{k_0}=\\frac{n+1}{2}$，此时$m$的最大值为$\\frac{n+1}{2} \\cdot (n+1-\\frac{n+1}{2})=\\frac{(n+1)^2}{4}$；4. 当n为偶数时，取$x_{k_0}=\\frac{n}{2}$，此时$m$的最大值为$\\frac{n}{2} \\cdot (n+1-\\frac{n}{2})=\\frac{n^2+2n}{4}$。",
+                        "standardAnswer": "n为奇数时，$m_{max}=\\frac{(n+1)^2}{4}$；n为偶数时，$m_{max}=\\frac{n^2+2n}{4}$",
+                        "scoringCriteria": "该问共6分，设出子列的首末项并分析其范围得2分，推导得出m的取值上限得2分，分别讨论n为奇数和偶数时m的最大值各得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given a sequence $A: a_1,a_2,\\dots,a_n$, select the $i_1$-th, $i_2$-th, …, $i_k$-th terms $(i_1<i_2<\\dots<i_k)$ from A to form a sequence $B: a_{i_1},a_{i_2},\\dots,a_{i_k}$, B is called a k-term sub-sequence of A. Denote the sum of all terms of sequence B as $T(B)$. When $k ≥2$, if B satisfies that for any $s \\in{1,2, \\dots, k-1}$, $i_{s+1}-i_{s}=1$, then B is said to have property P. Regulation: Any single term of A is a 1-term sub-sequence of A and has property P.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) When $n=4$, compare the number of sub-sequences of A with property P and the number of sub-sequences of A without property P, and explain the reason;",
+                        "solutionSteps": "1. Calculate the total number of sub-sequences of sequence A: $2^4-1=15$; 2. Calculate the number of sub-sequences with property P: there are 4 one-term sub-sequences, 3 two-term consecutive sub-sequences, 2 three-term consecutive sub-sequences and 1 four-term consecutive sub-sequence, with a total of $4+3+2+1=10$; 3. Calculate the number of sub-sequences without property P: $15-10=5$; 4. Compare the numbers and get that the number of sub-sequences with property P is greater than the number of sub-sequences without property P.",
+                        "standardAnswer": "The number of sub-sequences of A with property P is greater than the number of sub-sequences of A without property P, see the analysis for the reason",
+                        "scoringCriteria": "This sub-question is worth 4 points. 1 point for calculating the total number of sub-sequences, 2 points for calculating the number of sub-sequences with property P, and 1 point for calculating the number of sub-sequences without property P and comparing the numbers.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ)(i) Given a positive integer $k ≤\\frac{n}{2}$, for the k-term sub-sequences B of A, find the arithmetic mean of all $T(B)$;",
+                        "solutionSteps": "1. Let B: $a_{i_1},a_{i_2},\\dots,a_{i_k}$ be a k-term sub-sequence of A, construct a sub-sequence B': $n+1-a_{i_1},n+1-a_{i_2},\\dots,n+1-a_{i_k}$, B' is also a k-term sub-sequence of A; 2. Calculate $T(B)+T(B')=\\sum_{j=1}^{k}a_{i_j}+\\sum_{j=1}^{k}(n+1-a_{i_j})=k(n+1)$; 3. There are a total of $C_n^k$ k-term sub-sequences of sequence A, and the sub-sequences can be paired as (B,B') in pairs, with the sum of each pair being $k(n+1)$; 4. The sum of all $T(B)$ is $\\frac{1}{2}C_n^k \\cdot k(n+1)$, so the arithmetic mean is $\\frac{1}{C_n^k} \\cdot \\frac{1}{2}C_n^k \\cdot k(n+1)=\\frac{k(n+1)}{2}$.",
+                        "standardAnswer": "$\\frac{k(n+1)}{2}$",
+                        "scoringCriteria": "This sub-question is worth 5 points. 1 point for constructing the corresponding sub-sequence B', 2 points for calculating the result of $T(B)+T(B')$, 1 point for determining the total number of k-term sub-sequences and analyzing the pairing situation, and 1 point for calculating the correct arithmetic mean.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅱ)(ii) If A has m different sub-sequences $B_1,B_2,\\dots,B_m$ with property P, satisfying that for any $1 ≤i<j ≤m$, $B_i$ and $B_j$ have common terms, and the common terms form a sub-sequence of A with property P, find the maximum value of m.",
+                        "solutionSteps": "1. Let the first term of $B_k(k=1,2,\\dots,m)$ be $x_k$ and the last term be $y_k$, denote $x_{k_0}=max \\{x_k\\}$, analyze and get that for any $j=1,2,\\dots,m$, $y_j ≥x_{k_0}$; 2. It can be seen that $x_k \\in{1,2,\\dots,x_{k_0}}$, $y_k \\in{x_{k_0},x_{k_0}+1,\\dots,n}$, there are a total of $x_{k_0}(n+1-x_{k_0})$ different cases, and for different sub-sequences, at most one of $x_i=x_j$ and $y_i=y_j$ holds, so $m ≤x_{k_0}(n+1-x_{k_0})$; 3. When n is an odd number, take $x_{k_0}=\\frac{n+1}{2}$, at this time the maximum value of m is $\\frac{n+1}{2} \\cdot (n+1-\\frac{n+1}{2})=\\frac{(n+1)^2}{4}$; 4. When n is an even number, take $x_{k_0}=\\frac{n}{2}$, at this time the maximum value of m is $\\frac{n}{2} \\cdot (n+1-\\frac{n}{2})=\\frac{n^2+2n}{4}$.",
+                        "standardAnswer": "When n is an odd number, $m_{max}=\\frac{(n+1)^2}{4}$; When n is an even number, $m_{max}=\\frac{n^2+2n}{4}$",
+                        "scoringCriteria": "This sub-question is worth 6 points. 2 points for setting the first and last terms of the sub-sequences and analyzing their ranges, 2 points for deriving the upper limit of m, and 1 point each for discussing the maximum value of m when n is an odd number and an even number respectively.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

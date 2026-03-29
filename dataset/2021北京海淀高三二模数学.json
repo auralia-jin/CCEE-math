@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2021 Beijing Haidian Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "为迎接2022年北京冬季奥运会，普及冬奥知识，某地区小学联合开展了“冰雪答题王”冬奥知识竞赛活动。现从参加该活动的学生中随机抽取了30名学生，将他们的竞赛成绩（单位：分）用茎叶图记录如图。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从该地区参加该活动的男生中随机抽取1人，估计该男生的竞赛成绩在90分以上的概率；",
+            "solutionSteps": "1.由茎叶图提取数据：随机抽取的30名学生中男生有15名，其中竞赛成绩在90分以上的有5名；2.计算频率：90分以上男生的频率为$\\frac{5}{15}=\\frac{1}{3}$；3.根据频率估计概率的统计思想，该频率即为所求概率的估计值。",
+            "standardAnswer": "$\\frac{1}{3}$",
+            "scoringCriteria": "该问总分4分，从茎叶图正确提取男生总数和90分以上男生数得2分，正确计算频率得1分，说明用频率估计概率并给出最终答案得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从该地区参加该活动的全体男生中随机抽取2人，全体女生中随机抽取2人，估计这4人中男生竞赛成绩在90分以上的人数比女生竞赛成绩在90分以上的人数多的概率；",
+            "solutionSteps": "1.确定单次抽取的概率：男生90分以上的概率为$\\frac{1}{3}$，女生90分以上的概率为$\\frac{3}{15}=\\frac{1}{5}$；2.定义事件：记$A_i(i=1,2)$为第i名男生90分以上，$B_j(j=1,2)$为第j名女生90分以上，C为“男生90分以上人数比女生多”；3.分析事件C的包含情况：男生2人女生0人、男生2人女生1人、男生1人女生0人；4.用相互独立事件概率乘法公式计算各情况概率：$P(A_1A_2\\overline{B_1}\\overline{B_2})=\\frac{1}{3}×\\frac{1}{3}×\\frac{4}{5}×\\frac{4}{5}=\\frac{16}{225}$，$P(A_1A_2\\overline{B_1}B_2)+P(A_1A_2B_1\\overline{B_2})=2×\\frac{1}{3}×\\frac{1}{3}×\\frac{4}{5}×\\frac{1}{5}=\\frac{8}{225}$，$P(\\overline{A_1}A_2\\overline{B_1}\\overline{B_2})+P(A_1\\overline{A_2}\\overline{B_1}\\overline{B_2})=2×\\frac{2}{3}×\\frac{1}{3}×\\frac{4}{5}×\\frac{4}{5}=\\frac{64}{225}$；5.求和得总概率：$\\frac{16}{225}+\\frac{8}{225}+\\frac{64}{225}=\\frac{88}{225}$。",
+            "standardAnswer": "$\\frac{88}{225}$",
+            "scoringCriteria": "该问总分6分，正确求出女生90分以上的概率得1分，完整列举事件C的所有情况得1分，正确计算每种情况的概率各得1分（共3分），将各情况概率求和得到最终答案得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（Ⅲ）为便于普及冬奥知识，现从该地区某所小学参加冬奥知识竞赛活动的学生中随机选取10名男生、10名女生作为冬奥宣传志愿者。记这10名男生竞赛成绩的平均数为$\\mu_1$，这10名女生竞赛成绩的平均数为$\\mu_2$，能否认为$\\mu_1>\\mu_2$，说明理由。",
+            "solutionSteps": "1.明确数据的随机性：选取的10名男生和10名女生的竞赛成绩是从总体中随机抽取的样本；2.分析平均数的性质：样本平均数$\\mu_1$和$\\mu_2$均为随机变量，其取值会随样本的不同而变化，无固定的大小关系；3.得出结论：无法确定$\\mu_1$和$\\mu_2$的大小，因此不能认为$\\mu_1>\\mu_2$。",
+            "standardAnswer": "不能认为$\\mu_1>\\mu_2$，理由：选取的10名男生、10名女生的竞赛成绩数据是随机抽取的，$\\mu_1$和$\\mu_2$为随机变量，取值具有随机性，无法确定二者的大小关系。",
+            "scoringCriteria": "该问总分4分，正确给出结论得1分，准确说明样本数据的随机性得2分，结合随机性解释无法比较$\\mu_1$和$\\mu_2$大小得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "To welcome the 2022 Beijing Winter Olympic Games and popularize Winter Olympic knowledge, primary schools in a certain area jointly carried out the \"Ice and Snow Answer King\" Winter Olympic knowledge competition activity. Now 30 students are randomly selected from the participants, and their competition scores (in points) are recorded in a stem-and-leaf plot as shown in the figure.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one boy from the male participants in the area, estimate the probability that the boy's competition score is above 90 points;",
+            "solutionSteps": "1. Extract data from the stem-and-leaf plot: There are 15 boys among the 30 randomly selected students, 5 of whom have competition scores above 90 points; 2. Calculate the frequency: The frequency of boys with scores above 90 is $\\frac{5}{15}=\\frac{1}{3}$; 3. According to the statistical idea of estimating probability by frequency, the frequency is the estimated value of the required probability.",
+            "standardAnswer": "$\\frac{1}{3}$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 2 points for correctly extracting the total number of boys and the number of boys with scores above 90 from the stem-and-leaf plot, 1 point for correctly calculating the frequency, and 1 point for explaining the use of frequency to estimate probability and giving the final answer.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 2 boys from all male participants and 2 girls from all female participants in the area, estimate the probability that the number of boys with competition scores above 90 points is more than that of girls among these 4 people;",
+            "solutionSteps": "1. Determine the probability of a single draw: The probability that a boy's score is above 90 is $\\frac{1}{3}$, and the probability that a girl's score is above 90 is $\\frac{3}{15}=\\frac{1}{5}$; 2. Define events: Let $A_i(i=1,2)$ denote the i-th boy has a score above 90, $B_j(j=1,2)$ denote the j-th girl has a score above 90, and C denote \"the number of boys with scores above 90 is more than that of girls\"; 3. Analyze the cases included in event C: 2 boys and 0 girls with scores above 90, 2 boys and 1 girl with scores above 90, 1 boy and 0 girls with scores above 90; 4. Calculate the probability of each case using the multiplication formula for independent events: $P(A_1A_2\\overline{B_1}\\overline{B_2})=\\frac{1}{3}×\\frac{1}{3}×\\frac{4}{5}×\\frac{4}{5}=\\frac{16}{225}$, $P(A_1A_2\\overline{B_1}B_2)+P(A_1A_2B_1\\overline{B_2})=2×\\frac{1}{3}×\\frac{1}{3}×\\frac{4}{5}×\\frac{1}{5}=\\frac{8}{225}$, $P(\\overline{A_1}A_2\\overline{B_1}\\overline{B_2})+P(A_1\\overline{A_2}\\overline{B_1}\\overline{B_2})=2×\\frac{2}{3}×\\frac{1}{3}×\\frac{4}{5}×\\frac{4}{5}=\\frac{64}{225}$; 5. Sum the probabilities to get the total probability: $\\frac{16}{225}+\\frac{8}{225}+\\frac{64}{225}=\\frac{88}{225}$.",
+            "standardAnswer": "$\\frac{88}{225}$",
+            "scoringCriteria": "This sub-question has a total of 6 points, 1 point for correctly calculating the probability that a girl's score is above 90, 1 point for completely listing all cases of event C, 1 point for correctly calculating the probability of each case (3 points in total), and 1 point for summing the probabilities of each case to get the final answer.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(Ⅲ) To facilitate the popularization of Winter Olympic knowledge, 10 boys and 10 girls are randomly selected from the students of a primary school in the area who participated in the Winter Olympic knowledge competition as Winter Olympic publicity volunteers. Let $\\mu_1$ be the average competition score of these 10 boys, and $\\mu_2$ be the average competition score of these 10 girls. Can we consider that $\\mu_1>\\mu_2$? Explain the reason.",
+            "solutionSteps": "1. Clarify the randomness of the data: The competition scores of the selected 10 boys and 10 girls are samples randomly drawn from the population; 2. Analyze the nature of the sample mean: The sample means $\\mu_1$ and $\\mu_2$ are both random variables, whose values change with different samples and have no fixed size relationship; 3. Draw a conclusion: The sizes of $\\mu_1$ and $\\mu_2$ cannot be determined, so we cannot consider that $\\mu_1>\\mu_2$.",
+            "standardAnswer": "We cannot consider that $\\mu_1>\\mu_2$. Reason: The competition score data of the selected 10 boys and 10 girls are randomly drawn, $\\mu_1$ and $\\mu_2$ are random variables with random values, and the size relationship between them cannot be determined.",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for correctly giving the conclusion, 2 points for accurately explaining the randomness of the sample data, and 1 point for explaining the inability to compare the sizes of $\\mu_1$ and $\\mu_2$ combined with randomness.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "椭圆$C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的左、右焦点分别为$F_1$，$F_2$，E是椭圆C上一点，且$|EF_1|+|EF_2|=4$，$|F_1F_2|=2$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的方程；",
+            "solutionSteps": "1.由椭圆的定义：椭圆上任意一点到两焦点的距离之和为$2a$，由$|EF_1|+|EF_2|=4$得$2a=4$，解得$a=2$；2.由椭圆的焦距定义：焦距$|F_1F_2|=2c$，由$|F_1F_2|=2$得$2c=2$，解得$c=1$；3.由椭圆的基本关系$a^2=b^2+c^2$，代入$a=2$、$c=1$，得$b^2=2^2-1^2=3$；4.将$a^2=4$、$b^2=3$代入椭圆标准方程，得到椭圆C的方程。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "该问总分4分，由椭圆定义求出$a$的值得1分，由焦距求出$c$的值得1分，正确运用$a^2=b^2+c^2$求出$b^2$的值得1分，写出椭圆的标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）M，N是y轴上的两个动点（点M与点E位于x轴的两侧），$\\angle MF_1N=\\angle MEN=90^\\circ$，直线EM交x轴于点P，求$\\frac{|EP|}{|PM|}$的值。",
+            "solutionSteps": "1.设点的坐标：令$M(0,m)$，$N(0,n)$，$E(x_0,y_0)$，其中$E$在椭圆上，满足$\\frac{x_0^2}{4}+\\frac{y_0^2}{3}=1$，椭圆左焦点$F_1(-1,0)$；2.由$\\angle MF_1N=90^\\circ$，得向量垂直$\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_1N}=0$，代入坐标得$(1,m)\\cdot(1,n)=1+mn=0$，即$mn=-1$，$n=-\\frac{1}{m}$；3.由$\\angle MEN=90^\\circ$，得向量垂直$\\overrightarrow{ME}\\cdot\\overrightarrow{NE}=0$，代入坐标得$x_0^2+(y_0-m)(y_0-n)=0$；4.代入化简：将$mn=-1$、$n=-\\frac{1}{m}$代入上式，得$x_0^2+y_0^2-(m-\\frac{1}{m})y_0-1=0$，再将椭圆变形后的$x_0^2=4-\\frac{4}{3}y_0^2$代入，化简得$y_0^2+3(m-\\frac{1}{m})y_0-9=0$；5.因式分解求解：将方程因式分解为$(y_0+3m)(y_0-\\frac{3}{m})=0$，结合M、E在x轴两侧，$y_0$与$m$异号，舍去$y_0=\\frac{3}{m}$，得$y_0=-3m$；6.求线段比值：根据平面直角坐标系中同一直线上线段长度比等于纵坐标绝对值比，得$\\frac{|EP|}{|PM|}=\\frac{|y_0|}{|m|}=\\frac{|-3m|}{|m|}=3$。",
+            "standardAnswer": "$3$",
+            "scoringCriteria": "该问总分10分，正确设出各点坐标得1分，由向量垂直求出$mn=-1$得2分，由另一向量垂直列出数量积为0的等式得2分，代入椭圆方程化简等式得2分，因式分解并结合位置关系求出$y_0=-3m$得2分，根据纵坐标比例求出最终比值得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The left and right foci of the ellipse $C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ are $F_1$ and $F_2$ respectively, E is a point on the ellipse C, and $|EF_1|+|EF_2|=4$, $|F_1F_2|=2$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse C;",
+            "solutionSteps": "1. By the definition of an ellipse: the sum of the distances from any point on the ellipse to the two foci is $2a$. From $|EF_1|+|EF_2|=4$, we get $2a=4$ and solve for $a=2$; 2. By the definition of the focal length of an ellipse: the focal length $|F_1F_2|=2c$. From $|F_1F_2|=2$, we get $2c=2$ and solve for $c=1$; 3. By the basic relation of an ellipse $a^2=b^2+c^2$, substitute $a=2$ and $c=1$, we get $b^2=2^2-1^2=3$; 4. Substitute $a^2=4$ and $b^2=3$ into the standard equation of the ellipse to obtain the equation of ellipse C.",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for finding the value of $a$ by the definition of the ellipse, 1 point for finding the value of $c$ by the focal length, 1 point for correctly finding the value of $b^2$ using $a^2=b^2+c^2$, and 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) M and N are two moving points on the y-axis (point M and point E are on opposite sides of the x-axis), $\\angle MF_1N=\\angle MEN=90^\\circ$, the line EM intersects the x-axis at point P, find the value of $\\frac{|EP|}{|PM|}$.",
+            "solutionSteps": "1. Set the coordinates of the points: Let $M(0,m)$, $N(0,n)$, $E(x_0,y_0)$, where E is on the ellipse and satisfies $\\frac{x_0^2}{4}+\\frac{y_0^2}{3}=1$, the left focus of the ellipse $F_1(-1,0)$; 2. From $\\angle MF_1N=90^\\circ$, we get vector perpendicularity $\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_1N}=0$, substitute the coordinates to get $(1,m)\\cdot(1,n)=1+mn=0$, that is $mn=-1$, $n=-\\frac{1}{m}$; 3. From $\\angle MEN=90^\\circ$, we get vector perpendicularity $\\overrightarrow{ME}\\cdot\\overrightarrow{NE}=0$, substitute the coordinates to get $x_0^2+(y_0-m)(y_0-n)=0$; 4. Substitute and simplify: Substitute $mn=-1$ and $n=-\\frac{1}{m}$ into the above formula to get $x_0^2+y_0^2-(m-\\frac{1}{m})y_0-1=0$, then substitute $x_0^2=4-\\frac{4}{3}y_0^2$ from the transformed ellipse equation and simplify to get $y_0^2+3(m-\\frac{1}{m})y_0-9=0$; 5. Factorize and solve the equation: Factorize the equation into $(y_0+3m)(y_0-\\frac{3}{m})=0$, combined with M and E being on opposite sides of the x-axis, $y_0$ and $m$ have opposite signs, discard $y_0=\\frac{3}{m}$ and get $y_0=-3m$; 6. Find the ratio of line segments: According to the ratio of the lengths of line segments on the same straight line in the plane rectangular coordinate system being equal to the ratio of the absolute values of the ordinate, we get $\\frac{|EP|}{|PM|}=\\frac{|y_0|}{|m|}=\\frac{|-3m|}{|m|}=3$.",
+            "standardAnswer": "$3$",
+            "scoringCriteria": "This sub-question has a total of 10 points, 1 point for correctly setting the coordinates of each point, 2 points for finding $mn=-1$ by vector perpendicularity, 2 points for listing the equation of the dot product being 0 by another vector perpendicularity, 2 points for simplifying the equation by substituting the ellipse equation, 2 points for factorizing and finding $y_0=-3m$ combined with the position relationship, and 1 point for finding the final ratio according to the ordinate proportion.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=x-a\\ln x$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求曲线$y=f(x)$在点$(1,f(1))$处的切线方程；",
+            "solutionSteps": "1.求导函数：对$f(x)=x-a\\ln x$求导，得$f'(x)=1-\\frac{a}{x}$；2.求切点和切线斜率：计算$f(1)=1-a\\ln1=1$，切点为$(1,1)$；计算$f'(1)=1-a$，即切线的斜率$k=1-a$；3.写切线方程：由点斜式$y-f(x_0)=f'(x_0)(x-x_0)$，代入得$y-1=(1-a)(x-1)$，整理为一般式$y=(1-a)x+a$。",
+            "standardAnswer": "$y=(1-a)x+a$",
+            "scoringCriteria": "该问总分4分，正确求出函数的导函数得1分，计算出$f(1)$的值得1分，计算出$f'(1)$的斜率值得1分，由点斜式写出并整理出切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）求$f(x)$的单调区间；",
+            "solutionSteps": "1.确定定义域：函数$f(x)=x-a\\ln x$的定义域为$(0,+\\infty)$，导函数化简为$f'(x)=\\frac{x-a}{x}$；2.分类讨论$a$的取值：①当$a\\leq0$时，在定义域内$x-a>0$恒成立，故$f'(x)>0$恒成立，$f(x)$在$(0,+\\infty)$上单调递增；②当$a>0$时，令$f'(x)>0$，解得$x>a$，$f(x)$在$(a,+\\infty)$上单调递增；令$f'(x)<0$，解得$0<x<a$，$f(x)$在$(0,a)$上单调递减。",
+            "standardAnswer": "当$a\\leq0$时，$f(x)$的单调递增区间为$(0,+\\infty)$，无单调递减区间；当$a>0$时，$f(x)$的单调递减区间为$(0,a)$，单调递增区间为$(a,+\\infty)$。",
+            "scoringCriteria": "该问总分5分，正确写出函数的定义域和化简后的导函数得1分，分析$a\\leq0$时的单调性并写出对应单调区间得2分，分析$a>0$时的单调性并分别写出递减、递增区间各得1分（共2分）。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若关于x的方程$x-a\\ln x=0$有两个不相等的实数根，记较小的实数根为$x_0$，求证：$(a-1)x_0>a$。",
+            "solutionSteps": "1.确定$a$的范围：由（Ⅱ）知，当且仅当$a>0$时，方程有两个不相等实根，且$x_0>0$，由$x_0-a\\ln x_0=0$得$a=\\frac{x_0}{\\ln x_0}$（$x_0\\neq1$，否则方程无两个不等根）；2.等价转化不等式：要证$(a-1)x_0>a$，两边除以$a x_0$（$a,x_0>0$）得$1-\\frac{1}{a}>\\frac{1}{x_0}$，将$a=\\frac{x_0}{\\ln x_0}$代入，化简得$x_0-\\ln x_0-1>0$；3.构造辅助函数：令$g(x)=x-\\ln x-1$，$x>0$，求导得$g'(x)=1-\\frac{1}{x}=\\frac{x-1}{x}$；4.分析函数单调性：当$0<x<1$时，$g'(x)<0$，$g(x)$单调递减；当$x>1$时，$g'(x)>0$，$g(x)$单调递增；5.证明不等式：$g(x)\\geq g(1)=0$，又$x_0\\neq1$，故$g(x_0)>0$，即$x_0-\\ln x_0-1>0$，原不等式得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问总分6分，由方程根的情况确定$a>0$并表示出$a=\\frac{x_0}{\\ln x_0}$得1分，将原不等式等价转化为$x_0-\\ln x_0-1>0$得2分，正确构造辅助函数并求导得1分，分析辅助函数的单调性得1分，结合单调性证明不等式成立得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=x-a\\ln x$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the tangent line to the curve $y=f(x)$ at the point $(1,f(1))$;",
+            "solutionSteps": "1. Find the derivative function: Differentiate $f(x)=x-a\\ln x$ to get $f'(x)=1-\\frac{a}{x}$; 2. Find the tangent point and the slope of the tangent line: Calculate $f(1)=1-a\\ln1=1$, the tangent point is $(1,1)$; Calculate $f'(1)=1-a$, that is the slope of the tangent line $k=1-a$; 3. Write the tangent line equation: From the point-slope form $y-f(x_0)=f'(x_0)(x-x_0)$, substitute to get $y-1=(1-a)(x-1)$, and rearrange it into the general form $y=(1-a)x+a$.",
+            "standardAnswer": "$y=(1-a)x+a$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for correctly finding the derivative of the function, 1 point for calculating the value of $f(1)$, 1 point for calculating the slope value of $f'(1)$, and 1 point for writing and rearranging the tangent line equation from the point-slope form.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Find the monotonic intervals of $f(x)$;",
+            "solutionSteps": "1. Determine the domain: The domain of the function $f(x)=x-a\\ln x$ is $(0,+\\infty)$, and the derivative function is simplified to $f'(x)=\\frac{x-a}{x}$; 2. Discuss the value of $a$ by classification: ① When $a\\leq0$, $x-a>0$ holds for all $x$ in the domain, so $f'(x)>0$ holds for all $x$, and $f(x)$ is monotonically increasing on $(0,+\\infty)$; ② When $a>0$, let $f'(x)>0$, solve to get $x>a$, $f(x)$ is monotonically increasing on $(a,+\\infty)$; let $f'(x)<0$, solve to get $0<x<a$, $f(x)$ is monotonically decreasing on $(0,a)$. ",
+            "standardAnswer": "When $a\\leq0$, the monotonic increasing interval of $f(x)$ is $(0,+\\infty)$, and there is no monotonic decreasing interval; when $a>0$, the monotonic decreasing interval of $f(x)$ is $(0,a)$, and the monotonic increasing interval is $(a,+\\infty)$. ",
+            "scoringCriteria": "This sub-question has a total of 5 points, 1 point for correctly writing the domain of the function and the simplified derivative function, 2 points for analyzing the monotonicity and writing the corresponding monotonic interval when $a\\leq0$, and 1 point for each of writing the decreasing and increasing intervals when analyzing the monotonicity for $a>0$ (2 points in total).",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If the equation $x-a\\ln x=0$ about x has two unequal real roots, denote the smaller real root as $x_0$, prove that $(a-1)x_0>a$.",
+            "solutionSteps": "1. Determine the range of $a$: From (Ⅱ), the equation has two unequal real roots if and only if $a>0$, and $x_0>0$. From $x_0-a\\ln x_0=0$, we get $a=\\frac{x_0}{\\ln x_0}$ ($x_0\\neq1$, otherwise the equation has no two unequal roots); 2. Equivalently transform the inequality: To prove $(a-1)x_0>a$, divide both sides by $a x_0$ ($a,x_0>0$) to get $1-\\frac{1}{a}>\\frac{1}{x_0}$, substitute $a=\\frac{x_0}{\\ln x_0}$ and simplify to get $x_0-\\ln x_0-1>0$; 3. Construct an auxiliary function: Let $g(x)=x-\\ln x-1$, $x>0$, differentiate to get $g'(x)=1-\\frac{1}{x}=\\frac{x-1}{x}$; 4. Analyze the monotonicity of the function: When $0<x<1$, $g'(x)<0$, $g(x)$ is monotonically decreasing; when $x>1$, $g'(x)>0$, $g(x)$ is monotonically increasing; 5. Prove the inequality: $g(x)\\geq g(1)=0$, and since $x_0\\neq1$, we have $g(x_0)>0$, that is $x_0-\\ln x_0-1>0$, so the original inequality is proved.",
+            "standardAnswer": "The proof is shown in the analysis",
+            "scoringCriteria": "This sub-question has a total of 6 points, 1 point for determining $a>0$ from the root situation of the equation and expressing $a=\\frac{x_0}{\\ln x_0}$, 2 points for equivalently transforming the original inequality into $x_0-\\ln x_0-1>0$, 1 point for correctly constructing the auxiliary function and finding its derivative, 1 point for analyzing the monotonicity of the auxiliary function, and 1 point for proving the inequality holds combined with monotonicity.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知有限集X，Y，定义集合$X-Y=\\{x | x\\in X且x\\notin Y\\}$，$|X|$表示集合X中的元素个数。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$X=\\{1,2,3,4\\}$，$Y=\\{3,4,5\\}$，求集合$X-Y$和$Y-X$，以及$|(X-Y)\\cup (Y-X)|$的值；",
+            "solutionSteps": "1.求$X-Y$：根据定义，取属于X且不属于Y的元素，得$X-Y=\\{1,2\\}$；2.求$Y-X$：根据定义，取属于Y且不属于X的元素，得$Y-X=\\{5\\}$；3.求并集的元素个数：先求$(X-Y)\\cup (Y-X)=\\{1,2,5\\}$，再数元素个数得$|(X-Y)\\cup (Y-X)|=3$。",
+            "standardAnswer": "$X-Y=\\{1,2\\}$，$Y-X=\\{5\\}$，$|(X-Y)\\cup (Y-X)|=3$",
+            "scoringCriteria": "该问总分4分，正确求出$X-Y$得1分，正确求出$Y-X$得1分，正确求出并集并计算其元素个数得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）给定正整数n，集合$S=\\{1,2,\\cdots,n\\}$。对于实数集的非空有限子集A，B，定义集合$C=\\{x | x=a+b,a\\in A,b\\in B\\}$。①求证：$|A-S|+|B-S|+|S-C|\\geq1$；②求$|(A-S)\\cup (S-A)|+|(B-S)\\cup (S-B)|+|(C-S)\\cup (S-C)|$的最小值。",
+            "solutionSteps": "1.证明①：分两种情况讨论；情况1：若$A$或$B$有元素不在$S$中，则$|A-S|+|B-S|\\geq1$，故$|A-S|+|B-S|+|S-C|\\geq1$；情况2：若$A\\subseteq S$且$B\\subseteq S$，则$|A-S|=|B-S|=0$，A中最小元素$\\geq1$，B中最小元素$\\geq1$，故C中最小元素$\\geq2$，则$1\\notin C$，即$|S-C|\\geq1$，因此$|A-S|+|B-S|+|S-C|\\geq1$；综上，原不等式得证。2.求解②：第一步，化简表达式：$|(A-S)\\cup (S-A)|=|A-S|+|S-A|$，同理$|(B-S)\\cup (S-B)|=|B-S|+|S-B|$，$|(C-S)\\cup (S-C)|=|C-S|+|S-C|$，结合①的结论$|A-S|+|B-S|+|S-C|\\geq1$，得原式$\\geq|S-A|+|S-B|+|C-S|+1$；第二步，分析$|S-A|+|S-B|+|C-S|$的最小值：分$A\\cap S=\\emptyset$或$B\\cap S=\\emptyset$、$A\\cap S\\neq\\emptyset$且$B\\cap S\\neq\\emptyset$两种情况，均可证得$|S-A|+|S-B|+|C-S|\\geq n$；第三步，求原式最小值：当$A=B=S$时，$C=\\{2,3,\\cdots,2n\\}$，代入计算得原式$=n+1$，故最小值为$n+1$。",
+            "standardAnswer": "①证明见解析；②最小值为$n+1$",
+            "scoringCriteria": "该问总分10分，其中①占4分，②占6分；①的评分：分两种情况讨论且每种情况推理正确各得2分，综上得出结论得0分；②的评分：正确化简表达式得2分，分析得出$|S-A|+|S-B|+|C-S|\\geq n$得2分，举例验证并求出最小值得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given finite sets X and Y, define the set $X-Y=\\{x | x\\in X and x\\notin Y\\}$, and $|X|$ denotes the number of elements in the set X.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If $X=\\{1,2,3,4\\}$, $Y=\\{3,4,5\\}$, find the sets $X-Y$ and $Y-X$, and the value of $|(X-Y)\\cup (Y-X)|$;",
+            "solutionSteps": "1. Find $X-Y$: According to the definition, take the elements that belong to X and not to Y, we get $X-Y=\\{1,2\\}$; 2. Find $Y-X$: According to the definition, take the elements that belong to Y and not to X, we get $Y-X=\\{5\\}$; 3. Find the number of elements in the union set: First find $(X-Y)\\cup (Y-X)=\\{1,2,5\\}$, then count the number of elements to get $|(X-Y)\\cup (Y-X)|=3$.",
+            "standardAnswer": "$X-Y=\\{1,2\\}$, $Y-X=\\{5\\}$, $|(X-Y)\\cup (Y-X)|=3$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for correctly finding $X-Y$, 1 point for correctly finding $Y-X$, and 2 points for correctly finding the union set and calculating the number of its elements.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) Given a positive integer n, the set $S=\\{1,2,\\cdots,n\\}$. For non-empty finite subsets A and B of the real number set, define the set $C=\\{x | x=a+b,a\\in A,b\\in B\\}$. ① Prove that $|A-S|+|B-S|+|S-C|\\geq1$; ② Find the minimum value of $|(A-S)\\cup (S-A)|+|(B-S)\\cup (S-B)|+|(C-S)\\cup (S-C)|$.",
+            "solutionSteps": "1. Prove ①: Discuss in two cases; Case 1: If A or B has elements not in S, then $|A-S|+|B-S|\\geq1$, so $|A-S|+|B-S|+|S-C|\\geq1$; Case 2: If $A\\subseteq S$ and $B\\subseteq S$, then $|A-S|=|B-S|=0$, the minimum element in A is $\\geq1$, the minimum element in B is $\\geq1$, so the minimum element in C is $\\geq2$, then $1\\notin C$, that is $|S-C|\\geq1$, thus $|A-S|+|B-S|+|S-C|\\geq1$; In conclusion, the original inequality is proved. 2. Solve ②: Step 1: Simplify the expression: $|(A-S)\\cup (S-A)|=|A-S|+|S-A|$, similarly $|(B-S)\\cup (S-B)|=|B-S|+|S-B|$, $|(C-S)\\cup (S-C)|=|C-S|+|S-C|$, combined with the conclusion of ① $|A-S|+|B-S|+|S-C|\\geq1$, we get the original expression $\\geq|S-A|+|S-B|+|C-S|+1$; Step 2: Analyze the minimum value of $|S-A|+|S-B|+|C-S|$: Discuss in two cases of $A\\cap S=\\emptyset$ or $B\\cap S=\\emptyset$, $A\\cap S\\neq\\emptyset$ and $B\\cap S\\neq\\emptyset$, both can prove $|S-A|+|S-B|+|C-S|\\geq n$; Step 3: Find the minimum value of the original expression: When $A=B=S$, $C=\\{2,3,\\cdots,2n\\}$, substitute and calculate to get the original expression $=n+1$, so the minimum value is $n+1$.",
+            "standardAnswer": "① The proof is shown in the analysis; ② The minimum value is $n+1$",
+            "scoringCriteria": "This sub-question has a total of 10 points, 4 points for ① and 6 points for ②; Scoring for ①: 2 points for each case of discussion with correct reasoning, 0 points for drawing the conclusion in summary; Scoring for ②: 2 points for correctly simplifying the expression, 2 points for analyzing and getting $|S-A|+|S-B|+|C-S|\\geq n$, and 2 points for verifying with examples and finding the minimum value.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

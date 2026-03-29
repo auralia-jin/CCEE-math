@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2024 Beijing Shunyi Senior Three First Mock Mathematics (Second Unified Practice)",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某学校工会组织趣味投篮比赛，每名选手只能在下列两种比赛方式中选择一种。方式一：选手投篮3次，每次投中可得1分，未投中不得分，累计得分；方式二：选手最多投3次，如第1次投中可进行第2次投篮，如第2次投中可进行第3次投篮，如某次未投中，则投篮中止，每投中1次可得2分，未投中不得分，累计得分；已知甲用方式一参加比赛，乙用方式二参加比赛。假设甲，乙每次投中的概率均为$\\frac{1}{2}$，且每次投篮相互独立。",
+        "subQuestions": [
+          {
+            "question": "（I）求甲得分不低于2分的概率；",
+            "solutionSteps": "1. 设甲选择方式一参加比赛得分为X，甲得分不低于2分即X=2或X=3；\\n2. 计算P(X=2)：根据二项分布概率公式，$P(X=2)=C_{3}^{2}\\left(\\frac{1}{2}\\right)^{2}\\left(1-\\frac{1}{2}\\right)=\\frac{3}{8}$；\\n3. 计算P(X=3)：$P(X=3)=\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}$；\\n4. 甲得分不低于2分的概率为P(X=2)+P(X=3)，代入计算得$\\frac{3}{8}+\\frac{1}{8}=\\frac{1}{2}$。",
+            "standardAnswer": "$\\frac{1}{2}$",
+            "scoringCriteria": "该问共5分，正确设出随机变量并明确得分不低于2分的情况得1分；正确计算P(X=2)得2分；正确计算P(X=3)得1分；最终求和得出正确概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（II）求乙得分的分布列及期望；",
+            "solutionSteps": "1. 设乙选择方式二参加比赛得分为Y，分析Y的可能取值为0、2、4、6；\\n2. 计算各取值概率：$P(Y=0)=\\frac{1}{2}$，$P(Y=2)=\\frac{1}{2}×\\left(1-\\frac{1}{2}\\right)=\\frac{1}{4}$，$P(Y=4)=\\frac{1}{2}×\\frac{1}{2}×\\left(1-\\frac{1}{2}\\right)=\\frac{1}{8}$，$P(Y=6)=\\frac{1}{2}×\\frac{1}{2}×\\frac{1}{2}=\\frac{1}{8}$；\\n3. 列出Y的分布列，以表格形式呈现变量Y与对应概率；\\n4. 根据数学期望公式计算E(Y)：$E(Y)=0×\\frac{1}{2}+2×\\frac{1}{4}+4×\\frac{1}{8}+6×\\frac{1}{8}=\\frac{7}{4}$。",
+            "standardAnswer": "分布列：Y取0时概率为$\\frac{1}{2}$，取2时概率为$\\frac{1}{4}$，取4时概率为$\\frac{1}{8}$，取6时概率为$\\frac{1}{8}$；期望：$\\frac{7}{4}$",
+            "scoringCriteria": "该问共5分，正确确定Y的所有可能取值得1分；正确计算出所有取值的概率得2分；规范列出分布列得1分；正确计算出数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（III）甲，乙谁胜出的可能性更大？直接写出结论。",
+            "solutionSteps": "结合（I）中甲得分不低于2分的概率为$\\frac{1}{2}$，甲的数学期望为$3×\\frac{1}{2}=\\frac{3}{2}$，乙的数学期望为$\\frac{7}{4}$，$\\frac{3}{2}>\\frac{7}{4}$，因此甲胜出的可能性更大。",
+            "standardAnswer": "甲获胜的可能性更大",
+            "scoringCriteria": "该问共3分，直接写出正确结论即可得3分，结论错误不得分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The trade union of a school organizes a fun shooting competition, and each contestant can only choose one of the following two competition methods. Method 1: The contestant shoots 3 times, gets 1 point for each made shot, 0 points for a missed shot, and the score is accumulated. Method 2: The contestant can shoot at most 3 times. If the first shot is made, the contestant can take the second shot; if the second shot is made, the contestant can take the third shot; if a shot is missed, the shooting stops. The contestant gets 2 points for each made shot, 0 points for a missed shot, and the score is accumulated. It is known that Party A participates in the competition with Method 1 and Party B participates with Method 2. Assume that the probability of making a shot for both Party A and Party B is $\\frac{1}{2}$ each time, and each shot is independent of each other.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the probability that Party A's score is no less than 2 points;",
+            "solutionSteps": "1. Let X be the score of Party A participating in the competition with Method 1. Party A's score being no less than 2 points means X=2 or X=3;\\n2. Calculate P(X=2): According to the binomial distribution probability formula, $P(X=2)=C_{3}^{2}\\left(\\frac{1}{2}\\right)^{2}\\left(1-\\frac{1}{2}\\right)=\\frac{3}{8}$;\\n3. Calculate P(X=3): $P(X=3)=\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}$;\\n4. The probability that Party A's score is no less than 2 points is P(X=2)+P(X=3), substitute the values and calculate to get $\\frac{3}{8}+\\frac{1}{8}=\\frac{1}{2}$.",
+            "standardAnswer": "$\\frac{1}{2}$",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for correctly defining the random variable and clarifying the cases where the score is no less than 2 points; 2 points for correctly calculating P(X=2); 1 point for correctly calculating P(X=3); 1 point for summing up to get the correct probability finally.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Find the probability mass function and mathematical expectation of Party B's score;",
+            "solutionSteps": "1. Let Y be the score of Party B participating in the competition with Method 2, and analyze that the possible values of Y are 0, 2, 4, 6;\\n2. Calculate the probability of each value: $P(Y=0)=\\frac{1}{2}$, $P(Y=2)=\\frac{1}{2}×\\left(1-\\frac{1}{2}\\right)=\\frac{1}{4}$, $P(Y=4)=\\frac{1}{2}×\\frac{1}{2}×\\left(1-\\frac{1}{2}\\right)=\\frac{1}{8}$, $P(Y=6)=\\frac{1}{2}×\\frac{1}{2}×\\frac{1}{2}=\\frac{1}{8}$;\\n3. List the probability mass function of Y in the form of a table showing the variable Y and the corresponding probabilities;\\n4. Calculate E(Y) according to the mathematical expectation formula: $E(Y)=0×\\frac{1}{2}+2×\\frac{1}{4}+4×\\frac{1}{8}+6×\\frac{1}{8}=\\frac{7}{4}$.",
+            "standardAnswer": "Probability mass function: P(Y=0)=$\\frac{1}{2}$, P(Y=2)=$\\frac{1}{4}$, P(Y=4)=$\\frac{1}{8}$, P(Y=6)=$\\frac{1}{8}$; Mathematical expectation: $\\frac{7}{4}$",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for correctly determining all possible values of Y; 2 points for correctly calculating the probabilities of all values; 1 point for listing the probability mass function standardly; 1 point for correctly calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(III) Who is more likely to win between Party A and Party B? Write down the conclusion directly.",
+            "solutionSteps": "Combined with the result in (I) that the probability of Party A's score being no less than 2 points is $\\frac{1}{2}$, the mathematical expectation of Party A's score is $3×\\frac{1}{2}=\\frac{3}{2}$, and the mathematical expectation of Party B's score is $\\frac{7}{4}$. Since $\\frac{3}{2}>\\frac{7}{4}$, Party A is more likely to win.",
+            "standardAnswer": "Party A is more likely to win",
+            "scoringCriteria": "This sub-question is worth 3 points. 3 points for writing down the correct conclusion directly, no points for wrong conclusion.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的右焦点为$F(1,0)$，长轴长为$2\\sqrt{2}$，过F作斜率为$k_{1}$的直线交E于A，B两点，过点F作斜率为$k_{2}$的直线交E于C，D两点，设AB，CD的中点分别为M，N。",
+        "subQuestions": [
+          {
+            "question": "（I）求椭圆E的方程；",
+            "solutionSteps": "1. 根据椭圆长轴长的定义，$2a=2\\sqrt{2}$，解得$a=\\sqrt{2}$；\\n2. 由椭圆焦点坐标可知$c=1$；\\n3. 根据椭圆中$a$、$b$、$c$的关系$b^{2}=a^{2}-c^{2}$，代入得$b^{2}=(\\sqrt{2})^{2}-1^{2}=1$；\\n4. 将$a^{2}=2$，$b^{2}=1$代入椭圆标准方程，得$\\frac{x^{2}}{2}+y^{2}=1$。",
+            "standardAnswer": "$\\frac{x^{2}}{2}+y^{2}=1$",
+            "scoringCriteria": "该问共4分，由长轴长正确求出a的值得1分；由焦点坐标确定c的值得1分；正确运用$a^{2}=b^{2}+c^{2}$求出$b^{2}$得1分；写出椭圆的标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（II）若$k_{1} k_{2}=-1$，设点F到直线MN的距离为d，求d的取值范围。",
+            "solutionSteps": "1. 设直线AB的方程为$y=k_{1}(x-1)$，联立椭圆方程$\\frac{x^{2}}{2}+y^{2}=1$，消去y得$(1+2k_{1}^{2})x^{2}-4k_{1}^{2}x+2k_{1}^{2}-2=0$；\\n2. 由韦达定理得$x_{1}+x_{2}=\\frac{4k_{1}^{2}}{1+2k_{1}^{2}}$，进而求出AB中点M的坐标$x_{M}=\\frac{2k_{1}^{2}}{1+2k_{1}^{2}}$，$y_{M}=\\frac{-k_{1}}{1+2k_{1}^{2}}$；\\n3. 由$k_{1}k_{2}=-1$得$k_{2}=-\\frac{1}{k_{1}}$，同理求出CD中点N的坐标$x_{N}=\\frac{2}{2+k_{1}^{2}}$，$y_{N}=\\frac{k_{1}}{2+k_{1}^{2}}$；\\n4. 分两种情况讨论：①当$x_{M}=x_{N}$时，解得$k_{1}=\\pm1$，此时直线MN方程为$x=\\frac{2}{3}$，点F到直线MN的距离$d=\\frac{1}{3}$；②当$k_{1}\\neq\\pm1$时，求出直线MN的斜率$k_{MN}=\\frac{3k_{1}}{2-2k_{1}^{2}}$，进而得到直线MN的方程$3k_{1}x+(2k_{1}^{2}-2)y-2k_{1}=0$；\\n5. 根据点到直线的距离公式得$d=\\frac{|k_{1}|}{\\sqrt{4k_{1}^{4}+k_{1}^{2}+4}}=\\frac{1}{\\sqrt{1+4k_{1}^{2}+\\frac{4}{k_{1}^{2}}}}$，由基本不等式得$4k_{1}^{2}+\\frac{4}{k_{1}^{2}}>8$，进而推出$0<d<\\frac{1}{3}$；\\n6. 综合两种情况，得d的取值范围为$0<d\\leq\\frac{1}{3}$。",
+            "standardAnswer": "$(0, \\frac{1}{3}]$",
+            "scoringCriteria": "该问共11分，正确设出直线AB方程并联立椭圆方程消元得2分；利用韦达定理求出中点M的坐标得2分；根据$k_{1}k_{2}=-1$求出中点N的坐标得2分；分情况讨论，求出$k_{1}=\\pm1$时的距离d得2分；求出$k_{1}\\neq\\pm1$时直线MN的方程并结合点到直线距离公式、基本不等式求出d的范围得2分；综合得出最终取值范围得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the right focus of the ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $F(1,0)$, the length of the major axis is $2\\sqrt{2}$. A line with slope $k_{1}$ passing through F intersects E at points A and B, and a line with slope $k_{2}$ passing through F intersects E at points C and D. Let M and N be the midpoints of AB and CD respectively.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the equation of the ellipse E;",
+            "solutionSteps": "1. According to the definition of the length of the major axis of an ellipse, $2a=2\\sqrt{2}$, solve to get $a=\\sqrt{2}$;\\n2. It can be known from the coordinate of the ellipse focus that $c=1$;\\n3. According to the relationship $b^{2}=a^{2}-c^{2}$ among a, b and c in the ellipse, substitute the values to get $b^{2}=(\\sqrt{2})^{2}-1^{2}=1$;\\n4. Substitute $a^{2}=2$ and $b^{2}=1$ into the standard equation of the ellipse to get $\\frac{x^{2}}{2}+y^{2}=1$.",
+            "standardAnswer": "$\\frac{x^{2}}{2}+y^{2}=1$",
+            "scoringCriteria": "This sub-question is worth 4 points. 1 point for correctly finding the value of a from the length of the major axis; 1 point for determining the value of c from the coordinate of the focus; 1 point for correctly finding $b^{2}$ by using $a^{2}=b^{2}+c^{2}$; 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) If $k_{1} k_{2}=-1$, let the distance from point F to the line MN be d, find the range of d.",
+            "solutionSteps": "1. Let the equation of line AB be $y=k_{1}(x-1)$, combine it with the ellipse equation $\\frac{x^{2}}{2}+y^{2}=1$, eliminate y to get $(1+2k_{1}^{2})x^{2}-4k_{1}^{2}x+2k_{1}^{2}-2=0$;\\n2. From Vieta's formulas, $x_{1}+x_{2}=\\frac{4k_{1}^{2}}{1+2k_{1}^{2}}$, then find the coordinates of the midpoint M of AB: $x_{M}=\\frac{2k_{1}^{2}}{1+2k_{1}^{2}}$, $y_{M}=\\frac{-k_{1}}{1+2k_{1}^{2}}$;\\n3. From $k_{1}k_{2}=-1$, we get $k_{2}=-\\frac{1}{k_{1}}$, find the coordinates of the midpoint N of CD similarly: $x_{N}=\\frac{2}{2+k_{1}^{2}}$, $y_{N}=\\frac{k_{1}}{2+k_{1}^{2}}$;\\n4. Discuss in two cases: ① When $x_{M}=x_{N}$, solve to get $k_{1}=\\pm1$, at this time the equation of line MN is $x=\\frac{2}{3}$, and the distance d from point F to line MN is $\\frac{1}{3}$; ② When $k_{1}\\neq\\pm1$, find the slope of line MN: $k_{MN}=\\frac{3k_{1}}{2-2k_{1}^{2}}$, then get the equation of line MN: $3k_{1}x+(2k_{1}^{2}-2)y-2k_{1}=0$;\\n5. According to the distance formula from a point to a line, $d=\\frac{|k_{1}|}{\\sqrt{4k_{1}^{4}+k_{1}^{2}+4}}=\\frac{1}{\\sqrt{1+4k_{1}^{2}+\\frac{4}{k_{1}^{2}}}}$. From the basic inequality, $4k_{1}^{2}+\\frac{4}{k_{1}^{2}}>8$, then deduce $0<d<\\frac{1}{3}$;\\n6. Synthesize the two cases to get the range of d as $0<d\\leq\\frac{1}{3}$.",
+            "standardAnswer": "$(0, \\frac{1}{3}]$",
+            "scoringCriteria": "This sub-question is worth 11 points. 2 points for correctly setting the equation of line AB and eliminating y by combining with the ellipse equation; 2 points for finding the coordinates of midpoint M by using Vieta's formulas; 2 points for finding the coordinates of midpoint N according to $k_{1}k_{2}=-1$; 2 points for discussing in cases and finding the distance d when $k_{1}=\\pm1$; 2 points for finding the equation of line MN when $k_{1}\\neq\\pm1$ and finding the range of d by combining the distance formula from a point to a line and the basic inequality; 1 point for synthesizing to get the final range of values.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "设函数$f(x)=e^{x}+a cos x$，$a \\in R$，曲线$y=f(x)$在点$(0, f(0))$处的切线方程为$y=x+2$。",
+        "subQuestions": [
+          {
+            "question": "（I）求a的值；",
+            "solutionSteps": "1. 计算$f(0)$，代入函数得$f(0)=e^{0}+a\\cos0=1+a$；\\n2. 因为点$(0, f(0))$在切线$y=x+2$上，将$x=0$代入切线方程得$f(0)=2$；\\n3. 建立方程$1+a=2$，解得$a=1$。",
+            "standardAnswer": "$1$",
+            "scoringCriteria": "该问共4分，正确计算$f(0)$的表达式得2分；利用点在切线上的条件建立方程得1分；解出a的值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（II）求证：方程$f(x)=2$仅有一个实根；",
+            "solutionSteps": "1. 要证方程$f(x)=2$仅有一个实根，即证$g(x)=e^{x}+\\cos x-2=0$仅有一个零点；\\n2. 求$g(x)$的导数$g'(x)=e^{x}-\\sin x$，令$h(x)=g'(x)$，求$h(x)$的导数$h'(x)=e^{x}-\\cos x$；\\n3. 分区间讨论：①当$x>0$时，$h'(x)>e^{0}-\\cos x=1-\\cos x\\geq0$，故$h(x)$在$(0, +\\infty)$单调递增，$h(x)>h(0)=1$，即$g'(x)>0$，$g(x)$在$(0, +\\infty)$单调递增，$g(x)>g(0)=0$，无零点；②当$x=0$时，$g(0)=0$，有一个零点；③当$x<0$时，$g(x)=e^{x}+\\cos x-2<e^{0}+\\cos x-2=-1+\\cos x\\leq0$，无零点；\\n4. 综合三个区间的情况，$g(x)$仅有一个零点，即方程$f(x)=2$仅有一个实根。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问共5分，构造函数$g(x)=e^{x}+\\cos x-2$并明确证明目标得1分；正确求导$g'(x)$和$h'(x)$得1分；对$x>0$区间进行单调性和零点分析得1分；对$x<0$和$x=0$区间进行分析得1分；综合得出结论完成证明得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（III）对任意$x \\in(0,+\\infty)$，有$f(x)>k sin x+2$，求正数k的取值范围。",
+            "solutionSteps": "1. 由题意得，对$x \\in(0, +\\infty)$，$e^{x}+\\cos x-k\\sin x-2>0$恒成立，令$F(x)=e^{x}+\\cos x-k\\sin x-2$，求导得$F'(x)=e^{x}-\\sin x-k\\cos x$；\\n2. 由（II）知$x \\in(0, +\\infty)$时，$e^{x}-\\sin x>1$，故$F'(x)>1-k\\cos x$；\\n3. 分情况讨论：①当$0<k\\leq1$时，$-k\\leq k\\cos x\\leq k$，则$1-k\\cos x\\geq1-k\\geq0$，故$F'(x)>0$，$F(x)$在$(0, +\\infty)$单调递增，$F(x)>F(0)=0$，不等式恒成立；②当$k>1$时，$F'(0)=1-k<0$，$F'(\\pi)=e^{\\pi}+k>0$，由零点存在定理，存在$x_{0}\\in(0, \\pi)$使$F'(x_{0})=0$，当$x\\in(0, x_{0})$时，$F'(x)<0$，$F(x)$单调递减，$F(x_{0})<F(0)=0$，不等式不恒成立；\\n4. 综合两种情况，正数k的取值范围为$0<k\\leq1$。",
+            "standardAnswer": "$(0, 1]$",
+            "scoringCriteria": "该问共6分，构造函数$F(x)$并求导得1分；利用（II）的结论得到$F'(x)>1-k\\cos x$得1分；对$0<k\\leq1$的情况分析单调性并证明不等式恒成立得2分；对$k>1$的情况利用零点存在定理分析得出不等式不恒成立得1分；综合得出k的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the function $f(x)=e^{x}+a cos x$, $a \\in R$. The tangent equation of the curve $y=f(x)$ at the point $(0, f(0))$ is $y=x+2$.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the value of a;",
+            "solutionSteps": "1. Calculate $f(0)$, substitute into the function to get $f(0)=e^{0}+a\\cos0=1+a$;\\n2. Since the point $(0, f(0))$ is on the tangent line $y=x+2$, substitute $x=0$ into the tangent equation to get $f(0)=2$;\\n3. Establish the equation $1+a=2$ and solve to get $a=1$.",
+            "standardAnswer": "$1$",
+            "scoringCriteria": "This sub-question is worth 4 points. 2 points for correctly calculating the expression of $f(0)$; 1 point for establishing the equation by using the condition that the point is on the tangent line; 1 point for solving the value of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Prove that the equation $f(x)=2$ has exactly one real root;",
+            "solutionSteps": "1. To prove that the equation $f(x)=2$ has exactly one real root, it is equivalent to proving that $g(x)=e^{x}+\\cos x-2=0$ has exactly one zero point;\\n2. Find the derivative of $g(x)$: $g'(x)=e^{x}-\\sin x$, let $h(x)=g'(x)$, find the derivative of $h(x)$: $h'(x)=e^{x}-\\cos x$;\\n3. Discuss in intervals: ① When $x>0$, $h'(x)>e^{0}-\\cos x=1-\\cos x\\geq0$, so $h(x)$ is monotonically increasing on $(0, +\\infty)$, $h(x)>h(0)=1$, that is $g'(x)>0$, $g(x)$ is monotonically increasing on $(0, +\\infty)$, $g(x)>g(0)=0$, no zero point; ② When $x=0$, $g(0)=0$, there is one zero point; ③ When $x<0$, $g(x)=e^{x}+\\cos x-2<e^{0}+\\cos x-2=-1+\\cos x\\leq0$, no zero point;\\n4. Synthesize the situations of the three intervals, $g(x)$ has exactly one zero point, that is the equation $f(x)=2$ has exactly one real root.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for constructing the function $g(x)=e^{x}+\\cos x-2$ and clarifying the proof goal; 1 point for correctly finding the derivatives $g'(x)$ and $h'(x)$; 1 point for analyzing the monotonicity and zero points in the interval $x>0$; 1 point for analyzing the intervals $x<0$ and $x=0$; 1 point for synthesizing to draw a conclusion and completing the proof.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(III) For any $x \\in(0,+\\infty)$, $f(x)>k sin x+2$ holds, find the range of the positive number k.",
+            "solutionSteps": "1. From the problem, for $x \\in(0, +\\infty)$, $e^{x}+\\cos x-k\\sin x-2>0$ holds constantly. Let $F(x)=e^{x}+\\cos x-k\\sin x-2$, find the derivative: $F'(x)=e^{x}-\\sin x-k\\cos x$;\\n2. From (II), when $x \\in(0, +\\infty)$, $e^{x}-\\sin x>1$, so $F'(x)>1-k\\cos x$;\\n3. Discuss in cases: ① When $0<k\\leq1$, $-k\\leq k\\cos x\\leq k$, then $1-k\\cos x\\geq1-k\\geq0$, so $F'(x)>0$, $F(x)$ is monotonically increasing on $(0, +\\infty)$, $F(x)>F(0)=0$, the inequality holds constantly; ② When $k>1$, $F'(0)=1-k<0$, $F'(\\pi)=e^{\\pi}+k>0$. From the Zero Existence Theorem, there exists $x_{0}\\in(0, \\pi)$ such that $F'(x_{0})=0$. When $x\\in(0, x_{0})$, $F'(x)<0$, $F(x)$ is monotonically decreasing, $F(x_{0})<F(0)=0$, the inequality does not hold constantly;\\n4. Synthesize the two cases, the range of the positive number k is $0<k\\leq1$.",
+            "standardAnswer": "$(0, 1]$",
+            "scoringCriteria": "This sub-question is worth 6 points. 1 point for constructing the function $F(x)$ and finding its derivative; 1 point for obtaining $F'(x)>1-k\\cos x$ by using the conclusion of (II); 2 points for analyzing the monotonicity and proving the inequality holds constantly in the case of $0<k\\leq1$; 1 point for analyzing and concluding the inequality does not hold constantly in the case of $k>1$ by using the Zero Existence Theorem; 1 point for synthesizing to get the range of k.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知点集$M_{n}={(x_{1}, y_{1}),(x_{2}, y_{2}), \\cdots,(x_{n}, y_{n})}(n ≥3)$满足$0 ≤x_{i}, y_{i}, x_{i}+y_{i} ≤2(i=1,2, \\cdots, n)$。对于任意点集$M_{n}$，若其非空子集A，B满足$A \\cap B=\\emptyset$，$A \\cup B=M_{n}$，则称集合对$(A, B)$为$M_{n}$的一个优划分。对任意点集$M_{n}$及其优划分$(A, B)$，记A中所有点的横坐标之和为$X(A)$，B中所有点的纵坐标之和为$Y(B)$。",
+        "subQuestions": [
+          {
+            "question": "（I）写出$M_{3}={(1,1),(2,0),(0,2)}$的一个优划分$(A, B)$，使其满足$X(A)+Y(B)=3$；",
+            "solutionSteps": "1. 分析优划分的定义，A、B为$M_3$的非空子集，且互斥、并集为$M_3$；\\n2. 尝试构造划分：①取$A={(2,0),(0,2)}$，$B={(1,1)}$，计算$X(A)=2+0=2$，$Y(B)=1$，则$X(A)+Y(B)=3$，满足条件；②取$A={(1,1)}$，$B={(2,0),(0,2)}$，计算$X(A)=1$，$Y(B)=0+2=2$，则$X(A)+Y(B)=3$，也满足条件；\\n3. 写出其中一个即可。",
+            "standardAnswer": "$A={(2,0),(0,2)}$，$B={(1,1)}$（或$A={(1,1)}$，$B={(2,0),(0,2)}$）",
+            "scoringCriteria": "该问共4分，理解优划分的定义并构造出符合条件的集合对A、B得4分，构造错误不得分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（II）对于任意点集$M_{3}$，求证：存在$M_{3}$的一个优划分$(A, B)$，满足$X(A)+Y(B) ≤3$；",
+            "solutionSteps": "1. 采用反证法，假设不存在这样的优划分，即对$M_3$的任意优划分$(A_0, B_0)$，都有$X(A_0)+Y(B_0)>3$；\\n2. 取优划分$(A_1, B_1)$，其中$A_1=B_0$，$B_1=A_0$，则也有$X(A_1)+Y(B_1)=X(B_0)+Y(A_0)>3$；\\n3. 将两式相加得$X(A_0)+Y(B_0)+X(B_0)+Y(A_0)>6$；\\n4. 由点集条件$0≤x_i,y_i,x_i+y_i≤2$，可知$X(A_0)+X(B_0)+Y(A_0)+Y(B_0)=x_1+x_2+x_3+y_1+y_2+y_3≤6$，与上式矛盾；\\n5. 故假设不成立，即存在满足条件的优划分。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问共5分，采用反证法并提出合理假设得1分；构造对应的优划分$(A_1, B_1)$并得出$X(B_0)+Y(A_0)>3$得1分；将两个不等式相加得出矛盾的前提条件得1分；结合点集的取值条件推出矛盾得1分；否定假设得出证明结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（III）对于任意点集$M_{n}$求证：存在$M_{n}$的一个优划分$(A, B)$满足$X(A) ≤\\frac{n+1}{2}$且$Y(B) ≤\\frac{n+1}{2}$。",
+            "solutionSteps": "1. 不妨设$0 ≤x_{1} ≤x_{2} ≤\\cdots ≤x_{n} ≤2$，则$0 ≤2-x_{n} ≤2-x_{n-1} ≤\\cdots ≤2-x_{1} ≤2$；\\n2. 分情况讨论：①若$x_1+x_2+\\cdots+x_n ≤\\frac{n+1}{2}$，则取B为任意单点集，A为剩余点集，满足条件；②若$x_1+x_2+\\cdots+x_n >\\frac{n+1}{2}$，则存在正整数k，使得$x_1+x_2+\\cdots+x_k ≤\\frac{n+1}{2}<x_1+x_2+\\cdots+x_k+x_{k+1}$；\\n3. 由上式推出$x_{k+1}>\\frac{n+1}{2(k+1)}$；\\n4. 计算$Y(B)$，结合$y_i≤2-x_i$得$Y(B)≤(n-k)(2-x_{k+1})$，代入$x_{k+1}$的范围并化简，利用基本不等式得$Y(B)≤\\frac{n+1}{2}$；\\n5. 取$A={(x_1,y_1),(x_2,y_2),\\cdots,(x_k,y_k)}$，$B={(x_{k+1},y_{k+1}),\\cdots,(x_n,y_n)}$，该优划分满足$X(A) ≤\\frac{n+1}{2}$且$Y(B) ≤\\frac{n+1}{2}$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问共6分，对横坐标进行排序并得到纵坐标的对应排序得1分；分情况讨论并确定k的存在性得1分；推出$x_{k+1}$的取值范围得1分；结合点集条件得到$Y(B)$的不等式并代入化简得2分；构造出符合条件的优划分并得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the point set $M_{n}={(x_{1}, y_{1}),(x_{2}, y_{2}), \\cdots,(x_{n}, y_{n})}(n ≥3)$ satisfies $0 ≤x_{i}, y_{i}, x_{i}+y_{i} ≤2(i=1,2, \\cdots, n)$. For any point set $M_{n}$, if its non-empty subsets A and B satisfy $A \\cap B=\\emptyset$ and $A \\cup B=M_{n}$, then the set pair $(A, B)$ is called an optimal partition of $M_{n}$. For any point set $M_{n}$ and its optimal partition $(A, B)$, let $X(A)$ be the sum of the abscissas of all points in A, and $Y(B)$ be the sum of the ordinates of all points in B.",
+        "subQuestions": [
+          {
+            "question": "(I) Write an optimal partition $(A, B)$ of $M_{3}={(1,1),(2,0),(0,2)}$ such that it satisfies $X(A)+Y(B)=3$;",
+            "solutionSteps": "1. Analyze the definition of the optimal partition: A and B are non-empty subsets of $M_3$, mutually exclusive, and their union is $M_3$;\\n2. Try to construct the partition: ① Take $A={(2,0),(0,2)}$, $B={(1,1)}$, calculate $X(A)=2+0=2$, $Y(B)=1$, then $X(A)+Y(B)=3$, which satisfies the condition; ② Take $A={(1,1)}$, $B={(2,0),(0,2)}$, calculate $X(A)=1$, $Y(B)=0+2=2$, then $X(A)+Y(B)=3$, which also satisfies the condition;\\n3. Write any one of them.",
+            "standardAnswer": "$A={(2,0),(0,2)}$, $B={(1,1)}$ (or $A={(1,1)}$, $B={(2,0),(0,2)}$)",
+            "scoringCriteria": "This sub-question is worth 4 points. 4 points for understanding the definition of the optimal partition and constructing the set pair A and B that meet the conditions, no points for wrong construction.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(II) For any point set $M_{3}$, prove that there exists an optimal partition $(A, B)$ of $M_{3}$ satisfying $X(A)+Y(B) ≤3$;",
+            "solutionSteps": "1. Use proof by contradiction, assume that there is no such optimal partition, that is, for any optimal partition $(A_0, B_0)$ of $M_3$, $X(A_0)+Y(B_0)>3$;\\n2. Take the optimal partition $(A_1, B_1)$ where $A_1=B_0$, $B_1=A_0$, then $X(A_1)+Y(B_1)=X(B_0)+Y(A_0)>3$ also holds;\\n3. Add the two inequalities to get $X(A_0)+Y(B_0)+X(B_0)+Y(A_0)>6$;\\n4. From the point set condition $0≤x_i,y_i,x_i+y_i≤2$, we know that $X(A_0)+X(B_0)+Y(A_0)+Y(B_0)=x_1+x_2+x_3+y_1+y_2+y_3≤6$, which contradicts the above formula;\\n5. Therefore, the assumption is not valid, that is, there exists an optimal partition that meets the conditions.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 5 points. 1 point for using proof by contradiction and putting forward a reasonable assumption; 1 point for constructing the corresponding optimal partition $(A_1, B_1)$ and deducing $X(B_0)+Y(A_0)>3$; 1 point for adding the two inequalities to get the precondition for contradiction; 1 point for deducing a contradiction by combining the value conditions of the point set; 1 point for negating the assumption and drawing the proof conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(III) For any point set $M_{n}$, prove that there exists an optimal partition $(A, B)$ of $M_{n}$ satisfying $X(A) ≤\\frac{n+1}{2}$ and $Y(B) ≤\\frac{n+1}{2}$.",
+            "solutionSteps": "1. Without loss of generality, assume $0 ≤x_{1} ≤x_{2} ≤\\cdots ≤x_{n} ≤2$, then $0 ≤2-x_{n} ≤2-x_{n-1} ≤\\cdots ≤2-x_{1} ≤2$;\\n2. Discuss in cases: ① If $x_1+x_2+\\cdots+x_n ≤\\frac{n+1}{2}$, take B as any single-point set and A as the remaining point set, which meets the conditions; ② If $x_1+x_2+\\cdots+x_n >\\frac{n+1}{2}$, then there exists a positive integer k such that $x_1+x_2+\\cdots+x_k ≤\\frac{n+1}{2}<x_1+x_2+\\cdots+x_k+x_{k+1}$;\\n3. Deduce $x_{k+1}>\\frac{n+1}{2(k+1)}$ from the above formula;\\n4. Calculate $Y(B)$, combine with $y_i≤2-x_i$ to get $Y(B)≤(n-k)(2-x_{k+1})$, substitute the range of $x_{k+1}$ and simplify, use the basic inequality to get $Y(B)≤\\frac{n+1}{2}$;\\n5. Take $A={(x_1,y_1),(x_2,y_2),\\cdots,(x_k,y_k)}$, $B={(x_{k+1},y_{k+1}),\\cdots,(x_n,y_n)}$, this optimal partition satisfies $X(A) ≤\\frac{n+1}{2}$ and $Y(B) ≤\\frac{n+1}{2}$, thus the proof is completed.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 6 points. 1 point for sorting the abscissas and getting the corresponding sorting of the ordinates; 1 point for discussing in cases and determining the existence of k; 1 point for deducing the value range of $x_{k+1}$; 2 points for getting the inequality of $Y(B)$ by combining the point set conditions and substituting for simplification; 1 point for constructing the optimal partition that meets the conditions and drawing the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2023 Beijing College Entrance Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "为研究某种农产品价格变化的规律，收集得到了该农产品连续40天的价格变化数据。用频率估计概率。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）试估计该农产品价格“上涨”的概率；",
+                        "solutionSteps": "第一步，从40天的价格变化数据中统计出价格“上涨”的天数为16天；第二步，根据频率估计概率的方法，用上涨天数除以总天数，即概率为$\\frac{16}{40}$；第三步，化简计算得$\\frac{2}{5}$。",
+                        "standardAnswer": "$\\frac{2}{5}$",
+                        "scoringCriteria": "本问共4分：指出价格上涨天数为16天、总天数为40天得2分；代入频率估计概率公式并化简计算出正确结果得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）假设该农产品每天的价格变化是相互独立的。在未来的日子里任取4天，试估计该农产品价格在这4天中2天“上涨”、1天“下跌”、1天“不变”的概率；",
+                        "solutionSteps": "第一步，计算价格“下跌”的概率为$\\frac{14}{40}=\\frac{7}{20}$，价格“不变”的概率为$\\frac{10}{40}=\\frac{1}{4}$，上涨概率为$\\frac{2}{5}$；第二步，根据独立重复试验的组合概率公式，列出表达式$C_{4}^{2} \\times (\\frac{2}{5})^{2} \\times C_{2}^{1} \\times \\frac{7}{20} \\times \\frac{1}{4}$；第三步，计算组合数$C_{4}^{2}=6$，$C_{2}^{1}=2$，代入后依次计算得$6 \\times (\\frac{2}{5})^{2} \\times 2 \\times \\frac{7}{20} \\times \\frac{1}{4}=\\frac{21}{125}$。",
+                        "standardAnswer": "$\\frac{21}{125}$",
+                        "scoringCriteria": "本问共7分：求出价格“下跌”和“不变”的概率各得1分，共2分；正确写出包含组合数的概率表达式得3分；准确计算出最终结果得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）假设该农产品每天的价格变化只受前一天价格变化的影响。判断第41天该农产品价格“上涨”、“下跌”和“不变”的概率估计值哪个最大。（结论不要求证明）",
+                        "solutionSteps": "根据前40天的价格变化数据规律及相邻天数价格变化的关联性，直接得出概率估计值的大小结论。",
+                        "standardAnswer": "价格“不变”的概率估计值最大",
+                        "scoringCriteria": "本问共2分：给出正确的结论得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "To study the law of price changes of a certain agricultural product, the price change data of the agricultural product for 40 consecutive days are collected. Estimate the probability by frequency.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Try to estimate the probability that the price of the agricultural product \"rises\";",
+                        "solutionSteps": "Step 1: Count the number of days with a price \"rise\" as 16 days from the price change data of 40 days; Step 2: According to the method of estimating probability by frequency, divide the number of rising days by the total number of days, that is, the probability is $\\frac{16}{40}$; Step 3: Simplify and calculate to get $\\frac{2}{5}$.",
+                        "standardAnswer": "$\\frac{2}{5}$",
+                        "scoringCriteria": "This sub-question is worth 4 points in total: 2 points for pointing out that the number of price rising days is 16 and the total number of days is 40; 2 points for substituting the formula of estimating probability by frequency and simplifying to calculate the correct result.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Assume that the daily price change of the agricultural product is independent of each other. Take 4 days at random in the future, try to estimate the probability that the price of the agricultural product \"rises\" for 2 days, \"falls\" for 1 day and \"remains unchanged\" for 1 day in these 4 days;",
+                        "solutionSteps": "Step 1: Calculate the probability of price \"falling\" as $\\frac{14}{40}=\\frac{7}{20}$, the probability of price \"remaining unchanged\" as $\\frac{10}{40}=\\frac{1}{4}$, and the probability of rising as $\\frac{2}{5}$; Step 2: According to the combined probability formula of independent repeated trials, list the expression $C_{4}^{2} \\times (\\frac{2}{5})^{2} \\times C_{2}^{1} \\times \\frac{7}{20} \\times \\frac{1}{4}$; Step 3: Calculate the combination numbers $C_{4}^{2}=6$, $C_{2}^{1}=2$, substitute and calculate in turn to get $6 \\times (\\frac{2}{5})^{2} \\times 2 \\times \\frac{7}{20} \\times \\frac{1}{4}=\\frac{21}{125}$.",
+                        "standardAnswer": "$\\frac{21}{125}$",
+                        "scoringCriteria": "This sub-question is worth 7 points in total: 1 point for each of calculating the probability of price \"falling\" and \"remaining unchanged\", 2 points in total; 3 points for correctly writing the probability expression including combination numbers; 2 points for accurately calculating the final result.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Assume that the daily price change of the agricultural product is only affected by the price change of the previous day. Judge which of the estimated probabilities of the price of the agricultural product \"rising\", \"falling\" and \"remaining unchanged\" on the 41st day is the largest. (Proof of the conclusion is not required)",
+                        "solutionSteps": "Directly draw the conclusion of the magnitude of the estimated probability according to the law of price change data in the first 40 days and the correlation of price changes on adjacent days.",
+                        "standardAnswer": "The estimated probability of the price \"remaining unchanged\" is the largest",
+                        "scoringCriteria": "This sub-question is worth 2 points in total: 2 points for giving the correct conclusion.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆$E: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的离心率为$\\frac{\\sqrt{5}}{3}$，A、C分别是E的上、下顶点，B、D分别是E的左、右顶点，$|AC|=4$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求E的方程；",
+                        "solutionSteps": "第一步，由A、C是椭圆的上、下顶点，得$|AC|=2b=4$，解得$b=2$；第二步，椭圆离心率$e=\\frac{c}{a}=\\frac{\\sqrt{5}}{3}$，结合椭圆的基本关系$a^2=b^2+c^2$；第三步，将$b=2$代入，得$a^2=4+c^2$，再结合$\\frac{c}{a}=\\frac{\\sqrt{5}}{3}$，解得$a=3$，$c=\\sqrt{5}$；第四步，写出椭圆E的方程为$\\frac{x^2}{9}+\\frac{y^2}{4}=1$。",
+                        "standardAnswer": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$",
+                        "scoringCriteria": "本问共5分：由$|AC|$求出$b=2$得2分；写出椭圆离心率公式和$a^2=b^2+c^2$的关系得2分；解得$a$的值并写出椭圆的标准方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设P为第一象限内E上的动点，直线$PD$与直线$BC$交于点M，直线$PA$与直线$y=-2$交于点N。求证：$MN \\parallel CD$。",
+                        "solutionSteps": "第一步，设直线$PD$的方程为$y=k(x-3)$（$k<-\\frac{2}{3}$），联立椭圆方程$\\begin{cases}y=k(x-3)\\\\\\frac{x^2}{9}+\\frac{y^2}{4}=1\\end{cases}$，解得P点坐标为$(\\frac{27 k^2-12}{9 k^2+4}, \\frac{-24 k}{9 k^2+4})$；第二步，写出直线$BC$的方程为$y=-\\frac{2}{3} x-2$，联立$\\begin{cases}y=-\\frac{2}{3} x-2\\\\y=k(x-3)\\end{cases}$，解得M点坐标为$(\\frac{9 k-6}{3 k+2}, \\frac{-12 k}{3 k+2})$；第三步，写出直线$PA$的方程为$y=-\\frac{6 k+4}{9 k-6} x+2$，令$y=-2$，解得N点坐标为$(\\frac{18 k-12}{3 k+2},-2)$；第四步，计算直线$MN$的斜率$k_1=\\frac{\\frac{-12 k}{3 k+2}+2}{\\frac{9 k-6}{3 k+2}-\\frac{18 k-12}{3 k+2}}=\\frac{2}{3}$；第五步，计算直线$CD$的斜率为$\\frac{2}{3}$，且直线$MN$与$CD$不重合，故$MN \\parallel CD$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "本问共10分：设出直线$PD$的方程得1分；联立椭圆方程并正确求出P点坐标得2分；联立直线$PD$与$BC$的方程并求出M点坐标得2分；求出直线$PA$的方程并令$y=-2$得N点坐标得2分；计算出$MN$和$CD$的斜率，结合不重合的条件证明平行得3分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the eccentricity of the ellipse $E: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ is $\\frac{\\sqrt{5}}{3}$, A and C are the upper and lower vertices of E respectively, B and D are the left and right vertices of E respectively, and $|AC|=4$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of E;",
+                        "solutionSteps": "Step 1: Since A and C are the upper and lower vertices of the ellipse, we get $|AC|=2b=4$, and solve to get $b=2$; Step 2: The eccentricity of the ellipse $e=\\frac{c}{a}=\\frac{\\sqrt{5}}{3}$, combined with the basic relation of the ellipse $a^2=b^2+c^2$; Step 3: Substitute $b=2$ to get $a^2=4+c^2$, then combine with $\\frac{c}{a}=\\frac{\\sqrt{5}}{3}$ to solve to get $a=3$, $c=\\sqrt{5}$; Step 4: Write the equation of ellipse E as $\\frac{x^2}{9}+\\frac{y^2}{4}=1$.",
+                        "standardAnswer": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total: 2 points for finding $b=2$ from $|AC|$; 2 points for writing the ellipse eccentricity formula and the relation of $a^2=b^2+c^2$; 1 point for solving the value of $a$ and writing the standard equation of the ellipse.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let P be a moving point on E in the first quadrant, the line $PD$ intersects the line $BC$ at point M, and the line $PA$ intersects the line $y=-2$ at point N. Prove that $MN \\parallel CD$.",
+                        "solutionSteps": "Step 1: Let the equation of the line $PD$ be $y=k(x-3)$ ($k<-\\frac{2}{3}$), solve the system of equations with the ellipse $\\begin{cases}y=k(x-3)\\\\\\frac{x^2}{9}+\\frac{y^2}{4}=1\\end{cases}$, and get the coordinates of point P as $(\\frac{27 k^2-12}{9 k^2+4}, \\frac{-24 k}{9 k^2+4})$; Step 2: Write the equation of the line $BC$ as $y=-\\frac{2}{3} x-2$, solve the system of equations $\\begin{cases}y=-\\frac{2}{3} x-2\\\\y=k(x-3)\\end{cases}$, and get the coordinates of point M as $(\\frac{9 k-6}{3 k+2}, \\frac{-12 k}{3 k+2})$; Step 3: Write the equation of the line $PA$ as $y=-\\frac{6 k+4}{9 k-6} x+2$, let $y=-2$, and get the coordinates of point N as $(\\frac{18 k-12}{3 k+2},-2)$; Step 4: Calculate the slope of the line $MN$ $k_1=\\frac{\\frac{-12 k}{3 k+2}+2}{\\frac{9 k-6}{3 k+2}-\\frac{18 k-12}{3 k+2}}=\\frac{2}{3}$; Step 5: Calculate the slope of the line $CD$ as $\\frac{2}{3}$, and the line $MN$ and $CD$ are not coincident, so $MN \\parallel CD$.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question is worth 10 points in total: 1 point for setting up the equation of the line $PD$; 2 points for solving the ellipse equation and correctly finding the coordinates of point P; 2 points for solving the equations of line $PD$ and $BC$ and finding the coordinates of point M; 2 points for finding the equation of line $PA$ and letting $y=-2$ to get the coordinates of point N; 3 points for calculating the slopes of $MN$ and $CD$ and proving parallelism combined with the non-coincidence condition.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "设函数$f(x)=x-x^3 e^{ax+b}$，曲线$y=f(x)$在点$(1, f(1))$处的切线方程为$y=-x+1$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求a，b的值；",
+                        "solutionSteps": "第一步，由切线方程$y=-x+1$得$f(1)=-1+1=0$，代入函数得$1 - e^{a+b}=0$，解得$a+b=0$；第二步，对$f(x)$求导，$f'(x)=1-(3x^2+ax^3)e^{ax+b}$；第三步，切线斜率为$-1$，故$f'(1)=-1$，代入得$1-(3+a)e^{a+b}=-1$；第四步，结合$a+b=0$即$e^{a+b}=1$，得$3+a=2$，解得$a=-1$，再由$a+b=0$得$b=1$。",
+                        "standardAnswer": "$a=-1，b=1$",
+                        "scoringCriteria": "本问共4分：由$f(1)=0$推出$a+b=0$得2分；正确求导并利用切线斜率求出$a=-1$、$b=1$得2分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设函数$g(x)=f'(x)$，求$g(x)$的单调区间；",
+                        "solutionSteps": "第一步，将$a=-1$，$b=1$代入$f'(x)$，得$g(x)=(x^3-3x^2)e^{1-x}+1$；第二步，对$g(x)$求导，$g'(x)=x(-x^2+6x-6)e^{1-x}$；第三步，令$g'(x)=0$，解得零点为$x=0$，$x=3-\\sqrt{3}$，$x=3+\\sqrt{3}$；第四步，分区间讨论$g'(x)$的符号：当$x\\in(-\\infty,0)$时，$g'(x)>0$；当$x\\in(0,3-\\sqrt{3})$时，$g'(x)<0$；当$x\\in(3-\\sqrt{3},3+\\sqrt{3})$时，$g'(x)>0$；当$x\\in(3+\\sqrt{3},+\\infty)$时，$g'(x)<0$；第五步，得出$g(x)$的单调递增和递减区间。",
+                        "standardAnswer": "单调递增区间为$(-\\infty,0)$、$(3-\\sqrt{3},3+\\sqrt{3})$，单调递减区间为$(0,3-\\sqrt{3})$、$(3+\\sqrt{3},+\\infty)$",
+                        "scoringCriteria": "本问共5分：正确求出$g(x)$的表达式得1分；准确求导得出$g'(x)$的表达式得2分；求出$g'(x)$的零点并分区间讨论符号，得出单调区间得2分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）求$f(x)$的极值点个数。",
+                        "solutionSteps": "第一步，分析$f'(x)$在$(-\\infty,0)$上单调递增，且$f'(-1)=1-4e^2<0$，$f'(0)=1>0$，由零点存在定理得该区间有唯一零点，为极小值点；第二步，分析$f'(x)$在$(0,3-\\sqrt{3})$上单调递减，且$f'(0)>0$，$f'(3-\\sqrt{3})<f'(1)=-1<0$，得该区间有唯一零点，为极大值点；第三步，分析$f'(x)$在$(3-\\sqrt{3},3+\\sqrt{3})$上单调递增，且$f'(3-\\sqrt{3})<0$，$f'(3+\\sqrt{3})>f'(3)=1>0$，得该区间有唯一零点，为极小值点；第四步，分析$f'(x)$在$(3+\\sqrt{3},+\\infty)$上单调递减且$f'(x)>0$，无零点；第五步，总结$f(x)$的极值点个数为3个。",
+                        "standardAnswer": "3个",
+                        "scoringCriteria": "本问共6分：分析$f'(x)$在$(-\\infty,0)$上存在唯一零点得2分；分析$f'(x)$在$(0,3-\\sqrt{3})$和$(3-\\sqrt{3},3+\\sqrt{3})$上各存在唯一零点各得1分，共2分；分析$(3+\\sqrt{3},+\\infty)$无零点并总结极值点个数为3个得2分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let the function $f(x)=x-x^3 e^{ax+b}$, and the tangent equation of the curve $y=f(x)$ at the point $(1, f(1))$ is $y=-x+1$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the values of a and b;",
+                        "solutionSteps": "Step 1: From the tangent equation $y=-x+1$, we get $f(1)=-1+1=0$, substitute into the function to get $1 - e^{a+b}=0$, and solve to get $a+b=0$; Step 2: Find the derivative of $f(x)$, $f'(x)=1-(3x^2+ax^3)e^{ax+b}$; Step 3: The slope of the tangent is $-1$, so $f'(1)=-1$, substitute to get $1-(3+a)e^{a+b}=-1$; Step 4: Combined with $a+b=0$ that is $e^{a+b}=1$, we get $3+a=2$, solve to get $a=-1$, then get $b=1$ from $a+b=0$.",
+                        "standardAnswer": "$a=-1, b=1$",
+                        "scoringCriteria": "This sub-question is worth 4 points in total: 2 points for deducing $a+b=0$ from $f(1)=0$; 2 points for correctly finding the derivative and calculating $a=-1$, $b=1$ by using the tangent slope.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let the function $g(x)=f'(x)$, find the monotonic intervals of $g(x)$;",
+                        "solutionSteps": "Step 1: Substitute $a=-1$, $b=1$ into $f'(x)$ to get $g(x)=(x^3-3x^2)e^{1-x}+1$; Step 2: Find the derivative of $g(x)$, $g'(x)=x(-x^2+6x-6)e^{1-x}$; Step 3: Let $g'(x)=0$, and solve the zero points as $x=0$, $x=3-\\sqrt{3}$, $x=3+\\sqrt{3}$; Step 4: Discuss the sign of $g'(x)$ by intervals: when $x\\in(-\\infty,0)$, $g'(x)>0$; when $x\\in(0,3-\\sqrt{3})$, $g'(x)<0$; when $x\\in(3-\\sqrt{3},3+\\sqrt{3})$, $g'(x)>0$; when $x\\in(3+\\sqrt{3},+\\infty)$, $g'(x)<0$; Step 5: Obtain the monotonic increasing and decreasing intervals of $g(x)$. ",
+                        "standardAnswer": "The monotonic increasing intervals are $(-\\infty,0)$ and $(3-\\sqrt{3},3+\\sqrt{3})$, and the monotonic decreasing intervals are $(0,3-\\sqrt{3})$ and $(3+\\sqrt{3},+\\infty)$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total: 1 point for correctly finding the expression of $g(x)$; 2 points for accurately finding the derivative to get the expression of $g'(x)$; 2 points for finding the zero points of $g'(x)$, discussing the signs by intervals and obtaining the monotonic intervals.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Find the number of extreme points of $f(x)$.",
+                        "solutionSteps": "Step 1: Analyze that $f'(x)$ is monotonically increasing on $(-\\infty,0)$, and $f'(-1)=1-4e^2<0$, $f'(0)=1>0$, there is a unique zero point in this interval by the zero point existence theorem, which is a minimum point; Step 2: Analyze that $f'(x)$ is monotonically decreasing on $(0,3-\\sqrt{3})$, and $f'(0)>0$, $f'(3-\\sqrt{3})<f'(1)=-1<0$, there is a unique zero point in this interval, which is a maximum point; Step 3: Analyze that $f'(x)$ is monotonically increasing on $(3-\\sqrt{3},3+\\sqrt{3})$, and $f'(3-\\sqrt{3})<0$, $f'(3+\\sqrt{3})>f'(3)=1>0$, there is a unique zero point in this interval, which is a minimum point; Step 4: Analyze that $f'(x)$ is monotonically decreasing on $(3+\\sqrt{3},+\\infty)$ and $f'(x)>0$, with no zero points; Step 5: Summarize that the number of extreme points of $f(x)$ is 3.",
+                        "standardAnswer": "3",
+                        "scoringCriteria": "This sub-question is worth 6 points in total: 2 points for analyzing that there is a unique zero point of $f'(x)$ on $(-\\infty,0)$; 1 point for each of analyzing that there is a unique zero point of $f'(x)$ on $(0,3-\\sqrt{3})$ and $(3-\\sqrt{3},3+\\sqrt{3})$ respectively, 2 points in total; 2 points for analyzing that there is no zero point on $(3+\\sqrt{3},+\\infty)$ and summarizing the number of extreme points as 3.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知数列$\\{a_{n}\\}$、$\\{b_{n}\\}$的项数均为$m(m>2)$，且$a_{n}, b_{n} \\in\\{1,2, \\cdots, m\\}$，$\\{a_{n}\\}$，$\\{b_{n}\\}$的前n项和分别为$A_{n}$，$B_{n}$，并规定$A_{0}=B_{0}=0$。对于$k \\in\\{0,1,2, \\cdots, m\\}$，定义$r_{k}=max \\left\\{i | B_{i} \\leq A_{k}, i \\in\\{0,1,2, \\cdots, m\\}\\right\\}$，其中，$max M$表示数集M中最大的数。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若$a_{1}=2$，$a_{2}=1$，$a_{3}=3$，$b_{1}=1$，$b_{2}=3$，$b_{3}=3$，写出$r_{0}$、$r_{1}$、$r_{2}$，$r_{3}$的值；",
+                        "solutionSteps": "第一步，计算$\\{a_n\\}$的前n项和：$A_0=0$，$A_1=2$，$A_2=2+1=3$，$A_3=3+3=6$；第二步，计算$\\{b_n\\}$的前n项和：$B_0=0$，$B_1=1$，$B_2=1+3=4$，$B_3=4+3=7$；第三步，根据定义求$r_k$：$r_0=max\\{i|B_i\\leq0\\}=0$，$r_1=max\\{i|B_i\\leq2\\}=1$，$r_2=max\\{i|B_i\\leq3\\}=1$，$r_3=max\\{i|B_i\\leq6\\}=2$。",
+                        "standardAnswer": "$r_{0}=0，r_{1}=1，r_{2}=1，r_{3}=2$",
+                        "scoringCriteria": "本问共4分：计算出$A_0,A_1,A_2,A_3$的值得1分；计算出$B_0,B_1,B_2,B_3$的值得1分；四个$r_k$的值每个正确得0.5分，共2分。",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若$a_{1} ≥b_{1}$，且$2 r_{j} ≤r_{j+1}+r_{j-1}$，$j=1,2, \\cdots, m-1$，求$r_{n}$；",
+                        "solutionSteps": "第一步，由$A_0=B_0=0$，得$r_0=max\\{i|B_i\\leq A_0\\}=0$；第二步，由$a_1≥b_1$得$B_1≤A_1$，故$r_1=max\\{i|B_i\\leq A_1\\}≥1$；第三步，由$2r_j≤r_{j+1}+r_{j-1}$变形得$r_{j+1}-r_j≥r_j-r_{j-1}$，即数列$\\{r_k\\}$的差数列单调不减；第四步，推得$r_m-r_{m-1}≥\\cdots≥r_1-r_0≥1$，故$r_m=(r_m-r_{m-1})+\\cdots+(r_1-r_0)≥m$；第五步，结合$r_m≤m$，得$r_m=m$，差数列所有等号成立，即$r_{j+1}-r_j=1$，故$r_n=n$。",
+                        "standardAnswer": "$r_{n}=n$",
+                        "scoringCriteria": "本问共5分：推出$r_0=0$得1分；由$a_1≥b_1$推出$r_1≥1$得1分；由递推关系推出差数列单调不减并得$r_m≥m$得1分；结合$r_m≤m$得$r_m=m$得1分；推出所有相邻项的差为1并得$r_n=n$得1分。",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅲ）证明：存在$p, q, s, t \\in\\{0,1,2, \\cdots, m\\}$，满足$p>q$，$s>t$，使得$A_{p}+B_{t}=A_{q}+B_{s}$。",
+                        "solutionSteps": "第一步，分两种情况讨论：情况一，若$B_m=A_m$，则$A_m+B_0=A_0+B_m$，此时取$p=m$，$q=0$，$s=m$，$t=0$，满足$p>q$，$s>t$，结论成立；情况二，若$B_m≠A_m$，不妨设$B_m>A_m$；第二步，由$r_k$的定义得$B_{r_k}≤A_k$，且$A_k$单调递增故$r_k$单调不减，又$B_m>A_m$得$r_m≤m-1$，即所有$r_k≤m-1$；第三步，考虑数列$A_k-B_{r_k}(k=0,1,\\cdots,m)$，共$m+1$项，且$A_k-B_{r_k}∈\\{0,1,\\cdots,m-1\\}$，由抽屉原理，至少有两项相等；第四步，设$A_p-B_{r_p}=A_q-B_{r_q}(p>q)$，变形得$A_p+B_{r_q}=A_q+B_{r_p}$；第五步，令$s=r_p$，$t=r_q$，由$p>q$和$r_k$单调不减得$s>t$，满足条件，结论成立。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "本问共6分：分$B_m=A_m$和$B_m≠A_m$两种情况讨论得2分；利用抽屉原理推出数列$A_k-B_{r_k}$中至少有两项相等得2分；对相等的两项变形并结合$r_k$的单调性推出满足条件的$p,q,s,t$得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the number of terms of the sequences $\\{a_{n}\\}$ and $\\{b_{n}\\}$ are both $m(m>2)$, and $a_{n}, b_{n} \\in\\{1,2, \\cdots, m\\}$. The sum of the first n terms of $\\{a_{n}\\}$ and $\\{b_{n}\\}$ are $A_{n}$ and $B_{n}$ respectively, and it is stipulated that $A_{0}=B_{0}=0$. For $k \\in\\{0,1,2, \\cdots, m\\}$, define $r_{k}=max \\left\\{i | B_{i} \\leq A_{k}, i \\in\\{0,1,2, \\cdots, m\\}\\right\\}$, where $max M$ denotes the maximum number in the number set M.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $a_{1}=2$, $a_{2}=1$, $a_{3}=3$, $b_{1}=1$, $b_{2}=3$, $b_{3}=3$, write down the values of $r_{0}$, $r_{1}$, $r_{2}$ and $r_{3}$;",
+                        "solutionSteps": "Step 1: Calculate the sum of the first n terms of $\\{a_n\\}$: $A_0=0$, $A_1=2$, $A_2=2+1=3$, $A_3=3+3=6$; Step 2: Calculate the sum of the first n terms of $\\{b_n\\}$: $B_0=0$, $B_1=1$, $B_2=1+3=4$, $B_3=4+3=7$; Step 3: Find $r_k$ according to the definition: $r_0=max\\{i|B_i\\leq0\\}=0$, $r_1=max\\{i|B_i\\leq2\\}=1$, $r_2=max\\{i|B_i\\leq3\\}=1$, $r_3=max\\{i|B_i\\leq6\\}=2$.",
+                        "standardAnswer": "$r_{0}=0, r_{1}=1, r_{2}=1, r_{3}=2$",
+                        "scoringCriteria": "This sub-question is worth 4 points in total: 1 point for calculating the values of $A_0,A_1,A_2,A_3$; 1 point for calculating the values of $B_0,B_1,B_2,B_3$; 0.5 points for each correct value of the four $r_k$, 2 points in total.",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If $a_{1} ≥b_{1}$, and $2 r_{j} ≤r_{j+1}+r_{j-1}$ for $j=1,2, \\cdots, m-1$, find $r_{n}$;",
+                        "solutionSteps": "Step 1: From $A_0=B_0=0$, we get $r_0=max\\{i|B_i\\leq A_0\\}=0$; Step 2: From $a_1≥b_1$, we get $B_1≤A_1$, so $r_1=max\\{i|B_i\\leq A_1\\}≥1$; Step 3: Transform $2r_j≤r_{j+1}+r_{j-1}$ to get $r_{j+1}-r_j≥r_j-r_{j-1}$, that is, the difference sequence of $\\{r_k\\}$ is non-decreasing; Step 4: Deduce that $r_m-r_{m-1}≥\\cdots≥r_1-r_0≥1$, so $r_m=(r_m-r_{m-1})+\\cdots+(r_1-r_0)≥m$; Step 5: Combined with $r_m≤m$, we get $r_m=m$, all equal signs hold for the difference sequence, that is, $r_{j+1}-r_j=1$, so $r_n=n$.",
+                        "standardAnswer": "$r_{n}=n$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total: 1 point for deducing $r_0=0$; 1 point for deducing $r_1≥1$ from $a_1≥b_1$; 1 point for deducing that the difference sequence is non-decreasing from the recurrence relation and getting $r_m≥m$; 1 point for getting $r_m=m$ combined with $r_m≤m$; 1 point for deducing that the difference between all adjacent terms is 1 and getting $r_n=n$.",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Prove that there exist $p, q, s, t \\in\\{0,1,2, \\cdots, m\\}$ satisfying $p>q$ and $s>t$ such that $A_{p}+B_{t}=A_{q}+B_{s}$.",
+                        "solutionSteps": "Step 1: Discuss in two cases: Case 1, if $B_m=A_m$, then $A_m+B_0=A_0+B_m$. At this time, take $p=m$, $q=0$, $s=m$, $t=0$, which satisfies $p>q$ and $s>t$, so the conclusion holds; Case 2, if $B_m≠A_m$, we may assume $B_m>A_m$; Step 2: From the definition of $r_k$, we get $B_{r_k}≤A_k$, and $A_k$ is monotonically increasing so $r_k$ is non-decreasing. Moreover, $B_m>A_m$ leads to $r_m≤m-1$, that is, all $r_k≤m-1$; Step 3: Consider the sequence $A_k-B_{r_k}(k=0,1,\\cdots,m)$, which has $m+1$ terms, and $A_k-B_{r_k}∈\\{0,1,\\cdots,m-1\\}$. By the pigeonhole principle, at least two terms are equal; Step 4: Let $A_p-B_{r_p}=A_q-B_{r_q}(p>q)$, transform it to get $A_p+B_{r_q}=A_q+B_{r_p}$; Step 5: Let $s=r_p$, $t=r_q$, from $p>q$ and the non-decreasing property of $r_k$, we get $s>t$, which satisfies the conditions, so the conclusion holds.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question is worth 6 points in total: 2 points for discussing the two cases of $B_m=A_m$ and $B_m≠A_m$; 2 points for deducing that at least two terms in the sequence $A_k-B_{r_k}$ are equal by using the pigeonhole principle; 2 points for transforming the equal terms and deducing the satisfied $p,q,s,t$ combined with the monotonicity of $r_k$.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

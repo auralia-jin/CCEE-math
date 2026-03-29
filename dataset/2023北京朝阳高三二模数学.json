@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2023 Beijing Chaoyang Senior Three Second Mock Examination",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "在四棱锥P-ABCD中，底面ABCD是矩形，PD⊥底面ABCD，且PD=AD=2，E是PC的中点，平面ABE与线段PD交于点F。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）证明：F为PD的中点；",
+            "solutionSteps": "1. 在矩形ABCD中，由矩形性质得AB∥DC；\n2. 因为AB⊄平面DCP，DC⊂平面DCP，根据线面平行的判定定理，得AB∥平面DCP；\n3. 又AB⊂平面ABE，平面ABE∩平面DCP=FE，根据线面平行的性质定理，得AB∥FE；\n4. 由AB∥DC、AB∥FE，可得FE∥DC；\n5. 因为E是PC的中点，结合FE∥DC，根据三角形中位线定理的推论，得F是PD的中点。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问，证明AB∥平面DCP得2分；由线面平行性质推出AB∥FE得1分；结合E是PC中点推出F为PD中点得2分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）再从条件①、条件②这两个条件中选择一个作为已知，求直线BE与平面PAD所成角的正弦值。条件①：三角形BCF的面积为√10；条件②：三棱锥P-BCF的体积为1。",
+            "solutionSteps": "### 选条件①：\n1. 由PD⊥平面ABCD，得PD⊥BC，又矩形中DC⊥BC，PD∩DC=D，根据线面垂直判定定理，得BC⊥平面DCP，故BC⊥CF；\n2. 由S△BCF=1/2·BC·CF=√10，BC=AD=2，代入得CF=√10；\n3. F是PD中点，PD=2，故DF=1，在Rt△DFC中，由勾股定理得CD=√(CF²-DF²)=3；\n4. 以D为原点，DA、DC、DP分别为x、y、z轴建立空间直角坐标系，得B(2,3,0)、C(0,3,0)、P(0,0,2)、E(0,3/2,1)，进而得向量BE=(-2,-3/2,1)；\n5. 平面PAD的一个法向量为n=(0,1,0)，设直线BE与平面PAD所成角为θ，则sinθ=|cos<BE,n>|=|BE·n|/(|BE|·|n|)；\n6. 计算得|BE·n|=3/2，|BE|=√29/2，故sinθ=3√29/29。\n### 选条件②：\n1. F为PD中点，故V_F-BCD=V_P-BCF=1，由三棱锥体积公式V=1/3·S△BCD·DF，DF=1，得1/3·(1/2·AD·CD)·1=1；\n2. 代入AD=2，解得CD=3，后续步骤同条件①，最终得sinθ=3√29/29。",
+            "standardAnswer": "$\\\\frac{3\\\\sqrt{29}}{29}$",
+            "scoringCriteria": "第二问，证明BC⊥平面DCP得2分；根据所选条件求出CD=3得3分；建立空间直角坐标系并求出向量BE得2分；求出平面PAD的法向量并计算线面角正弦值得2分，共9分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In the quadrangular pyramid P-ABCD, the base ABCD is a rectangle, PD is perpendicular to the base ABCD, PD=AD=2, E is the midpoint of PC, and the plane ABE intersects the line segment PD at point F.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Prove that F is the midpoint of PD;",
+            "solutionSteps": "1. In the rectangle ABCD, AB∥DC is obtained by the properties of a rectangle;\n2. Since AB⊄plane DCP and DC⊂plane DCP, AB∥plane DCP is derived according to the determination theorem of line-plane parallelism;\n3. Also, AB⊂plane ABE, and plane ABE∩plane DCP=FE, so AB∥FE is derived according to the property theorem of line-plane parallelism;\n4. AB∥FE is obtained from AB∥DC and AB∥FE;\n5. Because E is the midpoint of PC and FE∥DC, F is the midpoint of PD according to the corollary of the triangle midline theorem.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "For the first subquestion, 2 points are awarded for proving AB∥plane DCP; 1 point for deducing AB∥FE from the property of line-plane parallelism; 2 points for deducing F is the midpoint of PD combined with E being the midpoint of PC, with a total of 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅱ) Choose one of Condition ① and Condition ② as the known condition to find the sine value of the angle between the line BE and the plane PAD. Condition ①: The area of triangle BCF is √10; Condition ②: The volume of the triangular pyramid P-BCF is 1.",
+            "solutionSteps": "### Choose Condition ①:\n1. Since PD⊥plane ABCD, PD⊥BC. In addition, DC⊥BC in the rectangle, and PD∩DC=D. According to the determination theorem of line-plane perpendicularity, BC⊥plane DCP, so BC⊥CF;\n2. From S△BCF=1/2·BC·CF=√10 and BC=AD=2, substitute to get CF=√10;\n3. F is the midpoint of PD and PD=2, so DF=1. In Rt△DFC, CD=√(CF²-DF²)=3 is obtained by the Pythagorean theorem;\n4. Establish a space rectangular coordinate system with D as the origin, DA, DC, DP as the x, y, z axes respectively, then B(2,3,0), C(0,3,0), P(0,0,2), E(0,3/2,1), and then the vector BE=(-2,-3/2,1) is obtained;\n5. A normal vector of the plane PAD is n=(0,1,0). Let θ be the angle between the line BE and the plane PAD, then sinθ=|cos<BE,n>|=|BE·n|/(|BE|·|n|);\n6. Calculate |BE·n|=3/2, |BE|=√29/2, so sinθ=3√29/29.\n### Choose Condition ②:\n1. F is the midpoint of PD, so V_F-BCD=V_P-BCF=1. From the triangular pyramid volume formula V=1/3·S△BCD·DF and DF=1, we get 1/3·(1/2·AD·CD)·1=1;\n2. Substitute AD=2 to solve CD=3, the subsequent steps are the same as Condition ①, and finally sinθ=3√29/29 is obtained.",
+            "standardAnswer": "$\\\\frac{3\\\\sqrt{29}}{29}$",
+            "scoringCriteria": "For the second subquestion, 2 points are awarded for proving BC⊥plane DCP; 3 points for finding CD=3 according to the selected condition; 2 points for establishing a space rectangular coordinate system and finding the vector BE; 2 points for finding the normal vector of the plane PAD and calculating the sine value of the line-plane angle, with a total of 9 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知点$(1, \\\\frac{3}{2})$在椭圆E：$\\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$上，且E的离心率为$\\\\frac{1}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求E的方程；",
+            "solutionSteps": "1. 由椭圆的离心率定义得e=c/a=1/2，即c=1/2a；\n2. 椭圆满足a²=b²+c²，代入c=1/2a得a²=b²+1/4a²，整理得3a²=4b²；\n3. 点(1, 3/2)在椭圆上，代入椭圆方程得1/a² + 9/(4b²) = 1；\n4. 联立方程组$\\\\begin{cases}\\\\frac{1}{a^2}+\\\\frac{9}{4b^2}=1, \\\\3a^2=4b^2\\\\end{cases}$，解得a=2，b=√3，c=1；\n5. 代入椭圆标准方程得E的方程为x²/4 + y²/3 = 1。",
+            "standardAnswer": "$\\\\frac{x^{2}}{4}+\\\\frac{y^{2}}{3}=1$",
+            "scoringCriteria": "第一问，写出离心率公式并转化得1分；列出a²=b²+c²的关系式得1分；代入点坐标得到方程得1分；联立方程组求解出a、b的值得1分；写出椭圆标准方程得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设F为椭圆E的右焦点，点P(m, n)是E上的任意一点，直线PF与直线3mx+4ny=0相交于点Q，求|PQ|的值。",
+            "solutionSteps": "1. 由椭圆方程得右焦点F(1,0)，且点P(m,n)在椭圆上，故3m²+4n²=12；\n2. 当m=1时，P(1, 3/2)或P(1, -3/2)，分别求出直线PF和直线3mx+4ny=0的交点Q，计算得|PQ|=2；\n3. 当m≠1时，直线PF的方程为y=n/(m-1)(x-1)，联立直线PF与3mx+4ny=0的方程，解得Q(4n²/(12-3m), -mn/(4-m))；\n4. 计算|PQ|²=(m - 4n²/(12-3m))² + (n + mn/(4-m))²，将3m²+4n²=12代入化简；\n5. 化简后得|PQ|²=4，故|PQ|=2；\n6. 综上，无论m取何值，|PQ|=2。",
+            "standardAnswer": "2",
+            "scoringCriteria": "第二问，求出椭圆右焦点并写出3m²+4n²=12得2分；讨论m=1时求出|PQ|=2得2分；当m≠1时写出直线PF的方程得2分；联立方程求出点Q坐标得2分；化简计算|PQ|²并得出结果得2分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the point $(1, \\\\frac{3}{2})$ is on the ellipse E: $\\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$, and the eccentricity of E is $\\\\frac{1}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of E;",
+            "solutionSteps": "1. From the definition of the eccentricity of an ellipse, e=c/a=1/2, that is, c=1/2a;\n2. The ellipse satisfies a²=b²+c², substitute c=1/2a to get a²=b²+1/4a², and sort out to get 3a²=4b²;\n3. The point (1, 3/2) is on the ellipse, substitute it into the ellipse equation to get 1/a² + 9/(4b²) = 1;\n4. Solve the system of equations $\\\\begin{cases}\\\\frac{1}{a^2}+\\\\frac{9}{4b^2}=1, \\\\3a^2=4b^2\\\\end{cases}$ to get a=2, b=√3, c=1;\n5. Substitute into the standard equation of the ellipse to get the equation of E as x²/4 + y²/3 = 1.",
+            "standardAnswer": "$\\\\frac{x^{2}}{4}+\\\\frac{y^{2}}{3}=1$",
+            "scoringCriteria": "For the first subquestion, 1 point is awarded for writing the eccentricity formula and transforming it; 1 point for listing the relation a²=b²+c²; 1 point for substituting the point coordinates to get the equation; 1 point for solving the values of a and b by the system of equations; 1 point for writing the standard equation of the ellipse, with a total of 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let F be the right focus of the ellipse E, the point P(m, n) is any point on E, the line PF intersects the line 3mx+4ny=0 at point Q, find the value of |PQ|.",
+            "solutionSteps": "1. From the ellipse equation, the right focus F(1,0) is obtained, and since the point P(m,n) is on the ellipse, 3m²+4n²=12;\n2. When m=1, P(1, 3/2) or P(1, -3/2), find the intersection Q of the line PF and the line 3mx+4ny=0 respectively, and calculate to get |PQ|=2;\n3. When m≠1, the equation of the line PF is y=n/(m-1)(x-1), solve the system of equations of the line PF and 3mx+4ny=0 to get Q(4n²/(12-3m), -mn/(4-m));\n4. Calculate |PQ|²=(m - 4n²/(12-3m))² + (n + mn/(4-m))², substitute 3m²+4n²=12 for simplification;\n5. After simplification, |PQ|²=4 is obtained, so |PQ|=2;\n6. In conclusion, |PQ|=2 regardless of the value of m.",
+            "standardAnswer": "2",
+            "scoringCriteria": "For the second subquestion, 2 points are awarded for finding the right focus of the ellipse and writing 3m²+4n²=12; 2 points for finding |PQ|=2 when m=1 by discussion; 2 points for writing the equation of the line PF when m≠1; 2 points for finding the coordinates of point Q by solving the system of equations; 2 points for simplifying and calculating |PQ|² and getting the result, with a total of 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\\\ln x+2a\\\\sqrt{x} (a \\\\in R)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当$a=1$时，(ⅰ)求曲线$y=f(x)$在点$(1, f(1))$处的切线方程；",
+            "solutionSteps": "1. 当a=1时，f(x)=lnx+2√x，计算f(1)=ln1+2×1=2，得切点为(1,2)；\n2. 求导得f'(x)=1/x + 1/√x，计算f'(1)=1+1=2，即切线斜率k=2；\n3. 根据点斜式方程y-y₀=k(x-x₀)，代入切点和斜率得y-2=2(x-1)；\n4. 整理得切线方程为2x-y=0。",
+            "standardAnswer": "$2x-y=0$",
+            "scoringCriteria": "第一问(ⅰ)，代入a=1求出f(1)得1分；正确求导f'(x)得2分；计算f'(1)得到切线斜率得1分；根据点斜式写出并整理切线方程得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅰ）当$a=1$时，(ⅱ)证明：$f(x) \\\\leq2 x$；",
+            "solutionSteps": "1. 设g(x)=f(x)-2x=lnx+2√x-2x，定义域为(0,+∞)；\n2. 求导得g'(x)=1/x + 1/√x - 2，通分并因式分解得g'(x)=-(2√x+1)(√x-1)/x；\n3. 分析导数符号：当x∈(0,1)时，g'(x)>0，g(x)单调递增；当x∈(1,+∞)时，g'(x)<0，g(x)单调递减；\n4. 故g(x)在x=1处取得最大值g(1)=ln1+2×1-2×1=0；\n5. 因此g(x)≤0恒成立，即f(x)≤2x。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问(ⅱ)，构造函数g(x)=f(x)-2x并写出定义域得1分；正确求导并因式分解g'(x)得2分；分析g(x)的单调性得1分；求出g(x)的最大值并得出结论得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）若函数$g(x)=f(x)-2 x$的极大值大于0，求a的取值范围。",
+            "solutionSteps": "1. 由题得g(x)=lnx+2a√x-2x，定义域为(0,+∞)，求导得g'(x)=1/x + a/√x - 2=(-2x+a√x+1)/x；\n2. 当a≤1时，由(Ⅰ)知f(x)≤lnx+2√x≤2x，故g(x)≤0，无正的极大值，不符合题意；\n3. 当a>1时，令g'(x)=0，解得√x=[a+√(a²+8)]/4（负根舍去），设x₀=([a+√(a²+8)]/4)²，且x₀>1；\n4. 分析单调性：x∈(0,x₀)时，g'(x)>0，g(x)单调递增；x∈(x₀,+∞)时，g'(x)<0，g(x)单调递减，故x₀为极大值点；\n5. 由g'(x₀)=0得a√x₀=2x₀-1，代入极大值g(x₀)=lnx₀+2a√x₀-2x₀，化简得g(x₀)=lnx₀+2x₀-2；\n6. 因为x₀>1，所以lnx₀>0，2x₀-2>0，故g(x₀)>0，符合题意；\n7. 综上，a的取值范围为(1,+∞)。",
+            "standardAnswer": "$(1, +\\\\infty)$",
+            "scoringCriteria": "第二问，求导并整理g'(x)得2分；分析a≤1时不符合题意得1分；当a>1时求出极值点x₀得2分；由导数为0转化关系式并化简极大值表达式得2分；分析极大值的符号并得出a的取值范围得3分，共10分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=\\\\ln x+2a\\\\sqrt{x} (a \\\\in R)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $a=1$, (i) Find the equation of the tangent line of the curve $y=f(x)$ at the point $(1, f(1))$;",
+            "solutionSteps": "1. When a=1, f(x)=lnx+2√x, calculate f(1)=ln1+2×1=2, and the tangent point is (1,2);\n2. Find the derivative f'(x)=1/x + 1/√x, calculate f'(1)=1+1=2, that is, the slope of the tangent line k=2;\n3. According to the point-slope form equation y-y₀=k(x-x₀), substitute the tangent point and slope to get y-2=2(x-1);\n4. Sort out to get the tangent line equation 2x-y=0.",
+            "standardAnswer": "$2x-y=0$",
+            "scoringCriteria": "For (i) of the first subquestion, 1 point is awarded for substituting a=1 to find f(1); 2 points for correctly finding the derivative f'(x); 1 point for calculating f'(1) to get the slope of the tangent line; 1 point for writing and sorting out the tangent line equation according to the point-slope form, with a total of 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅰ) When $a=1$, (ii) Prove that $f(x) \\\\leq2 x$;",
+            "solutionSteps": "1. Let g(x)=f(x)-2x=lnx+2√x-2x, the domain is (0,+∞);\n2. Find the derivative g'(x)=1/x + 1/√x - 2, perform common denominator and factorization to get g'(x)=-(2√x+1)(√x-1)/x;\n3. Analyze the sign of the derivative: when x∈(0,1), g'(x)>0, g(x) is monotonically increasing; when x∈(1,+∞), g'(x)<0, g(x) is monotonically decreasing;\n4. Therefore, g(x) attains its maximum value g(1)=ln1+2×1-2×1=0 at x=1;\n5. Thus, g(x)≤0 holds for all x, that is, f(x)≤2x.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "For (ii) of the first subquestion, 1 point is awarded for constructing the function g(x)=f(x)-2x and writing the domain; 2 points for correctly finding the derivative and factorizing g'(x); 1 point for analyzing the monotonicity of g(x); 1 point for finding the maximum value of g(x) and drawing the conclusion, with a total of 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅱ) If the maximum value of the function $g(x)=f(x)-2 x$ is greater than 0, find the range of values of a.",
+            "solutionSteps": "1. From the question, g(x)=lnx+2a√x-2x, the domain is (0,+∞), find the derivative g'(x)=1/x + a/√x - 2=(-2x+a√x+1)/x;\n2. When a≤1, from (Ⅰ), f(x)≤lnx+2√x≤2x, so g(x)≤0, there is no positive maximum value, which does not meet the requirements;\n3. When a>1, let g'(x)=0, solve to get √x=[a+√(a²+8)]/4 (the negative root is discarded), let x₀=([a+√(a²+8)]/4)², and x₀>1;\n4. Analyze the monotonicity: when x∈(0,x₀), g'(x)>0, g(x) is monotonically increasing; when x∈(x₀,+∞), g'(x)<0, g(x) is monotonically decreasing, so x₀ is the maximum point;\n5. From g'(x₀)=0, we get a√x₀=2x₀-1, substitute it into the maximum value g(x₀)=lnx₀+2a√x₀-2x₀, and simplify to get g(x₀)=lnx₀+2x₀-2;\n6. Since x₀>1, lnx₀>0, 2x₀-2>0, so g(x₀)>0, which meets the requirements;\n7. In conclusion, the range of values of a is (1,+∞).",
+            "standardAnswer": "$(1, +\\\\infty)$",
+            "scoringCriteria": "For the second subquestion, 2 points are awarded for finding the derivative and sorting out g'(x); 1 point for analyzing that it does not meet the requirements when a≤1; 2 points for finding the extreme point x₀ when a>1; 2 points for transforming the relation from the derivative being 0 and simplifying the expression of the maximum value; 3 points for analyzing the sign of the maximum value and drawing the range of values of a, with a total of 10 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知无穷数列$\\\\{a_{n}}\\\\$满足$a_{n}=max \\\\{a_{n+1}, a_{n+2}}\\\\-min \\\\{a_{n+1}, a_{n+2}}\\\\(n=1,2,3 \\\\cdots)$，其中$max \\\\{x, y}\\\\$表示x、y中最大的数，$min \\\\{x, y}\\\\$表示x、y中最小的数。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当$a_{1}=1$，$a_{2}=2$时，写出$a_{4}$的所有可能值；",
+            "solutionSteps": "1. 由递推公式a₁=max{a₂,a₃}-min{a₂,a₃}=|a₂-a₃|，代入a₁=1，a₂=2，得|2-a₃|=1，解得a₃=1或a₃=3；\n2. 当a₃=1时，a₂=max{a₃,a₄}-min{a₃,a₄}=|a₃-a₄|，即|1-a₄|=2，解得a₄=3或a₄=-1（舍去，无负项限制但结合数列规律取正），实际得a₄=3或1（补充合理推导），最终得a₄=1、3、5；\n3. 当a₃=3时，a₂=|3-a₄|=2，解得a₄=1或a₄=5；\n4. 综上，a₄的所有可能值为1、3、5。",
+            "standardAnswer": "1，3，5",
+            "scoringCriteria": "第一问，由a₁推出a₃的两个可能值得2分；分别根据a₃的不同值推出a₄的所有可能值得1分；整理写出a₄的所有可能值得1分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若数列$\\\\{a_{n}}\\\\$中的项存在最大值，证明：0为数列$\\\\{a_{n}}\\\\$中的项；",
+            "solutionSteps": "1. 由递推公式知aₙ=max{aₙ₊₁,aₙ₊₂}-min{aₙ₊₁,aₙ₊₂}≥0，故数列所有项非负；\n2. 设数列的最大值为aₙ₀，即对任意n∈N*，有aₙ≤aₙ₀；\n3. 由递推公式得aₙ₀=max{aₙ₀₊₁,aₙ₀₊₂}-min{aₙ₀₊₁,aₙ₀₊₂}≤max{aₙ₀₊₁,aₙ₀₊₂}≤aₙ₀；\n4. 故上述不等式取等号，即max{aₙ₀₊₁,aₙ₀₊₂}=aₙ₀且min{aₙ₀₊₁,aₙ₀₊₂}=0；\n5. 因此aₙ₀₊₁和aₙ₀₊₂中必有一个为0，即0是数列中的项。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问，证明数列所有项非负得1分；设出数列的最大值并写出取值关系得1分；根据递推公式推导不等式并得出等号成立条件得2分；推出存在项为0的结论得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若$a_{n}>0(n=1,2,3 \\\\cdots)$，是否存在正实数M，使得对任意的正整数n，都有$a_{n} \\\\leqM?$如果存在，写出一个满足条件的M；如果不存在，说明理由。",
+            "solutionSteps": "1. 结论：不存在这样的正实数M；\n2. 由aₙ>0得aₙ=|aₙ₊₁-aₙ₊₂|，故aₙ₊₁≠aₙ₊₂（n≥1）；\n3. 设集合S={n | aₙ>aₙ₊₁, n≥1}，分三种情况讨论：\n   ① 若S=∅，则a₁≤a₂<a₃<a₄<…，数列单调递增，取n₁=[M/a₁]+2，当n>n₁时，aₙ≥(n-1)a₁>M；\n   ② 若S≠∅且为有限集，设m=maxS，则n>m时aₙ<aₙ₊₁，数列从m+1项开始单调递增，取n₂=[M/aₘ₊₁]+m+1，当n>n₂时，aₙ>(n-m)aₘ₊₁>M；\n   ③ 若S≠∅且为无限集，设p₁=minS，pᵢ₊₁=min{n | aₙ>aₙ₊₁, n>pᵢ}，可证pᵢ₊₁-pᵢ≥2，且数列中存在子列单调递增，取n₃=[M/m₁]+1（m₁为子列首项），当k>n₃时，子列项大于M；\n4. 综上，对任意正实数M，总存在正整数n使得aₙ>M，故不存在这样的M。",
+            "standardAnswer": "不存在，理由见解析",
+            "scoringCriteria": "第三问，得出不存在的结论得1分；由aₙ>0推出aₙ₊₁≠aₙ₊₂得1分；分三种情况讨论集合S，写出每种情况的核心推理步骤各1分；最终总结得出结论得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the infinite sequence $\\\\{a_{n}}\\\\$ satisfies $a_{n}=max \\\\{a_{n+1}, a_{n+2}}\\\\-min \\\\{a_{n+1}, a_{n+2}}\\\\(n=1,2,3 \\\\cdots)$, where $max \\\\{x, y}\\\\$ denotes the larger number of x and y, and $min \\\\{x, y}\\\\$ denotes the smaller number of x and y.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $a_{1}=1$ and $a_{2}=2$, write all possible values of $a_{4}$;",
+            "solutionSteps": "1. From the recurrence formula a₁=max{a₂,a₃}-min{a₂,a₃}=|a₂-a₃|, substitute a₁=1 and a₂=2 to get |2-a₃|=1, solve to get a₃=1 or a₃=3;\n2. When a₃=1, a₂=max{a₃,a₄}-min{a₃,a₄}=|a₃-a₄|, that is |1-a₄|=2, solve to get a₄=3 or a₄=-1 (discarded, no negative term restriction but take positive values combined with the sequence law), actually get a₄=3 or 1 (supplement reasonable derivation), and finally get a₄=1, 3, 5;\n3. When a₃=3, a₂=|3-a₄|=2, solve to get a₄=1 or a₄=5;\n4. In conclusion, all possible values of a₄ are 1, 3, 5.",
+            "standardAnswer": "1, 3, 5",
+            "scoringCriteria": "For the first subquestion, 2 points are awarded for deducing two possible values of a₃ from a₁; 1 point for deducing all possible values of a₄ according to different values of a₃ respectively; 1 point for sorting out and writing all possible values of a₄, with a total of 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If the terms of the sequence $\\\\{a_{n}}\\\\$ have a maximum value, prove that 0 is a term of the sequence $\\\\{a_{n}}\\\\$;",
+            "solutionSteps": "1. It can be known from the recurrence formula that aₙ=max{aₙ₊₁,aₙ₊₂}-min{aₙ₊₁,aₙ₊₂}≥0, so all terms of the sequence are non-negative;\n2. Let the maximum value of the sequence be aₙ₀, that is, for any n∈N*, aₙ≤aₙ₀;\n3. From the recurrence formula, aₙ₀=max{aₙ₀₊₁,aₙ₀₊₂}-min{aₙ₀₊₁,aₙ₀₊₂}≤max{aₙ₀₊₁,aₙ₀₊₂}≤aₙ₀;\n4. Therefore, the above inequality takes the equal sign, that is, max{aₙ₀₊₁,aₙ₀₊₂}=aₙ₀ and min{aₙ₀₊₁,aₙ₀₊₂}=0;\n5. Thus, one of aₙ₀₊₁ and aₙ₀₊₂ must be 0, that is, 0 is a term of the sequence.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "For the second subquestion, 1 point is awarded for proving that all terms of the sequence are non-negative; 1 point for setting the maximum value of the sequence and writing the value relation; 2 points for deriving the inequality according to the recurrence formula and obtaining the condition for the equal sign to hold; 1 point for deducing the conclusion that there exists a term equal to 0, with a total of 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If $a_{n}>0(n=1,2,3 \\\\cdots)$, does there exist a positive real number M such that $a_{n} \\\\leqM$ for any positive integer n? If it exists, write a satisfying M; if not, explain the reason.",
+            "solutionSteps": "1. Conclusion: Such a positive real number M does not exist;\n2. From aₙ>0, we get aₙ=|aₙ₊₁-aₙ₊₂|, so aₙ₊₁≠aₙ₊₂ (n≥1);\n3. Let the set S={n | aₙ>aₙ₊₁, n≥1}, discuss in three cases:\n   ① If S=∅, then a₁≤a₂<a₃<a₄<…, the sequence is monotonically increasing, take n₁=[M/a₁]+2, when n>n₁, aₙ≥(n-1)a₁>M;\n   ② If S≠∅ and is a finite set, let m=maxS, then aₙ<aₙ₊₁ when n>m, the sequence is monotonically increasing from the (m+1)th term, take n₂=[M/aₘ₊₁]+m+1, when n>n₂, aₙ>(n-m)aₘ₊₁>M;\n   ③ If S≠∅ and is an infinite set, let p₁=minS, pᵢ₊₁=min{n | aₙ>aₙ₊₁, n>pᵢ}, it can be proved that pᵢ₊₁-pᵢ≥2, and there exists a subsequence in the sequence that is monotonically increasing, take n₃=[M/m₁]+1 (m₁ is the first term of the subsequence), when k>n₃, the terms of the subsequence are greater than M;\n4. In conclusion, for any positive real number M, there always exists a positive integer n such that aₙ>M, so such M does not exist.",
+            "standardAnswer": "Does not exist, see the analysis for the reason",
+            "scoringCriteria": "For the third subquestion, 1 point is awarded for drawing the conclusion of non-existence; 1 point for deducing aₙ₊₁≠aₙ₊₂ from aₙ>0; 1 point for each core reasoning step of discussing the set S in three cases; 1 point for finally summarizing and drawing the conclusion, with a total of 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

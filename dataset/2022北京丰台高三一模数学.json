@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2022 Beijing Fengtai Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "为研究某地区2021届大学毕业生毕业三个月后的毕业去向，某调查公司从该地区2021届大学毕业生中随机选取了1000人作为样本进行调查，结果如下：毕业去向 继续学习深造 单位就业 自主创业 自由职业 慢就业 人数 200 560 14 128 98 假设该地区2021届大学毕业生选择的毕业去向相互独立。",
+        "subQuestions": [
+          {
+            "question": "（1）若该地区一所高校2021届大学毕业生的人数为2500，试根据样本估计该校2021届大学毕业生选择“单位就业”的人数；",
+            "solutionSteps": "第一步，计算样本中选择“单位就业”的频率，频率=560/1000=0.56；第二步，用高校毕业生总人数乘以该频率，即2500×0.56=1400；第三步，得出估计的人数。",
+            "standardAnswer": "1400",
+            "scoringCriteria": "本问共4分，计算出单位就业的频率得2分，代入总人数计算出正确结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）从该地区2021届大学毕业生中随机选取3人，记随机变量X为这3人中选择“继续学习深造”的人数。以样本的频率估计概率，求X的分布列和数学期望E(X)；",
+            "solutionSteps": "第一步，计算样本中选择“继续学习深造”的频率，即200/1000=1/5，以此作为单次选取的概率；第二步，确定X服从二项分布X~B(3,1/5)，其可能取值为0,1,2,3；第三步，分别计算各取值的概率：P(X=0)=C₃⁰(1/5)⁰(4/5)³=64/125，P(X=1)=C₃¹(1/5)¹(4/5)²=48/125，P(X=2)=C₃²(1/5)²(4/5)¹=12/125，P(X=3)=C₃³(1/5)³(4/5)⁰=1/125；第四步，列出X的分布列；第五步，计算数学期望E(X)=0×64/125+1×48/125+2×12/125+3×1/125=3/5（或利用二项分布期望公式E(X)=np=3×1/5=3/5）。",
+            "standardAnswer": "分布列为：<table><tbody><tr><td>X</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>P</td><td>64/125</td><td>48/125</td><td>12/125</td><td>1/125</td></tr></tbody></table>；数学期望$E(X)=\\frac{3}{5}$",
+            "scoringCriteria": "本问共7分，计算出继续学习深造的概率得1分，确定X的可能取值并判断二项分布得1分，正确计算出四个概率值各得1分（共4分），列出分布列并计算出正确的数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（3）该公司在半年后对样本中的毕业生进行再调查，发现仅有选择“慢就业”的毕业生中的a(0<a<98)人选择了上表中其他的毕业去向，记此时表中五种毕业去向对应人数的方差为s²。当a为何值时，s²最小。(结论不要求证明)",
+            "solutionSteps": "根据方差的意义，方差反映数据的波动程度，波动越小方差越小；已知五种毕业去向人数的平均数为200，要使数据波动性最小，需让自主创业和慢就业的人数相等，据此得出a的值。",
+            "standardAnswer": "42",
+            "scoringCriteria": "本问共2分，直接写出正确的a值即可得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "To study the employment status of the 2021 college graduates in a certain region three months after graduation, a survey company randomly selected 1000 graduates from the 2021 college graduates in this region as a sample for investigation, with the results as follows: Employment Status: Further Study, Employment in Units, Self-Employment, Freelance Work, Slow Employment; Number of People: 200, 560, 14, 128, 98. Assume that the employment choices of the 2021 college graduates in this region are independent of each other.",
+        "subQuestions": [
+          {
+            "question": "(1) If the number of 2021 college graduates in a university in this region is 2500, estimate the number of graduates of this university who choose to be employed in units based on the sample;",
+            "solutionSteps": "Step 1: Calculate the frequency of choosing to be employed in units in the sample, frequency = 560/1000 = 0.56; Step 2: Multiply the total number of college graduates by this frequency, that is 2500×0.56 = 1400; Step 3: Obtain the estimated number of people.",
+            "standardAnswer": "1400",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for calculating the frequency of employment in units, and 2 points for substituting the total number of people to get the correct result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Randomly select 3 graduates from the 2021 college graduates in this region, let the random variable X be the number of these 3 graduates who choose further study. Estimate the probability by the frequency of the sample, find the probability mass function of X and the mathematical expectation E(X);",
+            "solutionSteps": "Step 1: Calculate the frequency of choosing further study in the sample, which is 200/1000 = 1/5, and take this as the probability of a single selection; Step 2: Determine that X follows a binomial distribution X~B(3,1/5), and its possible values are 0,1,2,3; Step 3: Calculate the probability of each value separately: P(X=0)=C₃⁰(1/5)⁰(4/5)³=64/125, P(X=1)=C₃¹(1/5)¹(4/5)²=48/125, P(X=2)=C₃²(1/5)²(4/5)¹=12/125, P(X=3)=C₃³(1/5)³(4/5)⁰=1/125; Step 4: List the probability mass function of X; Step 5: Calculate the mathematical expectation E(X)=0×64/125+1×48/125+2×12/125+3×1/125=3/5 (or use the binomial distribution expectation formula E(X)=np=3×1/5=3/5).",
+            "standardAnswer": "The probability mass function is: <table><tbody><tr><td>X</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>P</td><td>64/125</td><td>48/125</td><td>12/125</td><td>1/125</td></tr></tbody></table>; The mathematical expectation is $E(X)=\\frac{3}{5}$",
+            "scoringCriteria": "This sub-question is worth 7 points in total. 1 point for calculating the probability of further study, 1 point for determining the possible values of X and judging the binomial distribution, 1 point for each of the four correctly calculated probability values (4 points in total), and 1 point for listing the probability mass function and calculating the correct mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(3) Half a year later, the company conducted a re-survey on the graduates in the sample and found that only a(0<a<98) graduates who chose slow employment switched to other employment statuses in the above table. Let s² be the variance of the number of people corresponding to the five employment statuses in the table at this time. Find the value of a that minimizes s². (No need to prove the conclusion)",
+            "solutionSteps": "According to the meaning of variance, variance reflects the degree of data fluctuation, and the smaller the fluctuation, the smaller the variance; it is known that the average number of people in the five employment statuses is 200. To minimize the data fluctuation, the number of people in self-employment and slow employment should be equal, and the value of a is obtained accordingly.",
+            "standardAnswer": "42",
+            "scoringCriteria": "This sub-question is worth 2 points in total. 2 points for directly writing the correct value of a.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$的左、右顶点为A，B，|AB|=4，离心率为$\\frac{\\sqrt{3}}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆C的方程；",
+            "solutionSteps": "第一步，由椭圆左、右顶点间的距离|AB|=2a=4，解得a=2，a²=4；第二步，由离心率e=c/a=√3/2，代入a=2得c=√3；第三步，根据椭圆中a²=b²+c²，计算得b²=a²-c²=4-3=1；第四步，写出椭圆C的标准方程为$\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "本问共5分，由|AB|求出a的值得2分，由离心率求出c的值得1分，利用a²=b²+c²求出b²得1分，写出正确的椭圆方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）设P是椭圆C上不同于A，B的一点，直线PA，PB与直线x=4分别交于点M，N。若|MN| ≤4，求点P横坐标的取值范围。",
+            "solutionSteps": "第一步，设点P的坐标为(m,n)(-2<m<2)，由椭圆顶点得A(-2,0)，B(2,0)；第二步，写出直线PA的方程$y=\\frac{n}{m+2}(x+2)$，直线PB的方程$y=\\frac{n}{m-2}(x-2)$；第三步，令x=4，分别求出M、N的纵坐标$y_M=\\frac{6n}{m+2}$，$y_N=\\frac{2n}{m-2}$；第四步，计算|MN|=|y_M - y_N|=|\\frac{6n}{m+2}-\\frac{2n}{m-2}|=|\\frac{4n(m-4)}{m^2-4}|$；第五步，由P在椭圆上得$\\frac{m^2}{4}+n^2=1$，即m²-4=-4n²，代入|MN|化简得|MN|=|\\frac{m-4}{n}|；第六步，根据|MN|≤4得|\\frac{m-4}{n}|≤4，两边平方得(m-4)²≤16n²；第七步，将n²=1-\\frac{m^2}{4}代入不等式，整理得5m²-8m≤0；第八步，解不等式得0≤m≤8/5，即为点P横坐标的取值范围。",
+            "standardAnswer": "$[0, \\frac{8}{5}]$",
+            "scoringCriteria": "本问共10分，设出点P坐标并写出A、B坐标得1分，正确写出直线PA、PB的方程得2分，求出M、N的纵坐标得1分，计算并化简|MN|的表达式得3分，根据|MN|≤4列出不等式并代入椭圆方程化简得2分，解出正确的横坐标取值范围得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the left and right vertices of the ellipse $C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$ are A and B, $|AB|=4$, and the eccentricity is $\\frac{\\sqrt{3}}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation of the ellipse C;",
+            "solutionSteps": "Step 1: From the distance between the left and right vertices of the ellipse $|AB|=2a=4$, solve for $a=2$ and $a^2=4$; Step 2: From the eccentricity $e=c/a=\\sqrt{3}/2$, substitute $a=2$ to get $c=\\sqrt{3}$; Step 3: According to $a^2=b^2+c^2$ in the ellipse, calculate $b^2=a^2-c^2=4-3=1$; Step 4: Write the standard equation of the ellipse C as $\\frac{x^2}{4}+y^2=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 2 points for finding the value of a from |AB|, 1 point for finding the value of c from the eccentricity, 1 point for finding b² using a²=b²+c², and 1 point for writing the correct equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Let P be a point on the ellipse C different from A and B. The lines PA and PB intersect the line x=4 at points M and N respectively. If $|MN| ≤4$, find the range of the abscissa of point P.",
+            "solutionSteps": "Step 1: Let the coordinates of point P be $(m,n)(-2<m<2)$, and get $A(-2,0)$ and $B(2,0)$ from the vertices of the ellipse; Step 2: Write the equation of line PA as $y=\\frac{n}{m+2}(x+2)$ and the equation of line PB as $y=\\frac{n}{m-2}(x-2)$; Step 3: Let $x=4$, find the ordinate of M and N respectively: $y_M=\\frac{6n}{m+2}$, $y_N=\\frac{2n}{m-2}$; Step 4: Calculate $|MN|=|y_M - y_N|=|\\frac{6n}{m+2}-\\frac{2n}{m-2}|=|\\frac{4n(m-4)}{m^2-4}|$; Step 5: Since P is on the ellipse, $\\frac{m^2}{4}+n^2=1$, that is $m^2-4=-4n^2$, substitute it into $|MN|$ to simplify and get $|MN|=|\\frac{m-4}{n}|$; Step 6: According to $|MN|≤4$, get $|\\frac{m-4}{n}|≤4$, square both sides to get $(m-4)^2≤16n^2$; Step 7: Substitute $n^2=1-\\frac{m^2}{4}$ into the inequality and rearrange to get $5m^2-8m≤0$; Step 8: Solve the inequality to get $0≤m≤8/5$, which is the range of the abscissa of point P.",
+            "standardAnswer": "$[0, \\frac{8}{5}]$",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 1 point for setting the coordinates of point P and writing the coordinates of A and B, 2 points for correctly writing the equations of lines PA and PB, 1 point for finding the ordinates of M and N, 3 points for calculating and simplifying the expression of |MN|, 2 points for listing the inequality according to |MN|≤4 and simplifying it by substituting the ellipse equation, and 1 point for solving the correct range of the abscissa.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=x \\sqrt{a-x}$。",
+        "subQuestions": [
+          {
+            "question": "（1）当a=1时，求曲线y=f(x)的斜率为1的切线方程；",
+            "solutionSteps": "第一步，当a=1时，确定函数$f(x)=x \\sqrt{1-x}(x≤1)$；第二步，求函数的导数，$f'(x)=\\frac{2-3x}{2 \\sqrt{1-x}}$；第三步，令f'(x)=1，解方程$\\frac{2-3x}{2 \\sqrt{1-x}}=1$，解得x=0或x=8/9（舍去）；第四步，求x=0时的函数值f(0)=0，确定切点为(0,0)；第五步，根据点斜式写出切线方程y-0=1×(x-0)，即y=x。",
+            "standardAnswer": "$y=x$",
+            "scoringCriteria": "本问共5分，写出a=1时的函数解析式得1分，正确求导得2分，令导数为1解得正确的切点横坐标得1分，写出正确的切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）若函数$g(x)=f(x)-\\frac{2a}{3}$恰有两个不同的零点，求a的取值范围。",
+            "solutionSteps": "第一步，确定函数$g(x)=x \\sqrt{a-x}-\\frac{2a}{3}(x≤a)$，求导得$g'(x)=\\frac{2a-3x}{2 \\sqrt{a-x}}$；第二步，令g'(x)=0，解得极值点x=2a/3；第三步，分类讨论a的取值：①当a≤0时，g'(x)≥0，g(x)在(-∞,a]上单调递增，至多一个零点，不合题意；②当a>0时，g(x)在(-∞,2a/3)上单调递增，在(2a/3,a)上单调递减，在x=2a/3处取得最大值$g(\\frac{2a}{3})=\\frac{2 \\sqrt{3}a \\sqrt{a}-6a}{9}$；第四步，分析最大值：当0<a≤3时，g(2a/3)≤0，g(x)至多一个零点；当a>3时，g(2a/3)>0，且g(0)=g(a)=-2a/3<0，由零点存在性定理，g(x)在(0,2a/3)和(2a/3,a)上各有一个零点，恰有两个零点；第五步，得出a的取值范围为(3,+∞)。",
+            "standardAnswer": "$(3, +\\infty)$",
+            "scoringCriteria": "本问共10分，正确求导并求出极值点得2分，对a≤0的情况分析单调性和零点个数得2分，对a>0的情况分析单调性并求出最大值得2分，分析最大值的符号并结合零点存在性定理判断零点个数得3分，写出正确的a的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=x \\sqrt{a-x}$.",
+        "subQuestions": [
+          {
+            "question": "(1) When a=1, find the equation of the tangent line to the curve y=f(x) with a slope of 1;",
+            "solutionSteps": "Step 1: When a=1, determine the function $f(x)=x \\sqrt{1-x}(x≤1)$; Step 2: Find the derivative of the function, $f'(x)=\\frac{2-3x}{2 \\sqrt{1-x}}$; Step 3: Let $f'(x)=1$, solve the equation $\\frac{2-3x}{2 \\sqrt{1-x}}=1$, and get $x=0$ or $x=8/9$ (discarded); Step 4: Find the function value $f(0)=0$ at $x=0$ and determine the tangent point as $(0,0)$; Step 5: Write the tangent line equation according to the point-slope form: $y-0=1×(x-0)$, that is $y=x$.",
+            "standardAnswer": "$y=x$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for writing the analytical formula of the function when a=1, 2 points for correctly finding the derivative, 1 point for solving the correct abscissa of the tangent point by letting the derivative be 1, and 1 point for writing the correct tangent line equation.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) If the function $g(x)=f(x)-\\frac{2a}{3}$ has exactly two distinct zeros, find the range of the value of a.",
+            "solutionSteps": "Step 1: Determine the function $g(x)=x \\sqrt{a-x}-\\frac{2a}{3}(x≤a)$ and find its derivative $g'(x)=\\frac{2a-3x}{2 \\sqrt{a-x}}$; Step 2: Let $g'(x)=0$ and solve for the extreme point $x=2a/3$; Step 3: Discuss the value of a by classification: ① When $a≤0$, $g'(x)≥0$, $g(x)$ is monotonically increasing on $(-∞,a]$, with at most one zero, which does not meet the requirements; ② When $a>0$, $g(x)$ is monotonically increasing on $(-∞,2a/3)$ and monotonically decreasing on $(2a/3,a)$, and attains the maximum value at $x=2a/3$: $g(\\frac{2a}{3})=\\frac{2 \\sqrt{3}a \\sqrt{a}-6a}{9}$; Step 4: Analyze the maximum value: When $0<a≤3$, $g(2a/3)≤0$, $g(x)$ has at most one zero; When $a>3$, $g(2a/3)>0$, and $g(0)=g(a)=-2a/3<0$. According to the Zero Existence Theorem, $g(x)$ has one zero on $(0,2a/3)$ and one zero on $(2a/3,a)$ respectively, with exactly two zeros; Step 5: Conclude that the range of a is $(3,+∞)$.",
+            "standardAnswer": "$(3, +\\infty)$",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 2 points for correctly finding the derivative and the extreme point, 2 points for analyzing the monotonicity and the number of zeros when a≤0, 2 points for analyzing the monotonicity and finding the maximum value when a>0, 3 points for analyzing the sign of the maximum value and judging the number of zeros combined with the Zero Existence Theorem, and 1 point for writing the correct range of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知集合$S={1,2, \\cdots, n}$（$n ≥3$且$n \\in N^{*}$)，$A={a_1, a_2, \\cdots, a_m}$，且$A \\subseteq S$。若对任意$a_i \\in A$，$a_j \\in A$(1 ≤i ≤j ≤m))，当$a_i+a_j ≤n$时，存在$a_k \\in A(1 ≤k ≤m)$，使得$a_i+a_j=a_k$，则称A是S的m元完美子集。",
+        "subQuestions": [
+          {
+            "question": "（1）判断下列集合是否是$S={1,2,3,4,5}$的3元完美子集，并说明理由；(1)$A_1={1,2,4}$;(2)$A_2={2,4,5}$。",
+            "solutionSteps": "①判断A₁：根据m元完美子集的定义，取a₁=1，a₂=2，满足1+2=3≤5，但3∉A₁，因此A₁不是S的3元完美子集；②判断A₂：依次验证所有a_i+a_j的情况，2+2=4≤5且4∈A₂，2+4=6>5，2+5=7>5，4+4=8>5，4+5=9>5，5+5=10>5，所有满足a_i+a_j≤5的情况都存在a_k∈A₂使得a_i+a_j=a_k，因此A₂是S的3元完美子集。",
+            "standardAnswer": "$A_1$不是S的3元完美子集，$A_2$是S的3元完美子集；理由见解析",
+            "scoringCriteria": "本问共4分，正确判断A₁并给出合理理由得2分，正确判断A₂并给出合理理由得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）若$A={a_1, a_2, a_3}$是$S={1,2, \\cdots, 7}$的3元完美子集，求$a_1+a_2+a_3$的最小值；",
+            "solutionSteps": "第一步，不妨设$a_1<a_2<a_3$，分情况讨论：①若a₁=1，由定义得1+1=2∈A，1+2=3∈A，1+3=4∈A，与A是3元子集矛盾；②若a₁=2，由定义得2+2=4∈A，2+4=6∈A，2+6=8>7，满足3元完美子集的定义，此时A={2,4,6}，和为2+4+6=12；③若a₁≥3，则a₁+a₁≥6，可得a₂≥4，a₃≥6，和为3+4+6=13>12；第二步，综上得出a₁+a₂+a₃的最小值为12。",
+            "standardAnswer": "12",
+            "scoringCriteria": "本问共5分，不妨设a₁<a₂<a₃并分析a₁=1的情况得出矛盾得1分，分析a₁=2的情况求出符合条件的子集并计算和值得2分，分析a₁≥3的情况得出和更大得1分，得出正确的最小值得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（3）若$A={a_1, a_2, \\cdots, a_m}$是$S={1,2, \\cdots, n}$（$n ≥3$且$n \\in N^{*})$的m元完美子集，求证：$a_1+a_2+\\cdots+a_m ≥\\frac{m(n+1)}{2}$，并指出等号成立的条件。",
+            "solutionSteps": "第一步，不妨设$a_1<a_2<\\cdots<a_m$，采用反证法，假设存在某个i(1≤i≤m)，使得$a_i+a_{m+1-i} ≤n$；第二步，由单调性得$a_i<a_i+a_1<a_i+a_2<\\cdots<a_i+a_{m+1-i} ≤n$，这些数是A中m+1-i个不同元素，且均属于{a_{i+1},a_{i+2},…,a_m}，而该集合仅有m-i个不同元素，矛盾；第三步，因此对任意1≤i≤m，都有$a_i+a_{m+1-i} ≥n+1$；第四步，将m个不等式相加：$(a_1+a_m)+(a_2+a_{m-1})+\\cdots+(a_m+a_1) ≥m(n+1)$，即$2(a_1+a_2+\\cdots+a_m) ≥m(n+1)$，化简得$a_1+a_2+\\cdots+a_m ≥\\frac{m(n+1)}{2}$；第五步，指出等号成立的条件为$a_1=\\frac{n+1}{m+1} \\in N^{*}$且$a_i=\\frac{(n+1)i}{m+1}(2 ≤i ≤m)$。",
+            "standardAnswer": "证明见解析；等号成立的条件是$a_1=\\frac{n+1}{m+1} \\in N^{*}$且$a_i=\\frac{(n+1)i}{m+1}(2 ≤i ≤m)$",
+            "scoringCriteria": "本问共6分，不妨设a₁<a₂<…<aₘ并提出反证假设得1分，根据单调性推出矛盾得2分，由反证法得出$a_i+a_{m+1-i} ≥n+1$得1分，累加不等式证明出结论得1分，写出正确的等号成立条件得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the set $S={1,2, \\cdots, n}$ ($n ≥3$ and $n \\in N^{*}$), $A={a_1, a_2, \\cdots, a_m}$ and $A \\subseteq S$. If for any $a_i \\in A$, $a_j \\in A$ (1 ≤i ≤j ≤m), when $a_i+a_j ≤n$, there exists $a_k \\in A$ (1 ≤k ≤m) such that $a_i+a_j=a_k$, then A is called an m-element perfect subset of S.",
+        "subQuestions": [
+          {
+            "question": "(1) Judge whether the following sets are 3-element perfect subsets of $S={1,2,3,4,5}$ and explain the reasons; (1)$A_1={1,2,4}$; (2)$A_2={2,4,5}$.",
+            "solutionSteps": "①Judge A₁: According to the definition of m-element perfect subset, take $a_1=1$ and $a_2=2$, which satisfy $1+2=3≤5$, but $3\\notin A_1$, so $A_1$ is not a 3-element perfect subset of S; ②Judge A₂: Verify all cases of $a_i+a_j$ in turn, $2+2=4≤5$ and $4\\in A_2$, $2+4=6>5$, $2+5=7>5$, $4+4=8>5$, $4+5=9>5$, $5+5=10>5$. For all cases satisfying $a_i+a_j≤5$, there exists $a_k\\in A_2$ such that $a_i+a_j=a_k$, so $A_2$ is a 3-element perfect subset of S.",
+            "standardAnswer": "$A_1$ is not a 3-element perfect subset of S, $A_2$ is a 3-element perfect subset of S; see the analysis for reasons.",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for correctly judging A₁ and giving reasonable reasons, 2 points for correctly judging A₂ and giving reasonable reasons.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) If $A={a_1, a_2, a_3}$ is a 3-element perfect subset of $S={1,2, \\cdots, 7}$, find the minimum value of $a_1+a_2+a_3$;",
+            "solutionSteps": "Step 1: Without loss of generality, let $a_1<a_2<a_3$, and discuss by cases: ①If $a_1=1$, from the definition, $1+1=2\\in A$, $1+2=3\\in A$, $1+3=4\\in A$, which contradicts that A is a 3-element subset; ②If $a_1=2$, from the definition, $2+2=4\\in A$, $2+4=6\\in A$, $2+6=8>7$, which satisfies the definition of a 3-element perfect subset. At this time, $A={2,4,6}$, and the sum is $2+4+6=12$; ③If $a_1≥3$, then $a_1+a_1≥6$, so $a_2≥4$, $a_3≥6$, and the sum is $3+4+6=13>12$; Step 2: Conclude that the minimum value of $a_1+a_2+a_3$ is 12.",
+            "standardAnswer": "12",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for assuming $a_1<a_2<a_3$ without loss of generality and analyzing the case of $a_1=1$ to draw a contradiction, 2 points for analyzing the case of $a_1=2$ to find the qualified subset and calculate the sum, 1 point for analyzing the case of $a_1≥3$ to conclude that the sum is larger, and 1 point for finding the correct minimum value.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(3) If $A={a_1, a_2, \\cdots, a_m}$ is an m-element perfect subset of $S={1,2, \\cdots, n}$ ($n ≥3$ and $n \\in N^{*}$), prove that $a_1+a_2+\\cdots+a_m ≥\\frac{m(n+1)}{2}$, and point out the condition for the equality to hold.",
+            "solutionSteps": "Step 1: Without loss of generality, let $a_1<a_2<\\cdots<a_m$, and use proof by contradiction. Assume that there exists some $i(1≤i≤m)$ such that $a_i+a_{m+1-i} ≤n$; Step 2: From monotonicity, $a_i<a_i+a_1<a_i+a_2<\\cdots<a_i+a_{m+1-i} ≤n$, these numbers are $m+1-i$ distinct elements in A, and all belong to $\\{a_{i+1},a_{i+2},…,a_m\\}$, while this set has only $m-i$ distinct elements, which is a contradiction; Step 3: Therefore, for any $1≤i≤m$, $a_i+a_{m+1-i} ≥n+1$; Step 4: Add the m inequalities together: $(a_1+a_m)+(a_2+a_{m-1})+\\cdots+(a_m+a_1) ≥m(n+1)$, that is $2(a_1+a_2+\\cdots+a_m) ≥m(n+1)$, simplify to get $a_1+a_2+\\cdots+a_m ≥\\frac{m(n+1)}{2}$; Step 5: Point out that the condition for the equality to hold is $a_1=\\frac{n+1}{m+1} \\in N^{*}$ and $a_i=\\frac{(n+1)i}{m+1}(2 ≤i ≤m)$.",
+            "standardAnswer": "See the analysis for the proof; the condition for the equality to hold is $a_1=\\frac{n+1}{m+1} \\in N^{*}$ and $a_i=\\frac{(n+1)i}{m+1}(2 ≤i ≤m)$",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 1 point for assuming $a_1<a_2<…<a_m$ without loss of generality and putting forward the assumption for proof by contradiction, 2 points for deducing a contradiction according to monotonicity, 1 point for concluding $a_i+a_{m+1-i} ≥n+1$ by proof by contradiction, 1 point for proving the conclusion by adding the inequalities together, and 1 point for writing the correct condition for the equality to hold.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

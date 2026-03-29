@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2021 Beijing Fangshan Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "单板滑雪U型池比赛是冬奥会比赛中的一个项目，进入决赛阶段的12名运动员按照预赛成绩由低到高的出场顺序轮流进行三次滑行，裁判员根据运动员的腾空高度、完成的动作难度和效果进行评分，最终取单次最高分作为比赛成绩。现有运动员甲，乙二人在2021赛季单板滑雪U型池世界杯分站比赛成绩如表：（表格包含5个分站的甲、乙三次滑行成绩），假设甲、乙二人每次比赛成绩相互独立。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从如表5站中随机选取1站，求在该站运动员甲的成绩高于运动员乙的成绩的概率；",
+            "solutionSteps": "1. 提取甲、乙两人在5个分站的单次最高成绩：甲的成绩依次为86.20，92.80，87.50，89.50，86.00；乙的成绩依次为88.40，88.60，89.10，88.20，87.70。2. 统计甲成绩高于乙成绩的站数：甲在第2站（92.80>88.60）、第4站（89.50>88.20）共2站成绩更高。3. 根据古典概型概率公式计算：P=符合条件的站数/总站点数=2/5。",
+            "standardAnswer": "$\\frac{2}{5}$",
+            "scoringCriteria": "（Ⅰ）总分5分，正确提取甲、乙各站最高成绩得2分；准确统计甲高于乙的站数得1分；正确运用古典概型公式并计算出结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从如表5站中任意选取2站，用X表示这2站中甲的成绩高于乙的成绩的站数，求X的分布列和数学期望；",
+            "solutionSteps": "1. 确定X的可能取值：0，1，2。2. 分别计算各取值的概率：P(X=0)=C_3^2/C_5^2=3/10；P(X=1)=C_3^1C_2^1/C_5^2=6/10=3/5；P(X=2)=C_2^2/C_5^2=1/10。3. 列出X的分布列，以表格形式呈现X取0、1、2时对应的概率。4. 根据数学期望公式计算：E(X)=0×3/10 + 1×3/5 + 2×1/10=4/5。",
+            "standardAnswer": "分布列为：| X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{3}{10}$ | $\\frac{3}{5}$ | $\\frac{1}{10}$ |；数学期望为$\\frac{4}{5}$",
+            "scoringCriteria": "（Ⅱ）总分5分，正确确定X的可能取值得1分；准确计算出三个概率值各得1分（共3分）；正确列出分布列并计算出数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）假如从甲、乙2人中推荐1人参加2022年北京冬奥会单板滑雪U型池比赛，根据以上数据信息，你推荐谁参加，并说明理由；",
+            "solutionSteps": "1. 计算甲、乙的平均成绩：甲的平均成绩=(86.20+92.80+87.50+89.50+86.00)/5=88.4；乙的平均成绩=(88.40+88.60+89.10+88.20+87.70)/5=88.4。2. 计算甲、乙的方差：甲方差=1/5×[(86.20-88.40)²+(92.80-88.40)²+(87.50-88.40)²+(89.50-88.40)²+(86.00-88.40)²]=6.3960；乙方差=1/5×[(88.40-88.40)²+(88.60-88.40)²+(89.10-88.40)²+(88.20-88.40)²+(87.70-88.40)²]=0.2120。3. 比较方差并得出结论：甲乙平均成绩相同，乙方差更小，成绩更稳定，故推荐乙。",
+            "standardAnswer": "推荐乙参加，理由：甲、乙平均成绩均为88.4，乙方差0.2120远小于甲方差6.3960，乙的比赛成绩更稳定。",
+            "scoringCriteria": "（Ⅲ）总分3分，正确计算出甲、乙的平均成绩得1分；准确计算出甲、乙的方差得1分；结合数据给出合理推荐并说明正确理由得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The snowboard halfpipe competition is an event in the Winter Olympic Games. The 12 athletes who enter the final stage take three runs in turn according to the order of their preliminary scores from low to high. Referees score based on the athletes' takeoff height, the difficulty and effect of the completed moves, and the single highest score is finally taken as the competition result. The scores of athletes A and B in the 2021 season FIS Snowboard World Cup halfpipe sub-stations are shown in the table: (The table includes the three run scores of A and B in 5 sub-stations). Assume that the competition scores of A and B are independent of each other each time.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select 1 station from the 5 stations in the table, find the probability that the score of athlete A is higher than that of athlete B at this station;",
+            "solutionSteps": "1. Extract the single highest scores of athlete A and B in the 5 sub-stations: A's scores are 86.20, 92.80, 87.50, 89.50, 86.00 in turn; B's scores are 88.40, 88.60, 89.10, 88.20, 87.70 in turn. 2. Count the number of stations where A's score is higher than B's: A's score is higher in 2 stations, the 2nd station (92.80>88.60) and the 4th station (89.50>88.20). 3. Calculate according to the classical probability formula: P=Number of qualifying stations/Total number of stations=2/5.",
+            "standardAnswer": "$\\frac{2}{5}$",
+            "scoringCriteria": "(Ⅰ) Total score 5 points, 2 points for correctly extracting the highest score of A and B at each station; 1 point for accurately counting the number of stations where A is higher than B; 2 points for correctly applying the classical probability formula and calculating the result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 2 stations from the 5 stations in the table, let X denote the number of stations where A's score is higher than B's in these 2 stations, find the probability distribution and mathematical expectation of X;",
+            "solutionSteps": "1. Determine the possible values of X: 0, 1, 2. 2. Calculate the probability of each value separately: P(X=0)=C_3^2/C_5^2=3/10; P(X=1)=C_3^1C_2^1/C_5^2=6/10=3/5; P(X=2)=C_2^2/C_5^2=1/10. 3. List the probability distribution of X in the form of a table showing the corresponding probabilities when X takes 0, 1 and 2. 4. Calculate according to the mathematical expectation formula: E(X)=0×3/10 + 1×3/5 + 2×1/10=4/5.",
+            "standardAnswer": "The probability distribution is: | X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{3}{10}$ | $\\frac{3}{5}$ | $\\frac{1}{10}$ |; The mathematical expectation is $\\frac{4}{5}$",
+            "scoringCriteria": "(Ⅱ) Total score 5 points, 1 point for correctly determining the possible values of X; 1 point for each accurate calculation of the three probability values (3 points in total); 1 point for correctly listing the probability distribution and calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) If one athlete is recommended from A and B to participate in the 2022 Beijing Winter Olympic Games snowboard halfpipe competition, who do you recommend to participate based on the above data information, and explain the reason;",
+            "solutionSteps": "1. Calculate the average scores of A and B: A's average score=(86.20+92.80+87.50+89.50+86.00)/5=88.4; B's average score=(88.40+88.60+89.10+88.20+87.70)/5=88.4. 2. Calculate the variances of A and B: Variance of A=1/5×[(86.20-88.40)²+(92.80-88.40)²+(87.50-88.40)²+(89.50-88.40)²+(86.00-88.40)²]=6.3960; Variance of B=1/5×[(88.40-88.40)²+(88.60-88.40)²+(89.10-88.40)²+(88.20-88.40)²+(87.70-88.40)²]=0.2120. 3. Compare the variances and draw a conclusion: A and B have the same average score, B has a smaller variance and more stable scores, so B is recommended.",
+            "standardAnswer": "Recommend B to participate. Reason: The average scores of A and B are both 88.4, the variance of B (0.2120) is much smaller than that of A (6.3960), and B's competition scores are more stable.",
+            "scoringCriteria": "(Ⅲ) Total score 3 points, 1 point for correctly calculating the average scores of A and B; 1 point for accurately calculating the variances of A and B; 1 point for giving a reasonable recommendation and explaining the correct reason based on the data.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数 $f(x)=2 x^{3}-2 x^{2}+3$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求曲线 $y=f(x)$ 在点(0, $f(0))$ 处的切线方程；",
+            "solutionSteps": "1. 求函数$f(x)$的导数：$f'(x)=6x^2-4x$。2. 计算切点处的导数值（切线斜率）：$f'(0)=6×0^2-4×0=0$。3. 计算切点的纵坐标：$f(0)=2×0^3-2×0^2+3=3$，即切点为(0,3)。4. 根据点斜式写出切线方程：$y-3=0×(x-0)$，化简得$y=3$。",
+            "standardAnswer": "$y=3$",
+            "scoringCriteria": "（Ⅰ）总分4分，正确求导得2分；准确计算出切线斜率和切点坐标各得1分（共2分）。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若 $x \\in(0,+\\infty)$，求证: $f(x) ≥2 x+1$；",
+            "solutionSteps": "1. 构造差函数：令$g(x)=f(x)-(2x+1)=2x^3-2x^2+3-2x-1=2x^3-2x^2-2x+2$。2. 对$g(x)$因式分解：$g(x)=2(x^3-x^2-x+1)=2[x^2(x-1)-(x-1)]=2(x-1)^2(x+1)$。3. 分析$x\\in(0,+\\infty)$时$g(x)$的符号：$(x-1)^2≥0$，$x+1>0$，故$g(x)≥0$，即$f(x)-(2x+1)≥0$，所以$f(x)≥2x+1$得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）总分5分，正确构造差函数得2分；对差函数进行正确因式分解得2分；结合x的范围分析函数符号并完成证明得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）设 $h(x)=8 x^{2}-34$，是否存在唯一的自然数 m ,使得 $h(x)$ 与 $f(x)$ 的图象在区间 $(m, m+1)$ 上有两个不同的公共点?若存在,试求出 m 的值,若不存在,请说明理由。",
+            "solutionSteps": "1. 联立方程转化为函数零点问题：由$f(x)=h(x)$得$2x^3-2x^2+3=8x^2-34$，整理得$2x^3-10x^2+37=0$，设$g(x)=2x^3-10x^2+37$，问题转化为$g(x)$在区间$(m,m+1)$（m为自然数）有两个不同零点。2. 求$g(x)$的导数分析单调性：$g'(x)=6x^2-20x=2x(3x-10)$，令$g'(x)=0$，得$x=0$或$x=10/3$。当$0<x<10/3$时，$g'(x)<0$，$g(x)$单调递减；当$x>10/3$时，$g'(x)>0$，$g(x)$单调递增。3. 计算关键处的函数值：$g(3)=2×27-10×9+37=54-90+37=1$，$g(10/3)=2×(1000/27)-10×(100/9)+37=-1/27$，$g(4)=2×64-10×16+37=128-160+37=5$。4. 结合单调性和函数值判断零点：$g(x)$在$(3,10/3)$上单调递减且$g(3)>0$，$g(10/3)<0$，有一个零点；在$(10/3,4)$上单调递增且$g(10/3)<0$，$g(4)>0$，有一个零点，即$g(x)$在(3,4)有两个不同零点。5. 验证自然数的唯一性：m为自然数，故m=3是唯一满足条件的数。",
+            "standardAnswer": "存在，$m=3$",
+            "scoringCriteria": "（Ⅲ）总分6分，正确联立方程并整理得到三次方程得1分；正确求导并分析函数单调性得2分；准确计算关键节点的函数值得2分；结合单调性和函数值判断出零点位置并确定唯一自然数m得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=2 x^{3}-2 x^{2}+3$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the tangent line to the curve $y=f(x)$ at the point $(0, f(0))$;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=6x^2-4x$. 2. Calculate the value of the derivative at the tangent point (slope of the tangent line): $f'(0)=6×0^2-4×0=0$. 3. Calculate the ordinate of the tangent point: $f(0)=2×0^3-2×0^2+3=3$, that is, the tangent point is $(0,3)$. 4. Write the tangent line equation according to the point-slope form: $y-3=0×(x-0)$, simplify to get $y=3$.",
+            "standardAnswer": "$y=3$",
+            "scoringCriteria": "(Ⅰ) Total score 4 points, 2 points for correctly finding the derivative; 1 point each for accurately calculating the slope of the tangent line and the coordinates of the tangent point (2 points in total).",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $x \\in(0,+\\infty)$, prove that $f(x) ≥2 x+1$;",
+            "solutionSteps": "1. Construct the difference function: Let $g(x)=f(x)-(2x+1)=2x^3-2x^2+3-2x-1=2x^3-2x^2-2x+2$. 2. Factorize $g(x)$: $g(x)=2(x^3-x^2-x+1)=2[x^2(x-1)-(x-1)]=2(x-1)^2(x+1)$. 3. Analyze the sign of $g(x)$ when $x\\in(0,+\\infty)$: $(x-1)^2≥0$, $x+1>0$, so $g(x)≥0$, that is, $f(x)-(2x+1)≥0$, thus $f(x)≥2x+1$ is proved.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅱ) Total score 5 points, 2 points for correctly constructing the difference function; 2 points for correctly factorizing the difference function; 1 point for analyzing the function sign combined with the range of x and completing the proof.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) Let $h(x)=8 x^{2}-34$, is there a unique natural number m such that the graphs of $h(x)$ and $f(x)$ have two different common points in the interval $(m, m+1)$? If it exists, find the value of m; if not, explain the reason.",
+            "solutionSteps": "1. Combine the equations and transform into a function zero point problem: From $f(x)=h(x)$, we get $2x^3-2x^2+3=8x^2-34$, rearrange to get $2x^3-10x^2+37=0$, let $g(x)=2x^3-10x^2+37$, the problem is transformed into $g(x)$ having two different zero points in the interval $(m,m+1)$ (m is a natural number). 2. Find the derivative of $g(x)$ to analyze monotonicity: $g'(x)=6x^2-20x=2x(3x-10)$, let $g'(x)=0$, we get $x=0$ or $x=10/3$. When $0<x<10/3$, $g'(x)<0$, $g(x)$ is monotonically decreasing; when $x>10/3$, $g'(x)>0$, $g(x)$ is monotonically increasing. 3. Calculate the function values at key points: $g(3)=2×27-10×9+37=54-90+37=1$, $g(10/3)=2×(1000/27)-10×(100/9)+37=-1/27$, $g(4)=2×64-10×16+37=128-160+37=5$. 4. Judge the zero points by combining monotonicity and function values: $g(x)$ is monotonically decreasing on $(3,10/3)$ with $g(3)>0$ and $g(10/3)<0$, having one zero point; it is monotonically increasing on $(10/3,4)$ with $g(10/3)<0$ and $g(4)>0$, having one zero point, that is, $g(x)$ has two different zero points on $(3,4)$. 5. Verify the uniqueness of the natural number: m is a natural number, so m=3 is the only number satisfying the condition.",
+            "standardAnswer": "Exists, $m=3$",
+            "scoringCriteria": "(Ⅲ) Total score 6 points, 1 point for correctly combining the equations and sorting out to get the cubic equation; 2 points for correctly finding the derivative and analyzing the monotonicity of the function; 2 points for accurately calculating the function values at key nodes; 1 point for judging the zero point position by combining monotonicity and function values and determining the unique natural number m.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 过点(2,0) ,离心率为 $\\frac{1}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆 C 的方程；",
+            "solutionSteps": "1. 利用椭圆过点(2,0)确定a的值：椭圆过点(2,0)，则$a=2$。2. 由离心率公式求c的值：离心率$e=c/a=1/2$，故$c=1$。3. 根据椭圆中a、b、c的关系求b²：$a^2=b^2+c^2$，即$4=b^2+1$，解得$b^2=3$。4. 写出椭圆C的方程：$\\frac{x^2}{4}+\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "（Ⅰ）总分4分，正确求出a的值得1分；由离心率求出c的值得1分；利用a、b、c的关系求出b²得1分；写出正确的椭圆方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设点 M 为椭圆 C 的上顶点, A , B 是椭圆 C 上两个不同的动点(不在 y 轴上),直线 $MA$ , $MB$ 的斜率分别为 $k_{1}$ 、$k_{2}$ 且 $k_{1} k_{2}=3$ ,求证:直线 $AB$ 过定点 $N(0,-\\frac{5}{3} \\sqrt{3})$；",
+            "solutionSteps": "1. 确定椭圆上顶点M的坐标：由椭圆方程得M(0,$\\sqrt{3}$)。2. 设点与直线方程：设A(x₁,y₁)，B(x₂,y₂)，直线AB的方程为y=kx+t，x₁≠0，x₂≠0。3. 联立直线与椭圆方程：将y=kx+t代入$\\frac{x^2}{4}+\\frac{y^2}{3}=1$，整理得$(3+4k²)x²+8ktx+4t²-12=0$，由判别式得$t²<3+4k²$，且韦达定理得$x₁+x₂=-8kt/(3+4k²)$，$x₁x₂=(4t²-12)/(3+4k²)$。4. 结合斜率条件转化：由$k_1k_2=3$得$\\frac{y_1-\\sqrt{3}}{x_1}·\\frac{y_2-\\sqrt{3}}{x_2}=3$，即$(y_1-\\sqrt{3})(y_2-\\sqrt{3})=3x_1x_2$。5. 代入y=kx+t展开化简：将y₁=kx₁+t，y₂=kx₂+t代入上式，展开得$k²x₁x₂+k(t-\\sqrt{3})(x₁+x₂)+(t-\\sqrt{3})²=3x₁x₂$，将韦达定理结果代入并整理，得$-9t²-6\\sqrt{3}t+45=0$，即$3t²+2\\sqrt{3}t-15=0$。6. 解方程求t的值：解得$t=-5\\sqrt{3}/3$或$t=\\sqrt{3}$（舍去，此时直线过M点，与A、B为不同动点矛盾）。7. 确定直线过定点：直线AB的方程为$y=kx-5\\sqrt{3}/3$，恒过定点$(0,-5\\sqrt{3}/3)$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）总分10分，正确确定M点坐标并设出直线与点的坐标得2分；联立直线与椭圆方程并正确得到韦达定理结果得2分；根据斜率条件正确转化等式得2分；代入化简方程并正确求解t的值得3分；舍去不合理解并说明直线过定点得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ passing through the point (2,0) with an eccentricity of $\\frac{1}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse C;",
+            "solutionSteps": "1. Determine the value of a by using the ellipse passing through the point (2,0): The ellipse passes through (2,0), so $a=2$. 2. Find the value of c from the eccentricity formula: Eccentricity $e=c/a=1/2$, so $c=1$. 3. Find $b^2$ according to the relationship of a, b, c in the ellipse: $a^2=b^2+c^2$, that is, $4=b^2+1$, solve to get $b^2=3$. 4. Write the equation of the ellipse C: $\\frac{x^2}{4}+\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "(Ⅰ) Total score 4 points, 1 point for correctly finding the value of a; 1 point for finding the value of c from the eccentricity; 1 point for finding $b^2$ by using the relationship of a, b, c; 1 point for writing the correct ellipse equation.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let point M be the upper vertex of the ellipse C, A and B are two different moving points on the ellipse C (not on the y-axis), the slopes of the lines $MA$ and $MB$ are $k_{1}$ and $k_{2}$ respectively, and $k_{1} k_{2}=3$. Prove that the line $AB$ passes through the fixed point $N(0,-\\frac{5}{3} \\sqrt{3})$;",
+            "solutionSteps": "1. Determine the coordinates of the upper vertex M of the ellipse: From the ellipse equation, M(0,$\\sqrt{3}$). 2. Set the coordinates of points and the line equation: Let A(x₁,y₁), B(x₂,y₂), the equation of line AB is y=kx+t, x₁≠0, x₂≠0. 3. Combine the line and ellipse equations: Substitute y=kx+t into $\\frac{x^2}{4}+\\frac{y^2}{3}=1$, rearrange to get $(3+4k²)x²+8ktx+4t²-12=0$, from the discriminant we get $t²<3+4k²$, and from Vieta's formulas we get $x₁+x₂=-8kt/(3+4k²)$, $x₁x₂=(4t²-12)/(3+4k²)$. 4. Transform according to the slope condition: From $k_1k_2=3$, we get $\\frac{y_1-\\sqrt{3}}{x_1}·\\frac{y_2-\\sqrt{3}}{x_2}=3$, that is, $(y_1-\\sqrt{3})(y_2-\\sqrt{3})=3x_1x_2$. 5. Substitute y=kx+t and expand to simplify: Substitute y₁=kx₁+t, y₂=kx₂+t into the above formula, expand to get $k²x₁x₂+k(t-\\sqrt{3})(x₁+x₂)+(t-\\sqrt{3})²=3x₁x₂$, substitute the results of Vieta's formulas and rearrange to get $-9t²-6\\sqrt{3}t+45=0$, that is, $3t²+2\\sqrt{3}t-15=0$. 6. Solve the equation to find the value of t: Solve to get $t=-5\\sqrt{3}/3$ or $t=\\sqrt{3}$ (discarded, at this time the line passes through point M, which contradicts A and B being different moving points). 7. Determine the fixed point through which the line passes: The equation of line AB is $y=kx-5\\sqrt{3}/3$, which passes through the fixed point $(0,-5\\sqrt{3}/3)$ all the time, thus proved.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅱ) Total score 10 points, 2 points for correctly determining the coordinates of point M and setting the coordinates of the line and points; 2 points for combining the line and ellipse equations and correctly obtaining the results of Vieta's formulas; 2 points for correctly transforming the equation according to the slope condition; 3 points for substituting and simplifying the equation and correctly solving the value of t; 1 point for discarding the unreasonable solution and explaining that the line passes through the fixed point.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "对于数列 $\\{a_{n}\\}$，记 $b_{n}=max \\{a_{1}, a_{2}, ..., a_{n}\\}(n=1,2,3, ...)$，其中 $max \\{a_{1}, a_{2}, ..., a_{k}\\}$ 表示 $a_{1}$ , $a_{2}, ..., a_{k}$ 这k个数中最大的数，并称数列 $\\{b_{n}\\}$ 是 $\\{a_{n}\\}$ 的“控制数列”，如数列1,2,3,2 的“控制数列” 是1,2,3,3。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若各项均为正整数的数列 $\\{a_{n}\\}$ 的“控制数列”为1,3,4,4,写出所有的 $\\{a_{n}\\}$；",
+            "solutionSteps": "1. 根据控制数列定义分析每一项的取值范围：n=1时，$b_1=max\\{a_1\\}=1$，故$a_1=1$；n=2时，$b_2=max\\{a_1,a_2\\}=3$，$a_1=1$，故$a_2=3$；n=3时，$b_3=max\\{a_1,a_2,a_3\\}=4$，$max\\{a_1,a_2\\}=3$，故$a_3=4$；n=4时，$b_4=max\\{a_1,a_2,a_3,a_4\\}=4$，$max\\{a_1,a_2,a_3\\}=4$，故$a_4$为1、2、3、4中的正整数。2. 列出所有满足条件的数列$\\{a_n\\}$：结合上述分析，依次写出$a_4$取不同值时的数列。",
+            "standardAnswer": "所有的$\\{a_n\\}$为：1,3,4,1；1,3,4,2；1,3,4,3；1,3,4,4",
+            "scoringCriteria": "（Ⅰ）总分4分，正确确定$a_1$、$a_2$、$a_3$的取值各得1分（共3分）；完整列出所有满足条件的$a_4$对应的数列得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）(i)当 $a>0$ 时,证明:存在正整数 m ,使 $\\frac{b_{m}}{m}$ , $\\frac{b_{m+1}}{m+1}$ , $\\frac{b_{m+2}}{m+2}$,…是等差数列；",
+            "solutionSteps": "1. 分析数列$a_n$的单调性：$a_n=an²-2n$，对应的二次函数$f(x)=ax²-2x$（a>0），对称轴为$x=1/a$，当$x>1/a$时，$f(x)$单调递增。2. 确定正整数m：取$m=[1/a]+1$（$[x]$表示不超过x的最大整数），则当n≥m时，n>1/a，$a_n$单调递增，故$b_n=max\\{a_1,a_2,...,a_n\\}=a_n$。3. 推导$b_n/n$的表达式：当n≥m时，$b_n/n=a_n/n=(an²-2n)/n=an-2$。4. 证明为等差数列：$an-2$是关于n的一次函数，故数列$\\frac{b_m}{m},\\frac{b_{m+1}}{m+1},\\frac{b_{m+2}}{m+2},…$是公差为a的等差数列，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）(i)总分5分，正确分析$a_n$对应的二次函数单调性及对称轴得2分；合理确定正整数m的取值得1分；推导出n≥m时$b_n/n$的表达式得1分；证明该表达式为等差数列得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅱ）(ii)当 $a \\in[-2,2]$ 时,求 $\\frac{b_{1}}{1}+\\frac{b_{2}}{2}+\\frac{b_{3}}{3}+\\frac{b_{4}}{4}$ 的值(结果可含 a )；",
+            "solutionSteps": "1. 写出$a_1,a_2,a_3,a_4$的表达式：$a_1=a-2$，$a_2=4a-4$，$a_3=9a-6$，$a_4=16a-8$。2. 分区间讨论a的取值，确定各$b_n$的取值：①当$a\\in[-2,2/5]$时，$a_1$为最大值，$b_1=b_2=b_3=b_4=a_1=a-2$；②当$a\\in(2/5,1/2]$时，$b_1=b_2=b_3=a_1=a-2$，$b_4=a_4=16a-8$；③当$a\\in(1/2,2/3]$时，$b_1=b_2=a_1=a-2$，$b_3=a_3=9a-6$，$b_4=a_4=16a-8$；④当$a\\in(2/3,2]$时，$a_n$单调递增，$b_n=a_n$（n=1,2,3,4）。3. 分别在各区间计算求和式：①$a\\in[-2,2/5]$时，和为$(a-2)(1+1/2+1/3+1/4)=25(a-2)/12$；②$a\\in(2/5,1/2]$时，和为$(a-2)(1+1/2+1/3)+(16a-8)/4=(35a-34)/6$；③$a\\in(1/2,2/3]$时，和为$(a-2)(1+1/2)+(9a-6)/3+(16a-8)/4=(17a-14)/2$；④$a\\in(2/3,2]$时，和为$(a-2)+(4a-4)/2+(9a-6)/3+(16a-8)/4=10a-8$。4. 整合各区间结果，写出分段表达式。",
+            "standardAnswer": "$\\begin{cases}\\frac{25(a-2)}{12},&-2 \\leq a \\leq \\frac{2}{5} \\\\ \\frac{35 a-34}{6},&\\frac{2}{5}<a \\leq \\frac{1}{2} \\\\ \\frac{17 a-14}{2},&\\frac{1}{2}<a \\leq \\frac{2}{3} \\\\ 10 a-8,&\\frac{2}{3}<a \\leq 2\\end{cases}$",
+            "scoringCriteria": "（Ⅱ）(ii)总分6分，正确写出$a_1,a_2,a_3,a_4$的表达式得1分；准确划分a的取值区间得2分；在各区间正确确定$b_n$的取值各得0.5分（共2分）；各区间内正确计算求和式并整合成分段函数得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "For the sequence $\\{a_{n}\\}$, denote $b_{n}=max \\{a_{1}, a_{2}, ..., a_{n}\\}(n=1,2,3, ...)$, where $max \\{a_{1}, a_{2}, ..., a_{k}\\}$ represents the maximum value among the k numbers $a_{1}, a_{2}, ..., a_{k}$, and the sequence $\\{b_{n}\\}$ is called the \"dominant sequence\" of $\\{a_{n}\\}$. For example, the dominant sequence of the sequence 1,2,3,2 is 1,2,3,3.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If the dominant sequence of the positive integer sequence $\\{a_{n}\\}$ is 1,3,4,4, write all such sequences $\\{a_{n}\\}$;",
+            "solutionSteps": "1. Analyze the value range of each term according to the definition of the dominant sequence: When n=1, $b_1=max\\{a_1\\}=1$, so $a_1=1$; When n=2, $b_2=max\\{a_1,a_2\\}=3$, $a_1=1$, so $a_2=3$; When n=3, $b_3=max\\{a_1,a_2,a_3\\}=4$, $max\\{a_1,a_2\\}=3$, so $a_3=4$; When n=4, $b_4=max\\{a_1,a_2,a_3,a_4\\}=4$, $max\\{a_1,a_2,a_3\\}=4$, so $a_4$ is a positive integer among 1,2,3,4. 2. List all sequences $\\{a_n\\}$ that satisfy the conditions: Combine the above analysis and write the sequences corresponding to different values of $a_4$ in turn.",
+            "standardAnswer": "All such sequences $\\{a_n\\}$ are: 1,3,4,1; 1,3,4,2; 1,3,4,3; 1,3,4,4",
+            "scoringCriteria": "(Ⅰ) Total score 4 points, 1 point each for correctly determining the values of $a_1$, $a_2$ and $a_3$ (3 points in total); 1 point for completely listing all sequences corresponding to the qualified $a_4$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ)(i) When $a>0$, prove that there exists a positive integer m such that $\\frac{b_{m}}{m}$, $\\frac{b_{m+1}}{m+1}$, $\\frac{b_{m+2}}{m+2}$,… form an arithmetic sequence;",
+            "solutionSteps": "1. Analyze the monotonicity of the sequence $a_n$: $a_n=an²-2n$, the corresponding quadratic function is $f(x)=ax²-2x$ (a>0) with the axis of symmetry $x=1/a$. When $x>1/a$, $f(x)$ is monotonically increasing. 2. Determine the positive integer m: Take $m=[1/a]+1$ ($[x]$ denotes the greatest integer not exceeding x), then when n≥m, n>1/a, $a_n$ is monotonically increasing, so $b_n=max\\{a_1,a_2,...,a_n\\}=a_n$. 3. Derive the expression of $b_n/n$: When n≥m, $b_n/n=a_n/n=(an²-2n)/n=an-2$. 4. Prove it is an arithmetic sequence: $an-2$ is a linear function of n, so the sequence $\\frac{b_m}{m},\\frac{b_{m+1}}{m+1},\\frac{b_{m+2}}{m+2},…$ is an arithmetic sequence with a common difference of a, thus proved.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅱ)(i) Total score 5 points, 2 points for correctly analyzing the monotonicity and the axis of symmetry of the quadratic function corresponding to $a_n$; 1 point for reasonably determining the value of the positive integer m; 1 point for deriving the expression of $b_n/n$ when n≥m; 1 point for proving that the expression forms an arithmetic sequence.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅱ)(ii) When $a \\in[-2,2]$, find the value of $\\frac{b_{1}}{1}+\\frac{b_{2}}{2}+\\frac{b_{3}}{3}+\\frac{b_{4}}{4}$ (the result can contain a);",
+            "solutionSteps": "1. Write the expressions of $a_1,a_2,a_3,a_4$: $a_1=a-2$, $a_2=4a-4$, $a_3=9a-6$, $a_4=16a-8$. 2. Discuss the value of a in different intervals and determine the value of each $b_n$: ① When $a\\in[-2,2/5]$, $a_1$ is the maximum value, $b_1=b_2=b_3=b_4=a_1=a-2$; ② When $a\\in(2/5,1/2]$, $b_1=b_2=b_3=a_1=a-2$, $b_4=a_4=16a-8$; ③ When $a\\in(1/2,2/3]$, $b_1=b_2=a_1=a-2$, $b_3=a_3=9a-6$, $b_4=a_4=16a-8$; ④ When $a\\in(2/3,2]$, $a_n$ is monotonically increasing, $b_n=a_n$ (n=1,2,3,4). 3. Calculate the summation formula in each interval respectively: ① When $a\\in[-2,2/5]$, the sum is $(a-2)(1+1/2+1/3+1/4)=25(a-2)/12$; ② When $a\\in(2/5,1/2]$, the sum is $(a-2)(1+1/2+1/3)+(16a-8)/4=(35a-34)/6$; ③ When $a\\in(1/2,2/3]$, the sum is $(a-2)(1+1/2)+(9a-6)/3+(16a-8)/4=(17a-14)/2$; ④ When $a\\in(2/3,2]$, the sum is $(a-2)+(4a-4)/2+(9a-6)/3+(16a-8)/4=10a-8$. 4. Integrate the results of each interval and write the piecewise expression.",
+            "standardAnswer": "$\\begin{cases}\\frac{25(a-2)}{12},&-2 \\leq a \\leq \\frac{2}{5} \\\\ \\frac{35 a-34}{6},&\\frac{2}{5}<a \\leq \\frac{1}{2} \\\\ \\frac{17 a-14}{2},&\\frac{1}{2}<a \\leq \\frac{2}{3} \\\\ 10 a-8,&\\frac{2}{3}<a \\leq 2\\end{cases}$",
+            "scoringCriteria": "(Ⅱ)(ii) Total score 6 points, 1 point for correctly writing the expressions of $a_1,a_2,a_3,a_4$; 2 points for accurately dividing the value intervals of a; 0.5 points each for correctly determining the value of $b_n$ in each interval (2 points in total); 1 point for correctly calculating the summation formula in each interval and integrating it into a piecewise function.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

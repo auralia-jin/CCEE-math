@@ -1,0 +1,201 @@
+{
+  "paperTitle": "2022 Beijing Shijingshan Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "如图1，在平面四边形$PDCB$中，$PD \\parallel BC$，$BA \\perp PD$，$PA=AB=BC=1$，$AD=\\frac{1}{2}$。将$\\triangle PAB$沿$BA$翻折到$\\triangle SAB$的位置，使得平面$SAB \\perp$平面$ABCD$，如图2所示。",
+        "subQuestions": [
+          {
+            "question": "（1）设平面$SDC$与平面$SAB$的交线为$l$，求证：$BC \\perp l$；",
+            "solutionSteps": "1. 延长$BA$、$CD$相交于点$E$，连接$SE$，则$SE$为平面$SDC$与平面$SBA$的交线$l$；\\n2. 由平面$SAB \\perp$平面$ABCD$，$BA \\perp AD$，$AD \\subset$平面$ABCD$，且平面$SAB \\cap$平面$ABCD=AB$，根据面面垂直的性质定理得$AD \\perp$平面$SAB$；\\n3. 由$AD \\parallel BC$，可得$BC \\perp$平面$SAB$；\\n4. 因为$SE \\subset$平面$SAB$，所以$BC \\perp SE$，即$BC \\perp l$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问共5分，延长线段找到交线得1分，利用面面垂直性质定理证明$AD \\perp$平面$SAB$得2分，由线线平行推出$BC \\perp$平面$SAB$得1分，结合线面垂直性质证得$BC \\perp l$得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（2）在线段$SC$上是否存在一点$Q$（点$Q$不与端点重合），使得二面角$Q-BD-C$的余弦值为$\\frac{\\sqrt{6}}{6}$，请说明理由。",
+            "solutionSteps": "1. 由（1）知$SA \\perp AB$，$AD \\perp AB$，$SA \\perp AD$，以$A$为坐标原点，$AD$、$AB$、$AS$所在直线分别为$x$、$y$、$z$轴建立空间直角坐标系，得各点坐标：$A(0,0,0)$，$B(0,1,0)$，$C(1,1,0)$，$D(\\frac{1}{2},0,0)$，$S(0,0,1)$；\\n2. 得$\\overrightarrow{BD}=(\\frac{1}{2},-1,0)$，设$\\overrightarrow{SQ}=\\lambda \\overrightarrow{SC}(0<\\lambda<1)$，则$Q(\\lambda,\\lambda,1-\\lambda)$，$\\overrightarrow{BQ}=(\\lambda,\\lambda-1,1-\\lambda)$；\\n3. 设平面$QBD$的法向量为$\\vec{n}=(x,y,z)$，由$\\begin{cases}\\vec{n} \\cdot \\overrightarrow{BD}=0 \\\\ \\vec{n} \\cdot \\overrightarrow{BQ}=0\\end{cases}$得$\\begin{cases}\\frac{1}{2}x-y=0 \\\\ \\lambda x+(\\lambda-1)y+(1-\\lambda)z=0\\end{cases}$，令$x=2$，得$y=1$，$z=\\frac{1-3\\lambda}{1-\\lambda}$，即$\\vec{n}=(2,1,\\frac{1-3\\lambda}{1-\\lambda})$；\\n4. 由$SA \\perp$平面$BDC$，得平面$BDC$的一个法向量为$\\vec{m}=(0,0,1)$；\\n5. 由二面角余弦值$|\\cos<\\vec{m},\\vec{n}>|=\\frac{|\\vec{m} \\cdot \\vec{n}|}{|\\vec{m}| \\cdot |\\vec{n}|}=\\frac{\\sqrt{6}}{6}$，代入得$\\frac{|\\frac{1-3\\lambda}{1-\\lambda}|}{\\sqrt{5+(\\frac{1-3\\lambda}{1-\\lambda})^2}}=\\frac{\\sqrt{6}}{6}$，解得$\\lambda=\\frac{1}{2}$；\\n6. 故存在点$Q$为$SC$的中点满足条件。",
+            "standardAnswer": "存在，点$Q$为$SC$的中点",
+            "scoringCriteria": "第二问共8分，建立空间直角坐标系并正确写出各点坐标得2分，设出点$Q$坐标并表示出相关向量得1分，求出平面$QBD$的法向量得2分，确定平面$BDC$的法向量得1分，代入二面角余弦值公式求解出$\\lambda$得1分，得出存在性结论并说明位置得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "As shown in Figure 1, in the planar quadrilateral $PDCB$, $PD \\parallel BC$, $BA \\perp PD$, $PA=AB=BC=1$, $AD=\\frac{1}{2}$. Fold $\\triangle PAB$ along $BA$ to the position of $\\triangle SAB$ such that the plane $SAB \\perp$ the plane $ABCD$, as shown in Figure 2.",
+        "subQuestions": [
+          {
+            "question": "(1) Let $l$ be the intersection line of the plane $SDC$ and the plane $SAB$, prove that $BC \\perp l$;",
+            "solutionSteps": "1. Extend $BA$ and $CD$ to intersect at point $E$, connect $SE$, then $SE$ is the intersection line $l$ of the plane $SDC$ and the plane $SBA$;\\n2. Since the plane $SAB \\perp$ the plane $ABCD$, $BA \\perp AD$, $AD \\subset$ the plane $ABCD$, and the plane $SAB \\cap$ the plane $ABCD=AB$, it can be concluded that $AD \\perp$ the plane $SAB$ according to the property theorem of perpendicular planes;\\n3. From $AD \\parallel BC$, it can be obtained that $BC \\perp$ the plane $SAB$;\\n4. Because $SE \\subset$ the plane $SAB$, so $BC \\perp SE$, that is $BC \\perp l$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This subquestion is worth 5 points in total. 1 point for extending the line segments to find the intersection line, 2 points for proving $AD \\perp$ the plane $SAB$ by using the property theorem of perpendicular planes, 1 point for deducing $BC \\perp$ the plane $SAB$ from the parallelism of lines, and 1 point for proving $BC \\perp l$ combined with the property of line-plane perpendicularity.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(2) Is there a point $Q$ on the line segment $SC$ (point $Q$ does not coincide with the endpoints) such that the cosine value of the dihedral angle $Q-BD-C$ is $\\frac{\\sqrt{6}}{6}$? Please explain the reason.",
+            "solutionSteps": "1. It can be known from (1) that $SA \\perp AB$, $AD \\perp AB$, $SA \\perp AD$. Establish a space rectangular coordinate system with $A$ as the origin of coordinates, and the lines where $AD$, $AB$, $AS$ are located as the $x$-axis, $y$-axis and $z$-axis respectively, and obtain the coordinates of each point: $A(0,0,0)$, $B(0,1,0)$, $C(1,1,0)$, $D(\\frac{1}{2},0,0)$, $S(0,0,1)$;\\n2. Get $\\overrightarrow{BD}=(\\frac{1}{2},-1,0)$, let $\\overrightarrow{SQ}=\\lambda \\overrightarrow{SC}(0<\\lambda<1)$, then $Q(\\lambda,\\lambda,1-\\lambda)$, $\\overrightarrow{BQ}=(\\lambda,\\lambda-1,1-\\lambda)$;\\n3. Let the normal vector of the plane $QBD$ be $\\vec{n}=(x,y,z)$, from $\\begin{cases}\\vec{n} \\cdot \\overrightarrow{BD}=0 \\\\ \\vec{n} \\cdot \\overrightarrow{BQ}=0\\end{cases}$, we get $\\begin{cases}\\frac{1}{2}x-y=0 \\\\ \\lambda x+(\\lambda-1)y+(1-\\lambda)z=0\\end{cases}$. Let $x=2$, then $y=1$, $z=\\frac{1-3\\lambda}{1-\\lambda}$, that is $\\vec{n}=(2,1,\\frac{1-3\\lambda}{1-\\lambda})$;\\n4. Since $SA \\perp$ the plane $BDC$, a normal vector of the plane $BDC$ is $\\vec{m}=(0,0,1)$;\\n5. From the cosine value of the dihedral angle $|\\cos<\\vec{m},\\vec{n}>|=\\frac{|\\vec{m} \\cdot \\vec{n}|}{|\\vec{m}| \\cdot |\\vec{n}|}=\\frac{\\sqrt{6}}{6}$, substitute to get $\\frac{|\\frac{1-3\\lambda}{1-\\lambda}|}{\\sqrt{5+(\\frac{1-3\\lambda}{1-\\lambda})^2}}=\\frac{\\sqrt{6}}{6}$, and solve to get $\\lambda=\\frac{1}{2}$;\\n6. Therefore, there exists a point $Q$ which is the midpoint of $SC$ satisfying the condition.",
+            "standardAnswer": "Yes, point $Q$ is the midpoint of $SC$",
+            "scoringCriteria": "This subquestion is worth 8 points in total. 2 points for establishing the space rectangular coordinate system and correctly writing the coordinates of each point, 1 point for setting the coordinates of point $Q$ and expressing the relevant vectors, 2 points for finding the normal vector of the plane $QBD$, 1 point for determining the normal vector of the plane $BDC$, 1 point for solving $\\lambda$ by substituting the cosine value formula of the dihedral angle, and 1 point for drawing the existence conclusion and explaining the position.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "设函数$f(x)=x^2+m \\ln(x+1)(m \\in R)$。",
+        "subQuestions": [
+          {
+            "question": "（1）若$m=-1$，①求曲线$f(x)$在点$(0, f(0))$处的切线方程；②当$x \\in(1,+\\infty)$时，求证：$f(x)<x^3$。",
+            "solutionSteps": "①1. 当$m=-1$时，$f(x)=x^2-\\ln(x+1)$，求导得$f'(x)=2x-\\frac{1}{x+1}$；\\n2. 计算$f(0)=0$，$f'(0)=-1$；\\n3. 根据点斜式得切线方程为$y-0=-1 \\cdot (x-0)$，即$y=-x$。\\n②1. 令$h(x)=f(x)-x^3=-x^3+x^2-\\ln(x+1)$，求导得$h'(x)=-3x^2+2x-\\frac{1}{x+1}=-\\frac{3x^3+(x-1)^2}{x+1}$；\\n2. 当$x \\in(1,+\\infty)$时，$3x^3+(x-1)^2>0$，$x+1>0$，故$h'(x)<0$，$h(x)$在$(1,+\\infty)$上单调递减；\\n3. 计算$h(1)=-1+1-\\ln2=-\\ln2<0$，故$h(x)<h(1)<0$，即$f(x)-x^3<0$，得$f(x)<x^3$。",
+            "standardAnswer": "①$y=-x$；②证明见解析",
+            "scoringCriteria": "（1）①共4分，正确写出$m=-1$时的函数解析式得1分，求导正确得1分，计算出$f(0)$和$f'(0)$的值得1分，求出切线方程得1分；②共5分，构造函数$h(x)$得1分，求导并化简正确得2分，判断$h(x)$的单调性得1分，结合$h(1)$的符号证明不等式得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（2）若函数$f(x)$在区间$(0,1)$上存在唯一零点，求实数$m$的取值范围。",
+            "solutionSteps": "1. 求导得$f'(x)=2x+\\frac{m}{x+1}=\\frac{2x^2+2x+m}{x+1}$，令$g(x)=2x^2+2x+m$，$x \\in(0,1)$，函数$g(x)$开口向上，对称轴为$x=-\\frac{1}{2}$；\\n2. 当$m \\geq0$时，$g(x)>0$，$f'(x)>0$，$f(x)$在$(0,1)$上单调递增，又$f(0)=0$，故$f(x)>0$，无零点，不符合；\\n3. 当$m \\leq-4$时，$g(1)=4+m \\leq0$，$g(x)<0$在$(0,1)$上恒成立，$f'(x)<0$，$f(x)$在$(0,1)$上单调递减，又$f(0)=0$，故$f(x)<0$，无零点，不符合；\\n4. 当$-4<m<0$时，存在$x_0 \\in(0,1)$使$g(x_0)=0$，$f(x)$在$(0,x_0)$上单调递减，在$(x_0,1)$上单调递增；\\n5. 由$f(0)=0$，要使$f(x)$在$(0,1)$上存在唯一零点，需$f(1)=1+m \\ln2>0$，解得$m>-\\frac{1}{\\ln2}$；\\n6. 综上，实数$m$的取值范围为$(-\\frac{1}{\\ln2},0)$。",
+            "standardAnswer": "$(-\\frac{1}{\\ln2},0)$",
+            "scoringCriteria": "第二问共6分，求导并分离出二次函数$g(x)$得1分，分析$m \\geq0$时函数的单调性和零点情况得1分，分析$m \\leq-4$时函数的单调性和零点情况得1分，分析$-4<m<0$时函数的单调性得1分，结合$f(1)$的符号求出$m$的范围得1分，得出最终取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the function $f(x)=x^2+m \\ln(x+1)(m \\in R)$.",
+        "subQuestions": [
+          {
+            "question": "(1) If $m=-1$, ① find the tangent equation of the curve $f(x)$ at the point $(0, f(0))$; ② prove that $f(x)<x^3$ when $x \\in(1,+\\infty)$.",
+            "solutionSteps": "①1. When $m=-1$, $f(x)=x^2-\\ln(x+1)$, find the derivative to get $f'(x)=2x-\\frac{1}{x+1}$;\\n2. Calculate $f(0)=0$, $f'(0)=-1$;\\n3. Obtain the tangent equation as $y-0=-1 \\cdot (x-0)$, that is $y=-x$ according to the point-slope form.\\n②1. Let $h(x)=f(x)-x^3=-x^3+x^2-\\ln(x+1)$, find the derivative to get $h'(x)=-3x^2+2x-\\frac{1}{x+1}=-\\frac{3x^3+(x-1)^2}{x+1}$;\\n2. When $x \\in(1,+\\infty)$, $3x^3+(x-1)^2>0$, $x+1>0$, so $h'(x)<0$, and $h(x)$ is monotonically decreasing on $(1,+\\infty)$;\\n3. Calculate $h(1)=-1+1-\\ln2=-\\ln2<0$, so $h(x)<h(1)<0$, that is $f(x)-x^3<0$, thus $f(x)<x^3$.",
+            "standardAnswer": "①$y=-x$; ②See the analysis for the proof",
+            "scoringCriteria": "(1) ① is worth 4 points in total: 1 point for correctly writing the function analytic formula when $m=-1$, 1 point for correct derivation, 1 point for calculating the values of $f(0)$ and $f'(0)$, and 1 point for finding the tangent equation; ② is worth 5 points in total: 1 point for constructing the function $h(x)$, 2 points for correct derivation and simplification, 1 point for judging the monotonicity of $h(x)$, and 1 point for proving the inequality combined with the sign of $h(1)$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(2) If the function $f(x)$ has a unique zero point in the interval $(0,1)$, find the range of the real number $m$.",
+            "solutionSteps": "1. Find the derivative to get $f'(x)=2x+\\frac{m}{x+1}=\\frac{2x^2+2x+m}{x+1}$, let $g(x)=2x^2+2x+m$, $x \\in(0,1)$, the function $g(x)$ opens upwards with the axis of symmetry $x=-\\frac{1}{2}$;\\n2. When $m \\geq0$, $g(x)>0$, $f'(x)>0$, $f(x)$ is monotonically increasing on $(0,1)$, and $f(0)=0$, so $f(x)>0$, no zero point, which does not conform to the condition;\\n3. When $m \\leq-4$, $g(1)=4+m \\leq0$, $g(x)<0$ holds for all $x \\in(0,1)$, $f'(x)<0$, $f(x)$ is monotonically decreasing on $(0,1)$, and $f(0)=0$, so $f(x)<0$, no zero point, which does not conform to the condition;\\n4. When $-4<m<0$, there exists $x_0 \\in(0,1)$ such that $g(x_0)=0$, $f(x)$ is monotonically decreasing on $(0,x_0)$ and monotonically increasing on $(x_0,1)$;\\n5. Since $f(0)=0$, to make $f(x)$ have a unique zero point in $(0,1)$, it is required that $f(1)=1+m \\ln2>0$, solving to get $m>-\\frac{1}{\\ln2}$;\\n6. In conclusion, the range of the real number $m$ is $(-\\frac{1}{\\ln2},0)$.",
+            "standardAnswer": "$(-\\frac{1}{\\ln2},0)$",
+            "scoringCriteria": "This subquestion is worth 6 points in total: 1 point for finding the derivative and separating the quadratic function $g(x)$, 1 point for analyzing the monotonicity and zero point situation of the function when $m \\geq0$, 1 point for analyzing the monotonicity and zero point situation of the function when $m \\leq-4$, 1 point for analyzing the monotonicity of the function when $-4<m<0$, 1 point for finding the range of $m$ combined with the sign of $f(1)$, and 1 point for drawing the final value range.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆$C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的短轴长等于$2\\sqrt{3}$，离心率$e=\\frac{1}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆$C$的标准方程；",
+            "solutionSteps": "1. 由短轴长$2b=2\\sqrt{3}$，得$b=\\sqrt{3}$；\\n2. 由离心率$e=\\frac{c}{a}=\\frac{1}{2}$，得$a=2c$；\\n3. 结合椭圆中$a^2=b^2+c^2$，代入得$(2c)^2=(\\sqrt{3})^2+c^2$，解得$c=1$，$a=2$；\\n4. 故椭圆$C$的标准方程为$\\frac{x^2}{4}+\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "第一问共4分，由短轴长求出$b$的值得1分，由离心率得出$a$与$c$的关系得1分，结合椭圆的基本关系求出$c$和$a$的值得1分，写出椭圆的标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）过右焦点$F$作斜率为$k$的直线$l$，与椭圆$C$交于$A$，$B$两点，线段$AB$的垂直平分线交$x$轴于点$P$，判断$\\frac{|PF|}{|AB|}$是否为定值，说明理由。",
+            "solutionSteps": "1. 由椭圆方程得右焦点$F(1,0)$，设直线$l$的方程为$y=k(x-1)$，设$A(x_1,y_1)$，$B(x_2,y_2)$；\\n2. 联立$\\begin{cases}y=k(x-1) \\\\ \\frac{x^2}{4}+\\frac{y^2}{3}=1\\end{cases}$，消元整理得$(4k^2+3)x^2-8k^2x+4k^2-12=0$；\\n3. 由韦达定理得$x_1+x_2=\\frac{8k^2}{4k^2+3}$，$x_1x_2=\\frac{4k^2-12}{4k^2+3}$；\\n4. 求弦长$|AB|=\\sqrt{1+k^2} \\cdot \\sqrt{(x_1+x_2)^2-4x_1x_2}$，代入得$|AB|=\\sqrt{1+k^2} \\cdot \\sqrt{(\\frac{8k^2}{4k^2+3})^2-4 \\cdot \\frac{4k^2-12}{4k^2+3}}=\\frac{12(k^2+1)}{4k^2+3}$；\\n5. 求$AB$中点坐标$x_P=\\frac{x_1+x_2}{2}=\\frac{4k^2}{4k^2+3}$，$y_P=k(x_P-1)=-\\frac{3k}{4k^2+3}$；\\n6. 求$AB$垂直平分线方程：$y+\\frac{3k}{4k^2+3}=-\\frac{1}{k}(x-\\frac{4k^2}{4k^2+3})$，令$y=0$，解得$x=\\frac{k^2}{4k^2+3}$，即$P(\\frac{k^2}{4k^2+3},0)$；\\n7. 计算$|PF|=|1-\\frac{k^2}{4k^2+3}|=\\frac{3(k^2+1)}{4k^2+3}$；\\n8. 计算$\\frac{|PF|}{|AB|}=\\frac{\\frac{3(k^2+1)}{4k^2+3}}{\\frac{12(k^2+1)}{4k^2+3}}=\\frac{1}{4}$，故为定值。",
+            "standardAnswer": "是定值，$\\frac{|PF|}{|AB|}=\\frac{1}{4}$",
+            "scoringCriteria": "第二问共11分，求出右焦点坐标并设出直线方程得1分，联立直线与椭圆方程并消元正确得2分，利用韦达定理求出$x_1+x_2$和$x_1x_2$得2分，正确计算出弦长$|AB|$得2分，求出$AB$中点坐标得1分，求出垂直平分线方程并解得点$P$坐标得1分，计算出$|PF|$得1分，求出比值并得出定值结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the length of the minor axis of the ellipse $C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ is equal to $2\\sqrt{3}$, and the eccentricity $e=\\frac{1}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the standard equation of the ellipse $C$;",
+            "solutionSteps": "1. From the length of the minor axis $2b=2\\sqrt{3}$, we get $b=\\sqrt{3}$;\\n2. From the eccentricity $e=\\frac{c}{a}=\\frac{1}{2}$, we get $a=2c$;\\n3. Combined with $a^2=b^2+c^2$ in the ellipse, substitute to get $(2c)^2=(\\sqrt{3})^2+c^2$, solve to get $c=1$, $a=2$;\\n4. Therefore, the standard equation of the ellipse $C$ is $\\frac{x^2}{4}+\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "This subquestion is worth 4 points in total: 1 point for finding the value of $b$ from the length of the minor axis, 1 point for deriving the relationship between $a$ and $c$ from the eccentricity, 1 point for finding the values of $c$ and $a$ combined with the basic relationship of the ellipse, and 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Draw a line $l$ with slope $k$ through the right focus $F$, which intersects the ellipse $C$ at points $A$ and $B$. The perpendicular bisector of the line segment $AB$ intersects the $x$-axis at point $P$. Judge whether $\\frac{|PF|}{|AB|}$ is a fixed value and explain the reason.",
+            "solutionSteps": "1. Obtain the right focus $F(1,0)$ from the ellipse equation, let the equation of the line $l$ be $y=k(x-1)$, and let $A(x_1,y_1)$, $B(x_2,y_2)$;\\n2. Simultaneously solve $\\begin{cases}y=k(x-1) \\\\ \\frac{x^2}{4}+\\frac{y^2}{3}=1\\end{cases}$, eliminate the variable and sort out to get $(4k^2+3)x^2-8k^2x+4k^2-12=0$;\\n3. From Vieta's theorem, we get $x_1+x_2=\\frac{8k^2}{4k^2+3}$, $x_1x_2=\\frac{4k^2-12}{4k^2+3}$;\\n4. Find the chord length $|AB|=\\sqrt{1+k^2} \\cdot \\sqrt{(x_1+x_2)^2-4x_1x_2}$, substitute to get $|AB|=\\sqrt{1+k^2} \\cdot \\sqrt{(\\frac{8k^2}{4k^2+3})^2-4 \\cdot \\frac{4k^2-12}{4k^2+3}}=\\frac{12(k^2+1)}{4k^2+3}$;\\n5. Find the coordinates of the midpoint of $AB$: $x_P=\\frac{x_1+x_2}{2}=\\frac{4k^2}{4k^2+3}$, $y_P=k(x_P-1)=-\\frac{3k}{4k^2+3}$;\\n6. Find the equation of the perpendicular bisector of $AB$: $y+\\frac{3k}{4k^2+3}=-\\frac{1}{k}(x-\\frac{4k^2}{4k^2+3})$, let $y=0$, solve to get $x=\\frac{k^2}{4k^2+3}$, that is $P(\\frac{k^2}{4k^2+3},0)$;\\n7. Calculate $|PF|=|1-\\frac{k^2}{4k^2+3}|=\\frac{3(k^2+1)}{4k^2+3}$;\\n8. Calculate $\\frac{|PF|}{|AB|}=\\frac{\\frac{3(k^2+1)}{4k^2+3}}{\\frac{12(k^2+1)}{4k^2+3}}=\\frac{1}{4}$, so it is a fixed value.",
+            "standardAnswer": "It is a fixed value, $\\frac{|PF|}{|AB|}=\\frac{1}{4}$",
+            "scoringCriteria": "This subquestion is worth 11 points in total: 1 point for finding the coordinates of the right focus and setting the equation of the line, 2 points for correctly simulating the line and ellipse equations and eliminating the variable, 2 points for finding $x_1+x_2$ and $x_1x_2$ by using Vieta's theorem, 2 points for correctly calculating the chord length $|AB|$, 1 point for finding the coordinates of the midpoint of $AB$, 1 point for finding the equation of the perpendicular bisector and solving the coordinates of point $P$, 1 point for calculating $|PF|$, and 1 point for finding the ratio and drawing the conclusion of the fixed value.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "若数列$\\{a_n\\}$中存在三项，按一定次序排列构成等比数列，则称$\\{a_n\\}$为“等比源数列”。",
+        "subQuestions": [
+          {
+            "question": "（1）已知数列$\\{a_n\\}$为4,3,2,1，数列$\\{b_n\\}$为1,2,6,24，分别判断$\\{a_n\\}$、$\\{b_n\\}$是否为“等比源数列”，并说明理由；",
+            "solutionSteps": "1. 判断$\\{a_n\\}$：数列中的项1,2,4按次序排列，满足$2^2=1 \\times 4$，构成等比数列，故$\\{a_n\\}$是等比源数列；\\n2. 判断$\\{b_n\\}$：依次检验所有三项组合“1,2,6”“1,2,24”“1,6,24”“2,6,24”，均不满足等比中项性质，故$\\{b_n\\}$不是等比源数列。",
+            "standardAnswer": "$\\{a_n\\}$是等比源数列，$\\{b_n\\}$不是等比源数列",
+            "scoringCriteria": "第一问共4分，判断$\\{a_n\\}$为等比源数列并找出对应三项得2分，判断$\\{b_n\\}$不是等比源数列并说明检验结果得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）已知数列$\\{c_n\\}$通项公式为$c_n=2^{n-1}+1$，判断$\\{c_n\\}$是否为“等比源数列”，并说明理由；",
+            "solutionSteps": "1. 假设$\\{c_n\\}$是等比源数列，因数列单调递增，故存在$m<n<k$，使得$c_n^2=c_m c_k$；\\n2. 代入通项公式得$(2^{n-1}+1)^2=(2^{m-1}+1)(2^{k-1}+1)$，展开得$2^{2n-2}+2^n=2^{m+k-2}+2^{m-1}+2^{k-1}$；\\n3. 两边除以$2^{m-1}$得$2^{2n-m-1}+2^{n-m+1}=2^{k-1}+1+2^{k-m}$；\\n4. 分析奇偶性：左边$2^{2n-m-1}+2^{n-m+1}$是偶数，右边$2^{k-1}+2^{k-m}+1$是奇数，偶数≠奇数，矛盾；\\n5. 故假设不成立，$\\{c_n\\}$不是等比源数列。",
+            "standardAnswer": "$\\{c_n\\}$不是等比源数列",
+            "scoringCriteria": "第二问共5分，作出假设并列出等比中项等式得1分，代入通项公式并展开正确得1分，两边同除$2^{m-1}$化简得1分，分析等式两边的奇偶性得出矛盾得1分，否定假设得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）已知数列$\\{d_n\\}$为单调递增的等差数列，且$d_1 \\neq0$，$d_n \\in Z(n \\in N^*)$，求证：$\\{d_n\\}$为“等比源数列”。",
+            "solutionSteps": "1. 设等差数列$\\{d_n\\}$的公差为$d$，因数列单调递增且$d_n \\in Z$，故$d \\geq1$且$d \\in Z$，数列中必有$d_m>0$；\\n2. 要证为等比源数列，只需存在$m<n<k$，使得$d_n^2=d_m d_k$；\\n3. 设$d_n=d_m+(n-m)d$，$d_k=d_m+(k-m)d$，代入等式得$[d_m+(n-m)d]^2=d_m[d_m+(k-m)d]$；\\n4. 展开整理得$(n-m)[2d_m+(n-m)d]=d_m(k-m)$；\\n5. 取$n=d_m+m$，则左边为$d_m[2d_m+d_m d]=d_m^2(2+d)$，解得$k=2d_m+(n-m)d+m=2d_m+d_m d+m$，满足$m<n<k$；\\n6. 故存在这样的三项，$\\{d_n\\}$为等比源数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问共6分，分析等差数列的公差性质得1分，明确需证明的等价条件得1分，代入等差数列通项公式列出等式得1分，展开整理等式得1分，取定$n$的值并求出对应的$k$得1分，得出存在性结论完成证明得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "If there exist three terms in a sequence $\\{a_n\\}$ that form a geometric sequence when arranged in a certain order, then $\\{a_n\\}$ is called a \"geometric source sequence\".",
+        "subQuestions": [
+          {
+            "question": "(1) It is known that the sequence $\\{a_n\\}$ is 4,3,2,1 and the sequence $\\{b_n\\}$ is 1,2,6,24. Judge whether $\\{a_n\\}$ and $\\{b_n\\}$ are \"geometric source sequences\" respectively and explain the reasons;",
+            "solutionSteps": "1. Judge $\\{a_n\\}$: The terms 1, 2, 4 in the sequence are arranged in order, satisfying $2^2=1 \\times 4$, forming a geometric sequence, so $\\{a_n\\}$ is a geometric source sequence;\\n2. Judge $\\{b_n\\}$: Check all combinations of three terms in turn: \"1,2,6\", \"1,2,24\", \"1,6,24\", \"2,6,24\", none of which satisfy the property of the geometric mean, so $\\{b_n\\}$ is not a geometric source sequence.",
+            "standardAnswer": "$\\{a_n\\}$ is a geometric source sequence, $\\{b_n\\}$ is not a geometric source sequence",
+            "scoringCriteria": "This subquestion is worth 4 points in total: 2 points for judging $\\{a_n\\}$ as a geometric source sequence and finding the corresponding three terms, 2 points for judging $\\{b_n\\}$ as not a geometric source sequence and explaining the test results.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) It is known that the general term formula of the sequence $\\{c_n\\}$ is $c_n=2^{n-1}+1$. Judge whether $\\{c_n\\}$ is a \"geometric source sequence\" and explain the reasons;",
+            "solutionSteps": "1. Assume that $\\{c_n\\}$ is a geometric source sequence. Since the sequence is monotonically increasing, there exist $m<n<k$ such that $c_n^2=c_m c_k$;\\n2. Substitute the general term formula to get $(2^{n-1}+1)^2=(2^{m-1}+1)(2^{k-1}+1)$, expand to get $2^{2n-2}+2^n=2^{m+k-2}+2^{m-1}+2^{k-1}$;\\n3. Divide both sides by $2^{m-1}$ to get $2^{2n-m-1}+2^{n-m+1}=2^{k-1}+1+2^{k-m}$;\\n4. Analyze the parity: the left side $2^{2n-m-1}+2^{n-m+1}$ is an even number, the right side $2^{k-1}+2^{k-m}+1$ is an odd number, and an even number ≠ an odd number, which is a contradiction;\\n5. Therefore, the assumption is not valid, and $\\{c_n\\}$ is not a geometric source sequence.",
+            "standardAnswer": "$\\{c_n\\}$ is not a geometric source sequence",
+            "scoringCriteria": "This subquestion is worth 5 points in total: 1 point for making the assumption and listing the geometric mean equation, 1 point for correctly substituting the general term formula and expanding, 1 point for simplifying by dividing both sides by $2^{m-1}$, 1 point for analyzing the parity of both sides of the equation to get a contradiction, and 1 point for negating the assumption and drawing the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) It is known that the sequence $\\{d_n\\}$ is a monotonically increasing arithmetic sequence, and $d_1 \\neq0$, $d_n \\in Z(n \\in N^*)$. Prove that $\\{d_n\\}$ is a \"geometric source sequence\".",
+            "solutionSteps": "1. Let the common difference of the arithmetic sequence $\\{d_n\\}$ be $d$. Since the sequence is monotonically increasing and $d_n \\in Z$, then $d \\geq1$ and $d \\in Z$, and there must be $d_m>0$ in the sequence;\\n2. To prove it is a geometric source sequence, it is only necessary that there exist $m<n<k$ such that $d_n^2=d_m d_k$;\\n3. Let $d_n=d_m+(n-m)d$, $d_k=d_m+(k-m)d$, substitute into the equation to get $[d_m+(n-m)d]^2=d_m[d_m+(k-m)d]$;\\n4. Expand and sort out the equation to get $(n-m)[2d_m+(n-m)d]=d_m(k-m)$;\\n5. Take $n=d_m+m$, then the left side is $d_m[2d_m+d_m d]=d_m^2(2+d)$, solve to get $k=2d_m+(n-m)d+m=2d_m+d_m d+m$, which satisfies $m<n<k$;\\n6. Therefore, there exist such three terms, and $\\{d_n\\}$ is a geometric source sequence.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This subquestion is worth 6 points in total: 1 point for analyzing the properties of the common difference of the arithmetic sequence, 1 point for clarifying the equivalent condition to be proved, 1 point for substituting the general term formula of the arithmetic sequence to list the equation, 1 point for expanding and sorting out the equation, 1 point for taking the fixed value of $n$ and finding the corresponding $k$, and 1 point for drawing the existence conclusion and completing the proof.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

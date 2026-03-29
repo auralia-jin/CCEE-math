@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2022 Beijing Chaoyang Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "如图1，在四边形ABCD中，AC⊥BD，AC∩BD=O，OD=OB=1，OC=2，E，F分别是AB，AD上的点，EF∥BD，AC∩EF=H，AH=2，HO=1。将△AEF沿EF折起到△A₁EF的位置，得到五棱锥A₁-BCDFE，如图2。",
+        "subQuestions": [
+          {
+            "question": "（1）求证：EF⊥平面A₁HC；",
+            "solutionSteps": "1. 由已知AC⊥BD，且EF∥BD，根据线线垂直的传递性可得AC⊥EF；\n2. 折叠后EF与A₁H、HC的垂直关系保持不变，即EF⊥A₁H，EF⊥HC；\n3. 又A₁H∩HC=H，且A₁H、HC均在平面A₁HC内；\n4. 根据线面垂直的判定定理，可得EF⊥平面A₁HC。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问总分4分，由AC⊥BD和EF∥BD推出AC⊥EF得1分；指出折叠后EF⊥A₁H、EF⊥HC得1分；说明A₁H∩HC=H且两线在平面A₁HC内得1分；运用线面垂直判定定理得出结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（2）若平面A₁EF⊥平面BCDFE，(i)求二面角D-A₁C-H的余弦值；",
+            "solutionSteps": "1. 由EF⊥A₁H、EF⊥HC，得∠A₁HC为平面A₁EF与平面BCDFE的平面角，结合面面垂直条件得∠A₁HC=90°，即A₁H⊥HC；\n2. 又EF⊥A₁H，EF∩HC=H，故A₁H⊥平面BCDFE，以H为原点建立空间直角坐标系；\n3. 确定各点坐标：D(-1,1,0)，A₁(0,0,2)，C(0,3,0)，求出向量$\\overrightarrow{DC}=(1,2,0)$，$\\overrightarrow{A₁C}=(0,3,-2)$；\n4. 设平面DA₁C的法向量$\\vec{m}=(x,y,z)$，由$\\vec{m}·\\overrightarrow{DC}=0$和$\\vec{m}·\\overrightarrow{A₁C}=0$列方程组，令y=2解得$\\vec{m}=(-4,2,3)$；\n5. 取平面A₁CH的法向量$\\vec{n}=(1,0,0)$，计算两法向量的夹角余弦值$cos<\\vec{m},\\vec{n}>=-\\frac{4\\sqrt{29}}{29}$；\n6. 结合二面角的实际方向，得二面角D-A₁C-H的余弦值为$\\frac{4\\sqrt{29}}{29}$。",
+            "standardAnswer": "$\\frac{4\\sqrt{29}}{29}$",
+            "scoringCriteria": "第二问(i)总分5分，由面面垂直推出A₁H⊥HC并建立空间直角坐标系得1分；正确写出各点坐标及相关向量得1分；正确设出法向量并列出方程组得1分；求解出平面DA₁C的法向量得1分；计算法向量夹角余弦并结合实际方向得出最终结果得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          },
+          {
+            "question": "（2）若平面A₁EF⊥平面BCDFE，(ii)对线段A₁F上任意一点N，求证：直线BN与平面A₁DC相交。",
+            "solutionSteps": "1. 设$\\overrightarrow{FN}=\\lambda\\overrightarrow{FA₁}(0≤\\lambda≤1)$，求出$\\overrightarrow{FA₁}=(\\frac{2}{3},0,2)$，进而得$\\overrightarrow{FN}=(\\frac{2}{3}\\lambda,0,2\\lambda)$，确定N点坐标$(\\frac{2}{3}\\lambda-\\frac{2}{3},0,2\\lambda)$；\n2. 已知B(1,1,0)，求出向量$\\overrightarrow{BN}=(\\frac{2}{3}\\lambda-\\frac{5}{3},-1,2\\lambda)$；\n3. 取平面A₁DC的法向量$\\vec{m}=(-4,2,3)$，计算$\\overrightarrow{BN}·\\vec{m}$并令其为0，解得$\\lambda=-\\frac{7}{5}$；\n4. 因$0≤\\lambda≤1$，故满足$\\overrightarrow{BN}·\\vec{m}=0$的$\\lambda$不存在，即BN不与平面A₁DC平行，又BN不在平面A₁DC内，故直线BN与平面A₁DC相交。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问(ii)总分4分，设出向量关系并正确求出N点坐标得1分；计算出向量$\\overrightarrow{BN}$的坐标得1分；计算向量点积并求解$\\lambda$得1分；结合$\\lambda$的范围推出结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "As shown in Figure 1, in quadrilateral ABCD, AC⊥BD, AC∩BD=O, OD=OB=1, OC=2. E and F are points on AB and AD respectively, EF∥BD, AC∩EF=H, AH=2, HO=1. Fold △AEF along EF to the position of △A₁EF to obtain the pentagonal pyramid A₁-BCDFE, as shown in Figure 2.",
+        "subQuestions": [
+          {
+            "question": "(1) Prove that EF⊥plane A₁HC;",
+            "solutionSteps": "1. It is known that AC⊥BD and EF∥BD, so AC⊥EF can be obtained by the transitivity of line-line perpendicularity;\n2. After folding, the perpendicular relationship between EF and A₁H, HC remains unchanged, that is, EF⊥A₁H, EF⊥HC;\n3. Moreover, A₁H∩HC=H, and both A₁H and HC are in plane A₁HC;\n4. According to the determination theorem of line-plane perpendicularity, it can be concluded that EF⊥plane A₁HC.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of the first subquestion is 4 points. 1 point for deducing AC⊥EF from AC⊥BD and EF∥BD; 1 point for pointing out that EF⊥A₁H and EF⊥HC after folding; 1 point for explaining that A₁H∩HC=H and both lines are in plane A₁HC; 1 point for drawing the conclusion by applying the determination theorem of line-plane perpendicularity.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(2) If plane A₁EF⊥plane BCDFE, (i) find the cosine value of the dihedral angle D-A₁C-H;",
+            "solutionSteps": "1. From EF⊥A₁H and EF⊥HC, ∠A₁HC is the dihedral angle of plane A₁EF and plane BCDFE. Combined with the condition of plane-plane perpendicularity, ∠A₁HC=90°, that is, A₁H⊥HC;\n2. In addition, EF⊥A₁H and EF∩HC=H, so A₁H⊥plane BCDFE, and a space rectangular coordinate system is established with H as the origin;\n3. Determine the coordinates of each point: D(-1,1,0), A₁(0,0,2), C(0,3,0), and find the vectors $\\overrightarrow{DC}=(1,2,0)$, $\\overrightarrow{A₁C}=(0,3,-2)$;\n4. Let the normal vector of plane DA₁C be $\\vec{m}=(x,y,z)$, list the system of equations from $\\vec{m}·\\overrightarrow{DC}=0$ and $\\vec{m}·\\overrightarrow{A₁C}=0$, and solve $\\vec{m}=(-4,2,3)$ by setting y=2;\n5. Take the normal vector of plane A₁CH as $\\vec{n}=(1,0,0)$, calculate the cosine value of the angle between the two normal vectors $cos<\\vec{m},\\vec{n}>=-\\frac{4\\sqrt{29}}{29}$;\n6. Combined with the actual direction of the dihedral angle, the cosine value of the dihedral angle D-A₁C-H is $\\frac{4\\sqrt{29}}{29}$.",
+            "standardAnswer": "$\\frac{4\\sqrt{29}}{29}$",
+            "scoringCriteria": "The total score of subquestion (2)(i) is 5 points. 1 point for deducing A₁H⊥HC from plane-plane perpendicularity and establishing a space rectangular coordinate system; 1 point for correctly writing the coordinates of each point and related vectors; 1 point for correctly setting the normal vector and listing the system of equations; 1 point for solving the normal vector of plane DA₁C; 1 point for calculating the cosine of the angle between the normal vectors and obtaining the final result combined with the actual direction.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          },
+          {
+            "question": "(2) If plane A₁EF⊥plane BCDFE, (ii) Prove that for any point N on segment A₁F, the line BN intersects with plane A₁DC.",
+            "solutionSteps": "1. Let $\\overrightarrow{FN}=\\lambda\\overrightarrow{FA₁}(0≤\\lambda≤1)$, find $\\overrightarrow{FA₁}=(\\frac{2}{3},0,2)$, then get $\\overrightarrow{FN}=(\\frac{2}{3}\\lambda,0,2\\lambda)$, and determine the coordinates of point N as $(\\frac{2}{3}\\lambda-\\frac{2}{3},0,2\\lambda)$;\n2. Given B(1,1,0), find the vector $\\overrightarrow{BN}=(\\frac{2}{3}\\lambda-\\frac{5}{3},-1,2\\lambda)$;\n3. Take the normal vector of plane A₁DC as $\\vec{m}=(-4,2,3)$, calculate $\\overrightarrow{BN}·\\vec{m}$ and set it to 0, solving for $\\lambda=-\\frac{7}{5}$;\n4. Since $0≤\\lambda≤1$, there is no $\\lambda$ satisfying $\\overrightarrow{BN}·\\vec{m}=0$, which means BN is not parallel to plane A₁DC, and BN is not in plane A₁DC, so the line BN intersects with plane A₁DC.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of subquestion (2)(ii) is 4 points. 1 point for setting the vector relationship and correctly finding the coordinates of point N; 1 point for calculating the coordinates of the vector $\\overrightarrow{BN}$; 1 point for calculating the vector dot product and solving for $\\lambda$; 1 point for deducing the conclusion combined with the range of $\\lambda$.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知$f(x)=x-a e^{x}$，$a \\in R$。",
+        "subQuestions": [
+          {
+            "question": "（1）若曲线$y=f(x)$在点$(1, f(1))$处的切线与x轴重合，求a的值；",
+            "solutionSteps": "1. 求函数$f(x)$的导数：$f'(x)=1-a e^{x}$；\n2. 计算$f'(1)=1-a e$，$f(1)=1-a e$；\n3. 曲线在点$(1,f(1))$处的切线方程为$y-(1-a e)=(1-a e)(x-1)$，化简得$y=(1-a e)x$；\n4. 因切线与x轴重合，故切线斜率为0，即$1-a e=0$，解得$a=\\frac{1}{e}$。",
+            "standardAnswer": "$\\frac{1}{e}$",
+            "scoringCriteria": "第一问总分4分，正确求出函数的导数$f'(x)=1-a e^x$得1分；准确计算$f'(1)$和$f(1)$的值得1分；正确写出切线方程并化简得1分；根据切线与x轴重合的条件求出a的值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）若函数$f(x)$在区间$(1,+\\infty)$上存在极值，求a的取值范围；",
+            "solutionSteps": "1. 由$f'(x)=1-a e^x$，函数存在极值的条件是$f'(x)$在区间内有变号零点；\n2. 当$a ≤0$时，$a e^x ≤0$，故$f'(x)=1-a e^x >0$恒成立，$f(x)$单调递增，无极值；\n3. 当$a>0$时，$f'(x)$在$R$上单调递减，且当$x\\to+\\infty$时，$f'(x)\\to-\\infty$；\n4. 要使$f'(x)$在$(1,+\\infty)$上有变号零点，需$f'(1)>0$，即$1-a e>0$，解得$0<a<\\frac{1}{e}$；\n5. 综上，a的取值范围为$(0, \\frac{1}{e})$。",
+            "standardAnswer": "$(0, \\frac{1}{e})$",
+            "scoringCriteria": "第二问总分5分，指出函数存在极值的条件是$f'(x)$有变号零点得1分；分析$a ≤0$时$f(x)$无极值的情况得1分；判断$a>0$时$f'(x)$的单调性及极限趋势得1分；根据变号零点条件列出不等式$f'(1)>0$得1分；综合得出a的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（3）设$g(x)=f(2-x)$，在(2)的条件下，试判断函数$g(x)$在区间$(1,+\\infty)$上的单调性，并说明理由。",
+            "solutionSteps": "1. 由$f(x)=x-a e^x$，得$g(x)=f(2-x)=2-x-a e^{2-x}$，其中$a\\in(0, \\frac{1}{e})$，$x\\in(1,+\\infty)$；\n2. 求$g(x)$的导数：$g'(x)=-1+a e^{2-x}$；\n3. 分析$g'(x)$的单调性，令$y=-1+a e^{2-x}$，求导得$y'=-a e^{2-x}$，因$a>0$，$e^{2-x}>0$，故$y'<0$，即$g'(x)$在$(1,+\\infty)$上单调递减；\n4. 计算$g'(1)=-1+a e$，结合$a<\\frac{1}{e}$，得$g'(1)<-1+\\frac{1}{e}·e=0$；\n5. 因$g'(x)$在$(1,+\\infty)$单调递减且$g'(1)<0$，故$g'(x)<0$在$(1,+\\infty)$上恒成立，因此$g(x)$在$(1,+\\infty)$上单调递减。",
+            "standardAnswer": "函数$g(x)$在区间$(1,+\\infty)$上单调递减",
+            "scoringCriteria": "第三问总分6分，正确求出$g(x)$的表达式得1分；准确求导得到$g'(x)=-1+a e^{2-x}$得1分；判断$g'(x)$的单调性并证明得2分；计算$g'(1)$并结合a的范围得出$g'(1)<0$得1分；根据导数符号推出$g(x)$的单调性得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that $f(x)=x-a e^{x}$, $a \\in R$.",
+        "subQuestions": [
+          {
+            "question": "(1) If the tangent to the curve $y=f(x)$ at the point $(1, f(1))$ coincides with the x-axis, find the value of a;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=1-a e^{x}$;\n2. Calculate $f'(1)=1-a e$ and $f(1)=1-a e$;\n3. The equation of the tangent line of the curve at the point $(1,f(1))$ is $y-(1-a e)=(1-a e)(x-1)$, which simplifies to $y=(1-a e)x$;\n4. Since the tangent line coincides with the x-axis, the slope of the tangent line is 0, that is, $1-a e=0$, and solve to get $a=\\frac{1}{e}$.",
+            "standardAnswer": "$\\frac{1}{e}$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points. 1 point for correctly finding the derivative $f'(x)=1-a e^x$ of the function; 1 point for accurately calculating the values of $f'(1)$ and $f(1)$; 1 point for correctly writing and simplifying the tangent line equation; 1 point for finding the value of a according to the condition that the tangent line coincides with the x-axis.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) If the function $f(x)$ has an extreme value in the interval $(1,+\\infty)$, find the range of values of a;",
+            "solutionSteps": "1. From $f'(x)=1-a e^x$, the condition for the function to have an extreme value is that $f'(x)$ has a sign-changing zero point in the interval;\n2. When $a ≤0$, $a e^x ≤0$, so $f'(x)=1-a e^x >0$ holds for all x, $f(x)$ is monotonically increasing and has no extreme value;\n3. When $a>0$, $f'(x)$ is monotonically decreasing on $R$, and $f'(x)\\to-\\infty$ as $x\\to+\\infty$;\n4. For $f'(x)$ to have a sign-changing zero point on $(1,+\\infty)$, it is required that $f'(1)>0$, that is, $1-a e>0$, solving to get $0<a<\\frac{1}{e}$;\n5. In summary, the range of a is $(0, \\frac{1}{e})$.",
+            "standardAnswer": "$(0, \\frac{1}{e})$",
+            "scoringCriteria": "The total score of the second subquestion is 5 points. 1 point for pointing out that the condition for the function to have an extreme value is that $f'(x)$ has a sign-changing zero point; 1 point for analyzing the case where $f(x)$ has no extreme value when $a ≤0$; 1 point for judging the monotonicity and limit trend of $f'(x)$ when $a>0$; 1 point for listing the inequality $f'(1)>0$ according to the sign-changing zero point condition; 1 point for comprehensively obtaining the range of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(3) Let $g(x)=f(2-x)$, under the condition of (2), judge the monotonicity of the function $g(x)$ in the interval $(1,+\\infty)$ and explain the reason.",
+            "solutionSteps": "1. From $f(x)=x-a e^x$, we get $g(x)=f(2-x)=2-x-a e^{2-x}$, where $a\\in(0, \\frac{1}{e})$, $x\\in(1,+\\infty)$;\n2. Find the derivative of $g(x)$: $g'(x)=-1+a e^{2-x}$;\n3. Analyze the monotonicity of $g'(x)$, let $y=-1+a e^{2-x}$, find the derivative to get $y'=-a e^{2-x}$. Since $a>0$ and $e^{2-x}>0$, then $y'<0$, that is, $g'(x)$ is monotonically decreasing on $(1,+\\infty)$;\n4. Calculate $g'(1)=-1+a e$, combined with $a<\\frac{1}{e}$, we get $g'(1)<-1+\\frac{1}{e}·e=0$;\n5. Since $g'(x)$ is monotonically decreasing on $(1,+\\infty)$ and $g'(1)<0$, then $g'(x)<0$ holds for all x in $(1,+\\infty)$, so $g(x)$ is monotonically decreasing on $(1,+\\infty)$.",
+            "standardAnswer": "The function $g(x)$ is monotonically decreasing in the interval $(1,+\\infty)$",
+            "scoringCriteria": "The total score of the third subquestion is 6 points. 1 point for correctly finding the expression of $g(x)$; 1 point for accurately finding the derivative to get $g'(x)=-1+a e^{2-x}$; 2 points for judging and proving the monotonicity of $g'(x)$; 1 point for calculating $g'(1)$ and concluding $g'(1)<0$ combined with the range of a; 1 point for deducing the monotonicity of $g(x)$ according to the sign of the derivative.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆C：$\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的一个焦点为$F(1,0)$，且过点$(1, \\frac{3}{2})$。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆C的方程和离心率；",
+            "solutionSteps": "1. 由椭圆的一个焦点为$F(1,0)$，得$c=1$，根据椭圆的性质有$a^2 - b^2 = c^2 =1$；\n2. 椭圆过点$(1, \\frac{3}{2})$，将其代入椭圆方程得$\\frac{1}{a^2}+\\frac{9}{4b^2}=1$；\n3. 联立方程组$\\begin{cases}a^2 - b^2 =1\\\\\\frac{1}{a^2}+\\frac{9}{4b^2}=1\\end{cases}$，解得$a^2=4$，$b^2=3$；\n4. 故椭圆C的方程为$\\frac{x^2}{4}+\\frac{y^2}{3}=1$；\n5. 由$a=2$，$c=1$，根据离心率公式$e=\\frac{c}{a}$，得离心率$e=\\frac{1}{2}$。",
+            "standardAnswer": "椭圆C的方程为$\\frac{x^2}{4}+\\frac{y^2}{3}=1$，离心率为$\\frac{1}{2}$",
+            "scoringCriteria": "第一问总分4分，由焦点坐标得出$c=1$和$a^2 - b^2 =1$得1分；将已知点代入椭圆方程得1分；联立方程组正确求解出$a^2=4$，$b^2=3$得1分；写出椭圆方程并计算出离心率得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）过点$P(4,0)$且与x轴不重合的直线l与椭圆C交于A，B两点，与直线$x=1$交于点Q，点M满足$MP \\perp x$轴，$MB\\| x$轴，试求直线$MA$的斜率与直线$MQ$的斜率的比值。",
+            "solutionSteps": "1. 设直线AB的方程为$y=k(x-4)$（$k≠0$），设$A(x_1,y_1)$，$B(x_2,y_2)$，由$MP⊥x$轴，$MB∥x$轴得$M(4,y_2)$；\n2. 联立$\\begin{cases}y=k(x-4)\\\\x=1\\end{cases}$，解得Q点坐标为$(1,-3k)$；\n3. 写出$k_{MA}=\\frac{y_2-y_1}{4-x_1}$，$k_{MQ}=\\frac{y_2+3k}{3}$，则比值$\\frac{k_{MA}}{k_{MQ}}=3·\\frac{y_2-y_1}{(y_2+3k)(4-x_1)}$，代入$y_1=k(x_1-4)$，$y_2=k(x_2-4)$化简得$3·\\frac{x_2-x_1}{(x_2-1)(4-x_1)}$；\n4. 联立椭圆方程与直线AB方程：$\\begin{cases}y=k(x-4)\\\\3x^2+4y^2=12\\end{cases}$，消元整理得$(3+4k^2)x^2-32k^2x+64k^2-12=0$；\n5. 由韦达定理得$x_1+x_2=\\frac{32k^2}{3+4k^2}$，$x_1x_2=\\frac{64k^2-12}{3+4k^2}$；\n6. 将韦达定理结果代入比值表达式，化简后可得$\\frac{k_{MA}}{k_{MQ}}=2$。",
+            "standardAnswer": "2",
+            "scoringCriteria": "第二问总分11分，设出直线AB方程并确定M、Q点坐标得2分；正确写出$k_{MA}$和$k_{MQ}$并化简比值表达式得2分；联立椭圆与直线方程并正确消元整理得2分；准确运用韦达定理求出$x_1+x_2$和$x_1x_2$得2分；将韦达定理结果代入并化简得出最终比值得3分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that one focus of the ellipse C: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $F(1,0)$, and it passes through the point $(1, \\frac{3}{2})$.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation and eccentricity of the ellipse C;",
+            "solutionSteps": "1. From one focus of the ellipse being $F(1,0)$, we get $c=1$. According to the property of the ellipse, $a^2 - b^2 = c^2 =1$;\n2. The ellipse passes through the point $(1, \\frac{3}{2})$, substitute it into the ellipse equation to get $\\frac{1}{a^2}+\\frac{9}{4b^2}=1$;\n3. Solve the system of equations $\\begin{cases}a^2 - b^2 =1\\\\\\frac{1}{a^2}+\\frac{9}{4b^2}=1\\end{cases}$ to get $a^2=4$, $b^2=3$;\n4. Therefore, the equation of ellipse C is $\\frac{x^2}{4}+\\frac{y^2}{3}=1$;\n5. From $a=2$, $c=1$, according to the eccentricity formula $e=\\frac{c}{a}$, the eccentricity $e=\\frac{1}{2}$ is obtained.",
+            "standardAnswer": "The equation of ellipse C is $\\frac{x^2}{4}+\\frac{y^2}{3}=1$, and the eccentricity is $\\frac{1}{2}$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points. 1 point for obtaining $c=1$ and $a^2 - b^2 =1$ from the focus coordinates; 1 point for substituting the known point into the ellipse equation; 1 point for correctly solving the system of equations to get $a^2=4$, $b^2=3$; 1 point for writing the ellipse equation and calculating the eccentricity.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) A straight line l passing through the point $P(4,0)$ and not coinciding with the x-axis intersects the ellipse C at points A and B, and intersects the straight line $x=1$ at point Q. Point M satisfies $MP \\perp x$-axis and $MB\\| x$-axis, try to find the ratio of the slope of the straight line MA to the slope of the straight line MQ.",
+            "solutionSteps": "1. Let the equation of the straight line AB be $y=k(x-4)$ ($k≠0$), let $A(x_1,y_1)$, $B(x_2,y_2)$. From $MP⊥x$-axis and $MB∥x$-axis, we get $M(4,y_2)$;\n2. Solve the system $\\begin{cases}y=k(x-4)\\\\x=1\\end{cases}$ to get the coordinates of point Q as $(1,-3k)$;\n3. Write $k_{MA}=\\frac{y_2-y_1}{4-x_1}$, $k_{MQ}=\\frac{y_2+3k}{3}$, then the ratio $\\frac{k_{MA}}{k_{MQ}}=3·\\frac{y_2-y_1}{(y_2+3k)(4-x_1)}$. Substitute $y_1=k(x_1-4)$ and $y_2=k(x_2-4)$ to simplify to $3·\\frac{x_2-x_1}{(x_2-1)(4-x_1)}$;\n4. Solve the system of the ellipse equation and the straight line AB equation: $\\begin{cases}y=k(x-4)\\\\3x^2+4y^2=12\\end{cases}$, eliminate y and sort out to get $(3+4k^2)x^2-32k^2x+64k^2-12=0$;\n5. From Vieta's formulas, we get $x_1+x_2=\\frac{32k^2}{3+4k^2}$, $x_1x_2=\\frac{64k^2-12}{3+4k^2}$;\n6. Substitute the results of Vieta's formulas into the ratio expression, and simplify to get $\\frac{k_{MA}}{k_{MQ}}=2$.",
+            "standardAnswer": "2",
+            "scoringCriteria": "The total score of the second subquestion is 11 points. 2 points for setting the equation of straight line AB and determining the coordinates of points M and Q; 2 points for correctly writing $k_{MA}$ and $k_{MQ}$ and simplifying the ratio expression; 2 points for solving the system of the ellipse and straight line equations and correctly eliminating the variable and sorting out; 2 points for accurately applying Vieta's formulas to find $x_1+x_2$ and $x_1x_2$; 3 points for substituting the results of Vieta's formulas and simplifying to get the final ratio.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "对非空数集X，Y，定义X与Y的和集$X+Y={x+y | x \\in X, y \\in Y}$。对任意有限集A，记$|A|$为集合A中元素的个数。",
+        "subQuestions": [
+          {
+            "question": "（1）若集合$X={0,5,10}$，$Y={-2,-1,0,1,2}$，写出集合$X+X$与$X+Y$；",
+            "solutionSteps": "1. 计算$X+X$：由和集定义，依次计算X中元素两两相加的结果，$0+0=0$，$0+5=5$，$0+10=10$，$5+5=10$，$5+10=15$，$10+10=20$，去重后得$X+X={0,5,10,15,20}$；\n2. 计算$X+Y$：依次计算X中每个元素与Y中每个元素相加的结果，$0$加Y中元素得{-2,-1,0,1,2}，$5$加Y中元素得{3,4,5,6,7}，$10$加Y中元素得{8,9,10,11,12}，合并后得$X+Y={-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12}$。",
+            "standardAnswer": "$X+X={0,5,10,15,20}$，$X+Y={-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12}$",
+            "scoringCriteria": "第一问总分4分，正确计算出集合$X+X$的所有元素并去重得2分；正确计算出集合$X+Y$的所有元素并合并得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）若集合$X={x_{1}, x_{2}, \\cdots, x_{n}}$ 满足$x_{1}<x_{2}<\\cdots<x_{n}$，$n ≥3$，且$|X+X|<2|X|$，求证：数列$x_{1},x_{2},\\cdots,x_{n}$是等差数列；",
+            "solutionSteps": "1. 由$x_1<x_2<\\cdots<x_n$，可得$x_1+x_1<x_1+x_2<x_1+x_3<\\cdots<x_1+x_n<x_2+x_n<\\cdots<x_n+x_n$，故$X+X$中至少有$2n-1$个元素，即$|X+X|≥2n-1$；\n2. 已知$|X+X|<2|X|=2n$，且集合元素个数为整数，故$|X+X|=2n-1$；\n3. 由此可知$X+X$的元素为上述从小到大排列的$2n-1$个元素，故对任意$2≤j≤n$，有$x_1+x_j=x_2+x_{j-1}$；\n4. 变形得$x_j - x_{j-1}=x_2 - x_1$（$2≤j≤n$），即数列中相邻两项的差为常数，故$x_1,x_2,\\cdots,x_n$是等差数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问总分5分，证明$X+X$中至少有$2n-1$个元素得1分；结合已知条件推出$|X+X|=2n-1$得1分；得出$x_1+x_j=x_2+x_{j-1}$的关键等式得2分；由等式变形推出数列相邻项差为常数，证明为等差数列得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）设集合$X={x_{1}, x_{2}, \\cdots, x_{n}}$ 满足$x_{1}<x_{2}<\\cdots<x_{n}$，$n ≥3$，且$x_{i} \\in Z(i=1,2, \\cdots, n)$，集合$B={k \\in Z |-m ≤k ≤m} (m ≥2, m \\in N)$，求证：存在集合A满足$|A| ≤1+\\frac{x_{n}-x_{1}}{|B|}$且$X \\subseteq A+B$。",
+            "solutionSteps": "1. 由$B={k∈Z|-m≤k≤m}$，得$|B|=2m+1$；\n2. 设$x_n - x_1=(2m+1)q+r$，其中$q,r∈N$，$0≤r≤2m$；\n3. 构造等差数列$a_i=x_1+m+(i-1)(2m+1)$（$i∈N^*$），令集合$A={a_1,a_2,\\cdots,a_{q+1}}$，则$|A|=q+1$；\n4. 代入$q=\\frac{x_n - x_1 - r}{2m+1}$，得$|A|=1+\\frac{x_n - x_1 - r}{|B|}≤1+\\frac{x_n - x_1}{|B|}$；\n5. 计算$A+B$，可得$A+B={t∈Z|x_1≤t≤x_1+(2m+1)q+2m}$，结合$x_n=x_1+(2m+1)q+r≤x_1+(2m+1)q+2m$，得$X⊆{t∈Z|x_1≤t≤x_n}⊆A+B$，故存在满足条件的集合A。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问总分6分，正确计算出$|B|=2m+1$得1分；对$x_n - x_1$进行带余除法表示得1分；构造出合适的集合A并计算其元素个数得2分；证明$|A| ≤1+\\frac{x_n - x_1}{|B|}$得1分；证明$X \\subseteq A+B$得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "For non-empty number sets X and Y, define the sum set of X and Y as $X+Y={x+y | x \\in X, y \\in Y}$. For any finite set A, denote $|A|$ as the number of elements in set A.",
+        "subQuestions": [
+          {
+            "question": "(1) If the set $X={0,5,10}$ and $Y={-2,-1,0,1,2}$, write down the sets $X+X$ and $X+Y$;",
+            "solutionSteps": "1. Calculate $X+X$: According to the definition of the sum set, calculate the results of the pairwise addition of elements in X in turn, $0+0=0$, $0+5=5$, $0+10=10$, $5+5=10$, $5+10=15$, $10+10=20$, and get $X+X={0,5,10,15,20}$ after removing duplicates;\n2. Calculate $X+Y$: Calculate the results of adding each element in X to each element in Y in turn, adding 0 to the elements in Y gives {-2,-1,0,1,2}, adding 5 to the elements in Y gives {3,4,5,6,7}, adding 10 to the elements in Y gives {8,9,10,11,12}, and get $X+Y={-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12}$ after merging.",
+            "standardAnswer": "$X+X={0,5,10,15,20}$, $X+Y={-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12}$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points. 2 points for correctly calculating all elements of the set $X+X$ and removing duplicates; 2 points for correctly calculating all elements of the set $X+Y$ and merging them.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) If the set $X={x_{1}, x_{2}, \\cdots, x_{n}}$ satisfies $x_{1}<x_{2}<\\cdots<x_{n}$, $n ≥3$, and $|X+X|<2|X|$, prove that the sequence $x_{1},x_{2},\\cdots,x_{n}$ is an arithmetic sequence;",
+            "solutionSteps": "1. From $x_1<x_2<\\cdots<x_n$, we can get $x_1+x_1<x_1+x_2<x_1+x_3<\\cdots<x_1+x_n<x_2+x_n<\\cdots<x_n+x_n$, so the set $X+X$ has at least $2n-1$ elements, that is, $|X+X|≥2n-1$;\n2. It is known that $|X+X|<2|X|=2n$, and the number of set elements is an integer, so $|X+X|=2n-1$;\n3. Thus, the elements of $X+X$ are the above $2n-1$ elements arranged from small to large, so for any $2≤j≤n$, $x_1+x_j=x_2+x_{j-1}$;\n4. Transform to get $x_j - x_{j-1}=x_2 - x_1$ ($2≤j≤n$), that is, the difference between adjacent terms in the sequence is a constant, so $x_1,x_2,\\cdots,x_n$ is an arithmetic sequence.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of the second subquestion is 5 points. 1 point for proving that the set $X+X$ has at least $2n-1$ elements; 1 point for deducing $|X+X|=2n-1$ combined with the known conditions; 2 points for obtaining the key equation $x_1+x_j=x_2+x_{j-1}$; 1 point for deducing that the difference between adjacent terms of the sequence is a constant from the equation transformation and proving it is an arithmetic sequence.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) Let the set $X={x_{1}, x_{2}, \\cdots, x_{n}}$ satisfy $x_{1}<x_{2}<\\cdots<x_{n}$, $n ≥3$, and $x_{i} \\in Z(i=1,2, \\cdots, n)$, the set $B={k \\in Z |-m ≤k ≤m} (m ≥2, m \\in N)$. Prove that there exists a set A such that $|A| ≤1+\\frac{x_{n}-x_{1}}{|B|}$ and $X \\subseteq A+B$.",
+            "solutionSteps": "1. From $B={k∈Z|-m≤k≤m}$, we get $|B|=2m+1$;\n2. Let $x_n - x_1=(2m+1)q+r$, where $q,r∈N$ and $0≤r≤2m$;\n3. Construct an arithmetic sequence $a_i=x_1+m+(i-1)(2m+1)$ ($i∈N^*$), let the set $A={a_1,a_2,\\cdots,a_{q+1}}$, then $|A|=q+1$;\n4. Substitute $q=\\frac{x_n - x_1 - r}{2m+1}$, we get $|A|=1+\\frac{x_n - x_1 - r}{|B|}≤1+\\frac{x_n - x_1}{|B|}$;\n5. Calculate $A+B$, we can get $A+B={t∈Z|x_1≤t≤x_1+(2m+1)q+2m}$. Combined with $x_n=x_1+(2m+1)q+r≤x_1+(2m+1)q+2m$, we get $X⊆{t∈Z|x_1≤t≤x_n}⊆A+B$, so there exists a set A that satisfies the conditions.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of the third subquestion is 6 points. 1 point for correctly calculating $|B|=2m+1$; 1 point for expressing $x_n - x_1$ by division with remainder; 2 points for constructing a suitable set A and calculating the number of its elements; 1 point for proving $|A| ≤1+\\frac{x_n - x_1}{|B|}$; 1 point for proving $X \\subseteq A+B$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

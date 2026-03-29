@@ -1,0 +1,217 @@
+{
+    "paperTitle": "2025 Beijing Haidian Senior Three Second Mock Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "某运动品牌拟推出一款青少年新品跑鞋。在前期市场调研时，从某市随机调查了200名中小学生对黑、白两种颜色的新品跑鞋的购买意愿，统计数据如下(单位:人)：<br/>| 颜色 | 小学生 |  | 初中生 |  | 高中生 |  |<br/>| --- | --- | --- | --- | --- | --- | --- |<br/>|  | 愿意 | 不愿意 | 愿意 | 不愿意 | 愿意 | 不愿意 |<br/>| 黑色 | 80 | 20 | 40 | 20 | 20 | 20 |<br/>| 白色 | 60 | 40 | 30 | 30 | 30 | 10 |<br/>假设所有中小学生的购买意愿相互独立，用频率估计概率。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从该市的全体中小学生中随机抽取1人，估计其愿意购买黑色新品跑鞋的概率p；",
+                        "solutionSteps": "1. 确定愿意购买黑色新品跑鞋的总人数：80+40+20=140人；\\n2. 调查的总人数为200人，根据频率估计概率的方法，概率p=愿意购买黑色的人数/调查总人数；\\n3. 代入数据计算：p=140/200=0.7。",
+                        "standardAnswer": "0.7",
+                        "scoringCriteria": "（Ⅰ）总分4分，正确计算出愿意购买黑色新品跑鞋的总人数得2分，正确运用频率估计概率的公式得1分，计算结果正确得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）从该市初中生、高中生两个不同群体中各自随机抽取1人，记X为这2人中愿意购买白色新品跑鞋的人数，求X的分布列和数学期望EX；",
+                        "solutionSteps": "1. 计算初中生愿意购买白色新品跑鞋的概率：30/(30+30)=1/2，高中生愿意购买白色新品跑鞋的概率：30/(30+10)=3/4；\\n2. 确定X的取值为0、1、2；\\n3. 分别计算各取值的概率：\\n   P(X=0)=(1-1/2)×(1-3/4)=1/2×1/4=1/8；\\n   P(X=1)=(1/2)×(1-3/4)+(1-1/2)×(3/4)=1/2×1/4+1/2×3/4=1/2；\\n   P(X=2)=(1/2)×(3/4)=3/8；\\n4. 列出X的分布列；\\n5. 根据数学期望公式计算EX：EX=0×1/8+1×1/2+2×3/8=5/4。",
+                        "standardAnswer": "X的分布列为：<br/>| X | 0 | 1 | 2 |<br/>| --- | --- | --- | --- |<br/>| P(X) | 1/8 | 1/2 | 3/8 |<br/>数学期望EX=$\\\\frac{5}{4}$",
+                        "scoringCriteria": "（Ⅱ）总分7分，正确计算出初中生和高中生购买白色跑鞋的概率各得1分，确定X的取值得1分，正确计算出三个概率值各得1分，列出分布列得1分，正确计算出数学期望得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）假设该市A学校内的小学生、初中生和高中生的人数之比为2:2:1，从A学校的全体中小学生中随机抽取1人，将其愿意购买黑色新品跑鞋的概率估计值记为pA。试比较pA与(Ⅰ)中的p的大小。(结论不要求证明)",
+                        "solutionSteps": "无需解题步骤，直接给出大小比较结论即可。",
+                        "standardAnswer": "$p_A < p$",
+                        "scoringCriteria": "（Ⅲ）总分2分，正确给出pA与p的大小关系得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "A sports brand plans to launch a new style of running shoes for teenagers. In the preliminary market research, the purchase intention of 200 primary and secondary school students in a certain city for the new running shoes in black and white was randomly investigated, and the statistical data are as follows (unit: person):<br/>| Color | Primary school students |  | Junior high school students |  | Senior high school students |  |<br/>| --- | --- | --- | --- | --- | --- | --- |<br/>|  | Willing | Unwilling | Willing | Unwilling | Willing | Unwilling |<br/>| Black | 80 | 20 | 40 | 20 | 20 | 20 |<br/>| White | 60 | 40 | 30 | 30 | 30 | 10 |<br/>Assume that the purchase intentions of all primary and secondary school students are independent of each other, and estimate the probability by frequency.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one person from all primary and secondary school students in the city, and estimate the probability p that he or she is willing to buy the new black running shoes;",
+                        "solutionSteps": "1. Determine the total number of people willing to buy the new black running shoes: 80+40+20=140 people;\\n2. The total number of people surveyed is 200. According to the method of estimating probability by frequency, the probability p = the number of people willing to buy black / the total number of people surveyed;\\n3. Substitute the data for calculation: p=140/200=0.7.",
+                        "standardAnswer": "0.7",
+                        "scoringCriteria": "(Ⅰ) Total score is 4 points. 2 points for correctly calculating the total number of people willing to buy the new black running shoes, 1 point for correctly applying the formula of estimating probability by frequency, and 1 point for the correct calculation result.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Randomly select one person from each of the two different groups of junior high school students and senior high school students in the city, let X be the number of these 2 people who are willing to buy the new white running shoes, find the probability mass function and mathematical expectation EX of X;",
+                        "solutionSteps": "1. Calculate the probability that junior high school students are willing to buy the new white running shoes: 30/(30+30)=1/2, and the probability that senior high school students are willing to buy the new white running shoes: 30/(30+10)=3/4;\\n2. Determine the possible values of X as 0, 1, 2;\\n3. Calculate the probability of each value separately: \\n   P(X=0)=(1-1/2)×(1-3/4)=1/2×1/4=1/8;\\n   P(X=1)=(1/2)×(1-3/4)+(1-1/2)×(3/4)=1/2×1/4+1/2×3/4=1/2;\\n   P(X=2)=(1/2)×(3/4)=3/8;\\n4. List the probability mass function of X;\\n5. Calculate EX according to the formula of mathematical expectation: EX=0×1/8+1×1/2+2×3/8=5/4.",
+                        "standardAnswer": "The probability mass function of X is: <br/>| X | 0 | 1 | 2 |<br/>| --- | --- | --- | --- |<br/>| P(X) | 1/8 | 1/2 | 3/8 |<br/>The mathematical expectation EX=$\\\\frac{5}{4}$",
+                        "scoringCriteria": "(Ⅱ) Total score is 7 points. 1 point for correctly calculating the probability of junior high school students and senior high school students buying white running shoes respectively, 1 point for determining the possible values of X, 1 point for each correct calculation of the three probability values, 1 point for listing the probability mass function, and 1 point for correctly calculating the mathematical expectation.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Assume that the ratio of the number of primary school students, junior high school students and senior high school students in School A of the city is 2:2:1. Randomly select one person from all primary and secondary school students in School A, and record the estimated value of the probability that he or she is willing to buy the new black running shoes as pA. Compare the size of pA and p in (Ⅰ). (No proof is required for the conclusion)",
+                        "solutionSteps": "No solution steps are needed, just give the conclusion of the size comparison directly.",
+                        "standardAnswer": "$p_A < p$",
+                        "scoringCriteria": "(Ⅲ) Total score is 2 points. 2 points for correctly giving the size relationship between pA and p.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆C：$\\\\frac{x^{2}}{6}+\\\\frac{y^{2}}{2}=1$。设直线l：$y=x+m$交椭圆C于不同的两点A，B，与y轴交于点P。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当m=0时，求|AB|的值；",
+                        "solutionSteps": "1. 当m=0时，直线l的方程为y=x；\\n2. 将y=x代入椭圆方程$\\\\frac{x^{2}}{6}+\\\\frac{y^{2}}{2}=1$，得$\\\\frac{x^{2}}{6}+\\\\frac{x^{2}}{2}=1$，化简得$\\\\frac{4x^2}{6}=1$，即$x^2=\\\\frac{3}{2}$；\\n3. 设A($x_1$,$y_1$)，B($x_2$,$y_2$)，则$x_1=\\\\sqrt{\\\\frac{3}{2}}$，$x_2=-\\\\sqrt{\\\\frac{3}{2}}$，$y_1=\\\\sqrt{\\\\frac{3}{2}}$，$y_2=-\\\\sqrt{\\\\frac{3}{2}}$；\\n4. 根据两点间距离公式，$|AB|=\\\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}=2\\\\sqrt{x_1^2+y_1^2}$，代入得$|AB|=2\\\\sqrt{3}$。",
+                        "standardAnswer": "$2\\\\sqrt{3}$",
+                        "scoringCriteria": "（Ⅰ）总分5分，正确代入m=0得到直线方程得1分，联立直线与椭圆方程并正确化简得2分，正确运用两点间距离公式计算得2分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若点Q满足|PQ|=3且|QA|=|QB|，求∠AQB的大小。",
+                        "solutionSteps": "1. 联立直线l与椭圆C的方程：$\\\\begin{cases}y=x+m \\\\ \\\\frac{x^{2}}{6}+\\\\frac{y^{2}}{2}=1\\end{cases}$，消去y得$4x^2+6mx+3m^2-6=0$；\\n2. 由直线与椭圆交于不同两点，得$\\\\Delta=36m^2-16(3m^2-6)=96-12m^2>0$，解得$m^2<8$；\\n3. 设A($x_1$,$y_1$)，B($x_2$,$y_2$)，AB中点为M($x_M$,$y_M$)，由韦达定理得$x_1+x_2=-\\\\frac{3m}{2}$，$x_M=-\\\\frac{3m}{4}$，$y_M=x_M+m=\\\\frac{m}{4}$；\\n4. 求得P(0,m)，计算$|MP|=\\\\sqrt{(-\\\\frac{3m}{4})^2+(\\\\frac{m}{4}-m)^2}=\\\\frac{3\\\\sqrt{2}}{4}|m|$；\\n5. 由|PQ|=3且QM⊥AB，得$|MQ|=\\\\sqrt{|PQ|^2-|MP|^2}=\\\\frac{3\\\\sqrt{2}}{4}\\\\sqrt{8-m^2}$；\\n6. 计算弦长|AB|，$|MB|=\\\\frac{1}{2}|AB|=\\\\frac{\\\\sqrt{6}}{4}\\\\sqrt{8-m^2}$；\\n7. 在Rt△QMB中，$|MQ|=\\\\sqrt{3}|MB|$，故$\\\\angle AQB=\\\\frac{\\\\pi}{3}$。",
+                        "standardAnswer": "$\\\\frac{\\\\pi}{3}$",
+                        "scoringCriteria": "（Ⅱ）总分10分，正确联立方程并消元得2分，正确计算判别式并求出m的范围得1分，正确运用韦达定理求出中点坐标得2分，正确计算|MP|和|MQ|各得1分，正确计算|MB|得2分，根据边长关系求出角度得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the ellipse C: $\\\\frac{x^{2}}{6}+\\\\frac{y^{2}}{2}=1$. Let the line l: $y=x+m$ intersect the ellipse C at two distinct points A and B, and intersect the y-axis at point P.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) When m=0, find the value of |AB|;",
+                        "solutionSteps": "1. When m=0, the equation of the line l is y=x;\\n2. Substitute y=x into the ellipse equation $\\\\frac{x^{2}}{6}+\\\\frac{y^{2}}{2}=1$, we get $\\\\frac{x^{2}}{6}+\\\\frac{x^{2}}{2}=1$, simplify to $\\\\frac{4x^2}{6}=1$, that is $x^2=\\\\frac{3}{2}$;\\n3. Let A($x_1$,$y_1$), B($x_2$,$y_2$), then $x_1=\\\\sqrt{\\\\frac{3}{2}}$, $x_2=-\\\\sqrt{\\\\frac{3}{2}}$, $y_1=\\\\sqrt{\\\\frac{3}{2}}$, $y_2=-\\\\sqrt{\\\\frac{3}{2}}$;\\n4. According to the distance formula between two points, $|AB|=\\\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}=2\\\\sqrt{x_1^2+y_1^2}$, substitute to get $|AB|=2\\\\sqrt{3}$.",
+                        "standardAnswer": "$2\\\\sqrt{3}$",
+                        "scoringCriteria": "(Ⅰ) Total score is 5 points. 1 point for correctly substituting m=0 to get the line equation, 2 points for correctly combining the line and ellipse equations and simplifying, 2 points for correctly calculating by using the distance formula between two points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If point Q satisfies |PQ|=3 and |QA|=|QB|, find the size of ∠AQB.",
+                        "solutionSteps": "1. Combine the equations of line l and ellipse C: $\\\\begin{cases}y=x+m \\\\ \\\\frac{x^{2}}{6}+\\\\frac{y^{2}}{2}=1\\end{cases}$, eliminate y to get $4x^2+6mx+3m^2-6=0$;\\n2. Since the line intersects the ellipse at two distinct points, $\\\\Delta=36m^2-16(3m^2-6)=96-12m^2>0$, solve to get $m^2<8$;\\n3. Let A($x_1$,$y_1$), B($x_2$,$y_2$), the midpoint of AB is M($x_M$,$y_M$), by Vieta's formulas, $x_1+x_2=-\\\\frac{3m}{2}$, $x_M=-\\\\frac{3m}{4}$, $y_M=x_M+m=\\\\frac{m}{4}$;\\n4. Find P(0,m), calculate $|MP|=\\\\sqrt{(-\\\\frac{3m}{4})^2+(\\\\frac{m}{4}-m)^2}=\\\\frac{3\\\\sqrt{2}}{4}|m|$;\\n5. Since |PQ|=3 and QM⊥AB, $|MQ|=\\\\sqrt{|PQ|^2-|MP|^2}=\\\\frac{3\\\\sqrt{2}}{4}\\\\sqrt{8-m^2}$;\\n6. Calculate the chord length |AB|, $|MB|=\\\\frac{1}{2}|AB|=\\\\frac{\\\\sqrt{6}}{4}\\\\sqrt{8-m^2}$;\\n7. In Rt△QMB, $|MQ|=\\\\sqrt{3}|MB|$, so $\\\\angle AQB=\\\\frac{\\\\pi}{3}$.",
+                        "standardAnswer": "$\\\\frac{\\\\pi}{3}$",
+                        "scoringCriteria": "(Ⅱ) Total score is 10 points. 2 points for correctly combining and eliminating the variables of the equations, 1 point for correctly calculating the discriminant and finding the range of m, 2 points for correctly finding the midpoint coordinates by Vieta's formulas, 1 point each for correctly calculating |MP| and |MQ|, 2 points for correctly calculating |MB|, 1 point for finding the angle according to the side length relationship.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数$f(x)=e^{-x} \\ln (x+1)-ax$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求曲线$y=f(x)$在$(0, f(0))$处的切线方程；",
+                        "solutionSteps": "1. 确定函数$f(x)$的定义域为$(-1, +\\\\infty)$；\\n2. 计算$f(0)=e^0\\\\ln1 - a×0=0$；\\n3. 求导$f'(x)=[-\\\\ln(1+x)+\\\\frac{1}{1+x}]e^{-x}-a$；\\n4. 计算$f'(0)=[-\\\\ln1+1]e^0 -a=1-a$；\\n5. 根据点斜式，切线方程为$y-0=(1-a)(x-0)$，即$y=(1-a)x$。",
+                        "standardAnswer": "$y=(1-a)x$",
+                        "scoringCriteria": "（Ⅰ）总分4分，正确确定定义域得1分，正确计算$f(0)$得1分，正确求导并计算$f'(0)$得1分，根据点斜式写出切线方程得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）求$f(x)$在区间$(-1,0)$上的极值点个数；",
+                        "solutionSteps": "1. 令$g(x)=f'(x)=[-\\\\ln(1+x)+\\\\frac{1}{1+x}]e^{-x}-a$，求$g'(x)=[\\\\ln(1+x)-\\\\frac{2}{1+x}-\\\\frac{1}{(1+x)^2}]e^{-x}$；\\n2. 当$x\\\\in(-1,0)$时，$\\\\ln(1+x)<0$，$-\\\\frac{2}{1+x}<0$，$-\\\\frac{1}{(1+x)^2}<0$，故$g'(x)<0$，$g(x)$在$(-1,0)$上单调递减；\\n3. $g(0)=f'(0)=1-a$，分情况讨论：\\n   ①当$a \\\\leq1$时，$f'(x)>f'(0) \\\\geq0$，$f(x)$在$(-1,0)$上单调递增，无极值点；\\n   ②当$a>1$时，$f'(0)=1-a<0$，$f'(\\\\frac{1}{a}-1)=(\\\\ln a +a)e^{1-\\\\frac{1}{a}}-a>0$，存在唯一$x_0\\\\in(\\\\frac{1}{a}-1,0)$使$f'(x_0)=0$，$f(x)$在$(-1,x_0)$递增，$(x_0,0)$递减，有一个极大值点，无极小值点；\\n4. 综上，$a \\\\leq1$时极值点个数为0，$a>1$时极值点个数为1。",
+                        "standardAnswer": "当$a \\\\leq1$时，$f(x)$在$(-1,0)$上的极值点个数为0；当$a>1$时，$f(x)$在$(-1,0)$上的极值点个数为1。",
+                        "scoringCriteria": "（Ⅱ）总分6分，正确构造$g(x)$并求导得2分，正确判断$g(x)$的单调性得1分，正确分情况讨论$a$的取值范围各得1分，正确得出不同情况下的极值点个数得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）若$\\\\forall s, t \\\\in(-1,+\\infty)$且$s+t \\\\leq0$，都有$f(s)+f(t) \\\\leq0$成立，直接写出a的取值范围。",
+                        "solutionSteps": "无需详细解题步骤，直接给出a的取值范围。",
+                        "standardAnswer": "$(-\\\\infty,1]$",
+                        "scoringCriteria": "（Ⅲ）总分5分，正确写出a的取值范围得5分，范围书写错误不得分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=e^{-x} \\ln (x+1)-ax$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of the tangent line to the curve $y=f(x)$ at the point $(0, f(0))$;",
+                        "solutionSteps": "1. Determine the domain of the function $f(x)$ is $(-1, +\\\\infty)$;\\n2. Calculate $f(0)=e^0\\\\ln1 - a×0=0$;\\n3. Find the derivative $f'(x)=[-\\\\ln(1+x)+\\\\frac{1}{1+x}]e^{-x}-a$;\\n4. Calculate $f'(0)=[-\\\\ln1+1]e^0 -a=1-a$;\\n5. According to the point-slope form, the tangent line equation is $y-0=(1-a)(x-0)$, that is $y=(1-a)x$.",
+                        "standardAnswer": "$y=(1-a)x$",
+                        "scoringCriteria": "(Ⅰ) Total score is 4 points. 1 point for correctly determining the domain, 1 point for correctly calculating $f(0)$, 1 point for correctly finding the derivative and calculating $f'(0)$, 1 point for writing the tangent line equation according to the point-slope form.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Find the number of extreme points of $f(x)$ on the interval $(-1,0)$;",
+                        "solutionSteps": "1. Let $g(x)=f'(x)=[-\\\\ln(1+x)+\\\\frac{1}{1+x}]e^{-x}-a$, find $g'(x)=[\\\\ln(1+x)-\\\\frac{2}{1+x}-\\\\frac{1}{(1+x)^2}]e^{-x}$;\\n2. When $x\\\\in(-1,0)$, $\\\\ln(1+x)<0$, $-\\\\frac{2}{1+x}<0$, $-\\\\frac{1}{(1+x)^2}<0$, so $g'(x)<0$, $g(x)$ is monotonically decreasing on $(-1,0)$;\\n3. $g(0)=f'(0)=1-a$, discuss by cases: \\n   ①When $a \\\\leq1$, $f'(x)>f'(0) \\\\geq0$, $f(x)$ is monotonically increasing on $(-1,0)$ with no extreme points;\\n   ②When $a>1$, $f'(0)=1-a<0$, $f'(\\\\frac{1}{a}-1)=(\\\\ln a +a)e^{1-\\\\frac{1}{a}}-a>0$, there exists a unique $x_0\\\\in(\\\\frac{1}{a}-1,0)$ such that $f'(x_0)=0$, $f(x)$ is increasing on $(-1,x_0)$ and decreasing on $(x_0,0)$, with one maximum point and no minimum point;\\n4. In conclusion, the number of extreme points is 0 when $a \\\\leq1$, and 1 when $a>1$.",
+                        "standardAnswer": "The number of extreme points of $f(x)$ on $(-1,0)$ is 0 when $a \\\\leq1$; the number of extreme points of $f(x)$ on $(-1,0)$ is 1 when $a>1$.",
+                        "scoringCriteria": "(Ⅱ) Total score is 6 points. 2 points for correctly constructing $g(x)$ and finding its derivative, 1 point for correctly judging the monotonicity of $g(x)$, 1 point for each correct discussion of the value range of $a$, 1 point for correctly obtaining the number of extreme points in different cases.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) If for all $s, t \\\\in(-1,+\\infty)$ and $s+t \\\\leq0$, $f(s)+f(t) \\\\leq0$ holds, write the value range of a directly.",
+                        "solutionSteps": "No detailed solution steps are needed, just write the value range of a directly.",
+                        "standardAnswer": "$(-\\\\infty,1]$",
+                        "scoringCriteria": "(Ⅲ) Total score is 5 points. 5 points for correctly writing the value range of a, no points for wrong range writing.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "记$|M|$表示有穷集合M的元素个数。已知$m, n$是正整数，集合$S={1,2, \\dots, n}$。若集合序列$Q: A_{1}, A_{2}, \\dots, A_{m}$满足下列三个性质，则称Q是“平衡序列”：①$|A_{k}| \\\\geq2$，其中$k=1,2, \\cdots, m$；②$A_{k} \\\\subsetneq S$，其中$k=1,2, \\cdots, m$；③对于S中的任意两个不同元素i，j，都存在唯一的$k \\\\in{1,2, \\cdots, m}$，使得${i, j} \\\\subseteq A_{k}$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）设$m=n=5$，判断下列两个集合序列是否是“平衡序列”?(结论不要求证明) $Q_{1}:{ 1,2} ,{ 1,3,4,5} ,{ 2,3} ,{ 2,4} ,{ 2,5}$；$Q_{2}:{ 1,2,3} ,{ 1,4,5} ,{ 2,4} ,{ 3,4} ,{ 3,5}$",
+                        "solutionSteps": "无需解题步骤，直接根据“平衡序列”的定义判断结论。",
+                        "standardAnswer": "$Q_1$是平衡序列，$Q_2$不是平衡序列",
+                        "scoringCriteria": "（Ⅰ）总分4分，正确判断$Q_1$是否为平衡序列得2分，正确判断$Q_2$是否为平衡序列得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）已知$n \\\\geq3$且集合序列$Q: A_{1}, A_{2}, \\dots, A_{m}$是“平衡序列”，对于$i=1,2, \\cdots n$，定义：$B_{i}=\\\\left\\{k | i \\\\in A_{k}, k=1,2, \\cdots, m\\\\right\\}$。证明：(i)当$1 \\\\notin A_{1}$时，$|B_{1}| \\\\geq|A_{1}|$；(ii) $m \\\\geq n$。",
+                        "solutionSteps": "(i) 1. 当$1 \\\\notin A_1$时，对$A_1$中任意元素j，考虑集合{1,j}；\\n2. 由“平衡序列”性质③，存在唯一的$k_j \\\\neq1$，使得{1,j}$\\\\subseteq A_{k_j}$，则$k_j \\\\in B_1$；\\n3. 若$j_1 \\\\neq j_2$，则$k_{j_1} \\\\neq k_{j_2}$，否则{j_1,j_2}$\\\\subseteq A_1$且{j_1,j_2}$\\\\subseteq A_{k_{j_1}}$，与性质③矛盾；\\n4. 故可建立$A_1$到$B_1$的单射，因此$|B_1| \\\\geq|A_1|$。\\n(ii) 1. 对$A_1,A_2,\\dots,A_m$中所有元素的总个数算两次，得$|A_1|+|A_2|+\\dots+|A_m|=|B_1|+|B_2|+\\dots+|B_n|$；\\n2. 设$|B_n|$为$|B_1|,|B_2|,\\dots,|B_n|$中最小值，$B_n={1,2,\\dots,t}$，由性质②③得$1<t<n$；\\n3. 由(i)的方法得$|A_{s+1}| \\\\leq|B_s|(s=1,2,\\dots,t-1)$，$|A_1| \\\\leq|B_t|$，且$|A_{t+1}|,\\dots,|A_m| \\\\leq|B_n|$；\\n4. 累加得$|A_1|+\\dots+|A_m| \\\\leq|B_1|+\\dots+|B_t|+(m-t)|B_n|$；\\n5. 结合总个数等式及$|B_n|$的最小性，得$m \\\\geq n$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "（Ⅱ）总分11分，(i)部分5分，正确分析$A_1$中元素与$B_1$的对应关系得2分，正确证明单射关系得2分，得出$|B_1| \\\\geq|A_1|$的结论得1分；(ii)部分6分，正确对元素总个数算两次得2分，正确设定最小值并分析范围得1分，正确推导各集合元素个数的不等关系得2分，最终证明$m \\\\geq n$得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let $|M|$ denote the number of elements of the finite set M. Given that m and n are positive integers, and the set $S={1,2, \\dots, n}$. A sequence of sets $Q: A_{1}, A_{2}, \\dots, A_{m}$ is called a \"balanced sequence\" if it satisfies the following three properties: ①$|A_{k}| \\\\geq2$ for $k=1,2, \\cdots, m$; ②$A_{k} \\\\subsetneq S$ for $k=1,2, \\cdots, m$; ③For any two distinct elements i and j in S, there exists a unique $k \\\\in{1,2, \\cdots, m}$ such that ${i, j} \\\\subseteq A_{k}$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Let $m=n=5$, judge whether the following two sequences of sets are \"balanced sequences\"? (No proof is required for the conclusion) $Q_{1}:{ 1,2} ,{ 1,3,4,5} ,{ 2,3} ,{ 2,4} ,{ 2,5}$; $Q_{2}:{ 1,2,3} ,{ 1,4,5} ,{ 2,4} ,{ 3,4} ,{ 3,5}$",
+                        "solutionSteps": "No solution steps are needed, just judge the conclusion directly according to the definition of the \"balanced sequence\".",
+                        "standardAnswer": "$Q_1$ is a balanced sequence, $Q_2$ is not a balanced sequence",
+                        "scoringCriteria": "(Ⅰ) Total score is 4 points. 2 points for correctly judging whether $Q_1$ is a balanced sequence, 2 points for correctly judging whether $Q_2$ is a balanced sequence.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Given $n \\\\geq3$ and the sequence of sets $Q: A_{1}, A_{2}, \\dots, A_{m}$ is a \"balanced sequence\", for $i=1,2, \\cdots n$, define: $B_{i}=\\\\left\\{k | i \\\\in A_{k}, k=1,2, \\cdots, m\\\\right\\}$. Prove that: (i) When $1 \\\\notin A_{1}$, $|B_{1}| \\\\geq|A_{1}|$; (ii) $m \\\\geq n$.",
+                        "solutionSteps": "(i) 1. When $1 \\\\notin A_1$, for any element j in $A_1$, consider the set {1,j};\\n2. According to property ③ of the \"balanced sequence\", there exists a unique $k_j \\\\neq1$ such that {1,j}$\\\\subseteq A_{k_j}$, then $k_j \\\\in B_1$;\\n3. If $j_1 \\\\neq j_2$, then $k_{j_1} \\\\neq k_{j_2}$, otherwise {j_1,j_2}$\\\\subseteq A_1$ and {j_1,j_2}$\\\\subseteq A_{k_{j_1}}$, which contradicts property ③;\\n4. Therefore, an injection from $A_1$ to $B_1$ can be established, so $|B_1| \\\\geq|A_1|$.\\n(ii) 1. Calculate the total number of elements in $A_1,A_2,\\dots,A_m$ in two ways, we get $|A_1|+|A_2|+\\dots+|A_m|=|B_1|+|B_2|+\\dots+|B_n|$;\\n2. Let $|B_n|$ be the minimum value among $|B_1|,|B_2|,\\dots,|B_n|$, and $B_n={1,2,\\dots,t}$, from properties ② and ③, we have $1<t<n$;\\n3. By the method of (i), we get $|A_{s+1}| \\\\leq|B_s|(s=1,2,\\dots,t-1)$, $|A_1| \\\\leq|B_t|$, and $|A_{t+1}|,\\dots,|A_m| \\\\leq|B_n|$;\\n4. Summing up, we get $|A_1|+\\dots+|A_m| \\\\leq|B_1|+\\dots+|B_t|+(m-t)|B_n|$;\\n5. Combining the equality of the total number of elements and the minimality of $|B_n|$, we get $m \\\\geq n$.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "(Ⅱ) Total score is 11 points. Part (i) is 5 points: 2 points for correctly analyzing the correspondence between the elements in $A_1$ and $B_1$, 2 points for correctly proving the injective relationship, and 1 point for drawing the conclusion that $|B_1| \\\\geq|A_1|$. Part (ii) is 6 points: 2 points for correctly calculating the total number of elements in two ways, 1 point for correctly setting the minimum value and analyzing its range, 2 points for correctly deriving the inequality relations of the number of elements of each set, and 1 point for finally proving $m \\\\geq n$.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

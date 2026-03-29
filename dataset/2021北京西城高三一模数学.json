@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2021 Beijing Xicheng Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "天文学上用星等表示星体亮度，星等的数值越小、星体越亮。视星等是指观测者用肉眼所看到的星体亮度；绝对星等是假定把恒星放在距地球32.6光年的地方测得的恒星的亮度，反映恒星的真实发光本领。如表列出了(除太阳外)视星等数值最小的10颗最亮恒星的相关数据，其中$a \\in [0,1.3]$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从表中随机选择一颗恒星，求它的绝对星等的数值小于视星等的数值的概率；",
+            "solutionSteps": "1. 设“一颗星的绝对星等的数值小于视星等的数值”为事件A；\\n2. 从表格数据中统计，10颗恒星中有5颗恒星的绝对星等数值小于视星等数值；\\n3. 根据古典概型概率公式$P(A)=\\frac{符合条件的基本事件数}{总的基本事件数}$，代入数据计算得概率。",
+            "standardAnswer": "$\\frac{1}{2}$",
+            "scoringCriteria": "（Ⅰ）总分4分，设出事件得1分，正确统计符合条件的恒星数量得2分，代入古典概型公式计算出正确概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）已知北京的纬度是北纬40°，当且仅当一颗恒星的“赤纬”数值大于-50°时，能在北京的夜空中看到它，现从这10颗恒星中随机选择4颗，记其中能在北京的夜空中看到的数量为X颗，求X的分布列和数学期望；",
+            "solutionSteps": "1. 从表格中统计，有7颗恒星的“赤纬”数值大于-50°，3颗恒星的“赤纬”数值小于-50°，确定X服从超几何分布，所有可能取值为1、2、3、4；\\n2. 根据超几何分布概率公式$P(X=k)=\\frac{C_{7}^{k} \\cdot C_{3}^{4-k}}{C_{10}^{4}}(k=1,2,3,4)$，分别计算出X取不同值时的概率；\\n3. 列出X的分布列；\\n4. 根据数学期望公式$E(X)=\\sum_{k=1}^{4}k \\cdot P(X=k)$，代入概率值计算出数学期望。",
+            "standardAnswer": "分布列：\\n| X | 1 | 2 | 3 | 4 |\\n| --- | --- | --- | --- | --- |\\n| P | $\\frac{1}{30}$ | $\\frac{3}{10}$ | $\\frac{1}{2}$ | $\\frac{1}{6}$ |\\n数学期望：$E(X)=\\frac{14}{5}$",
+            "scoringCriteria": "（Ⅱ）总分8分，确定X的所有可能取值得1分，正确运用超几何分布公式计算出每个取值的概率各1分（共4分），列出规范的分布列得1分，正确代入期望公式并计算出结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）记$a=0$时10颗恒星的视星等的方差为$s_{1}^{2}$，记$a=1.3$时10颗恒星的视星等的方差为$s_{2}^{2}$，判断$s_{1}^{2}$与$s_{2}^{2}$之间的大小关系。(结论不需要证明)",
+            "solutionSteps": "根据方差的意义，方差反映数据的波动程度，$a=1.3$时数据的波动程度比$a=0$时更大，直接判断方差大小关系。",
+            "standardAnswer": "$s_{1}^{2} < s_{2}^{2}$",
+            "scoringCriteria": "（Ⅲ）总分2分，写出正确的大小关系得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "In astronomy, the magnitude is used to represent the brightness of a star. The smaller the magnitude value, the brighter the star. The apparent magnitude is the brightness of a star seen by an observer with the naked eye; the absolute magnitude is the brightness of a star measured by assuming the star is placed 32.6 light-years away from the Earth, reflecting the true luminous power of the star. The table lists the relevant data of the 10 brightest stars (excluding the Sun) with the smallest apparent magnitude values, where $a \\in [0,1.3]$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select a star from the table, find the probability that its absolute magnitude value is less than its apparent magnitude value;",
+            "solutionSteps": "1. Let event A be that the absolute magnitude value of a star is less than its apparent magnitude value;\\n2. Count from the table data that 5 out of 10 stars have absolute magnitude values less than apparent magnitude values;\\n3. Calculate the probability by substituting data into the classical probability formula $P(A)=\\frac{Number of basic events meeting the conditions}{Total number of basic events}$.",
+            "standardAnswer": "$\\frac{1}{2}$",
+            "scoringCriteria": "(Ⅰ) Total score: 4 points. 1 point for defining the event, 2 points for correctly counting the number of stars meeting the conditions, 1 point for calculating the correct probability by substituting into the classical probability formula.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) It is known that the latitude of Beijing is 40° north latitude. A star can be seen in the night sky of Beijing if and only if its \"declination\" value is greater than -50°. Now 4 stars are randomly selected from these 10 stars, and let X be the number of stars that can be seen in the night sky of Beijing. Find the distribution column and mathematical expectation of X;",
+            "solutionSteps": "1. Count from the table that 7 stars have a declination value greater than -50° and 3 stars have a declination value less than -50°, determine that X follows a hypergeometric distribution with all possible values of 1, 2, 3, 4;\\n2. Calculate the probability of X taking different values according to the hypergeometric distribution probability formula $P(X=k)=\\frac{C_{7}^{k} \\cdot C_{3}^{4-k}}{C_{10}^{4}}(k=1,2,3,4)$;\\n3. List the distribution column of X;\\n4. Calculate the mathematical expectation by substituting the probability values into the mathematical expectation formula $E(X)=\\sum_{k=1}^{4}k \\cdot P(X=k)$.",
+            "standardAnswer": "Distribution column:\\n| X | 1 | 2 | 3 | 4 |\\n| --- | --- | --- | --- | --- |\\n| P | $\\frac{1}{30}$ | $\\frac{3}{10}$ | $\\frac{1}{2}$ | $\\frac{1}{6}$ |\\nMathematical expectation: $E(X)=\\frac{14}{5}$",
+            "scoringCriteria": "(Ⅱ) Total score: 8 points. 1 point for determining all possible values of X, 1 point for each correct probability calculation of each value using the hypergeometric distribution formula (4 points in total), 1 point for listing the standard distribution column, 2 points for correctly substituting into the expectation formula and calculating the result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) Denote the variance of the apparent magnitudes of the 10 stars as $s_{1}^{2}$ when $a=0$, and the variance of the apparent magnitudes of the 10 stars as $s_{2}^{2}$ when $a=1.3$. Judge the size relationship between $s_{1}^{2}$ and $s_{2}^{2}$. (No need to prove the conclusion)",
+            "solutionSteps": "According to the meaning of variance, which reflects the degree of data fluctuation, the data fluctuation when $a=1.3$ is greater than that when $a=0$, and directly judge the size relationship of the variances.",
+            "standardAnswer": "$s_{1}^{2} < s_{2}^{2}$",
+            "scoringCriteria": "(Ⅲ) Total score: 2 points. 2 points for writing the correct size relationship.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数$f(x)=e^{x}(\\ln x - a)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$a=1$，求曲线$y=f(x)$在点$(1, f(1))$处的切线方程；",
+            "solutionSteps": "1. 当$a=1$时，确定函数解析式$f(x)=e^{x}(\\ln x - 1)$；\\n2. 对$f(x)$求导，根据导数的四则运算法则得$f'(x)=e^{x}(\\ln x + \\frac{1}{x} - 1)$；\\n3. 计算$f(1)$和$f'(1)$的值，$f(1)=-e$，$f'(1)=0$；\\n4. 根据导数的几何意义，切线斜率为$f'(1)$，利用点斜式$y - y_0 = k(x - x_0)$写出切线方程。",
+            "standardAnswer": "$y = -e$",
+            "scoringCriteria": "（Ⅰ）总分4分，代入$a=1$得函数解析式得1分，正确求导得1分，计算出$f(1)$和$f'(1)$的值各0.5分（共1分），利用点斜式写出正确切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若$a>1$，求证：函数$f(x)$存在极小值；",
+            "solutionSteps": "1. 对$f(x)$求导得$f'(x)=e^{x}(\\ln x + \\frac{1}{x} - a)$，令$h(x)=\\ln x + \\frac{1}{x} - a$，分析$f'(x)$的符号等价于分析$h(x)$的符号；\\n2. 对$h(x)$求导得$h'(x)=\\frac{x - 1}{x^2}$，分析$h'(x)$的符号，确定$h(x)$在$(0,1)$上单调递减，在$(1,+\\infty)$上单调递增；\\n3. 求出$h(x)$的最小值$h(1)=1 - a$，由$a>1$得$h(1)<0$；\\n4. 取特殊值$x=e^a$，计算得$h(e^a)=e^{-a}>0$，结合$h(x)$在$(1,+\\infty)$上单调递增，由零点存在定理得存在$x_0 \\in (1,e^a)$使得$h(x_0)=0$；\\n5. 分析$h(x)$在$(1,x_0)$和$(x_0,+\\infty)$上的符号，进而得到$f(x)$的单调性，证明$f(x)$在$x_0$处存在极小值。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）总分5分，构造函数$h(x)$并正确求导得1分，分析$h(x)$的单调性并求出最小值得1分，判断$h(1)<0$得1分，找到特殊值证明$h(x)$存在零点得1分，分析$f(x)$的单调性并得出极小值结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）若对任意的实数$x \\in [1,+\\infty)$，$f(x) > -1$恒成立，求实数$a$的取值范围；",
+            "solutionSteps": "1. 原问题等价于$f(x)$在$[1,+\\infty)$上的最小值大于$-1$；\\n2. 由（Ⅱ）知$h(x)=\\ln x + \\frac{1}{x} - a$，$h'(x)=\\frac{x - 1}{x^2} \\geq 0$在$[1,+\\infty)$上恒成立，故$h(x)$在$[1,+\\infty)$上单调递增，$h(x)_{min}=h(1)=1 - a$；\\n3. 分情况讨论：①当$a \\leq 1$时，$h(x) \\geq 0$，$f'(x) \\geq 0$，$f(x)$在$[1,+\\infty)$上单调递增，$f(x)_{min}=f(1)=-ae$，由$-ae \\geq -1$解得$a \\leq \\frac{1}{e}$；②当$a>1$时，$h(1)<0$，$f(x)$在$(1,x_0)$上单调递减，$f(x) < f(1)=-ae < -e < -1$，不满足条件；\\n4. 综合两种情况，得出实数$a$的取值范围。",
+            "standardAnswer": "$(-\\infty, \\frac{1}{e}]$",
+            "scoringCriteria": "（Ⅲ）总分6分，将恒成立问题转化为求函数最小值问题得1分，分析$h(x)$在$[1,+\\infty)$上的单调性得1分，分$a \\leq 1$和$a>1$两种情况讨论各1分（共2分），在$a \\leq 1$时正确求解不等式得1分，综合得出正确取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=e^{x}(\\ln x - a)$. ",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If $a=1$, find the tangent equation of the curve $y=f(x)$ at the point $(1, f(1))$;",
+            "solutionSteps": "1. When $a=1$, determine the function expression $f(x)=e^{x}(\\ln x - 1)$;\\n2. Find the derivative of $f(x)$, and get $f'(x)=e^{x}(\\ln x + \\frac{1}{x} - 1)$ according to the four arithmetic rules of derivatives;\\n3. Calculate the values of $f(1)$ and $f'(1)$, $f(1)=-e$, $f'(1)=0$;\\n4. According to the geometric meaning of the derivative, the slope of the tangent line is $f'(1)$, and write the tangent equation using the point-slope form $y - y_0 = k(x - x_0)$. ",
+            "standardAnswer": "$y = -e$",
+            "scoringCriteria": "(Ⅰ) Total score: 4 points. 1 point for substituting $a=1$ to get the function expression, 1 point for correctly finding the derivative, 0.5 points for each of calculating the values of $f(1)$ and $f'(1)$ (1 point in total), 1 point for writing the correct tangent equation using the point-slope form.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $a>1$, prove that the function $f(x)$ has a local minimum value;",
+            "solutionSteps": "1. Find the derivative of $f(x)$ to get $f'(x)=e^{x}(\\ln x + \\frac{1}{x} - a)$, let $h(x)=\\ln x + \\frac{1}{x} - a$, analyzing the sign of $f'(x)$ is equivalent to analyzing the sign of $h(x)$;\\n2. Find the derivative of $h(x)$ to get $h'(x)=\\frac{x - 1}{x^2}$, analyze the sign of $h'(x)$, and determine that $h(x)$ is monotonically decreasing on $(0,1)$ and monotonically increasing on $(1,+\\infty)$;\\n3. Find the minimum value of $h(x)$: $h(1)=1 - a$, and get $h(1)<0$ from $a>1$;\\n4. Take the special value $x=e^a$, calculate to get $h(e^a)=e^{-a}>0$, combined with the monotonic increase of $h(x)$ on $(1,+\\infty)$, it is obtained from the zero point existence theorem that there exists $x_0 \\in (1,e^a)$ such that $h(x_0)=0$;\\n5. Analyze the sign of $h(x)$ on $(1,x_0)$ and $(x_0,+\\infty)$, then obtain the monotonicity of $f(x)$, and prove that $f(x)$ has a local minimum value at $x_0$.",
+            "standardAnswer": "Proof see analysis",
+            "scoringCriteria": "(Ⅱ) Total score: 5 points. 1 point for constructing the function $h(x)$ and finding its derivative correctly, 1 point for analyzing the monotonicity of $h(x)$ and finding its minimum value, 1 point for judging $h(1)<0$, 1 point for finding a special value to prove that $h(x)$ has a zero point, 1 point for analyzing the monotonicity of $f(x)$ and drawing the conclusion of the local minimum value.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) If $f(x) > -1$ holds for any real number $x \\in [1,+\\infty)$, find the range of the real number $a$;",
+            "solutionSteps": "1. The original problem is equivalent to the minimum value of $f(x)$ on $[1,+\\infty)$ being greater than $-1$;\\n2. It is known from (Ⅱ) that $h(x)=\\ln x + \\frac{1}{x} - a$, $h'(x)=\\frac{x - 1}{x^2} \\geq 0$ holds for all $x \\in [1,+\\infty)$, so $h(x)$ is monotonically increasing on $[1,+\\infty)$, and $h(x)_{min}=h(1)=1 - a$;\\n3. Discuss by cases: ① When $a \\leq 1$, $h(x) \\geq 0$, $f'(x) \\geq 0$, $f(x)$ is monotonically increasing on $[1,+\\infty)$, $f(x)_{min}=f(1)=-ae$, and solve $a \\leq \\frac{1}{e}$ from $-ae \\geq -1$; ② When $a>1$, $h(1)<0$, $f(x)$ is monotonically decreasing on $(1,x_0)$, $f(x) < f(1)=-ae < -e < -1$, which does not satisfy the condition;\\n4. Synthesize the two cases to get the range of the real number $a$.",
+            "standardAnswer": "$(-\\infty, \\frac{1}{e}]$",
+            "scoringCriteria": "(Ⅲ) Total score: 6 points. 1 point for converting the constant establishment problem into the problem of finding the minimum value of the function, 1 point for analyzing the monotonicity of $h(x)$ on $[1,+\\infty)$, 1 point for each of the two cases of $a \\leq 1$ and $a>1$ (2 points in total), 1 point for solving the inequality correctly when $a \\leq 1$, 1 point for synthesizing to get the correct value range.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆$C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{3}=1(a>0)$的焦点在x轴上，且经过点$E(1, \\frac{3}{2})$，左顶点为D，右焦点为F。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的离心率和$\\triangle DEF$的面积；",
+            "solutionSteps": "1. 将点$E(1, \\frac{3}{2})$代入椭圆方程，得$\\frac{1}{a^2} + \\frac{3}{4} = 1$，解得$a=2$；\\n2. 由椭圆的基本性质，$c^2=a^2 - b^2=4 - 3=1$，得$c=1$，确定$D(-2,0)$，$F(1,0)$；\\n3. 根据离心率公式$e=\\frac{c}{a}$，计算出椭圆的离心率；\\n4. 根据三角形面积公式$S=\\frac{1}{2} \\times 底 \\times 高$，以$DF$为底，点$E$的纵坐标为高，计算$\\triangle DEF$的面积。",
+            "standardAnswer": "离心率：$\\frac{1}{2}$；$\\triangle DEF$的面积：$\\frac{9}{4}$",
+            "scoringCriteria": "（Ⅰ）总分5分，代入点E坐标求解a的值得2分，计算c的值并确定D、F坐标得1分，计算出离心率得1分，正确计算三角形面积得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）已知直线$y=kx+1$与椭圆C交于A，B两点。过点B作直线$y=t(t>\\sqrt{3})$的垂线，垂足为G。判断是否存在常数t，使得直线AG经过y轴上的定点？若存在，求t的值；若不存在，请说明理由。",
+            "solutionSteps": "1. 先通过特殊情况试探，取直线$DE$的方程$y=\\frac{1}{2}x+1$，分别取$A(-2,0)$、$B(1,\\frac{3}{2})$和$A(1,\\frac{3}{2})$、$B(-2,0)$，求出直线AG与y轴的交点，解得t=3，猜测定点为(0,2)；\\n2. 联立直线$y=kx+1$与椭圆C的方程，消去y得$(4k^2 + 3)x^2 + 8kx - 8=0$，设$A(x_1,y_1)$，$B(x_2,y_2)$，由韦达定理得$x_1 + x_2=\\frac{-8k}{4k^2 + 3}$，$x_1x_2=\\frac{-8}{4k^2 + 3}$；\\n3. 由G为B作$y=3$的垂线垂足，得$G(x_2,3)$，写出直线AG的方程$y - 3=\\frac{y_1 - 3}{x_1 - x_2}(x - x_2)$；\\n4. 令x=0，化简y的表达式，结合韦达定理$kx_1x_2=x_1 + x_2$，代入化简得y=2，证明直线AG过定点(0,2)，故存在t=3。",
+            "standardAnswer": "存在，$t=3$",
+            "scoringCriteria": "（Ⅱ）总分10分，通过特殊情况试探求出t的值得2分，联立直线与椭圆方程并消元得2分，正确运用韦达定理得2分，写出直线AG的方程并令x=0化简得2分，结合韦达定理证明直线过定点得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{3}=1(a>0)$ has its foci on the x-axis and passes through the point $E(1, \\frac{3}{2})$, with the left vertex D and the right focus F.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the eccentricity of ellipse C and the area of $\\triangle DEF$;",
+            "solutionSteps": "1. Substitute the point $E(1, \\frac{3}{2})$ into the ellipse equation to get $\\frac{1}{a^2} + \\frac{3}{4} = 1$, and solve for $a=2$;\\n2. According to the basic properties of the ellipse, $c^2=a^2 - b^2=4 - 3=1$, so $c=1$, and determine $D(-2,0)$, $F(1,0)$;\\n3. Calculate the eccentricity of the ellipse according to the eccentricity formula $e=\\frac{c}{a}$;\\n4. Calculate the area of $\\triangle DEF$ according to the triangle area formula $S=\\frac{1}{2} \\times base \\times height$, with $DF$ as the base and the ordinate of point E as the height.",
+            "standardAnswer": "Eccentricity: $\\frac{1}{2}$; Area of $\\triangle DEF$: $\\frac{9}{4}$",
+            "scoringCriteria": "(Ⅰ) Total score: 5 points. 2 points for substituting the coordinates of point E to solve for a, 1 point for calculating the value of c and determining the coordinates of D and F, 1 point for calculating the eccentricity, 1 point for correctly calculating the area of the triangle.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) It is known that the straight line $y=kx+1$ intersects the ellipse C at points A and B. Draw a perpendicular line from point B to the straight line $y=t(t>\\sqrt{3})$, and the foot of the perpendicular is G. Judge whether there exists a constant t such that the straight line AG passes through a fixed point on the y-axis? If it exists, find the value of t; if not, explain the reason.",
+            "solutionSteps": "1. First explore through special cases, take the equation of the straight line $DE$ as $y=\\frac{1}{2}x+1$, take $A(-2,0)$, $B(1,\\frac{3}{2})$ and $A(1,\\frac{3}{2})$, $B(-2,0)$ respectively, find the intersection of the straight line AG and the y-axis, solve for t=3, and guess the fixed point is (0,2);\\n2. Simultaneously solve the equations of the straight line $y=kx+1$ and the ellipse C, eliminate y to get $(4k^2 + 3)x^2 + 8kx - 8=0$, let $A(x_1,y_1)$, $B(x_2,y_2)$, and get $x_1 + x_2=\\frac{-8k}{4k^2 + 3}$, $x_1x_2=\\frac{-8}{4k^2 + 3}$ by Vieta's theorem;\\n3. Since G is the foot of the perpendicular from B to $y=3$, get $G(x_2,3)$, and write the equation of the straight line AG as $y - 3=\\frac{y_1 - 3}{x_1 - x_2}(x - x_2)$;\\n4. Let x=0, simplify the expression of y, substitute and simplify combined with Vieta's theorem $kx_1x_2=x_1 + x_2$ to get y=2, prove that the straight line AG passes through the fixed point (0,2), so t=3 exists.",
+            "standardAnswer": "Exists, $t=3$",
+            "scoringCriteria": "(Ⅱ) Total score: 10 points. 2 points for finding the value of t through special case exploration, 2 points for simultaneously solving the straight line and ellipse equations and eliminating the variable y, 2 points for correctly applying Vieta's theorem, 2 points for writing the equation of the straight line AG and simplifying by letting x=0, 2 points for proving the straight line passes through a fixed point combined with Vieta's theorem.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知数列$A: a_{1}, a_{2}, ..., a_{N}(N \\geq 3)$的各项均为正整数，设集合$T={x | x=a_{j}-a_{i}, 1 \\leq i<j \\leq N}$，记T的元素个数为$P(T)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若数列$A:1 ,2,4,3$，求集合T，并写出$P(T)$的值；",
+            "solutionSteps": "1. 根据集合T的定义，计算所有满足$1 \\leq i<j \\leq 4$的$a_j - a_i$的值：$2-1=1$，$4-1=2$，$3-1=2$，$4-2=2$，$3-2=1$，$3-4=-1$；\\n2. 去除重复元素，确定集合T的元素；\\n3. 统计集合T的元素个数，得到$P(T)$的值。",
+            "standardAnswer": "$T=\\{1,2,3,-1\\}$，$P(T)=4$",
+            "scoringCriteria": "（Ⅰ）总分4分，正确计算所有$a_j - a_i$的值得2分，去除重复元素得到正确集合T得1分，写出正确的$P(T)$值得1分。",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若A是递增数列，求证：“$P(T)=N-1$”的充要条件是“A为等差数列”；",
+            "solutionSteps": "1. 充分性证明：若A是等差数列，设公差为$d>0$，则$a_j - a_i=(j-i)d$，满足$1 \\leq i<j \\leq N$的$(j-i)$取值为1,2,...,N-1，故$T=\\{d,2d,...,(N-1)d\\}$，得$P(T)=N-1$；\\n2. 必要性证明：若$P(T)=N-1$，由A是递增数列得$a_2-a_1<a_3-a_1<...<a_N-a_1$，这N-1个值为T的全部元素；又$a_3-a_2<a_4-a_2<...<a_N-a_2<a_N-a_1$，故$a_3-a_2=a_2-a_1$，依次类推得$a_2-a_1=a_3-a_2=...=a_N-a_{N-1}$，即A为等差数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）总分5分，充分性证明中设出公差并推导T的元素得2分，得出$P(T)=N-1$得1分；必要性证明中分析T的元素并推导数列的公差相等得1分，得出A为等差数列得1分。",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）若$N=2 n+1$，数列 A 由$1,2,3, ..., n,2n$这$n+1$个数组成，且这$n+1$个数在数列 A 中每个至少出现 一次，求$P(T)$的取值个数。",
+            "solutionSteps": "1. 分析所有可能的差值，确定差值的种类及T中元素的范围，得$P(T) \\leq 4n-1$且$P(T) \\geq 2n$；\\n2. 构造基础数列$A_0:1,1,2,2,...,n,n,2n$，得$P(T)=2n$；\\n3. 对$A_0$进行元素移动的变换，依次得到$P(T)=2n+1,2n+2,...,3n-1,3n,...,4n-1$；\\n4. 验证所有从$2n$到$4n-1$的整数都能取到，统计取值的个数。",
+            "standardAnswer": "$2n$",
+            "scoringCriteria": "（Ⅲ）总分6分，分析出$P(T)$的取值范围得2分，构造基础数列得到最小取值得1分，通过变换证明中间取值均可取到得2分，统计出正确的取值个数得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the sequence $A: a_{1}, a_{2}, ..., a_{N}(N \\geq 3)$ where all terms are positive integers, let the set $T={x | x=a_{j}-a_{i}, 1 \\leq i<j \\leq N}$, and denote the number of elements of T as $P(T)$. ",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If the sequence $A:1 ,2,4,3$, find the set T and write the value of $P(T)$;",
+            "solutionSteps": "1. According to the definition of set T, calculate the values of $a_j - a_i$ for all $1 \\leq i<j \\leq 4$: $2-1=1$, $4-1=2$, $3-1=2$, $4-2=2$, $3-2=1$, $3-4=-1$;\\n2. Remove duplicate elements to determine the elements of set T;\\n3. Count the number of elements in set T to get the value of $P(T)$. ",
+            "standardAnswer": "$T=\\{1,2,3,-1\\}$, $P(T)=4$",
+            "scoringCriteria": "(Ⅰ) Total score: 4 points. 2 points for correctly calculating all values of $a_j - a_i$, 1 point for obtaining the correct set T by removing duplicate elements, 1 point for writing the correct value of $P(T)$. ",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If A is an increasing sequence, prove that the necessary and sufficient condition for $P(T)=N-1$ is that A is an arithmetic sequence;",
+            "solutionSteps": "1. Proof of sufficiency: If A is an arithmetic sequence, let the common difference be $d>0$, then $a_j - a_i=(j-i)d$. The values of $(j-i)$ satisfying $1 \\leq i<j \\leq N$ are 1,2,...,N-1, so $T=\\{d,2d,...,N-1d\\}$, and thus $P(T)=N-1$;\\n2. Proof of necessity: If $P(T)=N-1$, from A being an increasing sequence, we have $a_2-a_1<a_3-a_1<...<a_N-a_1$, and these N-1 values are all elements of T; also $a_3-a_2<a_4-a_2<...<a_N-a_2<a_N-a_1$, so $a_3-a_2=a_2-a_1$, and by analogy, $a_2-a_1=a_3-a_2=...=a_N-a_{N-1}$, that is, A is an arithmetic sequence. ",
+            "standardAnswer": "Proof see analysis",
+            "scoringCriteria": "(Ⅱ) Total score: 5 points. 2 points for setting the common difference and deriving the elements of T in the sufficiency proof, 1 point for obtaining $P(T)=N-1$; 1 point for analyzing the elements of T and deriving the equality of the common differences of the sequence in the necessity proof, 1 point for concluding that A is an arithmetic sequence. ",
+            "knowledgePoint": "SEQUENCES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) If $N=2 n+1$, the sequence A is composed of the $n+1$ numbers $1,2,3, ..., n,2n$, and each of these $n+1$ numbers appears at least once in the sequence A, find the number of possible values of $P(T)$. ",
+            "solutionSteps": "1. Analyze all possible differences, determine the types of differences and the range of elements in T, and get $P(T) \\leq 4n-1$ and $P(T) \\geq 2n$;\\n2. Construct the basic sequence $A_0:1,1,2,2,...,n,n,2n$, and get $P(T)=2n$;\\n3. Perform element movement transformations on $A_0$, and obtain $P(T)=2n+1,2n+2,...,3n-1,3n,...,4n-1$ in turn;\\n4. Verify that all integers from $2n$ to $4n-1$ can be taken, and count the number of possible values. ",
+            "standardAnswer": "$2n$",
+            "scoringCriteria": "(Ⅲ) Total score: 6 points. 2 points for analyzing the value range of $P(T)$, 1 point for constructing the basic sequence to get the minimum value, 2 points for proving that all intermediate values can be taken through transformations, 1 point for counting the correct number of possible values. ",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

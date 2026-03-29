@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2023 Beijing Haidian Senior Three First Mock Examination",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "网购生鲜蔬菜成为很多家庭日常消费的新选择。某小区物业对本小区三月份参与网购生鲜蔬菜的家庭的网购次数进行调查，从一单元和二单元参与网购生鲜蔬菜的家庭中各随机抽取10户，分别记为A组和B组，这20户家庭三月份网购生鲜蔬菜的次数给出相关统计。假设用频率估计概率，且各户网购生鲜蔬菜的情况互不影响。",
+                "subQuestions": [
+                    {
+                        "question": "（I）从一单元参与网购生鲜蔬菜的家庭中随机抽取1户，估计该户三月份网购生鲜蔬菜次数大于20的概率；",
+                        "solutionSteps": "1. 设定事件：设该户网购生鲜蔬菜次数超过20次为事件C；2. 统计样本：在A组10户中超过20次的有3户；3. 频率估计概率：根据频率估计概率的方法，计算得P(C)=3/10。",
+                        "standardAnswer": "$\\\\frac{3}{10}$",
+                        "scoringCriteria": "第一问，设定相关事件得1分；正确统计A组中次数大于20的户数得1分；运用频率估计概率的方法列出公式得1分；计算出正确概率结果得1分，共4分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（II）从一单元和二单元参与网购生鲜蔬菜的家庭中各随机抽取1户，记这两户中三月份网购生鲜蔬菜次数大于20的户数为X，估计X的数学期望E(X)；",
+                        "solutionSteps": "1. 确定概率：由样本频率估计，一单元抽取1户次数超20次概率为3/10，二单元为7/10；2. 确定取值：X的取值为0,1,2；3. 计算各取值概率：P(X=0)=(1-3/10)×(1-7/10)=21/100，P(X=1)=3/10×(1-7/10)+(1-3/10)×7/10=29/50，P(X=2)=3/10×7/10=21/100；4. 计算数学期望：E(X)=0×21/100+1×29/50+2×21/100=1。",
+                        "standardAnswer": "$1$",
+                        "scoringCriteria": "第二问，正确得出两个单元的概率值各得1分；确定X的所有取值得1分；正确计算出X各取值对应的概率各得1分，共3分；列出数学期望计算公式得1分；计算出正确的期望结果得2分，共9分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（III）从A组和B组中分别随机抽取2户家庭，记ξ₁为A组中抽取的两户家庭三月份网购生鲜蔬菜次数大于20的户数，ξ₂为B组中抽取的两户家庭三月份网购生鲜蔬菜次数大于20的户数，比较方差D(ξ₁)与D(ξ₂)的大小。(结论不要求证明)",
+                        "solutionSteps": "根据二项分布的方差性质及样本对应的概率，直接得出方差大小关系，无需证明。",
+                        "standardAnswer": "$D(\\\\xi_{1})=D(\\\\xi_{2})$",
+                        "scoringCriteria": "第三问，直接写出正确的方差大小比较结论得0分（题目要求结论不要求证明，分值包含在整体题目中）。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Online shopping for fresh vegetables has become a new choice for the daily consumption of many families. The property of a community investigated the number of online shopping times of families participating in online shopping for fresh vegetables in March in this community. 10 households were randomly selected from each of the first unit and the second unit of families participating in online shopping for fresh vegetables, denoted as group A and group B respectively, and the number of online shopping times of these 20 households for fresh vegetables in March was given relevant statistics. Assume that the frequency is used to estimate the probability, and the online shopping situation of each household is independent of each other.",
+                "subQuestions": [
+                    {
+                        "question": "(I) Randomly select 1 household from the families in the first unit who participate in online shopping for fresh vegetables, and estimate the probability that the number of online shopping times for fresh vegetables of this household in March is greater than 20;",
+                        "solutionSteps": "1. Set the event: Let event C be that the number of online shopping times of the household exceeds 20; 2. Count the samples: There are 3 households with more than 20 times in 10 households of group A; 3. Estimate probability by frequency: According to the method of estimating probability by frequency, calculate P(C)=3/10.",
+                        "standardAnswer": "$\\\\frac{3}{10}$",
+                        "scoringCriteria": "For the first question, 1 point for setting the relevant event; 1 point for correctly counting the number of households with more than 20 times in group A; 1 point for listing the formula by using the method of estimating probability by frequency; 1 point for calculating the correct probability result, with a total of 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) Randomly select 1 household from each of the first unit and the second unit of families participating in online shopping for fresh vegetables, denote the number of households with the number of online shopping times for fresh vegetables greater than 20 in these two households as X, and estimate the mathematical expectation E(X) of X;",
+                        "solutionSteps": "1. Determine the probabilities: Estimated by sample frequency, the probability that the number of times of one household selected from the first unit exceeds 20 is 3/10, and that from the second unit is 7/10; 2. Determine the values: The values of X are 0,1,2; 3. Calculate the probability of each value: P(X=0)=(1-3/10)×(1-7/10)=21/100, P(X=1)=3/10×(1-7/10)+(1-3/10)×7/10=29/50, P(X=2)=3/10×7/10=21/100; 4. Calculate the mathematical expectation: E(X)=0×21/100+1×29/50+2×21/100=1.",
+                        "standardAnswer": "$1$",
+                        "scoringCriteria": "For the second question, 1 point for each correct probability value of the two units; 1 point for determining all values of X; 1 point for each correct probability corresponding to each value of X, a total of 3 points; 1 point for listing the formula for calculating the mathematical expectation; 2 points for calculating the correct expectation result, with a total of 9 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(III) Randomly select 2 households from group A and group B respectively, denote ξ₁ as the number of households with the number of online shopping times for fresh vegetables greater than 20 among the two households selected from group A, and ξ₂ as the number of households with the number of online shopping times for fresh vegetables greater than 20 among the two households selected from group B, compare the sizes of the variances D(ξ₁) and D(ξ₂). (Proof is not required for the conclusion)",
+                        "solutionSteps": "According to the variance property of the binomial distribution and the probability corresponding to the sample, directly draw the conclusion of the variance size relationship without proof.",
+                        "standardAnswer": "$D(\\\\xi_{1})=D(\\\\xi_{2})$",
+                        "scoringCriteria": "For the third question, 0 points for directly writing the correct conclusion of the variance size comparison (the question requires no proof for the conclusion, and the score is included in the overall question).",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆E: $\\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的左、右顶点分别为A₁，A₂，上、下顶点为B₁,B₂，给出相关线段长度和图形周长条件。",
+                "subQuestions": [
+                    {
+                        "question": "（I）求椭圆E的方程；",
+                        "solutionSteps": "1. 根据条件列方程：由|B₁B₂|=2得2b=2，由四边形A₁B₁A₂B₂的周长为4√6得4√(a²+b²)=4√6；2. 求解参数：解得b=1，代入后求得a=√5；3. 写出椭圆方程：将a,b的值代入椭圆标准方程，得x²/5 + y² = 1。",
+                        "standardAnswer": "$\\\\frac{x^{2}}{5}+y^{2}=1$",
+                        "scoringCriteria": "第一问，根据线段长度和周长条件正确列出关于a,b的方程组得2分；正确求解出b的值得1分；正确求解出a的值得1分；写出完整且正确的椭圆方程得1分，共5分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（II）设斜率为k的直线l与x轴交于点P，与椭圆E交于不同的两点M，N，点M关于y轴的对称点为M'，直线M'N与y轴交于点Q，若△OPQ的面积为2，求k的值。",
+                        "solutionSteps": "1. 设直线方程：设直线l方程为y=kx+m(km≠0)，设M(x₁,y₁)，N(x₂,y₂)；2. 联立方程：联立椭圆方程与直线方程，整理得(5k²+1)x²+10kmx+5m²-5=0；3. 韦达定理：得出x₁+x₂=-10km/(5k²+1)，x₁x₂=(5m²-5)/(5k²+1)，并得出判别式条件5k²>m²-1；4. 求点P坐标：令y=0，得x=-m/k，即P(-m/k,0)；5. 求直线M'N方程及点Q纵坐标：M'(-x₁,y₁)，直线M'N方程为y=(y₂-y₁)/(x₂+x₁)(x+x₁)+y₁，令x=0得y_Q=(x₁y₂+x₂y₁)/(x₁+x₂)；6. 化简x₁y₂+x₂y₁：代入y=kx+m化简得x₁y₂+x₂y₁=-10k/(5k²+1)；7. 面积计算与求解k：△OPQ的面积S=1/2|x_P|·|y_Q|，代入化简后得S=1/2|m/k|·|10k/(10km)|=2，解得k=±1/4，经检验符合题意。",
+                        "standardAnswer": "$\\\\pm \\\\frac{1}{4}$",
+                        "scoringCriteria": "第二问，正确设出直线方程并标注参数限制条件得2分；联立椭圆与直线方程并正确整理得2分；正确运用韦达定理得出根与系数的关系得2分；求出点P的坐标得1分；求出点Q纵坐标的表达式得2分；正确化简x₁y₂+x₂y₁的表达式得2分；列出三角形面积公式并代入化简得2分；求解出k的值并进行检验得2分，共14分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given an ellipse E: $\\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ with left and right vertices A₁, A₂ respectively, and upper and lower vertices B₁, B₂, the relevant line segment length and figure perimeter conditions are given.",
+                "subQuestions": [
+                    {
+                        "question": "(I) Find the equation of the ellipse E;",
+                        "solutionSteps": "1. List the equations according to the conditions: From |B₁B₂|=2, we get 2b=2, and from the perimeter of the quadrilateral A₁B₁A₂B₂ being 4√6, we get 4√(a²+b²)=4√6; 2. Solve the parameters: Solve to get b=1, substitute and find a=√5; 3. Write the ellipse equation: Substitute the values of a and b into the standard ellipse equation to get x²/5 + y² = 1.",
+                        "standardAnswer": "$\\\\frac{x^{2}}{5}+y^{2}=1$",
+                        "scoringCriteria": "For the first question, 2 points for correctly listing the system of equations about a and b according to the line segment length and perimeter conditions; 1 point for correctly solving the value of b; 1 point for correctly solving the value of a; 1 point for writing the complete and correct ellipse equation, with a total of 5 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) Let the straight line l with slope k intersect the x-axis at point P, and intersect the ellipse E at two different points M and N. The symmetric point of point M about the y-axis is M', the straight line M'N intersects the y-axis at point Q. If the area of △OPQ is 2, find the value of k.",
+                        "solutionSteps": "1. Set the straight line equation: Let the equation of the straight line l be y=kx+m(km≠0), let M(x₁,y₁), N(x₂,y₂); 2. Simultaneous equations: Simultaneously solve the ellipse equation and the straight line equation, and sort out to get (5k²+1)x²+10kmx+5m²-5=0; 3. Vieta's theorem: Obtain x₁+x₂=-10km/(5k²+1), x₁x₂=(5m²-5)/(5k²+1), and get the discriminant condition 5k²>m²-1; 4. Find the coordinates of point P: Let y=0, get x=-m/k, that is P(-m/k,0); 5. Find the equation of line M'N and the ordinate of point Q: M'(-x₁,y₁), the equation of line M'N is y=(y₂-y₁)/(x₂+x₁)(x+x₁)+y₁, let x=0 to get y_Q=(x₁y₂+x₂y₁)/(x₁+x₂); 6. Simplify x₁y₂+x₂y₁: Substitute y=kx+m and simplify to get x₁y₂+x₂y₁=-10k/(5k²+1); 7. Area calculation and solve for k: The area S of △OPQ is S=1/2|x_P|·|y_Q|, substitute and simplify to get S=1/2|m/k|·|10k/(10km)|=2, solve to get k=±1/4, which is in line with the meaning of the question after verification.",
+                        "standardAnswer": "$\\\\pm \\\\frac{1}{4}$",
+                        "scoringCriteria": "For the second question, 2 points for correctly setting the straight line equation and marking the parameter restriction conditions; 2 points for simultaneously solving the ellipse and straight line equations and sorting out correctly; 2 points for correctly using Vieta's theorem to obtain the relationship between roots and coefficients; 1 point for finding the coordinates of point P; 2 points for finding the expression of the ordinate of point Q; 2 points for correctly simplifying the expression of x₁y₂+x₂y₁; 2 points for listing the triangle area formula and substituting and simplifying; 2 points for solving the value of k and verifying, with a total of 14 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数$f(x)=e^{ax}-x$。",
+                "subQuestions": [
+                    {
+                        "question": "（I）当a=1时，求曲线y=f(x)在点(0, f(0))处的切线方程；",
+                        "solutionSteps": "1. 求函数值：当a=1时，f(x)=e^x - x，计算得f(0)=1；2. 求导函数：求导得f'(x)=e^x - 1；3. 求切线斜率：计算f'(0)=0，即为切线斜率；4. 写切线方程：根据点斜式，曲线在(0,1)处切线方程为y=1。",
+                        "standardAnswer": "$y=1$",
+                        "scoringCriteria": "第一问，代入a=1正确写出函数表达式得1分；正确计算出f(0)的值得1分；正确求导得出导函数表达式得1分；计算出切线斜率得1分；根据点斜式写出正确的切线方程得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（II）求f(x)的单调区间；",
+                        "solutionSteps": "1. 求导函数：求导得f'(x)=a e^{ax} - 1；2. 分类讨论a≤0：当a≤0时，f'(x)<0恒成立，f(x)在R上单调递减；3. 分类讨论a>0：当a>0时，令f'(x)=0，解得x=-lna/a；4. 分析单调性：当x<-lna/a时，f'(x)<0，f(x)单调递减；当x>-lna/a时，f'(x)>0，f(x)单调递增；5. 总结单调区间：综上写出不同a取值下的单调区间。",
+                        "standardAnswer": "当$a \\\\leq 0$时，$f(x)$的减区间为$(-\\\\infty,+\\\\infty)$，无增区间；当$a>0$时，$f(x)$的减区间为$(-\\\\infty,-\\\\frac{\\\\ln a}{a})$，增区间为$(-\\\\frac{\\\\ln a}{a},+\\\\infty)$",
+                        "scoringCriteria": "第二问，正确求出函数的导函数表达式得2分；对a≤0的情况正确分析导函数符号并得出单调区间得2分；对a>0的情况正确求解导函数为0时的x值得2分；正确分析a>0时不同区间内导函数的符号并得出单调区间得2分；完整总结不同a取值下的单调区间得1分，共9分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "（III）若存在x₁，x₂∈[-1,1]，使得f(x₁)f(x₂) ≥9，求a的取值范围。",
+                        "solutionSteps": "1. 转化条件：将问题转化为f(x)在[-1,1]上的最大值f(x)max≥3（因f(x)=e^{ax}-x>-x≥-1，最小值不会小于-1，故只需最大值≥3）；2. 确定最大值位置：由单调性知f(x)在[-1,1]上的最大值为f(-1)与f(1)中的较大者；3. 列不等式：即f(-1)=e^{-a}+1≥3或f(1)=e^a -1≥3；4. 解不等式：分别解得a≤-ln2或a≥ln4；5. 写出取值范围：综上得出a的取值范围。",
+                        "standardAnswer": "$(-\\\\infty,-\\\\ln 2] \\\\cup [\\\\ln 4,+\\\\infty)$",
+                        "scoringCriteria": "第三问，正确将原条件转化为f(x)max≥3并说明理由得2分；正确确定f(x)在[-1,1]上最大值的位置得2分；列出关于a的不等式组得2分；分别正确求解每个不等式得2分；写出完整且正确的a的取值范围得2分，共10分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=e^{ax}-x$.",
+                "subQuestions": [
+                    {
+                        "question": "(I) When a=1, find the tangent equation of the curve y=f(x) at the point (0, f(0));",
+                        "solutionSteps": "1. Find the function value: When a=1, f(x)=e^x - x, calculate to get f(0)=1; 2. Find the derivative function: Derive to get f'(x)=e^x - 1; 3. Find the tangent slope: Calculate f'(0)=0, which is the tangent slope; 4. Write the tangent equation: According to the point-slope form, the tangent equation of the curve at (0,1) is y=1.",
+                        "standardAnswer": "$y=1$",
+                        "scoringCriteria": "For the first question, 1 point for correctly writing the function expression by substituting a=1; 1 point for correctly calculating the value of f(0); 1 point for correctly deriving to get the derivative function expression; 1 point for calculating the tangent slope; 1 point for writing the correct tangent equation according to the point-slope form, with a total of 5 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(II) Find the monotonic intervals of f(x);",
+                        "solutionSteps": "1. Find the derivative function: Derive to get f'(x)=a e^{ax} - 1; 2. Discuss the case of a≤0: When a≤0, f'(x)<0 holds for all x, and f(x) is monotonically decreasing on R; 3. Discuss the case of a>0: When a>0, let f'(x)=0, solve to get x=-lna/a; 4. Analyze monotonicity: When x<-lna/a, f'(x)<0, f(x) is monotonically decreasing; When x>-lna/a, f'(x)>0, f(x) is monotonically increasing; 5. Summarize the monotonic intervals: Summarize the monotonic intervals under different values of a in conclusion.",
+                        "standardAnswer": "When $a \\\\leq 0$, the decreasing interval of $f(x)$ is $(-\\\\infty,+\\\\infty)$ and there is no increasing interval; When $a>0$, the decreasing interval of $f(x)$ is $(-\\\\infty,-\\\\frac{\\\\ln a}{a})$ and the increasing interval is $(-\\\\frac{\\\\ln a}{a},+\\\\infty)$",
+                        "scoringCriteria": "For the second question, 2 points for correctly finding the derivative function expression of the function; 2 points for correctly analyzing the sign of the derivative function and obtaining the monotonic interval in the case of a≤0; 2 points for correctly solving the value of x when the derivative function is 0 in the case of a>0; 2 points for correctly analyzing the sign of the derivative function in different intervals and obtaining the monotonic interval when a>0; 1 point for completely summarizing the monotonic intervals under different values of a, with a total of 9 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "(III) If there exist x₁, x₂∈[-1,1] such that f(x₁)f(x₂) ≥9, find the range of values of a.",
+                        "solutionSteps": "1. Transform the condition: Transform the problem into the maximum value f(x)max of f(x) on [-1,1] being greater than or equal to 3 (since f(x)=e^{ax}-x>-x≥-1, the minimum value will not be less than -1, so only the maximum value needs to be ≥3); 2. Determine the position of the maximum value: From the monotonicity, the maximum value of f(x) on [-1,1] is the larger one of f(-1) and f(1); 3. List the inequalities: That is f(-1)=e^{-a}+1≥3 or f(1)=e^a -1≥3; 4. Solve the inequalities: Solve to get a≤-ln2 or a≥ln4 respectively; 5. Write the range of values: Summarize to get the range of values of a in conclusion.",
+                        "standardAnswer": "$(-\\\\infty,-\\\\ln 2] \\\\cup [\\\\ln 4,+\\\\infty)$",
+                        "scoringCriteria": "For the third question, 2 points for correctly transforming the original condition into f(x)max≥3 and explaining the reason; 2 points for correctly determining the position of the maximum value of f(x) on [-1,1]; 2 points for listing the inequality group about a; 2 points for correctly solving each inequality respectively; 2 points for writing the complete and correct range of values of a, with a total of 10 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知数列{aₙ}，给出两个性质：①对于{aₙ}中任意两项aᵢ,aⱼ(i≥j)，在{aₙ}中都存在一项aₖ，使得aₖ=aᵢaⱼ；②对于{aₙ}中任意连续三项aₙ,aₙ₊₁,aₙ₊₂，均有$(a_{n}-a_{n+1}-a_{n+2})(a_{n}-\\\\frac{1}{2} a_{n+1}-a_{n+2})=0$。",
+                "subQuestions": [
+                    {
+                        "question": "（I）分别判断以下两个数列是否满足性质①，并说明理由：(i)有穷数列{aₙ}: aₙ=2ⁿ⁻¹(n=1,2,3)；(ii)无穷数列{bₙ}: bₙ=2n-1(n=1,2,3⋯)。",
+                        "solutionSteps": "1. 判断有穷数列{aₙ}：令i=j=3，计算a₃a₃=2²×2²=16，该数不是数列{aₙ}中的项，故不满足性质①；2. 判断无穷数列{bₙ}：对于任意bᵢ,bⱼ(i≥j)，计算bᵢbⱼ=(2i-1)(2j-1)=2(2ij-i-j+1)-1，令k=2ij-i-j+1，k≥1且为正整数，故bₖ=bᵢbⱼ，满足性质①。",
+                        "standardAnswer": "(i)不满足，理由：令$i=j=3$，$a_{i}a_{j}=16$不是数列${a_{n}}$中的项；(ii)满足，理由：对于任意$b_{i}$，$b_{j}(i ≥j)$，$b_{i}b_{j}=(2 i-1)(2 j-1)=2(2 i j-i-j+1)-1$，令$k=2 i j-i-j+1$，则$b_k=b_ib_j$",
+                        "scoringCriteria": "第一问，(i)正确判断数列不满足性质①得1分；给出合理且正确的理由得1分；(ii)正确判断数列满足性质①得1分；给出合理且正确的推导理由得1分，共4分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（II）若有穷数列{aₙ}满足性质①和性质②，且各项互不相等，求项数m的最大值；",
+                        "solutionSteps": "1. 分析非零项绝对值：设非零项中绝对值最大项为aₚ，最小项为a_q，由性质①，i=j=p时|aₖ|=aₚ²≤|aₚ|，得0<|aₚ|≤1；i=j=q时|aₖ|=a_q²≥|a_q|，得|a_q|≥1，故所有非零项绝对值为1；2. 确定项数上限：数列各项互不相等，故至多有0，1，-1三项，即m≤3；3. 构造验证数列：构造数列0,-1,1，验证满足性质①和性质②，故m的最大值为3。",
+                        "standardAnswer": "$3$",
+                        "scoringCriteria": "第二问，正确分析得出数列非零项的绝对值均为1得2分；根据各项互不相等得出项数上限m≤3得1分；构造出满足条件的数列得1分；验证构造的数列满足两个性质得1分；得出项数m的最大值为3得1分，共6分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（III）若数列{aₙ}满足性质①和性质②，且a₁>0，a₂<-1，a₃=2，求{aₙ}的通项公式。",
+                        "solutionSteps": "1. 证明数列项的符号与绝对值规律：由性质②得aₙ₊₂=aₙ-aₙ₊₁或aₙ₊₂=aₙ-1/2aₙ₊₁，可证得a_{2s-1}>0，a_{2t}<0且|a_t|<|a_{t+2}|；2. 确定a₃的表达式：由a₃=2，结合规律排除a₃=a₁-a₂，得a₃=a₁-1/2a₂；3. 求解a₁和a₂：结合性质①，推导得出a₁²=a₁即a₁=1，代入得a₂=-2；4. 得出通项公式：结合规律得出aₙ=2^{(n-1)/2}（n为奇数），aₙ=-2^{n/2}（n为偶数）；5. 唯一性证明：假设存在不满足该通项的项，推出与性质①矛盾的结论，证明通项的唯一性。",
+                        "standardAnswer": "$a_{n}= \\\\begin{cases}2^{\\\\frac{n-1}{2}}, & n是奇数, \\\\ -2^{\\\\frac{n}{2}}, & n是偶数\\\\end{cases}$",
+                        "scoringCriteria": "第三问，正确证明数列项的符号与绝对值规律得2分；正确确定a₃的表达式并排除另一种情况得2分；正确求解出a₁和a₂的值各得1分，共2分；得出数列的通项公式得2分；完成通项公式的唯一性证明得2分，共10分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given a sequence {aₙ}, two properties are given: ① For any two terms aᵢ, aⱼ (i≥j) in {aₙ}, there exists a term aₖ in {aₙ} such that aₖ=aᵢaⱼ; ② For any three consecutive terms aₙ, aₙ₊₁, aₙ₊₂ in {aₙ}, it always holds that $(a_{n}-a_{n+1}-a_{n+2})(a_{n}-\\\\frac{1}{2} a_{n+1}-a_{n+2})=0$.",
+                "subQuestions": [
+                    {
+                        "question": "(I) Judge whether the following two sequences satisfy Property ① respectively and explain the reasons: (i) Finite sequence {aₙ}: aₙ=2ⁿ⁻¹(n=1,2,3); (ii) Infinite sequence {bₙ}: bₙ=2n-1(n=1,2,3⋯).",
+                        "solutionSteps": "1. Judge the finite sequence {aₙ}: Let i=j=3, calculate a₃a₃=2²×2²=16, this number is not a term in the sequence {aₙ}, so it does not satisfy Property ①; 2. Judge the infinite sequence {bₙ}: For any bᵢ, bⱼ (i≥j), calculate bᵢbⱼ=(2i-1)(2j-1)=2(2ij-i-j+1)-1, let k=2ij-i-j+1, k≥1 and is a positive integer, so bₖ=bᵢbⱼ, which satisfies Property ①.",
+                        "standardAnswer": "(i) Does not satisfy, reason: Let $i=j=3$, $a_{i}a_{j}=16$ is not a term in the sequence ${a_{n}}$; (ii) Satisfies, reason: For any $b_{i}$, $b_{j}(i ≥j)$, $b_{i}b_{j}=(2 i-1)(2 j-1)=2(2 i j-i-j+1)-1$, let $k=2 i j-i-j+1$, then $b_k=b_ib_j$",
+                        "scoringCriteria": "For the first question, 1 point for correctly judging that the sequence does not satisfy Property ① in (i); 1 point for giving a reasonable and correct reason; 1 point for correctly judging that the sequence satisfies Property ① in (ii); 1 point for giving a reasonable and correct derivation reason, with a total of 4 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(II) If a finite sequence {aₙ} satisfies Property ① and Property ②, and all terms are distinct, find the maximum value of the number of terms m;",
+                        "solutionSteps": "1. Analyze the absolute value of non-zero terms: Let the term with the largest absolute value among non-zero terms be aₚ, and the term with the smallest absolute value be a_q. From Property ①, when i=j=p, |aₖ|=aₚ²≤|aₚ|, we get 0<|aₚ|≤1; when i=j=q, |aₖ|=a_q²≥|a_q|, we get |a_q|≥1, so the absolute value of all non-zero terms is 1; 2. Determine the upper limit of the number of terms: All terms of the sequence are distinct, so there are at most three terms 0, 1, -1, that is m≤3; 3. Construct and verify the sequence: Construct the sequence 0, -1, 1, verify that it satisfies Property ① and Property ②, so the maximum value of m is 3.",
+                        "standardAnswer": "$3$",
+                        "scoringCriteria": "For the second question, 2 points for correctly analyzing and concluding that the absolute value of all non-zero terms of the sequence is 1; 1 point for obtaining the upper limit of the number of terms m≤3 according to the distinctness of all terms; 1 point for constructing a sequence that satisfies the conditions; 1 point for verifying that the constructed sequence satisfies the two properties; 1 point for concluding that the maximum value of the number of terms m is 3, with a total of 6 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(III) If a sequence {aₙ} satisfies Property ① and Property ②, and a₁>0, a₂<-1, a₃=2, find the general term formula of {aₙ}.",
+                        "solutionSteps": "1. Prove the sign and absolute value rules of the sequence terms: From Property ②, we get aₙ₊₂=aₙ-aₙ₊₁ or aₙ₊₂=aₙ-1/2aₙ₊₁, and it can be proved that a_{2s-1}>0, a_{2t}<0 and |a_t|<|a_{t+2}|; 2. Determine the expression of a₃: From a₃=2, combined with the rules, exclude a₃=a₁-a₂, and get a₃=a₁-1/2a₂; 3. Solve for a₁ and a₂: Combined with Property ①, deduce that a₁²=a₁, that is a₁=1, substitute to get a₂=-2; 4. Obtain the general term formula: Combined with the rules, get aₙ=2^{(n-1)/2} (n is an odd number), aₙ=-2^{n/2} (n is an even number); 5. Prove the uniqueness: Assume that there is a term that does not satisfy the general term, deduce a conclusion that contradicts Property ①, and prove the uniqueness of the general term.",
+                        "standardAnswer": "$a_{n}= \\\\begin{cases}2^{\\\\frac{n-1}{2}}, & n is an odd number, \\\\ -2^{\\\\frac{n}{2}}, & n is an even number\\\\end{cases}$",
+                        "scoringCriteria": "For the third question, 2 points for correctly proving the sign and absolute value rules of the sequence terms; 2 points for correctly determining the expression of a₃ and excluding the other case; 1 point for each correct solution of the values of a₁ and a₂, a total of 2 points; 2 points for obtaining the general term formula of the sequence; 2 points for completing the uniqueness proof of the general term formula, with a total of 10 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

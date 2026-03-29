@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2024 Beijing College Entrance Examination (Mathematics)",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某保险公司为了解该公司某种保险产品的索赔情况，从合同保险期限届满的保单中随机抽取1000份，记录并整理这些保单的索赔情况，获得数据如下表：\n| 索赔次数 | 0 | 1 | 2 | 3 | 4 |\n| --- | --- | --- | --- | --- | --- |\n| 保单份数 | 800 | 100 | 60 | 30 | 10 |\n假设：一份保单的保费为0.4万元；前三次索赔时，保险公司每次赔偿0.8万元；第四次索赔时，保险公司赔偿0.6万元。假设不同保单的索赔次数相互独立，用频率估计概率。",
+        "subQuestions": [
+          {
+            "question": "（1）估计一份保单索赔次数不少于2的概率；",
+            "solutionSteps": "1. 设事件A为“随机抽取一份保单，索赔次数不少于2次”；\\n2. 计算索赔次数为2、3、4次的保单份数之和：60+30+10=100份；\\n3. 根据频率估计概率的原则，计算P(A)=索赔次数不少于2次的保单份数/总保单份数=100/1000；\\n4. 化简结果得到最终概率值。",
+            "standardAnswer": "$\\\\frac{1}{10}$",
+            "scoringCriteria": "第一问总分5分，正确设出事件得1分；算出索赔次数不少于2次的保单份数之和得2分；代入频率估计概率公式计算得1分；最终答案化简正确得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）一份保单的毛利润定义为这份保单的保费与赔偿总金额之差。(i)记X为一份保单的毛利润，估计X的数学期望$E X$；(ii)如果无索赔的保单的保费减少4%，有索赔的保单的保费增加20%，试比较这种情况下一份保单毛利润的数学期望估计值与(i)中$E X$估计值的大小（结论不要求证明）；",
+            "solutionSteps": "(i)1. 设ξ为赔付金额，确定ξ的所有可能取值：0、0.8、1.6、2.4、3；\\n2. 根据频率估计概率，计算ξ取各值的概率：P(ξ=0)=800/1000，P(ξ=0.8)=100/1000，P(ξ=1.6)=60/1000，P(ξ=2.4)=30/1000，P(ξ=3)=10/1000；\\n3. 由数学期望公式计算E(ξ)=0×P(ξ=0)+0.8×P(ξ=0.8)+1.6×P(ξ=1.6)+2.4×P(ξ=2.4)+3×P(ξ=3)；\\n4. 根据毛利润定义X=保费-赔付金额，即E(X)=0.4-E(ξ)，代入计算得结果；\\n(ii)1. 计算调整后的保费：0.4×4/5×(1-4%)+0.4×1/5×(1+20%)；\\n2. 设调整后毛利润为Y，E(Y)=调整后保费-E(ξ)；\\n3. 直接比较E(Y)与E(X)的大小并给出结论。",
+            "standardAnswer": "(i)$0.122$万元；(ii)调整后毛利润的数学期望估计值大于(i)中$E X$的估计值，即$E(Y)>E(X)$",
+            "scoringCriteria": "第二问总分10分，其中(i)7分，正确设出赔付金额ξ并确定其所有取值得2分；计算出ξ各取值的概率得2分；正确运用数学期望公式计算E(ξ)得2分；根据毛利润定义推出E(X)=0.4-E(ξ)并计算出最终结果得1分；(ii)3分，正确计算出调整后的保费得2分，给出正确的大小比较结论得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "An insurance company wants to understand the claim situation of a certain insurance product of the company. It randomly selects 1000 insurance policies whose insurance period has expired, records and sorts out the claim situation of these policies, and obtains the following data:\\n| Number of claims | 0 | 1 | 2 | 3 | 4 |\\n| --- | --- | --- | --- | --- | --- |\\n| Number of policies | 800 | 100 | 60 | 30 | 10 |\\nAssumptions: The premium of one insurance policy is 0.4 ten thousand yuan; the insurance company compensates 0.8 ten thousand yuan for each of the first three claims; the insurance company compensates 0.6 ten thousand yuan for the fourth claim. Assume that the number of claims of different policies are independent of each other, and estimate the probability by frequency.",
+        "subQuestions": [
+          {
+            "question": "(1) Estimate the probability that the number of claims of one insurance policy is no less than 2;",
+            "solutionSteps": "1. Let event A be \"Randomly select an insurance policy, the number of claims is no less than 2\";\\n2. Calculate the sum of the number of policies with 2, 3 and 4 claims: 60+30+10=100;\\n3. According to the principle of estimating probability by frequency, calculate P(A)=Number of policies with no less than 2 claims/Total number of policies=100/1000;\\n4. Simplify the result to get the final probability value.",
+            "standardAnswer": "$\\\\frac{1}{10}$",
+            "scoringCriteria": "The total score of the first subquestion is 5 points, 1 point for correctly defining the event, 2 points for calculating the sum of the number of policies with no less than 2 claims, 1 point for calculating by substituting into the formula of estimating probability by frequency, and 1 point for correctly simplifying the final answer.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) The gross profit of an insurance policy is defined as the difference between the premium and the total compensation amount of the policy. (i) Let X be the gross profit of an insurance policy, estimate the mathematical expectation $E X$ of X; (ii) If the premium of policies without claims is reduced by 4% and the premium of policies with claims is increased by 20%, compare the estimated value of the mathematical expectation of the gross profit of an insurance policy in this case with the estimated value of $E X$ in (i) (no need to prove the conclusion);",
+            "solutionSteps": "(i)1. Let ξ be the compensation amount, determine all possible values of ξ: 0, 0.8, 1.6, 2.4, 3;\\n2. Estimate the probability of ξ taking each value by frequency: P(ξ=0)=800/1000, P(ξ=0.8)=100/1000, P(ξ=1.6)=60/1000, P(ξ=2.4)=30/1000, P(ξ=3)=10/1000;\\n3. Calculate E(ξ) according to the mathematical expectation formula: E(ξ)=0×P(ξ=0)+0.8×P(ξ=0.8)+1.6×P(ξ=1.6)+2.4×P(ξ=2.4)+3×P(ξ=3);\\n4. According to the definition of gross profit, X=premium - compensation amount, that is E(X)=0.4-E(ξ), substitute and calculate the result;\\n(ii)1. Calculate the adjusted premium: 0.4×4/5×(1-4%)+0.4×1/5×(1+20%);\\n2. Let Y be the adjusted gross profit, E(Y)=adjusted premium - E(ξ);\\n3. Compare the sizes of E(Y) and E(X) directly and give the conclusion.",
+            "standardAnswer": "(i)0.122 ten thousand yuan; (ii) The estimated value of the mathematical expectation of the adjusted gross profit is greater than the estimated value of $E X$ in (i), that is $E(Y)>E(X)$",
+            "scoringCriteria": "The total score of the second subquestion is 10 points, including 7 points for (i) and 3 points for (ii). For (i), 2 points for correctly defining the compensation amount ξ and determining all its possible values, 2 points for calculating the probability of each value of ξ, 2 points for correctly calculating E(ξ) by using the mathematical expectation formula, and 1 point for deducing E(X)=0.4-E(ξ) according to the definition of gross profit and calculating the final result; For (ii), 2 points for correctly calculating the adjusted premium and 1 point for giving the correct conclusion of size comparison.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆方程E：$\\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$，以椭圆E的焦点和短轴端点为顶点的四边形是边长为2的正方形。过点$(0, t)(t>\\\\sqrt{2})$且斜率存在的直线与椭圆E交于不同的两点A，B，过点A和$C(0,1)$的直线AC与椭圆E的另一个交点为D。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆E的方程及离心率；",
+            "solutionSteps": "1. 由“以椭圆焦点和短轴端点为顶点的四边形是边长为2的正方形”，得椭圆性质：b=c，且正方形的对角线长为a=2；\\n2. 结合椭圆基本关系$a^2=b^2+c^2$，代入a=2、b=c，计算得$b^2=c^2=2$；\\n3. 将a²、b²代入椭圆标准方程，得到椭圆E的方程；\\n4. 根据离心率公式$e=\\\\frac{c}{a}$，代入c和a的值计算离心率。",
+            "standardAnswer": "椭圆E的方程为$\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1$，离心率为$\\\\frac{\\\\sqrt{2}}{2}$",
+            "scoringCriteria": "第一问总分5分，根据正方形性质得出a=2且b=c得2分；结合$a^2=b^2+c^2$计算出b²和c²得1分；写出椭圆E的正确方程得1分；代入离心率公式计算出正确离心率得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）若直线BD的斜率为0，求t的值；",
+            "solutionSteps": "1. 设直线AB的方程为$y=kx+t(t>\\\\sqrt{2})$，设$A(x_1,y_1)$、$B(x_2,y_2)$，由直线BD斜率为0及椭圆对称性得$D(-x_2,y_2)$；\\n2. 联立直线AB与椭圆方程：$\\\\begin{cases}y=kx+t\\\\\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1\\end{cases}$，消去y整理得$(1+2k^2)x^2+4ktx+2t^2-4=0$；\\n3. 由直线AC过点C(0,1)，写出直线AC方程，令x=0得$y_C=\\\\frac{2kx_1x_2+t(x_1+x_2)}{x_1+x_2}=1$；\\n4. 由韦达定理得$x_1+x_2=\\\\frac{-4kt}{1+2k^2}$、$x_1x_2=\\\\frac{2t^2-4}{2k^2+1}$，代入上式化简；\\n5. 求解化简后的方程得t的值，并验证满足$\\\\Delta>0$的条件。",
+            "standardAnswer": "$t=2$",
+            "scoringCriteria": "第二问总分10分，设出直线AB方程并结合椭圆对称性得出D点坐标得2分；联立直线与椭圆方程并正确消元整理得2分；写出直线AC在x=0处的y值表达式并结合C点坐标得2分；正确运用韦达定理写出x₁+x₂和x₁x₂的表达式得2分；代入化简求解出t的值并验证符合条件得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse E with the equation $\\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$, the quadrilateral with the foci and the endpoints of the minor axis of the ellipse E as vertices is a square with side length 2. A straight line passing through the point $(0, t)(t>\\\\sqrt{2})$ with an existing slope intersects the ellipse E at two distinct points A and B, and the straight line AC passing through point A and $C(0,1)$ intersects the ellipse E at another point D.",
+        "subQuestions": [
+          {
+            "question": "(1) Find the equation and the eccentricity of the ellipse E;",
+            "solutionSteps": "1. From \"the quadrilateral with the foci and the endpoints of the minor axis of the ellipse as vertices is a square with side length 2\", obtain the properties of the ellipse: b=c, and the diagonal length of the square is a=2;\\n2. Combined with the basic relation of the ellipse $a^2=b^2+c^2$, substitute a=2 and b=c, calculate to get $b^2=c^2=2$;\\n3. Substitute a² and b² into the standard equation of the ellipse to get the equation of ellipse E;\\n4. Calculate the eccentricity according to the eccentricity formula $e=\\\\frac{c}{a}$ by substituting the values of c and a.",
+            "standardAnswer": "The equation of ellipse E is $\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1$, and the eccentricity is $\\\\frac{\\\\sqrt{2}}{2}$",
+            "scoringCriteria": "The total score of the first subquestion is 5 points, 2 points for obtaining a=2 and b=c according to the properties of the square, 1 point for calculating b² and c² combined with $a^2=b^2+c^2$, 1 point for writing the correct equation of ellipse E, and 1 point for calculating the correct eccentricity by substituting into the eccentricity formula.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) If the slope of the straight line BD is 0, find the value of t;",
+            "solutionSteps": "1. Let the equation of the straight line AB be $y=kx+t(t>\\\\sqrt{2})$, let $A(x_1,y_1)$ and $B(x_2,y_2)$, from the slope of BD being 0 and the symmetry of the ellipse, we get $D(-x_2,y_2)$;\\n2. Simultaneously solve the equation of the straight line AB and the ellipse: $\\\\begin{cases}y=kx+t\\\\\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1\\end{cases}$, eliminate y and sort out to get $(1+2k^2)x^2+4ktx+2t^2-4=0$;\\n3. Since the straight line AC passes through point C(0,1), write the equation of the straight line AC, let x=0 to get $y_C=\\\\frac{2kx_1x_2+t(x_1+x_2)}{x_1+x_2}=1$;\\n4. Obtain $x_1+x_2=\\\\frac{-4kt}{1+2k^2}$ and $x_1x_2=\\\\frac{2t^2-4}{2k^2+1}$ according to Vieta's formulas, substitute into the above formula and simplify;\\n5. Solve the simplified equation to get the value of t, and verify that it satisfies the condition of $\\\\Delta>0$.",
+            "standardAnswer": "$t=2$",
+            "scoringCriteria": "The total score of the second subquestion is 10 points, 2 points for setting the equation of the straight line AB and obtaining the coordinates of point D combined with the symmetry of the ellipse, 2 points for simultaneously solving the straight line and ellipse equations and correctly eliminating y and sorting out, 2 points for writing the expression of the y-value of the straight line AC at x=0 and combining with the coordinates of point C, 2 points for correctly writing the expressions of x₁+x₂ and x₁x₂ by using Vieta's formulas, and 2 points for substituting, simplifying, solving the value of t and verifying that it meets the conditions.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "设函数$f(x)=x+k \\ln (1+x)(k \\neq0)$，直线l是曲线$y=f(x)$在点$(t,f(t))(t>0)$处的切线。",
+        "subQuestions": [
+          {
+            "question": "（1）当$k=-1$，求$f(x)$单调区间；",
+            "solutionSteps": "1. 当k=-1时，函数解析式为$f(x)=x-\\\\ln(1+x)$，定义域为$x>-1$；\\n2. 对$f(x)$求导并化简：$f'(x)=1-\\\\frac{1}{1+x}=\\\\frac{x}{1+x}$；\\n3. 分析导数符号：当$x \\in(-1,0)$时，$f'(x)<0$；当$x \\in(0,+\\\\infty)$时，$f'(x)>0$；\\n4. 根据导数符号与函数单调性的关系，得出$f(x)$的单调区间。",
+            "standardAnswer": "单调递减区间为$(-1,0)$，单调递增区间为$(0,+\\\\infty)$",
+            "scoringCriteria": "第一问总分4分，写出k=-1时的函数解析式并注明定义域得1分；正确求导并化简导数表达式得1分；准确分析导数在不同区间的符号得1分；得出函数正确的单调区间得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）证明：l不经过$(0,0)$；",
+            "solutionSteps": "1. 对$f(x)$求导得$f'(x)=1+\\\\frac{k}{1+x}$，曲线在点$(t,f(t))$处的切线斜率为$1+\\\\frac{k}{1+t}$；\\n2. 由点斜式写出切线l的方程：$y-f(t)=(1+\\\\frac{k}{1+t})(x-t)$；\\n3. 假设切线l经过原点$(0,0)$，将其代入切线方程，整理得$\\\\ln(1+t)=\\\\frac{t}{1+t}$；\\n4. 构造函数$F(t)=\\\\ln(1+t)-\\\\frac{t}{1+t}(t>0)$，求导得$F'(t)=\\\\frac{t}{(1+t)^2}>0$，故$F(t)$在$(0,+\\\\infty)$上单调递增；\\n5. 由$F(t)$单调递增得$F(t)>F(0)=0$，与$\\\\ln(1+t)=\\\\frac{t}{1+t}$矛盾，故假设不成立，切线l不经过原点。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问总分5分，正确求导并写出切线斜率得1分；根据点斜式写出切线方程得1分；作出切线过原点的假设并代入整理得到等式得1分；构造函数并正确求导分析其单调性得1分；根据函数单调性推出矛盾，证明假设不成立得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（3）当$k=1$时，设点$A(t,f(t))(t>0)$，$C(0,f(t))$，$O(0,0)$，B为l与y轴的交点，$S_{\\triangle ACO}$与$S_{\\triangle ABO}$分别表示$\\triangle ACO$和$\\triangle ABO$的面积。是否存在点A使得$2 S_{\\triangle ACO}=15 S_{\\triangle ABO}$成立？若存在，这样的点A有几个？",
+            "solutionSteps": "1. 当k=1时，$f(x)=x+\\\\ln(1+x)$，$f'(x)=\\\\frac{x+2}{1+x}$，写出切线l的方程并令x=0，求得B点纵坐标$q=\\\\ln(1+t)-\\\\frac{t}{t+1}$；\\n2. 计算两个三角形的面积：$S_{\\triangle ACO}=\\\\frac{1}{2}tf(t)$，$S_{\\triangle ABO}=\\\\frac{1}{2}t|q|$，结合$2 S_{\\triangle ACO}=15 S_{\\triangle ABO}$化简得$13\\\\ln(1+t)-2t-\\\\frac{15t}{1+t}=0$；\\n3. 构造函数$h(t)=13\\\\ln(1+t)-2t-\\\\frac{15t}{1+t}(t>0)$，求导并化简得$h'(t)=\\\\frac{(-2t+1)(t-4)}{(t+1)^2}$；\\n4. 分析$h'(t)$的符号，得出$h(t)$的单调性：在$(0,\\\\frac{1}{2})$上单调递减，在$(\\\\frac{1}{2},4)$上单调递增，在$(4,+\\\\infty)$上单调递减；\\n5. 计算特殊点的函数值：$h(0)=0$，$h(\\\\frac{1}{2})<0$，$h(4)>0$，$h(24)<0$；\\n6. 根据零点存在性定理，判断$h(t)$的零点个数，即满足条件的点A的个数。",
+            "standardAnswer": "存在这样的点A，这样的点A有2个",
+            "scoringCriteria": "第三问总分6分，求出k=1时的导数及B点纵坐标得1分；正确计算两个三角形的面积并结合条件化简得到等式得1分；构造函数并正确求导化简得1分；分析导数符号得出函数的单调区间得1分；计算特殊点的函数值得1分；根据零点存在性定理判断出零点个数即点A的个数得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the function $f(x)=x+k \\ln (1+x)(k \\neq0)$, and the straight line l is the tangent line of the curve $y=f(x)$ at the point $(t,f(t))(t>0)$. ",
+        "subQuestions": [
+          {
+            "question": "(1) When $k=-1$, find the monotonic intervals of $f(x)$;",
+            "solutionSteps": "1. When k=-1, the analytical formula of the function is $f(x)=x-\\\\ln(1+x)$, with the domain $x>-1$;\\n2. Find and simplify the derivative of $f(x)$: $f'(x)=1-\\\\frac{1}{1+x}=\\\\frac{x}{1+x}$;\\n3. Analyze the sign of the derivative: when $x \\in(-1,0)$, $f'(x)<0$; when $x \\in(0,+\\\\infty)$, $f'(x)>0$;\\n4. Obtain the monotonic intervals of $f(x)$ according to the relationship between the sign of the derivative and the monotonicity of the function.",
+            "standardAnswer": "The monotonic decreasing interval is $(-1,0)$, and the monotonic increasing interval is $(0,+\\\\infty)$",
+            "scoringCriteria": "The total score of the first subquestion is 4 points, 1 point for writing the analytical formula of the function when k=-1 and indicating the domain, 1 point for correctly finding and simplifying the derivative expression, 1 point for accurately analyzing the sign of the derivative in different intervals, and 1 point for obtaining the correct monotonic intervals of the function.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Prove that l does not pass through the point $(0,0)$;",
+            "solutionSteps": "1. Find the derivative of $f(x)$ to get $f'(x)=1+\\\\frac{k}{1+x}$, the slope of the tangent line at the point $(t,f(t))$ is $1+\\\\frac{k}{1+t}$;\\n2. Write the equation of the tangent line l according to the point-slope form: $y-f(t)=(1+\\\\frac{k}{1+t})(x-t)$;\\n3. Assume that the tangent line l passes through the origin $(0,0)$, substitute it into the tangent line equation and sort out to get $\\\\ln(1+t)=\\\\frac{t}{1+t}$;\\n4. Construct the function $F(t)=\\\\ln(1+t)-\\\\frac{t}{1+t}(t>0)$, find the derivative to get $F'(t)=\\\\frac{t}{(1+t)^2}>0$, so $F(t)$ is monotonically increasing on $(0,+\\\\infty)$;\\n5. From the monotonic increase of $F(t)$, we get $F(t)>F(0)=0$, which contradicts $\\\\ln(1+t)=\\\\frac{t}{1+t}$, so the assumption is not valid and the tangent line l does not pass through the origin.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of the second subquestion is 5 points, 1 point for correctly finding the derivative and writing the slope of the tangent line, 1 point for writing the tangent line equation according to the point-slope form, 1 point for making the assumption that the tangent line passes through the origin and substituting to sort out to get the equation, 1 point for constructing the function and correctly finding the derivative to analyze its monotonicity, and 1 point for deducing a contradiction according to the monotonicity of the function and proving that the assumption is not valid.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(3) When $k=1$, let the point $A(t,f(t))(t>0)$, $C(0,f(t))$, $O(0,0)$, B be the intersection of l and the y-axis, $S_{\\triangle ACO}$ and $S_{\\triangle ABO}$ represent the areas of $\\triangle ACO$ and $\\triangle ABO$ respectively. Does there exist a point A such that $2 S_{\\triangle ACO}=15 S_{\\triangle ABO}$ holds? If it exists, how many such points A are there?",
+            "solutionSteps": "1. When k=1, $f(x)=x+\\\\ln(1+x)$, $f'(x)=\\\\frac{x+2}{1+x}$, write the equation of the tangent line l and let x=0 to find the ordinate of point B: $q=\\\\ln(1+t)-\\\\frac{t}{t+1}$;\\n2. Calculate the areas of the two triangles: $S_{\\triangle ACO}=\\\\frac{1}{2}tf(t)$, $S_{\\triangle ABO}=\\\\frac{1}{2}t|q|$, simplify combined with $2 S_{\\triangle ACO}=15 S_{\\triangle ABO}$ to get $13\\\\ln(1+t)-2t-\\\\frac{15t}{1+t}=0$;\\n3. Construct the function $h(t)=13\\\\ln(1+t)-2t-\\\\frac{15t}{1+t}(t>0)$, find and simplify the derivative to get $h'(t)=\\\\frac{(-2t+1)(t-4)}{(t+1)^2}$;\\n4. Analyze the sign of $h'(t)$ to obtain the monotonicity of $h(t)$: monotonically decreasing on $(0,\\\\frac{1}{2})$, monotonically increasing on $(\\\\frac{1}{2},4)$, and monotonically decreasing on $(4,+\\\\infty)$;\\n5. Calculate the function values at special points: $h(0)=0$, $h(\\\\frac{1}{2})<0$, $h(4)>0$, $h(24)<0$;\\n6. Judge the number of zeros of $h(t)$, that is the number of point A satisfying the condition, according to the zero existence theorem.",
+            "standardAnswer": "Such point A exists, and there are 2 such points A",
+            "scoringCriteria": "The total score of the third subquestion is 6 points, 1 point for finding the derivative when k=1 and the ordinate of point B, 1 point for correctly calculating the areas of the two triangles and simplifying to get the equation combined with the condition, 1 point for constructing the function and correctly finding and simplifying the derivative, 1 point for analyzing the sign of the derivative to obtain the monotonic intervals of the function, 1 point for calculating the function values at special points, and 1 point for judging the number of zeros, that is the number of point A, according to the zero existence theorem.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知集合$M={(i, j, k, w) | i \\in{1,2}}$，$j \\in{3,4}$，$k \\in{5,6}$，$w \\in{7,8}$，且$i+j+k+w$为偶数}。给定数列$A: a_{1}, a_{2}, \\cdots, a_{8}$和序列$\\Omega: T_{1}, T_{2}, \\cdots, T_{s}$，其中$T_{t}=(i_{t}, j_{t}, k_{t}, w_{t}) \\in M(t=1,2, \\cdots, s)$，对数列A进行如下变换：将A的第$i_{1}$，$j_1$，$k_{1}$，$w_{1}$项均加1，其余项不变，得到的数列记作$T_{1}(A)$；将$T_{1}(A)$的第$i_{2}$，$j_{2}$，$k_{2}$，$w_{2}$项均加1，其余项不变，得到的数列记作$T_{2} T_{1}(A)$；……；以此类推，得到数列$T_{s} \\cdots T_{2} T_{1}(A)$，简记为$\\Omega(A)$。",
+        "subQuestions": [
+          {
+            "question": "（1）给定数列A：1,3,2,4,6,3,1,9和序列$\\Omega$:(1,3,5,7),(2,4,6,8),(1,3,5,7)，写出$\\Omega(A)$；",
+            "solutionSteps": "1. 第一次执行变换(1,3,5,7)，将数列A的第1、3、5、7项各加1，得到数列：2,3,3,4,7,3,2,9；\\n2. 第二次执行变换(2,4,6,8)，将上一步得到的数列的第2、4、6、8项各加1，得到数列：2,4,3,5,7,4,2,10；\\n3. 第三次执行变换(1,3,5,7)，将上一步得到的数列的第1、3、5、7项各加1，得到最终的$\\Omega(A)$。",
+            "standardAnswer": "3,4,4,5,8,4,3,10",
+            "scoringCriteria": "第一问总分4分，第一次变换计算正确得1分；第二次变换计算正确得1分；第三次变换计算正确得1分；写出最终正确的数列得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）是否存在序列$\\Omega$，使得$\\Omega(A)$为$a_1+2$，$a_2+6$，$a_3+4$，$a_4+2$，$a_5+8$，$a_6+2$，$a_7+4$，$a_8+4$？若存在，写出一个$\\Omega$，若不存在，请说明理由；",
+            "solutionSteps": "1. 假设存在符合条件的序列$\\Omega$，设序列$\\Omega$中有s个变换元素；\\n2. 根据变换定义，$\\Omega(A)$的第1、2项之和为$a_1+a_2+s$，第3、4项之和为$a_3+a_4+s$；\\n3. 结合题中$\\Omega(A)$的各项表达式，列出方程组：$\\\\begin{cases}(a_1+2)+(a_2+6)=a_1+a_2+s\\\\(a_3+4)+(a_4+2)=a_3+a_4+s\\end{cases}$；\\n4. 化简方程组得$8=s$且$6=s$，方程组无解，故假设不成立，不存在这样的序列$\\Omega$。",
+            "standardAnswer": "不存在，理由见解析",
+            "scoringCriteria": "第二问总分5分，作出存在序列的假设并设出变换元素个数得1分；根据变换定义写出前两组项的和的表达式得2分；列出方程组并化简发现矛盾得1分；得出不存在该序列的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（3）若数列A的各项均为正整数，且$a_{1}+a_{3}+a_{5}+a_{7}$为偶数，求证：“存在序列$\\Omega$，使得$\\Omega(A)$的各项都相等”的充要条件为“$a_{1}+a_{2}=a_{3}+a_{4}=a_{5}+a_{6}=a_{7}+a_{8}$”；",
+            "solutionSteps": "### 必要性证明\\n1. 若存在序列$\\Omega$使$\\Omega(A)$为常数列，则$\\Omega(A)$的任意两组相邻项（第2j-1、2j项）的和相等，即$a_{s,1}+a_{s,2}=a_{s,3}+a_{s,4}=a_{s,5}+a_{s,6}=a_{s,7}+a_{s,8}$；\\n2. 根据变换定义，每次变换后数列中第2j-1和2j项的和保持不变（j=1,2,3,4），故原数列满足$a_1+a_2=a_3+a_4=a_5+a_6=a_7+a_8$，必要性成立。\\n### 充分性证明\\n1. 若$a_1+a_2=a_3+a_4=a_5+a_6=a_7+a_8$，结合$a_1+a_3+a_5+a_7$为偶数，可得$a_2+a_4+a_6+a_8=4(a_1+a_2)-(a_1+a_3+a_5+a_7)$也为偶数；\\n2. 设$\\Omega(A)$是所有变换结果中，$|a_{s,1}-a_{s,2}|+|a_{s,3}-a_{s,4}|+|a_{s,5}-a_{s,6}|+|a_{s,7}-a_{s,8}|$最小的数列，由和不变性知该数列各组两项和仍相等；\\n3. 用反证法证明不存在$j$使$|a_{s,2j-1}-a_{s,2j}|\\geq2$，若存在则可通过特定变换减小上述绝对值和，与最小性矛盾；\\n4. 再证明不存在$j$使$|a_{s,2j-1}-a_{s,2j}|=1$，若存在则各组两项和为奇数，与奇偶性结论矛盾；\\n5. 故只能$|a_{s,2j-1}-a_{s,2j}|=0$（j=1,2,3,4），即$\\Omega(A)$为常数列，充分性成立。\\n综上，原充要条件成立。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问总分6分，必要性证明部分2分，正确根据常数列性质结合变换的和不变性推出原数列的和相等结论得2分；充分性证明部分4分，由已知条件推出两个四项和均为偶数得1分，构造最小绝对值和的数列并说明和不变性得1分，用反证法证明绝对值不小于2不成立得1分，证明绝对值等于1不成立并得出常数列结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the set $M={(i, j, k, w) | i \\in{1,2}}$, $j \\in{3,4}$, $k \\in{5,6}$, $w \\in{7,8}$, and $i+j+k+w$ is an even number. Given the sequence $A: a_{1}, a_{2}, \\cdots, a_{8}$ and the sequence $\\Omega: T_{1}, T_{2}, \\cdots, T_{s}$, where $T_{t}=(i_{t}, j_{t}, k_{t}, w_{t}) \\in M(t=1,2, \\cdots, s)$, perform the following transformation on sequence A: add 1 to the $i_{1}$, $j_1$, $k_{1}$, $w_{1}$-th terms of A and keep the other terms unchanged, the resulting sequence is denoted as $T_{1}(A)$; add 1 to the $i_{2}$, $j_{2}$, $k_{2}$, $w_{2}$-th terms of $T_{1}(A)$ and keep the other terms unchanged, the resulting sequence is denoted as $T_{2} T_{1}(A)$; and so on, the resulting sequence $T_{s} \\cdots T_{2} T_{1}(A)$ is abbreviated as $\\Omega(A)$. ",
+        "subQuestions": [
+          {
+            "question": "(1) Given the sequence A: 1,3,2,4,6,3,1,9 and the sequence $\\Omega$:(1,3,5,7),(2,4,6,8),(1,3,5,7), write out $\\Omega(A)$;",
+            "solutionSteps": "1. Perform the transformation (1,3,5,7) for the first time, add 1 to the 1st, 3rd, 5th and 7th terms of sequence A respectively to get the sequence: 2,3,3,4,7,3,2,9;\\n2. Perform the transformation (2,4,6,8) for the second time, add 1 to the 2nd, 4th, 6th and 8th terms of the sequence obtained in the previous step respectively to get the sequence: 2,4,3,5,7,4,2,10;\\n3. Perform the transformation (1,3,5,7) for the third time, add 1 to the 1st, 3rd, 5th and 7th terms of the sequence obtained in the previous step respectively to get the final $\\Omega(A)$. ",
+            "standardAnswer": "3,4,4,5,8,4,3,10",
+            "scoringCriteria": "The total score of the first subquestion is 4 points, 1 point for the correct first transformation calculation, 1 point for the correct second transformation calculation, 1 point for the correct third transformation calculation, and 1 point for writing the final correct sequence.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) Does there exist a sequence $\\Omega$ such that $\\Omega(A)$ is $a_1+2$, $a_2+6$, $a_3+4$, $a_4+2$, $a_5+8$, $a_6+2$, $a_7+4$, $a_8+4$? If it exists, write out one $\\Omega$, if not, explain the reason;",
+            "solutionSteps": "1. Assume that there exists a sequence $\\Omega$ that meets the conditions, let there be s transformation elements in the sequence $\\Omega$;\\n2. According to the definition of transformation, the sum of the 1st and 2nd terms of $\\Omega(A)$ is $a_1+a_2+s$, and the sum of the 3rd and 4th terms is $a_3+a_4+s$;\\n3. Combined with the expressions of each term of $\\Omega(A)$ in the question, list the equations: $\\\\begin{cases}(a_1+2)+(a_2+6)=a_1+a_2+s\\\\(a_3+4)+(a_4+2)=a_3+a_4+s\\end{cases}$;\\n4. Simplify the equations to get $8=s$ and $6=s$, the equations have no solution, so the assumption is not valid and there is no such sequence $\\Omega$.",
+            "standardAnswer": "Does not exist, see the analysis for the reason",
+            "scoringCriteria": "The total score of the second subquestion is 5 points, 1 point for making the assumption of the existence of the sequence and setting the number of transformation elements, 2 points for writing the sum expressions of the first two groups of terms according to the transformation definition, 1 point for listing and simplifying the equations to find the contradiction, and 1 point for drawing the conclusion that the sequence does not exist.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(3) If all terms of sequence A are positive integers and $a_{1}+a_{3}+a_{5}+a_{7}$ is an even number, prove that the necessary and sufficient condition for \"there exists a sequence $\\Omega$ such that all terms of $\\Omega(A)$ are equal\" is \"$a_{1}+a_{2}=a_{3}+a_{4}=a_{5}+a_{6}=a_{7}+a_{8}$\";",
+            "solutionSteps": "### Proof of Necessity\\n1. If there exists a sequence $\\Omega$ such that $\\Omega(A)$ is a constant sequence, the sum of any two adjacent terms in each group (the (2j-1)th and 2jth terms) of $\\Omega(A)$ is equal, that is $a_{s,1}+a_{s,2}=a_{s,3}+a_{s,4}=a_{s,5}+a_{s,6}=a_{s,7}+a_{s,8}$;\\n2. According to the definition of transformation, the sum of the (2j-1)th and 2jth terms in the sequence remains unchanged after each transformation (j=1,2,3,4), so the original sequence satisfies $a_1+a_2=a_3+a_4=a_5+a_6=a_7+a_8$, and the necessity holds.\\n### Proof of Sufficiency\\n1. If $a_1+a_2=a_3+a_4=a_5+a_6=a_7+a_8$, combined with $a_1+a_3+a_5+a_7$ being an even number, it can be concluded that $a_2+a_4+a_6+a_8=4(a_1+a_2)-(a_1+a_3+a_5+a_7)$ is also an even number;\\n2. Let $\\Omega(A)$ be the sequence with the minimum value of $|a_{s,1}-a_{s,2}|+|a_{s,3}-a_{s,4}|+|a_{s,5}-a_{s,6}|+|a_{s,7}-a_{s,8}|$ among all transformation results, the sum of the two terms in each group of this sequence is still equal due to the sum invariance;\\n3. Prove by contradiction that there is no j such that $|a_{s,2j-1}-a_{s,2j}|\\geq2$, if it exists, the above absolute value sum can be reduced through specific transformations, which contradicts the minimality;\\n4. Prove again that there is no j such that $|a_{s,2j-1}-a_{s,2j}|=1$, if it exists, the sum of the two terms in each group is an odd number, which contradicts the parity conclusion;\\n5. Therefore, only $|a_{s,2j-1}-a_{s,2j}|=0$ (j=1,2,3,4) is possible, that is $\\Omega(A)$ is a constant sequence, and the sufficiency holds.\\nIn conclusion, the original necessary and sufficient condition is valid.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The total score of the third subquestion is 6 points, 2 points for the proof of necessity, 2 points for correctly deducing the conclusion of equal sums of the original sequence according to the properties of the constant sequence combined with the sum invariance of the transformation; 4 points for the proof of sufficiency, 1 point for deducing that the two sums of four terms are even numbers from the known conditions, 1 point for constructing the sequence with the minimum absolute value sum and explaining the sum invariance, 1 point for proving that the absolute value is not less than 2 by contradiction, and 1 point for proving that the absolute value is equal to 1 is not valid and drawing the conclusion of the constant sequence.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

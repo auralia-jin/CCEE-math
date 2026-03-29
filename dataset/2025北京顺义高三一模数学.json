@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2025 Beijing Shunyi Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "AI智能阅卷是一种利用人工智能技术对试卷进行批改和评估的技术，它可以帮助教师提高阅卷效率，并为学生提供更快速更有针对性的反馈。某教师尝试使用AI系统进行阅卷，由甲、乙两种系统进行独立阅卷评分。如果两个系统评分相差2分及以下，则以两种系统评分的平均分作为最后得分；如果两个系统评分相差3分及以上，则人工进行复核阅卷并给出最后得分。从两种系统进行阅卷的试卷中随机抽取12份试卷作为样本，其评分情况如下表所示：试卷序号1到12对应的系统甲评分：82、88、76、92、87、66、75、69、90、58、86、84；系统乙评分：80、82、76、90、80、61、71、65、88、54、82、80；最后得分：81、85、76、91、85、64、74、67、89、56、84、83。",
+                "subQuestions": [
+                    {
+                        "question": "（1）从这12份试卷中随机选取1份，求甲、乙两种系统评分之差的绝对值不超过2分的概率；",
+                        "solutionSteps": "第一步，确定试验的基本事件总数为12；第二步，找出甲、乙两种系统评分之差的绝对值不超过2分的试卷份数，经统计有4份；第三步，根据古典概型概率公式$P(A)=\\frac{事件A包含的基本事件数}{试验的基本事件总数}$，代入数据计算得$P=\\frac{4}{12}=\\frac{1}{3}$。",
+                        "standardAnswer": "$\\frac{1}{3}$",
+                        "scoringCriteria": "该问总分4分，正确确定基本事件总数得1分；准确统计出评分之差的绝对值不超过2分的试卷份数得2分；代入古典概型公式计算出正确概率得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）从这12份试卷中随机选取3份，甲、乙两种系统评分之差的绝对值不超过2分的份数记为X，求X的分布列和数学期望；",
+                        "solutionSteps": "第一步，确定X的可能取值为0、1、2、3；第二步，根据超几何分布概率公式$P(X=k)=\\frac{C_{M}^{k}C_{N-M}^{n-k}}{C_{N}^{n}}$（其中N=12，M=4，n=3），分别计算$P(X=0)=\\frac{C_{8}^{3}}{C_{12}^{3}}=\\frac{14}{55}$，$P(X=1)=\\frac{C_{4}^{1}C_{8}^{2}}{C_{12}^{3}}=\\frac{28}{55}$，$P(X=2)=\\frac{C_{4}^{2}C_{8}^{1}}{C_{12}^{3}}=\\frac{12}{55}$，$P(X=3)=\\frac{C_{4}^{3}}{C_{12}^{3}}=\\frac{1}{55}$；第三步，列出X的分布列；第四步，根据数学期望公式$EX=\\sum_{k=0}^{3}kP(X=k)$，计算得$EX=0×\\frac{14}{55}+1×\\frac{28}{55}+2×\\frac{12}{55}+3×\\frac{1}{55}=1$。",
+                        "standardAnswer": "X的分布列为：X取0时P为$\\frac{14}{55}$，X取1时P为$\\frac{28}{55}$，X取2时P为$\\frac{12}{55}$，X取3时P为$\\frac{1}{55}$；数学期望$EX=1$",
+                        "scoringCriteria": "该问总分7分，正确确定X的可能取值得1分；准确运用超几何分布公式计算出每个取值对应的概率，每算对一个概率得1分，共4分；正确列出分布列得1分；代入期望公式计算出正确结果得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（3）从上述的12份试卷中随机抽取1份，设甲系统对其评分为$Y_1$，乙系统对其评分为$Y_2$，最后得分为Z。令$\\xi=|Y_1-Z|$，$\\eta=|Y_2-Z|$，试比较方差$D\\xi$和$D\\eta$的大小。(结论不要求证明)",
+                        "solutionSteps": "根据题目所给的评分规则和样本数据的特征，直接判断方差的大小关系。",
+                        "standardAnswer": "$D\\xi<D\\eta$",
+                        "scoringCriteria": "该问总分3分，直接写出正确的方差大小比较结论即可得3分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "AI intelligent marking is a technology that uses artificial intelligence technology to correct and evaluate examination papers. It can help teachers improve marking efficiency and provide students with faster and more targeted feedback. A teacher tried to use an AI system for marking, with two systems A and B conducting independent marking and scoring. If the score difference between the two systems is 2 points or less, the average score of the two systems is taken as the final score; if the score difference between the two systems is 3 points or more, manual review and marking are conducted to give the final score. 12 examination papers were randomly selected as samples from the papers marked by the two systems, and their scoring results are shown in the following table: For paper serial numbers 1 to 12, the scores of system A are: 82, 88, 76, 92, 87, 66, 75, 69, 90, 58, 86, 84; the scores of system B are: 80, 82, 76, 90, 80, 61, 71, 65, 88, 54, 82, 80; the final scores are: 81, 85, 76, 91, 85, 64, 74, 67, 89, 56, 84, 83.",
+                "subQuestions": [
+                    {
+                        "question": "(1) Randomly select one paper from these 12 papers, find the probability that the absolute value of the score difference between system A and system B is no more than 2 points;",
+                        "solutionSteps": "Step 1: Determine the total number of basic events of the experiment is 12; Step 2: Find the number of papers where the absolute value of the score difference between system A and system B is no more than 2 points, which is 4 after statistics; Step 3: According to the classical probability formula $P(A)=\\frac{Number of basic events included in event A}{Total number of basic events of the experiment}$, substitute the data to calculate $P=\\frac{4}{12}=\\frac{1}{3}$.",
+                        "standardAnswer": "$\\frac{1}{3}$",
+                        "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly determining the total number of basic events; 2 points for accurately counting the number of papers where the absolute value of the score difference is no more than 2 points; 1 point for calculating the correct probability by substituting the classical probability formula.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) Randomly select 3 papers from these 12 papers, let X be the number of papers where the absolute value of the score difference between system A and system B is no more than 2 points, find the probability mass function and mathematical expectation of X;",
+                        "solutionSteps": "Step 1: Determine the possible values of X are 0, 1, 2, 3; Step 2: According to the hypergeometric distribution probability formula $P(X=k)=\\frac{C_{M}^{k}C_{N-M}^{n-k}}{C_{N}^{n}}$ (where N=12, M=4, n=3), calculate $P(X=0)=\\frac{C_{8}^{3}}{C_{12}^{3}}=\\frac{14}{55}$, $P(X=1)=\\frac{C_{4}^{1}C_{8}^{2}}{C_{12}^{3}}=\\frac{28}{55}$, $P(X=2)=\\frac{C_{4}^{2}C_{8}^{1}}{C_{12}^{3}}=\\frac{12}{55}$, $P(X=3)=\\frac{C_{4}^{3}}{C_{12}^{3}}=\\frac{1}{55}$ respectively; Step 3: List the probability mass function of X; Step 4: According to the mathematical expectation formula $EX=\\sum_{k=0}^{3}kP(X=k)$, calculate $EX=0×\\frac{14}{55}+1×\\frac{28}{55}+2×\\frac{12}{55}+3×\\frac{1}{55}=1$.",
+                        "standardAnswer": "The probability mass function of X is: P(X=0)=$\\frac{14}{55}$, P(X=1)=$\\frac{28}{55}$, P(X=2)=$\\frac{12}{55}$, P(X=3)=$\\frac{1}{55}$; The mathematical expectation $EX=1$",
+                        "scoringCriteria": "This sub-question has a total of 7 points. 1 point for correctly determining the possible values of X; 1 point for each correct probability calculated by accurately applying the hypergeometric distribution formula, a total of 4 points; 1 point for correctly listing the probability mass function; 1 point for calculating the correct result by substituting the expectation formula.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(3) Randomly select one paper from the above 12 papers, let the score of system A for it be $Y_1$, the score of system B for it be $Y_2$, and the final score be Z. Let $\\xi=|Y_1-Z|$, $\\eta=|Y_2-Z|$, compare the sizes of the variances $D\\xi$ and $D\\eta$. (No proof is required for the conclusion)",
+                        "solutionSteps": "Directly judge the size relationship of the variances according to the scoring rules given in the question and the characteristics of the sample data.",
+                        "standardAnswer": "$D\\xi<D\\eta$",
+                        "scoringCriteria": "This sub-question has a total of 3 points. 3 points for directly writing the correct conclusion of the comparison of the variance sizes.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "（1）已知椭圆E：$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的一个顶点为$A(-2,0)$，离心率为$\\frac{\\sqrt{2}}{2}$，求E的方程和短轴长；",
+                        "solutionSteps": "第一步，由椭圆的一个顶点为$A(-2,0)$，得$a=2$；第二步，根据椭圆离心率公式$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$，代入$a=2$得$c=\\sqrt{2}$；第三步，由椭圆中$a^2=b^2+c^2$，计算得$b^2=a^2-c^2=4-2=2$，即$b=\\sqrt{2}$；第四步，写出椭圆E的方程为$\\frac{x^2}{4}+\\frac{y^2}{2}=1$，短轴长为$2b=2\\sqrt{2}$。",
+                        "standardAnswer": "椭圆E的方程为$\\frac{x^2}{4}+\\frac{y^2}{2}=1$，短轴长为$2\\sqrt{2}$",
+                        "scoringCriteria": "该问总分5分，由顶点坐标正确得出$a=2$得1分；根据离心率公式正确求出$c=\\sqrt{2}$得2分；利用$a^2=b^2+c^2$正确算出$b$的值得1分；写出正确的椭圆方程和短轴长得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）直线l：$y=kx+1$与E相交于不同的两点B，C，直线AB，AC分别与直线$x=4$交于点M，N，当$|MN|=6$时，求k的值；",
+                        "solutionSteps": "第一步，联立直线l与椭圆E的方程$\\begin{cases}\\frac{x^2}{4}+\\frac{y^2}{2}=1\\\\y=kx+1\\end{cases}$，消去y整理得$(1+2k^2)x^2+4kx-2=0$；第二步，设$B(x_1,y_1)$，$C(x_2,y_2)$，由韦达定理得$x_1+x_2=\\frac{-4k}{1+2k^2}$，$x_1x_2=\\frac{-2}{1+2k^2}$，并计算$|x_1-x_2|=\\sqrt{(x_1+x_2)^2-4x_1x_2}=\\frac{2\\sqrt{8k^2+2}}{1+2k^2}$；第三步，求出直线AB的方程为$y=\\frac{y_1}{x_1+2}(x+2)$，令$x=4$得$y_M=\\frac{6y_1}{x_1+2}$，同理得$y_N=\\frac{6y_2}{x_2+2}$；第四步，由$|MN|=6$得$|y_M-y_N|=6$，代入$y_1=kx_1+1$，$y_2=kx_2+1$化简得$|\\frac{(2k-1)(x_1-x_2)}{x_1x_2+2(x_1+x_2)+4}|=1$；第五步，将韦达定理的结果和$|x_1-x_2|$代入上式，解得$k=-\\frac{1}{2}$。",
+                        "standardAnswer": "$k=-\\frac{1}{2}$",
+                        "scoringCriteria": "该问总分10分，联立方程并正确消元整理得2分；正确运用韦达定理求出$x_1+x_2$、$x_1x_2$并算出$|x_1-x_2|$得3分；求出点M、N的纵坐标表达式得2分；由$|MN|=6$正确转化并化简等式得2分；代入计算求出正确的k值得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "(1) Given an ellipse E: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ with one vertex at $A(-2,0)$ and eccentricity $\\frac{\\sqrt{2}}{2}$, find the equation of E and the length of the minor axis;",
+                        "solutionSteps": "Step 1: From one vertex of the ellipse being $A(-2,0)$, we get $a=2$; Step 2: According to the ellipse eccentricity formula $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$, substitute $a=2$ to get $c=\\sqrt{2}$; Step 3: From $a^2=b^2+c^2$ in the ellipse, calculate $b^2=a^2-c^2=4-2=2$, that is $b=\\sqrt{2}$; Step 4: Write the equation of ellipse E as $\\frac{x^2}{4}+\\frac{y^2}{2}=1$, and the length of the minor axis is $2b=2\\sqrt{2}$.",
+                        "standardAnswer": "The equation of ellipse E is $\\frac{x^2}{4}+\\frac{y^2}{2}=1$, and the length of the minor axis is $2\\sqrt{2}$",
+                        "scoringCriteria": "This sub-question has a total of 5 points. 1 point for correctly obtaining $a=2$ from the vertex coordinates; 2 points for correctly finding $c=\\sqrt{2}$ according to the eccentricity formula; 1 point for correctly calculating the value of $b$ using $a^2=b^2+c^2$; 1 point for writing the correct ellipse equation and the length of the minor axis.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) The straight line l: $y=kx+1$ intersects E at two distinct points B and C. The straight lines AB and AC intersect the straight line $x=4$ at points M and N respectively. When $|MN|=6$, find the value of k;",
+                        "solutionSteps": "Step 1: Simultaneously solve the equations of the straight line l and the ellipse E $\\begin{cases}\\frac{x^2}{4}+\\frac{y^2}{2}=1\\\\y=kx+1\\end{cases}$, eliminate y and arrange to get $(1+2k^2)x^2+4kx-2=0$; Step 2: Let $B(x_1,y_1)$, $C(x_2,y_2)$, from Vieta's formulas, we get $x_1+x_2=\\frac{-4k}{1+2k^2}$, $x_1x_2=\\frac{-2}{1+2k^2}$, and calculate $|x_1-x_2|=\\sqrt{(x_1+x_2)^2-4x_1x_2}=\\frac{2\\sqrt{8k^2+2}}{1+2k^2}$; Step 3: Find the equation of the straight line AB as $y=\\frac{y_1}{x_1+2}(x+2)$, let $x=4$ to get $y_M=\\frac{6y_1}{x_1+2}$, and get $y_N=\\frac{6y_2}{x_2+2}$ similarly; Step 4: From $|MN|=6$, we get $|y_M-y_N|=6$, substitute $y_1=kx_1+1$, $y_2=kx_2+1$ and simplify to get $|\\frac{(2k-1)(x_1-x_2)}{x_1x_2+2(x_1+x_2)+4}|=1$; Step 5: Substitute the results of Vieta's formulas and $|x_1-x_2|$ into the above formula, and solve to get $k=-\\frac{1}{2}$.",
+                        "standardAnswer": "$k=-\\frac{1}{2}$",
+                        "scoringCriteria": "This sub-question has a total of 10 points. 2 points for simultaneously solving the equations and correctly eliminating y and arranging; 3 points for correctly using Vieta's formulas to find $x_1+x_2$, $x_1x_2$ and calculating $|x_1-x_2|$; 2 points for finding the ordinate expressions of points M and N; 2 points for correctly transforming and simplifying the equation from $|MN|=6$; 1 point for substituting and calculating to find the correct value of k.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "（1）已知函数$f(x)=3\\sin x - x\\cos x$，求曲线$y=f(x)$在点$(0,f(0))$处的切线方程；",
+                        "solutionSteps": "第一步，计算$f(0)=3\\sin0 - 0×\\cos0=0$；第二步，求导$f'(x)=3\\cos x - (\\cos x - x\\sin x)=2\\cos x + x\\sin x$；第三步，计算切线斜率$k=f'(0)=2\\cos0 + 0×\\sin0=2$；第四步，根据点斜式$y-y_0=k(x-x_0)$，代入点$(0,0)$和斜率2，得切线方程为$y=2x$，即$2x-y=0$。",
+                        "standardAnswer": "$2x-y=0$",
+                        "scoringCriteria": "该问总分4分，正确计算$f(0)$的值得1分；准确求导得出$f'(x)$的表达式得2分；求出切线斜率并根据点斜式写出正确的切线方程得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）设$g(x)=f'(x)$，求证：$g(x)$是$(0,\\pi)$上的单调递减函数；",
+                        "solutionSteps": "第一步，由（1）得$g(x)=2\\cos x + x\\sin x$，$x\\in(0,\\pi)$；第二步，对$g(x)$求导得$g'(x)=-\\sin x + x\\cos x$；第三步，令$h(x)=g'(x)=-\\sin x + x\\cos x$，求导得$h'(x)=-x\\sin x$；第四步，分析$x\\in(0,\\pi)$时，$\\sin x>0$，故$h'(x)=-x\\sin x<0$，即$h(x)$在$(0,\\pi)$上单调递减；第五步，由$h(x)<h(0)=0$，得$g'(x)<0$，故$g(x)$在$(0,\\pi)$上单调递减。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "该问总分5分，正确写出$g(x)$的表达式并求导得$g'(x)$得2分；构造函数$h(x)=g'(x)$并正确求导得$h'(x)$得1分；分析$h'(x)$在$(0,\\pi)$上的符号得出$h(x)$的单调性得1分；由$h(x)$的单调性推出$g'(x)<0$，进而证明$g(x)$的单调性得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "（3）求证：当$x>0$时，$f(x)<2x$；",
+                        "solutionSteps": "第一步，构造函数$F(x)=f(x)-2x=3\\sin x - x\\cos x - 2x$；第二步，求导得$F'(x)=2\\cos x + x\\sin x - 2=f'(x)-2$；第三步，当$x\\in(0,\\pi)$时，由（2）知$f'(x)$单调递减，故$f'(x)<f'(0)=2$，即$F'(x)<0$，$F(x)$在$(0,\\pi)$上单调递减，得$F(x)<F(0)=0$，即$f(x)<2x$；第四步，当$x\\in[\\pi,+\\infty)$时，$\\sin x\\leq1$，$\\cos x\\geq-1$，故$3\\sin x - x\\cos x - 2x\\leq3 + x - 2x=3 - x<0$，即$f(x)<2x$；第五步，综上，当$x>0$时，$f(x)<2x$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "该问总分6分，正确构造函数$F(x)$得1分；准确求导得出$F'(x)$的表达式得1分；分析$x\\in(0,\\pi)$时$F'(x)$的符号，推出$F(x)$的单调性并得出$f(x)<2x$得2分；分析$x\\in[\\pi,+\\infty)$时$F(x)$的符号得出$f(x)<2x$得1分；写出完整的综上结论得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "(1) Given the function $f(x)=3\\sin x - x\\cos x$, find the tangent equation of the curve $y=f(x)$ at the point $(0,f(0))$;",
+                        "solutionSteps": "Step 1: Calculate $f(0)=3\\sin0 - 0×\\cos0=0$; Step 2: Find the derivative $f'(x)=3\\cos x - (\\cos x - x\\sin x)=2\\cos x + x\\sin x$; Step 3: Calculate the slope of the tangent line $k=f'(0)=2\\cos0 + 0×\\sin0=2$; Step 4: According to the point-slope form $y-y_0=k(x-x_0)$, substitute the point $(0,0)$ and the slope 2 to get the tangent equation $y=2x$, that is $2x-y=0$.",
+                        "standardAnswer": "$2x-y=0$",
+                        "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly calculating the value of $f(0)$; 2 points for accurately finding the derivative to get the expression of $f'(x)$; 1 point for finding the slope of the tangent line and writing the correct tangent equation according to the point-slope form.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) Let $g(x)=f'(x)$, prove that $g(x)$ is a monotonically decreasing function on $(0,\\pi)$;",
+                        "solutionSteps": "Step 1: From (1), we get $g(x)=2\\cos x + x\\sin x$, $x\\in(0,\\pi)$; Step 2: Find the derivative of $g(x)$ to get $g'(x)=-\\sin x + x\\cos x$; Step 3: Let $h(x)=g'(x)=-\\sin x + x\\cos x$, find the derivative to get $h'(x)=-x\\sin x$; Step 4: Analyze that when $x\\in(0,\\pi)$, $\\sin x>0$, so $h'(x)=-x\\sin x<0$, that is $h(x)$ is monotonically decreasing on $(0,\\pi)$; Step 5: From $h(x)<h(0)=0$, we get $g'(x)<0$, so $g(x)$ is monotonically decreasing on $(0,\\pi)$. ",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question has a total of 5 points. 2 points for correctly writing the expression of $g(x)$ and finding the derivative to get $g'(x)$; 1 point for constructing the function $h(x)=g'(x)$ and correctly finding the derivative to get $h'(x)$; 1 point for analyzing the sign of $h'(x)$ on $(0,\\pi)$ to get the monotonicity of $h(x)$; 1 point for deducing $g'(x)<0$ from the monotonicity of $h(x)$ and then proving the monotonicity of $g(x)$.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "(3) Prove that $f(x)<2x$ when $x>0$;",
+                        "solutionSteps": "Step 1: Construct the function $F(x)=f(x)-2x=3\\sin x - x\\cos x - 2x$; Step 2: Find the derivative to get $F'(x)=2\\cos x + x\\sin x - 2=f'(x)-2$; Step 3: When $x\\in(0,\\pi)$, from (2), we know $f'(x)$ is monotonically decreasing, so $f'(x)<f'(0)=2$, that is $F'(x)<0$, $F(x)$ is monotonically decreasing on $(0,\\pi)$, so $F(x)<F(0)=0$, that is $f(x)<2x$; Step 4: When $x\\in[\\pi,+\\infty)$, $\\sin x\\leq1$, $\\cos x\\geq-1$, so $3\\sin x - x\\cos x - 2x\\leq3 + x - 2x=3 - x<0$, that is $f(x)<2x$; Step 5: In conclusion, $f(x)<2x$ when $x>0$.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question has a total of 6 points. 1 point for correctly constructing the function $F(x)$; 1 point for accurately finding the derivative to get the expression of $F'(x)$; 2 points for analyzing the sign of $F'(x)$ when $x\\in(0,\\pi)$, deducing the monotonicity of $F(x)$ and getting $f(x)<2x$; 1 point for analyzing the sign of $F(x)$ when $x\\in[\\pi,+\\infty)$ to get $f(x)<2x$; 1 point for writing the complete conclusion in summary.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知数列$P: a_1,a_2,\\cdots,a_{n_0}(n_0 \\geq3)$各项为正整数。对任意正整数k，定义：$S_k(P)=card\\{n | a_n \\leq k\\}$，$T_k(P)=card\\{n | a_n \\geq k\\}$，其中card A表示有限集A中的元素个数，规定$card \\emptyset=0$。",
+                "subQuestions": [
+                    {
+                        "question": "（1）对于数列P：1,3,2,2，写出$S_1(P)$，$S_2(P)$，$T_3(P)$，$T_4(P)$的值；",
+                        "solutionSteps": "第一步，根据$S_k(P)$的定义，$S_1(P)$表示数列中满足$a_n\\leq1$的元素个数，数列中只有1满足，故$S_1(P)=1$；第二步，$S_2(P)$表示数列中满足$a_n\\leq2$的元素个数，有1、2、2，共3个，故$S_2(P)=3$；第三步，根据$T_k(P)$的定义，$T_3(P)$表示数列中满足$a_n\\geq3$的元素个数，只有3满足，故$T_3(P)=1$；第四步，$T_4(P)$表示数列中满足$a_n\\geq4$的元素个数，无满足的元素，故$T_4(P)=0$。",
+                        "standardAnswer": "$S_1(P)=1$，$S_2(P)=3$，$T_3(P)=1$，$T_4(P)=0$",
+                        "scoringCriteria": "该问总分4分，正确求出$S_1(P)$得1分；正确求出$S_2(P)$得1分；正确求出$T_3(P)$得1分；正确求出$T_4(P)$得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（2）(i)若数列$P: a_1,a_2,\\cdots,a_{n_0}$满足$a_i \\leq a_{i+1} \\leq a_{n_0}=m(1 \\leq i \\leq n_0-1)$，且$S_k(P)=2k(1 \\leq k \\leq m)$，令$P_n=a_1+a_2+\\cdots+a_n$，当$1 \\leq n \\leq 2m$时，求$P_n$；",
+                        "solutionSteps": "第一步，由$S_k(P)=2k$的定义，$k=1$时，$S_1(P)=2$，即数列中有2个1；$k=2$时，$S_2(P)=4$，即数列中有4个元素小于等于2，故有2个2；以此类推，$k=m$时，$S_m(P)=2m$，即数列前$2m$项为1,1,2,2,\\cdots,m,m；第二步，分情况讨论，当$n=2k(1 \\leq k \\leq m)$时，$P_n=2×(1+2+\\cdots+k)=2×\\frac{k(k+1)}{2}=k(k+1)$；当$n=2k-1(1 \\leq k \\leq m)$时，$P_n=2×(1+2+\\cdots+(k-1))+k=k^2$；第三步，综上写出$P_n$的表达式。",
+                        "standardAnswer": "$P_n=\\begin{cases}k(k+1), n=2 k \\\\k^2, n=2 k-1\\end{cases}$，其中$1 \\leq k \\leq m$",
+                        "scoringCriteria": "该问总分5分，根据$S_k(P)$的定义推出数列前$2m$项的特征为1,1,2,2,\\cdots,m,m$得2分；分$n=2k$和$n=2k-1$两种情况正确推导，每种情况得1分，共2分；写出完整的分段表达式得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（2）(ii)求证：$a_1^2+a_2^2+\\cdots+a_{n_0}^2=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)$；",
+                        "solutionSteps": "方法一（数学归纳法）：第一步，当$n_0=1$时，令$a_1=k$，则$T_1(P)=\\cdots=T_k(P)=1$，$T_{k+i}(P)=0(i \\geq1)$，左边$=a_1^2=k^2$，右边$=1+3+\\cdots+(2k-1)=k^2$，等式成立；第二步，假设$n_0=k$时等式成立，即$a_1^2+a_2^2+\\cdots+a_k^2=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)$；第三步，当$n_0=k+1$时，设$a_{k+1}=t$，新数列$\\tilde{P}$的$T_1(\\tilde{P})=T_1(P)+1$，$\\cdots$，$T_t(\\tilde{P})=T_t(P)+1$，$T_{t+i}(\\tilde{P})=T_{t+i}(P)(i \\geq1)$，左边$=a_1^2+\\cdots+a_k^2+t^2$，右边$=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)+1+3+\\cdots+(2t-1)=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)+t^2$，由假设知等式成立；第四步，由数学归纳法，对任意$n_0\\geq1$等式成立。方法二：第一步，设数列P中等于$1,2,\\cdots,m$的项分别有$n_1,n_2,\\cdots,n_m$个，则$T_1(P)=n_1+n_2+\\cdots+n_m$，$T_2(P)=n_2+\\cdots+n_m$，$\\cdots$，$T_m(P)=n_m$，得$n_1=T_1(P)-T_2(P)$，$n_2=T_2(P)-T_3(P)$，$\\cdots$，$n_m=T_m(P)$；第二步，左边$=n_1·1^2+n_2·2^2+\\cdots+n_m·m^2$，代入$n_k$的表达式展开；第三步，化简展开式得$T_1·1^2+T_2·(2^2-1^2)+\\cdots+T_m·[m^2-(m-1)^2]=T_1+3T_2+\\cdots+(2m-1)T_m$，与右边相等，等式得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "该问总分6分，若用数学归纳法，基础步验证正确得2分，归纳假设表述正确得1分，归纳递推推导正确得2分，写出归纳结论得1分；若用通项分解法，正确设出项的个数并推出$n_k$与$T_k(P)$的关系得2分，正确展开左边表达式得2分，化简后与右边相等得1分，写出完整证明结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given a sequence $P: a_1,a_2,\\cdots,a_{n_0}(n_0 \\geq3)$ where all terms are positive integers. For any positive integer k, define: $S_k(P)=card\\{n | a_n \\leq k\\}$, $T_k(P)=card\\{n | a_n \\geq k\\}$, where card A denotes the number of elements in the finite set A, and it is stipulated that $card \\emptyset=0$.",
+                "subQuestions": [
+                    {
+                        "question": "(1) For the sequence P: 1,3,2,2, write the values of $S_1(P)$, $S_2(P)$, $T_3(P)$, $T_4(P)$;",
+                        "solutionSteps": "Step 1: According to the definition of $S_k(P)$, $S_1(P)$ denotes the number of elements in the sequence satisfying $a_n\\leq1$, only 1 satisfies in the sequence, so $S_1(P)=1$; Step 2: $S_2(P)$ denotes the number of elements in the sequence satisfying $a_n\\leq2$, there are 1,2,2, a total of 3, so $S_2(P)=3$; Step 3: According to the definition of $T_k(P)$, $T_3(P)$ denotes the number of elements in the sequence satisfying $a_n\\geq3$, only 3 satisfies, so $T_3(P)=1$; Step 4: $T_4(P)$ denotes the number of elements in the sequence satisfying $a_n\\geq4$, there are no satisfying elements, so $T_4(P)=0$.",
+                        "standardAnswer": "$S_1(P)=1$, $S_2(P)=3$, $T_3(P)=1$, $T_4(P)=0$",
+                        "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly finding $S_1(P)$; 1 point for correctly finding $S_2(P)$; 1 point for correctly finding $T_3(P)$; 1 point for correctly finding $T_4(P)$.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(2)(i) If the sequence $P: a_1,a_2,\\cdots,a_{n_0}$ satisfies $a_i \\leq a_{i+1} \\leq a_{n_0}=m(1 \\leq i \\leq n_0-1)$ and $S_k(P)=2k(1 \\leq k \\leq m)$, let $P_n=a_1+a_2+\\cdots+a_n$, find $P_n$ when $1 \\leq n \\leq 2m$;",
+                        "solutionSteps": "Step 1: According to the definition of $S_k(P)=2k$, when $k=1$, $S_1(P)=2$, that is, there are 2 ones in the sequence; when $k=2$, $S_2(P)=4$, that is, there are 4 elements in the sequence less than or equal to 2, so there are 2 twos; and so on, when $k=m$, $S_m(P)=2m$, that is, the first $2m$ terms of the sequence are 1,1,2,2,\\cdots,m,m; Step 2: Discuss by cases, when $n=2k(1 \\leq k \\leq m)$, $P_n=2×(1+2+\\cdots+k)=2×\\frac{k(k+1)}{2}=k(k+1)$; when $n=2k-1(1 \\leq k \\leq m)$, $P_n=2×(1+2+\\cdots+(k-1))+k=k^2$; Step 3: Write the expression of $P_n$ in summary.",
+                        "standardAnswer": "$P_n=\\begin{cases}k(k+1), n=2 k \\\\k^2, n=2 k-1\\end{cases}$, where $1 \\leq k \\leq m$",
+                        "scoringCriteria": "This sub-question has a total of 5 points. 2 points for deducing the characteristic of the first $2m$ terms of the sequence as 1,1,2,2,\\cdots,m,m$ according to the definition of $S_k(P)$; 2 points for correct deduction in two cases of $n=2k$ and $n=2k-1$, 1 point for each case; 1 point for writing the complete piecewise expression.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(2)(ii) Prove that $a_1^2+a_2^2+\\cdots+a_{n_0}^2=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)$;",
+                        "solutionSteps": "Method 1 (Mathematical Induction): Step 1: When $n_0=1$, let $a_1=k$, then $T_1(P)=\\cdots=T_k(P)=1$, $T_{k+i}(P)=0(i \\geq1)$, the left side $=a_1^2=k^2$, the right side $=1+3+\\cdots+(2k-1)=k^2$, the equation holds; Step 2: Assume the equation holds when $n_0=k$, that is $a_1^2+a_2^2+\\cdots+a_k^2=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)$; Step 3: When $n_0=k+1$, let $a_{k+1}=t$, for the new sequence $\\tilde{P}$, $T_1(\\tilde{P})=T_1(P)+1$, $\\cdots$, $T_t(\\tilde{P})=T_t(P)+1$, $T_{t+i}(\\tilde{P})=T_{t+i}(P)(i \\geq1)$, the left side $=a_1^2+\\cdots+a_k^2+t^2$, the right side $=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)+1+3+\\cdots+(2t-1)=T_1(P)+3T_2(P)+\\cdots+(2m-1)T_m(P)+t^2$, the equation holds by the induction hypothesis; Step 4: By mathematical induction, the equation holds for any $n_0\\geq1$. Method 2: Step 1: Let the number of terms equal to $1,2,\\cdots,m$ in the sequence P be $n_1,n_2,\\cdots,n_m$ respectively, then $T_1(P)=n_1+n_2+\\cdots+n_m$, $T_2(P)=n_2+\\cdots+n_m$, $\\cdots$, $T_m(P)=n_m$, so $n_1=T_1(P)-T_2(P)$, $n_2=T_2(P)-T_3(P)$, $\\cdots$, $n_m=T_m(P)$; Step 2: The left side $=n_1·1^2+n_2·2^2+\\cdots+n_m·m^2$, substitute the expression of $n_k$ and expand; Step 3: Simplify the expanded expression to get $T_1·1^2+T_2·(2^2-1^2)+\\cdots+T_m·[m^2-(m-1)^2]=T_1+3T_2+\\cdots+(2m-1)T_m$, which is equal to the right side, and the equation is proved.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question has a total of 6 points. If mathematical induction is used, 2 points for correct verification of the basic step, 1 point for correct expression of the induction hypothesis, 2 points for correct deduction of the induction step, and 1 point for writing the induction conclusion; if the general term decomposition method is used, 2 points for correctly setting the number of terms and deducing the relationship between $n_k$ and $T_k(P)$, 2 points for correctly expanding the left side expression, 1 point for being equal to the right side after simplification, and 1 point for writing the complete proof conclusion.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

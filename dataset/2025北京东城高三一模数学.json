@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2025 Beijing Dongcheng Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "据国家相关部门统计，2023年华东地区、东北地区主要省份的水稻、小麦的播种面积和产量数据见表1；在2023年华东地区、东北地区和华北地区主要粮食作物的播种面积及其采用新技术的播种面积占该作物总的播种面积的比值(简称新技术占比率)数据见表2。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从表1中的华东地区随机抽取1个省份，求该省水稻产量比小麦产量少的概率；",
+                        "solutionSteps": "第一步，确定华东地区的省份总数：华东地区包含江苏省、浙江省、安徽省、福建省、江西省、山东省，共6个省份；\\n第二步，筛选出水稻产量比小麦产量少的省份：其中安徽省、山东省这2个省份满足水稻产量比小麦产量少；\\n第三步，根据古典概型概率公式计算：$P=\\frac{满足条件的省份数}{华东地区总省份数}=\\frac{2}{6}=\\frac{1}{3}$。",
+                        "standardAnswer": "$\\frac{1}{3}$",
+                        "scoringCriteria": "本问总分4分，确定华东地区省份总数得1分；找出水稻产量比小麦产量少的省份得2分；代入古典概型公式计算出正确概率得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）从表1的9个省份中随机抽取2个，设X为水稻播种面积排在前5名且属于东北地区省份的个数，求X的分布列与数学期望；",
+                        "solutionSteps": "第一步，确定水稻播种面积前5名中东北地区的省份：水稻播种面积前5名的省份为江西省、黑龙江省、安徽省、江苏省、吉林省，其中东北地区的是黑龙江省、吉林省，共2个；\\n第二步，确定X的可能取值：X的可能取值为0、1、2；\\n第三步，计算各取值的概率：$P(X=0)=\\frac{C_{7}^{2}}{C_{9}^{2}}=\\frac{21}{36}=\\frac{7}{12}$，$P(X=1)=\\frac{C_{7}^{1}×C_{2}^{1}}{C_{9}^{2}}=\\frac{14}{36}=\\frac{7}{18}$，$P(X=2)=\\frac{C_{2}^{2}}{C_{9}^{2}}=\\frac{1}{36}$；\\n第四步，列出X的分布列；\\n第五步，计算数学期望：$E(X)=0×\\frac{7}{12}+1×\\frac{7}{18}+2×\\frac{1}{36}=\\frac{4}{9}$。",
+                        "standardAnswer": "X的分布列为：\\n| X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{7}{12}$ | $\\frac{7}{18}$ | $\\frac{1}{36}$ |\\n数学期望$E(X)=\\frac{4}{9}$",
+                        "scoringCriteria": "本问总分6分，确定水稻播种面积前5名中的东北地区省份数得1分；确定X的可能取值得1分；正确计算出X各取值的概率得2分；规范列出分布列得1分；计算出正确的数学期望得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）记华东地区和东北地区水稻播种总面积的新技术占比率、华东地区和华北地区小麦播种总面积的新技术占比率、东北地区和华北地区玉米播种总面积的新技术占比率分别为a，b，c，依据表2中的数据比较a，b，c的大小（结论不要求证明）。",
+                        "solutionSteps": "直接根据表2中给出的各地区粮食作物播种面积和新技术占比率的相关数据，分析得出a、b、c的大小关系。",
+                        "standardAnswer": "$a>c>b$",
+                        "scoringCriteria": "本问总分3分，直接写出正确的大小关系即可得满分，结论错误不得分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "According to the statistics of relevant national departments, the sown area and output data of rice and wheat in major provinces of East China and Northeast China in 2023 are shown in Table 1; the sown area of major food crops in East China, Northeast China and North China in 2023 and the ratio of the sown area adopting new technologies to the total sown area of the crop (referred to as the new technology adoption rate) are shown in Table 2.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one province from East China in Table 1, find the probability that the rice output of this province is less than the wheat output;",
+                        "solutionSteps": "Step 1: Determine the total number of provinces in East China: East China includes Jiangsu Province, Zhejiang Province, Anhui Province, Fujian Province, Jiangxi Province and Shandong Province, a total of 6 provinces;\\nStep 2: Screen the provinces where rice output is less than wheat output: Among them, 2 provinces, Anhui Province and Shandong Province, satisfy that rice output is less than wheat output;\\nStep 3: Calculate according to the classical probability formula: $P=\\frac{Number of provinces meeting the conditions}{Total number of provinces in East China}=\\frac{2}{6}=\\frac{1}{3}$.",
+                        "standardAnswer": "$\\frac{1}{3}$",
+                        "scoringCriteria": "This sub-question has a total of 4 points, 1 point for determining the total number of provinces in East China, 2 points for identifying the provinces where rice output is less than wheat output, and 1 point for calculating the correct probability by substituting the classical probability formula.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Randomly select 2 provinces from the 9 provinces in Table 1, let X be the number of provinces in Northeast China that rank among the top 5 in rice sown area, find the probability mass function and mathematical expectation of X;",
+                        "solutionSteps": "Step 1: Determine the provinces in Northeast China among the top 5 in rice sown area: The top 5 provinces in rice sown area are Jiangxi Province, Heilongjiang Province, Anhui Province, Jiangsu Province and Jilin Province, among which 2 are in Northeast China, Heilongjiang Province and Jilin Province;\\nStep 2: Determine the possible values of X: The possible values of X are 0, 1 and 2;\\nStep 3: Calculate the probability of each value: $P(X=0)=\\frac{C_{7}^{2}}{C_{9}^{2}}=\\frac{21}{36}=\\frac{7}{12}$, $P(X=1)=\\frac{C_{7}^{1}×C_{2}^{1}}{C_{9}^{2}}=\\frac{14}{36}=\\frac{7}{18}$, $P(X=2)=\\frac{C_{2}^{2}}{C_{9}^{2}}=\\frac{1}{36}$;\\nStep 4: List the probability mass function of X;\\nStep 5: Calculate the mathematical expectation: $E(X)=0×\\frac{7}{12}+1×\\frac{7}{18}+2×\\frac{1}{36}=\\frac{4}{9}$.",
+                        "standardAnswer": "The probability mass function of X is: \\n| X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{7}{12}$ | $\\frac{7}{18}$ | $\\frac{1}{36}$ |\\nThe mathematical expectation $E(X)=\\frac{4}{9}$",
+                        "scoringCriteria": "This sub-question has a total of 6 points, 1 point for determining the number of Northeast China provinces among the top 5 in rice sown area, 1 point for determining the possible values of X, 2 points for correctly calculating the probability of each value of X, 1 point for listing the probability mass function standardly, and 1 point for calculating the correct mathematical expectation.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Denote the new technology adoption rate of the total rice sown area in East China and Northeast China as a, the new technology adoption rate of the total wheat sown area in East China and North China as b, and the new technology adoption rate of the total corn sown area in Northeast China and North China as c. Compare the sizes of a, b and c according to the data in Table 2 (no proof is required for the conclusion).",
+                        "solutionSteps": "Directly analyze and obtain the size relationship of a, b and c according to the relevant data of the sown area of food crops and the new technology adoption rate in each region given in Table 2.",
+                        "standardAnswer": "$a>c>b$",
+                        "scoringCriteria": "This sub-question has a total of 3 points. Full marks are awarded for directly writing the correct size relationship, and no points are awarded for wrong conclusions.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆$E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$过点$(0,1)$，离心率为$\\frac{\\sqrt{6}}{3}$，E上的点$A(m,n)(n≠0)$关于x轴的对称点为B，设O为原点，$\\overrightarrow{OH}=\\lambda\\overrightarrow{OA}(0<\\lambda<1)$，过点H与x轴平行的直线交E于点P、Q。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆E的方程；",
+                        "solutionSteps": "第一步，由椭圆过点$(0,1)$确定b的值：将点$(0,1)$代入椭圆标准方程，得$b=1$；\\n第二步，结合椭圆的离心率公式和$a^2=b^2+c^2$列方程：离心率$e=\\frac{c}{a}=\\frac{\\sqrt{6}}{3}$，即$c=\\frac{\\sqrt{6}}{3}a$，又$a^2=b^2+c^2$，代入$b=1$得$a^2=1+(\\frac{\\sqrt{6}}{3}a)^2$；\\n第三步，求解$a^2$的值：化简方程得$a^2=1+\\frac{2}{3}a^2$，解得$a^2=3$；\\n第四步，写出椭圆E的方程：将$a^2=3$，$b=1$代入标准式，得$\\frac{x^2}{3}+y^2=1$。",
+                        "standardAnswer": "$\\frac{x^2}{3}+y^2=1$",
+                        "scoringCriteria": "本问总分4分，由椭圆过点$(0,1)$求出$b=1$得1分；写出离心率公式和$a^2=b^2+c^2$的关系得1分；代入求解出$a^2=3$得1分；写出正确的椭圆方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若点B在以PQ为直径的圆上，求λ的值。",
+                        "solutionSteps": "第一步，确定点B和点H的坐标：由$A(m,n)$得对称点$B(m,-n)$，由$\\overrightarrow{OH}=\\lambda\\overrightarrow{OA}$得$H(\\lambda m,\\lambda n)$；\\n第二步，设点P、Q坐标并代入椭圆方程：设$P(x_P,\\lambda n)$，$Q(-x_P,\\lambda n)$，代入椭圆方程得$\\frac{x_P^2}{3}+(\\lambda n)^2=1$，即$x_P^2=3-3\\lambda^2n^2$；\\n第三步，利用圆的性质转化为向量垂直：点B在以PQ为直径的圆上，则$\\overrightarrow{BP}·\\overrightarrow{BQ}=0$，展开得$m^2-x_P^2+(\\lambda+1)^2n^2=0$；\\n第四步，结合A在椭圆上替换$m^2$：因$A(m,n)$在椭圆上，故$\\frac{m^2}{3}+n^2=1$，即$m^2=3-3n^2$；\\n第五步，代入化简求解λ：将$m^2$和$x_P^2$代入向量垂直的等式，得$(4\\lambda^2+2\\lambda-2)n^2=0$；\\n第六步，结合条件确定λ：因$n≠0$且$0<\\lambda<1$，解方程$4\\lambda^2+2\\lambda-2=0$，得$\\lambda=\\frac{1}{2}$（舍去负根$\\lambda=-1$）。",
+                        "standardAnswer": "$\\lambda=\\frac{1}{2}$",
+                        "scoringCriteria": "本问总分11分，确定点B、H的坐标得1分；设出P、Q坐标并求出$x_P^2$的表达式得2分；利用圆的性质转化为$\\overrightarrow{BP}·\\overrightarrow{BQ}=0$并化简得2分；结合A在椭圆上求出$m^2$的表达式得1分；将$m^2$、$x_P^2$代入等式并化简得2分；解方程并结合$0<\\lambda<1$舍去增根得2分；写出正确的λ值得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the ellipse $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ passes through the point $(0,1)$ with an eccentricity of $\\frac{\\sqrt{6}}{3}$. The symmetric point of the point $A(m,n)(n≠0)$ on E about the x-axis is B. Let O be the origin, $\\overrightarrow{OH}=\\lambda\\overrightarrow{OA}(0<\\lambda<1)$, and the straight line passing through point H and parallel to the x-axis intersects E at points P and Q.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of the ellipse E;",
+                        "solutionSteps": "Step 1: Determine the value of b from the ellipse passing through the point $(0,1)$: Substitute the point $(0,1)$ into the standard equation of the ellipse to get $b=1$;\\nStep 2: List the equations combining the eccentricity formula of the ellipse and $a^2=b^2+c^2$: The eccentricity $e=\\frac{c}{a}=\\frac{\\sqrt{6}}{3}$, that is $c=\\frac{\\sqrt{6}}{3}a$, and $a^2=b^2+c^2$, substitute $b=1$ to get $a^2=1+(\\frac{\\sqrt{6}}{3}a)^2$;\\nStep 3: Solve for the value of $a^2$: Simplify the equation to get $a^2=1+\\frac{2}{3}a^2$, and solve to get $a^2=3$;\\nStep 4: Write the equation of the ellipse E: Substitute $a^2=3$ and $b=1$ into the standard form to get $\\frac{x^2}{3}+y^2=1$.",
+                        "standardAnswer": "$\\frac{x^2}{3}+y^2=1$",
+                        "scoringCriteria": "This sub-question has a total of 4 points, 1 point for finding $b=1$ from the ellipse passing through the point $(0,1)$, 1 point for writing the eccentricity formula and the relationship of $a^2=b^2+c^2$, 1 point for substituting and solving $a^2=3$, and 1 point for writing the correct ellipse equation.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If point B is on the circle with PQ as the diameter, find the value of λ.",
+                        "solutionSteps": "Step 1: Determine the coordinates of point B and point H: The symmetric point $B(m,-n)$ is obtained from $A(m,n)$, and $H(\\lambda m,\\lambda n)$ is obtained from $\\overrightarrow{OH}=\\lambda\\overrightarrow{OA}$;\\nStep 2: Set the coordinates of point P and Q and substitute them into the ellipse equation: Let $P(x_P,\\lambda n)$, $Q(-x_P,\\lambda n)$, substitute into the ellipse equation to get $\\frac{x_P^2}{3}+(\\lambda n)^2=1$, that is $x_P^2=3-3\\lambda^2n^2$;\\nStep 3: Convert to vector perpendicularity using the property of the circle: If point B is on the circle with PQ as the diameter, then $\\overrightarrow{BP}·\\overrightarrow{BQ}=0$, expand to get $m^2-x_P^2+(\\lambda+1)^2n^2=0$;\\nStep 4: Replace $m^2$ with point A on the ellipse: Since $A(m,n)$ is on the ellipse, $\\frac{m^2}{3}+n^2=1$, that is $m^2=3-3n^2$;\\nStep 5: Substitute and simplify to solve for λ: Substitute $m^2$ and $x_P^2$ into the vector perpendicularity equation to get $(4\\lambda^2+2\\lambda-2)n^2=0$;\\nStep 6: Determine λ combined with the conditions: Since $n≠0$ and $0<\\lambda<1$, solve the equation $4\\lambda^2+2\\lambda-2=0$ to get $\\lambda=\\frac{1}{2}$ (discard the negative root $\\lambda=-1$).",
+                        "standardAnswer": "$\\lambda=\\frac{1}{2}$",
+                        "scoringCriteria": "This sub-question has a total of 11 points, 1 point for determining the coordinates of point B and H, 2 points for setting the coordinates of P and Q and finding the expression of $x_P^2$, 2 points for converting to $\\overrightarrow{BP}·\\overrightarrow{BQ}=0$ using the property of the circle and simplifying, 1 point for finding the expression of $m^2$ with point A on the ellipse, 2 points for substituting $m^2$ and $x_P^2$ into the equation and simplifying, 2 points for solving the equation and discarding the extraneous root combined with $0<\\lambda<1$, and 1 point for writing the correct value of λ.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "设函数$f(x)=(x-2)e^x+ax+b$，曲线$y=f(x)$在$A(0,f(0))$处的切线方程为$y=0$。已知$B(t,f(t))$，其中$t>2$，直线$AB$的方程为$y=g(x)$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求a，b的值；",
+                        "solutionSteps": "第一步，求$f(0)$和$f'(x)$：$f(0)=(0-2)e^0+b=b-2$，对$f(x)$求导得$f'(x)=(x-1)e^x+a$，则$f'(0)=-1+a$；\\n第二步，利用切线的性质列方程：曲线在点A处切线方程为$y=0$，则切线斜率为0且$f(0)=0$，即$\\begin{cases}a-1=0\\\\b-2=0\\end{cases}$；\\n第三步，解方程组：解得$a=1$，$b=2$。",
+                        "standardAnswer": "$a=1$，$b=2$",
+                        "scoringCriteria": "本问总分4分，正确求出$f(0)$和$f'(x)$得1分；求出$f'(0)$得1分；根据切线性质列出正确的方程组得1分；解出a、b的正确值得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）求不等式$f(x)≥0$的解集；",
+                        "solutionSteps": "第一步，代入a、b得$f(x)$和$f'(x)$的解析式：$f(x)=(x-2)e^x+x+2$，$f'(x)=(x-1)e^x+1$；\\n第二步，分析$f'(x)$的单调性：令$\\varphi(x)=(x-1)e^x+1$，求导得$\\varphi'(x)=xe^x$，当$x<0$时，$\\varphi'(x)<0$，$\\varphi(x)$单调递减；当$x>0$时，$\\varphi'(x)>0$，$\\varphi(x)$单调递增；\\n第三步，求$f'(x)$的最小值：$\\varphi(x)$在$x=0$处取最小值$\\varphi(0)=0$，故$f'(x)≥0$恒成立；\\n第四步，分析$f(x)$的单调性：$f'(x)≥0$，则$f(x)$在$R$上单调递增；\\n第五步，求解不等式：因$f(0)=0$且$f(x)$单调递增，故$f(x)≥0$的解集为$[0,+\\infty)$。",
+                        "standardAnswer": "$[0, +\\infty)$",
+                        "scoringCriteria": "本问总分6分，写出$f(x)$和$f'(x)$的正确解析式得1分；构造$\\varphi(x)$并求出$\\varphi'(x)$得1分；正确分析$\\varphi(x)$的单调性得1分；求出$f'(x)$的最小值并判断$f'(x)≥0$恒成立得1分；判断$f(x)$在$R$上单调递增得1分；结合$f(0)=0$求出不等式的正确解集得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）若$x_1,x_2∈(0,t)$，且$f(x_1)=g(x_2)$，求证：$x_1>x_2$。",
+                        "solutionSteps": "第一步，求直线AB的方程$g(x)$：由$A(0,0)$、$B(t,(t-2)e^t+t+2)$，得$g(x)=\\frac{(t-2)e^t+t+2}{t}x$；\\n第二步，构造函数$h(x)=g(x)-f(x)$，并求导：$h(x)=\\frac{(t-2)e^t+2}{t}x-[(x-2)e^x+2]$，$h'(x)=\\frac{(t-2)e^t+2}{t}-(x-1)e^x$；\\n第三步，分析$h'(x)$的单调性和符号：$h'(x)$在$(0,+\\infty)$单调递减，且$h'(0)>0$，$h'(t)<0$，故存在$x_0∈(0,t)$使$h'(x_0)=0$；\\n第四步，分析$h(x)$的单调性：$x∈(0,x_0)$时$h'(x)>0$，$h(x)$单调递增；$x∈(x_0,t)$时$h'(x)<0$，$h(x)$单调递减；\\n第五步，判断$h(x)$在$(0,t)$的符号：$h(0)=h(t)=0$，故$x∈(0,t)$时$h(x)>0$，即$g(x)>f(x)$；\\n第六步，证明结论：由$f(x_1)=g(x_2)$得$f(x_1)>f(x_2)$，又$f(x)$单调递增，故$x_1>x_2$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "本问总分5分，求出直线AB的方程$g(x)$得1分；构造函数$h(x)$并求出$h'(x)$得1分；正确分析$h'(x)$和$h(x)$的单调性得1分；判断出$x∈(0,t)$时$h(x)>0$即$g(x)>f(x)$得1分；结合$f(x)$的单调性证明出$x_1>x_2$得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let the function $f(x)=(x-2)e^x+ax+b$, and the tangent equation of the curve $y=f(x)$ at point $A(0,f(0))$ is $y=0$. It is known that $B(t,f(t))$ where $t>2$, and the equation of the straight line AB is $y=g(x)$. ",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the values of a and b;",
+                        "solutionSteps": "Step 1: Find $f(0)$ and $f'(x)$: $f(0)=(0-2)e^0+b=b-2$, derive $f(x)$ to get $f'(x)=(x-1)e^x+a$, then $f'(0)=-1+a$;\\nStep 2: List the equations using the properties of the tangent line: The tangent equation of the curve at point A is $y=0$, so the slope of the tangent line is 0 and $f(0)=0$, that is $\\begin{cases}a-1=0\\\\b-2=0\\end{cases}$;\\nStep 3: Solve the system of equations: Solve to get $a=1$, $b=2$.",
+                        "standardAnswer": "$a=1$, $b=2$",
+                        "scoringCriteria": "This sub-question has a total of 4 points, 1 point for correctly finding $f(0)$ and $f'(x)$, 1 point for finding $f'(0)$, 1 point for listing the correct system of equations according to the properties of the tangent line, and 1 point for solving the correct values of a and b.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Find the solution set of the inequality $f(x)≥0$;",
+                        "solutionSteps": "Step 1: Substitute a and b to get the analytical formulas of $f(x)$ and $f'(x)$: $f(x)=(x-2)e^x+x+2$, $f'(x)=(x-1)e^x+1$;\\nStep 2: Analyze the monotonicity of $f'(x)$: Let $\\varphi(x)=(x-1)e^x+1$, derive to get $\\varphi'(x)=xe^x$. When $x<0$, $\\varphi'(x)<0$, $\\varphi(x)$ is monotonically decreasing; when $x>0$, $\\varphi'(x)>0$, $\\varphi(x)$ is monotonically increasing;\\nStep 3: Find the minimum value of $f'(x)$: $\\varphi(x)$ attains the minimum value $\\varphi(0)=0$ at $x=0$, so $f'(x)≥0$ holds for all $x$;\\nStep 4: Analyze the monotonicity of $f(x)$: Since $f'(x)≥0$, $f(x)$ is monotonically increasing on $R$;\\nStep 5: Solve the inequality: Since $f(0)=0$ and $f(x)$ is monotonically increasing, the solution set of $f(x)≥0$ is $[0,+\\infty)$. ",
+                        "standardAnswer": "$[0, +\\infty)$",
+                        "scoringCriteria": "This sub-question has a total of 6 points, 1 point for writing the correct analytical formulas of $f(x)$ and $f'(x)$, 1 point for constructing $\\varphi(x)$ and finding $\\varphi'(x)$, 1 point for correctly analyzing the monotonicity of $\\varphi(x)$, 1 point for finding the minimum value of $f'(x)$ and judging that $f'(x)≥0$ holds for all $x$, 1 point for judging that $f(x)$ is monotonically increasing on $R$, and 1 point for finding the correct solution set of the inequality combined with $f(0)=0$.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) If $x_1,x_2∈(0,t)$ and $f(x_1)=g(x_2)$, prove that $x_1>x_2$.",
+                        "solutionSteps": "Step 1: Find the equation $g(x)$ of the straight line AB: From $A(0,0)$ and $B(t,(t-2)e^t+t+2)$, get $g(x)=\\frac{(t-2)e^t+t+2}{t}x$;\\nStep 2: Construct the function $h(x)=g(x)-f(x)$ and derive it: $h(x)=\\frac{(t-2)e^t+2}{t}x-[(x-2)e^x+2]$, $h'(x)=\\frac{(t-2)e^t+2}{t}-(x-1)e^x$;\\nStep 3: Analyze the monotonicity and sign of $h'(x)$: $h'(x)$ is monotonically decreasing on $(0,+\\infty)$, and $h'(0)>0$, $h'(t)<0$, so there exists $x_0∈(0,t)$ such that $h'(x_0)=0$;\\nStep 4: Analyze the monotonicity of $h(x)$: When $x∈(0,x_0)$, $h'(x)>0$ and $h(x)$ is monotonically increasing; when $x∈(x_0,t)$, $h'(x)<0$ and $h(x)$ is monotonically decreasing;\\nStep 5: Judge the sign of $h(x)$ on $(0,t)$: $h(0)=h(t)=0$, so $h(x)>0$ when $x∈(0,t)$, that is $g(x)>f(x)$;\\nStep 6: Prove the conclusion: From $f(x_1)=g(x_2)$, we get $f(x_1)>f(x_2)$, and since $f(x)$ is monotonically increasing, we have $x_1>x_2$.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question has a total of 5 points, 1 point for finding the equation $g(x)$ of the straight line AB, 1 point for constructing the function $h(x)$ and finding $h'(x)$, 1 point for correctly analyzing the monotonicity of $h'(x)$ and $h(x)$, 1 point for judging that $h(x)>0$ i.e. $g(x)>f(x)$ when $x∈(0,t)$, and 1 point for proving $x_1>x_2$ combined with the monotonicity of $f(x)$.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知有限数列A:$a_1,a_2,\\cdots,a_{2n-1}(n\\in N^*,n≥3)$满足$a_i∈\\{1,2,\\cdots,n\\}(i=1,2,\\cdots,2n-1)$。对于给定的k(k=2,3,⋯,n)，若A中存在k项满足$a_{i_1}<a_{i_2}<\\cdots<a_{i_k}(1≤i_1<i_2<\\cdots<i_k≤2n-1)$，则称A有k项递增子列；若A中存在k项满足$a_{i_1}>a_{i_2}>\\cdots>a_{i_k}(1≤i_1<i_2<\\cdots<i_k≤2n-1)$，则称A有k项递减子列。当A既有n项递增子列又有n项递减子列时，称A具有性质P。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）判断下列数列是否具有性质P：①4,1,3,2,1,3,4；②1,2,5,4,3,4,5,3,1。",
+                        "solutionSteps": "第一步，分析数列①：数列①项数为7，即$2n-1=7$，得$n=4$；存在4项递增子列（如1,2,3,4），也存在4项递减子列（如4,3,2,1），故具有性质P；\\n第二步，分析数列②：数列②项数为9，即$2n-1=9$，得$n=5$；不存在5项递减子列，故不具有性质P。",
+                        "standardAnswer": "①具有性质P；②不具有性质P",
+                        "scoringCriteria": "本问总分4分，正确判断数列①具有性质P并简要说明理由得2分；正确判断数列②不具有性质P并简要说明理由得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若数列A中有$a_i=a_n(i≠n)$，证明：数列A不具有性质P。",
+                        "solutionSteps": "第一步，反证法假设：假设数列A具有性质P，则A存在n项递增子列$\\{b_n\\}$和n项递减子列$\\{c_n\\}$；\\n第二步，分析子列取值：因$a_i∈\\{1,2,\\cdots,n\\}$，故$\\{b_n\\}$为1,2,\\cdots,n，$\\{c_n\\}$为n,n-1,\\cdots,1，即1到n的数在A中至少各出现一次；\\n第三步，分析项的出现次数：A共$2n-1$项，故存在$m_0∈\\{1,2,\\cdots,n\\}$在A中恰出现一次，记为$a_k$；\\n第四步，分析$a_k$的位置：设$b_j=a_k$，$c_{n-j+1}=a_k$，则$a_k$前至少有$n-1$项，后至少有$n-1$项，故$a_k$必为第n项，即$k=n$；\\n第五步，推出矛盾：与题设$a_i=a_n(i≠n)$矛盾，故假设不成立，数列A不具有性质P。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "本问总分5分，采用反证法作出正确假设得1分；分析出递增、递减子列的具体取值得1分；推出存在数在A中恰出现一次得1分；分析出该数必为第n项得1分；推出矛盾并得出结论得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）当数列A具有性质P时，若A中任意连续的n项中都包含k项递增子列，求k的最大值。",
+                        "solutionSteps": "第一步，分析数列结构：由（Ⅱ）知A中恰有一项$a_n$既是n项递增子列也是n项递减子列的项，设$b_j=a_n$，则$c_{n-j+1}=a_n$；\\n第二步，分析连续n项的递增子列项数：A的前n项递增子列项数最多为j，后n项递增子列项数最多为$n+1-j$，故$k≤min\\{j,n+1-j\\}$；\\n第三步，分情况求最大值：当n为奇数时，$j=\\frac{n+1}{2}$，$min\\{j,n+1-j\\}=\\frac{n+1}{2}$；当n为偶数时，$j=\\frac{n}{2}$，$min\\{j,n+1-j\\}=\\frac{n}{2}$；\\n第四步，构造数列验证：分别构造n为奇数、偶数时具有性质P的数列，验证任意连续n项中包含$\\frac{n+1}{2}$（n奇）或$\\frac{n}{2}$（n偶）项递增子列。",
+                        "standardAnswer": "$k_{max}=\\begin{cases}\\frac{n+1}{2},&n为奇数\\\\\\frac{n}{2},&n为偶数\\end{cases}$",
+                        "scoringCriteria": "本问总分6分，正确分析数列A的结构特征得1分；推出$k≤min\\{j,n+1-j\\}$得2分；分奇偶求出$min\\{j,n+1-j\\}$的最大值得2分；构造数列验证结论的合理性得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that a finite sequence A: $a_1,a_2,\\cdots,a_{2n-1}(n\\in N^*,n≥3)$ satisfies $a_i∈\\{1,2,\\cdots,n\\}(i=1,2,\\cdots,2n-1)$. For a given k(k=2,3,⋯,n), if there exist k terms in A such that $a_{i_1}<a_{i_2}<\\cdots<a_{i_k}(1≤i_1<i_2<\\cdots<i_k≤2n-1)$, then A is said to have a k-term increasing subsequence; if there exist k terms in A such that $a_{i_1}>a_{i_2}>\\cdots>a_{i_k}(1≤i_1<i_2<\\cdots<i_k≤2n-1)$, then A is said to have a k-term decreasing subsequence. When A has both an n-term increasing subsequence and an n-term decreasing subsequence, A is said to have property P.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Judge whether the following sequences have property P: ①4,1,3,2,1,3,4; ②1,2,5,4,3,4,5,3,1.",
+                        "solutionSteps": "Step 1: Analyze sequence ①: The number of terms of sequence ① is 7, that is $2n-1=7$, so $n=4$; there exists a 4-term increasing subsequence (e.g. 1,2,3,4) and a 4-term decreasing subsequence (e.g. 4,3,2,1), so it has property P;\\nStep 2: Analyze sequence ②: The number of terms of sequence ② is 9, that is $2n-1=9$, so $n=5$; there is no 5-term decreasing subsequence, so it does not have property P.",
+                        "standardAnswer": "① has property P; ② does not have property P",
+                        "scoringCriteria": "This sub-question has a total of 4 points, 2 points for correctly judging that sequence ① has property P and explaining the reason briefly, and 2 points for correctly judging that sequence ② does not have property P and explaining the reason briefly.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If there exists $a_i=a_n(i≠n)$ in sequence A, prove that sequence A does not have property P.",
+                        "solutionSteps": "Step 1: Assumption by proof by contradiction: Assume that sequence A has property P, then A has an n-term increasing subsequence $\\{b_n\\}$ and an n-term decreasing subsequence $\\{c_n\\}$;\\nStep 2: Analyze the values of the subsequences: Since $a_i∈\\{1,2,\\cdots,n\\}$, $\\{b_n\\}$ is 1,2,\\cdots,n and $\\{c_n\\}$ is n,n-1,\\cdots,1, that is, each number from 1 to n appears at least once in A;\\nStep 3: Analyze the occurrence times of the terms: A has a total of $2n-1$ terms, so there exists $m_0∈\\{1,2,\\cdots,n\\}$ that appears exactly once in A, denoted as $a_k$;\\nStep 4: Analyze the position of $a_k$: Let $b_j=a_k$, $c_{n-j+1}=a_k$, then there are at least $n-1$ terms before $a_k$ and at least $n-1$ terms after $a_k$, so $a_k$ must be the nth term, that is $k=n$;\\nStep 5: Deduce the contradiction: This contradicts the given condition $a_i=a_n(i≠n)$, so the assumption is not valid, and sequence A does not have property P.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "This sub-question has a total of 5 points, 1 point for making the correct assumption by proof by contradiction, 1 point for analyzing the specific values of the increasing and decreasing subsequences, 1 point for deducing that there exists a number that appears exactly once in A, 1 point for analyzing that the number must be the nth term, and 1 point for deducing the contradiction and drawing the conclusion.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) When sequence A has property P, if every consecutive n terms in A contain a k-term increasing subsequence, find the maximum value of k.",
+                        "solutionSteps": "Step 1: Analyze the structure of sequence A: From (Ⅱ), there is exactly one term $a_n$ in A that is both a term of the n-term increasing subsequence and the n-term decreasing subsequence, let $b_j=a_n$, then $c_{n-j+1}=a_n$;\\nStep 2: Analyze the number of terms of the increasing subsequence in consecutive n terms: The maximum number of terms of the increasing subsequence in the first n terms of A is j, and the maximum number of terms of the increasing subsequence in the last n terms is $n+1-j$, so $k≤min\\{j,n+1-j\\}$;\\nStep 3: Find the maximum value by cases: When n is an odd number, $j=\\frac{n+1}{2}$, $min\\{j,n+1-j\\}=\\frac{n+1}{2}$; when n is an even number, $j=\\frac{n}{2}$, $min\\{j,n+1-j\\}=\\frac{n}{2}$;\\nStep 4: Verify by constructing sequences: Construct sequences with property P for odd and even n respectively, and verify that every consecutive n terms contain a $\\frac{n+1}{2}$-term (n odd) or $\\frac{n}{2}$-term (n even) increasing subsequence.",
+                        "standardAnswer": "$k_{max}=\\begin{cases}\\frac{n+1}{2},&n \\text{ is odd}\\\\frac{n}{2},&n \\text{ is even}\\end{cases}$",
+                        "scoringCriteria": "This sub-question has a total of 6 points, 1 point for correctly analyzing the structural characteristics of sequence A, 2 points for deducing $k≤min\\{j,n+1-j\\}$, 2 points for finding the maximum value of $min\\{j,n+1-j\\}$ by cases of odd and even n, and 1 point for verifying the rationality of the conclusion by constructing sequences.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

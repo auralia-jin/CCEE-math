@@ -1,0 +1,231 @@
+{
+    "paperTitle": "2022 Beijing Tongzhou Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "某单位有A，B两个餐厅为员工提供午餐与晚餐服务，甲、乙两位员工每个工作日午餐和晚餐都在单位就餐，近100个工作日选择餐厅就餐情况统计如下：甲员工选择餐厅情况（午餐，晚餐）对应天数为30天、20天、40天、10天；乙员工选择餐厅情况（午餐，晚餐）对应天数为20天、25天、15天、40天。假设甲、乙员工选择餐厅相互独立，用频率估计概率。",
+                "subQuestions": [
+                    {
+                        "question": "（1）分别估计一天中甲员工午餐和晚餐都选择A餐厅就餐的概率，乙员工午餐和晚餐都选择B餐厅就餐的概率；",
+                        "solutionSteps": "1. 设事件C为“一天中甲员工午餐和晚餐都选择A餐厅就餐”，事件D为“一天中乙员工午餐和晚餐都选择B餐厅就餐”；2. 根据频率估计概率的方法，概率等于对应天数除以总天数100；3. 计算P(C)=30/100=0.3，P(D)=40/100=0.4。",
+                        "standardAnswer": "甲员工概率为$0.3$，乙员工概率为$0.4$",
+                        "scoringCriteria": "第一问，正确设定事件得1分；明确频率估计概率的方法得1分；代入数据计算甲员工概率正确得1分；计算乙员工概率正确得1分，共4分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）记X为甲、乙两员工在一天中就餐餐厅的个数，求X的分布列和数学期望E(X)；",
+                        "solutionSteps": "1. 先确定甲、乙员工午餐晚餐都选A或都选B的概率，甲都选A为0.3、都选B为0.1，乙都选A为0.2、都选B为0.4；2. 分析X的可能取值为1、2；3. 计算P(X=1)=0.3×0.2+0.1×0.4=0.1，P(X=2)=1-P(X=1)=0.9；4. 列出X的分布列，再根据数学期望公式E(X)=1×0.1+2×0.9计算得1.9。",
+                        "standardAnswer": "分布列为：X取1时概率0.1，X取2时概率0.9；数学期望$E(X)=1.9$",
+                        "scoringCriteria": "第二问，正确求出甲乙员工都选同一餐厅的概率得2分；确定X的可能取值得1分；计算各取值概率正确各得1分，共2分；列出分布列得1分；正确运用期望公式计算得1分，结果正确得1分，共8分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（3）试判断甲、乙员工在晚餐选择B餐厅就餐的条件下，哪位员工更有可能午餐选择A餐厅就餐，并说明理由；",
+                        "solutionSteps": "1. 设N₁为“甲员工晚餐选择B餐厅就餐”，M₁为“甲员工午餐选择A餐厅就餐”，N₂为“乙员工晚餐选择B餐厅就餐”，M₂为“乙员工午餐选择A餐厅就餐”；2. 根据条件概率公式计算P(M₁|N₁)=20/30=2/3，P(M₂|N₂)=25/65=5/13；3. 比较两个条件概率大小，2/3>5/13，得出甲员工更有可能。",
+                        "standardAnswer": "甲员工更有可能在午餐选择A餐厅就餐，理由见解析",
+                        "scoringCriteria": "第三问，正确设定条件概率相关事件得1分；准确运用条件概率公式计算甲员工的条件概率得1分；计算乙员工的条件概率得1分；比较概率大小并得出正确结论得1分，共4分。"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "A unit has two restaurants A and B providing lunch and dinner services for employees. Employees Jia and Yi have lunch and dinner at the unit every working day. The statistics of their restaurant choices in the recent 100 working days are as follows: The number of days corresponding to Jia's restaurant choices (lunch, dinner) is 30, 20, 40 and 10; the number of days corresponding to Yi's restaurant choices (lunch, dinner) is 20, 25, 15 and 40. Assume that Jia and Yi's restaurant choices are independent of each other, and estimate the probability by frequency.",
+                "subQuestions": [
+                    {
+                        "question": "(1) Estimate the probability that employee Jia chooses restaurant A for both lunch and dinner in a day, and the probability that employee Yi chooses restaurant B for both lunch and dinner in a day respectively;",
+                        "solutionSteps": "1. Let event C be 'Employee Jia chooses restaurant A for both lunch and dinner in a day', and event D be 'Employee Yi chooses restaurant B for both lunch and dinner in a day'; 2. According to the method of estimating probability by frequency, the probability is equal to the corresponding number of days divided by the total number of days 100; 3. Calculate P(C)=30/100=0.3 and P(D)=40/100=0.4.",
+                        "standardAnswer": "The probability for Jia is $0.3$, and the probability for Yi is $0.4$",
+                        "scoringCriteria": "For the first question, 1 point for correctly defining the events; 1 point for clarifying the method of estimating probability by frequency; 1 point for correctly calculating the probability for Jia by substituting data; 1 point for correctly calculating the probability for Yi, total 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) Let X be the number of restaurants that Jia and Yi dine in a day, find the probability mass function of X and the mathematical expectation E(X);",
+                        "solutionSteps": "1. First determine the probabilities that Jia and Yi choose the same restaurant for both lunch and dinner, Jia chooses A for both is 0.3, Jia chooses B for both is 0.1, Yi chooses A for both is 0.2, Yi chooses B for both is 0.4; 2. Analyze that the possible values of X are 1 and 2; 3. Calculate P(X=1)=0.3×0.2+0.1×0.4=0.1, P(X=2)=1-P(X=1)=0.9; 4. List the probability mass function of X, then calculate E(X)=1×0.1+2×0.9=1.9 according to the formula of mathematical expectation.",
+                        "standardAnswer": "The probability mass function is: P(X=1)=0.1, P(X=2)=0.9; The mathematical expectation is $E(X)=1.9$",
+                        "scoringCriteria": "For the second question, 2 points for correctly finding the probabilities that Jia and Yi choose the same restaurant for both meals; 1 point for determining the possible values of X; 1 point for each correct calculation of the probability of each value, total 2 points; 1 point for listing the probability mass function; 1 point for correctly applying the expectation formula for calculation; 1 point for the correct result, total 8 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(3) Judge which employee is more likely to choose restaurant A for lunch under the condition that they choose restaurant B for dinner, and explain the reason;",
+                        "solutionSteps": "1. Let N₁ be 'Employee Jia chooses restaurant B for dinner', M₁ be 'Employee Jia chooses restaurant A for lunch', N₂ be 'Employee Yi chooses restaurant B for dinner', M₂ be 'Employee Yi chooses restaurant A for lunch'; 2. Calculate P(M₁|N₁)=20/30=2/3 and P(M₂|N₂)=25/65=5/13 according to the conditional probability formula; 3. Compare the two conditional probabilities, 2/3>5/13, and conclude that Jia is more likely.",
+                        "standardAnswer": "Employee Jia is more likely to choose restaurant A for lunch, see the analysis for reasons",
+                        "scoringCriteria": "For the third question, 1 point for correctly defining the events related to conditional probability; 1 point for accurately calculating Jia's conditional probability by applying the conditional probability formula; 1 point for calculating Yi's conditional probability; 1 point for comparing the probabilities and drawing the correct conclusion, total 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数$f(x)=\\ln x+\\frac{a}{x}$，$a \\in R$",
+                "subQuestions": [
+                    {
+                        "question": "（1）当$a=0$时，求曲线$y=f(x)$在点$(1, f(1))$处的切线方程；",
+                        "solutionSteps": "1. 当a=0时，化简函数得$f(x)=\\ln x$；2. 计算$f(1)=\\ln 1=0$，确定切点为(1,0)；3. 求导得$f'(x)=\\frac{1}{x}$，计算切线斜率$f'(1)=1$；4. 根据点斜式$y-y₀=k(x-x₀)$，写出切线方程$y=x-1$。",
+                        "standardAnswer": "$y=x-1$",
+                        "scoringCriteria": "第一问，正确化简函数得1分；计算切点纵坐标正确得1分；求导公式运用正确得1分；计算切线斜率正确得1分；根据点斜式写出切线方程正确得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）若函数$f(x)$的最小值是2，求a的值；",
+                        "solutionSteps": "1. 确定函数定义域为$(0, +\\infty)$，求导得$f'(x)=\\frac{1}{x}-\\frac{a}{x^2}=\\frac{x-a}{x^2}$；2. 分类讨论，当$a \\leq 0$时，$f'(x)>0$，函数在$(0, +\\infty)$单调递增，无最小值，舍去；3. 当$a>0$时，令$f'(x)<0$得$0<x<a$，函数单调递减，令$f'(x)>0$得$x>a$，函数单调递增，故$f(x)$在$x=a$处取得最小值；4. 计算最小值$f(a)=1+\\ln a$，令$1+\\ln a=2$，解得$a=e$。",
+                        "standardAnswer": "$a=e$",
+                        "scoringCriteria": "第二问，正确写出定义域和导数得2分；分类讨论a≤0时的函数单调性并判断无最小值得2分；分析a>0时的函数单调区间得2分；正确求出函数最小值表达式得2分；解方程得出a的值正确得2分，共10分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（3）设t为常数，求函数$g(x)=\\frac{\\ln x-\\ln t}{x-t}$的单调区间；",
+                        "solutionSteps": "1. 确定函数定义域为$(0, t) \\cup (t, +\\infty)$；2. 求导得$g'(x)=\\frac{\\frac{1}{x}(x-t)-(\\ln x-\\ln t)}{(x-t)^2}=\\frac{1+\\ln t-(\\ln x+\\frac{t}{x})}{(x-t)^2}$；3. 由（2）的结论，当$x>0$且$x \\neq t$时，$\\ln x+\\frac{t}{x}>1+\\ln t$，故$g'(x)<0$；4. 得出函数的单调递减区间为$(0, t)$和$(t, +\\infty)$，无单调递增区间。",
+                        "standardAnswer": "单调递减区间为$(0, t)$、$(t, +\\infty)$，无单调递增区间",
+                        "scoringCriteria": "第三问，正确写出函数定义域得1分；求导过程正确，结果无误得3分；合理运用（2）的结论分析导数的符号得2分；正确写出函数的单调区间得2分，共8分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=\\ln x+\\frac{a}{x}$, $a \\in R$",
+                "subQuestions": [
+                    {
+                        "question": "(1) When $a=0$, find the equation of the tangent line to the curve $y=f(x)$ at the point $(1, f(1))$;",
+                        "solutionSteps": "1. When a=0, simplify the function to get $f(x)=\\ln x$; 2. Calculate $f(1)=\\ln 1=0$, determine the tangent point is (1,0); 3. Find the derivative $f'(x)=\\frac{1}{x}$, calculate the slope of the tangent line $f'(1)=1$; 4. Write the tangent line equation $y=x-1$ according to the point-slope form $y-y₀=k(x-x₀)$.",
+                        "standardAnswer": "$y=x-1$",
+                        "scoringCriteria": "For the first question, 1 point for correctly simplifying the function; 1 point for correctly calculating the ordinate of the tangent point; 1 point for correctly applying the derivative formula; 1 point for correctly calculating the slope of the tangent line; 1 point for correctly writing the tangent line equation according to the point-slope form, total 5 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) If the minimum value of the function $f(x)$ is 2, find the value of a;",
+                        "solutionSteps": "1. Determine the domain of the function is $(0, +\\infty)$, find the derivative $f'(x)=\\frac{1}{x}-\\frac{a}{x^2}=\\frac{x-a}{x^2}$; 2. Discuss by cases, when $a \\leq 0$, $f'(x)>0$, the function is monotonically increasing on $(0, +\\infty)$ and has no minimum value, discard this case; 3. When $a>0$, let $f'(x)<0$ to get $0<x<a$, the function is monotonically decreasing, let $f'(x)>0$ to get $x>a$, the function is monotonically increasing, so $f(x)$ attains the minimum value at $x=a$; 4. Calculate the minimum value $f(a)=1+\\ln a$, let $1+\\ln a=2$, solve for a to get $a=e$.",
+                        "standardAnswer": "$a=e$",
+                        "scoringCriteria": "For the second question, 2 points for correctly writing the domain and the derivative; 2 points for discussing the monotonicity of the function when a≤0 and judging no minimum value; 2 points for analyzing the monotonic intervals of the function when a>0; 2 points for correctly finding the expression of the minimum value of the function; 2 points for correctly solving the equation to get the value of a, total 10 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(3) Let t be a constant, find the monotonic intervals of the function $g(x)=\\frac{\\ln x-\\ln t}{x-t}$;",
+                        "solutionSteps": "1. Determine the domain of the function is $(0, t) \\cup (t, +\\infty)$; 2. Find the derivative $g'(x)=\\frac{\\frac{1}{x}(x-t)-(\\ln x-\\ln t)}{(x-t)^2}=\\frac{1+\\ln t-(\\ln x+\\frac{t}{x})}{(x-t)^2}$; 3. From the conclusion of (2), when $x>0$ and $x \\neq t$, $\\ln x+\\frac{t}{x}>1+\\ln t$, so $g'(x)<0$; 4. Conclude that the monotonic decreasing intervals of the function are $(0, t)$ and $(t, +\\infty)$, and there is no monotonic increasing interval.",
+                        "standardAnswer": "The monotonic decreasing intervals are $(0, t)$ and $(t, +\\infty)$, there is no monotonic increasing interval",
+                        "scoringCriteria": "For the third question, 1 point for correctly writing the domain of the function; 3 points for the correct derivative process and result; 2 points for reasonably using the conclusion of (2) to analyze the sign of the derivative; 2 points for correctly writing the monotonic intervals of the function, total 8 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆C：$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的左、右顶点分别为A，B，$|AB|=4$，离心率为$\\frac{\\sqrt{2}}{2}$",
+                "subQuestions": [
+                    {
+                        "question": "（1）求椭圆的方程；",
+                        "solutionSteps": "1. 由$|AB|=4$得$2a=4$，解得$a=2$；2. 根据离心率公式$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$，代入a的值得$c=\\sqrt{2}$；3. 由椭圆中$b^2=a^2-c^2$，计算得$b^2=4-2=2$；4. 代入椭圆标准方程得$\\frac{x^2}{4}+\\frac{y^2}{2}=1$。",
+                        "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+                        "scoringCriteria": "第一问，由|AB|求出a的值正确得2分；根据离心率求出c的值正确得1分；正确运用a、b、c的关系求出b²得1分；写出椭圆方程正确得1分，共5分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）设点D为线段AB上的动点，过D作线段AB的垂线交椭圆C于不同的两点E和F，N为线段AE上一点，$|AN|=\\lambda|AE|$。是否存在实数λ，使得$\\angle NDE=\\angle DBF$？若存在，求出λ的值；若不存在，请说明理由；",
+                        "solutionSteps": "1. 假设存在实数λ满足题意，由椭圆方程得A(-2,0)，B(2,0)，设E(m,n)，则F(m,-n)，N(x_N,y_N)；2. 由$|AN|=\\lambda|AE|$得向量关系$\\overrightarrow{AN}=\\lambda\\overrightarrow{AE}$，求出N(λm+2λ-2,λn)；3. 由$\\angle NDE=\\angle DBF$得$\\tan\\angle NDE=\\tan\\angle DBF$，转化为坐标形式$\\frac{|m-\\lambda m-2\\lambda+2|}{|\\lambda n|}=\\frac{|n|}{|2-m|}$；4. 化简得$\\frac{|\\lambda-1|\\cdot|m+2|}{|\\lambda|\\cdot|n|}=\\frac{|n|}{|2-m|}$，即$\\frac{|\\lambda-1|}{|\\lambda|}=\\frac{|n^2|}{|m^2-4|}$；5. 由E在椭圆上得$4-m^2=2n^2$，代入上式得$\\frac{|\\lambda-1|}{|\\lambda|}=\\frac{1}{2}$，解得λ=2（舍去）或λ=2/3，故存在λ=2/3。",
+                        "standardAnswer": "存在实数$\\lambda=\\frac{2}{3}$，使得$\\angle NDE=\\angle DBF$",
+                        "scoringCriteria": "第二问，合理假设存在λ并设出各点坐标得2分；根据向量关系求出N点坐标正确得3分；将角相等转化为正切值相等，进而转化为坐标等式正确得3分；化简坐标等式得2分；结合椭圆方程代入化简得2分；解方程求出λ并舍去不合理解得2分，共12分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the ellipse C: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$, its left and right vertices are A and B respectively, $|AB|=4$, and the eccentricity is $\\frac{\\sqrt{2}}{2}$",
+                "subQuestions": [
+                    {
+                        "question": "(1) Find the equation of the ellipse;",
+                        "solutionSteps": "1. From $|AB|=4$, we get $2a=4$, solve for a to get $a=2$; 2. According to the eccentricity formula $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$, substitute the value of a to get $c=\\sqrt{2}$; 3. Use the relationship $b^2=a^2-c^2$ in the ellipse to calculate $b^2=4-2=2$; 4. Substitute into the standard equation of the ellipse to get $\\frac{x^2}{4}+\\frac{y^2}{2}=1$.",
+                        "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+                        "scoringCriteria": "For the first question, 2 points for correctly finding the value of a from |AB|; 1 point for correctly finding the value of c according to the eccentricity; 1 point for correctly finding b² using the relationship of a, b and c; 1 point for correctly writing the ellipse equation, total 5 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) Let point D be a moving point on the line segment AB, draw a perpendicular line to AB through D intersecting the ellipse C at two distinct points E and F, N is a point on the line segment AE, $|AN|=\\lambda|AE|$. Does there exist a real number λ such that $\\angle NDE=\\angle DBF$? If it exists, find the value of λ; if not, explain the reason;",
+                        "solutionSteps": "1. Assume there exists a real number λ satisfying the condition, from the ellipse equation we get A(-2,0), B(2,0), let E(m,n), then F(m,-n), N(x_N,y_N); 2. From $|AN|=\\lambda|AE|$, we get the vector relation $\\overrightarrow{AN}=\\lambda\\overrightarrow{AE}$, and find N(λm+2λ-2,λn); 3. From $\\angle NDE=\\angle DBF$, we get $\\tan\\angle NDE=\\tan\\angle DBF$, which is transformed into the coordinate form $\\frac{|m-\\lambda m-2\\lambda+2|}{|\\lambda n|}=\\frac{|n|}{|2-m|}$; 4. Simplify to get $\\frac{|\\lambda-1|\\cdot|m+2|}{|\\lambda|\\cdot|n|}=\\frac{|n|}{|2-m|}$, that is $\\frac{|\\lambda-1|}{|\\lambda|}=\\frac{|n^2|}{|m^2-4|}$; 5. Since E is on the ellipse, we have $4-m^2=2n^2$, substitute it into the above formula to get $\\frac{|\\lambda-1|}{|\\lambda|}=\\frac{1}{2}$, solve for λ to get λ=2 (discarded) or λ=2/3, so λ=2/3 exists.",
+                        "standardAnswer": "There exists a real number $\\lambda=\\frac{2}{3}$ such that $\\angle NDE=\\angle DBF$",
+                        "scoringCriteria": "For the second question, 2 points for reasonably assuming the existence of λ and setting the coordinates of each point; 3 points for correctly finding the coordinates of point N according to the vector relation; 3 points for correctly transforming the equality of angles into the equality of tangent values and then into the coordinate equation; 2 points for simplifying the coordinate equation; 2 points for substituting and simplifying combined with the ellipse equation; 2 points for solving the equation to find λ and discarding the unreasonable solution, total 12 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "从一个无穷数列$\\{a_n\\}$中抽出无穷多项，依原来的顺序组成一个新的无穷数列，若新数列是递增数列，则称之为$\\{a_n\\}$的一个无穷递增子列。已知数列$\\{b_n\\}$是正实数组成的无穷数列，且满足$b_n=|b_{n+1}-b_{n+2}|$。",
+                "subQuestions": [
+                    {
+                        "question": "（1）若$b_1=1$，$b_2=2$，写出数列$\\{b_n\\}$前4项的所有可能情况；",
+                        "solutionSteps": "1. 由$b_1=|b_2-b_3|$，即$|2-b_3|=1$，结合$b_n$是正实数数列，解得$b_3=1$或$b_3=3$；2. 当$b_3=1$时，由$b_2=|b_3-b_4|$，即$|1-b_4|=2$，解得$b_4=3$；3. 当$b_3=3$时，由$b_2=|b_3-b_4|$，即$|3-b_4|=2$，解得$b_4=1$或$b_4=5$；4. 整理得出前4项的所有可能情况。",
+                        "standardAnswer": "1、2、3、5或1、2、3、1或1、2、1、3",
+                        "scoringCriteria": "第一问，根据递推公式求出b3的可能值正确得2分；分情况求出对应b4的可能值正确各得1分，共2分；完整写出前4项的所有可能情况得1分，共5分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（2）求证：数列$\\{b_n\\}$存在无穷递增子列；",
+                        "solutionSteps": "1. 由$b_n=|b_{n+1}-b_{n+2}|$得$b_{n+2}=b_{n+1}-b_n$或$b_{n+2}=b_{n+1}+b_n$（$b_n$为正实数数列）；2. 若$b_{n+2}=b_{n+1}+b_n$，则$b_{n+2}>b_{n+1}$；若$b_{n+2}=b_{n+1}-b_n$，则$b_{n+2}<b_{n+1}$，此时$b_{n+3}=b_{n+2}+b_{n+1}>b_{n+1}$；3. 设集合$A=\\{j \\in N^* | b_{j-1}<b_j, j \\geq 2\\}$，取$n_1<n_2<\\cdots<n_m<\\cdots$且$n_m \\in A$，令$c_k=b_{n_k}$，则$\\{c_k\\}$是$\\{b_n\\}$的无穷递增子列，得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问，由递推公式推出bₙ₊₂的两种表达式得2分；分析两种情况下数列项的大小关系正确得2分；构造集合并取出符合条件的无穷项构造递增子列得2分；完整证明结论得1分，共7分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（3）求证：对于任意实数M，都存在$k \\in N^*$，使得$b_k>M$；",
+                        "solutionSteps": "1. 考察数列$\\{b_n\\}$及其无穷递增子列$\\{c_m\\}$，分两种情况讨论，当$c_1>M$或$c_2>M$时，结论显然成立；2. 当$c_2 \\leq M$时，设$c_m=b_{n_m}$，由（2）知$b_{n_m}>b_{n_m-1}$，可证得$c_m - c_{m-1} \\geq c_{m-1} - c_{m-2} \\geq \\cdots \\geq c_2 - c_1$；3. 叠加得$c_m - c_2 \\geq (m-2)(c_2 - c_1)$，即$c_m \\geq (c_2 - c_1)m + 2c_1 - c_2$；4. 令$(c_2 - c_1)m + 2c_1 - c_2>M$，解得$m>\\frac{M+c_2-2c_1}{c_2-c_1}$，取$m_0=[\\frac{M+c_2-2c_1}{c_2-c_1}]+1$，则$c_{m_0}>M$，又$\\{c_m\\}$是$\\{b_n\\}$的子列，令$b_k=c_{m_0}$，则$b_k>M$，得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，分情况讨论并说明特殊情况结论成立得1分；证明数列子列的差的单调性正确得3分；利用叠加法推出cₘ的不等式表达式得2分；解不等式找到符合条件的m₀并结合子列性质得出结论得2分，共8分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Extract infinitely many terms from an infinite sequence $\\{a_n\\}$ to form a new infinite sequence in the original order. If the new sequence is an increasing sequence, it is called an infinite increasing subsequence of $\\{a_n\\}$. It is known that the sequence $\\{b_n\\}$ is an infinite sequence composed of positive real numbers, and satisfies $b_n=|b_{n+1}-b_{n+2}|$.",
+                "subQuestions": [
+                    {
+                        "question": "(1) If $b_1=1$, $b_2=2$, write all possible cases of the first 4 terms of the sequence $\\{b_n\\}$;",
+                        "solutionSteps": "1. From $b_1=|b_2-b_3|$, that is $|2-b_3|=1$, combined with the fact that $\\{b_n\\}$ is a positive real sequence, solve to get $b_3=1$ or $b_3=3$; 2. When $b_3=1$, from $b_2=|b_3-b_4|$, that is $|1-b_4|=2$, solve to get $b_4=3$; 3. When $b_3=3$, from $b_2=|b_3-b_4|$, that is $|3-b_4|=2$, solve to get $b_4=1$ or $b_4=5$; 4. Sort out and get all possible cases of the first 4 terms.",
+                        "standardAnswer": "1,2,3,5 or 1,2,3,1 or 1,2,1,3",
+                        "scoringCriteria": "For the first question, 2 points for correctly finding the possible values of b3 according to the recurrence formula; 1 point for each correct possible value of b4 found by cases, total 2 points; 1 point for completely writing all possible cases of the first 4 terms, total 5 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(2) Prove that the sequence $\\{b_n\\}$ has an infinite increasing subsequence;",
+                        "solutionSteps": "1. From $b_n=|b_{n+1}-b_{n+2}|$, we get $b_{n+2}=b_{n+1}-b_n$ or $b_{n+2}=b_{n+1}+b_n$ (since $\\{b_n\\}$ is a positive real sequence); 2. If $b_{n+2}=b_{n+1}+b_n$, then $b_{n+2}>b_{n+1}$; if $b_{n+2}=b_{n+1}-b_n$, then $b_{n+2}<b_{n+1}$, and at this time $b_{n+3}=b_{n+2}+b_{n+1}>b_{n+1}$; 3. Let the set $A=\\{j \\in N^* | b_{j-1}<b_j, j \\geq 2\\}$, take $n_1<n_2<\\cdots<n_m<\\cdots$ and $n_m \\in A$, let $c_k=b_{n_k}$, then $\\{c_k\\}$ is an infinite increasing subsequence of $\\{b_n\\}$, thus the proof is completed.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the second question, 2 points for deducing the two expressions of bₙ₊₂ from the recurrence formula; 2 points for correctly analyzing the size relationship of the sequence terms in the two cases; 2 points for constructing a set and extracting infinitely many eligible terms to form an increasing subsequence; 1 point for completely proving the conclusion, total 7 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(3) Prove that for any real number M, there exists $k \\in N^*$ such that $b_k>M$;",
+                        "solutionSteps": "1. Consider the sequence $\\{b_n\\}$ and its infinite increasing subsequence $\\{c_m\\}$, discuss in two cases, when $c_1>M$ or $c_2>M$, the conclusion is obviously true; 2. When $c_2 \\leq M$, let $c_m=b_{n_m}$, from (2) we know $b_{n_m}>b_{n_m-1}$, and it can be proved that $c_m - c_{m-1} \\geq c_{m-1} - c_{m-2} \\geq \\cdots \\geq c_2 - c_1$; 3. By superposition, we get $c_m - c_2 \\geq (m-2)(c_2 - c_1)$, that is $c_m \\geq (c_2 - c_1)m + 2c_1 - c_2$; 4. Let $(c_2 - c_1)m + 2c_1 - c_2>M$, solve for m to get $m>\\frac{M+c_2-2c_1}{c_2-c_1}$, take $m_0=[\\frac{M+c_2-2c_1}{c_2-c_1}]+1$, then $c_{m_0}>M$, and since $\\{c_m\\}$ is a subsequence of $\\{b_n\\}$, let $b_k=c_{m_0}$, then $b_k>M$, thus the proof is completed.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the third question, 1 point for discussing by cases and explaining that the conclusion holds in special cases; 3 points for correctly proving the monotonicity of the difference of the subsequence of the sequence; 2 points for deducing the inequality expression of cₘ by the superposition method; 2 points for solving the inequality to find the eligible m₀ and drawing the conclusion combined with the properties of the subsequence, total 8 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2025 Beijing Xicheng Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "网络搜索已成为人们获取信息或解决问题的重要手段。为研究某传染性疾病的未来流行趋势，收集得到该疾病某月1号至30号的网络搜索量（单位：万次）如下：表格给出1号至30号每天的搜索量数据，用频率估计概率。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从2号至14号中任取1天，求该天的搜索量比其前后两日的搜索量都低的概率；",
+            "solutionSteps": "1. 记事件A为“从2号至14号中任取1天，且该天搜索量比其前后两日的搜索量都低”；\\n2. 统计2号至14号中满足条件的天数：仅有2，5，7，10，12号这5天符合；\\n3. 确定2号至14号的总天数为13天；\\n4. 根据古典概型概率公式计算，P(A)=符合条件的天数/总天数=5/13。",
+            "standardAnswer": "$\\frac{5}{13}$",
+            "scoringCriteria": "该问总分4分，正确记出事件并统计出符合条件的5天得2分，确定总天数为13天得1分，代入古典概型公式计算出正确概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）假设该疾病每天的搜索量变化是相互独立的。在未来的日子里任取3天，试估计这3天该疾病搜索量的数据中既有高于10万又有低于8万的概率；",
+            "solutionSteps": "1. 记事件B为“在未来的日子里任取3天，且这3天该疾病搜索量的数据中既有高于10万又有低于8万”；\\n2. 由频率估计概率，计算出某天搜索量高于10万的概率为10/30=1/3，低于8万的概率为15/30=1/2，介于8万到10万之间的概率为1-1/3-1/2=1/6；\\n3. 分析事件B的构成：1天高于10万、1天低于8万、1天介于两者之间，或2天高于10万、1天低于8万，或2天低于8万、1天高于10万；\\n4. 根据独立重复试验概率公式计算：P(B)=C_{3}^{1}×1/3×C_{2}^{1}×1/2×1/6 + C_{3}^{2}×(1/3)²×1/2 + C_{3}^{2}×(1/2)²×1/3=7/12。",
+            "standardAnswer": "$\\frac{7}{12}$",
+            "scoringCriteria": "该问总分6分，正确计算出高于10万、低于8万的概率各得1分，分析出事件B的三种构成情况得2分，正确代入组合数和概率公式计算并得出正确结果得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（Ⅲ）记表中30天的搜索量的平均数为$x_{1}$，去除搜索量中最大的3个和最小的3个后剩余24个搜索量的平均数为$x_{2}$，试给出$x_{1}$与$x_{2}$的大小关系。(结论不要求证明)",
+            "solutionSteps": "直接根据数据分布特征判断，去除最大的3个值会拉低整体平均数的影响，结合数据特点得出大小关系。",
+            "standardAnswer": "$x_{1}>x_{2}$",
+            "scoringCriteria": "该问总分3分，直接写出正确的大小关系即可得满分，写反不得分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Web search has become an important means for people to obtain information or solve problems. To study the future epidemic trend of an infectious disease, the daily web search volume (unit: ten thousand times) of the disease from the 1st to the 30th of a certain month is collected as follows: The table gives the daily search volume data from the 1st to the 30th, and the frequency is used to estimate the probability.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one day from the 2nd to the 14th, find the probability that the search volume on this day is lower than that of the day before and after it;",
+            "solutionSteps": "1. Denote event A as 'Randomly select one day from the 2nd to the 14th, and the search volume on this day is lower than that of the day before and after it';\\n2. Count the number of days meeting the conditions from the 2nd to the 14th: only the 2nd, 5th, 7th, 10th and 12th days, a total of 5 days, meet the conditions;\\n3. Confirm that the total number of days from the 2nd to the 14th is 13;\\n4. Calculate according to the classical probability formula, P(A)=Number of days meeting the conditions/Total number of days=5/13.",
+            "standardAnswer": "$\\frac{5}{13}$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 2 points for correctly defining the event and counting 5 days that meet the conditions, 1 point for confirming the total number of days is 13, and 1 point for calculating the correct probability by substituting the classical probability formula.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Assume that the daily search volume changes of the disease are independent of each other. Randomly select 3 days in the future, estimate the probability that the search volume data of the disease in these 3 days are both higher than 100,000 and lower than 80,000;",
+            "solutionSteps": "1. Denote event B as 'Randomly select 3 days in the future, and the search volume data of the disease in these 3 days are both higher than 100,000 and lower than 80,000';\\n2. Estimate the probability by frequency: the probability that the search volume is higher than 100,000 on a certain day is 10/30=1/3, the probability that it is lower than 80,000 is 15/30=1/2, and the probability that it is between 80,000 and 100,000 is 1-1/3-1/2=1/6;\\n3. Analyze the composition of event B: 1 day higher than 100,000, 1 day lower than 80,000 and 1 day in between, or 2 days higher than 100,000 and 1 day lower than 80,000, or 2 days lower than 80,000 and 1 day higher than 100,000;\\n4. Calculate according to the probability formula of independent repeated trials: P(B)=C_{3}^{1}×1/3×C_{2}^{1}×1/2×1/6 + C_{3}^{2}×(1/3)²×1/2 + C_{3}^{2}×(1/2)²×1/3=7/12.",
+            "standardAnswer": "$\\frac{7}{12}$",
+            "scoringCriteria": "This sub-question has a total of 6 points. 1 point for correctly calculating the probability of search volume higher than 100,000 and 1 point for lower than 80,000 respectively, 2 points for analyzing the three composition situations of event B, and 2 points for correctly substituting the combination number and probability formula to calculate and get the correct result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(Ⅲ) Denote the average of the search volume of the 30 days in the table as $x_{1}$, and the average of the remaining 24 search volumes after removing the 3 largest and 3 smallest search volumes as $x_{2}$, give the size relationship between $x_{1}$ and $x_{2}$. (Proof is not required for the conclusion)",
+            "solutionSteps": "Judge directly according to the characteristics of data distribution. Removing the 3 largest values will reduce the impact on the overall average, and the size relationship is obtained by combining the characteristics of the data.",
+            "standardAnswer": "$x_{1}>x_{2}$",
+            "scoringCriteria": "This sub-question has a total of 3 points. Full marks are given for directly writing the correct size relationship, and no points are given for writing it in reverse.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$，且直线$x+\\sqrt{2} y+2 \\sqrt{2}=0$经过椭圆E的左顶点A和下顶点B。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆E的方程和离心率；",
+            "solutionSteps": "1. 求直线$x+\\sqrt{2} y+2 \\sqrt{2}=0$与坐标轴的交点，令y=0得x=-2√2，即左顶点A(-2√2, 0)，故a=2√2；令x=0得y=-2，即下顶点B(0, -2)，故b=2；\\n2. 根据椭圆中a²=b²+c²，计算c=√(a²-b²)=√(8-4)=2；\\n3. 写出椭圆E的方程为$\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$；\\n4. 计算离心率e=c/a=2/(2√2)=√2/2。",
+            "standardAnswer": "椭圆E的方程为$\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$，离心率为$\\frac{\\sqrt{2}}{2}$",
+            "scoringCriteria": "该问总分5分，正确求出椭圆的a、b值各得1分，根据a²=b²+c²算出c值得1分，写出正确的椭圆方程得1分，计算出正确的离心率得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设过点$G(0, s)(s>0)$且斜率不为0的直线交椭圆E于C D两点，直线$B C$，$B D$与直线$y=t$的交点分别为P，Q，线段$C D$，$P Q$的中点分别为M，N。若直线$M N$经过坐标原点，求$s+t$的取值范围。",
+            "solutionSteps": "1. 设直线CD的方程为y=kx+s(k≠0)，设C(x₁,y₁)，D(x₂,y₂)，联立椭圆方程$\\begin{cases}y=kx+s \\\\ \\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1\\end{cases}$，消元得(2k²+1)x²+4ksx+2s²-8=0；\\n2. 由韦达定理得x₁+x₂=-4ks/(2k²+1)，x₁x₂=(2s²-8)/(2k²+1)，求出CD中点M的坐标为(-2ks/(2k²+1), s/(2k²+1))；\\n3. 由直线MN过原点，得直线MN的方程为x+2ky=0，令y=t得N(-2kt, t)；\\n4. 写出直线BC、BD的方程，分别令y=t求出P((t+2)x₁/(y₁+2), t)、Q((t+2)x₂/(y₂+2), t)；\\n5. 由PQ中点为N，得(t+2)x₁/(y₁+2)+(t+2)x₂/(y₂+2)=-4kt，代入y₁=kx₁+s、y₂=kx₂+s整理化简；\\n6. 化简后得k(s+2)(st-4)=0，由k≠0、s>0得st=4；\\n7. 根据基本不等式s+t≥2√(st)=4，当且仅当s=t=2时等号成立，得出s+t的取值范围。",
+            "standardAnswer": "$[4, +\\infty)$",
+            "scoringCriteria": "该问总分10分，正确设出直线方程并联立椭圆方程消元得2分，正确使用韦达定理求出中点M坐标得2分，求出点N坐标并写出P、Q坐标得2分，根据中点条件整理化简得出st=4得2分，利用基本不等式求出取值范围得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$, and the straight line $x+\\sqrt{2} y+2 \\sqrt{2}=0$ passes through the left vertex A and the lower vertex B of the ellipse E.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation and the eccentricity of the ellipse E;",
+            "solutionSteps": "1. Find the intersection points of the straight line $x+\\sqrt{2} y+2 \\sqrt{2}=0$ with the coordinate axes. Let y=0, we get x=-2√2, that is the left vertex A(-2√2, 0), so a=2√2; Let x=0, we get y=-2, that is the lower vertex B(0, -2), so b=2;\\n2. According to a²=b²+c² in the ellipse, calculate c=√(a²-b²)=√(8-4)=2;\\n3. Write the equation of the ellipse E as $\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$;\\n4. Calculate the eccentricity e=c/a=2/(2√2)=√2/2.",
+            "standardAnswer": "The equation of the ellipse E is $\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$, and the eccentricity is $\\frac{\\sqrt{2}}{2}$",
+            "scoringCriteria": "This sub-question has a total of 5 points. 1 point for correctly finding the value of a and 1 point for b of the ellipse respectively, 1 point for calculating the value of c according to a²=b²+c², 1 point for writing the correct equation of the ellipse, and 1 point for calculating the correct eccentricity.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let a straight line passing through the point $G(0, s)(s>0)$ with a non-zero slope intersect the ellipse E at points C and D. The intersections of the straight lines BC, BD with the straight line $y=t$ are P and Q respectively, and the midpoints of the line segments CD, PQ are M and N respectively. If the straight line MN passes through the origin of coordinates, find the range of values of $s+t$.",
+            "solutionSteps": "1. Let the equation of the straight line CD be y=kx+s(k≠0), let C(x₁,y₁), D(x₂,y₂),联立 the ellipse equations $\\begin{cases}y=kx+s \\\\ \\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1\\end{cases}$, eliminate y to get (2k²+1)x²+4ksx+2s²-8=0;\\n2. From Vieta's theorem, x₁+x₂=-4ks/(2k²+1), x₁x₂=(2s²-8)/(2k²+1), find the coordinates of the midpoint M of CD as (-2ks/(2k²+1), s/(2k²+1));\\n3. Since the straight line MN passes through the origin, the equation of the straight line MN is x+2ky=0, let y=t to get N(-2kt, t);\\n4. Write the equations of the straight lines BC and BD, let y=t respectively to find P((t+2)x₁/(y₁+2), t) and Q((t+2)x₂/(y₂+2), t);\\n5. Since N is the midpoint of PQ, we have (t+2)x₁/(y₁+2)+(t+2)x₂/(y₂+2)=-4kt, substitute y₁=kx₁+s and y₂=kx₂+s to sort out and simplify;\\n6. After simplification, we get k(s+2)(st-4)=0, since k≠0 and s>0, we have st=4;\\n7. According to the basic inequality s+t≥2√(st)=4, the equal sign holds if and only if s=t=2, and then get the range of s+t.",
+            "standardAnswer": "$[4, +\\infty)$",
+            "scoringCriteria": "This sub-question has a total of 10 points. 2 points for correctly setting the straight line equation and eliminating the variable by联立 with the ellipse equation, 2 points for correctly using Vieta's theorem to find the coordinates of the midpoint M, 2 points for finding the coordinates of point N and writing the coordinates of P and Q, 2 points for sorting out and simplifying according to the midpoint condition to get st=4, and 2 points for finding the range of values by using the basic inequality.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=a(x-1) e^{x}-\\ln x$，其中$a>0$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若曲线$y=f(x)$在点$(1, f(1))$处的切线经过点(2, 2)，求a的值；",
+            "solutionSteps": "1. 对函数$f(x)$求导，得$f'(x)=axe^x - 1/x$；\\n2. 计算$f(1)=0$，$f'(1)=ae - 1$，即曲线在点(1,f(1))处的切线斜率为ae-1；\\n3. 写出切线方程为$y=(ae-1)(x-1)$；\\n4. 将点(2,2)代入切线方程，得2=(ae-1)(2-1)，解得a=3/e。",
+            "standardAnswer": "$a=\\frac{3}{e}$",
+            "scoringCriteria": "该问总分4分，正确求导得出$f'(x)$得1分，计算出$f(1)$和$f'(1)$的值各得1分，代入点坐标求解出正确的a值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）证明：函数$f(x)$存在极小值；",
+            "solutionSteps": "1. 确定函数$f(x)$的定义域为$(0, +\\infty)$，将$f'(x)$通分变形为$f'(x)=(ax²e^x - 1)/x$；\\n2. 设$m(x)=ax²e^x - 1$，求导得$m'(x)=a(x²+2x)e^x$，由x>0、a>0得$m'(x)>0$，故$m(x)$在$(0, +\\infty)$上单调递增；\\n3. 分析$m(x)$的取值：$m(0)=-1<0$，$m(1/√a)=e^(1/√a)-1>0$；\\n4. 根据零点存在定理，存在唯一的$x₀∈(0, 1/√a)$，使得$m(x₀)=0$，即$f'(x₀)=0$；\\n5. 分析$f'(x)$的符号：当x∈(0,x₀)时，$f'(x)<0$，$f(x)$单调递减；当x∈(x₀,+∞)时，$f'(x)>0$，$f(x)$单调递增；\\n6. 故$x=x₀$时，$f(x)$取得极小值，即函数$f(x)$存在极小值。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问总分5分，正确变形$f'(x)$并构造函数$m(x)$得1分，求导并判断$m(x)$的单调性得1分，分析$m(x)$的正负值并利用零点存在定理得出唯一零点得1分，正确分析$f'(x)$的符号及$f(x)$的单调性得1分，得出函数存在极小值的结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）记函数$f(x)$的最小值为$g(a)$，求$g(a)$的最大值。",
+            "solutionSteps": "1. 由（Ⅱ）知$f(x)_{min}=f(x₀)=g(a)$，且由$f'(x₀)=0$得$a=1/(e^x₀ x₀²)$；\\n2. 将a代入$f(x₀)$，化简得$g(a)=f(x₀)=(x₀-1)/x₀² - lnx₀$；\\n3. 设$h(x)=(x-1)/x² - lnx(x>0)$，求导得$h'(x)=-(x+2)(x-1)/x³$；\\n4. 分析$h'(x)$的符号：当x∈(0,1)时，$h'(x)>0$，$h(x)$单调递增；当x∈(1,+∞)时，$h'(x)<0$，$h(x)$单调递减；\\n5. 故$h(x)$在x=1处取得极大值也是最大值，$h(1)=0$；\\n6. 验证当x₀=1时，$a=1/e$，故$g(a)$的最大值为0。",
+            "standardAnswer": "0",
+            "scoringCriteria": "该问总分6分，由$f'(x₀)=0$求出a的表达式并代入$f(x₀)$化简得2分，构造函数$h(x)$并正确求导得1分，分析$h(x)$的单调性得1分，求出$h(x)$的最大值得1分，验证对应的a值并得出$g(a)$的最大值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=a(x-1) e^{x}-\\ln x$, where $a>0$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If the tangent line of the curve $y=f(x)$ at the point $(1, f(1))$ passes through the point (2, 2), find the value of a;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$, we get $f'(x)=axe^x - 1/x$;\\n2. Calculate $f(1)=0$, $f'(1)=ae - 1$, that is, the slope of the tangent line of the curve at the point (1,f(1)) is ae-1;\\n3. Write the tangent line equation as $y=(ae-1)(x-1)$;\\n4. Substitute the point (2,2) into the tangent line equation, we get 2=(ae-1)(2-1), and solve to get a=3/e.",
+            "standardAnswer": "$a=\\frac{3}{e}$",
+            "scoringCriteria": "This sub-question has a total of 4 points. 1 point for correctly finding the derivative to get $f'(x)$, 1 point for calculating the value of $f(1)$ and 1 point for $f'(1)$ respectively, and 1 point for substituting the coordinates of the point to solve the correct value of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Prove that the function $f(x)$ has a local minimum value;",
+            "solutionSteps": "1. Determine the domain of the function $f(x)$ is $(0, +\\infty)$, and transform $f'(x)$ by common denominator into $f'(x)=(ax²e^x - 1)/x$;\\n2. Let $m(x)=ax²e^x - 1$, find the derivative to get $m'(x)=a(x²+2x)e^x$. Since x>0 and a>0, we have $m'(x)>0$, so $m(x)$ is monotonically increasing on $(0, +\\infty)$;\\n3. Analyze the value of $m(x)$: $m(0)=-1<0$, $m(1/√a)=e^(1/√a)-1>0$;\\n4. According to the Zero Existence Theorem, there exists a unique $x₀∈(0, 1/√a)$ such that $m(x₀)=0$, that is $f'(x₀)=0$;\\n5. Analyze the sign of $f'(x)$: when x∈(0,x₀), $f'(x)<0$, $f(x)$ is monotonically decreasing; when x∈(x₀,+∞), $f'(x)>0$, $f(x)$ is monotonically increasing;\\n6. Therefore, when x=x₀, $f(x)$ attains a local minimum value, that is, the function $f(x)$ has a local minimum value.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 5 points. 1 point for correctly transforming $f'(x)$ and constructing the function $m(x)$, 1 point for finding the derivative and judging the monotonicity of $m(x)$, 1 point for analyzing the positive and negative values of $m(x)$ and using the Zero Existence Theorem to get the unique zero point, 1 point for correctly analyzing the sign of $f'(x)$ and the monotonicity of $f(x)$, and 1 point for drawing the conclusion that the function has a local minimum value.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) Denote the minimum value of the function $f(x)$ as $g(a)$, find the maximum value of $g(a)$.",
+            "solutionSteps": "1. From (Ⅱ), we know $f(x)_{min}=f(x₀)=g(a)$, and from $f'(x₀)=0$, we get $a=1/(e^x₀ x₀²)$;\\n2. Substitute a into $f(x₀)$ and simplify to get $g(a)=f(x₀)=(x₀-1)/x₀² - lnx₀$;\\n3. Let $h(x)=(x-1)/x² - lnx(x>0)$, find the derivative to get $h'(x)=-(x+2)(x-1)/x³$;\\n4. Analyze the sign of $h'(x)$: when x∈(0,1), $h'(x)>0$, $h(x)$ is monotonically increasing; when x∈(1,+∞), $h'(x)<0$, $h(x)$ is monotonically decreasing;\\n5. Therefore, $h(x)$ attains a local maximum value which is also the maximum value at x=1, and $h(1)=0$;\\n6. Verify that when x₀=1, $a=1/e$, so the maximum value of $g(a)$ is 0.",
+            "standardAnswer": "0",
+            "scoringCriteria": "This sub-question has a total of 6 points. 2 points for finding the expression of a from $f'(x₀)=0$ and substituting it into $f(x₀)$ for simplification, 1 point for constructing the function $h(x)$ and correctly finding its derivative, 1 point for analyzing the monotonicity of $h(x)$, 1 point for finding the maximum value of $h(x)$, and 1 point for verifying the corresponding value of a and drawing the maximum value of $g(a)$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知$N(N ≥3)$项数列$A: a_{1}, a_{2}, \\cdots, a_{N}$，对于给定$i(i=1,2, \\cdots, N)$，定义变换$f_{i}$：将数列 A 中的项$a_{i}$替换为 t，其余项均保持不变，记得到的新数列为$f_{i}(A)$。其中，当$i=1$时，$t=\\frac{a_{1}+a_{2}}{2}$；当$2 ≤i ≤N-1$时，$t=\\frac{a_{i-1}+a_{i}+a_{i+1}}{3}$；当$i=N$时，$t=\\frac{a_{N-1}+a_{N}}{2}$。若将数列$f_{i}(A)$再进行上述变换$f_{j}(j=1,2, \\cdots, N)$，记得到的新数列为$f_{j} f_{i}(A), \\cdots$，重复操作，得到数列$f_{k} \\cdots f_{j} f_{i}(A)(k=1,2, \\cdots, N)$，并称$f_{i}$为第一次 f 变换，$f_{j}$为第二次 f 变换，…。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若数列A：1，-1，3，-4，求数列$f_{2}(A)$和$f_{1} f_{2} f_{2}(A)$；",
+            "solutionSteps": "1. 求$f_{2}(A)$：i=2属于2≤i≤N-1，t=(a₁+a₂+a₃)/3=(1-1+3)/3=1，将a₂替换为1，得$f_{2}(A)$：1，1，3，-4；\\n2. 求$f_{2}f_{2}(A)$：对$f_{2}(A)$再次进行$f_{2}$变换，t=(1+1+3)/3=5/3，将第二项替换为5/3，得$f_{2}f_{2}(A)$：1，5/3，3，-4；\\n3. 求$f_{1}f_{2}f_{2}(A)$：对$f_{2}f_{2}(A)$进行$f_{1}$变换，i=1，t=(a₁+a₂)/2=(1+5/3)/2=4/3，将第一项替换为4/3，得到最终数列。",
+            "standardAnswer": "$f_{2}(A)$：1，1，3，-4；$f_{1} f_{2} f_{2}(A)$：$\\frac{4}{3}$，$\\frac{5}{3}$，3，-4",
+            "scoringCriteria": "该问总分3分，正确求出$f_{2}(A)$得1分，正确求出$f_{2}f_{2}(A)$得1分，正确求出$f_{1}f_{2}f_{2}(A)$得1分，某一步计算错误则对应步骤不得分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）设A为递增数列，对A进行有限次 f 变换后得到数列 B，证明：B 为递增数列；",
+            "solutionSteps": "1. 分三种情况讨论f变换：\\n① 进行$f_{1}$变换：将a₁替换为(a₁+a₂)/2，由A是递增数列得a₁<a₂，故a₁<(a₁+a₂)/2<a₂，其余项不变，故$f_{1}(A)$仍为递增数列；\\n② 进行$f_{i}(2≤i≤N-1)$变换：将aᵢ替换为(aᵢ₋₁+aᵢ+aᵢ₊₁)/3，由A是递增数列得aᵢ₋₁<aᵢ<aᵢ₊₁，故aᵢ₋₁<(aᵢ₋₁+aᵢ+aᵢ₊₁)/3<aᵢ₊₁，其余项不变，故$f_{i}(A)$仍为递增数列；\\n③ 进行$f_{N}$变换：将a_N替换为(a_N₋₁+a_N)/2，由A是递增数列得a_N₋₁<a_N，故a_N₋₁<(a_N₋₁+a_N)/2<a_N，其余项不变，故$f_{N}(A)$仍为递增数列；\\n2. 综上，单次f变换后数列仍为递增数列，以此类推，有限次f变换后得到的数列B仍为递增数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问总分6分，分三种情况讨论f变换各得1分，每种情况下正确利用递增数列的性质分析替换后项的大小关系各得1分，最后归纳得出有限次变换后数列仍为递增数列的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）当第$m(m \\in N^{*})$次 f 变换前后两个数列的首项乘积为负数时，令$\\omega_{m}=1$；否则$\\omega_{m}=0$。对于给定的 N 项数列 A，进行2025 次 f 变换，证明：$\\omega_{1}+\\omega_{2}+\\cdots+\\omega_{2025} ≤N-1$。",
+            "solutionSteps": "1. 记数列A去除0项后为A'，$f_{i}(A)$去除0项后为$f_{i}'(A)$，设A'中相邻两项乘积为负的有S对，$0≤S≤N-1$；\\n2. 分析单次f变换后S的变化：对任意$f_{i}$变换，变换后$f_{i}'(A)$中相邻两项乘积为负的对数S'满足$0≤S'≤S$，即不会增加；\\n3. 分析$\\omega_m=1$的条件：第m次变换前后首项乘积为负，即首项正负号改变，该变换必为$f_{1}$变换，且变换前首项与第二项异号，此时S'=S-1，即相邻异号对数减少1；\\n4. 由于初始S≤N-1，每次$\\omega_m=1$都会使S减少1，且S非负，故首项正负号改变的次数最多为N-1次；\\n5. 因此，2025次变换中$\\omega_m=1$的次数之和不超过N-1，即$\\omega_{1}+\\omega_{2}+\\cdots+\\omega_{2025} ≤N-1$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问总分6分，正确定义去除0项后的数列并设相邻异号对数S得1分，分析单次f变换后S不增加得2分，分析$\\omega_m=1$的条件及对应S的变化得2分，最后归纳得出不等式成立的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given an N-term sequence $A: a_{1}, a_{2}, \\cdots, a_{N}$ ($N ≥3$), for a given $i(i=1,2, \\cdots, N)$, the transformation $f_{i}$ is defined as follows: replace the term $a_{i}$ in sequence A with t, and keep the other terms unchanged, denote the new sequence obtained as $f_{i}(A)$. Among them, when $i=1$, $t=\\frac{a_{1}+a_{2}}{2}$; when $2 ≤i ≤N-1$, $t=\\frac{a_{i-1}+a_{i}+a_{i+1}}{3}$; when $i=N$, $t=\\frac{a_{N-1}+a_{N}}{2}$. If the sequence $f_{i}(A)$ is further subjected to the above transformation $f_{j}(j=1,2, \\cdots, N)$, denote the new sequence obtained as $f_{j} f_{i}(A), \\cdots$, repeat the operation to get the sequence $f_{k} \\cdots f_{j} f_{i}(A)(k=1,2, \\cdots, N)$, and call $f_{i}$ the first f-transformation, $f_{j}$ the second f-transformation, and so on.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If the sequence A is: 1, -1, 3, -4, find the sequences $f_{2}(A)$ and $f_{1} f_{2} f_{2}(A)$;",
+            "solutionSteps": "1. Find $f_{2}(A)$: i=2 belongs to 2≤i≤N-1, t=(a₁+a₂+a₃)/3=(1-1+3)/3=1, replace a₂ with 1, we get $f_{2}(A)$: 1, 1, 3, -4;\\n2. Find $f_{2}f_{2}(A)$: perform the $f_{2}$ transformation on $f_{2}(A)$ again, t=(1+1+3)/3=5/3, replace the second term with 5/3, we get $f_{2}f_{2}(A)$: 1, 5/3, 3, -4;\\n3. Find $f_{1}f_{2}f_{2}(A)$: perform the $f_{1}$ transformation on $f_{2}f_{2}(A)$, i=1, t=(a₁+a₂)/2=(1+5/3)/2=4/3, replace the first term with 4/3 to get the final sequence.",
+            "standardAnswer": "$f_{2}(A)$: 1, 1, 3, -4; $f_{1} f_{2} f_{2}(A)$: $\\frac{4}{3}$, $\\frac{5}{3}$, 3, -4",
+            "scoringCriteria": "This sub-question has a total of 3 points. 1 point for correctly finding $f_{2}(A)$, 1 point for correctly finding $f_{2}f_{2}(A)$, and 1 point for correctly finding $f_{1}f_{2}f_{2}(A)$. No points are given for the corresponding step if there is a calculation error in a certain step.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) Let A be an increasing sequence, and the sequence B is obtained after performing a finite number of f-transformations on A, prove that B is an increasing sequence;",
+            "solutionSteps": "1. Discuss the f-transformation in three cases: \\n① Perform the $f_{1}$ transformation: replace a₁ with (a₁+a₂)/2. Since A is an increasing sequence, we have a₁<a₂, so a₁<(a₁+a₂)/2<a₂, the other terms remain unchanged, so $f_{1}(A)$ is still an increasing sequence;\\n② Perform the $f_{i}(2≤i≤N-1)$ transformation: replace aᵢ with (aᵢ₋₁+aᵢ+aᵢ₊₁)/3. Since A is an increasing sequence, we have aᵢ₋₁<aᵢ<aᵢ₊₁, so aᵢ₋₁<(aᵢ₋₁+aᵢ+aᵢ₊₁)/3<aᵢ₊₁, the other terms remain unchanged, so $f_{i}(A)$ is still an increasing sequence;\\n③ Perform the $f_{N}$ transformation: replace a_N with (a_N₋₁+a_N)/2. Since A is an increasing sequence, we have a_N₋₁<a_N, so a_N₋₁<(a_N₋₁+a_N)/2<a_N, the other terms remain unchanged, so $f_{N}(A)$ is still an increasing sequence;\\n2. In summary, the sequence is still an increasing sequence after a single f-transformation, and by analogy, the sequence B obtained after a finite number of f-transformations is still an increasing sequence.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 6 points. 1 point for discussing the f-transformation in three cases respectively, 1 point for correctly analyzing the size relationship of the replaced term by using the properties of the increasing sequence in each case, and 1 point for finally inducing the conclusion that the sequence is still an increasing sequence after a finite number of transformations.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) When the product of the first terms of the two sequences before and after the m-th ($m \\in N^{*}$) f-transformation is negative, let $\\omega_{m}=1$; otherwise, let $\\omega_{m}=0$. For a given N-term sequence A, perform 2025 f-transformations, prove that $\\omega_{1}+\\omega_{2}+\\cdots+\\omega_{2025} ≤N-1$.",
+            "solutionSteps": "1. Denote the sequence A with zero terms removed as A', and $f_{i}(A)$ with zero terms removed as $f_{i}'(A)$. Let S be the number of pairs of adjacent terms with negative product in A', and $0≤S≤N-1$;\\n2. Analyze the change of S after a single f-transformation: for any $f_{i}$ transformation, the number S' of pairs of adjacent terms with negative product in $f_{i}'(A)$ after the transformation satisfies $0≤S'≤S$, that is, it will not increase;\\n3. Analyze the condition for $\\omega_m=1$: the product of the first terms before and after the m-th transformation is negative, that is, the sign of the first term changes. This transformation must be the $f_{1}$ transformation, and the first term and the second term are of different signs before the transformation. At this time, S'=S-1, that is, the number of pairs of adjacent terms with different signs decreases by 1;\\n4. Since the initial S≤N-1, each time $\\omega_m=1$ will reduce S by 1, and S is non-negative, so the number of sign changes of the first term is at most N-1 times;\\n5. Therefore, the sum of the number of times $\\omega_m=1$ in 2025 transformations does not exceed N-1, that is, $\\omega_{1}+\\omega_{2}+\\cdots+\\omega_{2025} ≤N-1$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 6 points. 1 point for correctly defining the sequence with zero terms removed and setting the number S of pairs of adjacent terms with different signs, 2 points for analyzing that S does not increase after a single f-transformation, 2 points for analyzing the condition for $\\omega_m=1$ and the corresponding change of S, and 1 point for finally inducing the conclusion that the inequality holds.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

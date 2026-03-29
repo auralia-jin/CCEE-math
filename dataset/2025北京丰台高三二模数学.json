@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2025 Beijing Fengtai Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "为调查某校学生户外活动时长和视力的关系，某研究小组在该校随机选取了100名学生，记录他们的日均户外活动时长(单位:小时)及近视情况，统计得到:日均户外活动时长在区间[0,1)内有70人，近视率为80%；日均户外活动时长在区间[1,2)内有20人，近视率为40%；日均户外活动时长在区间[2,3]内有10人，近视率为20%。注：近视率是指某区间内近视人数与该区间内人数的比值。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）估计该校日均户外活动时长不低于1小时的学生的近视率；",
+            "solutionSteps": "1. 计算样本中日均户外活动时长不低于1小时的学生总数：20+10=30人；\\n2. 计算该群体中近视的学生数：20×0.4+10×0.2=10人；\\n3. 计算近视率：近视人数÷总人数=10÷30=1/3。",
+            "standardAnswer": "$\\\\frac{1}{3}$",
+            "scoringCriteria": "第一问，正确计算出不低于1小时的学生总数得1分；正确计算出该群体近视学生数得2分；正确计算出近视率并化简得1分，共4分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）用频率估计概率。从该校日均户外活动时长低于1小时的学生和不低于1小时的学生中各随机选取2名，求这4名学生中恰有2名近视的概率；",
+            "solutionSteps": "1. 确定两类学生的近视概率：低于1小时的近视概率为4/5，不低于1小时的近视概率为1/3；\\n2. 分析恰有2名近视的三种情况：①低于1小时2名近视且不低于1小时0名近视；②低于1小时1名近视且不低于1小时1名近视；③低于1小时0名近视且不低于1小时2名近视；\\n3. 分别计算三种情况的概率：①$(\\\\frac{4}{5})^2×(1-\\\\frac{1}{3})^2$，②$C_2^1×\\\\frac{4}{5}×(1-\\\\frac{4}{5})×C_2^1×\\\\frac{1}{3}×(1-\\\\frac{1}{3})$，③$(1-\\\\frac{4}{5})^2×(\\\\frac{1}{3})^2$；\\n4. 求和得到总概率：$\\\\frac{16}{25}×\\\\frac{4}{9}+2×\\\\frac{4}{5}×\\\\frac{1}{5}×2×\\\\frac{1}{3}×\\\\frac{2}{3}+\\\\frac{1}{25}×\\\\frac{1}{9}=\\\\frac{97}{225}$。",
+            "standardAnswer": "$\\\\frac{97}{225}$",
+            "scoringCriteria": "第二问，正确确定两类学生的近视概率得2分；正确列出恰有2名近视的三种情况得2分；正确计算每种情况的概率各1分，共3分；正确求和得到最终概率得2分，共7分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）为响应国家降低青少年近视率的号召，该校提出“护眼有妙招，科学动起来”的口号，计划在以下2项措施中选择1项实施。措施一：每日给全校学生增设0.5小时晨跑活动；措施二：每日给日均户外活动时长低于1小时的学生增设1小时户外活动。假设所有学生都能按要求参加相应活动，记采取措施一后该校全体学生的日均户外活动时长的平均值为$\\\\bar{x}$，采取措施二后该校全体学生的日均户外活动时长的平均值为$\\\\bar{y}$。用样本估计总体，试比较$\\\\bar{x}$与$\\\\bar{y}$的大小。(结论不要求证明)",
+            "solutionSteps": "根据样本数据，分别分析两项措施对日均户外活动时长平均值的影响，直接得出大小关系。",
+            "standardAnswer": "$\\\\bar{x}<\\\\bar{y}$",
+            "scoringCriteria": "第三问，正确写出$\\\\bar{x}$与$\\\\bar{y}$的大小关系得2分，共2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "To investigate the relationship between students' outdoor activity duration and eyesight in a school, a research group randomly selected 100 students in the school, recorded their average daily outdoor activity duration (unit: hours) and myopia status, and obtained the statistics: there are 70 students with average daily outdoor activity duration in the interval [0,1), with a myopia rate of 80%; there are 20 students with average daily outdoor activity duration in the interval [1,2), with a myopia rate of 40%; there are 10 students with average daily outdoor activity duration in the interval [2,3], with a myopia rate of 20%. Note: The myopia rate refers to the ratio of the number of myopic students to the total number of students in a certain interval.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Estimate the myopia rate of students in the school whose average daily outdoor activity duration is not less than 1 hour;",
+            "solutionSteps": "1. Calculate the total number of students with average daily outdoor activity duration not less than 1 hour in the sample: 20+10=30 students;\\n2. Calculate the number of myopic students in this group: 20×0.4+10×0.2=10 students;\\n3. Calculate the myopia rate: number of myopic students ÷ total number of students = 10÷30=1/3.",
+            "standardAnswer": "$\\\\frac{1}{3}$",
+            "scoringCriteria": "For Question (Ⅰ), 1 point for correctly calculating the total number of students with outdoor activity duration not less than 1 hour; 2 points for correctly calculating the number of myopic students in this group; 1 point for correctly calculating and simplifying the myopia rate, total 4 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Estimate the probability by frequency. Randomly select 2 students from the students with average daily outdoor activity duration less than 1 hour and 2 students from those with average daily outdoor activity duration not less than 1 hour respectively, find the probability that exactly 2 of these 4 students are myopic;",
+            "solutionSteps": "1. Determine the myopia probability of the two types of students: the myopia probability of students with outdoor activity duration less than 1 hour is 4/5, and that of students with outdoor activity duration not less than 1 hour is 1/3;\\n2. Analyze the three cases of exactly 2 myopic students: ① 2 myopic students in the group with less than 1 hour and 0 myopic students in the group with not less than 1 hour; ② 1 myopic student in the group with less than 1 hour and 1 myopic student in the group with not less than 1 hour; ③ 0 myopic students in the group with less than 1 hour and 2 myopic students in the group with not less than 1 hour;\\n3. Calculate the probability of each of the three cases separately: ①$(\\\\frac{4}{5})^2×(1-\\\\frac{1}{3})^2$, ②$C_2^1×\\\\frac{4}{5}×(1-\\\\frac{4}{5})×C_2^1×\\\\frac{1}{3}×(1-\\\\frac{1}{3})$, ③$(1-\\\\frac{4}{5})^2×(\\\\frac{1}{3})^2$;\\n4. Sum up to get the total probability: $\\\\frac{16}{25}×\\\\frac{4}{9}+2×\\\\frac{4}{5}×\\\\frac{1}{5}×2×\\\\frac{1}{3}×\\\\frac{2}{3}+\\\\frac{1}{25}×\\\\frac{1}{9}=\\\\frac{97}{225}$.",
+            "standardAnswer": "$\\\\frac{97}{225}$",
+            "scoringCriteria": "For Question (Ⅱ), 2 points for correctly determining the myopia probability of the two types of students; 2 points for correctly listing the three cases of exactly 2 myopic students; 1 point for correctly calculating the probability of each case, total 3 points; 2 points for correctly summing up to get the final probability, total 7 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) In response to the national call to reduce the myopia rate of teenagers, the school put forward the slogan \"There are clever ways to protect eyes, move scientifically\". It plans to choose 1 of the following 2 measures to implement. Measure 1: Add 0.5 hours of morning running activity for all students in the school every day; Measure 2: Add 1 hour of outdoor activity for students with average daily outdoor activity duration less than 1 hour every day. Assume all students can participate in the corresponding activities as required, denote the average value of the average daily outdoor activity duration of all students in the school after taking Measure 1 as $\\\\bar{x}$, and the average value after taking Measure 2 as $\\\\bar{y}$. Estimate the population with the sample, and compare the sizes of $\\\\bar{x}$ and $\\\\bar{y}$. (No proof is required for the conclusion)",
+            "solutionSteps": "According to the sample data, analyze the impact of the two measures on the average value of the average daily outdoor activity duration respectively, and directly draw the size relationship.",
+            "standardAnswer": "$\\\\bar{x}<\\\\bar{y}$",
+            "scoringCriteria": "For Question (Ⅲ), 2 points for correctly writing the size relationship between $\\\\bar{x}$ and $\\\\bar{y}$, total 2 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）已知椭圆 $E: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的左顶点为 $A(-2,0)$，焦距为 $2\\\\sqrt{2}$，求椭圆 E 的方程；",
+            "solutionSteps": "1. 由椭圆左顶点为A(-2,0)得a=2；\\n2. 由焦距2c=2√2得c=√2；\\n3. 根据椭圆中a²=b²+c²，计算b²=a²-c²=4-2=2；\\n4. 代入椭圆标准方程得$\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1$。",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1$",
+            "scoringCriteria": "第一问，由左顶点正确得出a=2得1分；由焦距正确得出c=√2得1分；正确运用a²=b²+c²公式得1分；正确计算出b²并写出椭圆方程得2分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设 O 为原点，过点 A 且斜率为 k 的直线 l 与椭圆 E 的另一个交点为 T，线段 $AT$ 的垂直平分线与 x 轴交于点 M，与 y 轴交于点 N。过点 $P(1,0)$ 且与l平行的直线与 y 轴交于点 Q。若 $\\\\triangle O M N$ 与 $\\\\triangle N P Q$ 的面积之比为4:3，求 k 的值。",
+            "solutionSteps": "1. 写出直线l的方程：y=k(x+2)(k≠0)；\\n2. 联立椭圆与直线l的方程：$\\\\begin{cases}\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1 \\\\ y=k(x+2)\\end{cases}$，消元得(1+2k²)x²+8k²x+8k²-4=0；\\n3. 利用韦达定理求T点坐标：x₀=(-4k²+2)/(1+2k²)，y₀=4k/(1+2k²)，即T($\\\\frac{-4k^2+2}{1+2k^2}, \\\\frac{4k}{1+2k^2}$)；\\n4. 求AT中点坐标：($\\\\frac{-4k^2}{1+2k^2}, \\\\frac{2k}{1+2k^2}$)，写出AT垂直平分线方程：$y-\\\\frac{2k}{1+2k^2}=-\\\\frac{1}{k}(x+\\\\frac{4k^2}{1+2k^2})$；\\n5. 求M、N点坐标：令y=0得M($\\\\frac{-2k^2}{1+2k^2},0$)，令x=0得N($0, \\\\frac{-2k}{1+2k^2}$)；\\n6. 写出过P(1,0)且与l平行的直线方程：y=k(x-1)，求Q点坐标：Q(0,-k)；\\n7. 分别计算两个三角形的面积：$S_{\\\\triangle OMN}=\\\\frac{1}{2}\\\\left|\\\\frac{4k^3}{(1+2k^2)^2}\\\\right|$，$S_{\\\\triangle NPQ}=\\\\frac{1}{2}\\\\left|\\\\frac{k(2k^2-1)}{1+2k^2}\\\\right|$；\\n8. 根据面积比4:3列方程：$\\\\frac{|4k^3/(1+2k^2)^2|}{|k(2k^2-1)/(1+2k^2)|}=\\\\frac{4}{3}$，化简得3k²=|4k⁴-1|；\\n9. 分情况求解：①4k⁴>1时，4k⁴-3k²-1=0，解得k²=1，k=±1；②4k⁴≤1时，4k⁴+3k²-1=0，解得k²=1/4，k=±1/2；\\n10. 综上，k=±1或±1/2。",
+            "standardAnswer": "$k=\\\\pm1$ 或 $k=\\\\pm\\\\frac{1}{2}$",
+            "scoringCriteria": "第二问，正确写出直线l方程得1分；联立方程并正确消元得2分；利用韦达定理正确求出T点坐标得2分；正确求出AT中点及垂直平分线方程得2分；正确求出M、N、Q点坐标各1分，共3分；正确写出两个三角形面积表达式得2分；根据面积比列方程并正确化简得2分；分情况求解并得出所有k值得3分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Given that the left vertex of the ellipse $E: \\\\frac{x^{2}}{a^{2}}+\\\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $A(-2,0)$ and the focal length is $2\\\\sqrt{2}$, find the equation of the ellipse E;",
+            "solutionSteps": "1. Obtain a=2 from the left vertex A(-2,0) of the ellipse;\\n2. Obtain c=√2 from the focal length 2c=2√2;\\n3. Calculate b²=a²-c²=4-2=2 according to the formula a²=b²+c² in the ellipse;\\n4. Substitute into the standard equation of the ellipse to get $\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1$.",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1$",
+            "scoringCriteria": "For Question (Ⅰ), 1 point for correctly obtaining a=2 from the left vertex; 1 point for correctly obtaining c=√2 from the focal length; 1 point for correctly applying the formula a²=b²+c²; 2 points for correctly calculating b² and writing the ellipse equation, total 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let O be the origin, the straight line l passing through point A with slope k intersects the ellipse E at another point T. The perpendicular bisector of the line segment $AT$ intersects the x-axis at point M and the y-axis at point N. The straight line passing through point $P(1,0)$ and parallel to l intersects the y-axis at point Q. If the area ratio of $\\\\triangle O M N$ to $\\\\triangle N P Q$ is 4:3, find the value of k.",
+            "solutionSteps": "1. Write the equation of the straight line l: y=k(x+2)(k≠0);\\n2. Simultaneously solve the equations of the ellipse and the straight line l: $\\\\begin{cases}\\\\frac{x^2}{4}+\\\\frac{y^2}{2}=1 \\\\ y=k(x+2)\\end{cases}$, eliminate y to get (1+2k²)x²+8k²x+8k²-4=0;\\n3. Find the coordinates of point T using Vieta's formulas: x₀=(-4k²+2)/(1+2k²), y₀=4k/(1+2k²), that is T($\\\\frac{-4k^2+2}{1+2k^2}, \\\\frac{4k}{1+2k^2}$);\\n4. Find the coordinates of the midpoint of AT: ($\\\\frac{-4k^2}{1+2k^2}, \\\\frac{2k}{1+2k^2}$), write the equation of the perpendicular bisector of AT: $y-\\\\frac{2k}{1+2k^2}=-\\\\frac{1}{k}(x+\\\\frac{4k^2}{1+2k^2})$;\\n5. Find the coordinates of points M and N: let y=0 to get M($\\\\frac{-2k^2}{1+2k^2},0$), let x=0 to get N($0, \\\\frac{-2k}{1+2k^2}$);\\n6. Write the equation of the straight line passing through P(1,0) and parallel to l: y=k(x-1), find the coordinates of point Q: Q(0,-k);\\n7. Calculate the areas of the two triangles respectively: $S_{\\\\triangle OMN}=\\\\frac{1}{2}\\\\left|\\\\frac{4k^3}{(1+2k^2)^2}\\\\right|$, $S_{\\\\triangle NPQ}=\\\\frac{1}{2}\\\\left|\\\\frac{k(2k^2-1)}{1+2k^2}\\\\right|$;\\n8. Set up the equation according to the area ratio 4:3: $\\\\frac{|4k^3/(1+2k^2)^2|}{|k(2k^2-1)/(1+2k^2)|}=\\\\frac{4}{3}$, simplify to get 3k²=|4k⁴-1|;\\n9. Solve by cases: ① When 4k⁴>1, 4k⁴-3k²-1=0, solve to get k²=1, k=±1; ② When 4k⁴≤1, 4k⁴+3k²-1=0, solve to get k²=1/4, k=±1/2;\\n10. In conclusion, k=±1 or ±1/2.",
+            "standardAnswer": "$k=\\\\pm1$ or $k=\\\\pm\\\\frac{1}{2}$",
+            "scoringCriteria": "For Question (Ⅱ), 1 point for correctly writing the equation of the straight line l; 2 points for simultaneously solving the equations and eliminating the variable correctly; 2 points for correctly finding the coordinates of point T using Vieta's formulas; 2 points for correctly finding the midpoint of AT and the equation of the perpendicular bisector; 1 point for correctly finding the coordinates of each of points M, N and Q, total 3 points; 2 points for correctly writing the area expressions of the two triangles; 2 points for setting up the equation according to the area ratio and simplifying it correctly; 3 points for solving by cases and obtaining all values of k, total 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）已知函数 $f(x)=(x^{3}+2 x^{2}) e^{a x+b}(a, b \\in R)$ 在点 $(-1, f(-1))$ 处的切线方程为 $y=1$，求a，b的值；",
+            "solutionSteps": "1. 求函数f(x)的导数：$f'(x)=[ax^3+(2a+3)x^2+4x]e^{ax+b}$；\\n2. 根据切线方程得出条件：切线斜率为0即f'(-1)=0，且f(-1)=1；\\n3. 代入x=-1列方程组：$\\\\begin{cases}(a-1)e^{-a+b}=0 \\\\ e^{-a+b}=1\\end{cases}$；\\n4. 解方程组：由e^(-a+b)=1得-a+b=0，结合a-1=0得a=1，b=1。",
+            "standardAnswer": "$a=1$，$b=1$",
+            "scoringCriteria": "第一问，正确求出f(x)的导数得2分；根据切线方程正确列出f'(-1)=0和f(-1)=1的条件得1分；正确代入列出方程组得1分；正确解出a和b的值得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）求 $f(x)$ 的单调区间；",
+            "solutionSteps": "1. 由(Ⅰ)得f(x)=$(x^3+2x^2)e^{x+1}$，f'(x)=$(x^3+5x^2+4x)e^{x+1}=x(x+1)(x+4)e^{x+1}$；\\n2. 令f'(x)=0，解得零点x=-4，x=-1，x=0；\\n3. 分析f'(x)在各区间的符号：\\n   - x∈(-∞,-4)时，f'(x)<0，f(x)单调递减；\\n   - x∈(-4,-1)时，f'(x)>0，f(x)单调递增；\\n   - x∈(-1,0)时，f'(x)<0，f(x)单调递减；\\n   - x∈(0,+∞)时，f'(x)>0，f(x)单调递增；\\n4. 总结f(x)的单调区间。",
+            "standardAnswer": "单调递增区间为$(-4,-1)$，$(0,+\\\\infty)$；单调递减区间为$(-\\\\infty,-4)$，$(-1,0)$",
+            "scoringCriteria": "第二问，正确求出f(x)和f'(x)的表达式得2分；正确求出f'(x)的零点得1分；正确分析f'(x)在各区间的符号得3分；正确总结单调区间得1分，共6分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）若 $f(x) \\leqslant -x^{2}-2 x$，求 x 的取值范围。",
+            "solutionSteps": "1. 构造函数g(x)=f(x)-(-x²-2x)=$(x^3+2x^2)e^{x+1}+x^2+2x=(x^2+2x)(xe^{x+1}+1)$；\\n2. 令h(x)=xe^{x+1}+1，求其导数h'(x)=(x+1)e^{x+1}；\\n3. 分析h(x)的单调性和最值：\\n   - x>-1时，h'(x)>0，h(x)单调递增，h(x)>h(-1)=0；\\n   - x<-1时，h'(x)<0，h(x)单调递减，h(x)>h(-1)=0；\\n   故h(x)≥0恒成立，且仅当x=-1时h(x)=0；\\n4. 由g(x)≤0结合h(x)≥0，得x²+2x≤0；\\n5. 解不等式x²+2x≤0，得-2≤x≤0，验证x=-1时也满足条件。",
+            "standardAnswer": "$[-2,0]$",
+            "scoringCriteria": "第三问，正确构造函数g(x)并因式分解得2分；正确构造h(x)并求导得1分；正确分析h(x)的单调性和恒正性得1分；根据g(x)≤0转化为解x²+2x≤0得1分；正确求出x的取值范围得1分，共6分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Given that the tangent equation of the function $f(x)=(x^{3}+2 x^{2}) e^{a x+b}(a, b \\in R)$ at the point $(-1, f(-1))$ is $y=1$, find the values of a and b;",
+            "solutionSteps": "1. Find the derivative of the function f(x): $f'(x)=[ax^3+(2a+3)x^2+4x]e^{ax+b}$；\\n2. Derive the conditions according to the tangent equation: the slope of the tangent is 0, that is f'(-1)=0, and f(-1)=1；\\n3. Substitute x=-1 to set up the system of equations: $\\\\begin{cases}(a-1)e^{-a+b}=0 \\\\ e^{-a+b}=1\\end{cases}$；\\n4. Solve the system of equations: get -a+b=0 from e^(-a+b)=1, and combine with a-1=0 to get a=1, b=1.",
+            "standardAnswer": "$a=1$, $b=1$",
+            "scoringCriteria": "For Question (Ⅰ), 2 points for correctly finding the derivative of f(x); 1 point for correctly listing the conditions f'(-1)=0 and f(-1)=1 according to the tangent equation; 1 point for correctly substituting to set up the system of equations; 1 point for correctly solving the values of a and b, total 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Find the monotonic intervals of $f(x)$;",
+            "solutionSteps": "1. Obtain f(x)=$(x^3+2x^2)e^{x+1}$ and f'(x)=$(x^3+5x^2+4x)e^{x+1}=x(x+1)(x+4)e^{x+1}$ from (Ⅰ);\\n2. Let f'(x)=0 and solve for the zero points x=-4, x=-1, x=0;\\n3. Analyze the sign of f'(x) in each interval: \\n   - When x∈(-∞,-4), f'(x)<0, f(x) is monotonically decreasing;\\n   - When x∈(-4,-1), f'(x)>0, f(x) is monotonically increasing;\\n   - When x∈(-1,0), f'(x)<0, f(x) is monotonically decreasing;\\n   - When x∈(0,+∞), f'(x)>0, f(x) is monotonically increasing;\\n4. Summarize the monotonic intervals of f(x).",
+            "standardAnswer": "The monotonically increasing intervals are $(-4,-1)$ and $(0,+\\\\infty)$; the monotonically decreasing intervals are $(-\\\\infty,-4)$ and $(-1,0)$",
+            "scoringCriteria": "For Question (Ⅱ), 2 points for correctly finding the expressions of f(x) and f'(x); 1 point for correctly finding the zero points of f'(x); 3 points for correctly analyzing the sign of f'(x) in each interval; 1 point for correctly summarizing the monotonic intervals, total 6 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) If $f(x) \\leqslant -x^{2}-2 x$, find the range of x.",
+            "solutionSteps": "1. Construct the function g(x)=f(x)-(-x²-2x)=$(x^3+2x^2)e^{x+1}+x^2+2x=(x^2+2x)(xe^{x+1}+1)$;\\n2. Let h(x)=xe^{x+1}+1 and find its derivative h'(x)=(x+1)e^{x+1};\\n3. Analyze the monotonicity and the minimum value of h(x):\\n   - When x>-1, h'(x)>0, h(x) is monotonically increasing, h(x)>h(-1)=0;\\n   - When x<-1, h'(x)<0, h(x) is monotonically decreasing, h(x)>h(-1)=0;\\n   Thus, h(x)≥0 holds for all x, and h(x)=0 only when x=-1;\\n4. From g(x)≤0 combined with h(x)≥0, we get x²+2x≤0;\\n5. Solve the inequality x²+2x≤0 to get -2≤x≤0, and verify that x=-1 also satisfies the condition.",
+            "standardAnswer": "$[-2,0]$",
+            "scoringCriteria": "For Question (Ⅲ), 2 points for correctly constructing the function g(x) and factoring it; 1 point for correctly constructing h(x) and finding its derivative; 1 point for correctly analyzing the monotonicity and non-negativity of h(x); 1 point for transforming g(x)≤0 into solving x²+2x≤0; 1 point for correctly finding the range of x, total 6 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设数列 ${a_{n}}$ 是 $1,2, \\cdots, n(n \\in N^{*})$ 的一个排列。由 ${a_{n}}$ 中连续 r 项组成的集合称作“${a_{n}}$ 的长为 r 的子列集”，其中 $1 ≤r ≤n$。任取不大于 n 的正整数 $s, t$，当 $s t ≥n$ 时，若数列 ${a_{n}}$ 的任意长为 s 的子列集 $B={b_{1}, b_{2}, \\cdots, b_{s}}$ 和数列 $1,2, \\cdots, n$ 的任意长为t的子列集 $C={c_{1}, c_{2}, \\cdots, c_{t}}$，都有 $B \\cap C ≠ø$，则称数列 ${a_{n}}$ 为“好数列”。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）判断下列数列是否为“好数列”：①1,3,5,2,4；②1,4,6,2,5,3。",
+            "solutionSteps": "1. 根据“好数列”的定义，验证数列①：任取s,t满足st≥5，检查任意长s的子列集B和任意长t的子列集C是否有交集，验证得满足条件，故①是好数列；\\n2. 验证数列②：存在s,t满足st≥6（如s=3,t=2），能找到无交集的长s子列集B和长t子列集C，故②不是好数列。",
+            "standardAnswer": "①是“好数列”；②不是“好数列”",
+            "scoringCriteria": "第一问，正确判断数列①为好数列并给出合理验证得2分；正确判断数列②为非好数列并给出合理验证得2分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）证明：由 $1,2, \\cdots, n$ 的排列构成的所有“好数列”中，存在首项不超过 $[\\\\frac{n+1}{2}]$ 的“好数列”（$[x]$ 表示不超过 x 的最大整数）；",
+            "solutionSteps": "1. 设${a_n}$是好数列，构造新数列${b_n}$，其中$b_i=n+1-a_i$，证明${b_n}$也是好数列：任取s,t满足st≥n，${a_n}$的任意长s子列集B和${1,2,\\dots,n}$的任意长t子列集C有交集，对应${b_n}$的子列集B'和C'也必有交集，故${b_n}$是好数列；\\n2. 设原数列首项为$a_1$，新数列首项为$b_1=n+1-a_1$，取$a_1$和$b_1$中较小者为m，则$m≤\\\\frac{n+1}{2}$，故$m≤[\\\\frac{n+1}{2}]$；\\n3. 因此${a_n}$和${b_n}$中必有一个首项不超过$[\\\\frac{n+1}{2}]$的好数列，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问，正确构造辅助数列${b_n}$并证明其为好数列得3分；正确分析$a_1$和$b_1$的大小关系并推出较小者不超过$[\\\\frac{n+1}{2}]$得2分；完整梳理证明逻辑得出结论得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若数列 ${a_{n}}$ 为“好数列”，求 n 的最大值。",
+            "solutionSteps": "1. 证明n≥8时不存在好数列，分两种情况：\\n   ①n=2m(m≥3)：假设存在好数列，由(Ⅱ)不妨设首项≤m，若首项=1，推出存在无交集的子列集矛盾；若首项k>1，推出子列集必含矛盾元素，故无好数列；\\n   ②n=2m+1(m≥4)：同理假设存在好数列，分首项=1和首项k>1两种情况，均推出矛盾，故无好数列；\\n2. 验证n=7时存在好数列：给出具体数列1,4,6,2,5,3,7，验证其满足“好数列”的定义；\\n3. 综上，n的最大值为7。",
+            "standardAnswer": "$7$",
+            "scoringCriteria": "第三问，正确分情况证明n≥8时不存在好数列得3分；给出n=7时的具体好数列并验证其满足定义得2分；正确得出n的最大值为7得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the sequence ${a_{n}}$ be a permutation of $1,2, \\cdots, n(n \\in N^{*})$. The set composed of consecutive r terms in ${a_{n}}$ is called \"the sub-sequence set of length r of ${a_{n}}$\", where $1 ≤r ≤n$. Take any positive integers $s, t$ not greater than n, when $s t ≥n$, if for any sub-sequence set $B={b_{1}, b_{2}, \\cdots, b_{s}}$ of length s of the sequence ${a_{n}}$ and any sub-sequence set $C={c_{1}, c_{2}, \\cdots, c_{t}}$ of length t of the sequence $1,2, \\cdots, n$, there is always $B \\cap C ≠ø$, then the sequence ${a_{n}}$ is called a \"good sequence\".",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Judge whether the following sequences are \"good sequences\": ①1,3,5,2,4; ②1,4,6,2,5,3.",
+            "solutionSteps": "1. Verify sequence ① according to the definition of a \"good sequence\": take any s,t satisfying st≥5, check whether any sub-sequence set B of length s and any sub-sequence set C of length t have an intersection, the verification shows that the condition is satisfied, so ① is a good sequence;\\n2. Verify sequence ②: there exist s,t satisfying st≥6 (e.g., s=3,t=2), and a sub-sequence set B of length s and a sub-sequence set C of length t with no intersection can be found, so ② is not a good sequence.",
+            "standardAnswer": "①is a \"good sequence\"; ②is not a \"good sequence\"",
+            "scoringCriteria": "For Question (Ⅰ), 2 points for correctly judging sequence ① as a good sequence and giving a reasonable verification; 2 points for correctly judging sequence ② as a non-good sequence and giving a reasonable verification, total 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) Prove that among all \"good sequences\" formed by permutations of $1,2, \\cdots, n$, there exists a \"good sequence\" whose first term is not more than $[\\\\frac{n+1}{2}]$ ($[x]$ denotes the greatest integer not exceeding x);",
+            "solutionSteps": "1. Let ${a_n}$ be a good sequence, construct a new sequence ${b_n}$ where $b_i=n+1-a_i$, prove that ${b_n}$ is also a good sequence: take any s,t satisfying st≥n, any sub-sequence set B of length s of ${a_n}$ and any sub-sequence set C of length t of ${1,2,\\dots,n}$ have an intersection, then the corresponding sub-sequence set B' and C' of ${b_n}$ must also have an intersection, so ${b_n}$ is a good sequence;\\n2. Let the first term of the original sequence be $a_1$ and the first term of the new sequence be $b_1=n+1-a_1$, take the smaller one of $a_1$ and $b_1$ as m, then $m≤\\\\frac{n+1}{2}$, so $m≤[\\\\frac{n+1}{2}]$;\\n3. Therefore, there must be a good sequence with the first term not more than $[\\\\frac{n+1}{2}]$ among ${a_n}$ and ${b_n}$, which is to be proved.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "For Question (Ⅱ), 3 points for correctly constructing the auxiliary sequence ${b_n}$ and proving it is a good sequence; 2 points for correctly analyzing the size relationship between $a_1$ and $b_1$ and deducing that the smaller one is not more than $[\\\\frac{n+1}{2}]$; 1 point for sorting out the proof logic completely and drawing the conclusion, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If the sequence ${a_{n}}$ is a \"good sequence\", find the maximum value of n.",
+            "solutionSteps": "1. Prove that there is no good sequence when n≥8, divided into two cases: \\n   ①n=2m(m≥3): Assume there exists a good sequence, by (Ⅱ) we may assume the first term ≤m, if the first term=1, a contradiction of non-intersecting sub-sequence sets is deduced; if the first term k>1, a contradiction of necessary contradictory elements in the sub-sequence sets is deduced, so there is no good sequence;\\n   ②n=2m+1(m≥4): Similarly assume there exists a good sequence, divide into two cases of the first term=1 and the first term k>1, contradictions are deduced in both cases, so there is no good sequence;\\n2. Verify that there exists a good sequence when n=7: give the specific sequence 1,4,6,2,5,3,7 and verify that it satisfies the definition of a \"good sequence\";\\n3. In conclusion, the maximum value of n is 7.",
+            "standardAnswer": "$7$",
+            "scoringCriteria": "For Question (Ⅲ), 3 points for correctly proving that there is no good sequence when n≥8 by cases; 2 points for giving a specific good sequence when n=7 and verifying that it satisfies the definition; 1 point for correctly obtaining the maximum value of n as 7, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

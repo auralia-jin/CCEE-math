@@ -1,0 +1,117 @@
+{
+  "paperTitle": "2024 Beijing Chaoyang Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "为提升学生用数学知识解决现实生活或其他学科领域中的问题的能力，发展学生数学建模素养，某市面向全市高中学生开展数学建模论文征文活动。对于参加征文活动的每篇论文，由两位评委独立评分，取两位评委评分的平均数作为该篇论文的初评得分。从评委甲和评委乙负责评审的论文中随机抽取10篇，这10篇论文的评分情况如下表所示。序号1到10对应的评委甲评分依次为67、80、61、78、70、81、84、68、66、64，评委乙评分依次为82、86、76、84、85、83、86、74、77、82，初评得分依次为74.5、83、68.5、81、77.5、82、85、71、71.5、73。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从这10篇论文中随机抽取1篇，求甲、乙两位评委的评分之差的绝对值不超过5的概率；",
+            "solutionSteps": "1. 设事件A为“从这10篇论文中随机抽取1篇，甲、乙两位评委的评分之差的绝对值不超过5”；2. 逐一计算10篇论文甲乙评委评分差的绝对值，找出满足不超过5的篇数为2篇；3. 根据古典概型概率公式$P(A)=\\frac{满足条件的基本事件数}{总的基本事件数}$，代入数据得$P(A)=\\frac{2}{10}=\\frac{1}{5}$。",
+            "standardAnswer": "$\\frac{1}{5}$",
+            "scoringCriteria": "第一问共4分，正确设定事件得1分，准确找出满足条件的篇数得2分，代入古典概型公式计算出正确概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从这10篇论文中随机抽取3篇，甲、乙两位评委对同一篇论文的评分之差的绝对值不超过5的篇数记为X，求X的分布列及数学期望；",
+            "solutionSteps": "1. 确定X的可能取值为0、1、2；2. 根据超几何分布概率公式$P(X=k)=\\frac{C_{M}^{k}C_{N-M}^{n-k}}{C_{N}^{n}}$（其中N=10，M=2，n=3），分别计算：$P(X=0)=\\frac{C_{8}^{3}}{C_{10}^{3}}=\\frac{7}{15}$，$P(X=1)=\\frac{C_{2}^{1}C_{8}^{2}}{C_{10}^{3}}=\\frac{7}{15}$，$P(X=2)=\\frac{C_{2}^{2}C_{8}^{1}}{C_{10}^{3}}=\\frac{1}{15}$；3. 列出X的分布列，以表格形式呈现X取0、1、2时对应的概率；4. 根据数学期望公式$E(X)=\\sum_{k}kP(X=k)$，计算得$E(X)=0×\\frac{7}{15}+1×\\frac{7}{15}+2×\\frac{1}{15}=\\frac{3}{5}$。",
+            "standardAnswer": "X的分布列为：X=0时，P=$\\frac{7}{15}$；X=1时，P=$\\frac{7}{15}$；X=2时，P=$\\frac{1}{15}$；数学期望为$\\frac{3}{5}$",
+            "scoringCriteria": "第二问共6分，正确确定X的可能取值得1分，准确运用超几何分布公式计算出三个概率各1分（共3分），正确列出分布列得1分，计算出正确的数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）对于序号为$i(i=1,2, \\cdots, 10)$的论文，设评委甲的评分为$X_{i}$，评委乙的评分为$Y_{i}$，分别记甲、乙两位评委对这10篇论文评分的平均数为$\\bar{X}$、$\\bar{Y}$，标准差为$s_{甲}$、$s_{乙}$，以$\\frac{1}{2}(\\frac{X_{i}-\\bar{X}}{s_{甲 }}+\\frac{Y_{i}-\\bar{Y}}{s_{乙 }})$作为序号为i的论文的标准化得分。对这10篇论文按照初评得分与标准化得分分别从高到低进行排名，判断序号为2的论文的两种排名结果是否相同？(结论不要求证明)",
+            "solutionSteps": "直接根据题目要求给出结论，无需证明推导过程。",
+            "standardAnswer": "相同",
+            "scoringCriteria": "第三问共3分，直接给出正确结论即可得满分3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的离心率为$\\frac{\\sqrt{2}}{2}$。A、B分别是E的左、右顶点，P是E上异于A、B的点，$\\triangle A P B$的面积的最大值为$2\\sqrt{2}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求E的方程；",
+            "solutionSteps": "1. 由椭圆性质知$\\triangle APB$面积最大值为$\\frac{1}{2}×2a×b=ab$，结合题设得$ab=2\\sqrt{2}$；2. 椭圆离心率$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$，且椭圆满足$a^2=b^2+c^2$；3. 联立方程组$\\begin{cases}ab=2\\sqrt{2}\\\\ \\frac{c}{a}=\\frac{\\sqrt{2}}{2}\\\\ a^2=b^2+c^2\\end{cases}$，解得$a=2$，$b=\\sqrt{2}$；4. 将a、b值代入椭圆标准方程，得到E的方程为$\\frac{x^2}{4}+\\frac{y^2}{2}=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{2}=1$",
+            "scoringCriteria": "第一问共5分，正确得出$\\triangle APB$面积最大值表达式并结合题设得等式得1分，写出离心率公式和椭圆中a、b、c的关系各1分（共2分），联立方程正确解得a、b的值得1分，写出正确的椭圆方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设O为原点，点N在直线$x=2$上，N，P分别在x轴的两侧，且$\\triangle A P B$与$\\triangle N B P$的面积相等。(ⅰ)求证：直线$ON$与直线$AP$的斜率之积为定值；(ⅱ)是否存在点P使得$\\triangle A P B \\cong \\triangle N B P$，若存在，求出点P的坐标，若不存在，说明理由。",
+            "solutionSteps": "(ⅰ)1. 设$N(2, t)$，$P(x_{0}, y_{0})(x_{0} \\neq \\pm 2)$，由N、P在x轴两侧得$y_{0} t<0$；2. 由$S_{\\triangle A P B}=S_{\\triangle N B P}$，得$\\frac{1}{2}|A B||y_{0}|=\\frac{1}{2}|B N|(2-x_{0})$，结合$|AB|=4$化简得$t=\\frac{-4 y_{0}}{2-x_{0}}$；3. 分别写出直线$ON$的斜率$k_{ON}=\\frac{t}{2}$，直线$AP$的斜率$k_{AP}=\\frac{y_{0}}{x_{0}+2}$；4. 计算斜率之积$k_{ON} k_{AP}=\\frac{t}{2} \\cdot \\frac{y_{0}}{x_{0}+2}$，代入t的表达式并结合椭圆方程$y_0^2=2-\\frac{x_0^2}{2}$化简，得结果为-1，即证得斜率之积为定值。\\n(ⅱ)1. 假设存在点P使得$\\triangle A P B \\cong \\triangle N B P$，则$|AP|=|NB|$；2. 由(ⅰ)得$t=\\frac{-2(x_{0}+2)}{y_{0}}$，结合$|AP|=|NB|$列出等式$\\sqrt{(x_{0}+2)^2+y_{0}^2}=2\\left|\\frac{x_{0}+2}{y_{0}}\\right|$，两边平方得$(x_{0}+2)^2+y_{0}^2=\\frac{4(x_{0}+2)^2}{y_{0}^2}$；3. 代入椭圆方程$y_0^2=2-\\frac{x_0^2}{2}$化简，最终得$(x_{0}+2)^2=0$，解得$x_{0}=-2$，与$x_{0} \\neq -2$矛盾；4. 故不存在满足条件的点P。",
+            "standardAnswer": "(ⅰ) 直线$ON$与直线$AP$的斜率之积为定值-1；(ⅱ) 不存在点P使得$\\triangle A P B \\cong \\triangle N B P$",
+            "scoringCriteria": "第二问共10分，其中(ⅰ)5分：正确设出点的坐标得1分，由面积相等推出t与$x_0$、$y_0$的关系得2分，写出两条直线的斜率表达式得1分，化简计算出斜率之积为定值-1得1分；(ⅱ)5分：作出假设并得出$|AP|=|NB|$得1分，代入t的表达式列出等式并平方得1分，结合椭圆方程化简等式得2分，推出矛盾并得出不存在的结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=(1-a x) e^{x}(a \\in R)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）讨论$f(x)$的单调性；",
+            "solutionSteps": "1. 确定函数$f(x)$的定义域为$(-\\infty,+\\infty)$，求导得$f'(x)=(1-a-a x) e^{x}=-a(x-\\frac{1-a}{a}) e^{x}$；2. 分情况讨论：当$a=0$时，$f'(x)=e^x>0$，$f(x)$在$(-\\infty,+\\infty)$上单调递增；当$a>0$时，令$f'(x)>0$得$x<\\frac{1-a}{a}$，令$f'(x)<0$得$x>\\frac{1-a}{a}$，故$f(x)$在$(-\\infty, \\frac{1-a}{a})$上单调递增，在$(\\frac{1-a}{a},+\\infty)$上单调递减；当$a<0$时，令$f'(x)>0$得$x>\\frac{1-a}{a}$，令$f'(x)<0$得$x<\\frac{1-a}{a}$，故$f(x)$在$(-\\infty, \\frac{1-a}{a})$上单调递减，在$(\\frac{1-a}{a},+\\infty)$上单调递增。",
+            "standardAnswer": "当$a=0$时，$f(x)$在$(-\\infty,+\\infty)$上单调递增；当$a>0$时，$f(x)$在$(-\\infty, \\frac{1-a}{a})$上单调递增，在$(\\frac{1-a}{a},+\\infty)$上单调递减；当$a<0$时，$f(x)$在$(-\\infty, \\frac{1-a}{a})$上单调递减，在$(\\frac{1-a}{a},+\\infty)$上单调递增。",
+            "scoringCriteria": "第一问共8分，正确求导并整理导数表达式得2分，分$a=0$、$a>0$、$a<0$三种情况讨论，每种情况的单调性分析正确各得2分（共6分）。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅱ）若关于x的不等式$f(x)>a(1-x)$无整数解，求a的取值范围。",
+            "solutionSteps": "1. 将不等式$f(x)>a(1-x)$变形为$a(x-\\frac{x-1}{e^{x}})<1$，设$h(x)=x-\\frac{x-1}{e^{x}}(x \\in R)$，求导得$h'(x)=\\frac{e^{x}+x-2}{e^{x}}$；2. 令$t(x)=e^{x}+x-2$，求导得$t'(x)=e^x+1>0$，故$t(x)$在$(-\\infty,+\\infty)$上单调递增，又$t(0)=-1<0$，$t(1)=e-1>0$，得$t(x)$有唯一零点$x_{0} \\in(0,1)$；3. 由此得$h(x)$在$(-\\infty, x_{0})$上单调递减，在$(x_{0},+\\infty)$上单调递增，且$x ≤0$和$x ≥1$时，$h(x) ≥1$；4. 分情况讨论a的取值：当$a ≤0$时，$a \\cdot h(x) ≤0<1$有无穷多整数解，不符合；当$a ≥1$时，$x \\in Z$时$h(x) ≥1 ≥\\frac{1}{a}$，故$a \\cdot h(x)<1$无整数解，符合；当$0<a<1$时，$h(0)=h(1)=1<\\frac{1}{a}$，0和1是不等式的整数解，不符合；5. 综上得a的取值范围为$[1,+\\infty)$。",
+            "standardAnswer": "$[1, +\\infty)$",
+            "scoringCriteria": "第二问共7分，正确变形不等式并构造函数$h(x)$得1分，求导分析$h(x)$的单调性和最值得2分，分$a ≤0$、$a ≥1$、$0<a<1$三种情况分析不等式解的情况，每种情况分析正确各得1分（共3分），得出正确的a的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "若有穷自然数数列$A: a_{1}, a_{2}, \\cdots, a_{n}(n ≥2)$满足如下两个性质，则称A为$B_{n}$数列：(1) $a_{k} ≥ max \\{a_{1}+a_{k-1}, a_{2}+a_{k-2}, \\cdots,a_{k-1}+a_{1}\\}(k=2,3, \\cdots, n )$；(2) $a_{k} ≤min \\{a_{1}+a_{k-1}, a_{2}+a_{k-2}, \\cdots, a_{k-1}+a_{1}\\} +1(k=2,3, \\cdots, n)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）判断数列A：2,4,6,7,10是否为$B_{5}$数列，说明理由；",
+            "solutionSteps": "1. 根据$B_5$数列的定义，验证$k=4$时的性质(1)：计算$a_{1}+a_{3}=8$，$a_{2}+a_{2}=8$，得$max \\{a_{1}+a_{3}, a_{2}+a_{2}\\} =8$；2. 该数列中$a_4=7$，满足$7<8$，即不满足性质(1)；3. 故该数列不是$B_5$数列。",
+            "standardAnswer": "数列2,4,6,7,10不是$B_{5}$数列，理由为$k=4$时，$max \\{a_1+a_3,a_2+a_2\\}=8$，$a_4=7<8$，不满足$B_n$数列的性质(1)。",
+            "scoringCriteria": "第一问共4分，正确验证$k=4$时的最值计算得2分，指出$a_4$不满足性质(1)得1分，给出明确结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若$A: a_{1}, a_{2}, \\cdots, a_{6}$是$B_{6}$数列，且$a_{1}$，$a_{2}$，$a_{3}$成等比数列，求$a_{6}$；",
+            "solutionSteps": "1. 由$B_6$数列定义得$a_{2}=2a_1$或$a_{2}=2a_1+1$，$a_{3}=a_1+a_2$或$a_{3}=a_1+a_2+1$；2. 分情况讨论：当$a_{2}=2a_1$时，由等比数列得$a_3=4a_1$，结合$a_3=a_1+a_2+1=3a_1+1$，解得$a_1=1$，进而得$a_2=2$，$a_3=4$；当$a_{2}=2a_1+1$时，解得的$a_1$非自然数，舍去；3. 求$a_4$：计算$max \\{a_1+a_3,a_2+a_2\\}=5$，$min \\{a_1+a_3,a_2+a_2\\}=4$，结合定义得$5 ≤a_4 ≤5$，故$a_4=5$；4. 求$a_5$：计算$max \\{a_1+a_4,a_2+a_3\\}=6$，$min \\{a_1+a_4,a_2+a_3\\}=6$，结合定义得$6 ≤a_5 ≤7$；5. 求$a_6$：计算$max \\{a_1+a_5, a_2+a_4, a_3+a_3\\}=8$，$min \\{a_1+a_5, a_2+a_4, a_3+a_3\\}=7$，结合定义得$8 ≤a_6 ≤8$，故$a_6=8$。",
+            "standardAnswer": "$8$",
+            "scoringCriteria": "第二问共5分，正确分析$a_2$、$a_3$的可能表达式得1分，结合等比数列解得$a_1=1$、$a_2=2$、$a_3=4$得1分，依次正确求出$a_4$、$a_5$的取值各得1分（共2分），求出$a_6=8$得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅲ）证明：对任意$B_{n}$数列$A: a_{1}, a_{2}, \\cdots, a_{n}(n ≥2)$，存在实数λ，使得$a_{k}=[k \\lambda](k=1,2, \\cdots, n)$（$[x]$表示不超过x的最大整数）。",
+            "solutionSteps": "1. 当$n=2$时，$a_2=2a_1$或$a_2=2a_1+1$，分别取$λ=a_1+0.1$、$λ=a_1+0.5$，验证得$a_1=[λ]$，$a_2=[2λ]$，结论成立；2. 假设存在自然数$t>2$，使结论不成立，设最小的$t$为$t_0$，即$B_{t_0}$数列前$t_0-1$项存在$β$使$a_k=[kβ](k=1,\\cdots,t_0-1)$，即$\\frac{a_k}{k} ≤β<\\frac{a_k+1}{k}$；3. 令$L=max \\{a_{1}, \\frac{a_{2}}{2}, \\cdots, \\frac{a_{t_{0}-1}}{t_{0}-1}\\}$，$U=min \\{a_{1}+1, \\frac{a_{2}+1}{2}, \\cdots, \\frac{a_{t_{0}-1}+1}{t_{0}-1}\\}$，则$L ≤β<U$；4. 再令$L^*=max \\{L, \\frac{a_{t_{0}}}{t_{0}}\\}$，$U^*=min \\{U, \\frac{a_{t_{0}}+1}{t_{0}}\\}$，分$L^*=\\frac{a_{t_0}}{t_0}$和$L^*=L$两种情况证明$L^*<U^*$；5. 取$β'=\\frac{L^*+U^*}{2}$，得$\\frac{a_k}{k}<β'<\\frac{a_k+1}{k}(k=1,\\cdots,t_0)$，即$a_k=[kβ']$，与假设矛盾；6. 故原结论成立。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问共6分，验证$n=2$时结论成立得1分，作出反证法的假设并推出前$t_0-1$项的$β$的范围得1分，定义$L$、$U$、$L^*$、$U^*$得1分，证明$L^*<U^*$得2分，推出矛盾并证明原结论成立得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

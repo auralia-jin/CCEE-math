@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2023 Beijing Fengtai Senior Three First Mock Examination",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "交通拥堵指数(TPI)是表征交通拥堵程度的客观指标，用TPI表示，TPI越大代表拥堵程度越高。某平台计算TPI的公式为：$TPI=\\frac{实际行程时间}{畅通行程时间}$，并按TPI的大小将城市道路拥堵程度划分为如下表所示的4个等级：TPI∈[1,1.5)为畅通，TPI∈[1.5,2)为缓行，TPI∈[2,4)为拥堵，TPI不低于4为严重拥堵。某市2023年元旦及前后共7天与2022年同期的交通高峰期城市道路TPI的统计数据有对应图表，给出2023年和2022年每日的TPI数值。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从2022年元旦及前后共7天中任取1天，求这一天交通高峰期城市道路拥堵程度为“拥堵”的概率；",
+            "solutionSteps": "1. 确定2022年元旦及前后7天中TPI属于[2,4)（拥堵等级）的天数为2天；2. 根据古典概型概率公式$P=\\frac{符合条件的基本事件数}{基本事件总数}$，代入数据得$P=\\frac{2}{7}$。",
+            "standardAnswer": "$\\frac{2}{7}$",
+            "scoringCriteria": "第一问，正确确定拥堵天数得2分；正确写出古典概型概率公式得1分；代入数据计算出正确概率得1分，共4分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从2023年元旦及前后共7天中任取3天，将这3天中交通高峰期城市道路TPI比2022年同日TPI高的天数记为X，求X的分布列及数学期望$E(X)$；",
+            "solutionSteps": "1. 确定X的所有可能取值为0、1、2；2. 根据组合数公式计算各取值的概率：$P(X=0)=\\frac{C_{5}^{3}}{C_{7}^{3}}=\\frac{2}{7}$，$P(X=1)=\\frac{C_{5}^{2}C_{2}^{1}}{C_{7}^{3}}=\\frac{4}{7}$，$P(X=2)=\\frac{C_{5}^{1}C_{2}^{2}}{C_{7}^{3}}=\\frac{1}{7}$；3. 列出X的分布列；4. 根据数学期望公式$E(X)=\\sum_{i}x_iP(X=x_i)$，计算得$E(X)=0×\\frac{2}{7}+1×\\frac{4}{7}+2×\\frac{1}{7}=\\frac{6}{7}$。",
+            "standardAnswer": "X的分布列为：X 0 1 2；P $\\frac{2}{7}$ $\\frac{4}{7}$ $\\frac{1}{7}$；数学期望$E(X)=\\frac{6}{7}$",
+            "scoringCriteria": "第二问，正确确定X的取值得1分；正确计算出每个取值的概率各得1分，共3分；正确列出分布列得2分；正确写出数学期望公式并计算出结果得2分，共8分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）把12月29日作为第1天，将2023年元旦前后共7天的交通高峰期城市道路TPI依次记为$a_{1},a_{2},\\cdots,a_{7}$，将2022年同期TPI依次记为$b_{1},b_{2},\\cdots,b_{7}$，记$c_{i}=a_{i}-b_{i}(i=1,2,\\cdots,7)$，$\\bar{c}=\\frac{1}{7}\\sum_{i=1}^{7}c_{i}$，请求出$|c_{i}-\\bar{c}|$取得最大值时i的值。",
+            "solutionSteps": "1. 根据已知的$a_i$和$b_i$数值计算出每个$c_i$的值；2. 计算出$\\bar{c}$的数值；3. 依次计算每个$|c_i-\\bar{c}|$的大小；4. 比较得出$|c_i-\\bar{c}|$最大时对应的i值为6。",
+            "standardAnswer": "6",
+            "scoringCriteria": "第三问，正确计算出$c_i$的值得1分；正确计算出$\\bar{c}$得1分；正确比较出最大值对应的i值得1分，共3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Traffic congestion index (TPI) is an objective index characterizing the degree of traffic congestion, denoted by TPI. The larger the TPI, the higher the degree of congestion. A platform calculates TPI with the formula: $TPI=\\frac{Actual travel time}{Unimpeded travel time}$, and divides the degree of urban road congestion into 4 grades as shown in the following table according to the value of TPI: TPI∈[1,1.5) for unimpeded, TPI∈[1.5,2) for slow moving, TPI∈[2,4) for congested, and TPI not less than 4 for severely congested. The statistical data of TPI of urban road traffic peak period for 7 days including and around New Year's Day 2023 and the same period in 2022 in a certain city are shown in the corresponding chart, with the daily TPI values of 2023 and 2022 given.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one day from the 7 days including and around New Year's Day 2022, find the probability that the degree of urban road congestion in the traffic peak period on this day is 'congested';",
+            "solutionSteps": "1. Determine that the number of days with TPI in [2,4) (congested grade) among the 7 days including and around New Year's Day 2022 is 2; 2. Substitute the data into the classical probability formula $P=\\frac{Number of basic events meeting the conditions}{Total number of basic events}$ to get $P=\\frac{2}{7}$.",
+            "standardAnswer": "$\\frac{2}{7}$",
+            "scoringCriteria": "For the first subquestion, 2 points for correctly determining the number of congested days; 1 point for correctly writing the classical probability formula; 1 point for substituting data to calculate the correct probability, total 4 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 3 days from the 7 days including and around New Year's Day 2023, denote the number of days when the TPI of urban road traffic peak period is higher than that of the same day in 2022 as X, find the probability mass function of X and the mathematical expectation $E(X)$;",
+            "solutionSteps": "1. Determine all possible values of X are 0, 1, 2; 2. Calculate the probability of each value according to the combination formula: $P(X=0)=\\frac{C_{5}^{3}}{C_{7}^{3}}=\\frac{2}{7}$, $P(X=1)=\\frac{C_{5}^{2}C_{2}^{1}}{C_{7}^{3}}=\\frac{4}{7}$, $P(X=2)=\\frac{C_{5}^{1}C_{2}^{2}}{C_{7}^{3}}=\\frac{1}{7}$; 3. List the probability mass function of X; 4. Calculate according to the mathematical expectation formula $E(X)=\\sum_{i}x_iP(X=x_i)$ to get $E(X)=0×\\frac{2}{7}+1×\\frac{4}{7}+2×\\frac{1}{7}=\\frac{6}{7}$.",
+            "standardAnswer": "The probability mass function of X is: X 0 1 2; P $\\frac{2}{7}$ $\\frac{4}{7}$ $\\frac{1}{7}$; The mathematical expectation $E(X)=\\frac{6}{7}$",
+            "scoringCriteria": "For the second subquestion, 1 point for correctly determining the values of X; 1 point for correctly calculating the probability of each value, total 3 points; 2 points for correctly listing the probability mass function; 2 points for correctly writing the mathematical expectation formula and calculating the result, total 8 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) Take December 29th as the first day, denote the TPI of urban road traffic peak period for 7 days around New Year's Day 2023 as $a_{1},a_{2},\\cdots,a_{7}$ in turn, denote the TPI of the same period in 2022 as $b_{1},b_{2},\\cdots,b_{7}$ in turn, let $c_{i}=a_{i}-b_{i}(i=1,2,\\cdots,7)$, $\\bar{c}=\\frac{1}{7}\\sum_{i=1}^{7}c_{i}$, find the value of i when $|c_{i}-\\bar{c}|$ reaches the maximum.",
+            "solutionSteps": "1. Calculate the value of each $c_i$ according to the known values of $a_i$ and $b_i$; 2. Calculate the value of $\\bar{c}$; 3. Calculate the value of each $|c_i-\\bar{c}|$ in turn; 4. Compare and get that the value of i corresponding to the maximum $|c_i-\\bar{c}|$ is 6.",
+            "standardAnswer": "6",
+            "scoringCriteria": "For the third subquestion, 1 point for correctly calculating the values of $c_i$; 1 point for correctly calculating $\\bar{c}$; 1 point for correctly comparing and getting the i value corresponding to the maximum value, total 3 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的一个顶点为$A(0,1)$，焦距为2。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆E的方程；",
+            "solutionSteps": "1. 由椭圆的顶点$A(0,1)$得$b=1$；2. 由焦距$2c=2$得$c=1$；3. 根据椭圆中$a^2=b^2+c^2$，计算得$a^2=2$；4. 代入椭圆标准方程得$\\frac{x^2}{2}+y^2=1$。",
+            "standardAnswer": "$\\frac{x^2}{2}+y^2=1$",
+            "scoringCriteria": "第一问，由顶点求出b的值得1分；由焦距求出c的值得1分；正确运用$a^2=b^2+c^2$求出$a^2$得2分；写出正确的椭圆方程得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）过点$P(2,0)$的直线与椭圆E交于B，C两点，过点B，C作直线$l: x=t$的垂线（点B，C在直线l的两侧），垂足分别为M，N，记$\\triangle BMP$，$\\triangle MNP$，$\\triangle CNP$的面积分别为$S_{1}$，$S_{2}$，$S_{3}$。试问：是否存在常数t，使得$S_{1}$，$\\frac{1}{2}S_{2}$，$S_{3}$总成等比数列？若存在，求出t的值，若不存在，请说明理由。",
+            "solutionSteps": "1. 设直线BC的方程为$y=k(x-2)$，点$B(x_1,y_1)$，$C(x_2,y_2)$，联立椭圆方程$\\begin{cases}y=k(x-2)\\\\\\frac{x^2}{2}+y^2=1\\end{cases}$，消元得$(1+2k^2)x^2-8k^2x+8k^2-2=0$，由判别式$\\Delta>0$得$k^2<\\frac{1}{2}$，并由韦达定理得$x_1+x_2=\\frac{8k^2}{1+2k^2}$，$x_1x_2=\\frac{8k^2-2}{1+2k^2}$；2. 写出面积表达式$S_1=(t-x_1)|y_1|$，$S_2=(2-t)|y_2-y_1|$，$S_3=(x_2-t)|y_2|$；3. 计算$S_1S_3$和$\\frac{1}{4}S_2^2$，将$y_1=k(x_1-2)$，$y_2=k(x_2-2)$代入并结合韦达定理化简；4. 由等比数列性质$S_1S_3=(\\frac{1}{2}S_2)^2$即$S_1S_3=\\frac{1}{4}S_2^2$，得到等式$-t^2+2=(t-2)^2$；5. 解方程得$t=1$，验证符合条件，故存在常数$t=1$。",
+            "standardAnswer": "存在常数$t=1$，使得$S_{1}$，$\\frac{1}{2}S_{2}$，$S_{3}$总成等比数列",
+            "scoringCriteria": "第二问，正确设出直线方程并联立椭圆方程消元得2分；正确求出判别式范围和韦达定理结论得2分；正确写出三个三角形的面积表达式得2分；正确化简$S_1S_3$和$\\frac{1}{4}S_2^2$各得2分；利用等比数列性质列出方程并求解得2分；验证结果合理性得1分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that one vertex of the ellipse $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $A(0,1)$ and the focal length is 2.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse E;",
+            "solutionSteps": "1. Get $b=1$ from the vertex $A(0,1)$ of the ellipse; 2. Get $c=1$ from the focal length $2c=2$; 3. Calculate $a^2=2$ according to $a^2=b^2+c^2$ in the ellipse; 4. Substitute into the standard equation of the ellipse to get $\\frac{x^2}{2}+y^2=1$.",
+            "standardAnswer": "$\\frac{x^2}{2}+y^2=1$",
+            "scoringCriteria": "For the first subquestion, 1 point for finding the value of b from the vertex; 1 point for finding the value of c from the focal length; 2 points for correctly using $a^2=b^2+c^2$ to find $a^2$; 1 point for writing the correct ellipse equation, total 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) A straight line passing through the point $P(2,0)$ intersects the ellipse E at points B and C. Draw perpendicular lines from points B and C to the line $l: x=t$ (points B and C are on both sides of the line l), with the feet of the perpendiculars being M and N respectively. Denote the areas of $\\triangle BMP$, $\\triangle MNP$, $\\triangle CNP$ as $S_{1}$, $S_{2}$, $S_{3}$ respectively. Is there a constant t such that $S_{1}$, $\\frac{1}{2}S_{2}$, $S_{3}$ always form a geometric sequence? If yes, find the value of t; if no, explain the reason.",
+            "solutionSteps": "1. Let the equation of the straight line BC be $y=k(x-2)$, points $B(x_1,y_1)$, $C(x_2,y_2)$,联立 the ellipse equation $\\begin{cases}y=k(x-2)\\\\\\frac{x^2}{2}+y^2=1\\end{cases}$, eliminate y to get $(1+2k^2)x^2-8k^2x+8k^2-2=0$, get $k^2<\\frac{1}{2}$ from the discriminant $\\Delta>0$, and get $x_1+x_2=\\frac{8k^2}{1+2k^2}$, $x_1x_2=\\frac{8k^2-2}{1+2k^2}$ by Vieta's formulas; 2. Write the area expressions $S_1=(t-x_1)|y_1|$, $S_2=(2-t)|y_2-y_1|$, $S_3=(x_2-t)|y_2|$; 3. Calculate $S_1S_3$ and $\\frac{1}{4}S_2^2$, substitute $y_1=k(x_1-2)$, $y_2=k(x_2-2)$ and simplify combined with Vieta's formulas; 4. From the property of geometric sequence $S_1S_3=(\\frac{1}{2}S_2)^2$ i.e. $S_1S_3=\\frac{1}{4}S_2^2$, get the equation $-t^2+2=(t-2)^2$; 5. Solve the equation to get $t=1$, verify that it meets the conditions, so there exists the constant $t=1$.",
+            "standardAnswer": "There exists a constant $t=1$ such that $S_{1}$, $\\frac{1}{2}S_{2}$, $S_{3}$ always form a geometric sequence",
+            "scoringCriteria": "For the second subquestion, 2 points for correctly setting the straight line equation and eliminating the variable by联立 with the ellipse equation; 2 points for correctly finding the range of the discriminant and the conclusions of Vieta's formulas; 2 points for correctly writing the area expressions of the three triangles; 2 points each for correctly simplifying $S_1S_3$ and $\\frac{1}{4}S_2^2$; 2 points for listing and solving the equation by using the property of geometric sequence; 1 point for verifying the rationality of the result, total 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=x+\\frac{a}{e^x}(a>0)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求函数$f(x)$的极值；",
+            "solutionSteps": "1. 求函数的导数$f'(x)=1-\\frac{a}{e^x}=\\frac{e^x-a}{e^x}$；2. 令$f'(x)=0$，解得$x=\\ln a$；3. 分析导数的符号：当$x<\\ln a$时，$f'(x)<0$，函数单调递减；当$x>\\ln a$时，$f'(x)>0$，函数单调递增；4. 得出函数在$x=\\ln a$处取得极小值，极小值为$f(\\ln a)=\\ln a +1$，无极大值。",
+            "standardAnswer": "函数$f(x)$的极小值为$f(\\ln a)=\\ln a +1$，无极大值",
+            "scoringCriteria": "第一问，正确求导得2分；正确求出导数为0的点得1分；正确分析函数的单调性得2分；写出正确的极值结论得1分，共6分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若函数$f(x)$有两个不相等的零点$x_{1}$，$x_{2}$，(i)求a的取值范围；(ii)证明：$x_{1}+x_{2}>2 \\ln a$。",
+            "solutionSteps": "(i) 1. 由函数有两个零点，得极小值$f(\\ln a)=\\ln a +1<0$，解得$0<a<\\frac{1}{e}$；2. 验证：$f(0)=a>0$，$f(-1)=-1+ae<0$，且$\\ln a<-1$，故函数在$(-\\infty,\\ln a)$上有一个零点；当$x\\to+\\infty$时，$f(x)\\to+\\infty$，故函数在$(\\ln a,+\\infty)$上有一个零点，因此a的取值范围为$(0,\\frac{1}{e})$。\\n(ii) 1. 由$f(x_1)=f(x_2)=0$得$a=-x_1e^{x_1}=-x_2e^{x_2}$，不妨设$x_1<x_2$，则$x_1<\\ln a<-1<x_2$；2. 要证$x_1+x_2>2\\ln a$，即证$x_1>2\\ln a -x_2$，因$2\\ln a -x_2<\\ln a$，且函数在$(-\\infty,\\ln a)$单调递减，故只需证$f(x_1)<f(2\\ln a -x_2)$；3. 构造函数$g(x_2)=2\\ln a -x_2 +\\frac{a}{e^{2\\ln a -x_2}}$，代入$a=-x_2e^{x_2}$化简得$g(x_2)=2\\ln(-x_2)+x_2-\\frac{1}{x_2}$；4. 求导$g'(x_2)=\\frac{2}{x_2}+1+\\frac{1}{x_2^2}=\\frac{(x_2+1)^2}{x_2^2}>0$，故$g(x_2)$在$(-1,+\\infty)$上单调递增；5. 得$g(x_2)>g(-1)=0$，即$f(2\\ln a -x_2)<0=f(x_1)$，故原不等式得证。",
+            "standardAnswer": "(i) $a$的取值范围为$(0,\\frac{1}{e})$；(ii) 证明见解析",
+            "scoringCriteria": "第二问(i)，由极小值小于0求出a的范围得2分；正确验证函数在两个区间各有一个零点得2分，共4分；(ii)，正确转化待证不等式得2分；正确构造函数并化简得2分；正确求导分析函数单调性得1分；得出证明结论得1分，共6分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=x+\\frac{a}{e^x}(a>0)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the extreme values of the function $f(x)$;",
+            "solutionSteps": "1. Find the derivative of the function $f'(x)=1-\\frac{a}{e^x}=\\frac{e^x-a}{e^x}$；2. Let $f'(x)=0$ and solve to get $x=\\ln a$；3. Analyze the sign of the derivative: when $x<\\ln a$, $f'(x)<0$ and the function is monotonically decreasing; when $x>\\ln a$, $f'(x)>0$ and the function is monotonically increasing; 4. Conclude that the function attains a minimum value at $x=\\ln a$, the minimum value is $f(\\ln a)=\\ln a +1$, and there is no maximum value.",
+            "standardAnswer": "The function $f(x)$ has a minimum value $f(\\ln a)=\\ln a +1$ at $x=\\ln a$, and no maximum value",
+            "scoringCriteria": "For the first subquestion, 2 points for correctly finding the derivative; 1 point for correctly finding the point where the derivative is 0; 2 points for correctly analyzing the monotonicity of the function; 1 point for writing the correct conclusion of extreme values, total 6 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If the function $f(x)$ has two distinct zeros $x_{1}$ and $x_{2}$, (i) Find the range of the value of a; (ii) Prove that $x_{1}+x_{2}>2 \\ln a$.",
+            "solutionSteps": "(i) 1. Since the function has two zeros, the minimum value $f(\\ln a)=\\ln a +1<0$, solve to get $0<a<\\frac{1}{e}$；2. Verify: $f(0)=a>0$, $f(-1)=-1+ae<0$, and $\\ln a<-1$, so the function has one zero on $(-\\infty,\\ln a)$; when $x\\to+\\infty$, $f(x)\\to+\\infty$, so the function has one zero on $(\\ln a,+\\infty)$, thus the range of a is $(0,\\frac{1}{e})$.\\n(ii) 1. From $f(x_1)=f(x_2)=0$, we get $a=-x_1e^{x_1}=-x_2e^{x_2}$, without loss of generality, let $x_1<x_2$, then $x_1<\\ln a<-1<x_2$；2. To prove $x_1+x_2>2\\ln a$, it is equivalent to proving $x_1>2\\ln a -x_2$. Since $2\\ln a -x_2<\\ln a$ and the function is monotonically decreasing on $(-\\infty,\\ln a)$, we only need to prove $f(x_1)<f(2\\ln a -x_2)$；3. Construct the function $g(x_2)=2\\ln a -x_2 +\\frac{a}{e^{2\\ln a -x_2}}$, substitute $a=-x_2e^{x_2}$ and simplify to get $g(x_2)=2\\ln(-x_2)+x_2-\\frac{1}{x_2}$；4. Find the derivative $g'(x_2)=\\frac{2}{x_2}+1+\\frac{1}{x_2^2}=\\frac{(x_2+1)^2}{x_2^2}>0$, so $g(x_2)$ is monotonically increasing on $(-1,+\\infty)$；5. Get $g(x_2)>g(-1)=0$, that is $f(2\\ln a -x_2)<0=f(x_1)$, so the original inequality is proved.",
+            "standardAnswer": "(i) The range of a is $(0,\\frac{1}{e})$; (ii) See the analysis for the proof",
+            "scoringCriteria": "For (i) of the second subquestion, 2 points for finding the range of a from the minimum value being less than 0; 2 points for correctly verifying that the function has one zero in each of the two intervals, total 4 points; For (ii), 2 points for correctly transforming the inequality to be proved; 2 points for correctly constructing and simplifying the function; 1 point for correctly finding the derivative and analyzing the monotonicity of the function; 1 point for drawing the proof conclusion, total 6 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知集合$S_{n}={1,2,3,\\cdots,2 n}(n \\in N^{*}, n ≥4)$，对于集合$S_{n}$的非空子集A，若$S_{n}$中存在三个互不相同的元素$a, b, c$，使得$a+b, b+c, c+a$均属于A，则称集合A是集合$S_{n}$的“期待子集”。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）试判断集合$A_{1}={3,4,5}$，$A_{2}={3,5,7}$是否为集合$S_{4}$的“期待子集”；(直接写出答案，不必说明理由)",
+            "solutionSteps": "根据“期待子集”的定义，直接判断集合$A_1$满足定义，集合$A_2$不满足定义。",
+            "standardAnswer": "$A_1$是集合$S_4$的“期待子集”，$A_2$不是集合$S_4$的“期待子集”",
+            "scoringCriteria": "第一问，正确判断$A_1$是否为期待子集得1分，正确判断$A_2$是否为期待子集得2分，共3分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）如果一个集合中含有三个元素x,y,z，同时满足(1) $x<y<z$，(2) $x+y>z$，(3) $x+y+z$为偶数，那么称该集合具有性质P。对于集合$S_{n}$的非空子集A，证明：集合A是集合$S_{n}$的“期待子集”的充要条件是集合A具有性质P。",
+            "solutionSteps": "1. 证明必要性：若A是期待子集，存在互不相同的$a,b,c\\in S_n$，使$a+b,b+c,c+a\\in A$，不妨设$a<b<c$，令$x=a+b$，$y=a+c$，$z=b+c$，则$x<y<z$；$x+y-z=2a>0$即$x+y>z$；$x+y+z=2(a+b+c)$为偶数，故A具有性质P。\\n2. 证明充分性：若A具有性质P，存在$x,y,z\\in A$满足$x<y<z$，$x+y>z$，$x+y+z$为偶数，令$a=\\frac{x+y+z}{2}-z$，$b=\\frac{x+y+z}{2}-y$，$c=\\frac{x+y+z}{2}-x$，由条件得$a,b,c\\in Z^+$且$a,b,c\\in S_n$，且$a+b=x$，$a+c=y$，$b+c=z$，故A是期待子集。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问，证明必要性部分，正确构造x,y,z得2分，依次验证性质P的三个条件各得1分，共5分；证明充分性部分，正确构造a,b,c得2分，验证a,b,c属于$S_n$得1分，验证$a+b,b+c,c+a$属于A得1分，共4分，本问总计9分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若$S_{n}(n ≥4)$的任意m元子集都是集合$S_{n}$的“期待子集”，求m的最小值。",
+            "solutionSteps": "1. 先证$m≥n+2$：当$3≤m≤n$时，取奇数集$M={2i-1|i=1,2,\\cdots,m}$，其无满足性质P的子集，故不是期待子集；当$m=n+1$时，取$M={2i-1|i=1,2,\\cdots,n}\\cup{2}$，其无满足性质P的子集，故不是期待子集，因此$m≥n+2$。\\n2. 再用数学归纳法证明$m=n+2$时，任意n+2元子集都是期待子集：(1)当n=4时，验证$S_4$的任意6元子集均满足性质P，是期待子集；(2)假设n=k(k≥4)时结论成立，当n=k+1时，对$S_{k+1}$的任意k+3元子集C，分$2k+1,2k+2$至多1个属于C、均属于C两种情况，结合归纳假设验证均满足性质P，是期待子集。\\n3. 综上，m的最小值为$n+2$。",
+            "standardAnswer": "$m$的最小值为$n+2$",
+            "scoringCriteria": "第三问，证明$m≥n+2$的推理过程得2分；数学归纳法中基例n=4的验证得1分；归纳假设的应用及n=k+1时的分类讨论推理得2分；得出最终结论得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the set $S_{n}={1,2,3,\\cdots,2 n}(n \\in N^{*}, n ≥4)$. For a non-empty subset A of the set $S_{n}$, if there exist three distinct elements $a, b, c$ in $S_{n}$ such that $a+b, b+c, c+a$ all belong to A, then the set A is called an \"expected subset\" of the set $S_{n}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Judge whether the sets $A_{1}={3,4,5}$ and $A_{2}={3,5,7}$ are \"expected subsets\" of the set $S_{4}$; (Write the answer directly without explaining the reason)",
+            "solutionSteps": "According to the definition of the \"expected subset\", directly judge that the set $A_1$ satisfies the definition and the set $A_2$ does not satisfy the definition.",
+            "standardAnswer": "$A_1$ is an \"expected subset\" of the set $S_4$, and $A_2$ is not an \"expected subset\" of the set $S_4$",
+            "scoringCriteria": "For the first subquestion, 1 point for correctly judging whether $A_1$ is an expected subset, 2 points for correctly judging whether $A_2$ is an expected subset, total 3 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If a set contains three elements x, y, z and satisfies (1) $x<y<z$, (2) $x+y>z$, (3) $x+y+z$ is an even number at the same time, then the set is said to have property P. For a non-empty subset A of the set $S_{n}$, prove that the necessary and sufficient condition for the set A to be an \"expected subset\" of the set $S_{n}$ is that the set A has property P.",
+            "solutionSteps": "1. Prove the necessity: If A is an expected subset, there exist distinct $a,b,c\\in S_n$ such that $a+b,b+c,c+a\\in A$. Without loss of generality, let $a<b<c$, set $x=a+b$, $y=a+c$, $z=b+c$, then $x<y<z$; $x+y-z=2a>0$, i.e. $x+y>z$; $x+y+z=2(a+b+c)$ which is an even number, so A has property P.\\n2. Prove the sufficiency: If A has property P, there exist $x,y,z\\in A$ satisfying $x<y<z$, $x+y>z$, $x+y+z$ is an even number. Set $a=\\frac{x+y+z}{2}-z$, $b=\\frac{x+y+z}{2}-y$, $c=\\frac{x+y+z}{2}-x$. From the conditions, $a,b,c\\in Z^+$ and $a,b,c\\in S_n$, and $a+b=x$, $a+c=y$, $b+c=z$, so A is an expected subset.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "For the second subquestion, in the necessity proof part, 2 points for correctly constructing x, y, z, 1 point for verifying each of the three conditions of property P in turn, total 5 points; in the sufficiency proof part, 2 points for correctly constructing a, b, c, 1 point for verifying that a, b, c belong to $S_n$, 1 point for verifying that $a+b,b+c,c+a$ belong to A, total 4 points, total 9 points for this subquestion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If every m-element subset of $S_{n}(n ≥4)$ is an \"expected subset\" of the set $S_{n}$, find the minimum value of m.",
+            "solutionSteps": "1. First prove $m≥n+2$: When $3≤m≤n$, take the odd set $M={2i-1|i=1,2,\\cdots,m}$, which has no subset satisfying property P, so it is not an expected subset; when $m=n+1$, take $M={2i-1|i=1,2,\\cdots,n}\\cup{2}$, which has no subset satisfying property P, so it is not an expected subset, thus $m≥n+2$.\\n2. Prove by mathematical induction that every n+2-element subset is an expected subset when $m=n+2$: (1) When n=4, verify that every 6-element subset of $S_4$ satisfies property P and is an expected subset; (2) Assume the conclusion holds when n=k(k≥4), when n=k+1, for any k+3-element subset C of $S_{k+1}$, divide it into two cases: at most one of $2k+1,2k+2$ belongs to C, and both belong to C, and verify that both satisfy property P and are expected subsets combined with the induction hypothesis.\\n3. In conclusion, the minimum value of m is $n+2$.",
+            "standardAnswer": "The minimum value of m is $n+2$",
+            "scoringCriteria": "For the third subquestion, 2 points for the reasoning process of proving $m≥n+2$; 1 point for the verification of the base case n=4 in mathematical induction; 2 points for the application of the induction hypothesis and the reasoning of classification discussion when n=k+1; 1 point for drawing the final conclusion, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

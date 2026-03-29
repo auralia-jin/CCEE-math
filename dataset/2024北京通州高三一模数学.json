@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2024 Beijing Tongzhou Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "随着生活水平的不断提高，人们对于身体健康越来越重视。为了解人们的健康情况，某地区一体检机构统计了2023年20岁到100岁来体检的人数及年龄在[20,40)，[40,60)，[60,80)，[80,100]的体检人数的频率分布情况，如下表。该体检机构进一步分析体检数据发现：60岁到80岁（不含80岁）体检人群随着年龄的增长，所需面对的健康问题越多，具体统计情况如下图。表格包含组别、年龄（岁）、频率三列，数据为：第一组[20,40)，37%；第二组[40,60)，43%；第三组[60,80)，17%；第四组[80,100]，3%。图表为60岁到80岁（不含80岁）体检人群健康问题个数统计，横坐标为年龄分组/岁：[60,65)、[65,70)、[70,75)、[75,80)，纵坐标为健康问题个数平均值，对应数据为8.7、9.3、9.8、10.1。注：健康问题是指高血压、糖尿病、高血脂、肥胖、甲状腺结节等60余种常见健康问题。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）根据上表，求从2023年该体检机构20岁到100岁体检人群中随机抽取1人，此人年龄不低于60岁的频率；",
+            "solutionSteps": "1. 明确年龄不低于60岁的分组为[60,80)和[80,100]，对应的频率分别为17%和3%；2. 将两个分组的频率相加，计算总频率：17% + 3% = 20%；3. 得出最终结果。",
+            "standardAnswer": "20%",
+            "scoringCriteria": "第一问，明确不低于60岁的对应分组得1分，正确列出频率相加的算式得2分，计算结果正确得1分，共4分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）用频率估计概率，从2023年该地区20岁到100岁体检人群中随机抽取3人，其中不低于60岁的人数记为X，求X的分布列及数学期望；",
+            "solutionSteps": "1. 由（Ⅰ）得随机抽取1人年龄不低于60岁的概率为$\\frac{1}{5}$，确定X服从二项分布$X\\sim B(3,\\frac{1}{5})$；2. 确定X的可能取值为0,1,2,3，分别计算各取值的概率：$P(X=0)=C_{3}^{0}(\\frac{1}{5})^{0}(\\frac{4}{5})^{3}=\\frac{64}{125}$，$P(X=1)=C_{3}^{1}(\\frac{1}{5})^{1}(\\frac{4}{5})^{2}=\\frac{48}{125}$，$P(X=2)=C_{3}^{2}(\\frac{1}{5})^{2}(\\frac{4}{5})^{1}=\\frac{12}{125}$，$P(X=3)=C_{3}^{3}(\\frac{1}{5})^{3}(\\frac{4}{5})^{0}=\\frac{1}{125}$；3. 列出X的分布列；4. 根据数学期望公式计算：$E(X)=0×\\frac{64}{125}+1×\\frac{48}{125}+2×\\frac{12}{125}+3×\\frac{1}{125}=\\frac{3}{5}$。",
+            "standardAnswer": "X的分布列为：X:0，P:$\\frac{64}{125}$；X:1，P:$\\frac{48}{125}$；X:2，P:$\\frac{12}{125}$；X:3，P:$\\frac{1}{125}$；数学期望$E(X)=\\frac{3}{5}$",
+            "scoringCriteria": "第二问，确定X服从的二项分布得2分，正确计算出四个概率值各1分共4分，规范列出分布列得1分，正确计算数学期望得2分，共9分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）根据上图的统计结果，有人认为“该体检机构2023年60岁到80岁（不含80岁）体检人群健康问题个数平均值一定大于9.3个，且小于9.8个”。判断这种说法是否正确，并说明理由。",
+            "solutionSteps": "1. 先判断该说法不正确；2. 构造反例，假设[60,65)、[65,70)、[70,75)、[75,80)体检人群的频率分别为70%、10%、10%、10%；3. 根据加权平均数公式计算平均值：$0.7×8.7+0.1×9.3+0.1×9.8+0.1×10.1=9.01$；4. 9.01小于9.3，说明原说法不成立，完成理由阐述。",
+            "standardAnswer": "不正确，理由：若[60,65)、[65,70)、[70,75)、[75,80)体检人群的频率分别为70%、10%、10%、10%，则平均值为$0.7×8.7+0.1×9.3+0.1×9.8+0.1×10.1=9.01$个，9.01<9.3，故说法错误。",
+            "scoringCriteria": "第三问，正确判断说法是否正确得2分，构造合理的频率反例得2分，正确计算加权平均值得2分，清晰阐述理由得1分，共7分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "With the continuous improvement of living standards, people pay more and more attention to physical health. To understand people's health status, a physical examination institution in a certain area counted the number of people who came for physical examinations aged 20 to 100 in 2023 and the frequency distribution of the number of physical examination people in the age groups [20,40), [40,60), [60,80), [80,100], as shown in the following table. The institution further analyzed the physical examination data and found that the number of health problems faced by the physical examination population aged 60 to 80 (excluding 80) increases with age, and the specific statistical situation is shown in the following figure. The table includes three columns: group, age (years), and frequency, with the data: Group 1 [20,40), 37%; Group 2 [40,60), 43%; Group 3 [60,80), 17%; Group 4 [80,100], 3%. The chart is the statistics of the average number of health problems of the physical examination population aged 60 to 80 (excluding 80), with the abscissa being age group/years: [60,65), [65,70), [70,75), [75,80), and the ordinate being the average number of health problems, with the corresponding data 8.7, 9.3, 9.8, 10.1. Note: Health problems refer to more than 60 common health problems such as hypertension, diabetes, hyperlipidemia, obesity, thyroid nodules, etc.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) According to the above table, find the frequency that a person randomly selected from the physical examination population aged 20 to 100 of the institution in 2023 is not younger than 60 years old;",
+            "solutionSteps": "1. Clarify that the age groups not younger than 60 are [60,80) and [80,100], with the corresponding frequencies of 17% and 3% respectively; 2. Add the frequencies of the two groups to calculate the total frequency: 17% + 3% = 20%; 3. Obtain the final result.",
+            "standardAnswer": "20%",
+            "scoringCriteria": "Question 1: 1 point for clarifying the corresponding age groups not younger than 60, 2 points for correctly listing the formula for adding frequencies, 1 point for the correct calculation result, total 4 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Estimate the probability by frequency, randomly select 3 people from the physical examination population aged 20 to 100 in the area in 2023, record the number of people not younger than 60 as X, find the probability mass function and mathematical expectation of X;",
+            "solutionSteps": "1. From (Ⅰ), the probability that a randomly selected person is not younger than 60 is $\\frac{1}{5}$, and determine that X follows a binomial distribution $X\\sim B(3,\\frac{1}{5})$; 2. Determine the possible values of X are 0,1,2,3, and calculate the probability of each value respectively: $P(X=0)=C_{3}^{0}(\\frac{1}{5})^{0}(\\frac{4}{5})^{3}=\\frac{64}{125}$, $P(X=1)=C_{3}^{1}(\\frac{1}{5})^{1}(\\frac{4}{5})^{2}=\\frac{48}{125}$, $P(X=2)=C_{3}^{2}(\\frac{1}{5})^{2}(\\frac{4}{5})^{1}=\\frac{12}{125}$, $P(X=3)=C_{3}^{3}(\\frac{1}{5})^{3}(\\frac{4}{5})^{0}=\\frac{1}{125}$; 3. List the probability mass function of X; 4. Calculate according to the mathematical expectation formula: $E(X)=0×\\frac{64}{125}+1×\\frac{48}{125}+2×\\frac{12}{125}+3×\\frac{1}{125}=\\frac{3}{5}$.",
+            "standardAnswer": "The probability mass function of X is: X:0, P:$\\frac{64}{125}$; X:1, P:$\\frac{48}{125}$; X:2, P:$\\frac{12}{125}$; X:3, P:$\\frac{1}{125}$; The mathematical expectation $E(X)=\\frac{3}{5}$",
+            "scoringCriteria": "Question 2: 2 points for determining the binomial distribution that X follows, 1 point for each of the four correctly calculated probability values (total 4 points), 1 point for listing the probability mass function standardly, 2 points for correctly calculating the mathematical expectation, total 9 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) According to the statistical results in the above figure, some people think that \"the average number of health problems of the physical examination population aged 60 to 80 (excluding 80) of the institution in 2023 must be greater than 9.3 and less than 9.8\". Judge whether this statement is correct and explain the reason.",
+            "solutionSteps": "1. First judge that the statement is incorrect; 2. Construct a counterexample, assume the frequencies of the physical examination population in [60,65), [65,70), [70,75), [75,80) are 70%, 10%, 10%, 10% respectively; 3. Calculate the average value according to the weighted average formula: $0.7×8.7+0.1×9.3+0.1×9.8+0.1×10.1=9.01$; 4. 9.01 is less than 9.3, indicating that the original statement is not valid, and complete the reason explanation.",
+            "standardAnswer": "Incorrect. Reason: If the frequencies of the physical examination population in [60,65), [65,70), [70,75), [75,80) are 70%, 10%, 10%, 10% respectively, the average value is $0.7×8.7+0.1×9.3+0.1×9.8+0.1×10.1=9.01$, and 9.01<9.3, so the statement is wrong.",
+            "scoringCriteria": "Question 3: 2 points for correctly judging whether the statement is correct, 2 points for constructing a reasonable frequency counterexample, 2 points for correctly calculating the weighted average, 1 point for clearly explaining the reason, total 7 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数 $f(x)=\\frac{a x^{2}+x-1}{e^{x}}$，$a \\in R$",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当 $a=0$ 时，求曲线 $y=f(x)$ 在点 $(0, f(0))$ 处的切线方程；",
+            "solutionSteps": "1. 当$a=0$时，化简函数得$f(x)=\\frac{x-1}{e^{x}}$；2. 计算$f(0)$的值：$f(0)=\\frac{0-1}{e^{0}}=-1$；3. 求函数的导数$f'(x)=\\frac{-x+2}{e^{x}}$；4. 计算切线斜率$k=f'(0)=\\frac{-0+2}{e^{0}}=2$；5. 根据点斜式写出切线方程：$y - (-1) = 2(x - 0)$，整理得$2x - y - 1 = 0$。",
+            "standardAnswer": "$2x - y - 1 = 0$",
+            "scoringCriteria": "第一问，代入a=0正确化简函数得1分，正确计算f(0)得1分，求导公式正确并计算出f'(x)得2分，求出切线斜率得1分，根据点斜式写出并整理切线方程得1分，共6分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）当 $a>0$ 时，求 $f(x)$ 的单调区间；",
+            "solutionSteps": "1. 求函数$f(x)$的导数：$f'(x)=-\\frac{(a x+1)(x-2)}{e^{x}}$，定义域为R；2. 令$f'(x)=0$，解得$x_1=-\\frac{1}{a}$，$x_2=2$，由$a>0$得$-\\frac{1}{a}<0<2$；3. 分区间讨论$f'(x)$的符号：当$x\\in(-\\infty,-\\frac{1}{a})$时，$f'(x)<0$，函数单调递减；当$x\\in(-\\frac{1}{a},2)$时，$f'(x)>0$，函数单调递增；当$x\\in(2,+\\infty)$时，$f'(x)<0$，函数单调递减；4. 总结函数的单调区间。",
+            "standardAnswer": "单调递减区间为$(-\\infty,-\\frac{1}{a})$和$(2,+\\infty)$，单调递增区间为$(-\\frac{1}{a},2)$",
+            "scoringCriteria": "第二问，正确求出函数的导数得3分，正确求解导数为0的根并判断根的大小关系得2分，分区间正确讨论导数的符号各1分共3分，准确总结单调区间得1分，共9分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）在（Ⅱ）的条件下，若对于任意 $x \\in[1,3]$，不等式 $\\frac{1}{2} ≤f(x) ≤1+\\frac{1}{e^{2}}$ 成立，求 a 的取值范围。",
+            "solutionSteps": "1. 由（Ⅱ）知$a>0$时，$f(x)$在$[1,2]$上单调递增，在$[2,3]$上单调递减，故$f(x)$在$x=2$处取极大值也是$[1,3]$上的最大值，在$x=1$或$x=3$处取最小值；2. 根据不等式恒成立，列出不等式组：$f(1)≥\\frac{1}{2}$，$f(3)≥\\frac{1}{2}$，$f(2)≤1+\\frac{1}{e^{2}}$；3. 分别计算各点函数值并解不等式：$f(1)=\\frac{a}{e}≥\\frac{1}{2}$，解得$a≥\\frac{e}{2}$；$f(3)=\\frac{9a+2}{e^{3}}≥\\frac{1}{2}$，解得$a≥\\frac{e^{3}-4}{18}$；$f(2)=\\frac{4a+1}{e^{2}}≤1+\\frac{1}{e^{2}}$，解得$a≤\\frac{e^{2}}{4}$；4. 比较$\\frac{e}{2}$和$\\frac{e^{3}-4}{18}$的大小，得$\\frac{e}{2}>\\frac{e^{3}-4}{18}$；5. 取不等式的交集，得出a的取值范围。",
+            "standardAnswer": "$[\\frac{e}{2}, \\frac{e^{2}}{4}]$",
+            "scoringCriteria": "第三问，正确判断函数在[1,3]上的单调性及最值点得2分，正确列出恒成立的不等式组得3分，分别解出三个不等式的解集各1分共3分，正确比较两个下界的大小得2分，取交集得出最终取值范围得2分，共12分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=\\frac{a x^{2}+x-1}{e^{x}}$, $a \\in R$",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $a=0$, find the tangent equation of the curve $y=f(x)$ at the point $(0, f(0))$;",
+            "solutionSteps": "1. When $a=0$, simplify the function to get $f(x)=\\frac{x-1}{e^{x}}$; 2. Calculate the value of $f(0)$: $f(0)=\\frac{0-1}{e^{0}}=-1$; 3. Find the derivative of the function $f'(x)=\\frac{-x+2}{e^{x}}$; 4. Calculate the slope of the tangent line $k=f'(0)=\\frac{-0+2}{e^{0}}=2$; 5. Write the tangent equation according to the point-slope form: $y - (-1) = 2(x - 0)$, and sort it out to get $2x - y - 1 = 0$.",
+            "standardAnswer": "$2x - y - 1 = 0$",
+            "scoringCriteria": "Question 1: 1 point for correctly simplifying the function by substituting a=0, 1 point for correctly calculating f(0), 2 points for the correct derivative formula and calculating f'(x), 1 point for finding the slope of the tangent line, 1 point for writing and sorting out the tangent equation according to the point-slope form, total 6 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) When $a>0$, find the monotonic intervals of $f(x)$;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=-\\frac{(a x+1)(x-2)}{e^{x}}$, the domain is R; 2. Let $f'(x)=0$, solve to get $x_1=-\\frac{1}{a}$, $x_2=2$, and get $-\\frac{1}{a}<0<2$ from $a>0$; 3. Discuss the sign of $f'(x)$ by intervals: when $x\\in(-\\infty,-\\frac{1}{a})$, $f'(x)<0$, the function is monotonically decreasing; when $x\\in(-\\frac{1}{a},2)$, $f'(x)>0$, the function is monotonically increasing; when $x\\in(2,+\\infty)$, $f'(x)<0$, the function is monotonically decreasing; 4. Summarize the monotonic intervals of the function.",
+            "standardAnswer": "The monotonically decreasing intervals are $(-\\infty,-\\frac{1}{a})$ and $(2,+\\infty)$, and the monotonically increasing interval is $(-\\frac{1}{a},2)$",
+            "scoringCriteria": "Question 2: 3 points for correctly finding the derivative of the function, 2 points for correctly solving the roots of the derivative being 0 and judging the size relationship of the roots, 1 point for each correct discussion of the sign of the derivative by intervals (total 3 points), 1 point for accurately summarizing the monotonic intervals, total 9 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) Under the condition of (Ⅱ), if the inequality $\\frac{1}{2} ≤f(x) ≤1+\\frac{1}{e^{2}}$ holds for any $x \\in[1,3]$, find the range of values of a.",
+            "solutionSteps": "1. From (Ⅱ), when $a>0$, $f(x)$ is monotonically increasing on $[1,2]$ and monotonically decreasing on $[2,3]$, so $f(x)$ attains the maximum value (also the local maximum) on $[1,3]$ at $x=2$, and the minimum value at $x=1$ or $x=3$; 2. According to the constant establishment of the inequality, list the inequality group: $f(1)≥\\frac{1}{2}$, $f(3)≥\\frac{1}{2}$, $f(2)≤1+\\frac{1}{e^{2}}$; 3. Calculate the function values at each point and solve the inequalities respectively: $f(1)=\\frac{a}{e}≥\\frac{1}{2}$, solve to get $a≥\\frac{e}{2}$; $f(3)=\\frac{9a+2}{e^{3}}≥\\frac{1}{2}$, solve to get $a≥\\frac{e^{3}-4}{18}$; $f(2)=\\frac{4a+1}{e^{2}}≤1+\\frac{1}{e^{2}}$, solve to get $a≤\\frac{e^{2}}{4}$; 4. Compare the sizes of $\\frac{e}{2}$ and $\\frac{e^{3}-4}{18}$, and get $\\frac{e}{2}>\\frac{e^{3}-4}{18}$; 5. Take the intersection of the inequalities to get the range of values of a.",
+            "standardAnswer": "$[\\frac{e}{2}, \\frac{e^{2}}{4}]$",
+            "scoringCriteria": "Question 3: 2 points for correctly judging the monotonicity and the maximum and minimum points of the function on [1,3], 3 points for correctly listing the inequality group for constant establishment, 1 point for solving the solution set of each of the three inequalities (total 3 points), 2 points for correctly comparing the sizes of the two lower bounds, 2 points for taking the intersection to get the final range of values, total 12 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆 E : $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的长轴长为4，离心率为 $\\frac{1}{2}$",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆 E 的方程；",
+            "solutionSteps": "1. 由长轴长$2a=4$，解得$a=2$；2. 由离心率$e=\\frac{c}{a}=\\frac{1}{2}$，代入$a=2$解得$c=1$；3. 根据椭圆中$a^2=b^2+c^2$，计算$b^2=a^2 - c^2=4 - 1=3$；4. 将$a^2=4$，$b^2=3$代入椭圆标准方程，得出椭圆E的方程。",
+            "standardAnswer": "$\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$",
+            "scoringCriteria": "第一问，由长轴长正确求出a的值得1分，由离心率正确求出c的值得2分，正确运用a、b、c的关系求出b²得2分，写出椭圆标准方程得1分，共6分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）直线 l 过椭圆 E 的左焦点 F，且与 E 交于 M，N 两点（不与左右顶点重合），点 $T(t, 0)$ 在x轴正半轴上，直线 $T M$ 交 y 轴于点 P，直线 $T N$ 交y轴于点 Q，问是否存在 t，使得 $\\overrightarrow{T P} \\cdot \\overrightarrow{T Q}$ 为定值？若存在，求出 t 的值及定值；若不存在，请说明理由。",
+            "solutionSteps": "1. 先求椭圆左焦点F(-1,0)，分直线l斜率存在和不存在两种情况讨论；2. 当直线l斜率存在时，设斜率为k(k≠0)，直线方程为$y=k(x+1)$，联立椭圆方程$\\begin{cases}y=k(x+1)\\\\\\frac{x^2}{4}+\\frac{y^2}{3}=1\\end{cases}$，消去y得$(4k^2+3)x^2+8k^2x+4k^2-12=0$，设$M(x_1,y_1)$，$N(x_2,y_2)$，由韦达定理得$x_1+x_2=\\frac{-8k^2}{4k^2+3}$，$x_1x_2=\\frac{4k^2-12}{4k^2+3}$；3. 写出直线TM、TN的方程，分别求P、Q坐标：$P(0, \\frac{-t y_1}{x_1-t})$，$Q(0, \\frac{-t y_2}{x_2-t})$，进而得$\\overrightarrow{TP}=(-t, \\frac{-t y_1}{x_1-t})$，$\\overrightarrow{TQ}=(-t, \\frac{-t y_2}{x_2-t})$；4. 计算数量积$\\overrightarrow{TP} \\cdot \\overrightarrow{TQ}=t^2 + t^2k^2\\frac{(x_1+1)(x_2+1)}{(x_1-t)(x_2-t)}$，化简后得$t^2+t^2k^2\\frac{-9}{(4t^2+8t+4)k^2+3t^2-12}$；5. 令$3t^2-12=0$，结合t在x轴正半轴解得t=2，此时数量积为定值3；6. 验证直线l斜率不存在的情况，取$M(-1, \\frac{3}{2})$，$N(-1,-\\frac{3}{2})$，求出P(0,1)，Q(0,-1)，计算$\\overrightarrow{TP} \\cdot \\overrightarrow{TQ}=3$，符合定值；7. 总结存在t=2，使得数量积为定值3。",
+            "standardAnswer": "存在，t=2，定值为3",
+            "scoringCriteria": "第二问，求出椭圆左焦点坐标得1分，斜率存在时正确设出直线方程并联立椭圆方程消元得3分，正确运用韦达定理得出根与系数的关系得2分，求出P、Q坐标及对应的向量得3分，正确计算并化简向量数量积得4分，求出t的值并验证为定值得3分，验证斜率不存在的情况得2分，共18分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse E : $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ with the length of the major axis being 4 and the eccentricity being $\\frac{1}{2}$",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse E;",
+            "solutionSteps": "1. Solve to get $a=2$ from the length of the major axis $2a=4$; 2. Substitute $a=2$ into the eccentricity $e=\\frac{c}{a}=\\frac{1}{2}$ and solve to get $c=1$; 3. Calculate $b^2=a^2 - c^2=4 - 1=3$ according to the relationship $a^2=b^2+c^2$ in the ellipse; 4. Substitute $a^2=4$ and $b^2=3$ into the standard equation of the ellipse to get the equation of ellipse E.",
+            "standardAnswer": "$\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$",
+            "scoringCriteria": "Question 1: 1 point for correctly finding the value of a from the length of the major axis, 2 points for correctly finding the value of c from the eccentricity, 2 points for correctly finding b² using the relationship of a, b and c, 1 point for writing the standard equation of the ellipse, total 6 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) A straight line l passes through the left focus F of the ellipse E and intersects E at points M and N (not coinciding with the left and right vertices). The point $T(t, 0)$ is on the positive semi-axis of the x-axis. The straight line $T M$ intersects the y-axis at point P, and the straight line $T N$ intersects the y-axis at point Q. Is there a value of t such that $\\overrightarrow{T P} \\cdot \\overrightarrow{T Q}$ is a constant value? If yes, find the value of t and the constant value; if not, explain the reason.",
+            "solutionSteps": "1. First find the left focus F(-1,0) of the ellipse, and discuss two cases: the slope of the straight line l exists and does not exist; 2. When the slope of the straight line l exists, let the slope be k(k≠0), the straight line equation is $y=k(x+1)$,联立 the ellipse equation $\\begin{cases}y=k(x+1)\\\\\\frac{x^2}{4}+\\frac{y^2}{3}=1\\end{cases}$, eliminate y to get $(4k^2+3)x^2+8k^2x+4k^2-12=0$, let $M(x_1,y_1)$，$N(x_2,y_2)$, get $x_1+x_2=\\frac{-8k^2}{4k^2+3}$，$x_1x_2=\\frac{4k^2-12}{4k^2+3}$ by Vieta's formulas; 3. Write the equations of straight lines TM and TN, find the coordinates of P and Q respectively: $P(0, \\frac{-t y_1}{x_1-t})$，$Q(0, \\frac{-t y_2}{x_2-t})$, then get $\\overrightarrow{TP}=(-t, \\frac{-t y_1}{x_1-t})$，$\\overrightarrow{TQ}=(-t, \\frac{-t y_2}{x_2-t})$; 4. Calculate the dot product $\\overrightarrow{TP} \\cdot \\overrightarrow{TQ}=t^2 + t^2k^2\\frac{(x_1+1)(x_2+1)}{(x_1-t)(x_2-t)}$, and simplify it to $t^2+t^2k^2\\frac{-9}{(4t^2+8t+4)k^2+3t^2-12}$; 5. Let $3t^2-12=0$, solve to get t=2 combined with t being on the positive semi-axis of the x-axis, and the dot product is a constant value 3 at this time; 6. Verify the case where the slope of the straight line l does not exist, take $M(-1, \\frac{3}{2})$，$N(-1,-\\frac{3}{2})$, find P(0,1)，Q(0,-1), calculate $\\overrightarrow{TP} \\cdot \\overrightarrow{TQ}=3$, which conforms to the constant value; 7. Summarize that there exists t=2 such that the dot product is a constant value 3.",
+            "standardAnswer": "Yes, t=2, the constant value is 3",
+            "scoringCriteria": "Question 2: 1 point for finding the coordinate of the left focus of the ellipse, 3 points for correctly setting the straight line equation and eliminating y by联立 the ellipse equation when the slope exists, 2 points for correctly obtaining the relationship between roots and coefficients by Vieta's formulas, 3 points for finding the coordinates of P, Q and the corresponding vectors, 4 points for correctly calculating and simplifying the dot product of vectors, 3 points for finding the value of t and verifying it as a constant value, 2 points for verifying the case where the slope does not exist, total 18 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "从数列$\\{a_n\\}$中选取第$i_1$项，第$i_2$项，…，第$i_m$项$(1 ≤i_1<i_2<\\cdots<i_m)$，若数列$a_{i_1}, a_{i_2}, \\cdots, a_{i_m}$为递增数列或递减数列（规定$m=1$时，该数列既是递增数列，也是递减数列），称$a_{i_1}, a_{i_2}, \\cdots, a_{i_m}$为数列$\\{a_n\\}$的长度为m的单调子列。已知有穷数列A : $a_1, a_2, \\cdots, a_n(n ≥3)$，任意两项均不相同，现以A的每一项$a_i$为首项选取长度最大的递增的单调子列，设其共有$b_i$项，则$b_1, b_2, \\cdots, b_n$构成一个新数列B。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当数列 A 分别为以下数列时，直接写出相应的数列 B：(ⅰ)1,3,5,7；(ⅱ)4,1,2,6,3。",
+            "solutionSteps": "1. 对于数列(ⅰ)1,3,5,7，这是递增数列，以1为首项的最大递增单调子列长度为4，以3为首项的为3，以5为首项的为2，以7为首项的为1，故B为4,3,2,1；2. 对于数列(ⅱ)4,1,2,6,3，分别分析以每一项为首项的最大递增单调子列长度：以4为首项的为2，以1为首项的为3，以2为首项的为2，以6为首项的为1，以3为首项的为1，故B为2,3,2,1,1。",
+            "standardAnswer": "(ⅰ)4,3,2,1；(ⅱ)2,3,2,1,1",
+            "scoringCriteria": "第一问，(ⅰ)正确写出数列B得2分，(ⅱ)正确写出数列B得2分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若数列 A 为等差数列，求证：数列 B 为等差数列；",
+            "solutionSteps": "1. 设数列A的公差为d，由数列A任意两项不同得d≠0，分d<0和d>0两种情况证明；2. 当d<0时，数列A为单调递减数列，以A中任意一项为首项的最大递增单调子列长度均为1，即$b_1=b_2=\\cdots=b_n=1$，数列B是公差为0的等差数列；3. 当d>0时，数列A为单调递增数列，以$a_i$为首项的最大递增单调子列为$a_i,a_{i+1},\\cdots,a_n$，长度为$n-i+1$，即$b_i=n-i+1$，计算$b_{i+1}-b_i=(n-(i+1)+1)-(n-i+1)=-1$，数列B是公差为-1的等差数列；4. 综上，数列A为等差数列时，数列B为等差数列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问，设出公差并指出d≠0得1分，分d<0和d>0两种情况讨论各1分共2分，d<0时正确分析数列B的各项值并判断为等差数列得2分，d>0时正确求出b_i的表达式并计算公差得3分，写出综上结论得1分，共9分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若数列 A 共有 $t^{2}+1(t \\in N^{*})$ 项，求证：A 必存在一个长度为 $t+1$ 的单调子列。",
+            "solutionSteps": "1. 分两种情况讨论：情况一，若$b_1,b_2,\\cdots,b_{t^2+1}$中有一个$b_k ≥t+1$，则以$a_k$为首项的最大递增单调子列长度≥t+1，数列A存在长度为t+1的递增子列，即存在长度为t+1的单调子列；2. 情况二，若数列A不存在长度超过t的递增子列，即$0<b_j ≤t(j=1,2,\\cdots,t^2+1)$，由抽屉原理，$t^2+1$个元素放入t个抽屉，至少有一个抽屉中有$t+1$个元素，即至少有t+1个$b_j$的值相等；3. 设这t+1个相等的项为$b_{k_1}=b_{k_2}=\\cdots=b_{k_{t+1}}=b(k_1<k_2<\\cdots<k_{t+1})$，用反证法证明$a_{k_1}>a_{k_2}>\\cdots>a_{k_{t+1}}$：假设$a_{k_i}<a_{k_j}(k_i<k_j)$，则以$a_{k_i}$为首项的最大递增单调子列可加入$a_{k_j}$，长度变为b+1，与$b_{k_i}=b$矛盾；4. 故$a_{k_1},a_{k_2},\\cdots,a_{k_{t+1}}$是长度为t+1的递减子列；5. 综上，无论哪种情况，A必存在一个长度为t+1的单调子列。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问，分两种情况讨论并明确情况一的结论得2分，情况二中正确运用抽屉原理得出至少有t+1个b_j相等得3分，用反证法正确证明对应的项构成递减子列得4分，写出综上结论得1分，共10分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Select the $i_1$-th, $i_2$-th, …, $i_m$-th terms from the sequence$\\{a_n\\}$ where $(1 ≤i_1<i_2<\\cdots<i_m)$. If the sequence $a_{i_1}, a_{i_2}, \\cdots, a_{i_m}$ is an increasing sequence or a decreasing sequence (it is stipulated that when $m=1$, the sequence is both an increasing sequence and a decreasing sequence), then $a_{i_1}, a_{i_2}, \\cdots, a_{i_m}$ is called a monotonic subsequence of length m of the sequence$\\{a_n\\}$. Given a finite sequence A : $a_1, a_2, \\cdots, a_n(n ≥3)$ with all distinct terms, now select the longest increasing monotonic subsequence with each term $a_i$ of A as the first term, let it have $b_i$ terms, then the sequence B is composed of $b_1, b_2, \\cdots, b_n$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When the sequence A is the following sequences respectively, write down the corresponding sequence B directly: (ⅰ)1,3,5,7; (ⅱ)4,1,2,6,3.",
+            "solutionSteps": "1. For the sequence (ⅰ)1,3,5,7, which is an increasing sequence, the length of the longest increasing monotonic subsequence with 1 as the first term is 4, with 3 as the first term is 3, with 5 as the first term is 2, with 7 as the first term is 1, so B is 4,3,2,1; 2. For the sequence (ⅱ)4,1,2,6,3, analyze the length of the longest increasing monotonic subsequence with each term as the first term respectively: the length with 4 as the first term is 2, with 1 as the first term is 3, with 2 as the first term is 2, with 6 as the first term is 1, with 3 as the first term is 1, so B is 2,3,2,1,1.",
+            "standardAnswer": "(ⅰ)4,3,2,1; (ⅱ)2,3,2,1,1",
+            "scoringCriteria": "Question 1: 2 points for correctly writing the sequence B in (ⅰ), 2 points for correctly writing the sequence B in (ⅱ), total 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If the sequence A is an arithmetic sequence, prove that the sequence B is an arithmetic sequence;",
+            "solutionSteps": "1. Let the common difference of the sequence A be d, and get d≠0 because all terms of the sequence A are distinct, prove in two cases: d<0 and d>0; 2. When d<0, the sequence A is a monotonically decreasing sequence, the length of the longest increasing monotonic subsequence with any term of A as the first term is 1, that is $b_1=b_2=\\cdots=b_n=1$, and the sequence B is an arithmetic sequence with a common difference of 0; 3. When d>0, the sequence A is a monotonically increasing sequence, the longest increasing monotonic subsequence with $a_i$ as the first term is $a_i,a_{i+1},\\cdots,a_n$ with the length of $n-i+1$, that is $b_i=n-i+1$, calculate $b_{i+1}-b_i=(n-(i+1)+1)-(n-i+1)=-1$, and the sequence B is an arithmetic sequence with a common difference of -1; 4. In conclusion, when the sequence A is an arithmetic sequence, the sequence B is an arithmetic sequence.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "Question 2: 1 point for setting the common difference and pointing out d≠0, 1 point for each of the two discussion cases of d<0 and d>0 (total 2 points), 2 points for correctly analyzing the values of each term of the sequence B and judging it as an arithmetic sequence when d<0, 3 points for correctly finding the expression of b_i and calculating the common difference when d>0, 1 point for writing the conclusion, total 9 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If the sequence A has $t^{2}+1(t \\in N^{*})$ terms, prove that A must have a monotonic subsequence of length $t+1$.",
+            "solutionSteps": "1. Discuss in two cases: Case 1, if there is a $b_k ≥t+1$ in $b_1,b_2,\\cdots,b_{t^2+1}$, then the length of the longest increasing monotonic subsequence with $a_k$ as the first term is ≥t+1, and the sequence A has an increasing subsequence of length t+1, that is, there is a monotonic subsequence of length t+1; 2. Case 2, if the sequence A has no increasing subsequence with length exceeding t, that is $0<b_j ≤t(j=1,2,\\cdots,t^2+1)$, by the pigeonhole principle, putting $t^2+1$ elements into t pigeonholes, there is at least one pigeonhole with $t+1$ elements, that is, at least t+1 values of $b_j$ are equal; 3. Let these t+1 equal terms be $b_{k_1}=b_{k_2}=\\cdots=b_{k_{t+1}}=b(k_1<k_2<\\cdots<k_{t+1})$, prove $a_{k_1}>a_{k_2}>\\cdots>a_{k_{t+1}}$ by proof by contradiction: assume $a_{k_i}<a_{k_j}(k_i<k_j)$, then the longest increasing monotonic subsequence with $a_{k_i}$ as the first term can add $a_{k_j}$, and the length becomes b+1, which contradicts $b_{k_i}=b$; 4. Therefore, $a_{k_1},a_{k_2},\\cdots,a_{k_{t+1}}$ is a decreasing subsequence of length t+1; 5. In conclusion, in either case, A must have a monotonic subsequence of length t+1.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "Question 3: 2 points for discussing in two cases and clarifying the conclusion of Case 1, 3 points for correctly using the pigeonhole principle to conclude that at least t+1 $b_j$ are equal in Case 2, 4 points for correctly proving that the corresponding terms form a decreasing subsequence by proof by contradiction, 1 point for writing the conclusion, total 10 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

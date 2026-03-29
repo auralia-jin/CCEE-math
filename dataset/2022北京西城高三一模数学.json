@@ -1,0 +1,125 @@
+{
+  "paperTitle": "2022 Beijing Xicheng Senior Three First Mock Examination",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "2021年是北京城市轨道交通新线开通的“大年”，开通线路的条、段数为历年最多。12月31日首班车起，地铁19号线一期开通试运营。地铁19号线一期全长约22公里，共设10座车站，此次开通牡丹园、积水潭、牛街、草桥、新发地、新宫共6座车站。在试运营期间，地铁公司随机选取了乘坐19号线一期的200名乘客，记录了他们的乘车情况，得到如下表格（单位：人）：<table><thead><tr><th>下车站<br>上车站</th><th>牡丹园</th><th>积水潭</th><th>牛街</th><th>草桥</th><th>新发地</th><th>新宫</th><th>合计</th></tr></thead><tbody><tr><td>牡丹园</td><td>///</td><td>5</td><td>6</td><td>4</td><td>2</td><td>7</td><td>24</td></tr><tr><td>积水潭</td><td>12</td><td>///</td><td>20</td><td>13</td><td>7</td><td>8</td><td>60</td></tr><tr><td>牛街</td><td>5</td><td>7</td><td>///</td><td>3</td><td>8</td><td>1</td><td>24</td></tr><tr><td>草桥</td><td>13</td><td>9</td><td>9</td><td>///</td><td>1</td><td>6</td><td>38</td></tr><tr><td>新发地</td><td>4</td><td>10</td><td>16</td><td>2</td><td>///</td><td>3</td><td>35</td></tr><tr><td>新宫</td><td>2</td><td>5</td><td>5</td><td>4</td><td>3</td><td>///</td><td>19</td></tr><tr><td>合计</td><td>36</td><td>36</td><td>56</td><td>26</td><td>21</td><td>25</td><td>200</td></tr></tbody></table>",
+        "subQuestions": [
+          {
+            "question": "（1）在试运营期间，从在积水潭站上车的乘客中任选一人，估计该乘客在牛街站下车的概率；",
+            "solutionSteps": "1. 设选取的乘客在积水潭站上车、在牛街站下车为事件A；2. 由表格可知，积水潭站上车的乘客有60人，其中在牛街站下车的乘客有20人；3. 根据频率估计概率的方法，计算$P(A)=\\frac{\\text{积水潭上车牛街下车的人数}}{\\text{积水潭上车的总人数}}=\\frac{20}{60}$；4. 化简结果得$P(A)=\\frac{1}{3}$。",
+            "standardAnswer": "$\\\\frac{1}{3}$",
+            "scoringCriteria": "第一问，正确设定事件得1分；准确提取表格中积水潭上车总人数和牛街下车人数得1分；正确列出概率计算公式得1分；代入数据计算并化简得到正确结果得1分，共4分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）在试运营期间，从在积水潭站上车的所有乘客中随机选取三人，设其中在牛街站下车的人数为X，求随机变量X的分布列以及数学期望；",
+            "solutionSteps": "1. 由（1）知乘客在积水潭站上车在牛街站下车的概率为$\\frac{1}{3}$，故$X\\sim B(3,\\frac{1}{3})$，X的可能取值为0,1,2,3；2. 分别计算各取值的概率：$P(X=0)=C_3^0(\\frac{1}{3})^0(\\frac{2}{3})^3=\\frac{8}{27}$，$P(X=1)=C_3^1(\\frac{1}{3})^1(\\frac{2}{3})^2=\\frac{12}{27}$，$P(X=2)=C_3^2(\\frac{1}{3})^2(\\frac{2}{3})^1=\\frac{6}{27}$，$P(X=3)=C_3^3(\\frac{1}{3})^3(\\frac{2}{3})^0=\\frac{1}{27}$；3. 列出X的分布列，以表格形式呈现X的取值和对应概率；4. 计算数学期望，方法一：$E(X)=0\\times\\frac{8}{27}+1\\times\\frac{12}{27}+2\\times\\frac{6}{27}+3\\times\\frac{1}{27}=1$；方法二：利用二项分布期望公式$E(X)=np=3\\times\\frac{1}{3}=1$。",
+            "standardAnswer": "分布列：<table><thead><tr><th>X</th><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>P</td><td>$\\\\frac{8}{27}$</td><td>$\\\\frac{12}{27}$</td><td>$\\\\frac{6}{27}$</td><td>$\\\\frac{1}{27}$</td></tr></tbody></table>，数学期望：$E(X)=1$",
+            "scoringCriteria": "第二问，判断出X服从二项分布并写出可能取值得2分；正确计算出四个概率值各1分，共4分；规范列出分布列得1分；正确计算出数学期望得1分，共8分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（3）为了研究各站客流量的相关情况，用$\\xi_{1}$表示所有在积水潭站上下车的乘客的上、下车情况，“$\\xi_{1}=1$”表示上车，“$\\xi_{1}=0$”表示下车。相应地，用$\\xi_{2}$，$\\xi_{3}$分别表示在牛街，草桥站上、下车情况，直接写出方差$D \\xi_{1}$，$D \\xi_{2}$，$D \\xi_{3}$大小关系。",
+            "solutionSteps": "1. 明确$\\xi_1,\\xi_2,\\xi_3$均服从两点分布，两点分布的方差公式为$D\\xi=p(1-p)$（p为取1的概率）；2. 分别计算各随机变量的p值：$p_1=\\frac{60}{96}$，$p_2=\\frac{56}{80}$，$p_3=\\frac{38}{64}$；3. 代入方差公式计算得$D\\xi_1=\\frac{60}{96}\\times\\frac{36}{96}$，$D\\xi_2=\\frac{56}{80}\\times\\frac{24}{80}$，$D\\xi_3=\\frac{38}{64}\\times\\frac{26}{64}$；4. 比较三个方差的大小，得出$D_{\\xi_{2}}<D_{\\xi_{1}}<D_{\\xi_{3}}$。",
+            "standardAnswer": "$D_{\\xi_{2}}<D_{\\xi_{1}}<D_{\\xi_{3}}$",
+            "scoringCriteria": "第三问，正确判断出随机变量服从两点分布得0.5分；正确运用两点分布方差公式得0.5分；准确比较出方差大小并写出正确关系得1分，共1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$C:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的离心率为$\\frac{\\sqrt{3}}{2}$，以椭圆的四个顶点为顶点的四边形周长为$4 \\sqrt{5}$。",
+        "subQuestions": [
+          {
+            "question": "（1）求椭圆C的方程；",
+            "solutionSteps": "1. 根据椭圆的性质列出方程组：离心率$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，四边形周长$4\\sqrt{a^2+b^2}=4\\sqrt{5}$，椭圆中$a^2=b^2+c^2$；2. 化简方程组，由周长得$\\sqrt{a^2+b^2}=\\sqrt{5}$即$a^2+b^2=5$，由离心率得$c=\\frac{\\sqrt{3}}{2}a$，代入$a^2=b^2+c^2$得$a^2=b^2+\\frac{3}{4}a^2$，即$a^2=4b^2$；3. 将$a^2=4b^2$代入$a^2+b^2=5$，解得$b^2=1$，$a^2=4$；4. 写出椭圆C的方程为$\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "$\\\\frac{x^{2}}{4}+y^{2}=1$",
+            "scoringCriteria": "第一问，正确列出椭圆离心率、周长及a,b,c关系的方程组得2分；正确化简方程组求出$a^2$和$b^2$的值各1分；写出正确的椭圆方程得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）直线$y=k x+m(m ≠0)$与椭圆C交于A、B两点，与y轴交于点P，线段$A B$的垂直平分线与$A B$交于点M，与y轴交于点N，O为坐标原点。如果$\\angle M O P=2 \\angle M N P$成立，求k的值。",
+            "solutionSteps": "1. 先判断k≠0，若k=0则AB中点为P，垂直平分线为y轴，不合题意；2. 联立直线与椭圆方程：$\\begin{cases}\\frac{x^2}{4}+y^2=1\\\\y=kx+m\\end{cases}$，消去y得$(4k^2+1)x^2+8kmx+4m^2-4=0$，由$\\Delta>0$得$4k^2-m^2+1>0$；3. 设$A(x_1,y_1)$，$B(x_2,y_2)$，由韦达定理得$x_1+x_2=-\\frac{8km}{4k^2+1}$，$y_1+y_2=\\frac{2m}{4k^2+1}$，进而得中点M坐标$x_M=-\\frac{4km}{4k^2+1}$，$y_M=\\frac{m}{4k^2+1}$；4. 求AB垂直平分线方程：斜率为$-\\frac{1}{k}$，方程为$y-\\frac{m}{4k^2+1}=-\\frac{1}{k}(x+\\frac{4km}{4k^2+1})$，令x=0得N点坐标$(0,-\\frac{3m}{4k^2+1})$；5. 由$\\angle MOP=2\\angle MNP$，结合几何关系得$\\angle MNO=\\angle OMN$，故$|OM|=|ON|$；6. 计算$|OM|^2=\\frac{16k^2m^2+m^2}{(4k^2+1)^2}$，$|ON|^2=\\frac{9m^2}{(4k^2+1)^2}$，等式联立得$16k^2+1=9$；7. 解得$k^2=\\frac{1}{2}$，即$k=\\pm\\frac{\\sqrt{2}}{2}$。",
+            "standardAnswer": "$k=\\pm\\\\frac{\\sqrt{2}}{2}$",
+            "scoringCriteria": "第二问，判断k≠0并说明理由得1分；正确联立直线与椭圆方程并消元得2分；正确运用韦达定理求出中点M坐标得2分；求出垂直平分线方程并得到N点坐标得2分；由角度关系推出$|OM|=|ON|$得1分；正确计算线段模长的平方并列出方程得2分；求解出k的正确值得1分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\frac{a x}{e^{x}+a}-1$，$a ≠0$。",
+        "subQuestions": [
+          {
+            "question": "（1）当$a=1$时，①求曲线$y=f(x)$在$x=0$处的切线方程；",
+            "solutionSteps": "1. 当a=1时，$f(x)=\\frac{x}{e^x+1}-1$；2. 求导得$f'(x)=\\frac{e^x+1-xe^x}{(e^x+1)^2}$；3. 计算$x=0$处的函数值和导数值：$f(0)=\\frac{0}{1+1}-1=-1$，$f'(0)=\\frac{1+1-0}{(1+1)^2}=\\frac{1}{2}$；4. 由点斜式得切线方程：$y-(-1)=\\frac{1}{2}(x-0)$，化简为$y=\\frac{1}{2}x-1$。",
+            "standardAnswer": "$y=\\\\frac{1}{2} x-1$",
+            "scoringCriteria": "（1）①，代入a=1写出函数解析式得1分；正确求导得出$f'(x)$得2分；准确计算$f(0)$和$f'(0)$的值各0.5分；由点斜式写出并化简切线方程得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（1）当$a=1$时，②求证：$f(x)$在$(0,+\\infty)$上有唯一极大值点；",
+            "solutionSteps": "1. 令$g(x)=e^x+1-xe^x$，则$f'(x)=\\frac{g(x)}{(e^x+1)^2}$，研究$f'(x)$的符号即研究$g(x)$的零点；2. 求$g(x)$的导数：$g'(x)=e^x - (e^x+xe^x)=-xe^x$；3. 当$x\\in(0,+\\infty)$时，$g'(x)=-xe^x<0$，故$g(x)$在$(0,+\\infty)$上单调递减；4. 计算特殊点的函数值：$g(1)=e+1-e=1>0$，$g(2)=e^2+1-2e^2=1-e^2<0$；5. 由零点存在定理，$g(x)$在$(0,+\\infty)$上有唯一零点$x_0$，且当$x\\in(0,x_0)$时，$g(x)>0$即$f'(x)>0$，$f(x)$单调递增；当$x\\in(x_0,+\\infty)$时，$g(x)<0$即$f'(x)<0$，$f(x)$单调递减；6. 故$x_0$是$f(x)$在$(0,+\\infty)$上的唯一极大值点。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（1）②，构造函数$g(x)$并将$f'(x)$的符号转化为$g(x)$的零点问题得1分；正确求$g'(x)$并判断$g(x)$在$(0,+\\infty)$的单调性得2分；正确计算$g(1)$和$g(2)$的值并运用零点存在定理得2分；结合单调性分析$f'(x)$的符号，得出$f(x)$有唯一极大值点的结论得1分，共6分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（2）若$f(x)$没有零点，求a的取值范围。",
+            "solutionSteps": "1. 将$f(x)$变形为$f(x)=\\frac{ax-e^x-a}{e^x+a}$，令$h(x)=e^x+a-ax$，则$f(x)$无零点等价于$h(x)$与分母$e^x+a$无公共零点；2. 分a<0和a>0两种情况讨论：①当a<0时，$h'(x)=e^x-a>0$，$h(x)$在R上单调递增，$h(\\frac{1}{a})<0$，$h(1)=e>0$，故$h(x)$有唯一零点$x_0$，令$e^{x_0}+a=0$即$x_0=\\ln(-a)$，代入$h(x_0)=0$解得a=-1，此时$f(x)$无零点；②当a>0时，定义域为R，$h'(x)=e^x-a$，令$h'(x)=0$得x=ln a，$h(x)$在$(-\\infty,\\ln a)$单调递减，在$(\\ln a,+\\infty)$单调递增，$h(x)_{min}=h(\\ln a)=2a-a\\ln a$；3. 令$h(x)_{min}>0$，即$2a-a\\ln a>0$，化简得$\\ln a<2$，解得0<a<$e^2$，此时$h(x)>0$恒成立，$f(x)$无零点；4. 综上，a的取值范围为{-1}∪(0,$e^2$)。",
+            "standardAnswer": "$\\\\{-1\\} \\cup\\\\left(0, e^{2}\\right)$",
+            "scoringCriteria": "（2），将$f(x)$无零点转化为$h(x)$的零点问题得1分；当a<0时，正确判断$h(x)$的单调性并利用零点存在定理得出唯一零点，求解出a=-1得2分；当a>0时，正确求$h(x)$的单调性和最小值得2分；令最小值大于0求解出a的范围得1分；综合两种情况写出正确的取值范围得1分，共7分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "如果无穷数列$\\{a_{n}\\}$是等差数列，且满足：①$\\forall i、j \\in N^{*}$，$\\exists k \\in N^{*}$，使得$a_{i} a_{j}=a_{k}$；②$\\forall k \\in N^{*}$，$\\exists i、j \\in N^{*}$，使得$a_{i} a_{j}=a_{k}$，则称数列$\\{a_{n}\\}$是\"H数列\"。",
+        "subQuestions": [
+          {
+            "question": "（1）下列无穷等差数列中，是\"H数列\"的为___________；(直接写出结论)$\\{a_{n}\\}:1、3、5、\\cdots\\cdots$；$\\{b_{n}\\}:0、2、4、\\cdots\\cdots$；$\\{c_{n}\\}:0、0、0、\\cdots\\cdots$；$\\{d_{n}\\}:-1、0、1、\\cdots\\cdots$",
+            "solutionSteps": "1. 根据“H数列”的两个定义条件逐一验证：①$\\{a_n\\}$：任意两项乘积为奇数，仍在数列中，任意一项可表示为自身与1的乘积，满足条件；②$\\{b_n\\}$：0与任意项乘积为0，不在数列中，不满足；③$\\{c_n\\}$：任意两项乘积为0，是数列中的项，任意一项0可表示为任意两项的乘积，满足条件；④$\\{d_n\\}$：-1与1乘积为-1，无对应k，不满足；2. 得出符合条件的数列为$\\{a_n\\}$、$\\{c_n\\}$。",
+            "standardAnswer": "$\\\\{a_{n}}\\\\$、$\\\\{c_{n}}\\\\$",
+            "scoringCriteria": "第一问，正确判断出$\\{a_n\\}$是H数列得2分；正确判断出$\\{c_n\\}$是H数列得2分，判断错误其他数列扣1分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）证明：若数列$\\{a_{n}\\}$是\"H数列\"，则$a_{1} \\in Z$且公差$d \\in N$；",
+            "solutionSteps": "1. 当d=0时，由条件①得$a_1^2=a_1$，解得$a_1=0$或1，均属于Z，d=0属于N，成立；2. 当d≠0时，由条件①，$\\exists k,l\\in N^*$，使得$a_1a_2=a_k$，$a_1a_3=a_l$，两式作差得$(l-k)d=a_1d$，d≠0故$a_1=l-k\\in Z$；3. 同理，$\\exists m,n\\in N^*$，使得$a_2a_3=a_m$，$a_2a_4=a_n$，作差得$(n-m)d=a_2d$，d≠0故$a_2=n-m\\in Z$，则d=$a_2-a_1\\in Z$；4. 反证法证明d≥0：若d<0，数列递减，由$a_1^2$是数列中的项得$a_1^2≤a_1$，解得0≤a_1≤1，结合$a_1\\in Z$得a_1=0或1，d≤-1，则$a_4≤-2$，$a_4^2≥4>a_1$，与数列递减矛盾，故d≥0，即d∈N；5. 综上，$a_1\\in Z$且d∈N。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问，证明d=0时结论成立得1分；证明d≠0时$a_1\\in Z$和d∈Z得2分；利用反证法结合数列单调性证明d≥0得2分；写出完整结论得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）若数列$\\{a_{n}\\}$是\"H数列\"且其公差$d \\in N^{*}$为常数，求$\\{a_{n}\\}$的所有通项公式。",
+            "solutionSteps": "1. 由d∈N*知数列递增，反证法证明a_1≥0：若a_1<0，$a_{3-a_1}≥2$，$a_1a_{3-a_1}<a_1$，与乘积为数列项且数列递增矛盾，故a_1∈N；2. 取数列中最小的正整数项$a_k$，由条件②，$\\exists i,j\\in N^*$使$a_ia_j=a_k$，且$a_i≥a_k≥1$，$a_j≥a_k≥1$，故$a_k≥a_k^2$，解得$a_k=1$；3. 分两种情况讨论：①当a_1=0时，数列递增且最小正整数项为1，故d=1，通项公式为$a_n=n-1$，验证满足条件①②；②当a_1≠0时，a_1=1，通项公式为$a_n=1+(n-1)d$，验证满足条件①②；4. 综上，数列的通项公式为$a_n=n-1$或$a_n=1+(n-1)d$。",
+            "standardAnswer": "$a_{n}=n-1$或$a_{n}=1+(n-1) d$",
+            "scoringCriteria": "第三问，证明a_1≥0得1分；求出数列中最小正整数项为1得2分；分a_1=0和a_1≠0两种情况求出通项公式各1分；验证通项公式满足H数列的两个条件得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

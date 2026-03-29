@@ -1,0 +1,217 @@
+{
+    "paperTitle": "2023 Beijing Dongcheng Senior Three Second Mock Examination",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "某数学学习小组的7名学生在一次考试后调整了学习方法，一段时间后又参加了第二次考试。两次考试的成绩如下表所示(满分100分)：<br/>| | 学生1 | 学生2 | 学生3 | 学生4 | 学生5 | 学生6 | 学生7 |<br/>| --- | --- | --- | --- | --- | --- | --- | --- |<br/>| 第一次 | 82 | 89 | 78 | 92 | 92 | 65 | 81 |<br/>| 第二次 | 83 | 90 | 75 | 95 | 93 | 61 | 76 |",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从数学学习小组7名学生中随机选取1名，求该名学生第二次考试成绩高于第一次考试成绩的概率；",
+                        "solutionSteps": "1. 统计第二次考试成绩高于第一次考试成绩的学生人数：学生1、学生2、学生4、学生5，共4名；<br/>2. 根据古典概型概率公式，概率P=符合条件的基本事件数/总的基本事件数；<br/>3. 代入数据计算得P=4/7。",
+                        "standardAnswer": "$\\frac{4}{7}$",
+                        "scoringCriteria": "第一问总分3分，正确统计出第二次成绩高于第一次的学生人数得2分，代入古典概型公式计算出正确概率得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设$x_{i}(i=1,2, \\cdots, 7)$表示第i名学生第二次考试成绩与第一次考试成绩的差。从数学学习小组7名学生中随机选取2名，得到数据$x_{i}, x_{j}(1 ≤i, j ≤7, i ≠j)$，定义随机变量X，Y如下：$X=\\begin{cases} 0, & 0 \\leq|x_{i}-x_{j}|<3, \\\\ 1, & 3 \\leq|x_{i}-x_{j}|<6, \\\\ 2, & |x_{i}-x_{j}| \\geq 6, \\end{cases}$ $Y=\\begin{cases} 0, & 0 \\leq|x_{i}-x_{j}|<2, \\\\ 1, & 2 \\leq|x_{i}-x_{j}|<6, \\\\ 3, & |x_{i}-x_{j}| \\geq 6 . \\end{cases}$ (i)求X的分布列和数学期望EX；(ii)设随机变量X，Y的的方差分别为$D X$，$D Y$，试比较$D X$与$D Y$的大小。(结论不要求证明)",
+                        "solutionSteps": "(i) 1. 计算7名学生的成绩差$x_i$：1，1，-3，3，1，-4，-5；<br/>2. 计算从7名学生中选2名的总组合数$C_{7}^{2}=21$；<br/>3. 分别统计X取0、1、2时的组合数，计算对应概率：$P(X=0)=9/21=3/7$，$P(X=1)=6/21=2/7$，$P(X=2)=6/21=2/7$；<br/>4. 列出X的分布列；<br/>5. 根据数学期望公式$EX=\\sum_{k}x_kP(X=x_k)$，计算得$EX=0×3/7+1×2/7+2×2/7=6/7$；<br/>(ii) 直接根据数据特征判断方差大小，得出$DX<DY$。",
+                        "standardAnswer": "(i) X的分布列为：<br/>| X | 0 | 1 | 2 |<br/>| --- | --- | --- | --- |<br/>| P | $\\frac{3}{7}$ | $\\frac{2}{7}$ | $\\frac{2}{7}$ |<br/>数学期望$EX=\\frac{6}{7}$；(ii) $DX<DY$",
+                        "scoringCriteria": "第二问总分10分，其中(i)8分：正确计算出成绩差得1分，算出总组合数得1分，正确计算出X各取值的概率得3分，规范列出分布列得1分，正确计算出数学期望得2分；(ii)2分，正确写出方差大小比较的结论得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "7 students in a math learning group adjusted their learning methods after an exam, and took a second exam after a period of time. Their scores in the two exams are shown in the following table (full score is 100 points):<br/>| | Student 1 | Student 2 | Student 3 | Student 4 | Student 5 | Student 6 | Student 7 |<br/>| --- | --- | --- | --- | --- | --- | --- | --- |<br/>| The first exam | 82 | 89 | 78 | 92 | 92 | 65 | 81 |<br/>| The second exam | 83 | 90 | 75 | 95 | 93 | 61 | 76 |",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select 1 student from the 7 students in the math learning group, find the probability that the student's score in the second exam is higher than that in the first exam;",
+                        "solutionSteps": "1. Count the number of students whose scores in the second exam are higher than those in the first exam: Student 1, Student 2, Student 4, Student 5, a total of 4 students;<br/>2. According to the probability formula of classical probability model, the probability P = the number of basic events that meet the conditions / the total number of basic events;<br/>3. Substitute the data to calculate P=4/7.",
+                        "standardAnswer": "$\\frac{4}{7}$",
+                        "scoringCriteria": "The total score of the first sub-question is 3 points. 2 points for correctly counting the number of students whose second exam score is higher than the first one, and 1 point for calculating the correct probability by substituting the classical probability model formula.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let $x_{i}(i=1,2, \\cdots, 7)$ represent the difference between the score of the i-th student in the second exam and the first exam. Randomly select 2 students from the 7 students in the math learning group to get the data $x_{i}, x_{j}(1 ≤i, j ≤7, i ≠j)$. Define the random variables X and Y as follows: $X=\\begin{cases} 0, & 0 \\leq|x_{i}-x_{j}|<3, \\\\ 1, & 3 \\leq|x_{i}-x_{j}|<6, \\\\ 2, & |x_{i}-x_{j}| \\geq 6, \\end{cases}$ $Y=\\begin{cases} 0, & 0 \\leq|x_{i}-x_{j}|<2, \\\\ 1, & 2 \\leq|x_{i}-x_{j}|<6, \\\\ 3, & |x_{i}-x_{j}| \\geq 6 . \\end{cases}$ (i) Find the probability distribution of X and the mathematical expectation EX; (ii) Let the variances of the random variables X and Y be $D X$ and $D Y$ respectively, compare the sizes of $D X$ and $D Y$. (No proof is required for the conclusion)",
+                        "solutionSteps": "(i) 1. Calculate the score differences $x_i$ of the 7 students: 1, 1, -3, 3, 1, -4, -5;<br/>2. Calculate the total number of combinations of selecting 2 students from 7: $C_{7}^{2}=21$;<br/>3. Count the number of combinations when X takes 0, 1, 2 respectively, and calculate the corresponding probabilities: $P(X=0)=9/21=3/7$, $P(X=1)=6/21=2/7$, $P(X=2)=6/21=2/7$;<br/>4. List the probability distribution of X;<br/>5. Calculate the mathematical expectation according to the formula $EX=\\sum_{k}x_kP(X=x_k)$, and get $EX=0×3/7+1×2/7+2×2/7=6/7$;<br/>(ii) Judge the size of the variance directly according to the data characteristics, and get $DX<DY$.",
+                        "standardAnswer": "(i) The probability distribution of X is as follows:<br/>| X | 0 | 1 | 2 |<br/>| --- | --- | --- | --- |<br/>| P | $\\frac{3}{7}$ | $\\frac{2}{7}$ | $\\frac{2}{7}$ |<br/>The mathematical expectation $EX=\\frac{6}{7}$; (ii) $DX<DY$",
+                        "scoringCriteria": "The total score of the second sub-question is 10 points, among which (i) is 8 points: 1 point for correctly calculating the score differences, 1 point for calculating the total number of combinations, 3 points for correctly calculating the probabilities of each value of X, 1 point for listing the probability distribution standardly, 2 points for correctly calculating the mathematical expectation; (ii) is 2 points, 2 points for correctly writing the conclusion of the variance size comparison.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知焦点为F的抛物线$C: y^{2}=2 p x(p>0)$经过点$M(1,2)$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）设O为坐标原点，求抛物线C的准线方程及$\\triangle O F M$的面积；",
+                        "solutionSteps": "1. 将点M(1,2)代入抛物线方程$y^2=2px$，得$4=2p×1$，解得$p=2$；<br/>2. 根据抛物线性质，准线方程为$x=-\\frac{p}{2}$，代入p=2得准线方程为x=-1，焦点F坐标为(1,0)；<br/>3. 计算$\\triangle OFM$的面积，以OF为底，长度为1，M点纵坐标为高，长度为2，根据三角形面积公式$S=\\frac{1}{2}×底×高$，得$S=\\frac{1}{2}×1×2=1$。",
+                        "standardAnswer": "抛物线C的准线方程为$x=-1$，$S_{\\triangle OFM}=1$",
+                        "scoringCriteria": "第一问总分6分，将点代入抛物线方程解得p的值得2分，正确写出准线方程和焦点坐标得2分，利用三角形面积公式计算出正确面积得2分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设斜率为$k(k ≠0)$的直线l与抛物线C交于不同的两点A，B，若以$AB$为直径的圆与抛物线C的准线相切，求证：直线l过定点，并求出该定点的坐标。",
+                        "solutionSteps": "1. 设直线l的方程为$y=kx+m(k≠0)$，联立抛物线方程$y^2=4x$，消去y得$k^2x^2+(2km-4)x+m^2=0$；<br/>2. 由$\\Delta>0$得$(2km-4)^2-4k^2m^2>0$，化简得$1-km>0$；<br/>3. 设$A(x_1,y_1)$，$B(x_2,y_2)$，由韦达定理得$x_1+x_2=\\frac{4-2km}{k^2}$，$x_1x_2=\\frac{m^2}{k^2}$；<br/>4. 求AB中点N的横坐标$x_0=\\frac{x_1+x_2}{2}=\\frac{2-km}{k^2}$，N到准线x=-1的距离$d=x_0+1=\\frac{k^2-km+2}{k^2}$；<br/>5. 计算弦长$|AB|=\\sqrt{1+k^2}·\\sqrt{(x_1+x_2)^2-4x_1x_2}=\\frac{4\\sqrt{1+k^2}}{k^2}\\sqrt{1-km}$；<br/>6. 由以AB为直径的圆与准线相切得$\\frac{|AB|}{2}=d$，代入化简得$k^2+2km+m^2=0$，即$(k+m)^2=0$，得$m=-k$；<br/>7. 将m=-k代入直线方程得$y=kx-k=k(x-1)$，故直线l过定点(1,0)。",
+                        "standardAnswer": "直线l过定点，定点坐标为$(1,0)$",
+                        "scoringCriteria": "第二问总分9分，正确设出直线方程并与抛物线方程联立消元得2分，由判别式得出$1-km>0$得1分，正确运用韦达定理得1分，求出AB中点坐标及到准线的距离得1分，正确计算出弦长$|AB|$得1分，利用圆与准线相切的条件列出等式并化简得2分，求出定点坐标得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "The parabola $C: y^{2}=2 p x(p>0)$ with focus F passes through the point $M(1,2)$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Let O be the origin of coordinates, find the directrix equation of the parabola C and the area of $\\triangle O F M$;",
+                        "solutionSteps": "1. Substitute the point M(1,2) into the parabola equation $y^2=2px$, we get $4=2p×1$, and solve for $p=2$;<br/>2. According to the properties of the parabola, the directrix equation is $x=-\\frac{p}{2}$, substitute p=2 to get the directrix equation x=-1, and the coordinate of the focus F is (1,0);<br/>3. Calculate the area of $\\triangle OFM$, take OF as the base with length 1, and the ordinate of point M as the height with length 2. According to the triangle area formula $S=\\frac{1}{2}×base×height$, we get $S=\\frac{1}{2}×1×2=1$.",
+                        "standardAnswer": "The directrix equation of the parabola C is $x=-1$, $S_{\\triangle OFM}=1$",
+                        "scoringCriteria": "The total score of the first sub-question is 6 points. 2 points for substituting the point into the parabola equation to solve for the value of p, 2 points for correctly writing the directrix equation and the coordinate of the focus, and 2 points for calculating the correct area using the triangle area formula.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let the straight line l with slope $k(k ≠0)$ intersect the parabola C at two distinct points A and B. If the circle with AB as the diameter is tangent to the directrix of the parabola C, prove that the straight line l passes through a fixed point, and find the coordinate of the fixed point.",
+                        "solutionSteps": "1. Let the equation of the straight line l be $y=kx+m(k≠0)$,联立 the parabola equation $y^2=4x$, eliminate y to get $k^2x^2+(2km-4)x+m^2=0$;<br/>2. From $\\Delta>0$, we have $(2km-4)^2-4k^2m^2>0$, simplify to get $1-km>0$;<br/>3. Let $A(x_1,y_1)$, $B(x_2,y_2)$, from Vieta's formulas, we get $x_1+x_2=\\frac{4-2km}{k^2}$, $x_1x_2=\\frac{m^2}{k^2}$;<br/>4. Find the abscissa of the midpoint N of AB: $x_0=\\frac{x_1+x_2}{2}=\\frac{2-km}{k^2}$, the distance d from N to the directrix x=-1 is $d=x_0+1=\\frac{k^2-km+2}{k^2}$;<br/>5. Calculate the chord length $|AB|=\\sqrt{1+k^2}·\\sqrt{(x_1+x_2)^2-4x_1x_2}=\\frac{4\\sqrt{1+k^2}}{k^2}\\sqrt{1-km}$;<br/>6. From the condition that the circle with AB as the diameter is tangent to the directrix, we have $\\frac{|AB|}{2}=d$, substitute and simplify to get $k^2+2km+m^2=0$, that is $(k+m)^2=0$, so $m=-k$;<br/>7. Substitute m=-k into the straight line equation to get $y=kx-k=k(x-1)$, so the straight line l passes through the fixed point (1,0).",
+                        "standardAnswer": "The straight line l passes through a fixed point, and the coordinate of the fixed point is $(1,0)$",
+                        "scoringCriteria": "The total score of the second sub-question is 9 points. 2 points for correctly setting the straight line equation and联立 it with the parabola equation to eliminate y, 1 point for deriving $1-km>0$ from the discriminant, 1 point for correctly applying Vieta's formulas, 1 point for finding the coordinate of the midpoint of AB and the distance to the directrix, 1 point for correctly calculating the chord length $|AB|$, 2 points for listing the equation and simplifying it by using the condition that the circle is tangent to the directrix, and 1 point for finding the coordinate of the fixed point.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数$f(x)=e^{x} sin x-2 x$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求曲线$y=f(x)$在点$(0, f(0))$处的切线方程；",
+                        "solutionSteps": "1. 求函数$f(x)$的导数$f'(x)=e^x(sin x+cos x)-2$；<br/>2. 计算$f(0)=e^0sin0-2×0=0$，$f'(0)=e^0(sin0+cos0)-2=-1$；<br/>3. 根据点斜式切线方程$y-y_0=f'(x_0)(x-x_0)$，代入$(0,0)$和$f'(0)=-1$，得切线方程为$y=-x$。",
+                        "standardAnswer": "$y=-x$",
+                        "scoringCriteria": "第一问总分5分，正确求出函数的导数得2分，准确计算出$f(0)$和$f'(0)$的值得2分，根据点斜式写出正确的切线方程得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）求$f(x)$在区间$[-1,1]$上的最大值；",
+                        "solutionSteps": "1. 令$g(x)=f'(x)=e^x(sin x+cos x)-2$，求$g(x)$的导数$g'(x)=2e^xcos x$；<br/>2. 当$x∈[-1,1]$时，$g'(x)>0$，故$g(x)$在$[-1,1]$上单调递增；<br/>3. 由$g(0)=-1<0$，$g(1)=e(sin1+cos1)-2>0$，根据零点存在定理，存在$x_0∈(0,1)$，使得$g(x_0)=0$；<br/>4. 分析$f(x)$的单调性：$x∈(-1,x_0)$时，$f'(x)<0$，$f(x)$单调递减；$x∈(x_0,1)$时，$f'(x)>0$，$f(x)$单调递增；<br/>5. 计算区间端点函数值：$f(1)=e sin1-2$，$f(-1)=2-\\frac{sin1}{e}$，比较得$f(-1)>f(1)$，故$f(x)$在$[-1,1]$上的最大值为$f(-1)$。",
+                        "standardAnswer": "$2-\\frac{sin1}{e}$",
+                        "scoringCriteria": "第二问总分6分，正确求出$g(x)$及其导数$g'(x)$得1分，判断出$g(x)$在$[-1,1]$上的单调性得1分，利用零点存在定理得出存在$x_0$使得$g(x_0)=0$得1分，正确分析出$f(x)$的单调性得1分，计算出区间端点的函数值得1分，比较得出最大值并写出正确结果得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "（Ⅲ）设实数a使得$f(x)+x>a e^{x}$对$x \\in R$恒成立，写出a的最大整数值，并说明理由。",
+                        "solutionSteps": "1. 将不等式$f(x)+x>a e^x$变形为$e^xsinx-2x+x>a e^x$，即$a<sinx-\\frac{x}{e^x}$对$x∈R$恒成立，令$\\varphi(x)=sinx-\\frac{x}{e^x}$，只需求$\\varphi(x)$的最小值的整数下界；<br/>2. 当$x≤0$时，$-\\frac{x}{e^x}≥0$，故$\\varphi(x)>-1$恒成立；<br/>3. 当$x>0$时，令$h(x)=-\\frac{x}{e^x}$，求导得$h'(x)=\\frac{x-1}{e^x}$，分析$h(x)$的单调性：$x∈(0,1)$时，$h'(x)<0$，$h(x)$单调递减；$x∈(1,+∞)$时，$h'(x)>0$，$h(x)$单调递增，故$h(x)_{min}=h(1)=-\\frac{1}{e}$；<br/>4. 分析$\\varphi(x)=sinx+h(x)$的取值范围，$sinx∈[-1,1]$，$h(x)∈[-\\frac{1}{e},0)$，故$\\varphi(x)$的最小值大于-2且小于-1；<br/>5. 因此a的最大整数值为-2。",
+                        "standardAnswer": "-2",
+                        "scoringCriteria": "第三问总分4分，将不等式恒成立问题转化为求函数最小值问题得1分，分析$x≤0$时$\\varphi(x)$的取值范围得1分，分析$x>0$时$h(x)$的单调性并求出最小值得1分，结合$sinx$的范围得出$\\varphi(x)$的最小值范围并确定a的最大整数值得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=e^{x} sin x-2 x$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the tangent equation of the curve $y=f(x)$ at the point $(0, f(0))$;",
+                        "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=e^x(sin x+cos x)-2$;<br/>2. Calculate $f(0)=e^0sin0-2×0=0$, $f'(0)=e^0(sin0+cos0)-2=-1$;<br/>3. According to the point-slope form of the tangent equation $y-y_0=f'(x_0)(x-x_0)$, substitute $(0,0)$ and $f'(0)=-1$ to get the tangent equation $y=-x$.",
+                        "standardAnswer": "$y=-x$",
+                        "scoringCriteria": "The total score of the first sub-question is 5 points. 2 points for correctly finding the derivative of the function, 2 points for accurately calculating the values of $f(0)$ and $f'(0)$, and 1 point for writing the correct tangent equation according to the point-slope form.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Find the maximum value of $f(x)$ on the interval $[-1,1]$;",
+                        "solutionSteps": "1. Let $g(x)=f'(x)=e^x(sin x+cos x)-2$, find the derivative of $g(x)$: $g'(x)=2e^xcos x$;<br/>2. When $x∈[-1,1]$, $g'(x)>0$, so $g(x)$ is monotonically increasing on $[-1,1]$;<br/>3. Since $g(0)=-1<0$, $g(1)=e(sin1+cos1)-2>0$, according to the Zero Existence Theorem, there exists $x_0∈(0,1)$ such that $g(x_0)=0$;<br/>4. Analyze the monotonicity of $f(x)$: when $x∈(-1,x_0)$, $f'(x)<0$, $f(x)$ is monotonically decreasing; when $x∈(x_0,1)$, $f'(x)>0$, $f(x)$ is monotonically increasing;<br/>5. Calculate the function values at the endpoints of the interval: $f(1)=e sin1-2$, $f(-1)=2-\\frac{sin1}{e}$, compare to get $f(-1)>f(1)$, so the maximum value of $f(x)$ on $[-1,1]$ is $f(-1)$.",
+                        "standardAnswer": "$2-\\frac{sin1}{e}$",
+                        "scoringCriteria": "The total score of the second sub-question is 6 points. 1 point for correctly finding $g(x)$ and its derivative $g'(x)$, 1 point for judging the monotonicity of $g(x)$ on $[-1,1]$, 1 point for concluding that there exists $x_0$ such that $g(x_0)=0$ by using the Zero Existence Theorem, 1 point for correctly analyzing the monotonicity of $f(x)$, 1 point for calculating the function values at the endpoints of the interval, and 1 point for comparing to get the maximum value and writing the correct result.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "(Ⅲ) Let the real number a satisfy that $f(x)+x>a e^{x}$ holds for all $x \\in R$, write the maximum integer value of a and explain the reason.",
+                        "solutionSteps": "1. Transform the inequality $f(x)+x>a e^x$ into $e^xsinx-2x+x>a e^x$, that is $a<sinx-\\frac{x}{e^x}$ holds for all $x∈R$. Let $\\varphi(x)=sinx-\\frac{x}{e^x}$, we only need to find the integer lower bound of the minimum value of $\\varphi(x)$;<br/>2. When $x≤0$, $-\\frac{x}{e^x}≥0$, so $\\varphi(x)>-1$ holds for all $x≤0$;<br/>3. When $x>0$, let $h(x)=-\\frac{x}{e^x}$, find the derivative $h'(x)=\\frac{x-1}{e^x}$, analyze the monotonicity of $h(x)$: when $x∈(0,1)$, $h'(x)<0$, $h(x)$ is monotonically decreasing; when $x∈(1,+∞)$, $h'(x)>0$, $h(x)$ is monotonically increasing, so $h(x)_{min}=h(1)=-\\frac{1}{e}$;<br/>4. Analyze the value range of $\\varphi(x)=sinx+h(x)$, $sinx∈[-1,1]$, $h(x)∈[-\\frac{1}{e},0)$, so the minimum value of $\\varphi(x)$ is greater than -2 and less than -1;<br/>5. Therefore, the maximum integer value of a is -2.",
+                        "standardAnswer": "-2",
+                        "scoringCriteria": "The total score of the third sub-question is 4 points. 1 point for transforming the inequality constant establishment problem into a problem of finding the minimum value of a function, 1 point for analyzing the value range of $\\varphi(x)$ when $x≤0$, 1 point for analyzing the monotonicity of $h(x)$ and finding its minimum value when $x>0$, and 1 point for combining the range of $sinx$ to get the range of the minimum value of $\\varphi(x)$ and determining the maximum integer value of a.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知有穷数列$A: a_{1}, a_{2}, \\cdots, a_{n}(n ≥3)$中的每一项都是不大于n的正整数。对于满足$1 ≤m ≤n$的整数m，令集合$A(m)={k | a_{k}=m, k=1,2, \\cdots, n}$。记集合$A(m)$中元素的个数为$s(m)$(约定空集的元素个数为0)。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若$A:6,3,2,5,3,7,5,5$，求$A(5)$及$s(5)$；",
+                        "solutionSteps": "1. 根据集合$A(m)$的定义，$A(5)$是满足$a_k=5$的所有k的集合；<br/>2. 查找数列A中值为5的项的位置：第4项、第7项、第8项，故$A(5)={4,7,8}$；<br/>3. 根据$s(m)$的定义，$s(5)$是集合$A(5)$中元素的个数，数出元素个数为3，故$s(5)=3$。",
+                        "standardAnswer": "$A(5)={4,7,8}$，$s(5)=3$",
+                        "scoringCriteria": "第一问总分4分，根据定义正确求出集合$A(5)$得2分，根据定义正确求出$s(5)$的值得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若$\\frac{1}{s(a_{1})}+\\frac{1}{s(a_{2})}+\\cdots+\\frac{1}{s(a_{n})}=n$，求证：$a_{1}, a_{2}, \\cdots, a_{n}$互不相同；",
+                        "solutionSteps": "1. 由题知$s(a_i)≥1(i=1,2,\\cdots,n)$，因此$\\frac{1}{s(a_i)}≤1$；<br/>2. 则$\\frac{1}{s(a_1)}+\\frac{1}{s(a_2)}+\\cdots+\\frac{1}{s(a_n)}≤n$，当且仅当每个$\\frac{1}{s(a_i)}=1$时等号成立；<br/>3. 已知$\\frac{1}{s(a_1)}+\\frac{1}{s(a_2)}+\\cdots+\\frac{1}{s(a_n)}=n$，故$\\frac{1}{s(a_i)}=1$，即$s(a_i)=1$对所有$i=1,2,\\cdots,n$成立；<br/>4. $s(a_i)=1$表示每个$a_i$对应的集合$A(a_i)$中仅有一个元素，即每个$a_i$在数列中仅出现一次，故$a_1,a_2,\\cdots,a_n$互不相同。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问总分5分，得出$s(a_i)≥1$且$\\frac{1}{s(a_i)}≤1$得1分，推出$\\frac{1}{s(a_1)}+\\cdots+\\frac{1}{s(a_n)}≤n$且等号成立条件得2分，结合已知条件得出$s(a_i)=1$得1分，根据$s(m)$的定义证明数列各项互不相同得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）已知$a_{1}=a$，$a_{2}=b$，若对任意的正整数$i, j(i ≠j, i+j ≤n)$都有$i+j \\in A(a_{i})$或$i+j \\in A(a_{j})$，求$a_{1}+a_{2}+\\cdots+a_{n}$的值。",
+                        "solutionSteps": "1. 由题中条件$i+j \\in A(a_i)$或$i+j \\in A(a_j)$，可得$a_{i+j}=a_i$或$a_{i+j}=a_j$；<br/>2. 令$j=1$，得$a_{i+1}=a_i$或$a_{i+1}=a_1$对$i=2,3,\\cdots,n-1$成立，故$a_3=a_2$或$a_3=a_1$；<br/>3. 分情况讨论：<br/>   ① 当$a=b$时，$a_3=a_4=\\cdots=a_n=a$，故和为$na$；<br/>   ② 当$a≠b$时，若$a_3=a$，则$a_4=a_5=\\cdots=a_n=a$，和为$(n-1)a+b$；若$a_3=b$，通过递推可证$a_4=a_5=\\cdots=a_n=b$，和为$a+(n-1)b$。",
+                        "standardAnswer": "当$a=b$时，$a_1+a_2+\\cdots+a_n=na$；当$a≠b$且$a_3=a$时，和为$(n-1)a+b$；当$a≠b$且$a_3=b$时，和为$a+(n-1)b$",
+                        "scoringCriteria": "第三问总分6分，由题设条件推出$a_{i+j}=a_i$或$a_{i+j}=a_j$得1分，令$j=1$推出$a_3$的取值情况得1分，分$a=b$的情况求出数列和得1分，分$a≠b$且$a_3=a$的情况求出数列和得1分，分$a≠b$且$a_3=b$的情况通过递推证明并求出数列和得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given a finite sequence $A: a_{1}, a_{2}, \\cdots, a_{n}(n ≥3)$ where each term is a positive integer not greater than n. For an integer m satisfying $1 ≤m ≤n$, let the set $A(m)={k | a_{k}=m, k=1,2, \\cdots, n}$. Denote the number of elements in the set $A(m)$ as $s(m)$ (it is agreed that the number of elements in the empty set is 0).",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $A:6,3,2,5,3,7,5,5$, find $A(5)$ and $s(5)$;",
+                        "solutionSteps": "1. According to the definition of the set $A(m)$, $A(5)$ is the set of all k satisfying $a_k=5$;<br/>2. Find the positions of the terms with value 5 in sequence A: the 4th term, the 7th term, the 8th term, so $A(5)={4,7,8}$;<br/>3. According to the definition of $s(m)$, $s(5)$ is the number of elements in the set $A(5)$, count the number of elements as 3, so $s(5)=3$.",
+                        "standardAnswer": "$A(5)={4,7,8}$, $s(5)=3$",
+                        "scoringCriteria": "The total score of the first sub-question is 4 points. 2 points for correctly finding the set $A(5)$ according to the definition, and 2 points for correctly finding the value of $s(5)$ according to the definition.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If $\\frac{1}{s(a_{1})}+\\frac{1}{s(a_{2})}+\\cdots+\\frac{1}{s(a_{n})}=n$, prove that $a_{1}, a_{2}, \\cdots, a_{n}$ are all distinct;",
+                        "solutionSteps": "1. It is known from the problem that $s(a_i)≥1(i=1,2,\\cdots,n)$, so $\\frac{1}{s(a_i)}≤1$;<br/>2. Then $\\frac{1}{s(a_1)}+\\frac{1}{s(a_2)}+\\cdots+\\frac{1}{s(a_n)}≤n$, and the equality holds if and only if $\\frac{1}{s(a_i)}=1$ for each i;<br/>3. Since $\\frac{1}{s(a_1)}+\\frac{1}{s(a_2)}+\\cdots+\\frac{1}{s(a_n)}=n$, we have $\\frac{1}{s(a_i)}=1$, that is $s(a_i)=1$ holds for all $i=1,2,\\cdots,n$;<br/>4. $s(a_i)=1$ means that there is only one element in the set $A(a_i)$ corresponding to each $a_i$, that is each $a_i$ appears only once in the sequence, so $a_1,a_2,\\cdots,a_n$ are all distinct.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "The total score of the second sub-question is 5 points. 1 point for deriving $s(a_i)≥1$ and $\\frac{1}{s(a_i)}≤1$, 2 points for deducing $\\frac{1}{s(a_1)}+\\cdots+\\frac{1}{s(a_n)}≤n$ and the condition for the equality to hold, 1 point for concluding $s(a_i)=1$ combined with the known condition, and 1 point for proving that all terms of the sequence are distinct according to the definition of $s(m)$.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Given $a_{1}=a$, $a_{2}=b$, if for any positive integers $i, j(i ≠j, i+j ≤n)$, there is $i+j \\in A(a_{i})$ or $i+j \\in A(a_{j})$, find the value of $a_{1}+a_{2}+\\cdots+a_{n}$.",
+                        "solutionSteps": "1. From the given condition $i+j \\in A(a_i)$ or $i+j \\in A(a_j)$, we can get $a_{i+j}=a_i$ or $a_{i+j}=a_j$;<br/>2. Let $j=1$, then $a_{i+1}=a_i$ or $a_{i+1}=a_1$ holds for $i=2,3,\\cdots,n-1$, so $a_3=a_2$ or $a_3=a_1$;<br/>3. Discuss by cases:<br/>   ① When $a=b$, $a_3=a_4=\\cdots=a_n=a$, so the sum is $na$;<br/>   ② When $a≠b$, if $a_3=a$, then $a_4=a_5=\\cdots=a_n=a$, and the sum is $(n-1)a+b$; if $a_3=b$, it can be proved by recurrence that $a_4=a_5=\\cdots=a_n=b$, and the sum is $a+(n-1)b$.",
+                        "standardAnswer": "When $a=b$, $a_1+a_2+\\cdots+a_n=na$; when $a≠b$ and $a_3=a$, the sum is $(n-1)a+b$; when $a≠b$ and $a_3=b$, the sum is $a+(n-1)b$",
+                        "scoringCriteria": "The total score of the third sub-question is 6 points. 1 point for deducing $a_{i+j}=a_i$ or $a_{i+j}=a_j$ from the given condition, 1 point for deducing the possible values of $a_3$ by letting $j=1$, 1 point for finding the sum of the sequence when $a=b$, 1 point for finding the sum of the sequence when $a≠b$ and $a_3=a$, and 2 points for proving by recurrence and finding the sum of the sequence when $a≠b$ and $a_3=b$.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

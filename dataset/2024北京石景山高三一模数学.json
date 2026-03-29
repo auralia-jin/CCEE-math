@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2024 Beijing Shijingshan Senior Three First Mock Examination",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "为研究北京西部地区油松次生林和油松人工林的森林群落植物多样性问题，某高中研究性学习小组暑假以妙峰山油松次生林和老山油松人工林为研究对象进行调查，得到两地区林下灌木层，乔木层，草本层的抽样调查数据。其中两地区林下灌木层获得数据如表1，表2所示：表1为老山油松人工林林下灌木层数据，表2为妙峰山油松次生林林下灌木层数据。",
+                "subQuestions": [
+                    {
+                        "question": "（1）从抽取的老山油松人工林林下灌木层的植物样本中任选2株，求2株植物的类型都是乔木幼苗的概率；",
+                        "solutionSteps": "1. 计算表1中植物总株数：灌木株数28+41+22+4=95株，乔木幼苗株数1+1+2+1=5株，总株数95+5=100株；\\n2. 根据古典概型概率公式，从100株中任选2株的总组合数为$C_{100}^{2}$，从5株乔木幼苗中任选2株的组合数为$C_{5}^{2}$；\\n3. 计算概率$P=\\frac{C_{5}^{2}}{C_{100}^{2}}$，代入组合数公式$C_{n}^{k}=\\frac{n!}{k!(n-k)!}$，得$C_{5}^{2}=10$，$C_{100}^{2}=4950$，化简得$P=\\frac{10}{4950}=\\frac{1}{495}$。",
+                        "standardAnswer": "$\\frac{1}{495}$",
+                        "scoringCriteria": "第一问总分5分，正确计算表1中乔木幼苗株数和总株数得2分；正确写出古典概型概率公式并代入组合数得2分；计算结果化简正确得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）以表格中植物类型的频率估计概率，从妙峰山油松次生林林下灌木层的所有植物中随机抽取3株（假设每次抽取的结果互不影响），记这3株植物的植物类型是灌木的株数为X，求X的分布列和数学期望；",
+                        "solutionSteps": "1. 计算表2中植物总株数：灌木株数9+11+10+10+8=48株，乔木幼苗24株，木质藤本8株，总株数48+24+8=80株；\\n2. 计算抽取1株为灌木的概率$p=\\frac{48}{80}=\\frac{3}{5}$，确定X服从二项分布$X\\sim B(3,\\frac{3}{5})$，X的可能取值为0,1,2,3；\\n3. 分别计算各取值概率：$P(X=0)=(\\frac{2}{5})^{3}=\\frac{8}{125}$，$P(X=1)=C_{3}^{1}\\times\\frac{3}{5}\\times(\\frac{2}{5})^{2}=\\frac{36}{125}$，$P(X=2)=C_{3}^{2}\\times(\\frac{3}{5})^{2}\\times\\frac{2}{5}=\\frac{54}{125}$，$P(X=3)=(\\frac{3}{5})^{3}=\\frac{27}{125}$；\\n4. 列出X的分布列，再根据二项分布数学期望公式$E(X)=np$，计算得$E(X)=3\\times\\frac{3}{5}=\\frac{9}{5}$。",
+                        "standardAnswer": "分布列为：X:0，P:$\\frac{8}{125}$；X:1，P:$\\frac{36}{125}$；X:2，P:$\\frac{54}{125}$；X:3，P:$\\frac{27}{125}$；数学期望为$\\frac{9}{5}$",
+                        "scoringCriteria": "第二问总分6分，正确计算抽取1株为灌木的概率并确定二项分布得1分；正确计算X各取值的概率共3分（每个概率0.75分）；正确列出分布列得1分；正确计算数学期望得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（3）从老山油松人工林的林下灌木层所有符合表1中植物名称的植物中任选2株，记此2株植物属于不同植物名称的概率估计值为$P_{1}$；从妙峰山油松次生林的林下灌木层所有符合表2中植物名称的植物中任选2株，记此2株植物属于不同植物名称的概率估计值为$P_{2}$。请直接写出$P_{1}$与$P_{2}$大小关系。(结论不要求证明)",
+                        "solutionSteps": "分析表1和表2中植物名称的数量分布，表1中各植物株数差距大，表2中各植物株数分布更均匀，因此直接得出$P_{1}$与$P_{2}$的大小关系。",
+                        "standardAnswer": "$P_{1}<P_{2}$",
+                        "scoringCriteria": "第三问总分2分，直接写出正确的大小关系得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "To study the plant diversity of forest communities in Pinus tabuliformis secondary forests and Pinus tabuliformis plantations in the western part of Beijing, a research study group of a senior high school conducted an investigation in the summer with Miaofeng Mountain Pinus tabuliformis secondary forest and Laoshan Pinus tabuliformis plantation as the research objects, and obtained sampling survey data of the understory shrub layer, arbor layer and herb layer in the two areas. The data of the understory shrub layer in the two areas are shown in Table 1 and Table 2: Table 1 is the data of the understory shrub layer of Laoshan Pinus tabuliformis plantation, and Table 2 is the data of the understory shrub layer of Miaofeng Mountain Pinus tabuliformis secondary forest.",
+                "subQuestions": [
+                    {
+                        "question": "(1) Select any 2 plants from the plant samples of the understory shrub layer of the extracted Laoshan Pinus tabuliformis plantation, find the probability that both of the 2 plants are arbor seedlings;",
+                        "solutionSteps": "1. Calculate the total number of plants in Table 1: the number of shrub plants is 28+41+22+4=95, the number of arbor seedlings is 1+1+2+1=5, and the total number of plants is 95+5=100;\\n2. According to the classical probability formula, the total number of combinations of selecting 2 plants from 100 is $C_{100}^{2}$, and the number of combinations of selecting 2 plants from 5 arbor seedlings is $C_{5}^{2}$;\\n3. Calculate the probability $P=\\frac{C_{5}^{2}}{C_{100}^{2}}$, substitute the combination formula $C_{n}^{k}=\\frac{n!}{k!(n-k)!}$, get $C_{5}^{2}=10$, $C_{100}^{2}=4950$, and simplify to get $P=\\frac{10}{4950}=\\frac{1}{495}$. ",
+                        "standardAnswer": "$\\frac{1}{495}$",
+                        "scoringCriteria": "The total score of the first sub-question is 5 points. 2 points for correctly calculating the number of arbor seedlings and the total number of plants in Table 1; 2 points for correctly writing the classical probability formula and substituting the combination numbers; 1 point for correctly simplifying the calculation result.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) Estimate the probability by the frequency of plant types in the table, randomly select 3 plants from all plants in the understory shrub layer of Miaofeng Mountain Pinus tabuliformis secondary forest (assuming the results of each selection are independent of each other), record the number of shrub plants among the 3 plants as X, find the probability mass function and mathematical expectation of X;",
+                        "solutionSteps": "1. Calculate the total number of plants in Table 2: the number of shrub plants is 9+11+10+10+8=48, the number of arbor seedlings is 24, the number of woody vines is 8, and the total number of plants is 48+24+8=80;\\n2. Calculate the probability $p=\\frac{48}{80}=\\frac{3}{5}$ of selecting a shrub plant, determine that X follows a binomial distribution $X\\sim B(3,\\frac{3}{5})$, and the possible values of X are 0,1,2,3;\\n3. Calculate the probability of each value separately: $P(X=0)=(\\frac{2}{5})^{3}=\\frac{8}{125}$, $P(X=1)=C_{3}^{1}\\times\\frac{3}{5}\\times(\\frac{2}{5})^{2}=\\frac{36}{125}$, $P(X=2)=C_{3}^{2}\\times(\\frac{3}{5})^{2}\\times\\frac{2}{5}=\\frac{54}{125}$, $P(X=3)=(\\frac{3}{5})^{3}=\\frac{27}{125}$;\\n4. List the probability mass function of X, and then calculate the mathematical expectation according to the binomial distribution expectation formula $E(X)=np$, getting $E(X)=3\\times\\frac{3}{5}=\\frac{9}{5}$. ",
+                        "standardAnswer": "The probability mass function is: X:0, P:$\\frac{8}{125}$; X:1, P:$\\frac{36}{125}$; X:2, P:$\\frac{54}{125}$; X:3, P:$\\frac{27}{125}$; The mathematical expectation is $\\frac{9}{5}$",
+                        "scoringCriteria": "The total score of the second sub-question is 6 points. 1 point for correctly calculating the probability of selecting a shrub plant and determining the binomial distribution; 3 points for correctly calculating the probability of each value of X (0.75 points for each probability); 1 point for correctly listing the probability mass function; 1 point for correctly calculating the mathematical expectation.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(3) Select any 2 plants from all plants conforming to the plant names in Table 1 in the understory shrub layer of Laoshan Pinus tabuliformis plantation, record the estimated probability value that the 2 plants belong to different plant names as $P_{1}$; select any 2 plants from all plants conforming to the plant names in Table 2 in the understory shrub layer of Miaofeng Mountain Pinus tabuliformis secondary forest, record the estimated probability value that the 2 plants belong to different plant names as $P_{2}$. Write the size relationship between $P_{1}$ and $P_{2}$ directly. (Proof is not required for the conclusion)",
+                        "solutionSteps": "Analyze the quantity distribution of plant names in Table 1 and Table 2. The number of each plant in Table 1 has a large gap, and the number of each plant in Table 2 is more evenly distributed, so the size relationship between $P_{1}$ and $P_{2}$ is directly obtained.",
+                        "standardAnswer": "$P_{1}<P_{2}$",
+                        "scoringCriteria": "The total score of the third sub-question is 2 points. 2 points for directly writing the correct size relationship.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数$f(x)=x e^{a x}(a>0)$",
+                "subQuestions": [
+                    {
+                        "question": "（1）求曲线$y=f(x)$在点$(0, f(0))$处的切线方程；",
+                        "solutionSteps": "1. 求函数$f(x)$的导数，根据乘积求导法则和复合函数求导法则，$f'(x)=(1+ax)e^{ax}$；\\n2. 计算切点处的导数值和函数值，$f'(0)=(1+0)e^{0}=1$，$f(0)=0\\times e^{0}=0$，切点为$(0,0)$，切线斜率$k=1$；\\n3. 根据点斜式方程$y-y_{0}=k(x-x_{0})$，得切线方程为$y=x$。",
+                        "standardAnswer": "$y=x$",
+                        "scoringCriteria": "第一问总分4分，正确求导得2分；正确计算切点处的导数值和函数值得1分；正确写出切线方程得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）求$f(x)$在区间$[-1,1]$上的最大值与最小值；",
+                        "solutionSteps": "1. 由$f'(x)=(1+ax)e^{ax}(a>0)$，令$f'(x)=0$，解得$x=-\\frac{1}{a}$；\\n2. 分两种情况讨论：\\n①当$0<a≤1$时，$-\\frac{1}{a}≤-1$，$f'(x)≥0$在$[-1,1]$上恒成立，$f(x)$在$[-1,1]$上单调递增，因此最小值为$f(-1)=-e^{-a}$，最大值为$f(1)=e^{a}$；\\n②当$a>1$时，$-1<-\\frac{1}{a}<0$，$f(x)$在$[-1,-\\frac{1}{a})$上$f'(x)<0$，单调递减，在$[-\\frac{1}{a},1]$上$f'(x)>0$，单调递增，因此最小值为$f(-\\frac{1}{a})=-\\frac{1}{ae}$，又$f(1)=e^{a}>f(-1)=-e^{-a}$，最大值为$f(1)=e^{a}$；\\n3. 总结两种情况的最值结果。",
+                        "standardAnswer": "当$0<a≤1$时，最小值为$-e^{-a}$，最大值为$e^{a}$；当$a>1$时，最小值为$-\\frac{1}{ae}$，最大值为$e^{a}$",
+                        "scoringCriteria": "第二问总分6分，正确求导并求出极值点得1分；正确分情况讨论单调性，每种情况的单调性判断各得1分，共2分；分别计算两种情况下的最小值各得1分，共2分；正确确定两种情况下的最大值得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（3）当$a=1$时，求证：$f(x) ≥\\ln x+x+1$。",
+                        "solutionSteps": "1. 当$a=1$时，$f(x)=xe^{x}$，需证明$xe^{x}≥\\ln x+x+1(x>0)$，构造函数$g(x)=xe^{x}-\\ln x-x-1(x>0)$；\\n2. 求$g(x)$的导数，$g'(x)=(x+1)e^{x}-\\frac{1}{x}-1=(x+1)(e^{x}-\\frac{1}{x})$；\\n3. 分析$h(x)=e^{x}-\\frac{1}{x}(x>0)$的单调性，$h'(x)=e^{x}+\\frac{1}{x^{2}}>0$，故$h(x)$在$(0,+∞)$上单调递增，又$h(\\frac{1}{2})=\\sqrt{e}-2<0$，$h(1)=e-1>0$，因此存在唯一$x_{0}∈(\\frac{1}{2},1)$，使$h(x_{0})=0$，即$e^{x_{0}}=\\frac{1}{x_{0}}$，$x_{0}=-\\ln x_{0}$；\\n4. 分析$g(x)$的单调性，$x∈(0,x_{0})$时，$g'(x)<0$，$g(x)$单调递减，$x∈(x_{0},+∞)$时，$g'(x)>0$，$g(x)$单调递增，故$g(x)_{min}=g(x_{0})$；\\n5. 计算$g(x_{0})=x_{0}e^{x_{0}}-\\ln x_{0}-x_{0}-1$，代入$x_{0}e^{x_{0}}=1$和$x_{0}=-\\ln x_{0}$，得$g(x_{0})=1+x_{0}-x_{0}-1=0$，因此$g(x)≥0$，即$xe^{x}≥\\ln x+x+1$。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问总分5分，正确构造函数得1分；正确求导并化简导数得1分；正确分析$h(x)$的单调性并找到唯一零点得1分；正确分析$g(x)$的单调性并确定最小值点得1分；正确计算最小值并完成证明得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=x e^{a x}(a>0)$",
+                "subQuestions": [
+                    {
+                        "question": "(1) Find the tangent equation of the curve $y=f(x)$ at the point $(0, f(0))$;",
+                        "solutionSteps": "1. Find the derivative of the function $f(x)$. According to the product rule and the chain rule of differentiation, $f'(x)=(1+ax)e^{ax}$;\\n2. Calculate the derivative value and the function value at the tangent point, $f'(0)=(1+0)e^{0}=1$, $f(0)=0\\times e^{0}=0$, the tangent point is $(0,0)$, and the slope of the tangent line $k=1$;\\n3. According to the point-slope form $y-y_{0}=k(x-x_{0})$, the tangent equation is $y=x$.",
+                        "standardAnswer": "$y=x$",
+                        "scoringCriteria": "The total score of the first sub-question is 4 points. 2 points for correctly finding the derivative; 1 point for correctly calculating the derivative value and the function value at the tangent point; 1 point for correctly writing the tangent equation.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) Find the maximum and minimum values of $f(x)$ on the interval $[-1,1]$;",
+                        "solutionSteps": "1. From $f'(x)=(1+ax)e^{ax}(a>0)$, let $f'(x)=0$, solve to get $x=-\\frac{1}{a}$;\\n2. Discuss in two cases: \\n① When $0<a≤1$, $-\\frac{1}{a}≤-1$, $f'(x)≥0$ holds for all $x∈[-1,1]$, $f(x)$ is monotonically increasing on $[-1,1]$, so the minimum value is $f(-1)=-e^{-a}$ and the maximum value is $f(1)=e^{a}$;\\n② When $a>1$, $-1<-\\frac{1}{a}<0$, $f'(x)<0$ on $[-1,-\\frac{1}{a})$, $f(x)$ is monotonically decreasing, and $f'(x)>0$ on $[-\\frac{1}{a},1]$, $f(x)$ is monotonically increasing, so the minimum value is $f(-\\frac{1}{a})=-\\frac{1}{ae}$. In addition, $f(1)=e^{a}>f(-1)=-e^{-a}$, so the maximum value is $f(1)=e^{a}$;\\n3. Summarize the maximum and minimum values in the two cases.",
+                        "standardAnswer": "When $0<a≤1$, the minimum value is $-e^{-a}$ and the maximum value is $e^{a}$; when $a>1$, the minimum value is $-\\frac{1}{ae}$ and the maximum value is $e^{a}$",
+                        "scoringCriteria": "The total score of the second sub-question is 6 points. 1 point for correctly finding the derivative and the extreme point; 2 points for correctly discussing the monotonicity by cases, 1 point for the monotonicity judgment of each case; 2 points for calculating the minimum value in each case separately, 1 point for each; 1 point for correctly determining the maximum value in the two cases.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(3) Prove that $f(x) ≥\\ln x+x+1$ when $a=1$.",
+                        "solutionSteps": "1. When $a=1$, $f(x)=xe^{x}$, it is necessary to prove $xe^{x}≥\\ln x+x+1(x>0)$, construct the function $g(x)=xe^{x}-\\ln x-x-1(x>0)$;\\n2. Find the derivative of $g(x)$, $g'(x)=(x+1)e^{x}-\\frac{1}{x}-1=(x+1)(e^{x}-\\frac{1}{x})$;\\n3. Analyze the monotonicity of $h(x)=e^{x}-\\frac{1}{x}(x>0)$, $h'(x)=e^{x}+\\frac{1}{x^{2}}>0$, so $h(x)$ is monotonically increasing on $(0,+∞)$. Moreover, $h(\\frac{1}{2})=\\sqrt{e}-2<0$, $h(1)=e-1>0$, so there exists a unique $x_{0}∈(\\frac{1}{2},1)$ such that $h(x_{0})=0$, that is, $e^{x_{0}}=\\frac{1}{x_{0}}$ and $x_{0}=-\\ln x_{0}$;\\n4. Analyze the monotonicity of $g(x)$, when $x∈(0,x_{0})$, $g'(x)<0$, $g(x)$ is monotonically decreasing, when $x∈(x_{0},+∞)$, $g'(x)>0$, $g(x)$ is monotonically increasing, so $g(x)_{min}=g(x_{0})$;\\n5. Calculate $g(x_{0})=x_{0}e^{x_{0}}-\\ln x_{0}-x_{0}-1$, substitute $x_{0}e^{x_{0}}=1$ and $x_{0}=-\\ln x_{0}$, get $g(x_{0})=1+x_{0}-x_{0}-1=0$, so $g(x)≥0$, that is, $xe^{x}≥\\ln x+x+1$.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "The total score of the third sub-question is 5 points. 1 point for correctly constructing the function; 1 point for correctly finding and simplifying the derivative; 1 point for correctly analyzing the monotonicity of $h(x)$ and finding the unique zero point; 1 point for correctly analyzing the monotonicity of $g(x)$ and determining the minimum point; 1 point for correctly calculating the minimum value and completing the proof.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆$C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$",
+                "subQuestions": [
+                    {
+                        "question": "（1）若椭圆的离心率为$\\frac{\\sqrt{3}}{2}$，短轴长为$2\\sqrt{2}$，求椭圆C的方程；",
+                        "solutionSteps": "1. 根据椭圆的基本性质，短轴长$2b=2\\sqrt{2}$，解得$b=\\sqrt{2}$，$b^{2}=2$；\\n2. 离心率$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，结合椭圆的恒等式$a^{2}=b^{2}+c^{2}$，将$c=\\frac{\\sqrt{3}}{2}a$代入得$a^{2}=2+(\\frac{\\sqrt{3}}{2}a)^{2}$；\\n3. 解方程得$a^{2}=8$；\\n4. 将$a^{2}=8$，$b^{2}=2$代入椭圆标准方程，得$\\frac{x^{2}}{8}+\\frac{y^{2}}{2}=1$。",
+                        "standardAnswer": "$\\frac{x^{2}}{8}+\\frac{y^{2}}{2}=1$",
+                        "scoringCriteria": "第一问总分4分，根据短轴长正确求出$b^{2}$得1分；写出离心率公式和椭圆恒等式得1分；正确代入求解$a^{2}$得1分；写出椭圆标准方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）设O为坐标原点，过点$P(-1,-\\frac{3}{2})$分别作直线$l_{1}$、$l_{2}$，直线$l_{1}$与椭圆相切于第三象限内的点G，直线$l_{2}$交椭圆C于M，N两点。若$|P G|^{2}=|P M| \\cdot|P N|$，判断直线$l_{2}$与直线$OG$的位置关系，并说明理由。",
+                        "solutionSteps": "1. 设直线$l_{1}$的方程为$x=m(y+\\frac{3}{2})-1$，与椭圆方程$\\frac{x^{2}}{8}+\\frac{y^{2}}{2}=1$联立，消去x整理得$(m^{2}+4)y^{2}+(3m^{2}-2m)y+\\frac{9}{4}m^{2}-3m-7=0$；\\n2. 由直线与椭圆相切，判别式$\\Delta=0$，即$(3m^{2}-2m)^{2}-4(m^{2}+4)(\\frac{9}{4}m^{2}-3m-7)=0$，化简得$m^{2}-12m-28=0$，解得$m=-2$或$m=14$，结合G在第三象限，取$m=-2$；\\n3. 将$m=-2$代入联立后的方程，得$y^{2}+2y+1=0$，解得$y=-1$，代入直线$l_{1}$方程得$x=-2$，故G点坐标为$(-2,-1)$，计算$|PG|^{2}=(-2+1)^{2}+(-1+\\frac{3}{2})^{2}=\\frac{5}{4}$；\\n4. 设直线$l_{2}$的方程为$x=n(y+\\frac{3}{2})-1$，与椭圆联立，消去x整理得$(n^{2}+4)y^{2}+(3n^{2}-2n)y+\\frac{9}{4}n^{2}-3n-7=0$，设$M(x_{1},y_{1})$，$N(x_{2},y_{2})$，由韦达定理得$y_{1}+y_{2}=\\frac{2n-3n^{2}}{n^{2}+4}$，$y_{1}y_{2}=\\frac{\\frac{9}{4}n^{2}-3n-7}{n^{2}+4}$；\\n5. 计算$|PM|\\cdot|PN|=(1+n^{2})(y_{1}+\\frac{3}{2})(y_{2}+\\frac{3}{2})$，展开并代入韦达定理结果，化简得$|PM|\\cdot|PN|=\\frac{2(1+n^{2})}{n^{2}+4}$；\\n6. 由$|PG|^{2}=|PM|\\cdot|PN|$，得$\\frac{2(1+n^{2})}{n^{2}+4}=\\frac{5}{4}$，解得$n=±2$，结合题意舍去负根，取$n=2$；\\n7. 计算直线$OG$的斜率$k_{OG}=\\frac{-1}{-2}=\\frac{1}{2}$，直线$l_{2}$的斜率$k_{l_{2}}=\\frac{1}{n}=\\frac{1}{2}$，斜率相等，故$l_{2}//OG$。",
+                        "standardAnswer": "$l_{2}//OG$，理由见解析",
+                        "scoringCriteria": "第二问总分11分，正确设出直线$l_{1}$方程并与椭圆联立得2分；利用判别式求出m的值并确定G点坐标得3分；正确计算$|PG|^{2}$得1分；设出直线$l_{2}$方程并联立椭圆，利用韦达定理表示出根与系数的关系得2分；正确计算$|PM|\\cdot|PN|$并结合条件求出n得2分；计算两条直线的斜率并判断位置关系得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$",
+                "subQuestions": [
+                    {
+                        "question": "(1) If the eccentricity of the ellipse is $\\frac{\\sqrt{3}}{2}$ and the length of the minor axis is $2\\sqrt{2}$, find the equation of the ellipse C;",
+                        "solutionSteps": "1. According to the basic properties of the ellipse, the length of the minor axis $2b=2\\sqrt{2}$, solve to get $b=\\sqrt{2}$, $b^{2}=2$;\\n2. The eccentricity $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$, combined with the ellipse identity $a^{2}=b^{2}+c^{2}$, substitute $c=\\frac{\\sqrt{3}}{2}a$ to get $a^{2}=2+(\\frac{\\sqrt{3}}{2}a)^{2}$;\\n3. Solve the equation to get $a^{2}=8$;\\n4. Substitute $a^{2}=8$ and $b^{2}=2$ into the standard equation of the ellipse to get $\\frac{x^{2}}{8}+\\frac{y^{2}}{2}=1$.",
+                        "standardAnswer": "$\\frac{x^{2}}{8}+\\frac{y^{2}}{2}=1$",
+                        "scoringCriteria": "The total score of the first sub-question is 4 points. 1 point for correctly finding $b^{2}$ according to the length of the minor axis; 1 point for writing the eccentricity formula and the ellipse identity; 1 point for correctly substituting and solving for $a^{2}$; 1 point for writing the standard equation of the ellipse.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) Let O be the origin of coordinates, draw lines $l_{1}$ and $l_{2}$ respectively through the point $P(-1,-\\frac{3}{2})$, the line $l_{1}$ is tangent to the ellipse at point G in the third quadrant, and the line $l_{2}$ intersects the ellipse C at points M and N. If $|P G|^{2}=|P M| \\cdot|P N|$, judge the positional relationship between the line $l_{2}$ and the line $OG$, and explain the reason.",
+                        "solutionSteps": "1. Let the equation of the line $l_{1}$ be $x=m(y+\\frac{3}{2})-1$,联立 it with the ellipse equation $\\frac{x^{2}}{8}+\\frac{y^{2}}{2}=1$, eliminate x and sort out to get $(m^{2}+4)y^{2}+(3m^{2}-2m)y+\\frac{9}{4}m^{2}-3m-7=0$;\\n2. Since the line is tangent to the ellipse, the discriminant $\\Delta=0$, that is, $(3m^{2}-2m)^{2}-4(m^{2}+4)(\\frac{9}{4}m^{2}-3m-7)=0$, simplify to get $m^{2}-12m-28=0$, solve to get $m=-2$ or $m=14$. Combined with G being in the third quadrant, take $m=-2$;\\n3. Substitute $m=-2$ into the combined equation to get $y^{2}+2y+1=0$, solve to get $y=-1$, substitute into the equation of line $l_{1}$ to get $x=-2$, so the coordinate of point G is $(-2,-1)$, calculate $|PG|^{2}=(-2+1)^{2}+(-1+\\frac{3}{2})^{2}=\\frac{5}{4}$;\\n4. Let the equation of the line $l_{2}$ be $x=n(y+\\frac{3}{2})-1$,联立 it with the ellipse, eliminate x and sort out to get $(n^{2}+4)y^{2}+(3n^{2}-2n)y+\\frac{9}{4}n^{2}-3n-7=0$, let $M(x_{1},y_{1})$, $N(x_{2},y_{2})$, get $y_{1}+y_{2}=\\frac{2n-3n^{2}}{n^{2}+4}$, $y_{1}y_{2}=\\frac{\\frac{9}{4}n^{2}-3n-7}{n^{2}+4}$ by Vieta's formulas;\\n5. Calculate $|PM|\\cdot|PN|=(1+n^{2})(y_{1}+\\frac{3}{2})(y_{2}+\\frac{3}{2})$, expand and substitute the results of Vieta's formulas, simplify to get $|PM|\\cdot|PN|=\\frac{2(1+n^{2})}{n^{2}+4}$;\\n6. From $|PG|^{2}=|PM|\\cdot|PN|$, get $\\frac{2(1+n^{2})}{n^{2}+4}=\\frac{5}{4}$, solve to get $n=±2$, discard the negative root according to the meaning of the question and take $n=2$;\\n7. Calculate the slope of line $OG$ $k_{OG}=\\frac{-1}{-2}=\\frac{1}{2}$, the slope of line $l_{2}$ $k_{l_{2}}=\\frac{1}{n}=\\frac{1}{2}$. The slopes are equal, so $l_{2}//OG$.",
+                        "standardAnswer": "$l_{2}//OG$, see the analysis for the reason",
+                        "scoringCriteria": "The total score of the second sub-question is 11 points. 2 points for correctly setting the equation of line $l_{1}$ and联立 it with the ellipse; 3 points for finding the value of m by using the discriminant and determining the coordinate of point G; 1 point for correctly calculating $|PG|^{2}$; 2 points for setting the equation of line $l_{2}$ and联立 it with the ellipse, and expressing the relationship between roots and coefficients by Vieta's formulas; 2 points for correctly calculating $|PM|\\cdot|PN|$ and finding n combined with the condition; 1 point for calculating the slopes of the two lines and judging the positional relationship.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知集合$S_{n}=\\{X | X=(x_{1}, x_{2}, \\cdots, x_{n}),x_{i}\\in\\{0,1\\}, i=1,2, \\cdots, n,n≥2\\}$，对于$A=(a_{1}, a_{2}, \\cdots, a_{n})$、$B=(b_{1}, b_{2}, \\cdots, b_{n}) \\in S_{n}$，定义A与B之间的距离为$d(A, B)=\\sum_{i=1}^{n}|a_{i}-b_{i}|$",
+                "subQuestions": [
+                    {
+                        "question": "（1）已知$A=(1,1,1,0) \\in S_{4}$，写出所有的$B \\in S_{4}$，使得$d(A, B)=1$；",
+                        "solutionSteps": "1. 根据距离定义$d(A, B)=\\sum_{i=1}^{4}|a_{i}-b_{i}|=1$，即向量A和B的分量中仅有一个位置的元素不同，其余位置元素相同；\\n2. 依次改变A的每个分量：改变第一个分量得$B=(0,1,1,0)$，改变第二个分量得$B=(1,0,1,0)$，改变第三个分量得$B=(1,1,0,0)$，改变第四个分量得$B=(1,1,1,1)$；\\n3. 列出所有满足条件的B。",
+                        "standardAnswer": "$(0,1,1,0)$、$(1,0,1,0)$、$(1,1,0,0)$、$(1,1,1,1)$",
+                        "scoringCriteria": "第一问总分4分，正确理解距离定义并明确仅有一个分量不同得1分；正确写出每个满足条件的B，每个得0.75分，共3分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（2）已知$I=(1,1, \\cdots, 1) \\in S_{n}$，若$A, B \\in S_{n}$，并且$d(I, A)=d(I, B)=p ≤n$，求$d(A, B)$的最大值；",
+                        "solutionSteps": "1. 由$d(I, A)=\\sum_{i=1}^{n}|a_{i}-1|=p$，得$A$中有$p$个分量为0，$n-p$个分量为1；同理$B$中有$p$个分量为0，$n-p$个分量为1；\\n2. 分两种情况讨论$d(A,B)=\\sum_{i=1}^{n}|a_{i}-b_{i}|$的最大值：\\n①当$2p≤n$时，A的0分量和B的0分量可无重叠，此时A和B不同的分量数为$2p$，$d(A,B)_{max}=2p$；\\n②当$2p>n$时，A的0分量和B的0分量必有重叠，重叠数为$2p-n$，此时A和B不同的分量数为$2(n-p)$，$d(A,B)_{max}=2(n-p)$；\\n3. 总结两种情况的最大值结果。",
+                        "standardAnswer": "$d(A, B)_{max }=\\begin{cases}2 p, 2 p \\leq n \\\\ 2(n-p), 2 p>n\\end{cases}$",
+                        "scoringCriteria": "第二问总分5分，正确分析A和B中0和1的分量个数得1分；正确分情况讨论，每种情况的分析过程各得1分，共2分；正确得出每种情况下的最大值各得1分，共2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（3）设集合$P \\subseteq S_{n}$，P中有$m(m ≥2)$个元素，若P中任意两个元素间的距离的最小值为t，求证：$m ≤2^{n-t+1}$。",
+                        "solutionSteps": "1. 构造集合$P'=\\{(c_{1}, c_{2}, \\cdots, c_{n-t+1}) |(c_{1}, c_{2}, \\cdots, c_{n-t+1}, \\cdots, c_{n}) \\in P\\}$，即取P中每个元素的前$n-t+1$个分量构成新集合$P'$；\\n2. 证明$|P'|=|P|$：一方面显然$|P'|≤|P|$；另一方面，假设P中有两个不同元素$A,B$，其前$n-t+1$个分量完全相同，则$d(A,B)≤t-1$，与P中任意两个元素距离的最小值为t矛盾，故P中不同元素的前$n-t+1$个分量必不同，即$|P'|≥|P|$，因此$|P'|=|P|=m$；\\n3. 由于$P'$中的元素是由$0$和$1$组成的$n-t+1$维向量，其元素个数最多为$2^{n-t+1}$，即$|P'|≤2^{n-t+1}$；\\n4. 结合$|P'|=m$，可得$m ≤2^{n-t+1}$，得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问总分6分，正确构造集合$P'$得1分；正确证明$|P'|=|P|$，其中反证法的推理过程得2分；正确分析$P'$的元素个数上限得2分；结合上述结论完成证明得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the set $S_{n}=\\{X | X=(x_{1}, x_{2}, \\cdots, x_{n}),x_{i}\\in\\{0,1\\}, i=1,2, \\cdots, n,n≥2\\}$, for $A=(a_{1}, a_{2}, \\cdots, a_{n})$ and $B=(b_{1}, b_{2}, \\cdots, b_{n}) \\in S_{n}$, the distance between A and B is defined as $d(A, B)=\\sum_{i=1}^{n}|a_{i}-b_{i}|$",
+                "subQuestions": [
+                    {
+                        "question": "(1) Given $A=(1,1,1,0) \\in S_{4}$, write all $B \\in S_{4}$ such that $d(A, B)=1$;",
+                        "solutionSteps": "1. According to the distance definition $d(A, B)=\\sum_{i=1}^{4}|a_{i}-b_{i}|=1$, that is, only one position of the components of vector A and B is different, and the components of the remaining positions are the same;\\n2. Change each component of A in turn: change the first component to get $B=(0,1,1,0)$, change the second component to get $B=(1,0,1,0)$, change the third component to get $B=(1,1,0,0)$, change the fourth component to get $B=(1,1,1,1)$;\\n3. List all B that satisfy the condition.",
+                        "standardAnswer": "$(0,1,1,0)$, $(1,0,1,0)$, $(1,1,0,0)$, $(1,1,1,1)$",
+                        "scoringCriteria": "The total score of the first sub-question is 4 points. 1 point for correctly understanding the distance definition and clarifying that only one component is different; 3 points in total for correctly writing each B that meets the conditions, 0.75 points for each.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(2) Given $I=(1,1, \\cdots, 1) \\in S_{n}$, if $A, B \\in S_{n}$ and $d(I, A)=d(I, B)=p ≤n$, find the maximum value of $d(A, B)$;",
+                        "solutionSteps": "1. From $d(I, A)=\\sum_{i=1}^{n}|a_{i}-1|=p$, it can be obtained that there are $p$ components of 0 and $n-p$ components of 1 in A; similarly, there are $p$ components of 0 and $n-p$ components of 1 in B;\\n2. Discuss the maximum value of $d(A,B)=\\sum_{i=1}^{n}|a_{i}-b_{i}|$ in two cases: \\n① When $2p≤n$, the 0 components of A and the 0 components of B can have no overlap, at this time the number of different components of A and B is $2p$, so $d(A,B)_{max}=2p$;\\n② When $2p>n$, the 0 components of A and the 0 components of B must overlap, the number of overlaps is $2p-n$, at this time the number of different components of A and B is $2(n-p)$, so $d(A,B)_{max}=2(n-p)$;\\n3. Summarize the maximum value results in the two cases.",
+                        "standardAnswer": "$d(A, B)_{max }=\\begin{cases}2 p, 2 p \\leq n \\\\ 2(n-p), 2 p>n\\end{cases}$",
+                        "scoringCriteria": "The total score of the second sub-question is 5 points. 1 point for correctly analyzing the number of 0 and 1 components in A and B; 2 points in total for correctly discussing by cases, 1 point for the analysis process of each case; 2 points in total for correctly obtaining the maximum value in each case, 1 point for each.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(3) Let the set $P \\subseteq S_{n}$, P has $m(m ≥2)$ elements, if the minimum value of the distance between any two elements in P is t, prove that $m ≤2^{n-t+1}$.",
+                        "solutionSteps": "1. Construct the set $P'=\\{(c_{1}, c_{2}, \\cdots, c_{n-t+1}) |(c_{1}, c_{2}, \\cdots, c_{n-t+1}, \\cdots, c_{n}) \\in P\\}$, that is, form a new set $P'$ by taking the first $n-t+1$ components of each element in P;\\n2. Prove $|P'|=|P|$: on the one hand, $|P'|≤|P|$ is obvious; on the other hand, assume that there are two different elements A and B in P whose first $n-t+1$ components are exactly the same, then $d(A,B)≤t-1$, which contradicts the fact that the minimum distance between any two elements in P is t. Therefore, the first $n-t+1$ components of different elements in P must be different, that is, $|P'|≥|P|$, so $|P'|=|P|=m$;\\n3. Since the elements in $P'$ are $n-t+1$-dimensional vectors composed of 0 and 1, the maximum number of its elements is $2^{n-t+1}$, that is, $|P'|≤2^{n-t+1}$;\\n4. Combined with $|P'|=m$, it can be obtained that $m ≤2^{n-t+1}$, and the proof is completed.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "The total score of the third sub-question is 6 points. 1 point for correctly constructing the set $P'$; 2 points for correctly proving $|P'|=|P|$, among which 2 points for the reasoning process of the proof by contradiction; 2 points for correctly analyzing the upper limit of the number of elements in $P'$; 1 point for completing the proof combined with the above conclusions.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

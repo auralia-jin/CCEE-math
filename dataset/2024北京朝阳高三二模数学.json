@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2024 Beijing Chaoyang Senior Three Second Mock Examination",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "六面体ABCD-EFGD₁是直四棱柱ABCD-A₁B₁C₁D₁被过点D₁的平面α所截得到的几何体，DD₁⊥底面ABCD，底面ABCD是边长为2的正方形，DD₁=4，AE=2，CG=3。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求证：AC⊥D₁F；",
+            "solutionSteps": "1. 连接BD，由直四棱柱性质得BF∥DD₁，故点F在平面D₁DB内；2. 因为DD₁⊥底面ABCD，AC⊂平面ABCD，所以DD₁⊥AC；3. 底面ABCD为正方形，故AC⊥BD；4. 又DD₁∩BD=D，根据线面垂直判定定理，得AC⊥平面D₁DBF；5. 因为D₁F⊂平面D₁DBF，所以AC⊥D₁F。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅰ）共3分，连接BD并说明点F的位置得1分，证明DD₁⊥AC和AC⊥BD得1分，利用线面垂直判定定理推出AC⊥平面D₁DBF并得出结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）求平面EFGD₁与平面ABCD的夹角的余弦值；",
+            "solutionSteps": "1. 由DD₁⊥底面ABCD，得DD₁⊥DA、DD₁⊥DC，又DA⊥DC，建立空间直角坐标系D-xyz，确定各点坐标：E(2,0,2)，G(0,2,3)，D₁(0,0,4)；2. 求出向量D₁E=(2,0,-2)，D₁G=(0,2,-1)；3. 设平面EFGD₁的法向量为n=(x,y,z)，根据法向量与面内向量垂直列方程组：{n·D₁E=0，n·D₁G=0}，令z=2，解得x=2，y=1，得n=(2,1,2)；4. 取平面ABCD的法向量为DD₁=(0,0,4)；5. 设平面夹角为θ，由公式cosθ=|n·DD₁|/(|n|·|DD₁|)，计算得cosθ=8/(3×4)=2/3。",
+            "standardAnswer": "$\\frac{2}{3}$",
+            "scoringCriteria": "（Ⅱ）共8分，建立空间直角坐标系并正确写出各点坐标得2分，求出面内两个向量得1分，设出法向量并列出方程组得1分，求解法向量正确得2分，选取平面ABCD的法向量并代入夹角公式计算得1分，最终结果正确得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          },
+          {
+            "question": "（Ⅲ）在线段DG上是否存在一点P，使得AP∥平面EFGD₁？若存在，求出$\\frac{DP}{DG}$的值；若不存在，说明理由。",
+            "solutionSteps": "1. 设$\\overrightarrow{DP}=λ\\overrightarrow{DG}(λ∈[0,1])$，求出向量AP=AD+DP=(-2,0,0)+λ(0,2,3)=(-2,2λ,3λ)；2. AP∥平面EFGD₁等价于$\\overrightarrow{AP}·n=0$（n为平面EFGD₁的法向量）；3. 代入法向量n=(2,1,2)得方程：-4+2λ+6λ=0；4. 解方程得λ=1/2，故存在点P，$\\frac{DP}{DG}=1/2$。",
+            "standardAnswer": "存在，$\\frac{DP}{DG}=\\frac{1}{2}$",
+            "scoringCriteria": "（Ⅲ）共3分，设出参数λ并正确表示出向量AP得1分，根据线面平行转化为向量点积为0列方程得1分，解方程求出λ并得出结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The hexahedron ABCD-EFGD₁ is a geometric solid obtained by cutting the right quadrangular prism ABCD-A₁B₁C₁D₁ with a plane α passing through point D₁. DD₁ is perpendicular to the base ABCD, the base ABCD is a square with side length 2, DD₁=4, AE=2, CG=3.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Prove that AC⊥D₁F;",
+            "solutionSteps": "1. Connect BD, from the property of the right quadrangular prism, BF∥DD₁, so point F is in the plane D₁DB; 2. Since DD₁⊥the base ABCD and AC⊂the plane ABCD, then DD₁⊥AC; 3. The base ABCD is a square, so AC⊥BD; 4. Moreover, DD₁∩BD=D, according to the determination theorem of line-plane perpendicularity, we get AC⊥the plane D₁DBF; 5. Since D₁F⊂the plane D₁DBF, then AC⊥D₁F.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅰ) Total 3 points, 1 point for connecting BD and explaining the position of point F, 1 point for proving DD₁⊥AC and AC⊥BD, 1 point for deducing AC⊥the plane D₁DBF by the determination theorem of line-plane perpendicularity and drawing the conclusion.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅱ) Find the cosine value of the dihedral angle between the plane EFGD₁ and the plane ABCD;",
+            "solutionSteps": "1. Since DD₁⊥the base ABCD, DD₁⊥DA, DD₁⊥DC, and DA⊥DC, establish the space rectangular coordinate system D-xyz, determine the coordinates of each point: E(2,0,2), G(0,2,3), D₁(0,0,4); 2. Calculate the vectors \\overrightarrow{D₁E}=(2,0,-2), \\overrightarrow{D₁G}=(0,2,-1); 3. Let the normal vector of the plane EFGD₁ be n=(x,y,z), list the system of equations according to the perpendicularity between the normal vector and the vectors in the plane: {n·\\overrightarrow{D₁E}=0, n·\\overrightarrow{D₁G}=0}, let z=2, solve to get x=2, y=1, then n=(2,1,2); 4. Take the normal vector of the plane ABCD as \\overrightarrow{DD₁}=(0,0,4); 5. Let the dihedral angle be θ, from the formula cosθ=|n·\\overrightarrow{DD₁}|/(|n|·|\\overrightarrow{DD₁}|), calculate to get cosθ=8/(3×4)=2/3.",
+            "standardAnswer": "$\\frac{2}{3}$",
+            "scoringCriteria": "(Ⅱ) Total 8 points, 2 points for establishing the space rectangular coordinate system and writing the coordinates of each point correctly, 1 point for calculating two vectors in the plane, 1 point for setting the normal vector and listing the system of equations, 2 points for solving the normal vector correctly, 1 point for selecting the normal vector of the plane ABCD and calculating by substituting into the dihedral angle formula, 1 point for the correct final result.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          },
+          {
+            "question": "(Ⅲ) Is there a point P on the line segment DG such that AP∥the plane EFGD₁? If it exists, find the value of $\\frac{DP}{DG}$; if not, explain the reason.",
+            "solutionSteps": "1. Let $\\overrightarrow{DP}=λ\\overrightarrow{DG}(λ∈[0,1])$, calculate the vector \\overrightarrow{AP}=\\overrightarrow{AD}+\\overrightarrow{DP}=(-2,0,0)+λ(0,2,3)=(-2,2λ,3λ); 2. AP∥the plane EFGD₁ is equivalent to $\\overrightarrow{AP}·n=0$ (n is the normal vector of the plane EFGD₁); 3. Substitute the normal vector n=(2,1,2) to get the equation: -4+2λ+6λ=0; 4. Solve the equation to get λ=1/2, so there exists point P, $\\frac{DP}{DG}=1/2$.",
+            "standardAnswer": "Exists, $\\frac{DP}{DG}=\\frac{1}{2}$",
+            "scoringCriteria": "(Ⅲ) Total 3 points, 1 point for setting the parameter λ and expressing the vector \\overrightarrow{AP} correctly, 1 point for listing the equation by converting line-plane parallelism into the dot product of vectors being 0, 1 point for solving the equation to find λ and drawing the conclusion.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆E的两个顶点分别为A(-2,0)、B(2,0)，焦点在x轴上，且椭圆E过点C(√2, √2/2)。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆E的方程；",
+            "solutionSteps": "1. 设椭圆E的方程为$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$，由顶点A、B坐标得a=2；2. 将点C(√2, √2/2)代入椭圆方程，得$\\frac{2}{4}+\\frac{1/2}{b^2}=1$；3. 解方程得b²=1，故椭圆E的方程为$\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "（Ⅰ）共4分，设出椭圆标准方程并由顶点得出a=2得2分，代入点C坐标列方程得1分，解方程求出b²并写出椭圆方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设O为原点，不经过椭圆E的顶点的直线l与椭圆E交于两点P(x₁,y₁)、Q(x₂,y₂)(x₁≠x₂)，直线BP与直线OC交于点H，点M与点Q关于原点对称。(ⅰ)求点H的坐标(用x₁,y₁表示)；(ⅱ)若A、H、M三点共线，求证：直线l经过定点。",
+            "solutionSteps": "(ⅰ) 1. 由题意得x₁≠±2且x₁≠0，求出直线BP的方程为$y=\\frac{y₁}{x₁-2}(x-2)$，直线OC的方程为$y=\\frac{1}{2}x$；2. 联立两直线方程$\\begin{cases}y=\\frac{y₁}{x₁-2}(x-2)\\\\y=\\frac{1}{2}x\\end{cases}$，解方程组得$x=\\frac{4y₁}{2y₁-x₁+2}$，$y=\\frac{2y₁}{2y₁-x₁+2}$，故点H坐标为$(\\frac{4y₁}{2y₁-x₁+2}, \\frac{2y₁}{2y₁-x₁+2})$。\\n(ⅱ) 1. 由题知直线l的斜率存在，设直线l的方程为y=kx+m，联立椭圆方程$\\begin{cases}y=kx+m\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$，消元得(1+4k²)x²+8kmx+4m²-4=0；2. 由直线与椭圆交于不同两点，得Δ=16(4k²-m²+1)>0，根据韦达定理得$x₁+x₂=-\\frac{8km}{1+4k²}$，$x₁x₂=\\frac{4m²-4}{1+4k²}$；3. 由M与Q关于原点对称得M(-x₂,-y₂)，因A、H、M三点共线，得$\\frac{\\frac{2y₁}{2y₁-x₁+2}}{\\frac{4y₁}{2y₁-x₁+2}+2}=\\frac{y₂}{x₂-2}$，化简得$\\frac{y₁}{4y₁-x₁+2}=\\frac{y₂}{x₂-2}$，进一步变形为相关等式；4. 将y₁=kx₁+m，y₂=kx₂+m代入并整理，得(4k²-2k)x₁x₂+(4km+2k-m)(x₁+x₂)+4m²+4m=0；5. 代入韦达定理的结果并化简，得m²-4k²+m+2k=0，因式分解为(m+2k)(m-2k+1)=0，解得m=-2k或m=2k-1；6. 当m=-2k时，直线l方程为y=k(x-2)，过顶点(2,0)，不符合题意；当m=2k-1时，直线l方程为y=k(x+2)-1，过定点(-2,-1)，故直线l经过定点(-2,-1)。",
+            "standardAnswer": "(ⅰ) $H(\\frac{4y₁}{2y₁-x₁+2}, \\frac{2y₁}{2y₁-x₁+2})$；(ⅱ) 证明见解析，直线l经过定点$(-2,-1)$",
+            "scoringCriteria": "（Ⅱ）共11分，其中(ⅰ)3分，求出直线BP和OC的方程得1分，联立方程得1分，解出点H坐标并正确表示得1分；(ⅱ)8分，设出直线l方程并与椭圆联立消元得1分，求出判别式并写出韦达定理的结果得2分，根据三点共线列出等式并化简得2分，代入韦达定理化简方程得1分，求解m并舍去不符合题意的解得1分，得出直线l过定点的结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the two vertices of the ellipse E are A(-2,0) and B(2,0) respectively, the foci are on the x-axis, and the ellipse E passes through the point C(√2, √2/2).",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse E;",
+            "solutionSteps": "1. Let the equation of the ellipse E be $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$, from the coordinates of vertices A and B, we get a=2; 2. Substitute the point C(√2, √2/2) into the ellipse equation, we get $\\frac{2}{4}+\\frac{1/2}{b^2}=1$; 3. Solve the equation to get b²=1, so the equation of the ellipse E is $\\frac{x^2}{4}+y^2=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "(Ⅰ) Total 4 points, 2 points for setting the standard equation of the ellipse and getting a=2 from the vertices, 1 point for listing the equation by substituting the coordinates of point C, 1 point for solving the equation to find b² and writing the ellipse equation.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let O be the origin, the line l that does not pass through the vertices of the ellipse E intersects the ellipse E at two points P(x₁,y₁) and Q(x₂,y₂)(x₁≠x₂), the line BP intersects the line OC at point H, and point M is symmetric to point Q about the origin. (ⅰ) Find the coordinates of point H (expressed by x₁,y₁); (ⅱ) If points A, H, M are collinear, prove that the line l passes through a fixed point.",
+            "solutionSteps": "(ⅰ) 1. From the problem, x₁≠±2 and x₁≠0, find the equation of the line BP as $y=\\frac{y₁}{x₁-2}(x-2)$, and the equation of the line OC as $y=\\frac{1}{2}x$; 2. Solve the system of equations of the two lines $\\begin{cases}y=\\frac{y₁}{x₁-2}(x-2)\\\\y=\\frac{1}{2}x\\end{cases}$, get $x=\\frac{4y₁}{2y₁-x₁+2}$, $y=\\frac{2y₁}{2y₁-x₁+2}$, so the coordinates of point H are $(\\frac{4y₁}{2y₁-x₁+2}, \\frac{2y₁}{2y₁-x₁+2})$.\\n(ⅱ) 1. It is known from the problem that the slope of the line l exists, let the equation of the line l be y=kx+m,联立 the ellipse equation $\\begin{cases}y=kx+m\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$, eliminate y to get (1+4k²)x²+8kmx+4m²-4=0; 2. Since the line intersects the ellipse at two different points, Δ=16(4k²-m²+1)>0, according to Vieta's formulas, $x₁+x₂=-\\frac{8km}{1+4k²}$, $x₁x₂=\\frac{4m²-4}{1+4k²}$; 3. Since M is symmetric to Q about the origin, M(-x₂,-y₂), because points A, H, M are collinear, $\\frac{\\frac{2y₁}{2y₁-x₁+2}}{\\frac{4y₁}{2y₁-x₁+2}+2}=\\frac{y₂}{x₂-2}$, simplify to get $\\frac{y₁}{4y₁-x₁+2}=\\frac{y₂}{x₂-2}$, and further transform into the relevant equation; 4. Substitute y₁=kx₁+m, y₂=kx₂+m and sort out to get (4k²-2k)x₁x₂+(4km+2k-m)(x₁+x₂)+4m²+4m=0; 5. Substitute the results of Vieta's formulas and simplify to get m²-4k²+m+2k=0, factorize into (m+2k)(m-2k+1)=0, solve to get m=-2k or m=2k-1; 6. When m=-2k, the equation of the line l is y=k(x-2), passing through the vertex (2,0), which is not in line with the meaning of the question; when m=2k-1, the equation of the line l is y=k(x+2)-1, passing through the fixed point (-2,-1), so the line l passes through the fixed point (-2,-1).",
+            "standardAnswer": "(ⅰ) $H(\\frac{4y₁}{2y₁-x₁+2}, \\frac{2y₁}{2y₁-x₁+2})$; (ⅱ) See the analysis for the proof, the line l passes through the fixed point $(-2,-1)$",
+            "scoringCriteria": "(Ⅱ) Total 11 points, among which (ⅰ) 3 points, 1 point for finding the equations of the line BP and OC, 1 point for solving the system of equations, 1 point for solving the coordinates of point H and expressing them correctly; (ⅱ) 8 points, 1 point for setting the equation of the line l and eliminating the variable by联立 with the ellipse, 2 points for finding the discriminant and writing the results of Vieta's formulas, 2 points for listing the equation according to the collinearity of three points and simplifying it, 1 point for substituting Vieta's formulas to simplify the equation, 1 point for solving m and discarding the solution that is not in line with the meaning of the question, 1 point for drawing the conclusion that the line l passes through a fixed point.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=ax-\\ln(1-x)(a∈R)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求曲线$y=f(x)$在点$(0,f(0))$处的切线方程；",
+            "solutionSteps": "1. 求函数$f(x)$的导数，$f'(x)=a+\\frac{1}{1-x}$；2. 计算$f(0)=0-\\ln1=0$，$f'(0)=a+1$；3. 根据点斜式，曲线在点$(0,f(0))$处的切线方程为$y=(a+1)x$。",
+            "standardAnswer": "$y=(a+1)x$",
+            "scoringCriteria": "（Ⅰ）共4分，求导正确得2分，计算$f(0)$和$f'(0)$的值各得1分，写出切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若$f(x)≥0$恒成立，求a的值；",
+            "solutionSteps": "1. 函数$f(x)$的定义域为$(-∞,1)$；2. 当$a≥0$时，$f(-1)=-a-\\ln2<0$，不符合$f(x)≥0$恒成立的条件；3. 当$a<0$时，令$f'(x)=0$，解得$x=1+\\frac{1}{a}$；4. 分析单调性：$x∈(-∞,1+\\frac{1}{a})$时，$f'(x)<0$，$f(x)$单调递减；$x∈(1+\\frac{1}{a},1)$时，$f'(x)>0$，$f(x)$单调递增，故$f(x)$在$x=1+\\frac{1}{a}$处取得最小值$f(1+\\frac{1}{a})=a+1+\\ln(-a)$；5. 由$f(x)≥0$恒成立得$a+1+\\ln(-a)≥0$，设$φ(x)=x+1+\\ln(-x)(x<0)$，求导得$φ'(x)=1+\\frac{1}{x}$；6. 分析$φ(x)$的单调性：$x∈(-∞,-1)$时，$φ'(x)>0$，$φ(x)$单调递增；$x∈(-1,0)$时，$φ'(x)<0$，$φ(x)$单调递减，故$φ(x)≤φ(-1)=0$；7. 因此$a+1+\\ln(-a)≥0$的解为$a=-1$。",
+            "standardAnswer": "$a=-1$",
+            "scoringCriteria": "（Ⅱ）共5分，确定函数定义域得1分，分析$a≥0$时不符合题意得1分，求导找极值点并分析函数单调性得1分，求出最小值并列出不等式得1分，构造函数分析单调性并求出a的值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅲ）若$f(x)$有两个不同的零点$x₁$，$x₂$，且$|x₂-x₁|>e-1$，求a的取值范围。",
+            "solutionSteps": "1. 当$a≥0$时，$f'(x)=a+\\frac{1}{1-x}>0$，$f(x)$在$(-∞,1)$上单调递增，至多有一个零点，不符合题意；2. 当$a<0$时，由$f(0)=0$，不妨设$x₁=0$，若$x₁<x₂<1$，则$|x₂-x₁|<1<e-1$，不符合题意；3. 故只能$x₂<x₁=0$，由（Ⅱ）知函数单调性，要使$|x₂-x₁|>e-1$，只需$f(1-e)<0$；4. 代入$x=1-e$得$f(1-e)=a(1-e)-\\ln e=a(1-e)-1<0$；5. 解不等式得$a>\\frac{1}{1-e}$，结合$a<0$，得a的取值范围为$(\\frac{1}{1-e},0)$。",
+            "standardAnswer": "$(\\frac{1}{1-e},0)$",
+            "scoringCriteria": "（Ⅲ）共6分，分析$a≥0$时函数单调性并排除得1分，结合$f(0)=0$分析零点位置得2分，根据$|x₂-x₁|>e-1$列出$f(1-e)<0$的条件得1分，代入计算并解不等式得1分，结合a的范围得出最终结果得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=ax-\\ln(1-x)(a∈R)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the tangent line of the curve $y=f(x)$ at the point $(0,f(0))$;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$, $f'(x)=a+\\frac{1}{1-x}$; 2. Calculate $f(0)=0-\\ln1=0$, $f'(0)=a+1$; 3. According to the point-slope form, the equation of the tangent line of the curve at the point $(0,f(0))$ is $y=(a+1)x$.",
+            "standardAnswer": "$y=(a+1)x$",
+            "scoringCriteria": "(Ⅰ) Total 4 points, 2 points for finding the derivative correctly, 1 point each for calculating the values of $f(0)$ and $f'(0)$, 1 point for writing the tangent line equation.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $f(x)≥0$ holds for all x, find the value of a;",
+            "solutionSteps": "1. The domain of the function $f(x)$ is $(-∞,1)$; 2. When $a≥0$, $f(-1)=-a-\\ln2<0$, which does not satisfy the condition that $f(x)≥0$ holds for all x; 3. When $a<0$, let $f'(x)=0$, solve to get $x=1+\\frac{1}{a}$; 4. Analyze the monotonicity: when $x∈(-∞,1+\\frac{1}{a})$, $f'(x)<0$, $f(x)$ is monotonically decreasing; when $x∈(1+\\frac{1}{a},1)$, $f'(x)>0$, $f(x)$ is monotonically increasing, so $f(x)$ attains the minimum value at $x=1+\\frac{1}{a}$, $f(1+\\frac{1}{a})=a+1+\\ln(-a)$; 5. From $f(x)≥0$ holding for all x, we get $a+1+\\ln(-a)≥0$, let $φ(x)=x+1+\\ln(-x)(x<0)$, find the derivative to get $φ'(x)=1+\\frac{1}{x}$; 6. Analyze the monotonicity of $φ(x)$: when $x∈(-∞,-1)$, $φ'(x)>0$, $φ(x)$ is monotonically increasing; when $x∈(-1,0)$, $φ'(x)<0$, $φ(x)$ is monotonically decreasing, so $φ(x)≤φ(-1)=0$; 7. Therefore, the solution of $a+1+\\ln(-a)≥0$ is $a=-1$.",
+            "standardAnswer": "$a=-1$",
+            "scoringCriteria": "(Ⅱ) Total 5 points, 1 point for determining the domain of the function, 1 point for analyzing that it is not in line with the meaning of the question when $a≥0$, 1 point for finding the extreme point by derivation and analyzing the monotonicity of the function, 1 point for finding the minimum value and listing the inequality, 1 point for constructing the function to analyze the monotonicity and finding the value of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅲ) If $f(x)$ has two different zeros $x₁$, $x₂$, and $|x₂-x₁|>e-1$, find the range of a.",
+            "solutionSteps": "1. When $a≥0$, $f'(x)=a+\\frac{1}{1-x}>0$, $f(x)$ is monotonically increasing on $(-∞,1)$, and has at most one zero, which is not in line with the meaning of the question; 2. When $a<0$, from $f(0)=0$, let $x₁=0$ for convenience, if $x₁<x₂<1$, then $|x₂-x₁|<1<e-1$, which is not in line with the meaning of the question; 3. Therefore, only $x₂<x₁=0$ is possible, from (Ⅱ) we know the monotonicity of the function, to make $|x₂-x₁|>e-1$, it is only necessary that $f(1-e)<0$; 4. Substitute $x=1-e$ to get $f(1-e)=a(1-e)-\\ln e=a(1-e)-1<0$; 5. Solve the inequality to get $a>\\frac{1}{1-e}$, combined with $a<0$, the range of a is $(\\frac{1}{1-e},0)$. ",
+            "standardAnswer": "$(\\frac{1}{1-e},0)$",
+            "scoringCriteria": "(Ⅲ) Total 6 points, 1 point for analyzing the monotonicity of the function and eliminating it when $a≥0$, 2 points for analyzing the position of the zero point combined with $f(0)=0$, 1 point for listing the condition $f(1-e)<0$ according to $|x₂-x₁|>e-1$, 1 point for substituting and calculating and solving the inequality, 1 point for drawing the final result combined with the range of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设n为正整数，集合$A_n=\\{α|α=(a₁,a₂,⋯,a_n),a_i∈\\{0,1\\},i=1,2,⋯,n\\}$。对于$α=(a₁,a₂,⋯,a_n)∈A_n$，设集合$P(α)=\\{t∈N|0≤t≤n-1,a_{i+t}=a_i,i=1,2,⋯,n-t\\}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$α=(0,1,0,0,1,0)$，$β=(0,1,0,0,1,0,1,0,0,1,0)$，写出集合$P(α),P(β)$；",
+            "solutionSteps": "1. 根据集合$P(α)$的定义，对$α=(0,1,0,0,1,0)$（n=6），逐一验证0≤t≤5的正整数t，满足$a_{i+t}=a_i$（i=1,2,⋯,6-t）的t为0、3、5，故$P(α)=\\{0,3,5\\}$；2. 对$β=(0,1,0,0,1,0,1,0,0,1,0)$（n=11），逐一验证0≤t≤10的正整数t，满足$a_{i+t}=a_i$（i=1,2,⋯,11-t）的t为0、5、8、10，故$P(β)=\\{0,5,8,10\\}$。",
+            "standardAnswer": "$P(α)=\\{0,3,5\\}$，$P(β)=\\{0,5,8,10\\}$",
+            "scoringCriteria": "（Ⅰ）共4分，正确写出$P(α)$得2分，正确写出$P(β)$得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若$α=(a₁,a₂,⋯,a_n)∈A_n$，且$s,t∈P(α)$满足$s<t$，令$α'=(a₁,a₂,⋯,a_{n-s})∈A_{n-s}$，求证：$t-s∈P(α')$；",
+            "solutionSteps": "1. 因为$s∈P(α)$，根据定义得$a_{i+s}=a_i$（i=1,2,⋯,n-s）；2. 当1≤j≤n-t时，1<j+t-s≤n-t+t-s=n-s；3. 由$a_{i+s}=a_i$得$a_{j+t-s+s}=a_{j+t-s}$，即$a_{j+t}=a_{j+t-s}$；4. 又因为$t∈P(α)$，所以$a_{j+t}=a_j$（j=1,2,⋯,n-t）；5. 因此$a_{j+t-s}=a_j$（j=1,2,⋯,n-t），而n-t=(n-s)-(t-s)，根据$P(α')$的定义，得$t-s∈P(α')$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）共5分，根据$s∈P(α)$写出对应等式得1分，分析j的取值范围得1分，结合$s∈P(α)$推出$a_{j+t}=a_{j+t-s}$得1分，结合$t∈P(α)$的条件得1分，根据定义得出$t-s∈P(α')$的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若$α=(a₁,a₂,⋯,a_n)∈A_n$，且$P(α)=\\{s₁,s₂,⋯,s_m\\}(s₁<s₂<⋯<s_m,m≥3)$，求证：$2s_{k+1}≥s_k+s_{k+2}(k=1,2,⋯,m-2)$。",
+            "solutionSteps": "1. 对任意$s∈P(α)$，令$α'=(a₁,a₂,⋯,a_{n-s})∈A_{n-s}$，若$t∈P(α')$且2t<n-s，则$a_{i+t}=a_i$（i=1,2,⋯,n-s-t），进而得$a_{i+2t}=a_i$，结合$s∈P(α)$的$a_{j+s}=a_j$，得$a_i=a_{i+2t+s}$（i=1,2,⋯,n-s-2t），故$s+2t∈P(α)$；2. 对$s_k,s_{k+1}∈P(α)(k=1,2,⋯,m-2)$，由$s_k<s_{k+1}$和（Ⅱ）的结论，令$α_k=(a₁,a₂,⋯,a_{n-s_k})$，则$s_{k+1}-s_k∈P(α_k)$；3. 分两种情况讨论：①若2(s_{k+1}-s_k)<n-s_k，结合上述结论得$s_k+2(s_{k+1}-s_k)=2s_{k+1}-s_k∈P(α)$，又$2s_{k+1}-s_k=s_{k+1}+(s_{k+1}-s_k)>s_{k+1}$，根据$P(α)$中元素的大小关系得$2s_{k+1}-s_k≥s_{k+2}$，即$2s_{k+1}≥s_k+s_{k+2}$；②若2(s_{k+1}-s_k)≥n-s_k，则$2s_{k+1}-s_k≥n>s_m≥s_{k+2}$，即$2s_{k+1}≥s_k+s_{k+2}$；4. 综上，$2s_{k+1}≥s_k+s_{k+2}(k=1,2,⋯,m-2)$成立。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅲ）共6分，证明$s+2t∈P(α)$的结论得2分，结合（Ⅱ）推出$s_{k+1}-s_k∈P(α_k)$得1分，分情况讨论第一种情况并推出结论得1分，分析第二种情况并推出结论得1分，综合两种情况得出最终结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let n be a positive integer, and the set $A_n=\\{α|α=(a₁,a₂,⋯,a_n),a_i∈\\{0,1\\},i=1,2,⋯,n\\}$. For $α=(a₁,a₂,⋯,a_n)∈A_n$, let the set $P(α)=\\{t∈N|0≤t≤n-1,a_{i+t}=a_i,i=1,2,⋯,n-t\\}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If $α=(0,1,0,0,1,0)$, $β=(0,1,0,0,1,0,1,0,0,1,0)$, write down the sets $P(α),P(β)$;",
+            "solutionSteps": "1. According to the definition of the set $P(α)$, for $α=(0,1,0,0,1,0)$ (n=6), verify the positive integers t with 0≤t≤5 one by one, the t satisfying $a_{i+t}=a_i$ (i=1,2,⋯,6-t) are 0, 3, 5, so $P(α)=\\{0,3,5\\}$; 2. For $β=(0,1,0,0,1,0,1,0,0,1,0)$ (n=11), verify the positive integers t with 0≤t≤10 one by one, the t satisfying $a_{i+t}=a_i$ (i=1,2,⋯,11-t) are 0,5,8,10, so $P(β)=\\{0,5,8,10\\}$.",
+            "standardAnswer": "$P(α)=\\{0,3,5\\}$, $P(β)=\\{0,5,8,10\\}$",
+            "scoringCriteria": "(Ⅰ) Total 4 points, 2 points for writing $P(α)$ correctly, 2 points for writing $P(β)$ correctly.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If $α=(a₁,a₂,⋯,a_n)∈A_n$, and $s,t∈P(α)$ satisfy $s<t$, let $α'=(a₁,a₂,⋯,a_{n-s})∈A_{n-s}$, prove that $t-s∈P(α')$;",
+            "solutionSteps": "1. Since $s∈P(α)$, according to the definition, $a_{i+s}=a_i$ (i=1,2,⋯,n-s); 2. When 1≤j≤n-t, 1<j+t-s≤n-t+t-s=n-s; 3. From $a_{i+s}=a_i$, we get $a_{j+t-s+s}=a_{j+t-s}$, that is $a_{j+t}=a_{j+t-s}$; 4. Moreover, since $t∈P(α)$, $a_{j+t}=a_j$ (j=1,2,⋯,n-t); 5. Therefore, $a_{j+t-s}=a_j$ (j=1,2,⋯,n-t), and n-t=(n-s)-(t-s), according to the definition of $P(α')$, we get $t-s∈P(α')$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅱ) Total 5 points, 1 point for writing the corresponding equation according to $s∈P(α)$, 1 point for analyzing the value range of j, 1 point for deducing $a_{j+t}=a_{j+t-s}$ combined with $s∈P(α)$, 1 point for combining the condition of $t∈P(α)$, 1 point for drawing the conclusion that $t-s∈P(α')$ according to the definition.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If $α=(a₁,a₂,⋯,a_n)∈A_n$, and $P(α)=\\{s₁,s₂,⋯,s_m\\}(s₁<s₂<⋯<s_m,m≥3)$, prove that $2s_{k+1}≥s_k+s_{k+2}(k=1,2,⋯,m-2)$.",
+            "solutionSteps": "1. For any $s∈P(α)$, let $α'=(a₁,a₂,⋯,a_{n-s})∈A_{n-s}$, if $t∈P(α')$ and 2t<n-s, then $a_{i+t}=a_i$ (i=1,2,⋯,n-s-t), further get $a_{i+2t}=a_i$, combined with $a_{j+s}=a_j$ of $s∈P(α)$, get $a_i=a_{i+2t+s}$ (i=1,2,⋯,n-s-2t), so $s+2t∈P(α)$; 2. For $s_k,s_{k+1}∈P(α)(k=1,2,⋯,m-2)$, from $s_k<s_{k+1}$ and the conclusion of (Ⅱ), let $α_k=(a₁,a₂,⋯,a_{n-s_k})$, then $s_{k+1}-s_k∈P(α_k)$; 3. Discuss in two cases: ①If 2(s_{k+1}-s_k)<n-s_k, combined with the above conclusion, get $s_k+2(s_{k+1}-s_k)=2s_{k+1}-s_k∈P(α)$, and $2s_{k+1}-s_k=s_{k+1}+(s_{k+1}-s_k)>s_{k+1}$, according to the size relationship of the elements in $P(α)$, get $2s_{k+1}-s_k≥s_{k+2}$, that is $2s_{k+1}≥s_k+s_{k+2}$; ②If 2(s_{k+1}-s_k)≥n-s_k, then $2s_{k+1}-s_k≥n>s_m≥s_{k+2}$, that is $2s_{k+1}≥s_k+s_{k+2}$; 4. In conclusion, $2s_{k+1}≥s_k+s_{k+2}(k=1,2,⋯,m-2)$ holds.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅲ) Total 6 points, 2 points for proving the conclusion of $s+2t∈P(α)$, 1 point for deducing $s_{k+1}-s_k∈P(α_k)$ combined with (Ⅱ), 1 point for discussing the first case and deducing the conclusion, 1 point for analyzing the second case and deducing the conclusion, 1 point for drawing the final conclusion by synthesizing the two cases.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

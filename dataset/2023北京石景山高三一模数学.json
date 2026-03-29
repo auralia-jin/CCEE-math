@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2023 Beijing Shijingshan Senior Three First Mock Examination",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "如图，在四棱锥P-ABCD中，底面ABCD是边长为2的正方形，侧面PAD为等腰直角三角形，且$\\angle PAD=\\frac{\\pi}{2}$，点F为棱PC上的点，平面ADF与棱PB交于点E",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求证：$EF \\parallel AD$",
+            "solutionSteps": "1. 因为底面ABCD是正方形，所以$AD \\parallel BC$；2. 又$BC \\subset$平面PBC，$AD\\not\\subset$平面PBC，根据线面平行的判定定理，可得$AD \\parallel$平面PBC；3. 平面ADFE与平面PBC的交线为EF，$AD \\subset$平面ADFE，根据线面平行的性质定理，可得$EF \\parallel AD$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问，证明$AD \\parallel BC$得1分；根据线面平行判定定理推出$AD \\parallel$平面PBC得2分；结合面面交线，利用线面平行性质定理证出$EF \\parallel AD$得2分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）从条件①、条件②、条件③这三个条件中选择两个作为已知，求平面PCD与平面ADFE所成锐二面角的大小。条件①：$AE=\\sqrt{2}$；条件②：平面PAD$\\perp$平面ABCD；条件③：$PB \\perp FD$",
+            "solutionSteps": "以选条件①②为例：1. 由侧面PAD为等腰直角三角形，$\\angle PAD=\\frac{\\pi}{2}$，得$PA=AD=2$，$PA \\perp AD$；2. 平面PAD$\\perp$平面ABCD，交线为AD，$PA \\subset$平面PAD，故$PA \\perp$平面ABCD，又ABCD是正方形，得$PA \\perp AB$、$AB \\perp AD$；3. 以A为原点，AB、AD、AP为x、y、z轴建空间直角坐标系，得各点坐标：$A(0,0,0)$、$P(0,0,2)$、$C(2,2,0)$、$B(2,0,0)$、$D(0,2,0)$；4. 由$AE=\\sqrt{2}$得E为PB中点，坐标$E(1,0,1)$，求出向量$\\overrightarrow{AD}=(0,2,0)$、$\\overrightarrow{AE}=(1,0,1)$、$\\overrightarrow{PC}=(2,2,-2)$；5. 设平面ADFE的法向量$n=(x,y,z)$，由$n\\cdot\\overrightarrow{AE}=0$、$n\\cdot\\overrightarrow{AD}=0$，解得$n=(1,0,-1)$；6. 设平面PCD的法向量$m=(a,b,c)$，由$m\\cdot\\overrightarrow{PD}=0$、$m\\cdot\\overrightarrow{PC}=0$，解得$m=(0,1,1)$；7. 计算法向量夹角余弦值$|\\cos<m,n>|=\\frac{|m\\cdot n|}{|m||n|}=\\frac{1}{2}$，故锐二面角为$\\frac{\\pi}{3}$。选其他条件组合推导过程类似，最终结果一致。",
+            "standardAnswer": "$\\frac{\\pi}{3}$",
+            "scoringCriteria": "第二问，建立空间直角坐标系并正确写出各点坐标得2分；求出相关向量得1分；正确求解平面ADFE的法向量得2分；正确求解平面PCD的法向量得2分；计算法向量夹角并得出锐二面角大小得2分，共9分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "As shown in the figure, in the quadrangular pyramid P-ABCD, the base ABCD is a square with side length 2, the lateral face PAD is an isosceles right triangle with $\\angle PAD=\\frac{\\pi}{2}$, point F is a point on the edge PC, and the plane ADF intersects the edge PB at point E",
+        "subQuestions": [
+          {
+            "question": "(I) Prove that $EF \\parallel AD$",
+            "solutionSteps": "1. Since the base ABCD is a square, $AD \\parallel BC$; 2. Moreover, $BC \\subset$ plane PBC and $AD\\not\\subset$ plane PBC, according to the determination theorem of line-plane parallelism, it can be concluded that $AD \\parallel$ plane PBC; 3. The intersection line of plane ADFE and plane PBC is EF, and $AD \\subset$ plane ADFE, according to the property theorem of line-plane parallelism, it can be concluded that $EF \\parallel AD$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "For the first subquestion, 1 point is awarded for proving $AD \\parallel BC$; 2 points for deducing $AD \\parallel$ plane PBC according to the determination theorem of line-plane parallelism; 2 points for proving $EF \\parallel AD$ by using the property theorem of line-plane parallelism combined with the intersection line of two planes, with a total of 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(II) Select two from Condition ①, Condition ② and Condition ③ as known conditions to find the size of the acute dihedral angle formed by plane PCD and plane ADFE. Condition ①: $AE=\\sqrt{2}$; Condition ②: plane PAD $\\perp$ plane ABCD; Condition ③: $PB \\perp FD$",
+            "solutionSteps": "Take selecting Condition ① and ② as an example: 1. Since the lateral face PAD is an isosceles right triangle with $\\angle PAD=\\frac{\\pi}{2}$, we have $PA=AD=2$ and $PA \\perp AD$; 2. Plane PAD $\\perp$ plane ABCD, with the intersection line AD, and $PA \\subset$ plane PAD, so $PA \\perp$ plane ABCD. Since ABCD is a square, we have $PA \\perp AB$ and $AB \\perp AD$; 3. Establish a space rectangular coordinate system with A as the origin, and AB, AD, AP as the x, y, z axes respectively, and obtain the coordinates of each point: $A(0,0,0)$, $P(0,0,2)$, $C(2,2,0)$, $B(2,0,0)$, $D(0,2,0)$; 4. From $AE=\\sqrt{2}$, E is the midpoint of PB with coordinates $E(1,0,1)$, and calculate the vectors $\\overrightarrow{AD}=(0,2,0)$, $\\overrightarrow{AE}=(1,0,1)$, $\\overrightarrow{PC}=(2,2,-2)$; 5. Let the normal vector of plane ADFE be $n=(x,y,z)$, from $n\\cdot\\overrightarrow{AE}=0$ and $n\\cdot\\overrightarrow{AD}=0$, solve to get $n=(1,0,-1)$; 6. Let the normal vector of plane PCD be $m=(a,b,c)$, from $m\\cdot\\overrightarrow{PD}=0$ and $m\\cdot\\overrightarrow{PC}=0$, solve to get $m=(0,1,1)$; 7. Calculate the cosine value of the angle between the normal vectors $|\\cos<m,n>|=\\frac{|m\\cdot n|}{|m||n|}=\\frac{1}{2}$, so the acute dihedral angle is $\\frac{\\pi}{3}$. The derivation process for selecting other combinations of conditions is similar, and the final result is consistent.",
+            "standardAnswer": "$\\frac{\\pi}{3}$",
+            "scoringCriteria": "For the second subquestion, 2 points for establishing a space rectangular coordinate system and writing the coordinates of each point correctly; 1 point for calculating the relevant vectors; 2 points for solving the normal vector of plane ADFE correctly; 2 points for solving the normal vector of plane PCD correctly; 2 points for calculating the angle between the normal vectors and obtaining the size of the acute dihedral angle, with a total of 9 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$过点$(0,\\sqrt{3})$，且离心率为$\\frac{1}{2}$",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的方程",
+            "solutionSteps": "1. 椭圆过点$(0,\\sqrt{3})$，可得$b=\\sqrt{3}$；2. 离心率$e=\\frac{c}{a}=\\frac{1}{2}$，即$c=\\frac{1}{2}a$；3. 由椭圆中$a^2=b^2+c^2$，代入$b=\\sqrt{3}$、$c=\\frac{1}{2}a$，得$a^2=3+\\frac{1}{4}a^2$；4. 解方程得$a^2=4$，即$a=2$；5. 因此椭圆C的方程为$\\frac{x^2}{4}+\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "第一问，由椭圆过点求出$b=\\sqrt{3}$得1分；写出离心率公式并转化为$c=\\frac{1}{2}a$得1分；代入椭圆中$a^2=b^2+c^2$的关系得1分；解方程求出$a^2=4$得1分；写出椭圆标准方程得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）过点$P(-1,1)$且互相垂直的直线$l_1$，$l_2$分别交椭圆C于M、N两点及S、T两点，求$\\frac{|PM||PN|}{|PS||PT|}$的取值范围",
+            "solutionSteps": "1. 当直线$l_1$斜率不存在时，$l_1:x=-1$，$l_2:y=1$，代入椭圆方程得$M(-1,\\frac{3}{2})$、$N(-1,-\\frac{3}{2})$，$S(\\frac{2\\sqrt{6}}{3},1)$、$T(-\\frac{2\\sqrt{6}}{3},1)$，计算得$|PM|=\\frac{1}{2}$，$|PN|=\\frac{5}{2}$，$|PS|=\\frac{2\\sqrt{6}}{3}-1$，$|PT|=\\frac{2\\sqrt{6}}{3}+1$，则$\\frac{|PM||PN|}{|PS||PT|}=\\frac{3}{4}$；2. 当直线$l_2$斜率不存在时，同理可得$\\frac{|PM||PN|}{|PS||PT|}=\\frac{4}{3}$；3. 当$l_1$、$l_2$斜率均存在且不为0时，设$l_1$斜率为k，则$l_2$斜率为$-\\frac{1}{k}$，$l_1$方程为$y-1=k(x+1)$，联立椭圆方程得$(3+4k^2)x^2+(8k^2+8k)x+4k^2+8k-8=0$；4. 设$M(x_1,y_1)$、$N(x_2,y_2)$，由韦达定理得$x_1+x_2=-\\frac{8k^2+8k}{3+4k^2}$，$x_1x_2=\\frac{4k^2+8k-8}{3+4k^2}$；5. 计算$|PM||PN|=(1+k^2)|(x_1+1)(x_2+1)|$，展开并代入韦达定理结果化简；6. 同理求出$l_2$与椭圆联立后的$|PS||PT|=(1+\\frac{1}{k^2})|(x_3+1)(x_4+1)|$并化简；7. 计算$\\frac{|PM||PN|}{|PS||PT|}=k^2\\cdot\\frac{|x_1x_2+x_1+x_2+1|}{|x_3x_4+x_3+x_4+1|}$，最终得出该式的取值范围为$[\\frac{3}{4},\\frac{4}{3}]$。",
+            "standardAnswer": "$[\\frac{3}{4},\\frac{4}{3}]$",
+            "scoringCriteria": "第二问，讨论斜率不存在的两种情况并分别计算出对应比值各得2分，共4分；设出斜率存在时的直线方程并与椭圆联立消元得2分；正确使用韦达定理写出根与系数的关系得2分；正确推导$|PM||PN|$和$|PS||PT|$的表达式得1分；化简并求出最终取值范围得1分，共10分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the ellipse $C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ passes through the point $(0,\\sqrt{3})$ and has an eccentricity of $\\frac{1}{2}$",
+        "subQuestions": [
+          {
+            "question": "(I) Find the equation of ellipse C",
+            "solutionSteps": "1. The ellipse passes through the point $(0,\\sqrt{3})$, so $b=\\sqrt{3}$; 2. The eccentricity $e=\\frac{c}{a}=\\frac{1}{2}$, that is $c=\\frac{1}{2}a$; 3. From the relation $a^2=b^2+c^2$ in the ellipse, substitute $b=\\sqrt{3}$ and $c=\\frac{1}{2}a$, we get $a^2=3+\\frac{1}{4}a^2$; 4. Solve the equation to get $a^2=4$, that is $a=2$; 5. Therefore, the equation of ellipse C is $\\frac{x^2}{4}+\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "For the first subquestion, 1 point for finding $b=\\sqrt{3}$ from the ellipse passing through the given point; 1 point for writing the eccentricity formula and converting it to $c=\\frac{1}{2}a$; 1 point for substituting the relation $a^2=b^2+c^2$ in the ellipse; 1 point for solving the equation to find $a^2=4$; 1 point for writing the standard equation of the ellipse, with a total of 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Two mutually perpendicular lines $l_1$ and $l_2$ passing through the point $P(-1,1)$ intersect ellipse C at points M, N and points S, T respectively. Find the range of values of $\\frac{|PM||PN|}{|PS||PT|}$",
+            "solutionSteps": "1. When the slope of line $l_1$ does not exist, $l_1:x=-1$, $l_2:y=1$. Substitute into the ellipse equation to get $M(-1,\\frac{3}{2})$, $N(-1,-\\frac{3}{2})$, $S(\\frac{2\\sqrt{6}}{3},1)$, $T(-\\frac{2\\sqrt{6}}{3},1)$. Calculate to get $|PM|=\\frac{1}{2}$, $|PN|=\\frac{5}{2}$, $|PS|=\\frac{2\\sqrt{6}}{3}-1$, $|PT|=\\frac{2\\sqrt{6}}{3}+1$, then $\\frac{|PM||PN|}{|PS||PT|}=\\frac{3}{4}$; 2. When the slope of line $l_2$ does not exist, similarly we get $\\frac{|PM||PN|}{|PS||PT|}=\\frac{4}{3}$; 3. When the slopes of both $l_1$ and $l_2$ exist and are not 0, let the slope of $l_1$ be k, then the slope of $l_2$ is $-\\frac{1}{k}$, the equation of $l_1$ is $y-1=k(x+1)$,联立 with the ellipse equation to get $(3+4k^2)x^2+(8k^2+8k)x+4k^2+8k-8=0$; 4. Let $M(x_1,y_1)$, $N(x_2,y_2)$, from Vieta's formulas, we have $x_1+x_2=-\\frac{8k^2+8k}{3+4k^2}$, $x_1x_2=\\frac{4k^2+8k-8}{3+4k^2}$; 5. Calculate $|PM||PN|=(1+k^2)|(x_1+1)(x_2+1)|$, expand and simplify by substituting the results of Vieta's formulas; 6. Similarly, find and simplify $|PS||PT|=(1+\\frac{1}{k^2})|(x_3+1)(x_4+1)|$ after联立 $l_2$ with the ellipse; 7. Calculate $\\frac{|PM||PN|}{|PS||PT|}=k^2\\cdot\\frac{|x_1x_2+x_1+x_2+1|}{|x_3x_4+x_3+x_4+1|}$, and finally obtain that the range of this expression is $[\\frac{3}{4},\\frac{4}{3}]$.",
+            "standardAnswer": "$[\\frac{3}{4},\\frac{4}{3}]$",
+            "scoringCriteria": "For the second subquestion, 2 points for each of the two cases where the slope does not exist by discussing and calculating the corresponding ratios respectively, with a total of 4 points; 2 points for setting the linear equation when the slope exists and eliminating variables by联立 with the ellipse; 2 points for writing the relationship between roots and coefficients correctly using Vieta's formulas; 1 point for deriving the expressions of $|PM||PN|$ and $|PS||PT|$ correctly; 1 point for simplifying and finding the final range of values, with a total of 10 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=e^x-1-m\\sin x(m\\in R)$",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当$m=1$时，（ⅰ）求曲线$y=f(x)$在点$(0,f(0))$处的切线方程",
+            "solutionSteps": "1. 当$m=1$时，$f(x)=e^x-1-\\sin x$，求导得$f'(x)=e^x-\\cos x$；2. 计算$f(0)=e^0-1-\\sin0=0$，$f'(0)=e^0-\\cos0=0$；3. 切线方程用点斜式表示为$y-f(0)=f'(0)(x-0)$，代入得$y=0$。",
+            "standardAnswer": "$y=0$",
+            "scoringCriteria": "第一问(ⅰ)，正确求导得$f'(x)=e^x-\\cos x$得2分；计算出$f(0)=0$和$f'(0)=0$各得1分，共2分；写出切线方程得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅰ）当$m=1$时，（ⅱ）求证：$\\forall x\\in(0,\\frac{\\pi}{2})$，$f(x)>0$",
+            "solutionSteps": "1. 当$m=1$时，$f'(x)=e^x-\\cos x$；2. 因为$x\\in(0,\\frac{\\pi}{2})$，所以$e^x>1$，$\\cos x<1$，故$e^x-\\cos x>0$，即$f'(x)>0$；3. 因此$f(x)$在$(0,\\frac{\\pi}{2})$上单调递增；4. 又$f(0)=0$，所以当$x\\in(0,\\frac{\\pi}{2})$时，$f(x)>f(0)=0$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第一问(ⅱ)，写出$f'(x)$的表达式得1分；分析$x\\in(0,\\frac{\\pi}{2})$时$f'(x)>0$的原因得2分；得出$f(x)$的单调性得1分；结合$f(0)=0$证明结论得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）若$f(x)$在$(0,\\frac{\\pi}{2})$上恰有一个极值点，求m的取值范围",
+            "solutionSteps": "1. 求导得$f'(x)=e^x-m\\cos x$；2. 当$m\\leq1$时，$-m\\cos x\\geq-\\cos x$，故$f'(x)\\geq e^x-\\cos x$，由(Ⅰ)知$f'(x)>0$，$f(x)$单调递增，无极值点；3. 当$m>1$时，$y=e^x$和$y=-m\\cos x$在$(0,\\frac{\\pi}{2})$上均单调递增，故$f'(x)$在$(0,\\frac{\\pi}{2})$上单调递增；4. 计算$f'(0)=1-m<0$，$f'(\\frac{\\pi}{2})=e^{\\frac{\\pi}{2}}>0$；5. 根据零点存在定理，存在$x_0\\in(0,\\frac{\\pi}{2})$使得$f'(x_0)=0$；6. 当$0<x<x_0$时，$f'(x)<0$，$f(x)$单调递减；当$x_0<x<\\frac{\\pi}{2}$时，$f'(x)>0$，$f(x)$单调递增，故$x_0$为极小值点，即恰有一个极值点；7. 综上，m的取值范围是$(1,+\\infty)$。",
+            "standardAnswer": "$(1,+\\infty)$",
+            "scoringCriteria": "第二问，正确求导得$f'(x)$的表达式得1分；分析$m\\leq1$时$f(x)$无极值点的过程得2分；分析$m>1$时$f'(x)$的单调性得1分；利用零点存在定理找到零点得1分；分析零点两侧$f(x)$的单调性并确定极值点得1分；写出m的取值范围得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=e^x-1-m\\sin x(m\\in R)$",
+        "subQuestions": [
+          {
+            "question": "(I) When $m=1$, (i) Find the equation of the tangent line to the curve $y=f(x)$ at the point $(0,f(0))$",
+            "solutionSteps": "1. When $m=1$, $f(x)=e^x-1-\\sin x$, find the derivative to get $f'(x)=e^x-\\cos x$; 2. Calculate $f(0)=e^0-1-\\sin0=0$, $f'(0)=e^0-\\cos0=0$; 3. The tangent line equation is expressed in point-slope form as $y-f(0)=f'(0)(x-0)$, substitute to get $y=0$.",
+            "standardAnswer": "$y=0$",
+            "scoringCriteria": "For (i) of the first subquestion, 2 points for finding the derivative correctly to get $f'(x)=e^x-\\cos x$; 1 point each for calculating $f(0)=0$ and $f'(0)=0$, with a total of 2 points; 1 point for writing the tangent line equation, with a total of 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(I) When $m=1$, (ii) Prove that $\\forall x\\in(0,\\frac{\\pi}{2})$, $f(x)>0$",
+            "solutionSteps": "1. When $m=1$, $f'(x)=e^x-\\cos x$; 2. Since $x\\in(0,\\frac{\\pi}{2})$, we have $e^x>1$ and $\\cos x<1$, so $e^x-\\cos x>0$, that is $f'(x)>0$; 3. Therefore, $f(x)$ is monotonically increasing on $(0,\\frac{\\pi}{2})$; 4. Moreover, $f(0)=0$, so when $x\\in(0,\\frac{\\pi}{2})$, $f(x)>f(0)=0$, which proves the conclusion.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "For (ii) of the first subquestion, 1 point for writing the expression of $f'(x)$; 2 points for analyzing the reason why $f'(x)>0$ when $x\\in(0,\\frac{\\pi}{2})$; 1 point for deriving the monotonicity of $f(x)$; 1 point for proving the conclusion combined with $f(0)=0$, with a total of 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(II) If $f(x)$ has exactly one extreme point on $(0,\\frac{\\pi}{2})$, find the range of values of m",
+            "solutionSteps": "1. Find the derivative to get $f'(x)=e^x-m\\cos x$; 2. When $m\\leq1$, $-m\\cos x\\geq-\\cos x$, so $f'(x)\\geq e^x-\\cos x$. From (I), we know $f'(x)>0$, $f(x)$ is monotonically increasing and has no extreme points; 3. When $m>1$, both $y=e^x$ and $y=-m\\cos x$ are monotonically increasing on $(0,\\frac{\\pi}{2})$, so $f'(x)$ is monotonically increasing on $(0,\\frac{\\pi}{2})$; 4. Calculate $f'(0)=1-m<0$, $f'(\\frac{\\pi}{2})=e^{\\frac{\\pi}{2}}>0$; 5. According to the Zero Existence Theorem, there exists $x_0\\in(0,\\frac{\\pi}{2})$ such that $f'(x_0)=0$; 6. When $0<x<x_0$, $f'(x)<0$, $f(x)$ is monotonically decreasing; when $x_0<x<\\frac{\\pi}{2}$, $f'(x)>0$, $f(x)$ is monotonically increasing, so $x_0$ is a minimum point, that is, there is exactly one extreme point; 7. In conclusion, the range of values of m is $(1,+\\infty)$.",
+            "standardAnswer": "$(1,+\\infty)$",
+            "scoringCriteria": "For the second subquestion, 1 point for finding the derivative correctly to get the expression of $f'(x)$; 2 points for the process of analyzing that $f(x)$ has no extreme points when $m\\leq1$; 1 point for analyzing the monotonicity of $f'(x)$ when $m>1$; 1 point for finding the zero point by using the Zero Existence Theorem; 1 point for analyzing the monotonicity of $f(x)$ on both sides of the zero point and determining the extreme point; 1 point for writing the range of values of m, with a total of 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "若无穷数列$\\{a_n\\}$满足以下两个条件，则称该数列为τ数列。①$a_1=1$，当$n\\geq2$时，$|a_n-2|=|a_{n-1}+2|$；②若存在某一项$a_m\\leq-5$，则存在$k\\in\\{1,2,\\cdots,m-1\\}$，使得$a_k=a_m+4(m\\geq2且m\\in N^*)$",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$a_2<0$，写出所有τ数列的前四项",
+            "solutionSteps": "1. 由条件①，$n\\geq2$时，$|a_n-2|=|a_{n-1}+2|$，平方得$(a_n-2)^2=(a_{n-1}+2)^2$，展开得$a_n^2-4a_n=a_{n-1}^2+4a_{n-1}$，变形得$(a_n-a_{n-1}-4)(a_n+a_{n-1})=0$，故$a_n=a_{n-1}+4$或$a_n=-a_{n-1}$；2. $a_1=1$，$a_2<0$，故$a_2=-a_1=-1$；3. $a_3$可取$-a_2=1$或$a_2+4=3$；4. 当$a_3=1$时，$a_4$可取$-a_3=-1$或$a_3+4=5$；当$a_3=3$时，$a_4$可取$-a_3=-3$或$a_3+4=7$；5. 综上，所有τ数列的前四项为：1,-1,1,-1；1,-1,1,5；1,-1,3,-3；1,-1,3,7。",
+            "standardAnswer": "1,-1,1,-1；1,-1,1,5；1,-1,3,-3；1,-1,3,7",
+            "scoringCriteria": "第一问，由条件①推导出$a_n=a_{n-1}+4$或$a_n=-a_{n-1}$得2分；求出$a_2=-1$得1分；分情况求出所有可能的$a_3$和$a_4$得1分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若$a_2>0$，判断τ数列是否为等差数列，请说明理由",
+            "solutionSteps": "1. 由$a_1=1$，$a_2>0$及$a_n=a_{n-1}+4$或$a_n=-a_{n-1}$，得$a_2=1+4=5$；2. 假设存在最小的正整数$i(i\\geq3)$，使得$a_i=-a_{i-1}$，则$a_1,a_2,\\cdots,a_{i-1}$单调递增且均为正数，$a_{i-1}\\geq a_2=5$，故$a_i=-a_{i-1}\\leq-5$；3. 由条件②，存在$k\\in\\{1,2,\\cdots,i-1\\}$，使得$a_k=a_i+4\\leq-1$，与$a_1,a_2,\\cdots,a_{i-1}$均为正数矛盾；4. 因此不存在$i(i\\geq3)$使得$a_i=-a_{i-1}$，即对任意$n\\geq2$，$a_n=a_{n-1}+4$；5. 故$\\{a_n\\}$是首项为1，公差为4的等差数列。",
+            "standardAnswer": "是等差数列，理由见解析",
+            "scoringCriteria": "第二问，求出$a_2=5$得1分；作出反证法的假设得1分；推导得出与条件②矛盾的结论得2分；得出$a_n=a_{n-1}+4$并判断为等差数列得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）在所有的τ数列中，求满足$a_m=-2021$的m的最小值",
+            "solutionSteps": "1. 由$a_m=-2021$及条件②，可得-1,-5,-9,\\cdots,-2017,-2021必为数列中的项，记该数列为$\\{b_n\\}$，则$b_n=-4n+3(1\\leq n\\leq506)$；2. 令$b_n=a_j$，由条件①，$a_{j+1}=-a_j=4n-3$或$a_{j+1}=a_j+4=-4n+7$，均不为$b_{n+1}=-4n-1$；3. $a_{j+2}$的所有可能取值也均不为$b_{n+1}=-4n-1$，仅当$a_{j+1}=4n-3$，$a_{j+2}=4n+1$时，$a_{j+3}=-a_{j+2}=-4n-1=b_{n+1}$；4. 结合$a_1=1$，可得$a_{3n-1}=b_n$；5. 当$b_{506}=-2021$时，$3×506-1=1517$，即m的最小值为1517。",
+            "standardAnswer": "1517",
+            "scoringCriteria": "第三问，推出-1,-5,\\cdots,-2021必为数列中的项并写出通项得2分；分析$b_n$后一项的推导规律得2分；得出$a_{3n-1}=b_n$并计算出m的最小值得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "If an infinite sequence $\\{a_n\\}$ satisfies the following two conditions, the sequence is called a τ-sequence. ① $a_1=1$, and when $n\\geq2$, $|a_n-2|=|a_{n-1}+2|$; ② If there exists a term $a_m\\leq-5$, then there exists $k\\in\\{1,2,\\cdots,m-1\\}$ such that $a_k=a_m+4(m\\geq2 and m\\in N^*)$",
+        "subQuestions": [
+          {
+            "question": "(I) If $a_2<0$, write the first four terms of all τ-sequences",
+            "solutionSteps": "1. From Condition ①, when $n\\geq2$, $|a_n-2|=|a_{n-1}+2|$, square both sides to get $(a_n-2)^2=(a_{n-1}+2)^2$, expand to get $a_n^2-4a_n=a_{n-1}^2+4a_{n-1}$, transform to get $(a_n-a_{n-1}-4)(a_n+a_{n-1})=0$, so $a_n=a_{n-1}+4$ or $a_n=-a_{n-1}$; 2. $a_1=1$, $a_2<0$, so $a_2=-a_1=-1$; 3. $a_3$ can be $-a_2=1$ or $a_2+4=3$; 4. When $a_3=1$, $a_4$ can be $-a_3=-1$ or $a_3+4=5$; when $a_3=3$, $a_4$ can be $-a_3=-3$ or $a_3+4=7$; 5. In conclusion, the first four terms of all τ-sequences are: 1,-1,1,-1; 1,-1,1,5; 1,-1,3,-3; 1,-1,3,7.",
+            "standardAnswer": "1,-1,1,-1; 1,-1,1,5; 1,-1,3,-3; 1,-1,3,7",
+            "scoringCriteria": "For the first subquestion, 2 points for deriving $a_n=a_{n-1}+4$ or $a_n=-a_{n-1}$ from Condition ①; 1 point for finding $a_2=-1$; 1 point for finding all possible values of $a_3$ and $a_4$ by classification, with a total of 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(II) If $a_2>0$, judge whether the τ-sequence is an arithmetic sequence and explain the reason",
+            "solutionSteps": "1. From $a_1=1$, $a_2>0$ and $a_n=a_{n-1}+4$ or $a_n=-a_{n-1}$, we get $a_2=1+4=5$; 2. Assume that there exists the smallest positive integer $i(i\\geq3)$ such that $a_i=-a_{i-1}$, then $a_1,a_2,\\cdots,a_{i-1}$ is monotonically increasing and all positive, $a_{i-1}\\geq a_2=5$, so $a_i=-a_{i-1}\\leq-5$; 3. From Condition ②, there exists $k\\in\\{1,2,\\cdots,i-1\\}$ such that $a_k=a_i+4\\leq-1$, which contradicts the fact that $a_1,a_2,\\cdots,a_{i-1}$ are all positive; 4. Therefore, there is no $i(i\\geq3)$ such that $a_i=-a_{i-1}$, that is, for any $n\\geq2$, $a_n=a_{n-1}+4$; 5. Thus, $\\{a_n\\}$ is an arithmetic sequence with the first term 1 and the common difference 4.",
+            "standardAnswer": "It is an arithmetic sequence, see the analysis for the reason",
+            "scoringCriteria": "For the second subquestion, 1 point for finding $a_2=5$; 1 point for making the assumption of proof by contradiction; 2 points for deriving a conclusion that contradicts Condition ②; 1 point for concluding $a_n=a_{n-1}+4$ and judging it as an arithmetic sequence, with a total of 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(III) Among all τ-sequences, find the minimum value of m satisfying $a_m=-2021$",
+            "solutionSteps": "1. From $a_m=-2021$ and Condition ②, it can be concluded that -1,-5,-9,\\cdots,-2017,-2021 must be terms in the sequence, denote this sequence as $\\{b_n\\}$, then $b_n=-4n+3(1\\leq n\\leq506)$; 2. Let $b_n=a_j$, from Condition ①, $a_{j+1}=-a_j=4n-3$ or $a_{j+1}=a_j+4=-4n+7$, neither of which is $b_{n+1}=-4n-1$; 3. All possible values of $a_{j+2}$ are also not $b_{n+1}=-4n-1$, only when $a_{j+1}=4n-3$ and $a_{j+2}=4n+1$, $a_{j+3}=-a_{j+2}=-4n-1=b_{n+1}$; 4. Combined with $a_1=1$, we get $a_{3n-1}=b_n$; 5. When $b_{506}=-2021$, $3×506-1=1517$, that is, the minimum value of m is 1517.",
+            "standardAnswer": "1517",
+            "scoringCriteria": "For the third subquestion, 2 points for deducing that -1,-5,\\cdots,-2021 must be terms in the sequence and writing the general term; 2 points for analyzing the derivation rule of the term after $b_n$; 1 point for concluding $a_{3n-1}=b_n$ and calculating the minimum value of m, with a total of 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

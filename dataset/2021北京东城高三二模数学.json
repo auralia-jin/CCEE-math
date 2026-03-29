@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2021 Beijing Dongcheng Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某市2019年一季度全市居民人均消费支出情况如表所示，全市居民分为城镇居民和农村居民，人均消费支出分为食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品及服务共8类。2019年一季度单位：元，具体数据：人均消费支出全市10637（增速7.4%）、城镇11440（增速7.4%）；食品烟酒全市2292（增速8.2%）、城镇2401（增速8.2%）；衣着全市628（增速0.0%）、城镇670（增速-1.0%）；居住全市3846（增速5.7%）、城镇4200（增速5.6%）；生活用品及服务全市546（增速6.8%）、城镇588（增速8.3%）；交通和通信全市1219（增速11.0%）、城镇1303（增速10.5%）；教育文化和娱乐全市927（增速10.5%）、城镇1020（增速11.0%）；医疗保健全市874（增速14.2%）、城镇920（增速13.6%）；其他用品及服务全市305（增速1.0%）、城镇338（增速2.7%）。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从全市居民的8类人均消费支出中随机选取1类，求这类人均消费支出超过1000元概率；",
+            "solutionSteps": "1. 确定试验的总基本事件数：从全市居民8类人均消费支出中随机选1类，共8种等可能的取法；\\n2. 找出符合“人均消费支出超过1000元”的基本事件数：逐一核对数据，超过1000元的有人均消费支出、交通和通信，共3类；\\n3. 套用古典概型概率计算公式：$P=\\frac{符合条件的基本事件数}{总基本事件数}$，代入数据计算得结果。",
+            "standardAnswer": "$\\\\frac{3}{8}$",
+            "scoringCriteria": "该问总分4分，找出符合条件的类别数得2分，列出古典概型概率公式得1分，代入数据计算出正确概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从城镇居民的8类人均消费支出中随机选取3类，记X表示其中不超过2000元的数，求X的分布列及数学期望；",
+            "solutionSteps": "1. 确定X的可能取值：城镇居民8类人均消费支出中，超过2000元的有2类，因此X的可能取值为1、2、3；\\n2. 利用组合数公式计算各取值的概率：根据超几何分布概率公式$P(X=k)=\\frac{C_{2}^{3-k}C_{6}^{k}}{C_{8}^{3}}$，分别计算得$P(X=1)=\\frac{C_{2}^{2}C_{6}^{1}}{C_{8}^{3}}=\\frac{3}{28}$，$P(X=2)=\\frac{C_{2}^{1}C_{6}^{2}}{C_{8}^{3}}=\\frac{15}{28}$，$P(X=3)=\\frac{C_{6}^{3}}{C_{8}^{3}}=\\frac{5}{14}$；\\n3. 列出X的分布列：将X的取值与对应概率一一对应列出表格；\\n4. 计算数学期望：套用数学期望公式$E(X)=1×P(X=1)+2×P(X=2)+3×P(X=3)$，代入概率值计算得结果。",
+            "standardAnswer": "X的分布列为：X：1，P：$\\\\frac{3}{28}$；X：2，P：$\\\\frac{15}{28}$；X：3，P：$\\\\frac{5}{14}$；数学期望$E(X)=\\\\frac{9}{4}$",
+            "scoringCriteria": "该问总分8分，确定X的可能取值得1分，正确计算出每个取值的概率各得1分（共3分），正确列出分布列得2分，列出数学期望公式得1分，计算出正确期望值得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "（Ⅲ）请直接写出这8类人均消费支出中，农村居民人均消费支出增速大于城镇居民人均消费支出增速的类别。",
+            "solutionSteps": "1. 设某类消费支出的全市增速为$v_全$，城镇居民增速为$v_城$，农村居民增速为$v_农$，根据全市增速是城乡增速的加权平均，对比$v_农$与$v_城$的大小关系；\\n2. 逐一分析8类消费支出的城乡增速数据，筛选出满足$v_农>v_城$的类别。",
+            "standardAnswer": "衣着、居住、交通和通信、医疗保健",
+            "scoringCriteria": "该问总分2分，写出1-2个正确类别得1分，写出全部4个正确类别得2分，多写错误类别不得分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The per capita consumption expenditure of residents in a city in the first quarter of 2019 is shown in the table. The urban and rural residents are divided into urban residents and rural residents. The per capita consumption expenditure is divided into 8 categories: food, tobacco and alcohol, clothing, housing, daily necessities and services, transportation and communication, education, culture and entertainment, medical and health care, and other goods and services. Unit: yuan in the first quarter of 2019. Specific data: per capita consumption expenditure: the whole city 10637 (growth rate 7.4%), urban 11440 (growth rate 7.4%); food, tobacco and alcohol: the whole city 2292 (growth rate 8.2%), urban 2401 (growth rate 8.2%); clothing: the whole city 628 (growth rate 0.0%), urban 670 (growth rate -1.0%); housing: the whole city 3846 (growth rate 5.7%), urban 4200 (growth rate 5.6%); daily necessities and services: the whole city 546 (growth rate 6.8%), urban 588 (growth rate 8.3%); transportation and communication: the whole city 1219 (growth rate 11.0%), urban 1303 (growth rate 10.5%); education, culture and entertainment: the whole city 927 (growth rate 10.5%), urban 1020 (growth rate 11.0%); medical and health care: the whole city 874 (growth rate 14.2%), urban 920 (growth rate 13.6%); other goods and services: the whole city 305 (growth rate 1.0%), urban 338 (growth rate 2.7%).",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one category from the 8 categories of per capita consumption expenditure of the city's residents, find the probability that the per capita consumption expenditure of this category exceeds 1000 yuan;",
+            "solutionSteps": "1. Determine the total number of basic events of the experiment: there are 8 equally likely selection methods when randomly selecting one category from the 8 categories of per capita consumption expenditure of the city's residents;\\n2. Find the number of basic events that meet the condition of \"per capita consumption expenditure exceeding 1000 yuan\": check the data one by one, there are 3 categories exceeding 1000 yuan, which are per capita consumption expenditure and transportation and communication;\\n3. Apply the classical probability calculation formula: $P=\\frac{Number of basic events meeting the conditions}{Total number of basic events}$, and calculate the result by substituting the data.",
+            "standardAnswer": "$\\\\frac{3}{8}$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 2 points for finding the number of qualified categories, 1 point for listing the classical probability formula, and 1 point for calculating the correct probability by substituting data.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 3 categories from the 8 categories of per capita consumption expenditure of urban residents, let X represent the number of categories whose expenditure does not exceed 2000 yuan, find the distribution column and mathematical expectation of X;",
+            "solutionSteps": "1. Determine the possible values of X: among the 8 categories of per capita consumption expenditure of urban residents, 2 categories exceed 2000 yuan, so the possible values of X are 1, 2, 3;\\n2. Calculate the probability of each value using the combination formula: according to the hypergeometric distribution probability formula $P(X=k)=\\frac{C_{2}^{3-k}C_{6}^{k}}{C_{8}^{3}}$, calculate respectively to get $P(X=1)=\\frac{C_{2}^{2}C_{6}^{1}}{C_{8}^{3}}=\\frac{3}{28}$, $P(X=2)=\\frac{C_{2}^{1}C_{6}^{2}}{C_{8}^{3}}=\\frac{15}{28}$, $P(X=3)=\\frac{C_{6}^{3}}{C_{8}^{3}}=\\frac{5}{14}$;\\n3. List the distribution column of X: list the table with the values of X corresponding to the corresponding probabilities one by one;\\n4. Calculate the mathematical expectation: apply the mathematical expectation formula $E(X)=1×P(X=1)+2×P(X=2)+3×P(X=3)$, and calculate the result by substituting the probability values.",
+            "standardAnswer": "The distribution column of X is: X:1, P:$\\\\frac{3}{28}$; X:2, P:$\\\\frac{15}{28}$; X:3, P:$\\\\frac{5}{14}$; The mathematical expectation $E(X)=\\\\frac{9}{4}$",
+            "scoringCriteria": "This sub-question has a total of 8 points, 1 point for determining the possible values of X, 1 point for correctly calculating the probability of each value (3 points in total), 2 points for correctly listing the distribution column, 1 point for listing the mathematical expectation formula, and 1 point for calculating the correct expected value.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          },
+          {
+            "question": "(Ⅲ) Directly write down the categories where the growth rate of per capita consumption expenditure of rural residents is greater than that of urban residents among these 8 categories of per capita consumption expenditure.",
+            "solutionSteps": "1. Let the city-wide growth rate of a certain category of consumption expenditure be $v_全$, the growth rate of urban residents be $v_城$, and the growth rate of rural residents be $v_农$. Compare the size relationship between $v_农$ and $v_城$ according to the fact that the city-wide growth rate is the weighted average of urban and rural growth rates;\\n2. Analyze the urban and rural growth rate data of 8 categories of consumption expenditure one by one, and screen out the categories that meet $v_农>v_城$.",
+            "standardAnswer": "Clothing, Housing, Transportation and Communication, Medical and Health Care",
+            "scoringCriteria": "This sub-question has a total of 2 points, 1 point for writing 1-2 correct categories, 2 points for writing all 4 correct categories, and no points for writing additional wrong categories.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\sin x-(x-a)\\cos x$，其中$a \\in(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若曲线$y=f(x)$在$x=a$处的切线过点$(0, \\frac{\\sqrt{3}}{2})$，求a的值；",
+            "solutionSteps": "1. 求函数$f(x)$的导函数：对$f(x)$求导，$f'(x)=\\cos x - \\cos x + (x-a)\\sin x=(x-a)\\sin x$；\\n2. 求切线的斜率：将$x=a$代入导函数，得切线斜率$k=f'(a)=0$；\\n3. 确定切点坐标：切点为$(a, f(a))$，计算$f(a)=\\sin a$，即切点为$(a, \\sin a)$；\\n4. 写出切线方程：斜率为0，故切线方程为$y=\\sin a$；\\n5. 求解a的值：切线过点$(0, \\frac{\\sqrt{3}}{2})$，代入得$\\sin a=\\frac{\\sqrt{3}}{2}$，结合$a \\in(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$，解得$a=\\frac{\\pi}{3}$。",
+            "standardAnswer": "$\\\\frac{\\pi}{3}$",
+            "scoringCriteria": "该问总分5分，正确求导得2分，计算出切线斜率得1分，确定切点坐标并写出切线方程得1分，代入点坐标求解并结合范围得出正确a值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若$f(x)>a^{3}-1$对$x \\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$恒成立，求a的取值范围。",
+            "solutionSteps": "1. 构造辅助函数：设$g(x)=\\sin x-(x-a)\\cos x -a^3 +1$，$x \\in[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$，问题转化为$g(x)>0$在该区间上恒成立；\\n2. 求导并找导数零点：$g'(x)=(x-a)\\sin x$，令$g'(x)=0$，解得$x_1=a$或$x_2=0$；\\n3. 分类讨论函数单调性：\\n   ①当$-\\frac{\\pi}{2}<a<0$时，令$g'(x)>0$，解得$x \\in(-\\frac{\\pi}{2},a) \\cup (0, \\frac{\\pi}{2})$，$g(x)$在该区间单调递增；令$g'(x)<0$，解得$x \\in(a,0)$，$g(x)$在该区间单调递减，故$g(x)_{min}=g(0)=-a^3+a+1$；\\n   ②分析最小值的取值：构造函数$h(a)=-a^3+a+1$，求导得$h'(a)=-3a^2+1$，令$h'(a)=0$，解得$a=-\\frac{\\sqrt{3}}{3}$，$h(a)$在$(-\\frac{\\pi}{2},-\\frac{\\sqrt{3}}{3})$单调递减，在$(-\\frac{\\sqrt{3}}{3},0)$单调递增，计算得$h(a)_{min}=h(-\\frac{\\sqrt{3}}{3})=1-\\frac{2\\sqrt{3}}{9}>0$，故$g(0)>0$，该情况满足条件；\\n   ③当$0 \\leq a<\\frac{\\pi}{2}$时，计算$g(-\\frac{\\pi}{2})=-a^3 \\leq0$，不满足$g(x)>0$恒成立；\\n4. 得出结论：综合以上讨论，a的取值范围为$(-\\frac{\\pi}{2}, 0)$。",
+            "standardAnswer": "$(-\\\\frac{\\pi}{2}, 0)$",
+            "scoringCriteria": "该问总分10分，正确构造辅助函数得1分，求导并求出导数零点得2分，正确分类讨论函数单调性得3分，构造函数分析最小值并计算最小值得2分，结合范围得出正确取值范围得2分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=\\sin x-(x-a)\\cos x$, where $a \\in(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If the tangent line of the curve $y=f(x)$ at $x=a$ passes through the point $(0, \\frac{\\sqrt{3}}{2})$, find the value of a;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)$: differentiate $f(x)$, $f'(x)=\\cos x - \\cos x + (x-a)\\sin x=(x-a)\\sin x$;\\n2. Find the slope of the tangent line: substitute $x=a$ into the derivative, the slope of the tangent line $k=f'(a)=0$;\\n3. Determine the coordinates of the tangent point: the tangent point is $(a, f(a))$, calculate $f(a)=\\sin a$, that is, the tangent point is $(a, \\sin a)$;\\n4. Write the equation of the tangent line: the slope is 0, so the equation of the tangent line is $y=\\sin a$;\\n5. Solve for the value of a: the tangent line passes through the point $(0, \\frac{\\sqrt{3}}{2})$, substitute to get $\\sin a=\\frac{\\sqrt{3}}{2}$, combined with $a \\in(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$, solve to get $a=\\frac{\\pi}{3}$.",
+            "standardAnswer": "$\\\\frac{\\pi}{3}$",
+            "scoringCriteria": "This sub-question has a total of 5 points, 2 points for finding the derivative correctly, 1 point for calculating the slope of the tangent line, 1 point for determining the tangent point coordinates and writing the tangent line equation, and 1 point for solving by substituting the point coordinates and getting the correct value of a combined with the range.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $f(x)>a^{3}-1$ holds for all $x \\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$, find the range of a.",
+            "solutionSteps": "1. Construct an auxiliary function: let $g(x)=\\sin x-(x-a)\\cos x -a^3 +1$, $x \\in[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, the problem is transformed into $g(x)>0$ holding on this interval;\\n2. Find the derivative and the zero points of the derivative: $g'(x)=(x-a)\\sin x$, let $g'(x)=0$, solve to get $x_1=a$ or $x_2=0$;\\n3. Discuss the monotonicity of the function by classification: \\n   ①When $-\\frac{\\pi}{2}<a<0$, let $g'(x)>0$, solve to get $x \\in(-\\frac{\\pi}{2},a) \\cup (0, \\frac{\\pi}{2})$, $g(x)$ is monotonically increasing on this interval; let $g'(x)<0$, solve to get $x \\in(a,0)$, $g(x)$ is monotonically decreasing on this interval, so $g(x)_{min}=g(0)=-a^3+a+1$;\\n   ②Analyze the value of the minimum: construct the function $h(a)=-a^3+a+1$, find the derivative to get $h'(a)=-3a^2+1$, let $h'(a)=0$, solve to get $a=-\\frac{\\sqrt{3}}{3}$, $h(a)$ is monotonically decreasing on $(-\\frac{\\pi}{2},-\\frac{\\sqrt{3}}{3})$ and monotonically increasing on $(-\\frac{\\sqrt{3}}{3},0)$, calculate to get $h(a)_{min}=h(-\\frac{\\sqrt{3}}{3})=1-\\frac{2\\sqrt{3}}{9}>0$, so $g(0)>0$, this case satisfies the condition;\\n   ③When $0 \\leq a<\\frac{\\pi}{2}$, calculate $g(-\\frac{\\pi}{2})=-a^3 \\leq0$, which does not satisfy $g(x)>0$ holding for all;\\n4. Draw a conclusion: based on the above discussion, the range of a is $(-\\frac{\\pi}{2}, 0)$.",
+            "standardAnswer": "$(-\\\\frac{\\pi}{2}, 0)$",
+            "scoringCriteria": "This sub-question has a total of 10 points, 1 point for constructing the auxiliary function correctly, 2 points for finding the derivative and the zero points of the derivative, 3 points for correctly discussing the monotonicity of the function by classification, 2 points for constructing a function to analyze the minimum value and calculating the minimum value, and 2 points for getting the correct value range combined with the range.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知椭圆$C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的右焦点为F，左、右顶点为$A(-2,0)$、$B(2,0)$，$|AF|=3|FB|$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的方程；",
+            "solutionSteps": "1. 确定a的取值：椭圆的左、右顶点为$A(-2,0)$、$B(2,0)$，根据椭圆顶点性质得$a=2$；\\n2. 求c的取值：设右焦点$F(c,0)$，计算$|AF|=a+c$，$|FB|=a-c$，由$|AF|=3|FB|$得方程$2+c=3(2-c)$，解得$c=1$；\\n3. 求b²的取值：根据椭圆中$a^2=b^2+c^2$的关系，得$b^2=a^2-c^2=4-1=3$；\\n4. 写出椭圆方程：将a²=4、b²=3代入椭圆标准方程，得$\\frac{x^2}{4}+\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "该问总分5分，确定a的值得1分，正确表示$|AF|$和$|FB|$并列出方程得2分，利用椭圆关系求出b²得1分，写出正确的椭圆方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设过$P(2,1)$的直线l与椭圆C交于不同的两点M，N，过点N作x轴的垂线，与直线BM交于点D，E为线段DN的中点。证明：直线BE的斜率为定值。",
+            "solutionSteps": "1. 设直线方程及点的坐标：由直线过$P(2,1)$且与椭圆交于不同两点，设直线l的方程为$y=k(x-2)+1$，设$M(x_1, y_1)$，$N(x_2, y_2)$；\\n2. 联立方程并消元：将直线方程与椭圆方程$\\frac{x^2}{4}+\\frac{y^2}{3}=1$联立，消去y整理得$(4k^2+3)x^2+8k(1-2k)x+16k^2-16k-8=0$；\\n3. 应用韦达定理：由韦达定理得$x_1+x_2=\\frac{8k(2k-1)}{4k^2+3}$，$x_1x_2=\\frac{8(2k^2-2k-1)}{4k^2+3}$；\\n4. 求直线BM的方程及点D坐标：$B(2,0)$，直线BM的方程为$y=\\frac{y_1}{x_1-2}(x-2)$，DN垂直x轴即$x=x_2$，代入得$D(x_2, \\frac{y_1}{x_1-2}(x_2-2))$；\\n5. 求点E的坐标：E为DN中点，$N(x_2,y_2)$，故$E(x_2, \\frac{1}{2}[\\frac{y_1}{x_1-2}(x_2-2)+y_2])$；\\n6. 求直线BE的斜率并化简：$k_{BE}=\\frac{y_E}{x_2-2}=\\frac{y_1(x_2-2)+y_2(x_1-2)}{2(x_1-2)(x_2-2)}$，将$y_1=k(x_1-2)+1$、$y_2=k(x_2-2)+1$代入分子化简，再代入韦达定理的结果，最终计算得$k_{BE}=-\\frac{3}{2}$，为定值。",
+            "standardAnswer": "直线BE的斜率为$-\\\\frac{3}{2}$，为定值，证明见解析",
+            "scoringCriteria": "该问总分10分，正确设出直线方程得1分，联立椭圆方程并正确消元得2分，求出韦达定理的结果得2分，正确求出点D、E坐标各得1分，列出直线BE斜率表达式得1分，代入化简并结合韦达定理求出定值斜率得2分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ with right focus F, left and right vertices $A(-2,0)$ and $B(2,0)$, and $|AF|=3|FB|$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse C;",
+            "solutionSteps": "1. Determine the value of a: the left and right vertices of the ellipse are $A(-2,0)$ and $B(2,0)$, get $a=2$ according to the nature of ellipse vertices;\\n2. Find the value of c: let the right focus be $F(c,0)$, calculate $|AF|=a+c$, $|FB|=a-c$, get the equation $2+c=3(2-c)$ from $|AF|=3|FB|$, solve to get $c=1$;\\n3. Find the value of b²: according to the relationship $a^2=b^2+c^2$ in the ellipse, get $b^2=a^2-c^2=4-1=3$;\\n4. Write the equation of the ellipse: substitute a²=4 and b²=3 into the standard equation of the ellipse to get $\\frac{x^2}{4}+\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "This sub-question has a total of 5 points, 1 point for determining the value of a, 2 points for correctly expressing $|AF|$ and $|FB|$ and listing the equation, 1 point for finding b² using the ellipse relationship, and 1 point for writing the correct ellipse equation.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let the line l passing through $P(2,1)$ intersect the ellipse C at two distinct points M and N. Draw a perpendicular line to the x-axis through point N, which intersects the line BM at point D, and E is the midpoint of the line segment DN. Prove that the slope of the line BE is a constant value.",
+            "solutionSteps": "1. Set the line equation and the coordinates of the points: since the line passes through $P(2,1)$ and intersects the ellipse at two distinct points, let the equation of line l be $y=k(x-2)+1$, let $M(x_1, y_1)$, $N(x_2, y_2)$;\\n2. Simultaneously solve the equations and eliminate y: simultaneously solve the line equation with the ellipse equation $\\frac{x^2}{4}+\\frac{y^2}{3}=1$, eliminate y and sort out to get $(4k^2+3)x^2+8k(1-2k)x+16k^2-16k-8=0$;\\n3. Apply Vieta's formulas: get $x_1+x_2=\\frac{8k(2k-1)}{4k^2+3}$, $x_1x_2=\\frac{8(2k^2-2k-1)}{4k^2+3}$ from Vieta's formulas;\\n4. Find the equation of line BM and the coordinates of point D: $B(2,0)$, the equation of line BM is $y=\\frac{y_1}{x_1-2}(x-2)$, DN is perpendicular to the x-axis that is $x=x_2$, substitute to get $D(x_2, \\frac{y_1}{x_1-2}(x_2-2))$;\\n5. Find the coordinates of point E: E is the midpoint of DN, $N(x_2,y_2)$, so $E(x_2, \\frac{1}{2}[\\frac{y_1}{x_1-2}(x_2-2)+y_2])$;\\n6. Find the slope of line BE and simplify: $k_{BE}=\\frac{y_E}{x_2-2}=\\frac{y_1(x_2-2)+y_2(x_1-2)}{2(x_1-2)(x_2-2)}$, substitute $y_1=k(x_1-2)+1$ and $y_2=k(x_2-2)+1$ into the numerator and simplify, then substitute the results of Vieta's formulas, finally calculate to get $k_{BE}=-\\frac{3}{2}$, which is a constant value.",
+            "standardAnswer": "The slope of the line BE is $-\\\\frac{3}{2}$, which is a constant value, see the analysis for proof.",
+            "scoringCriteria": "This sub-question has a total of 10 points, 1 point for setting the line equation correctly, 2 points for simultaneously solving the ellipse equation and eliminating y correctly, 2 points for finding the results of Vieta's formulas, 1 point each for finding the coordinates of point D and E correctly, 1 point for listing the slope expression of line BE, and 2 points for substituting and simplifying and finding the constant slope combined with Vieta's formulas.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设数列$A: x_{1}, x_{2}, ..., x_{n}(n \\geq 3)$。定义集合$S(A, k)=\\{s | s=\\frac{x_{i_{1}}+x_{i_{2}}+... +x_{i_{k}}}{k}, 1 \\leq i_{1}<i_{2}<...<i_{k} \\leq n\\}$，其中$k(2 \\leq k \\leq n)$为给定的正整数。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$A:0,2,4$，求$S(A, 2)$；",
+            "solutionSteps": "1. 列出所有满足$1 \\leq i_1<i_2 \\leq 3$的下标组合：共有$(1,2)$、$(1,3)$、$(2,3)$三组；\\n2. 分别计算每组下标的平均值：$\\frac{x_1+x_2}{2}=\\frac{0+2}{2}=1$，$\\frac{x_1+x_3}{2}=\\frac{0+4}{2}=2$，$\\frac{x_2+x_3}{2}=\\frac{2+4}{2}=3$；\\n3. 写出集合$S(A,2)$：将计算得到的平均值组成集合，即得结果。",
+            "standardAnswer": "$\\\\{1,2,3\\\\}$",
+            "scoringCriteria": "该问总分4分，列出所有符合条件的下标组合得2分，正确计算每个组合的平均值得1分，写出正确的集合得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若A中的项$x_{i} \\in S(A, n-1)(i=1,2, ..., n)$，求证：A为常数列；",
+            "solutionSteps": "1. 表示出集合$S(A,n-1)$的元素：令$S_n=x_1+x_2+...+x_n$，则$S(A,n-1)=\\{\\frac{S_n-x_1}{n-1}, \\frac{S_n-x_2}{n-1}, ..., \\frac{S_n-x_n}{n-1}\\}$；\\n2. 设数列的单调性：不妨设$x_1 \\leq x_2 \\leq ... \\leq x_n$，则$\\frac{S_n-x_n}{n-1} \\leq \\frac{S_n-x_{n-1}}{n-1} \\leq ... \\leq \\frac{S_n-x_1}{n-1}$；\\n3. 结合已知条件列不等式：由$x_i \\in S(A,n-1)$，得$\\frac{S_n-x_n}{n-1} \\leq x_1 \\leq x_n \\leq \\frac{S_n-x_1}{n-1}$；\\n4. 化简不等式：对$x_n \\leq \\frac{S_n-x_1}{n-1}$两边乘$n-1$得$(n-1)x_n \\leq S_n-x_1$，代入$S_n$得$(n-2)x_n \\leq x_2+...+x_{n-1}$；对$\\frac{S_n-x_n}{n-1} \\leq x_1$化简得$x_2+...+x_{n-1} \\leq (n-2)x_1$；\\n5. 推出结论：结合$x_1 \\leq x_2 \\leq ... \\leq x_n$，得$(n-2)x_n \\leq (n-2)x_1$，因$n \\geq3$，故$x_1=x_n$，进而$x_1=x_2=...=x_n$，A为常数列。",
+            "standardAnswer": "证明见解析，A为常数列",
+            "scoringCriteria": "该问总分5分，正确表示出$S(A,n-1)$的元素得1分，合理设出数列单调性并分析其大小关系得1分，结合已知列出不等式得1分，正确化简不等式得1分，推出数列所有项相等得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）记集合$S(A, k)$的最大元素为$s_{k}$，求证：$s_{k+1} \\leq s_{k}(2 \\leq k \\leq n-1)$。",
+            "solutionSteps": "1. 设$s_k$的表达式：设$s_k=\\frac{x_{i_1}+x_{i_2}+...+x_{i_k}}{k}$，其中$1 \\leq i_1<i_2<...<i_k \\leq n$，为$S(A,k)$的最大元素；\\n2. 任取$S(A,k+1)$中的元素：设$s=\\frac{x_{j_1}+x_{j_2}+...+x_{j_{k+1}}}{k+1}$为$S(A,k+1)$中任意一个元素，$1 \\leq j_1<j_2<...<j_{k+1} \\leq n$；\\n3. 构造k+1个$S(A,k)$中的元素：从$j_1,j_2,...,j_{k+1}$中去掉一个下标，得到k+1个k元子集，其平均值分别为$\\frac{x_{j_1}+...+x_{j_k}}{k}$、$\\frac{x_{j_1}+...+x_{j_{k-1}}+x_{j_{k+1}}}{k}$、...、$\\frac{x_{j_2}+...+x_{j_{k+1}}}{k}$；\\n4. 放缩分析：这些k元子集的平均值均不大于$s_k$，故其和$\\frac{(k+1)(x_{j_1}+...+x_{j_{k+1}})}{k} \\leq (k+1)s_k$；\\n5. 化简推导：两边约去$k+1$，得$\\frac{x_{j_1}+...+x_{j_{k+1}}}{k} \\leq s_k$，进一步变形得$\\frac{x_{j_1}+...+x_{j_{k+1}}}{k+1} \\leq \\frac{k}{k+1}s_k \\leq s_k$；\\n6. 得出结论：因$s$是$S(A,k+1)$中的任意元素，故其最大元素$s_{k+1} \\leq s_k$。",
+            "standardAnswer": "证明见解析，$s_{k+1} \\leq s_{k}$成立",
+            "scoringCriteria": "该问总分6分，正确设出$s_k$的表达式得1分，任取$s_{k+1}$对应的元素并构造相关k元子集得2分，对k元子集平均值进行放缩得1分，正确化简推导不等式得1分，得出$s_{k+1} \\leq s_k$的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let the sequence $A: x_{1}, x_{2}, ..., x_{n}(n \\geq 3)$. Define the set $S(A, k)=\\{s | s=\\frac{x_{i_{1}}+x_{i_{2}}+... +x_{i_{k}}}{k}, 1 \\leq i_{1}<i_{2}<...<i_{k} \\leq n\\}$, where $k(2 \\leq k \\leq n)$ is a given positive integer.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If $A:0,2,4$, find $S(A, 2)$;",
+            "solutionSteps": "1. List all subscript combinations satisfying $1 \\leq i_1<i_2 \\leq 3$: there are three groups $(1,2)$, $(1,3)$, $(2,3)$;\\n2. Calculate the average value of each group of subscripts respectively: $\\frac{x_1+x_2}{2}=\\frac{0+2}{2}=1$, $\\frac{x_1+x_3}{2}=\\frac{0+4}{2}=2$, $\\frac{x_2+x_3}{2}=\\frac{2+4}{2}=3$;\\n3. Write the set $S(A,2)$: form a set with the calculated average values to get the result.",
+            "standardAnswer": "$\\\\{1,2,3\\\\}$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 2 points for listing all subscript combinations that meet the conditions, 1 point for calculating the average value of each combination correctly, and 1 point for writing the correct set.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If the terms $x_{i} \\in S(A, n-1)(i=1,2, ..., n)$ of A, prove that A is a constant sequence;",
+            "solutionSteps": "1. Express the elements of the set $S(A,n-1)$: let $S_n=x_1+x_2+...+x_n$, then $S(A,n-1)=\\{\\frac{S_n-x_1}{n-1}, \\frac{S_n-x_2}{n-1}, ..., \\frac{S_n-x_n}{n-1}\\}$;\\n2. Assume the monotonicity of the sequence: without loss of generality, let $x_1 \\leq x_2 \\leq ... \\leq x_n$, then $\\frac{S_n-x_n}{n-1} \\leq \\frac{S_n-x_{n-1}}{n-1} \\leq ... \\leq \\frac{S_n-x_1}{n-1}$;\\n3. List inequalities combined with known conditions: from $x_i \\in S(A,n-1)$, get $\\frac{S_n-x_n}{n-1} \\leq x_1 \\leq x_n \\leq \\frac{S_n-x_1}{n-1}$;\\n4. Simplify the inequalities: multiply both sides of $x_n \\leq \\frac{S_n-x_1}{n-1}$ by $n-1$ to get $(n-1)x_n \\leq S_n-x_1$, substitute $S_n$ to get $(n-2)x_n \\leq x_2+...+x_{n-1}$; simplify $\\frac{S_n-x_n}{n-1} \\leq x_1$ to get $x_2+...+x_{n-1} \\leq (n-2)x_1$;\\n5. Draw a conclusion: combined with $x_1 \\leq x_2 \\leq ... \\leq x_n$, get $(n-2)x_n \\leq (n-2)x_1$, since $n \\geq3$, so $x_1=x_n$, and then $x_1=x_2=...=x_n$, A is a constant sequence.",
+            "standardAnswer": "See the analysis for proof, A is a constant sequence",
+            "scoringCriteria": "This sub-question has a total of 5 points, 1 point for correctly expressing the elements of $S(A,n-1)$, 1 point for reasonably assuming the monotonicity of the sequence and analyzing its size relationship, 1 point for listing inequalities combined with known conditions, 1 point for simplifying the inequalities correctly, and 1 point for deducing that all terms of the sequence are equal.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Denote the maximum element of the set $S(A, k)$ as $s_{k}$, prove that $s_{k+1} \\leq s_{k}(2 \\leq k \\leq n-1)$.",
+            "solutionSteps": "1. Set the expression of $s_k$: let $s_k=\\frac{x_{i_1}+x_{i_2}+...+x_{i_k}}{k}$, where $1 \\leq i_1<i_2<...<i_k \\leq n$, which is the maximum element of $S(A,k)$;\\n2. Take any element in $S(A,k+1)$: let $s=\\frac{x_{j_1}+x_{j_2}+...+x_{j_{k+1}}}{k+1}$ be any element in $S(A,k+1)$, $1 \\leq j_1<j_2<...<j_{k+1} \\leq n$;\\n3. Construct k+1 elements in $S(A,k)$: remove one subscript from $j_1,j_2,...,j_{k+1}$ to get k+1 k-element subsets, whose average values are $\\frac{x_{j_1}+...+x_{j_k}}{k}$, $\\frac{x_{j_1}+...+x_{j_{k-1}}+x_{j_{k+1}}}{k}$, ..., $\\frac{x_{j_2}+...+x_{j_{k+1}}}{k}$ respectively;\\n4. Scaling analysis: the average values of these k-element subsets are all not greater than $s_k$, so their sum $\\frac{(k+1)(x_{j_1}+...+x_{j_{k+1}})}{k} \\leq (k+1)s_k$;\\n5. Simplify and deduce: cancel $k+1$ on both sides to get $\\frac{x_{j_1}+...+x_{j_{k+1}}}{k} \\leq s_k$, and further transform to get $\\frac{x_{j_1}+...+x_{j_{k+1}}}{k+1} \\leq \\frac{k}{k+1}s_k \\leq s_k$;\\n6. Draw a conclusion: since s is any element in $S(A,k+1)$, its maximum element $s_{k+1} \\leq s_k$.",
+            "standardAnswer": "See the analysis for proof, $s_{k+1} \\leq s_{k}$ holds",
+            "scoringCriteria": "This sub-question has a total of 6 points, 1 point for correctly setting the expression of $s_k$, 2 points for taking any element corresponding to $s_{k+1}$ and constructing relevant k-element subsets, 1 point for scaling the average value of k-element subsets, 1 point for simplifying and deducing the inequality correctly, and 1 point for drawing the conclusion of $s_{k+1} \\leq s_k$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+    "paperTitle": "2021 Beijing Shunyi Senior Three First Mock Mathematics (Second Unified Practice)",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "某学校食堂为了解师生对某种新推出的菜品的满意度，从品尝过该菜品的学生和老师中分别随机调查了20人，得到师生对该菜品的满意度评分如下：教师：60 63 65 67 69 75 77 77 79 79 82 83 86 87 89 92 93 96 96 96 学生：47 49 52 54 55 57 63 65 66 66 74 74 75 77 80 82 83 84 95 96 根据师生对该菜品的满意度评分，将满意度从低到高分为三个等级：满意度评分低于70分、70分到89分、不低于90分对应满意度等级分别为不满意、满意、非常满意。假设教师和学生对该菜品的评价结果相互独立，根据所给数据，用事件发生的频率估计相应事件发生的概率。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）设数据中教师和学生评分的平均值分别为$\\mu_{1}$和$\\mu_{2}$，方差分别为$\\eta_{1}$和$\\eta_{2}$，试比较$\\mu_{1}$和$\\mu_{2}$，$\\eta_{1}$和$\\eta_{2}$的大小（结论不要求证明）；",
+                        "solutionSteps": "根据教师和学生的满意度评分数据的分布特征，直接判断平均值和方差的大小关系，无需进行具体计算。",
+                        "standardAnswer": "$\\mu_{1}>\\mu_{2}$，$\\eta_{1}<\\eta_{2}$",
+                        "scoringCriteria": "第一问，正确写出平均值的大小关系得2分，正确写出方差的大小关系得2分，共4分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "（Ⅱ）从全校教师中随机抽取3人，设X为3人中对该菜品非常满意的人数，求随机变量X的分布列及数学期望；",
+                        "solutionSteps": "1. 计算教师对菜品非常满意的概率：教师中非常满意的人数为5人，总调查人数20人，故概率$p=\\frac{5}{20}=\\frac{1}{4}$；2. 确定随机变量X的分布类型：X服从二项分布$X \\sim B(3, \\frac{1}{4})$；3. 计算X取不同值的概率：$P(X=k)=C_{3}^{k} (\\frac{1}{4})^{k}(1-\\frac{1}{4})^{3-k}$，分别计算$k=0,1,2,3$时的概率，$P(X=0)=C_{3}^{0}(\\frac{1}{4})^{0}(1-\\frac{1}{4})^{3}=\\frac{27}{64}$，$P(X=1)=C_{3}^{1}(\\frac{1}{4})^{1}(1-\\frac{1}{4})^{2}=\\frac{27}{64}$，$P(X=2)=C_{3}^{2}(\\frac{1}{4})^{2}(1-\\frac{1}{4})^{1}=\\frac{9}{64}$，$P(X=3)=C_{3}^{3}(\\frac{1}{4})^{3}(1-\\frac{1}{4})^{0}=\\frac{1}{64}$；4. 列出分布列；5. 计算数学期望：$E(X)=0 \\times \\frac{27}{64}+1 \\times \\frac{27}{64}+2 \\times \\frac{9}{64}+3 \\times \\frac{1}{64}=\\frac{3}{4}$，或直接用二项分布期望公式$E(X)=np=3\\times\\frac{1}{4}=\\frac{3}{4}$。",
+                        "standardAnswer": "分布列为：|X|0|1|2|3|\\n|P|$\\frac{27}{64}$|$\\frac{27}{64}$|$\\frac{9}{64}$|$\\frac{1}{64}$|；数学期望$E(X)=\\frac{3}{4}$",
+                        "scoringCriteria": "第二问，正确计算出非常满意的概率得1分，确定二项分布得1分，正确计算出四个概率值各得1分，正确列出分布列得1分，正确计算出数学期望得2分，共8分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）求教师的满意度等级高于学生的满意度等级的概率。",
+                        "solutionSteps": "1. 定义事件：用$A_{1}$，$A_{2}$，$A_{3}$分别表示教师对该菜品“不满意”、“满意”、“非常满意”，用$B_{1}$，$B_{2}$，$B_{3}$分别表示学生对该菜品“不满意”、“满意”、“非常满意”；2. 计算各事件概率：$P(A_{1})=\\frac{5}{20}$，$P(A_{2})=\\frac{10}{20}$，$P(A_{3})=\\frac{5}{20}$，$P(B_{1})=\\frac{10}{20}$，$P(B_{2})=\\frac{8}{20}$，$P(B_{3})=\\frac{2}{20}$；3. 分析教师等级高于学生的情况：$A_{2}B_{1}$、$A_{3}B_{1}$、$A_{3}B_{2}$，且各事件相互独立；4. 计算概率：$P(C)=P(A_{2}B_{1})+P(A_{3}B_{1})+P(A_{3}B_{2})=\\frac{10}{20} \\times \\frac{10}{20}+\\frac{5}{20} \\times \\frac{10}{20}+\\frac{5}{20} \\times \\frac{8}{20}=\\frac{19}{40}$。",
+                        "standardAnswer": "$\\frac{19}{40}$",
+                        "scoringCriteria": "第三问，正确定义各事件得1分，正确计算出所有事件的概率得1分，正确分析出教师等级高于学生的所有情况得1分，正确运用相互独立事件概率公式计算并得出最终结果得2分，共5分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "A school cafeteria wants to understand the teachers' and students' satisfaction with a newly launched dish. It randomly surveyed 20 teachers and 20 students who have tasted the dish, and obtained their satisfaction scores for the dish as follows: Teachers: 60, 63, 65, 67, 69, 75, 77, 77, 79, 79, 82, 83, 86, 87, 89, 92, 93, 96, 96, 96 Students: 47, 49, 52, 54, 55, 57, 63, 65, 66, 66, 74, 74, 75, 77, 80, 82, 83, 84, 95, 96 According to the satisfaction scores of teachers and students for the dish, the satisfaction is divided into three levels from low to high: the satisfaction score below 70 points, 70 to 89 points, and not less than 90 points correspond to the satisfaction levels of dissatisfied, satisfied, and very satisfied respectively. Assume that the evaluation results of teachers and students on the dish are independent of each other. According to the given data, estimate the probability of the occurrence of an event by the frequency of the occurrence of the event.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Let the average values of the teachers' and students' scores in the data be $\\mu_{1}$ and $\\mu_{2}$ respectively, and the variances be $\\eta_{1}$ and $\\eta_{2}$ respectively. Compare the sizes of $\\mu_{1}$ and $\\mu_{2}$, $\\eta_{1}$ and $\\eta_{2}$ (no proof is required for the conclusion);",
+                        "solutionSteps": "Judge the size relationship between the average values and variances directly according to the distribution characteristics of the satisfaction score data of teachers and students without specific calculation.",
+                        "standardAnswer": "$\\mu_{1}>\\mu_{2}$, $\\eta_{1}<\\eta_{2}$",
+                        "scoringCriteria": "For the first question, 2 points are awarded for correctly writing the size relationship of the average values, and 2 points for correctly writing the size relationship of the variances, with a total of 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "(Ⅱ) Randomly select 3 teachers from the whole school, let X be the number of the 3 teachers who are very satisfied with the dish, find the probability mass function and mathematical expectation of the random variable X;",
+                        "solutionSteps": "1. Calculate the probability that a teacher is very satisfied with the dish: the number of teachers who are very satisfied is 5, and the total number of surveyed teachers is 20, so the probability $p=\\frac{5}{20}=\\frac{1}{4}$; 2. Determine the distribution type of the random variable X: X follows a binomial distribution $X \\sim B(3, \\frac{1}{4})$; 3. Calculate the probabilities of X taking different values: $P(X=k)=C_{3}^{k} (\\frac{1}{4})^{k}(1-\\frac{1}{4})^{3-k}$, calculate the probabilities when $k=0,1,2,3$ respectively, $P(X=0)=C_{3}^{0}(\\frac{1}{4})^{0}(1-\\frac{1}{4})^{3}=\\frac{27}{64}$, $P(X=1)=C_{3}^{1}(\\frac{1}{4})^{1}(1-\\frac{1}{4})^{2}=\\frac{27}{64}$, $P(X=2)=C_{3}^{2}(\\frac{1}{4})^{2}(1-\\frac{1}{4})^{1}=\\frac{9}{64}$, $P(X=3)=C_{3}^{3}(\\frac{1}{4})^{3}(1-\\frac{1}{4})^{0}=\\frac{1}{64}$; 4. List the probability mass function; 5. Calculate the mathematical expectation: $E(X)=0 \\times \\frac{27}{64}+1 \\times \\frac{27}{64}+2 \\times \\frac{9}{64}+3 \\times \\frac{1}{64}=\\frac{3}{4}$, or directly use the binomial distribution expectation formula $E(X)=np=3\\times\\frac{1}{4}=\\frac{3}{4}$.",
+                        "standardAnswer": "The probability mass function is: |X|0|1|2|3|\\n|P|$\\frac{27}{64}$|$\\frac{27}{64}$|$\\frac{9}{64}$|$\\frac{1}{64}$|; The mathematical expectation $E(X)=\\frac{3}{4}$",
+                        "scoringCriteria": "For the second question, 1 point is awarded for correctly calculating the probability of being very satisfied, 1 point for determining the binomial distribution, 1 point for each correct calculation of the four probability values, 1 point for correctly listing the probability mass function, and 2 points for correctly calculating the mathematical expectation, with a total of 8 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Find the probability that the teacher's satisfaction level is higher than the student's satisfaction level.",
+                        "solutionSteps": "1. Define events: Let $A_{1}$, $A_{2}$, $A_{3}$ represent the teacher being \"dissatisfied\", \"satisfied\", and \"very satisfied\" with the dish respectively, and let $B_{1}$, $B_{2}$, $B_{3}$ represent the student being \"dissatisfied\", \"satisfied\", and \"very satisfied\" with the dish respectively; 2. Calculate the probabilities of each event: $P(A_{1})=\\frac{5}{20}$, $P(A_{2})=\\frac{10}{20}$, $P(A_{3})=\\frac{5}{20}$, $P(B_{1})=\\frac{10}{20}$, $P(B_{2})=\\frac{8}{20}$, $P(B_{3})=\\frac{2}{20}$; 3. Analyze the situations where the teacher's level is higher than the student's: $A_{2}B_{1}$, $A_{3}B_{1}$, $A_{3}B_{2}$, and each event is independent of each other; 4. Calculate the probability: $P(C)=P(A_{2}B_{1})+P(A_{3}B_{1})+P(A_{3}B_{2})=\\frac{10}{20} \\times \\frac{10}{20}+\\frac{5}{20} \\times \\frac{10}{20}+\\frac{5}{20} \\times \\frac{8}{20}=\\frac{19}{40}$.",
+                        "standardAnswer": "$\\frac{19}{40}$",
+                        "scoringCriteria": "For the third question, 1 point is awarded for correctly defining each event, 1 point for correctly calculating the probabilities of all events, 1 point for correctly analyzing all situations where the teacher's level is higher than the student's, and 2 points for correctly calculating and obtaining the final result using the probability formula of independent events, with a total of 5 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知椭圆$G: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$的离心率为$\\frac{\\sqrt{2}}{2}$，且过点$(2, \\sqrt{2})$，求椭圆G的方程；",
+                        "solutionSteps": "1. 根据椭圆离心率公式列出等式：$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$，即$c=\\frac{\\sqrt{2}}{2}a$；2. 结合椭圆的基本关系$a^{2}=b^{2}+c^{2}$，将$c=\\frac{\\sqrt{2}}{2}a$代入得$a^{2}=b^{2}+\\frac{1}{2}a^{2}$，化简得$a^{2}=2b^{2}$；3. 将点$(2, \\sqrt{2})$代入椭圆方程：$\\frac{4}{a^{2}}+\\frac{2}{b^{2}}=1$；4. 联立方程求解：把$a^{2}=2b^{2}$代入$\\frac{4}{a^{2}}+\\frac{2}{b^{2}}=1$，得$\\frac{4}{2b^{2}}+\\frac{2}{b^{2}}=1$，即$\\frac{2}{b^{2}}+\\frac{2}{b^{2}}=1$，解得$b^{2}=4$，进而得$a^{2}=8$；5. 写出椭圆G的方程。",
+                        "standardAnswer": "$\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$",
+                        "scoringCriteria": "第一问，正确写出离心率公式及椭圆基本关系得2分，将已知点代入椭圆方程得1分，联立方程正确求解出$a^2$和$b^2$得2分，正确写出椭圆方程得1分，共6分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）过点$M(0,1)$斜率为$k(k ≠0)$的直线l交椭圆G于A，B两点，在y轴上是否存在点N使得$\\angle ANM=\\angle BNM$（点N与点M不重合），若存在，求出点N的坐标，若不存在，请说明理由。",
+                        "solutionSteps": "1. 设点的坐标：设$A(x_{1}, y_{1})$，$B(x_{2}, y_{2})$，$N(0, t)(t ≠1)$；2. 分析角度相等的几何意义：$\\angle ANM=\\angle BNM$等价于直线AN和BN的斜率互为相反数，即$k_{1}+k_{2}=0$，其中$k_{1}=\\frac{y_{1}-t}{x_{1}}$，$k_{2}=\\frac{y_{2}-t}{x_{2}}$；3. 化简斜率和的等式：$\\frac{y_{1}-t}{x_{1}}+\\frac{y_{2}-t}{x_{2}}=0$，通分后得$x_{2}(y_{1}-t)+x_{1}(y_{2}-t)=0$，将直线l的方程$y=kx+1$代入得$2k x_{1} x_{2}+(1-t)(x_{1}+x_{2})=0$；4. 联立直线与椭圆方程：将$y=kx+1$代入$\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$，整理得$(1+2k^{2})x^{2}+4kx-6=0$；5. 利用韦达定理求根与系数的关系：$x_{1}+x_{2}=-\\frac{4k}{2k^{2}+1}$，$x_{1}x_{2}=-\\frac{6}{1+2k^{2}}$；6. 代入等式求解t：将韦达定理的结果代入$2k x_{1} x_{2}+(1-t)(x_{1}+x_{2})=0$，化简得$\\frac{4k(t-4)}{2k^{2}+1}=0$，因$k≠0$，故$t=4$；7. 得出结论：存在点N，坐标为$(0,4)$。",
+                        "standardAnswer": "存在，点N的坐标为$(0,4)$",
+                        "scoringCriteria": "第二问，正确设出点的坐标得1分，正确将角度相等转化为斜率互为相反数得2分，正确化简斜率和的等式得2分，联立直线与椭圆方程并整理正确得2分，正确运用韦达定理得2分，代入求解出t的值得2分，正确得出结论得1分，共12分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Given that the eccentricity of the ellipse $G: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $\\frac{\\sqrt{2}}{2}$ and it passes through the point $(2, \\sqrt{2})$, find the equation of the ellipse G;",
+                        "solutionSteps": "1. List the equation according to the ellipse eccentricity formula: $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$, that is $c=\\frac{\\sqrt{2}}{2}a$; 2. Combine the basic relationship of the ellipse $a^{2}=b^{2}+c^{2}$, substitute $c=\\frac{\\sqrt{2}}{2}a$ into it to get $a^{2}=b^{2}+\\frac{1}{2}a^{2}$, simplify to get $a^{2}=2b^{2}$; 3. Substitute the point $(2, \\sqrt{2})$ into the ellipse equation: $\\frac{4}{a^{2}}+\\frac{2}{b^{2}}=1$; 4. Solve the equations simultaneously: substitute $a^{2}=2b^{2}$ into $\\frac{4}{a^{2}}+\\frac{2}{b^{2}}=1$, get $\\frac{4}{2b^{2}}+\\frac{2}{b^{2}}=1$, that is $\\frac{2}{b^{2}}+\\frac{2}{b^{2}}=1$, solve to get $b^{2}=4$, then get $a^{2}=8$; 5. Write the equation of the ellipse G.",
+                        "standardAnswer": "$\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$",
+                        "scoringCriteria": "For the first question, 2 points are awarded for correctly writing the eccentricity formula and the basic relationship of the ellipse, 1 point for substituting the known point into the ellipse equation, 2 points for correctly solving $a^2$ and $b^2$ by solving the equations simultaneously, and 1 point for correctly writing the ellipse equation, with a total of 6 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) A straight line l with slope $k(k ≠0)$ passing through the point $M(0,1)$ intersects the ellipse G at points A and B. Is there a point N on the y-axis such that $\\angle ANM=\\angle BNM$ (point N is not coincident with point M)? If it exists, find the coordinates of point N; if not, explain the reason.",
+                        "solutionSteps": "1. Set the coordinates of the points: Let $A(x_{1}, y_{1})$, $B(x_{2}, y_{2})$, $N(0, t)(t ≠1)$; 2. Analyze the geometric meaning of equal angles: $\\angle ANM=\\angle BNM$ is equivalent to the slopes of straight lines AN and BN being opposite numbers to each other, that is $k_{1}+k_{2}=0$, where $k_{1}=\\frac{y_{1}-t}{x_{1}}$, $k_{2}=\\frac{y_{2}-t}{x_{2}}$; 3. Simplify the equation of the sum of slopes: $\\frac{y_{1}-t}{x_{1}}+\\frac{y_{2}-t}{x_{2}}=0$, after common denominator, get $x_{2}(y_{1}-t)+x_{1}(y_{2}-t)=0$, substitute the equation of the straight line l $y=kx+1$ into it to get $2k x_{1} x_{2}+(1-t)(x_{1}+x_{2})=0$; 4. Simultaneously solve the equations of the straight line and the ellipse: substitute $y=kx+1$ into $\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$, sort out to get $(1+2k^{2})x^{2}+4kx-6=0$; 5. Use Vieta's formulas to find the relationship between roots and coefficients: $x_{1}+x_{2}=-\\frac{4k}{2k^{2}+1}$, $x_{1}x_{2}=-\\frac{6}{1+2k^{2}}$; 6. Substitute into the equation to solve for t: substitute the results of Vieta's formulas into $2k x_{1} x_{2}+(1-t)(x_{1}+x_{2})=0$, simplify to get $\\frac{4k(t-4)}{2k^{2}+1}=0$, since $k≠0$, so $t=4$; 7. Draw the conclusion: there exists point N with coordinates $(0,4)$.",
+                        "standardAnswer": "Exists, the coordinates of point N are $(0,4)$",
+                        "scoringCriteria": "For the second question, 1 point is awarded for correctly setting the coordinates of the points, 2 points for correctly converting equal angles into opposite slopes, 2 points for correctly simplifying the equation of the sum of slopes, 2 points for correctly simultaneously solving and sorting out the equations of the straight line and the ellipse, 2 points for correctly using Vieta's formulas, 2 points for substituting and solving the value of t, and 1 point for correctly drawing the conclusion, with a total of 12 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知函数$f(x)=e^{x}-m x^{2}(m \\in R)$，曲线$y=f(x)$在点$(1 , f (1))$处的切线方程为$y=-e x+e$，求m的值；",
+                        "solutionSteps": "1. 求函数$f(x)$的导函数：$f'(x)=e^{x}-2mx$；2. 利用导数的几何意义，切线斜率等于函数在该点的导数值：切线方程$y=-e x+e$的斜率为$-e$，故$f'(1)=-e$；3. 代入导函数计算：$f'(1)=e-2m=-e$；4. 解方程求出m的值：移项得$2m=2e$，解得$m=e$。",
+                        "standardAnswer": "$m=e$",
+                        "scoringCriteria": "第一问，正确求出导函数得2分，正确利用导数的几何意义列出等式得2分，正确解方程求出m的值得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若存在$x_{0} \\in[0,1]$，使得$f(x_{0}) ≥2$，求m的取值范围。",
+                        "solutionSteps": "1. 分析特殊点：当$x_{0}=0$时，$f(0)=1≥2$不成立，故只需考虑$x_{0} \\in(0,1]$的情况；2. 分离参数：由$f(x_{0})=e^{x_{0}}-m x_{0}^{2} ≥2$，变形得$m ≤\\frac{e^{x_{0}}-2}{x_{0}^{2}}$，即存在$x_{0} \\in(0,1]$使该式成立，只需m小于等于函数$g(x)=\\frac{e^{x}-2}{x^{2}}$在$(0,1]$上的最大值；3. 求$g(x)$的导函数：$g'(x)=\\frac{e^{x} \\cdot x^{2}-2 x(e^{x}-2)}{x^{4}}=\\frac{x e^{x}-2 e^{x}+4}{x^{3}}$；4. 分析导函数的符号：令$h(x)=x e^{x}-2 e^{x}+4$，求其导函数$h'(x)=(x-1)e^{x}$，当$x \\in(0,1]$时，$h'(x) ≤0$，故$h(x)$在$(0,1]$上单调递减；5. 求$h(x)$的最小值：$h(x)_{min}=h(1)=4-e>0$，故$g'(x)>0$，$g(x)$在$(0,1]$上单调递增；6. 求$g(x)$的最大值：$g(x)_{max}=g(1)=e-2$；7. 得出m的取值范围：$m ≤e-2$。",
+                        "standardAnswer": "$(-\\infty, e-2]$",
+                        "scoringCriteria": "第二问，正确排除$x_0=0$的情况得1分，正确分离参数转化为求函数最大值问题得2分，正确求出$g(x)$的导函数得2分，正确构造$h(x)$并分析其单调性得2分，正确判断$g(x)$的单调性并求出最大值得2分，正确得出m的取值范围得1分，共10分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Given the function $f(x)=e^{x}-m x^{2}(m \\in R)$, the tangent equation of the curve $y=f(x)$ at the point $(1 , f (1))$ is $y=-e x+e$, find the value of m;",
+                        "solutionSteps": "1. Find the derivative of the function $f(x)$: $f'(x)=e^{x}-2mx$; 2. Use the geometric meaning of the derivative, the slope of the tangent line is equal to the derivative value of the function at that point: the slope of the tangent equation $y=-e x+e$ is $-e$, so $f'(1)=-e$; 3. Substitute into the derivative to calculate: $f'(1)=e-2m=-e$; 4. Solve the equation to find the value of m: transpose to get $2m=2e$, solve to get $m=e$.",
+                        "standardAnswer": "$m=e$",
+                        "scoringCriteria": "For the first question, 2 points are awarded for correctly finding the derivative, 2 points for correctly listing the equation using the geometric meaning of the derivative, and 1 point for correctly solving the equation to find the value of m, with a total of 5 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If there exists $x_{0} \\in[0,1]$ such that $f(x_{0}) ≥2$, find the range of values of m.",
+                        "solutionSteps": "1. Analyze the special point: when $x_{0}=0$, $f(0)=1≥2$ is not true, so only the case of $x_{0} \\in(0,1]$ needs to be considered; 2. Separate the parameters: from $f(x_{0})=e^{x_{0}}-m x_{0}^{2} ≥2$, transform to get $m ≤\\frac{e^{x_{0}}-2}{x_{0}^{2}}$, that is, there exists $x_{0} \\in(0,1]$ such that this formula holds, and it is only necessary that m is less than or equal to the maximum value of the function $g(x)=\\frac{e^{x}-2}{x^{2}}$ on $(0,1]$; 3. Find the derivative of $g(x)$: $g'(x)=\\frac{e^{x} \\cdot x^{2}-2 x(e^{x}-2)}{x^{4}}=\\frac{x e^{x}-2 e^{x}+4}{x^{3}}$; 4. Analyze the sign of the derivative: let $h(x)=x e^{x}-2 e^{x}+4$, find its derivative $h'(x)=(x-1)e^{x}$, when $x \\in(0,1]$, $h'(x) ≤0$, so $h(x)$ is monotonically decreasing on $(0,1]$; 5. Find the minimum value of $h(x)$: $h(x)_{min}=h(1)=4-e>0$, so $g'(x)>0$, $g(x)$ is monotonically increasing on $(0,1]$; 6. Find the maximum value of $g(x)$: $g(x)_{max}=g(1)=e-2$; 7. Draw the range of values of m: $m ≤e-2$.",
+                        "standardAnswer": "$(-\\infty, e-2]$",
+                        "scoringCriteria": "For the second question, 1 point is awarded for correctly excluding the case of $x_0=0$, 2 points for correctly separating the parameters and transforming it into the problem of finding the maximum value of the function, 2 points for correctly finding the derivative of $g(x)$, 2 points for correctly constructing $h(x)$ and analyzing its monotonicity, 2 points for correctly judging the monotonicity of $g(x)$ and finding the maximum value, and 1 point for correctly drawing the range of values of m, with a total of 10 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知数列$\\{a_{n}\\}(a_{n} \\in N)$，记$S_{n}=a_{1}+a_{2}+\\cdots+a_{n}$，首项$a_{1}=n_{0}>0$，若对任意整数$k ≥2$，有$0 ≤a_{k} ≤k-1$，且$S_{k}$是k的正整数倍。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若$a_{1}=21$，写出数列$\\{a_{n}\\}$的前10项；",
+                        "solutionSteps": "1. 根据条件$S_{k}$是k的正整数倍，先确定$S_{1}$到$S_{10}$的值：$S_1=21$，$S_2$是2的正整数倍且$0≤a_2≤1$，故$S_2=22$，$a_2=1$；$S_3$是3的正整数倍且$0≤a_3≤2$，故$S_3=24$，$a_3=2$；$S_4$是4的正整数倍且$0≤a_4≤3$，故$S_4=24$，$a_4=0$；$S_5$是5的正整数倍且$0≤a_5≤4$，故$S_5=25$，$a_5=1$；$S_6$是6的正整数倍且$0≤a_6≤5$，故$S_6=30$，$a_6=5$；$S_7$是7的正整数倍且$0≤a_7≤6$，故$S_7=35$，$a_7=5$；$S_8$是8的正整数倍且$0≤a_8≤7$，故$S_8=40$，$a_8=5$；$S_9$是9的正整数倍且$0≤a_9≤8$，故$S_9=45$，$a_9=5$；$S_{10}$是10的正整数倍且$0≤a_{10}≤9$，故$S_{10}=50$，$a_{10}=5$；2. 整理写出数列$\\{a_{n}\\}$的前10项。",
+                        "standardAnswer": "21，1，2，0，1，5，5，5，5，5",
+                        "scoringCriteria": "第一问，正确求出前10项中每一项得0.4分，全部正确得4分。",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）证明：对任意$n ≥2$，数列$\\{a_{n}\\}$的第n项$a_{n}$由$a_{1}$唯一确定；",
+                        "solutionSteps": "1. 证明$a_2$由$a_1$唯一确定：当$k=2$时，$S_2=a_1+a_2$是2的正整数倍，即$a_1+a_2=2b(b\\in N^*)$，且$0 ≤a_2 ≤1$，故$a_2=\\begin{cases}0, & 若a_1为偶数 \\\\1, & 若a_1为奇数\\end{cases}$，$a_2$由$a_1$唯一确定；2. 用反证法证明后续项的唯一性：假设第$k+1$项是第一个可有两个不同取值的项，前面k项由$a_1$唯一确定，设第$k+1$项的两个取值为$a_{k+1}$和$c_{k+1}(a_{k+1} ≠c_{k+1})$；3. 根据条件列出等式：存在$b,c \\in N^*$，使得$S_k+a_{k+1}=(k+1)b$，$S_k+c_{k+1}=(k+1)c$；4. 两式作差分析：两式相减得$a_{k+1}-c_{k+1}=(k+1)(b-c)$，即$|a_{k+1}-c_{k+1}|$是$k+1$的倍数；5. 结合取值范围推出矛盾：由$0 ≤a_{k+1},c_{k+1} ≤k$，得$|a_{k+1}-c_{k+1}| ≤k$，故只有$|a_{k+1}-c_{k+1}|=0$，即$a_{k+1}=c_{k+1}$，与假设矛盾；6. 得出结论：对任意$n ≥2$，$a_{n}$由$a_1$唯一确定。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问，正确证明$a_2$的唯一性得2分，正确作出反证法的假设得1分，根据条件列出等式并作差分析得1分，结合取值范围推出矛盾得1分，正确得出结论得1分，共6分。",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）证明：对任意正整数$n_{0}$，数列$\\{S_{n}\\}$从某一项起为等差数列。",
+                        "solutionSteps": "1. 根据条件推出不等式：由$S_{k+1}=S_{k}+a_{k+1}$且$0 ≤a_{k+1} ≤k$，得$S_{k+1} ≤S_{k}+k$；2. 变形得到数列$\\{\\frac{S_n}{n}\\}$的单调性：将$S_{k+1} ≤S_{k}+k$两边除以$k+1$，结合$\\frac{S_{k+1}}{k+1}<\\frac{S_{k+1}}{k}$，得$\\frac{S_{k+1}}{k+1} ≤\\frac{S_k}{k}$，即正整数数列$\\{\\frac{S_n}{n}\\}$单调不增；3. 利用单调有界定理得出结论：单调不增的正整数数列必有下界，故存在$m_0$，当$n ≥m_0$时，$\\frac{S_n}{n}$为常数，设为c，即$S_n=cn$；4. 证明等差数列：$S_n=cn$是关于n的一次函数，故数列$\\{S_{n}\\}$从第$m_0$项起为公差为c的等差数列。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，正确推出$S_{k+1} ≤S_{k}+k$得1分，正确证明$\\{\\frac{S_n}{n}\\}$单调不增得2分，正确利用单调有界定理得出$\\frac{S_n}{n}$为常数得1分，正确证明$S_n$为等差数列得1分，共5分。",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the sequence $\\{a_{n}\\}(a_{n} \\in N)$, denote $S_{n}=a_{1}+a_{2}+\\cdots+a_{n}$, with the first term $a_{1}=n_{0}>0$. For any integer $k ≥2$, $0 ≤a_{k} ≤k-1$ holds, and $S_{k}$ is a positive integer multiple of k.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $a_{1}=21$, write the first 10 terms of the sequence $\\{a_{n}\\}$;",
+                        "solutionSteps": "1. Determine the values of $S_{1}$ to $S_{10}$ according to the condition that $S_{k}$ is a positive integer multiple of k: $S_1=21$, $S_2$ is a positive integer multiple of 2 and $0≤a_2≤1$, so $S_2=22$, $a_2=1$; $S_3$ is a positive integer multiple of 3 and $0≤a_3≤2$, so $S_3=24$, $a_3=2$; $S_4$ is a positive integer multiple of 4 and $0≤a_4≤3$, so $S_4=24$, $a_4=0$; $S_5$ is a positive integer multiple of 5 and $0≤a_5≤4$, so $S_5=25$, $a_5=1$; $S_6$ is a positive integer multiple of 6 and $0≤a_6≤5$, so $S_6=30$, $a_6=5$; $S_7$ is a positive integer multiple of 7 and $0≤a_7≤6$, so $S_7=35$, $a_7=5$; $S_8$ is a positive integer multiple of 8 and $0≤a_8≤7$, so $S_8=40$, $a_8=5$; $S_9$ is a positive integer multiple of 9 and $0≤a_9≤8$, so $S_9=45$, $a_9=5$; $S_{10}$ is a positive integer multiple of 10 and $0≤a_{10}≤9$, so $S_{10}=50$, $a_{10}=5$; 2. Sort out and write the first 10 terms of the sequence $\\{a_{n}\\}$. ",
+                        "standardAnswer": "21, 1, 2, 0, 1, 5, 5, 5, 5, 5",
+                        "scoringCriteria": "For the first question, 0.4 points are awarded for correctly finding each of the first 10 terms, and 4 points for all correct answers.",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Prove that for any $n ≥2$, the nth term $a_{n}$ of the sequence $\\{a_{n}\\}$ is uniquely determined by $a_{1}$;",
+                        "solutionSteps": "1. Prove that $a_2$ is uniquely determined by $a_1$: when $k=2$, $S_2=a_1+a_2$ is a positive integer multiple of 2, that is $a_1+a_2=2b(b\\in N^*)$, and $0 ≤a_2 ≤1$, so $a_2=\\begin{cases}0, & if a_1 is even \\\\1, & if a_1 is odd\\end{cases}$, $a_2$ is uniquely determined by $a_1$; 2. Prove the uniqueness of the subsequent terms by proof by contradiction: assume that the $(k+1)$th term is the first term that can have two different values, the first k terms are uniquely determined by $a_1$, and let the two values of the $(k+1)$th term be $a_{k+1}$ and $c_{k+1}(a_{k+1} ≠c_{k+1})$; 3. List the equations according to the conditions: there exist $b,c \\in N^*$ such that $S_k+a_{k+1}=(k+1)b$, $S_k+c_{k+1}=(k+1)c$; 4. Subtract the two equations and analyze: subtracting the two equations gives $a_{k+1}-c_{k+1}=(k+1)(b-c)$, that is $|a_{k+1}-c_{k+1}|$ is a multiple of $k+1$; 5. Deduce a contradiction combined with the value range: from $0 ≤a_{k+1},c_{k+1} ≤k$, we get $|a_{k+1}-c_{k+1}| ≤k$, so only $|a_{k+1}-c_{k+1}|=0$, that is $a_{k+1}=c_{k+1}$, which contradicts the assumption; 6. Draw the conclusion: for any $n ≥2$, $a_{n}$ is uniquely determined by $a_1$.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the second question, 2 points are awarded for correctly proving the uniqueness of $a_2$, 1 point for correctly making the assumption of proof by contradiction, 1 point for listing the equations according to the conditions and analyzing by subtraction, 1 point for deducing a contradiction combined with the value range, and 1 point for correctly drawing the conclusion, with a total of 6 points.",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Prove that for any positive integer $n_{0}$, the sequence $\\{S_{n}\\}$ is an arithmetic sequence from a certain term onwards.",
+                        "solutionSteps": "1. Deduce the inequality according to the conditions: from $S_{k+1}=S_{k}+a_{k+1}$ and $0 ≤a_{k+1} ≤k$, we get $S_{k+1} ≤S_{k}+k$; 2. Transform to get the monotonicity of the sequence $\\{\\frac{S_n}{n}\\}$: divide both sides of $S_{k+1} ≤S_{k}+k$ by $k+1$, combined with $\\frac{S_{k+1}}{k+1}<\\frac{S_{k+1}}{k}$, we get $\\frac{S_{k+1}}{k+1} ≤\\frac{S_k}{k}$, that is, the positive integer sequence $\\{\\frac{S_n}{n}\\}$ is non-increasing; 3. Draw the conclusion using the monotone bounded theorem: a non-increasing positive integer sequence must have a lower bound, so there exists $m_0$ such that when $n ≥m_0$, $\\frac{S_n}{n}$ is a constant, denoted as c, that is $S_n=cn$; 4. Prove it is an arithmetic sequence: $S_n=cn$ is a linear function of n, so the sequence $\\{S_{n}\\}$ is an arithmetic sequence with a common difference of c from the $m_0$th term onwards.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the third question, 1 point is awarded for correctly deducing $S_{k+1} ≤S_{k}+k$, 2 points for correctly proving that $\\{\\frac{S_n}{n}\\}$ is non-increasing, 1 point for correctly using the monotone bounded theorem to conclude that $\\frac{S_n}{n}$ is a constant, and 1 point for correctly proving that $S_n$ is an arithmetic sequence, with a total of 5 points.",
+                        "knowledgePoint": "SEQUENCES",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

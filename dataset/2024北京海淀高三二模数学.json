@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2024 Beijing Haidian Senior Three Second Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "图像识别是人工智能领域的一个重要研究方向. 某中学人工智能兴趣小组研发了一套根据人脸照片识别性别的程序. 在对该程序的一轮测试中,小组同学输入了200张不同的人脸照片作为测试样本,获得相关测试数据，假设用频率估计概率,且该程序对每张照片的识别都是独立的.",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）从这200张照片中随机抽取一张,已知这张照片的识别结果为女性,求识别正确的概率;",
+                        "solutionSteps": "1. 从测试数据中提取被识别为女性的照片总数：20+60=80张；2. 提取其中识别正确的女性照片数量：60张；3. 根据条件概率公式计算，识别正确的概率=识别正确的女性照片数/被识别为女性的照片总数，即60/80=3/4。",
+                        "standardAnswer": "$\\frac{3}{4}$",
+                        "scoringCriteria": "该问共5分，正确提取被识别为女性的照片总数得2分，正确提取识别正确的女性照片数量得1分，正确运用条件概率公式计算并得出最终答案得2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）在新一轮测试中,小组同学对3张不同的男性人脸照片依次测试,每张照片至多测一次,当首次出现识别正确或3张照片全部测试完毕,则停止测试. 设X表示测试的次数,估计X的分布列和数学期望$EX$;",
+                        "solutionSteps": "1. 确定输入男性照片且识别正确的概率：P(A)=90/120=3/4；2. 分析X的所有可能取值为1、2、3；3. 分别计算各取值的概率：P(X=1)=3/4，P(X=2)=(1/4)×(3/4)=3/16，P(X=3)=(1/4)×(1/4)=1/16；4. 列出X的分布列；5. 根据数学期望公式计算：EX=1×(3/4)+2×(3/16)+3×(1/16)=21/16。",
+                        "standardAnswer": "分布列为：X取1时概率为$\\frac{3}{4}$，X取2时概率为$\\frac{3}{16}$，X取3时概率为$\\frac{1}{16}$；数学期望$EX=\\frac{21}{16}$",
+                        "scoringCriteria": "该问共5分，正确求出男性照片识别正确的概率得1分，正确列出X的所有可能取值得1分，正确计算各取值的概率并列出分布列得2分，正确计算数学期望得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）为处理无法识别的照片,该小组同学提出上述程序修改的三个方案:方案一:将无法识别的照片全部判定为女性;方案二:将无法识别的照片全部判定为男性;方案三:将无法识别的照片随机判定为男性或女性(即判定为男性的概率为50%,判定为女性的概率为50%).现从若干张不同的人脸照片(其中男性、女性照片的数量之比为1:1)中随机抽取一张,分别用方案一、方案二、方案三进行识别,其识别正确的概率估计值分别记为$p_1$，$p_2$，$p_3$.试比较$p_1$，$p_2$，$p_3$的大小. (结论不要求证明)",
+                        "solutionSteps": "根据三种方案的判定规则，结合男性、女性照片数量1:1的条件，直接分析各方案识别正确的概率大小关系。",
+                        "standardAnswer": "$p_2<p_3<p_1$",
+                        "scoringCriteria": "该问共3分，正确写出$p_1$，$p_2$，$p_3$的大小关系即得满分，错误则不得分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Image recognition is an important research direction in the field of artificial intelligence. An artificial intelligence interest group in a middle school has developed a program for identifying gender based on facial photos. In a round of tests of the program, the group members input 200 different facial photos as test samples and obtained relevant test data. Assume that the frequency is used to estimate the probability, and the program's recognition of each photo is independent.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select one photo from these 200 photos. Given that the recognition result of this photo is female, find the probability of correct recognition;",
+                        "solutionSteps": "1. Extract the total number of photos identified as female from the test data: 20+60=80 photos; 2. Extract the number of correctly identified female photos among them: 60 photos; 3. Calculate according to the conditional probability formula, the probability of correct recognition = the number of correctly identified female photos / the total number of photos identified as female, that is 60/80=3/4.",
+                        "standardAnswer": "$\\frac{3}{4}$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 2 points for correctly extracting the total number of photos identified as female, 1 point for correctly extracting the number of correctly identified female photos, and 2 points for correctly applying the conditional probability formula to calculate and get the final answer.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) In a new round of tests, the group members test 3 different male facial photos in turn, and each photo is tested at most once. The test stops when the first correct recognition appears or all 3 photos are tested. Let X represent the number of tests, estimate the probability mass function of X and the mathematical expectation $EX$;",
+                        "solutionSteps": "1. Determine the probability of correctly identifying a male photo: P(A)=90/120=3/4; 2. Analyze all possible values of X which are 1, 2, 3; 3. Calculate the probability of each value separately: P(X=1)=3/4, P(X=2)=(1/4)×(3/4)=3/16, P(X=3)=(1/4)×(1/4)=1/16; 4. List the probability mass function of X; 5. Calculate according to the mathematical expectation formula: EX=1×(3/4)+2×(3/16)+3×(1/16)=21/16.",
+                        "standardAnswer": "The probability mass function is: P(X=1)=$\\frac{3}{4}$, P(X=2)=$\\frac{3}{16}$, P(X=3)=$\\frac{1}{16}$; The mathematical expectation $EX=\\frac{21}{16}$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for correctly finding the probability of correct recognition of male photos, 1 point for correctly listing all possible values of X, 2 points for correctly calculating the probability of each value and listing the probability mass function, and 1 point for correctly calculating the mathematical expectation.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) To handle unrecognizable photos, the group members propose three modification schemes for the above program: Scheme 1: Judge all unrecognizable photos as female; Scheme 2: Judge all unrecognizable photos as male; Scheme 3: Randomly judge unrecognizable photos as male or female (i.e., the probability of judging as male is 50% and the probability of judging as female is 50%). Now randomly select one photo from several different facial photos (in which the ratio of the number of male and female photos is 1:1), and identify it with Scheme 1, Scheme 2 and Scheme 3 respectively. The estimated values of the correct recognition probability are denoted as $p_1$, $p_2$, $p_3$ respectively. Compare the sizes of $p_1$, $p_2$, $p_3$. (Proof of the conclusion is not required)",
+                        "solutionSteps": "According to the judgment rules of the three schemes and combined with the condition that the ratio of the number of male and female photos is 1:1, directly analyze the size relationship of the correct recognition probability of each scheme.",
+                        "standardAnswer": "$p_2<p_3<p_1$",
+                        "scoringCriteria": "This sub-question is worth 3 points in total. Full marks are given for correctly writing the size relationship of $p_1$, $p_2$, $p_3$, and no points are given for wrong answers.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆E的焦点在x轴上,中心在坐标原点.",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆E的方程;",
+                        "solutionSteps": "1. 设椭圆E的方程为$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$，$c^2=a^2-b^2$；2. 根据题意，以椭圆一个顶点和两个焦点为顶点的三角形是等边三角形且周长为$6\\sqrt{2}$，得$2a+2c=6\\sqrt{2}$，$\\frac{c}{a}=\\frac{1}{2}$；3. 解方程组得$a=2\\sqrt{2}$，$c=\\sqrt{2}$；4. 计算$b^2=a^2-c^2=8-2=6$；5. 得出椭圆E的方程为$\\frac{x^2}{8}+\\frac{y^2}{6}=1$。",
+                        "standardAnswer": "$\\frac{x^2}{8}+\\frac{y^2}{6}=1$",
+                        "scoringCriteria": "该问共5分，正确设出椭圆标准方程得1分，根据题意列出关于a、c的方程组得2分，正确解出a、c的值得1分，正确计算b²并写出椭圆方程得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设过点$M(2,0)$的直线l (不与坐标轴垂直)与椭圆E交于不同的两点A，C，与直线$x=16$交于点P.点B在y轴上，D为坐标平面内的一点,四边形ABCD是菱形.求证:直线PD过定点.",
+                        "solutionSteps": "1. 设直线l的方程为$x=ty+2 (t≠0)$，令$x=16$得$y=\\frac{14}{t}$，即$P(16, \\frac{14}{t})$；2. 联立椭圆方程$3x^2+4y^2=24$与直线l方程，消去x得$(3t^2+4)y^2+12ty-12=0$；3. 设$A(x_1,y_1)$，$C(x_2,y_2)$，由韦达定理得$y_1+y_2=-\\frac{12t}{3t^2+4}$，$y_1y_2=-\\frac{12}{3t^2+4}$；4. 求AC的中点N的坐标：$y_3=\\frac{y_1+y_2}{2}=-\\frac{6t}{3t^2+4}$，$x_3=ty_3+2=\\frac{8}{3t^2+4}$；5. 由四边形ABCD是菱形，得N为BD的中点且AC⊥BD，直线BD的斜率为-t，写出直线BD的方程$y+\\frac{6t}{3t^2+4}=-t(x-\\frac{8}{3t^2+4})$；6. 令x=0，求出B点坐标$B(0, \\frac{2t}{3t^2+4})$；7. 根据中点坐标公式求D点坐标：$x_4=2x_3=\\frac{16}{3t^2+4}$，$y_4=2y_3-\\frac{2t}{3t^2+4}=-\\frac{14t}{3t^2+4}$；8. 求直线PD的斜率并写出其方程，化简得$y=\\frac{7}{6t}(x-4)$，由此证明直线PD过定点(4,0)。",
+                        "standardAnswer": "直线PD过定点$(4,0)$，证明见解析",
+                        "scoringCriteria": "该问共10分，正确设出直线l的方程并求出P点坐标得1分，联立方程并正确消元得2分，正确运用韦达定理得1分，正确求出AC中点N的坐标得1分，正确推出直线BD的斜率并写出其方程得1分，正确求出B点坐标得1分，正确求出D点坐标得1分，正确求出直线PD的方程并化简证明过定点得2分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the foci of the ellipse E are on the x-axis and its center is at the origin of the coordinate system.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of the ellipse E;",
+                        "solutionSteps": "1. Let the equation of the ellipse E be $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$ and $c^2=a^2-b^2$; 2. According to the question, the triangle with one vertex of the ellipse and two foci as vertices is an equilateral triangle and its perimeter is $6\\sqrt{2}$, so we have $2a+2c=6\\sqrt{2}$ and $\\frac{c}{a}=\\frac{1}{2}$; 3. Solve the system of equations to get $a=2\\sqrt{2}$ and $c=\\sqrt{2}$; 4. Calculate $b^2=a^2-c^2=8-2=6$; 5. Obtain the equation of the ellipse E as $\\frac{x^2}{8}+\\frac{y^2}{6}=1$.",
+                        "standardAnswer": "$\\frac{x^2}{8}+\\frac{y^2}{6}=1$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for correctly setting up the standard equation of the ellipse, 2 points for listing the system of equations about a and c according to the question, 1 point for correctly solving the values of a and c, and 1 point for correctly calculating b² and writing the ellipse equation.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let the line l passing through the point $M(2,0)$ (not perpendicular to the coordinate axes) intersect the ellipse E at two distinct points A and C, and intersect the line $x=16$ at point P. Point B is on the y-axis, D is a point in the coordinate plane, and the quadrilateral ABCD is a rhombus. Prove that the line PD passes through a fixed point.",
+                        "solutionSteps": "1. Let the equation of the line l be $x=ty+2 (t≠0)$, let $x=16$, then $y=\\frac{14}{t}$, that is $P(16, \\frac{14}{t})$; 2. Simultaneously solve the ellipse equation $3x^2+4y^2=24$ and the line l equation, eliminate x to get $(3t^2+4)y^2+12ty-12=0$; 3. Let $A(x_1,y_1)$ and $C(x_2,y_2)$, from Vieta's formulas, we have $y_1+y_2=-\\frac{12t}{3t^2+4}$ and $y_1y_2=-\\frac{12}{3t^2+4}$; 4. Find the coordinates of the midpoint N of AC: $y_3=\\frac{y_1+y_2}{2}=-\\frac{6t}{3t^2+4}$, $x_3=ty_3+2=\\frac{8}{3t^2+4}$; 5. Since the quadrilateral ABCD is a rhombus, N is the midpoint of BD and AC⊥BD, the slope of the line BD is -t, write the equation of the line BD as $y+\\frac{6t}{3t^2+4}=-t(x-\\frac{8}{3t^2+4})$; 6. Let x=0, find the coordinates of point B: $B(0, \\frac{2t}{3t^2+4})$; 7. Find the coordinates of point D according to the midpoint coordinate formula: $x_4=2x_3=\\frac{16}{3t^2+4}$, $y_4=2y_3-\\frac{2t}{3t^2+4}=-\\frac{14t}{3t^2+4}$; 8. Find the slope of the line PD and write its equation, simplify to get $y=\\frac{7}{6t}(x-4)$, thus proving that the line PD passes through the fixed point (4,0).",
+                        "standardAnswer": "The line PD passes through the fixed point $(4,0)$, see the analysis for proof",
+                        "scoringCriteria": "This sub-question is worth 10 points in total. 1 point for correctly setting up the equation of the line l and finding the coordinates of point P, 2 points for simultaneously solving the equations and eliminating the variable correctly, 1 point for correctly applying Vieta's formulas, 1 point for correctly finding the coordinates of the midpoint N of AC, 1 point for correctly deducing the slope of the line BD and writing its equation, 1 point for correctly finding the coordinates of point B, 1 point for correctly finding the coordinates of point D, and 2 points for correctly finding the equation of the line PD, simplifying it and proving that it passes through a fixed point.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数$f(x)=\\ln (x-a)+2 \\sqrt{3 a-x} (a>0)$",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若$a=1$,(ⅰ)求曲线$y=f(x)$在点$(2, f(2))$处的切线方程;",
+                        "solutionSteps": "1. 当a=1时，$f(x)=\\ln (x-1)+2 \\sqrt{3-x}$，求导得$f'(x)=\\frac{1}{x-1}-\\frac{1}{\\sqrt{3-x}}$；2. 计算$f(2)=\\ln1+2\\sqrt{1}=2$，$f'(2)=1-1=0$；3. 根据点斜式，切线方程为$y-2=0×(x-2)$，即$y=2$。",
+                        "standardAnswer": "$y=2$",
+                        "scoringCriteria": "该问共4分，正确代入a=1并求出函数解析式得1分，正确求导得出$f'(x)$得1分，正确计算$f(2)$和$f'(2)$的值得1分，正确根据点斜式写出切线方程得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅰ）若$a=1$,(ⅱ)求证:函数$f(x)$恰有一个零点;",
+                        "solutionSteps": "1. 当a=1时，$f(x)=\\ln (x-1)+2 \\sqrt{3-x}$，定义域为$(1,3]$，$f'(x)=\\frac{1}{x-1}-\\frac{1}{\\sqrt{3-x}}$且$f'(2)=0$；2. 分析单调性：当$x∈(1,2)$时，$\\frac{1}{x-1}>1>\\frac{1}{\\sqrt{3-x}}$，$f'(x)>0$，函数单调递增；当$x∈(2,3)$时，$\\frac{1}{x-1}<1<\\frac{1}{\\sqrt{3-x}}$，$f'(x)<0$，函数单调递减；3. 计算极值$f(2)=2>0$，端点值$f(3)=\\ln2>0$，取$x=1+e^{-3}$，$f(1+e^{-3})=-3+2\\sqrt{2-e^{-3}}<-3+2\\sqrt{2}<0$；4. 根据零点存在定理和单调性，证明函数恰有一个零点。",
+                        "standardAnswer": "函数$f(x)$恰有一个零点，证明见解析",
+                        "scoringCriteria": "该问共5分，正确确定函数定义域和导数零点得1分，正确分析函数在不同区间的单调性得2分，正确计算函数的极值和特殊点的函数值得1分，结合零点存在定理完成证明得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "（Ⅱ）若$f(x) ≤\\ln a+2 a$对$x \\in(a, 3 a)$恒成立,求a的取值范围.",
+                        "solutionSteps": "1. 求导得$f'(x)=\\frac{\\sqrt{3 a-x}-(x-a)}{(x-a) \\sqrt{3 a-x}}$，设$g(x)=\\sqrt{3 a-x}-(x-a)$，$x∈(a,3a)$，求导得$g'(x)=-\\frac{1}{2 \\sqrt{3 a-x}}-1<0$，故g(x)在$(a,3a)$上单调递减；2. 由$g(a)=\\sqrt{2a}>0$，$g(3a)=-2a<0$，知存在唯一$x_0∈(a,3a)$，使$g(x_0)=0$，即$f'(x_0)=0$；3. 分析f(x)单调性：在$(a,x_0)$上$f'(x)>0$，f(x)单调递增；在$(x_0,3a)$上$f'(x)<0$，f(x)单调递减，故$f(x)_{max}=f(x_0)=\\ln(x_0-a)+2(x_0-a)$；4. 分情况讨论：当$a≥1$时，$g(2a)=\\sqrt{a}-a≤0$，则$x_0≤2a$，$f(x_0)≤\\ln a+2a$，符合题意；当$0<a<1$时，$g(2a)=\\sqrt{a}-a>0$，则$x_0>2a$，$f(x_0)>\\ln a+2a$，不合题意；5. 得出a的取值范围为$[1,+∞)$。",
+                        "standardAnswer": "$[1,+∞)$",
+                        "scoringCriteria": "该问共6分，正确求导并构造函数g(x)，分析其单调性得2分，正确找到f(x)的极值点并分析f(x)的单调性得1分，正确求出f(x)的最大值表达式得1分，分情况讨论并正确推导各情况的结论得1分，正确写出a的取值范围得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the function $f(x)=\\ln (x-a)+2 \\sqrt{3 a-x} (a>0)$",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $a=1$, (i) Find the equation of the tangent line to the curve $y=f(x)$ at the point $(2, f(2))$;",
+                        "solutionSteps": "1. When a=1, $f(x)=\\ln (x-1)+2 \\sqrt{3-x}$, find the derivative: $f'(x)=\\frac{1}{x-1}-\\frac{1}{\\sqrt{3-x}}$; 2. Calculate $f(2)=\\ln1+2\\sqrt{1}=2$, $f'(2)=1-1=0$; 3. According to the point-slope form, the tangent line equation is $y-2=0×(x-2)$, that is $y=2$.",
+                        "standardAnswer": "$y=2$",
+                        "scoringCriteria": "This sub-question is worth 4 points in total. 1 point for correctly substituting a=1 and finding the analytical formula of the function, 1 point for correctly finding the derivative to get $f'(x)$, 1 point for correctly calculating the values of $f(2)$ and $f'(2)$, and 1 point for correctly writing the tangent line equation according to the point-slope form.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅰ) If $a=1$, (ii) Prove that the function $f(x)$ has exactly one zero point;",
+                        "solutionSteps": "1. When a=1, $f(x)=\\ln (x-1)+2 \\sqrt{3-x}$, the domain is $(1,3]$, $f'(x)=\\frac{1}{x-1}-\\frac{1}{\\sqrt{3-x}}$ and $f'(2)=0$; 2. Analyze the monotonicity: when $x∈(1,2)$, $\\frac{1}{x-1}>1>\\frac{1}{\\sqrt{3-x}}$, $f'(x)>0$, the function is monotonically increasing; when $x∈(2,3)$, $\\frac{1}{x-1}<1<\\frac{1}{\\sqrt{3-x}}$, $f'(x)<0$, the function is monotonically decreasing; 3. Calculate the extreme value $f(2)=2>0$, the endpoint value $f(3)=\\ln2>0$, take $x=1+e^{-3}$, $f(1+e^{-3})=-3+2\\sqrt{2-e^{-3}}<-3+2\\sqrt{2}<0$; 4. Prove that the function has exactly one zero point according to the Zero Point Existence Theorem and monotonicity.",
+                        "standardAnswer": "The function $f(x)$ has exactly one zero point, see the analysis for proof",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for correctly determining the domain of the function and the zero point of the derivative, 2 points for correctly analyzing the monotonicity of the function in different intervals, 1 point for correctly calculating the extreme value of the function and the function values at special points, and 1 point for completing the proof combined with the Zero Point Existence Theorem.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    },
+                    {
+                        "question": "(Ⅱ) If $f(x) ≤\\ln a+2 a$ holds for all $x \\in(a, 3 a)$, find the range of the value of a.",
+                        "solutionSteps": "1. Find the derivative: $f'(x)=\\frac{\\sqrt{3 a-x}-(x-a)}{(x-a) \\sqrt{3 a-x}}$, let $g(x)=\\sqrt{3 a-x}-(x-a)$, $x∈(a,3a)$, find the derivative: $g'(x)=-\\frac{1}{2 \\sqrt{3 a-x}}-1<0$, so g(x) is monotonically decreasing on $(a,3a)$; 2. From $g(a)=\\sqrt{2a}>0$ and $g(3a)=-2a<0$, we know that there exists a unique $x_0∈(a,3a)$ such that $g(x_0)=0$, that is $f'(x_0)=0$; 3. Analyze the monotonicity of f(x): $f'(x)>0$ on $(a,x_0)$, f(x) is monotonically increasing; $f'(x)<0$ on $(x_0,3a)$, f(x) is monotonically decreasing, so $f(x)_{max}=f(x_0)=\\ln(x_0-a)+2(x_0-a)$; 4. Discuss by cases: when $a≥1$, $g(2a)=\\sqrt{a}-a≤0$, then $x_0≤2a$, $f(x_0)≤\\ln a+2a$, which is in line with the meaning of the question; when $0<a<1$, $g(2a)=\\sqrt{a}-a>0$, then $x_0>2a$, $f(x_0)>\\ln a+2a$, which is not in line with the meaning of the question; 5. Obtain the range of a as $[1,+∞)$.",
+                        "standardAnswer": "$[1,+∞)$",
+                        "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for correctly finding the derivative, constructing the function g(x) and analyzing its monotonicity, 1 point for correctly finding the extreme point of f(x) and analyzing the monotonicity of f(x), 1 point for correctly finding the maximum value expression of f(x), 1 point for discussing by cases and correctly deducing the conclusion of each case, and 1 point for correctly writing the range of a.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "设正整数$n ≥2$ , $a_i \\in N^{*}$ , $d_i \\in N^{*}$ , $A_i={x | x=a_i+(k-1) d_i}$ , $k=1,2, \\cdots$ , $i=1,2, \\cdots, n$ 若$A_1 \\cup A_2 \\cup \\cdots \\cup A_n=N^{*}$ , $A_i \\cap A_j=ø (1 ≤i<j ≤n)$ ,则称$A_1,A_2,\\cdots,A_n$具有性质P.",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）当$n=3$时,若$A_1$ , $A_2$ , $A_3$具有性质P ,且$a_1=1$ , $a_2=2$ , $a_3=3$ ,令$m=d_1 d_2 d_3$ ,写出m的所有可能值;",
+                        "solutionSteps": "根据性质P的定义，结合$n=3$，$a_1=1$，$a_2=2$，$a_3=3$的条件，分析$d_1$、$d_2$、$d_3$的可能取值，进而求出$m=d_1d_2d_3$的所有可能值为27和32。",
+                        "standardAnswer": "27，32",
+                        "scoringCriteria": "该问共4分，正确理解性质P的定义并分析出$d_1$、$d_2$、$d_3$的可能取值得2分，正确计算出m的两个可能值各得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若$A_1,A_2,\\cdots,A_n$具有性质P ,(ⅰ)求证:$a_i ≤d_i (i=1,2, \\cdots, n)$;",
+                        "solutionSteps": "1. 采用反证法，假设存在$i \\in{1,2, \\cdots, n}$，使得$a_i>d_i$；2. 记$x=a_i-d_i$，由$a_i \\in N^{*}$，$d_i \\in N^{*}$得$x \\in N^{*}$，且$x<a_i$，故$x \\notin A_i$；3. 由性质P知存在$j \\in{1,2, \\cdots, n}$，$j≠i$，使得$x \\in A_j$，设$x=a_j+(k_0-1)d_j$，$k_0 \\in N^{*}$；4. 记$y=x+d_id_j$，则$y=a_j+(d_i+k_0-1)d_j \\in A_j$，同时$y=a_i-d_i+d_id_j=a_i+(d_j-1)d_i \\in A_i$；5. 得出$A_i \\cap A_j≠ø$，与性质P中$A_i \\cap A_j=ø$矛盾，故假设不成立，证明$a_i ≤d_i$。",
+                        "standardAnswer": "$a_i ≤d_i (i=1,2, \\cdots, n)$，证明见解析",
+                        "scoringCriteria": "该问共5分，正确采用反证法作出假设得1分，正确构造出x并分析其所属集合得1分，正确构造出y并证明$y \\in A_j$和$y \\in A_i$得2分，根据矛盾得出假设不成立完成证明得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅱ）若$A_1,A_2,\\cdots,A_n$具有性质P ,(ⅱ)求$\\sum_{i=1}^{n} \\frac{a_i}{d_i}$的值.",
+                        "solutionSteps": "1. 记$M=d_1d_2\\cdots d_n$，$A={1,2, \\cdots, M}$，由$1≤a_i≤d_i$，得$A_i \\cap A$中恰有$\\frac{M}{d_i}$个元素；2. 令$B_i=A_i \\cap A$，由性质P得$B_1 \\cup B_2 \\cup \\cdots \\cup B_n=A$，$B_i \\cap B_j=ø$，故$M=\\sum_{i=1}^{n} \\frac{M}{d_i}$，推出$\\sum_{i=1}^{n} \\frac{1}{d_i}=1$；3. 计算A中所有元素之和为$\\frac{M(M+1)}{2}$，同时$\\frac{M(M+1)}{2}=\\sum_{i=1}^{n}(\\frac{M}{d_i}a_i+\\frac{\\frac{M}{d_i}(\\frac{M}{d_i}-1)}{2}d_i)$；4. 对上述等式化简，代入$\\sum_{i=1}^{n} \\frac{1}{d_i}=1$，最终推出$\\sum_{i=1}^{n} \\frac{a_i}{d_i}=\\frac{n+1}{2}$。",
+                        "standardAnswer": "$\\frac{n+1}{2}$",
+                        "scoringCriteria": "该问共6分，正确构造集合A和B_i并得出$\\sum_{i=1}^{n} \\frac{1}{d_i}=1$得2分，正确写出A中元素和的两种表达式得2分，正确对等式进行化简变形得1分，正确求出最终结果得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let the positive integer $n ≥2$ , $a_i \\in N^{*}$ , $d_i \\in N^{*}$ , $A_i={x | x=a_i+(k-1) d_i}$ , $k=1,2, \\cdots$ , $i=1,2, \\cdots, n$. If $A_1 \\cup A_2 \\cup \\cdots \\cup A_n=N^{*}$ and $A_i \\cap A_j=ø (1 ≤i<j ≤n)$, then $A_1,A_2,\\cdots,A_n$ are said to have property P.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) When $n=3$, if $A_1$ , $A_2$ , $A_3$ have property P , and $a_1=1$ , $a_2=2$ , $a_3=3$, let $m=d_1 d_2 d_3$, write all possible values of m;",
+                        "solutionSteps": "According to the definition of property P, combined with the conditions of $n=3$, $a_1=1$, $a_2=2$, $a_3=3$, analyze the possible values of $d_1$, $d_2$, $d_3$, and then find all possible values of $m=d_1d_2d_3$ which are 27 and 32.",
+                        "standardAnswer": "27, 32",
+                        "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for correctly understanding the definition of property P and analyzing the possible values of $d_1$, $d_2$, $d_3$, and 1 point for each correct calculation of the two possible values of m.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If $A_1,A_2,\\cdots,A_n$ have property P , (i) Prove that $a_i ≤d_i (i=1,2, \\cdots, n)$;",
+                        "solutionSteps": "1. Use proof by contradiction, assume that there exists $i \\in{1,2, \\cdots, n}$ such that $a_i>d_i$; 2. Let $x=a_i-d_i$, from $a_i \\in N^{*}$ and $d_i \\in N^{*}$, we have $x \\in N^{*}$, and $x<a_i$, so $x \\notin A_i$; 3. From property P, we know that there exists $j \\in{1,2, \\cdots, n}$, $j≠i$, such that $x \\in A_j$, let $x=a_j+(k_0-1)d_j$, $k_0 \\in N^{*}$; 4. Let $y=x+d_id_j$, then $y=a_j+(d_i+k_0-1)d_j \\in A_j$, and at the same time $y=a_i-d_i+d_id_j=a_i+(d_j-1)d_i \\in A_i$; 5. Conclude that $A_i \\cap A_j≠ø$, which contradicts $A_i \\cap A_j=ø$ in property P, so the assumption is not valid, thus proving $a_i ≤d_i$.",
+                        "standardAnswer": "$a_i ≤d_i (i=1,2, \\cdots, n)$, see the analysis for proof",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for correctly making the assumption by proof by contradiction, 1 point for correctly constructing x and analyzing the set it belongs to, 2 points for correctly constructing y and proving $y \\in A_j$ and $y \\in A_i$, and 1 point for completing the proof by drawing the conclusion that the assumption is not valid due to the contradiction.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅱ) If $A_1,A_2,\\cdots,A_n$ have property P , (ii) Find the value of $\\sum_{i=1}^{n} \\frac{a_i}{d_i}$.",
+                        "solutionSteps": "1. Let $M=d_1d_2\\cdots d_n$, $A={1,2, \\cdots, M}$, from $1≤a_i≤d_i$, we know that there are exactly $\\frac{M}{d_i}$ elements in $A_i \\cap A$; 2. Let $B_i=A_i \\cap A$, from property P, we have $B_1 \\cup B_2 \\cup \\cdots \\cup B_n=A$ and $B_i \\cap B_j=ø$, so $M=\\sum_{i=1}^{n} \\frac{M}{d_i}$, and deduce that $\\sum_{i=1}^{n} \\frac{1}{d_i}=1$; 3. Calculate the sum of all elements in A as $\\frac{M(M+1)}{2}$, and at the same time $\\frac{M(M+1)}{2}=\\sum_{i=1}^{n}(\\frac{M}{d_i}a_i+\\frac{\\frac{M}{d_i}(\\frac{M}{d_i}-1)}{2}d_i)$; 4. Simplify the above equation, substitute $\\sum_{i=1}^{n} \\frac{1}{d_i}=1$, and finally deduce that $\\sum_{i=1}^{n} \\frac{a_i}{d_i}=\\frac{n+1}{2}$.",
+                        "standardAnswer": "$\\frac{n+1}{2}$",
+                        "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for correctly constructing sets A and B_i and deducing $\\sum_{i=1}^{n} \\frac{1}{d_i}=1$, 2 points for correctly writing two expressions for the sum of elements in A, 1 point for correctly simplifying and transforming the equation, and 1 point for correctly finding the final result.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

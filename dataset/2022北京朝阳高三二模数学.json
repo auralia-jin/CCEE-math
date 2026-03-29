@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2022 Beijing Chaoyang Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "为实现乡村的全面振兴，某地区依托乡村特色优势资源，鼓励当地农民种植中药材，批发销售。根据前期分析多年数据发现，某品种中药材在该地区各年的平均每亩种植成本为5000元，此品种中药材在该地区各年的平均每亩产量与此品种中药材的国内市场批发价格均具有随机性，且互不影响，其具体情况如下表：该地区此品种中药材各年的平均每亩产量情况：400kg（频率0.25）、500kg（频率0.75）；此品种中药材的国内市场批发价格情况：20元/kg（频率0.4）、25元/kg（频率0.6）。注：各年的平均每亩纯收入=各年的平均每亩产量×批发价格-各年的平均每亩种植成本。",
+        "subQuestions": [
+          {
+            "question": "（I）以频率估计概率，试估计该地区某农民2022年种植此品种中药材获得最高纯收入的概率；",
+            "solutionSteps": "1. 计算不同产量与价格组合的纯收入：400×20-5000=3000元，400×25-5000=5000元，500×20-5000=5000元，500×25-5000=7500元；\n2. 确定最高纯收入为7500元，对应产量500kg、价格25元/kg的组合；\n3. 以频率估计概率，该组合的概率为产量500kg的频率乘以价格25元/kg的频率，即0.75×0.6。",
+            "standardAnswer": "0.45",
+            "scoringCriteria": "正确判断最高纯收入对应的产量和价格组合得1分，代入频率相乘的计算步骤得1分，最终概率结果正确得1分，共3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设该地区某农民2022年种植此品种中药材的平均每亩纯收入为X元，以频率估计概率，求X的分布列和数学期望；",
+            "solutionSteps": "1. 由（I）得X的所有可能取值为3000、5000、7500；\n2. 计算各取值的概率：P(X=3000)=0.25×0.4=0.1，P(X=5000)=0.75×0.4+0.25×0.6=0.45，P(X=7500)=0.75×0.6=0.45；\n3. 列出X的分布列；\n4. 计算数学期望E(X)=3000×0.1+5000×0.45+7500×0.45。",
+            "standardAnswer": "分布列：X取3000时P=0.1，X取5000时P=0.45，X取7500时P=0.45；数学期望E(X)=5925",
+            "scoringCriteria": "正确列出X的所有可能取值得1分，分别计算每个取值的概率各1分（共3分），规范列出分布列得1分，计算数学期望的步骤和结果均正确得1分，共6分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）已知该地区某农民有一块土地共10亩，该块土地现种植其他农作物，年纯收入最高可达到45000元，根据以上数据，该农民下一年是否应该选择在这块土地种植此品种中药材？说明理由。",
+            "solutionSteps": "1. 以每亩纯收入的数学期望计算10亩中药材的年纯收入：5925×10=59250元；\n2. 将种植中药材的期望年纯收入与种植其他农作物的最高年纯收入45000元比较；\n3. 根据比较结果给出选择并说明理由。",
+            "standardAnswer": "应该选择种植此品种中药材；理由：种植10亩中药材的期望年纯收入为59250元，大于种植其他农作物的最高年纯收入45000元（理由合理即可）",
+            "scoringCriteria": "计算10亩中药材的期望年纯收入得1分，将两个数值进行比较得1分，给出明确的选择结论得1分，阐述合理的理由得1分，共4分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "To realize the comprehensive revitalization of rural areas, a region encourages local farmers to plant Chinese medicinal materials and sell them at wholesale by relying on the advantageous resources with rural characteristics. Based on the analysis of years of data in the early stage, it is found that the average per mu planting cost of a certain variety of Chinese medicinal materials in this region is 5000 yuan every year. The average per mu yield of this variety of Chinese medicinal materials and the domestic market wholesale price of this variety of Chinese medicinal materials in this region are both random and independent of each other. The specific situations are shown in the following tables: The average per mu yield of this variety of Chinese medicinal materials in this region: 400kg (frequency 0.25), 500kg (frequency 0.75); The domestic market wholesale price of this variety of Chinese medicinal materials: 20 yuan/kg (frequency 0.4), 25 yuan/kg (frequency 0.6). Note: The average net income per mu each year = the average per mu yield each year × wholesale price - the average per mu planting cost each year.",
+        "subQuestions": [
+          {
+            "question": "(I) Estimate the probability that a farmer in this region will obtain the highest net income per mu by planting this variety of Chinese medicinal materials in 2022 by using frequency to estimate probability;",
+            "solutionSteps": "1. Calculate the net income per mu for different combinations of yield and price: 400×20-5000=3000 yuan, 400×25-5000=5000 yuan, 500×20-5000=5000 yuan, 500×25-5000=7500 yuan;\n2. Determine that the highest net income per mu is 7500 yuan, corresponding to the combination of 500kg yield and 25 yuan/kg price;\n3. Estimate the probability by frequency, the probability of this combination is the product of the frequency of 500kg yield and the frequency of 25 yuan/kg price, that is 0.75×0.6.",
+            "standardAnswer": "0.45",
+            "scoringCriteria": "1 point for correctly judging the combination of yield and price corresponding to the highest net income, 1 point for the calculation step of multiplying the frequencies, and 1 point for the correct final probability result, with a total of 3 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Let X yuan be the average net income per mu of a farmer in this region planting this variety of Chinese medicinal materials in 2022, find the probability mass function and mathematical expectation of X by using frequency to estimate probability;",
+            "solutionSteps": "1. Obtain all possible values of X as 3000, 5000 and 7500 from (I);\n2. Calculate the probability of each value: P(X=3000)=0.25×0.4=0.1, P(X=5000)=0.75×0.4+0.25×0.6=0.45, P(X=7500)=0.75×0.6=0.45;\n3. List the probability mass function of X;\n4. Calculate the mathematical expectation E(X)=3000×0.1+5000×0.45+7500×0.45.",
+            "standardAnswer": "Probability mass function: P(X=3000)=0.1, P(X=5000)=0.45, P(X=7500)=0.45; Mathematical expectation E(X)=5925",
+            "scoringCriteria": "1 point for correctly listing all possible values of X, 1 point for calculating the probability of each value (3 points in total), 1 point for standardly listing the probability mass function, and 1 point for the correct steps and results of calculating the mathematical expectation, with a total of 6 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(III) A farmer in this region has a 10-mu land, which is currently planted with other crops and the maximum annual net income can reach 45000 yuan. Should the farmer choose to plant this variety of Chinese medicinal materials on this land in the next year based on the above data? Explain the reason.",
+            "solutionSteps": "1. Calculate the expected annual net income of planting Chinese medicinal materials on 10 mu of land by the mathematical expectation of net income per mu: 5925×10=59250 yuan;\n2. Compare the expected annual net income of planting Chinese medicinal materials with the maximum annual net income of 45000 yuan of planting other crops;\n3. Give a choice and explain the reason according to the comparison result.",
+            "standardAnswer": "Should choose to plant this variety of Chinese medicinal materials; Reason: The expected annual net income of planting Chinese medicinal materials on 10 mu of land is 59250 yuan, which is greater than the maximum annual net income of 45000 yuan of planting other crops (reasonable reasons are acceptable)",
+            "scoringCriteria": "1 point for calculating the expected annual net income of planting Chinese medicinal materials on 10 mu of land, 1 point for comparing the two values, 1 point for giving a clear choice conclusion, and 1 point for elaborating reasonable reasons, with a total of 4 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的一个顶点为 $P(0,1)$，离心率为 $\\frac{\\sqrt{2}}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（I）求椭圆 C 的方程；",
+            "solutionSteps": "1. 由椭圆的顶点 $P(0,1)$ 得 $b=1$；\n2. 椭圆的离心率公式为 $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$，即 $c=\\frac{\\sqrt{2}}{2}a$；\n3. 结合椭圆的基本关系 $a^2=b^2+c^2$，代入 $b=1$ 和 $c=\\frac{\\sqrt{2}}{2}a$，得 $a^2=1+(\\frac{\\sqrt{2}}{2}a)^2$；\n4. 解方程得 $a=\\sqrt{2}$，进而写出椭圆C的标准方程。",
+            "standardAnswer": "$\\frac{x^2}{2}+y^2=1$",
+            "scoringCriteria": "根据椭圆顶点得出$b=1$得1分，写出椭圆离心率公式并代入已知值得1分，结合$a^2=b^2+c^2$列方程并求解得$a=\\sqrt{2}$得1分，写出椭圆的标准方程且结果正确得1分，共4分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（II）过点 P 作斜率为 $k_{1}$ 的直线 $l_{1}$ 交椭圆 C 于另一点 A，过点 P 作斜率为 $k_{2}(k_{2} ≠k_{1})$ 的直线 $l_{2}$ 交椭圆 C 于另一点 B。若 $k_{1} k_{2}=1$，求证：直线 $A B$ 经过定点。",
+            "solutionSteps": "1. 设 $A(x_1,y_1)$，$B(x_2,y_2)$，表示出 $k_1=\\frac{y_1-1}{x_1}$，$k_2=\\frac{y_2-1}{x_2}$，判断直线AB斜率存在并设其方程为 $y=kx+m$；\n2. 联立椭圆方程 $x^2+2y^2-2=0$ 与直线AB方程，消去y整理得 $(1+2k^2)x^2+4kmx+2m^2-2=0$；\n3. 由韦达定理得 $x_1+x_2=-\\frac{4km}{1+2k^2}$，$x_1x_2=\\frac{2m^2-2}{1+2k^2}$；\n4. 根据 $k_1k_2=1$ 得 $\\frac{(y_1-1)(y_2-1)}{x_1x_2}=1$，将 $y_1=kx_1+m$，$y_2=kx_2+m$ 代入并化简；\n5. 整理化简后的等式得 $(m-1)(-m-3)=0$，结合题意舍去 $m=1$，得 $m=-3$；\n6. 得出直线AB的方程为 $y=kx-3$，故直线AB经过定点。",
+            "standardAnswer": "证明见解析，直线AB经过定点$(0,-3)$",
+            "scoringCriteria": "设出A、B坐标并表示出$k_1$、$k_2$，判断直线AB斜率存在并设出直线方程得1分，联立椭圆与直线方程并消元整理成一元二次方程形式得2分，正确写出韦达定理的根与系数关系得2分，根据$k_1k_2=1$列出等式并代入$y_1=kx_1+m$、$y_2=kx_2+m$得2分，化简等式并求解得到$m=-3$得2分，得出直线AB经过定点$(0,-3)$得1分，共11分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that one vertex of the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ is $P(0,1)$, and its eccentricity is $\\frac{\\sqrt{2}}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the equation of the ellipse C;",
+            "solutionSteps": "1. Obtain $b=1$ from the vertex $P(0,1)$ of the ellipse;\n2. The eccentricity formula of the ellipse is $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$, that is $c=\\frac{\\sqrt{2}}{2}a$;\n3. Combine the basic relation of the ellipse $a^2=b^2+c^2$, substitute $b=1$ and $c=\\frac{\\sqrt{2}}{2}a$, we get $a^2=1+(\\frac{\\sqrt{2}}{2}a)^2$;\n4. Solve the equation to get $a=\\sqrt{2}$, and then write the standard equation of the ellipse C.",
+            "standardAnswer": "$\\frac{x^2}{2}+y^2=1$",
+            "scoringCriteria": "1 point for obtaining $b=1$ from the vertex of the ellipse, 1 point for writing the eccentricity formula of the ellipse and substituting the known values, 1 point for listing the equation and solving to get $a=\\sqrt{2}$ by combining $a^2=b^2+c^2$, 1 point for writing the standard equation of the ellipse with the correct result, with a total of 4 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) Draw a line $l_1$ with slope $k_1$ through point P intersecting the ellipse C at another point A, and draw a line $l_2$ with slope $k_2(k_2≠k_1)$ through point P intersecting the ellipse C at another point B. Prove that the line AB passes through a fixed point if $k_1k_2=1$.",
+            "solutionSteps": "1. Let $A(x_1,y_1)$ and $B(x_2,y_2)$, express $k_1=\\frac{y_1-1}{x_1}$ and $k_2=\\frac{y_2-1}{x_2}$, judge that the slope of line AB exists and set its equation as $y=kx+m$;\n2. Simultaneously solve the ellipse equation $x^2+2y^2-2=0$ and the equation of line AB, eliminate y and sort out to get $(1+2k^2)x^2+4kmx+2m^2-2=0$;\n3. Obtain $x_1+x_2=-\\frac{4km}{1+2k^2}$ and $x_1x_2=\\frac{2m^2-2}{1+2k^2}$ by Vieta's formulas;\n4. Get $\\frac{(y_1-1)(y_2-1)}{x_1x_2}=1$ according to $k_1k_2=1$, substitute $y_1=kx_1+m$ and $y_2=kx_2+m$ and simplify;\n5. Sort out the simplified equation to get $(m-1)(-m-3)=0$, discard $m=1$ according to the meaning of the question and get $m=-3$;\n6. Obtain the equation of line AB as $y=kx-3$, so the line AB passes through a fixed point.",
+            "standardAnswer": "The proof is shown in the analysis, the line AB passes through the fixed point $(0,-3)$",
+            "scoringCriteria": "1 point for setting the coordinates of A and B, expressing $k_1$ and $k_2$, judging that the slope of line AB exists and setting the equation of the line, 2 points for simultaneously solving the ellipse and line equations and eliminating y to sort out into the form of a quadratic equation with one variable, 2 points for correctly writing the relation between roots and coefficients of Vieta's formulas, 2 points for listing the equation according to $k_1k_2=1$ and substituting $y_1=kx_1+m$ and $y_2=kx_2+m$, 2 points for simplifying the equation and solving to get $m=-3$, 1 point for concluding that the line AB passes through the fixed point $(0,-3)$, with a total of 11 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数 $f(x)=x sin x+cos x$。",
+        "subQuestions": [
+          {
+            "question": "（I）当 $x \\in(0, \\pi)$ 时，求函数 $f(x)$ 的单调区间；",
+            "solutionSteps": "1. 对函数 $f(x)=x\\sin x+\\cos x$ 求导，得 $f'(x)=\\sin x+x\\cos x-\\sin x=x\\cos x$；\n2. 分析导数 $f'(x)=x\\cos x$ 在区间 $(0,\\pi)$ 内的符号：当 $x\\in(0,\\frac{\\pi}{2})$ 时，$\\cos x>0$，故 $f'(x)>0$；当 $x=\\frac{\\pi}{2}$ 时，$f'(x)=0$；当 $x\\in(\\frac{\\pi}{2},\\pi)$ 时，$\\cos x<0$，故 $f'(x)<0$；\n3. 根据导数的符号确定函数的单调区间。",
+            "standardAnswer": "单调递增区间为$(0,\\frac{\\pi}{2})$，单调递减区间为$(\\frac{\\pi}{2},\\pi)$",
+            "scoringCriteria": "正确求出函数$f(x)$的导数$f'(x)=x\\cos x$得2分，准确分析导数在$(0,\\pi)$内不同子区间的符号变化得2分，正确写出函数的单调递增和递减区间得1分，共5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（II）设函数 $g(x)=-x^{2}+2 a x$，若对任意 $x_{1} \\in[-\\pi, \\pi]$，存在 $x_{2} \\in[0,1]$，使得 $\\frac{1}{2 \\pi} f(x_{1}) \\leq g(x_{2})$ 成立，求实数a的取值范围。",
+            "solutionSteps": "1. 判断$f(x)$的奇偶性：$f(-x)=f(x)$，故$f(x)$为偶函数，分析其在$[-\\pi,\\pi]$上的单调性，得$f(x)_{max}=f(\\frac{\\pi}{2})=f(-\\frac{\\pi}{2})=\\frac{\\pi}{2}$；\n2. 设$h(x)=\\frac{1}{2\\pi}f(x)$，则$h(x)_{max}=\\frac{1}{2\\pi}×\\frac{\\pi}{2}=\\frac{1}{4}$；\n3. 将题意转化为$h(x)_{max} \\leq g(x)_{max}$，分析二次函数$g(x)=-x^2+2ax$的对称轴为$x=a$，分三类讨论：\n   ①当$a≤0$时，$g(x)$在$[0,1]$上单调递减，$g(x)_{max}=g(0)=0$，不满足$\\frac{1}{4}≤0$；\n   ②当$0<a<1$时，$g(x)$在$[0,a]$上单调递增，在$[a,1]$上单调递减，$g(x)_{max}=g(a)=a^2$，由$a^2≥\\frac{1}{4}$得$a≥\\frac{1}{2}$，故$\\frac{1}{2}≤a<1$；\n   ③当$a≥1$时，$g(x)$在$[0,1]$上单调递增，$g(x)_{max}=g(1)=2a-1$，由$2a-1≥\\frac{1}{4}$得$a≥\\frac{5}{8}$，故$a≥1$；\n4. 综合三类讨论的结果，得到实数a的取值范围。",
+            "standardAnswer": "$[\\frac{1}{2},+\\infty)$",
+            "scoringCriteria": "判断$f(x)$为偶函数并求出其在$[-\\pi,\\pi]$上的最大值得2分，计算出$h(x)_{max}=\\frac{1}{4}$得1分，将题意正确转化为$h(x)_{max} \\leq g(x)_{max}$得2分，分$a≤0$、$0<a<1$、$a≥1$三类讨论并分别分析$g(x)$的最大值各1分，求解每类情况下的不等式并综合得出实数a的取值范围得3分，共10分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=x sin x+cos x$.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the monotonic intervals of the function $f(x)$ when $x \\in(0, \\pi)$;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)=x\\sin x+\\cos x$, we get $f'(x)=\\sin x+x\\cos x-\\sin x=x\\cos x$;\n2. Analyze the sign of the derivative $f'(x)=x\\cos x$ in the interval $(0,\\pi)$: when $x\\in(0,\\frac{\\pi}{2})$, $\\cos x>0$, so $f'(x)>0$; when $x=\\frac{\\pi}{2}$, $f'(x)=0$; when $x\\in(\\frac{\\pi}{2},\\pi)$, $\\cos x<0$, so $f'(x)<0$;\n3. Determine the monotonic intervals of the function according to the sign of the derivative.",
+            "standardAnswer": "The monotonic increasing interval is $(0,\\frac{\\pi}{2})$, and the monotonic decreasing interval is $(\\frac{\\pi}{2},\\pi)$",
+            "scoringCriteria": "2 points for correctly finding the derivative $f'(x)=x\\cos x$ of the function $f(x)$, 2 points for accurately analyzing the sign change of the derivative in different subintervals within $(0,\\pi)$, 1 point for correctly writing the monotonic increasing and decreasing intervals of the function, with a total of 5 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(II) Let the function $g(x)=-x^{2}+2 a x$, find the range of the real number a if for any $x_{1} \\in[-\\pi, \\pi]$, there exists $x_{2} \\in[0,1]$ such that $\\frac{1}{2 \\pi} f(x_{1}) \\leq g(x_{2})$ holds.",
+            "solutionSteps": "1. Judge the parity of $f(x)$: $f(-x)=f(x)$, so $f(x)$ is an even function. Analyze its monotonicity on $[-\\pi,\\pi]$, and get $f(x)_{max}=f(\\frac{\\pi}{2})=f(-\\frac{\\pi}{2})=\\frac{\\pi}{2}$;\n2. Let $h(x)=\\frac{1}{2\\pi}f(x)$, then $h(x)_{max}=\\frac{1}{2\\pi}×\\frac{\\pi}{2}=\\frac{1}{4}$;\n3. Transform the meaning of the question into $h(x)_{max} \\leq g(x)_{max}$, analyze that the axis of symmetry of the quadratic function $g(x)=-x^2+2ax$ is $x=a$, and discuss in three categories: \n   ①When $a≤0$, $g(x)$ is monotonically decreasing on $[0,1]$, $g(x)_{max}=g(0)=0$, which does not satisfy $\\frac{1}{4}≤0$;\n   ②When $0<a<1$, $g(x)$ is monotonically increasing on $[0,a]$ and monotonically decreasing on $[a,1]$, $g(x)_{max}=g(a)=a^2$, we get $a≥\\frac{1}{2}$ from $a^2≥\\frac{1}{4}$, so $\\frac{1}{2}≤a<1$;\n   ③When $a≥1$, $g(x)$ is monotonically increasing on $[0,1]$, $g(x)_{max}=g(1)=2a-1$, we get $a≥\\frac{5}{8}$ from $2a-1≥\\frac{1}{4}$, so $a≥1$;\n4. Synthesize the results of the three categories of discussions to obtain the range of the real number a.",
+            "standardAnswer": "$[\\frac{1}{2},+\\infty)$",
+            "scoringCriteria": "2 points for judging that $f(x)$ is an even function and finding its maximum value on $[-\\pi,\\pi]$, 1 point for calculating $h(x)_{max}=\\frac{1}{4}$, 2 points for correctly transforming the meaning of the question into $h(x)_{max} \\leq g(x)_{max}$, 1 point for each of the three discussions of $a≤0$, $0<a<1$ and $a≥1$ and analyzing the maximum value of $g(x)$ respectively, 3 points for solving the inequality in each case and synthesizing to get the range of the real number a, with a total of 10 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知集合 $A=\\{\\alpha | \\alpha=(x_{1}, x_{2}, x_{3}, x_{4}),x_i\\in N,i=1,2,3,4\\}$。对集合 A 中的任意元素 $\\alpha=(x_{1}, x_{2}, x_{3}, x_{4})$，定义 $T(\\alpha)=(|x_{1}-x_{2}|,|x_{2}-x_{3}|,|x_{3}-x_{4}|,|x_{4}-x_{1}|)$，当正整数 $n ≥2$ 时，定义 $T^{n}(\\alpha)=T(T^{n-1}(\\alpha))$（约定 $T^{1}(\\alpha)=T(\\alpha)$）。",
+        "subQuestions": [
+          {
+            "question": "（I）若 $\\alpha=(2,0,2,1)$，$\\beta=(2,0,2,2)$，求 $T^{4}(\\alpha)$ 和 $T^{4}(\\beta)$；",
+            "solutionSteps": "1. 计算$T^4(\\alpha)$：$T(\\alpha)=(2,2,1,1)$，$T^2(\\alpha)=(0,1,0,1)$，$T^3(\\alpha)=(1,1,1,1)$，$T^4(\\alpha)=(0,0,0,0)$；\n2. 计算$T^4(\\beta)$：$T(\\beta)=(2,2,0,0)$，$T^2(\\beta)=(0,2,0,2)$，$T^3(\\beta)=(2,2,2,2)$，$T^4(\\beta)=(0,0,0,0)$。",
+            "standardAnswer": "$T^4(\\alpha)=(0,0,0,0)$，$T^4(\\beta)=(0,0,0,0)$",
+            "scoringCriteria": "正确计算$T(\\alpha)$、$T^2(\\alpha)$、$T^3(\\alpha)$、$T^4(\\alpha)$各0.5分共2分，正确计算$T(\\beta)$、$T^2(\\beta)$、$T^3(\\beta)$、$T^4(\\beta)$各0.5分共2分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（II）若 $\\alpha=(x_{1}, x_{2}, x_{3}, x_{4})$ 满足 $x_i \\in\\{0,1\\}(i=1,2,3,4)$ 且 $T^{2}(\\alpha)=(1,1,1,1)$，求 α 的所有可能结果；",
+            "solutionSteps": "1. 由$T^2(\\alpha)=(1,1,1,1)$列出等式：$||x_1-x_2|-|x_2-x_3||=1$，$||x_2-x_3|-|x_3-x_4||=1$，$||x_3-x_4|-|x_4-x_1||=1$，$||x_4-x_1|-|x_1-x_2||=1$；\n2. 结合$x_i\\in\\{0,1\\}$化简等式，得出$|x_1-x_3|=1$，$|x_2-x_4|=1$，即$x_1≠x_3$，$x_2≠x_4$；\n3. 穷举满足$x_1≠x_3$且$x_2≠x_4$的所有四元数组，验证均满足$T^2(\\alpha)=(1,1,1,1)$，得到α的所有可能结果。",
+            "standardAnswer": "$(0,0,1,1)$，$(0,1,1,0)$，$(1,0,0,1)$，$(1,1,0,0)$",
+            "scoringCriteria": "根据$T^2(\\alpha)=(1,1,1,1)$列出对应的等式得1分，结合$x_i\\in\\{0,1\\}$化简等式并得出$x_1≠x_3$、$x_2≠x_4$的结论得1分，穷举出所有满足条件的四元数组得1分，验证数组均符合题意得2分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅲ）是否存在正整数 n 使得对任意 $\\alpha=(x_{1}, x_{2}, x_{3}, x_{4}) \\in A$（$x_{1}≠x_{2}≠x_{4}≠x_{3}$）都有 $T^{n}(\\alpha)=(0,0,0,0) ?$ 若存在，求出 n 的所有取值；若不存在，说明理由。",
+            "solutionSteps": "1. 证明存在性：对满足条件的任意$\\alpha=(x_1,x_2,x_3,x_4)\\in A$，依次推导$T(\\alpha)$、$T^2(\\alpha)$、$T^3(\\alpha)$、$T^4(\\alpha)$、$T^5(\\alpha)$、$T^6(\\alpha)$的形式，可得$T^6(\\alpha)=(0,0,0,0)$；\n2. 举例验证：取$\\alpha=(6,3,1,2)$，计算得$T^6(\\alpha)=(0,0,0,0)$，而$T^5(\\alpha)=(2,2,2,2)≠(0,0,0,0)$；\n3. 得出结论：当$n≥6$时，$T^n(\\alpha)=T(T^{n-1}(\\alpha))=T(0,0,0,0)=(0,0,0,0)$，故n的所有取值为大于等于6的正整数。",
+            "standardAnswer": "存在，n的所有取值为$\\{n\\in N^*|n≥6\\}$",
+            "scoringCriteria": "推导并证明对任意满足条件的$\\alpha$有$T^6(\\alpha)=(0,0,0,0)$得3分，举例验证$n=6$的有效性且说明$n<6$时不成立得1分，说明当$n≥7$时$T^n(\\alpha)=(0,0,0,0)$恒成立得1分，正确写出n的所有取值范围得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the set $A=\\{\\alpha | \\alpha=(x_{1}, x_{2}, x_{3}, x_{4}),x_i\\in N,i=1,2,3,4\\}$. For any element $\\alpha=(x_{1}, x_{2}, x_{3}, x_{4})$ in set A, define $T(\\alpha)=(|x_{1}-x_{2}|,|x_{2}-x_{3}|,|x_{3}-x_{4}|,|x_{4}-x_{1}|)$. When the positive integer $n ≥2$, define $T^{n}(\\alpha)=T(T^{n-1}(\\alpha))$ (it is agreed that $T^{1}(\\alpha)=T(\\alpha)$).",
+        "subQuestions": [
+          {
+            "question": "(I) Find $T^{4}(\\alpha)$ and $T^{4}(\\beta)$ if $\\alpha=(2,0,2,1)$ and $\\beta=(2,0,2,2)$;",
+            "solutionSteps": "1. Calculate $T^4(\\alpha)$: $T(\\alpha)=(2,2,1,1)$, $T^2(\\alpha)=(0,1,0,1)$, $T^3(\\alpha)=(1,1,1,1)$, $T^4(\\alpha)=(0,0,0,0)$;\n2. Calculate $T^4(\\beta)$: $T(\\beta)=(2,2,0,0)$, $T^2(\\beta)=(0,2,0,2)$, $T^3(\\beta)=(2,2,2,2)$, $T^4(\\beta)=(0,0,0,0)$.",
+            "standardAnswer": "$T^4(\\alpha)=(0,0,0,0)$, $T^4(\\beta)=(0,0,0,0)$",
+            "scoringCriteria": "0.5 points for each correct calculation of $T(\\alpha)$, $T^2(\\alpha)$, $T^3(\\alpha)$ and $T^4(\\alpha)$, 2 points in total; 0.5 points for each correct calculation of $T(\\beta)$, $T^2(\\beta)$, $T^3(\\beta)$ and $T^4(\\beta)$, 2 points in total, with a total of 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(II) Find all possible results of $\\alpha$ if $\\alpha=(x_{1}, x_{2}, x_{3}, x_{4})$ satisfies $x_i \\in\\{0,1\\}(i=1,2,3,4)$ and $T^{2}(\\alpha)=(1,1,1,1)$;",
+            "solutionSteps": "1. List the equations from $T^2(\\alpha)=(1,1,1,1)$: $||x_1-x_2|-|x_2-x_3||=1$, $||x_2-x_3|-|x_3-x_4||=1$, $||x_3-x_4|-|x_4-x_1||=1$, $||x_4-x_1|-|x_1-x_2||=1$;\n2. Simplify the equations combined with $x_i\\in\\{0,1\\}$, and get $|x_1-x_3|=1$, $|x_2-x_4|=1$, that is $x_1≠x_3$, $x_2≠x_4$;\n3. Enumerate all four-tuples that satisfy $x_1≠x_3$ and $x_2≠x_4$, verify that all satisfy $T^2(\\alpha)=(1,1,1,1)$, and obtain all possible results of $\\alpha$.",
+            "standardAnswer": "$(0,0,1,1)$, $(0,1,1,0)$, $(1,0,0,1)$, $(1,1,0,0)$",
+            "scoringCriteria": "1 point for listing the corresponding equations according to $T^2(\\alpha)=(1,1,1,1)$, 1 point for simplifying the equations combined with $x_i\\in\\{0,1\\}$ and drawing the conclusion that $x_1≠x_3$ and $x_2≠x_4$, 1 point for enumerating all four-tuples that meet the conditions, 2 points for verifying that all arrays are in line with the meaning of the question, with a total of 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(III) Does there exist a positive integer n such that $T^{n}(\\alpha)=(0,0,0,0)$ for any $\\alpha=(x_{1}, x_{2}, x_{3}, x_{4}) \\in A$ ($x_{1}≠x_{2}≠x_{4}≠x_{3}$)? If it exists, find all values of n; if not, explain the reason.",
+            "solutionSteps": "1. Prove the existence: For any $\\alpha=(x_1,x_2,x_3,x_4)\\in A$ that meets the conditions, deduce the forms of $T(\\alpha)$, $T^2(\\alpha)$, $T^3(\\alpha)$, $T^4(\\alpha)$, $T^5(\\alpha)$ and $T^6(\\alpha)$ in turn, and it can be obtained that $T^6(\\alpha)=(0,0,0,0)$;\n2. Verify with an example: Take $\\alpha=(6,3,1,2)$, calculate to get $T^6(\\alpha)=(0,0,0,0)$, while $T^5(\\alpha)=(2,2,2,2)≠(0,0,0,0)$;\n3. Draw the conclusion: When $n≥6$, $T^n(\\alpha)=T(T^{n-1}(\\alpha))=T(0,0,0,0)=(0,0,0,0)$, so all values of n are positive integers greater than or equal to 6.",
+            "standardAnswer": "Exists, all values of n are $\\{n\\in N^*|n≥6\\}$",
+            "scoringCriteria": "3 points for deducing and proving that $T^6(\\alpha)=(0,0,0,0)$ for any $\\alpha$ that meets the conditions, 1 point for verifying the validity of $n=6$ with an example and explaining that it is not valid when $n<6$, 1 point for explaining that $T^n(\\alpha)=(0,0,0,0)$ holds for all $n≥7$, 1 point for correctly writing the range of all values of n, with a total of 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

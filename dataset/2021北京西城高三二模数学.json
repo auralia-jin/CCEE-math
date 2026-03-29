@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2021 Beijing Xicheng Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "在新冠病毒疫情防控期间，北京市中小学开展了“优化线上教育与学生线下学习相结合”的教育教学实践活动。为了解某区教师对A，B，C，D，E五类线上教育软件的使用情况(每位教师都使用这五类教育软件中的某一类且每位教师只选择一类教育软件)，从该区教师中随机抽取了100人，统计数据如表，其中a>b，ab∈N。教育软件类型A、B、C、D、E对应的选用教师人数分别为10、15、a、30、b。假设所有教师选择使用哪类软件相互独立。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若某校共有300名教师，试估计该校教师中使用教育软件C或E的人数；",
+            "solutionSteps": "1. 根据抽取的100人数据，计算使用C或E类软件的人数和：a+b=100-10-15-30=45；\n2. 计算抽取样本中使用C或E类软件的频率：45/100；\n3. 用频率估计概率，计算该校300名教师中使用C或E类软件的估计人数：300×(45/100)。",
+            "standardAnswer": "135",
+            "scoringCriteria": "第一问共4分，求出a+b=45得2分，正确计算频率并代入总人数计算得1分，最终答案正确得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从该区教师中随机抽取3人，估计这3人中至少有2人使用教育软件D的概率；",
+            "solutionSteps": "1. 计算样本中使用软件D的频率，作为单次抽取使用D的概率：p=30/100=3/10；\n2. 确定3次独立重复试验中，使用D的人数X满足至少2人即X=2或X=3；\n3. 根据二项分布概率公式，计算P(X=2)=C₃²×(3/10)²×(7/10)，P(X=3)=C₃³×(3/10)³；\n4. 求和得到所求概率：P=P(X=2)+P(X=3)。",
+            "standardAnswer": "$\\frac{27}{125}$",
+            "scoringCriteria": "第二问共6分，求出单次使用D的概率得1分，确定X的取值为2和3得1分，正确写出二项分布概率公式各得1分，代入计算P(X=2)和P(X=3)各得1分，最终求和结果正确得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）设该区有3000名教师，从中随机抽取1人，记该教师使用教育软件C或D的概率估计值为P₁；该区学校M有600名教师，其中有200人使用教育软件C，100人使用教育软件D，从学校M中随机抽取1人，该教师使用教育软件C或D的概率值为P₂；从该区其他教师(除学校M外)中随机抽取1人，该教师使用教育软件C或D的概率估计值为P₃。试比较P₁，P₂和P₃之间的大小。(结论不要求证明)",
+            "solutionSteps": "1. 计算P₁=(a+30)/100，由a+b=45且a>b、ab∈N得23≤a≤44，故53/100≤P₁≤37/50；\n2. 计算P₂=(200+100)/600=1/2；\n3. 根据整体与部分的概率关系，直接得出三者大小关系。",
+            "standardAnswer": "$P_3>P_1>P_2$",
+            "scoringCriteria": "第三问共4分，正确写出P₁的表达式得1分，正确计算P₂的值得1分，准确给出三者大小关系得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "During the prevention and control of the COVID-19 epidemic, primary and secondary schools in Beijing carried out the educational and teaching practice activity of \"optimizing the combination of online education and students' offline learning\". To understand the usage of five types of online education software A, B, C, D and E by teachers in a certain district (each teacher uses one of the five types of education software and only chooses one type), 100 teachers were randomly selected from the district, and the statistical data are shown in the table, where a>b and ab∈N. The number of teachers choosing education software types A, B, C, D and E is 10, 15, a, 30 and b respectively. Assume that the choice of software by all teachers is independent of each other.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If a school has 300 teachers, estimate the number of teachers in the school who use education software C or E;",
+            "solutionSteps": "1. According to the data of 100 randomly selected teachers, calculate the total number of teachers using software C or E: a+b=100-10-15-30=45;\n2. Calculate the frequency of using software C or E in the sample: 45/100;\n3. Estimate the probability by frequency, and calculate the estimated number of teachers using software C or E among 300 teachers in the school: 300×(45/100).",
+            "standardAnswer": "135",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for finding a+b=45, 1 point for correctly calculating the frequency and substituting the total number of teachers for calculation, and 1 point for the correct final answer.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 3 teachers from the district, estimate the probability that at least 2 of the 3 teachers use education software D;",
+            "solutionSteps": "1. Calculate the frequency of using software D in the sample as the probability of using D in a single draw: p=30/100=3/10;\n2. Determine that in 3 independent repeated trials, the number X of teachers using D is at least 2, that is, X=2 or X=3;\n3. According to the binomial distribution probability formula, calculate P(X=2)=C₃²×(3/10)²×(7/10) and P(X=3)=C₃³×(3/10)³;\n4. Sum the results to get the required probability: P=P(X=2)+P(X=3).",
+            "standardAnswer": "$\\frac{27}{125}$",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 1 point for finding the probability of using D in a single draw, 1 point for determining the values of X as 2 and 3, 1 point for each correct binomial distribution probability formula, 1 point for each substitution to calculate P(X=2) and P(X=3), and 1 point for the correct final sum result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) Suppose there are 3000 teachers in the district, randomly select 1 teacher from them, and record the estimated probability that the teacher uses education software C or D as P₁; School M in the district has 600 teachers, among whom 200 use education software C and 100 use education software D, randomly select 1 teacher from School M, and record the probability that the teacher uses education software C or D as P₂; randomly select 1 teacher from other teachers in the district (excluding School M), and record the estimated probability that the teacher uses education software C or D as P₃. Compare the sizes of P₁, P₂ and P₃. (Proof is not required for the conclusion)",
+            "solutionSteps": "1. Calculate P₁=(a+30)/100. From a+b=45, a>b and ab∈N, we get 23≤a≤44, so 53/100≤P₁≤37/50;\n2. Calculate P₂=(200+100)/600=1/2;\n3. Directly obtain the size relationship of the three according to the probability relationship between the whole and the part.",
+            "standardAnswer": "$P_3>P_1>P_2$",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 1 point for correctly writing the expression of P₁, 1 point for correctly calculating the value of P₂, and 2 points for accurately giving the size relationship of the three.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆C：$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$的离心率为$\\frac{\\sqrt{6}}{3}$，其长轴的两个端点分别为$A(-3,0)$，$B(3,0)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的标准方程；",
+            "solutionSteps": "1. 由椭圆长轴端点A(-3,0)、B(3,0)得长半轴a=3；\n2. 由离心率$e=\\frac{c}{a}=\\frac{\\sqrt{6}}{3}$，代入a=3得半焦距$c=\\sqrt{6}$；\n3. 根据椭圆中$a^2=b^2+c^2$，计算短半轴$b=\\sqrt{a^2-c^2}=\\sqrt{3}$；\n4. 代入椭圆标准方程得到结果。",
+            "standardAnswer": "$\\frac{x^2}{9}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "第一问共5分，求出a=3得1分，根据离心率求出c=√6得2分，正确运用a²=b²+c²求出b=√3得1分，写出椭圆标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）点P为椭圆上除A，B外的任意一点，直线AP交直线x=4于点E，点O为坐标原点，过点O且与直线BE垂直的直线记为l，直线BP交y轴于点M，交直线l于点N，求△BMO与△NMO的面积之比。",
+            "solutionSteps": "1. 设$P(x_0,y_0)(y_0≠0)$，满足椭圆方程$\\frac{x_0^2}{9}+\\frac{y_0^2}{3}=1$，写出直线AP的方程$y=\\frac{y_0}{x_0+3}(x+3)$；\n2. 令x=4，求出点E的坐标$(4,\\frac{7y_0}{x_0+3})$，计算直线BE的斜率$k_{BE}=\\frac{7y_0}{x_0+3}$，进而得到直线l的方程$y=-\\frac{x_0+3}{7y_0}x$；\n3. 写出直线BP的方程$y=\\frac{y_0}{x_0-3}(x-3)$，联立直线l与BP的方程，消去y得到关于x的方程；\n4. 由椭圆方程化简得$x_0^2-9=-3y_0^2$，代入方程解得点N的横坐标$x_N=\\frac{21}{4}$；\n5. 根据三角形面积公式，$S_{△BMO}=\\frac{1}{2}|OM|·|x_B|$，$S_{△NMO}=\\frac{1}{2}|OM|·|x_N|$，面积比转化为横坐标绝对值之比。",
+            "standardAnswer": "$\\frac{4}{7}$",
+            "scoringCriteria": "第二问共10分，设出P点坐标并写出直线AP方程得1分，求出E点坐标和直线BE斜率得2分，写出直线l和BP的方程各得1分，联立方程消去y得1分，利用椭圆方程化简求出x_N得2分，正确写出两个三角形面积表达式得1分，求出面积比得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the eccentricity of the ellipse C: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ is $\\frac{\\sqrt{6}}{3}$, and the two endpoints of its major axis are $A(-3,0)$ and $B(3,0)$ respectively.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the standard equation of the ellipse C;",
+            "solutionSteps": "1. Obtain the semi-major axis a=3 from the endpoints A(-3,0) and B(3,0) of the major axis of the ellipse;\n2. Substitute a=3 into the eccentricity $e=\\frac{c}{a}=\\frac{\\sqrt{6}}{3}$ to get the semi-focal distance $c=\\sqrt{6}$;\n3. Calculate the semi-minor axis $b=\\sqrt{a^2-c^2}=\\sqrt{3}$ according to $a^2=b^2+c^2$ in the ellipse;\n4. Substitute into the standard equation of the ellipse to get the result.",
+            "standardAnswer": "$\\frac{x^2}{9}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for finding a=3, 2 points for finding c=√6 according to the eccentricity, 1 point for correctly using a²=b²+c² to find b=√3, and 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Point P is any point on the ellipse except A and B. The line AP intersects the line x=4 at point E, point O is the origin of coordinates, the line passing through O and perpendicular to line BE is denoted as l, the line BP intersects the y-axis at point M and intersects line l at point N. Find the ratio of the areas of △BMO and △NMO.",
+            "solutionSteps": "1. Let $P(x_0,y_0)(y_0≠0)$, which satisfies the ellipse equation $\\frac{x_0^2}{9}+\\frac{y_0^2}{3}=1$, and write the equation of line AP as $y=\\frac{y_0}{x_0+3}(x+3)$;\n2. Let x=4, find the coordinates of point E $(4,\\frac{7y_0}{x_0+3})$, calculate the slope of line BE $k_{BE}=\\frac{7y_0}{x_0+3}$, and then obtain the equation of line l $y=-\\frac{x_0+3}{7y_0}x$;\n3. Write the equation of line BP as $y=\\frac{y_0}{x_0-3}(x-3)$, combine the equations of line l and BP, and eliminate y to get an equation about x;\n4. Simplify by the ellipse equation to get $x_0^2-9=-3y_0^2$, substitute into the equation to solve the abscissa of point N $x_N=\\frac{21}{4}$;\n5. According to the triangle area formula, $S_{△BMO}=\\frac{1}{2}|OM|·|x_B|$, $S_{△NMO}=\\frac{1}{2}|OM|·|x_N|$, the area ratio is transformed into the ratio of the absolute values of the abscissas.",
+            "standardAnswer": "$\\frac{4}{7}$",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 1 point for setting the coordinates of point P and writing the equation of line AP, 2 points for finding the coordinates of point E and the slope of line BE, 1 point for each of writing the equations of line l and BP, 1 point for combining the equations and eliminating y, 2 points for simplifying by the ellipse equation to find x_N, 1 point for correctly writing the area expressions of the two triangles, and 1 point for finding the area ratio.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\ln x+bx+c$，$g(x)=kx^2+2$，$f(x)$在$x=1$处取得极大值1。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求b和c的值；",
+            "solutionSteps": "1. 求$f(x)$的导数$f'(x)=\\frac{1}{x}+b$；\n2. 由$f(x)$在x=1处取得极大值1，得$f'(1)=1+b=0$且$f(1)=b+c=1$；\n3. 解方程组，得b=-1，代入得c=2，验证满足极大值条件。",
+            "standardAnswer": "$b=-1，c=2$",
+            "scoringCriteria": "第一问共4分，正确求导得1分，列出f'(1)=0和f(1)=1的方程组得2分，解出b和c的值并验证得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）当$x\\in[1,+\\infty)$时，曲线$y=f(x)$在曲线$y=g(x)$的上方，求k的取值范围；",
+            "solutionSteps": "1. 由（Ⅰ）得$f(x)=\\ln x - x + 2$，曲线$y=f(x)$在$y=g(x)$上方即$f(x)-g(x)>0$在$[1,+\\infty)$恒成立，化简得$\\ln x - x - kx^2>0$，即$k<\\frac{\\ln x - x}{x^2}$在$[1,+\\infty)$恒成立；\n2. 令$F(x)=\\frac{\\ln x - x}{x^2}$，求其导数$F'(x)=\\frac{x - 2\\ln x + 1}{x^3}$；\n3. 令$h(x)=x - 2\\ln x + 1$，求导$h'(x)=\\frac{x - 2}{x}$，分析h(x)在$[1,+\\infty)$的单调性，得h(x)最小值为h(2)=3-2\\ln2>0；\n4. 故F'(x)>0，F(x)在$[1,+\\infty)$单调递增，得F(x)最小值为F(1)=-1，因此k<-1。",
+            "standardAnswer": "$(-\\infty,-1)$",
+            "scoringCriteria": "第二问共5分，将题意转化为不等式恒成立问题得1分，构造函数F(x)并正确求导得1分，构造h(x)并求导分析单调性得1分，得出F(x)的单调性和最小值得1分，求出k的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）设$k=1$，证明：存在两条与曲线$y=f(x)$和$y=g(x)$都相切的直线。",
+            "solutionSteps": "1. 当k=1时，$g(x)=x^2+2$，设$f(x)$上切点为$(x_1,\\ln x_1 - x_1 + 2)$，$g(x)$上切点为$(x_2,x_2^2+2)$，求导得$f'(x_1)=\\frac{1}{x_1}-1$，$g'(x_2)=2x_2$；\n2. 由公切线斜率相等得$\\frac{1}{x_1}-1=2x_2$，结合切线方程相等得$\\ln x_1 + 1 = -x_2^2 + 2$；\n3. 消去x_2，得到关于x_1的方程$\\ln x_1 + \\frac{1}{4x_1^2} - \\frac{1}{2x_1} - \\frac{3}{4}=0$；\n4. 令$t(x)=\\ln x + \\frac{1}{4x^2} - \\frac{1}{2x} - \\frac{3}{4}(x>0)$，求导$t'(x)=\\frac{(x+1)(2x-1)}{2x^3}$，分析t(x)的单调性，得x=1/2时t(x)取最小值$-\\frac{3}{4}-\\ln2<0$；\n5. 验证$t(e)>0$，$t(\\frac{1}{e^2})>0$，故t(x)在$(0,+\\infty)$有两个零点，即存在两个x_1，对应两个x_2，故存在两条公切线。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问共6分，设出两个切点并正确求导得1分，根据公切线斜率和方程相等列出方程组得1分，消去x_2得到关于x_1的方程得1分，构造函数t(x)并正确求导得1分，分析t(x)的单调性和最小值得1分，验证零点存在并得出结论得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=\\ln x+bx+c$, $g(x)=kx^2+2$, and $f(x)$ attains a local maximum value of 1 at $x=1$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the values of b and c;",
+            "solutionSteps": "1. Find the derivative of $f(x)$: $f'(x)=\\frac{1}{x}+b$;\n2. Since $f(x)$ attains a local maximum value of 1 at x=1, we have $f'(1)=1+b=0$ and $f(1)=b+c=1$;\n3. Solve the system of equations to get b=-1, substitute to get c=2, and verify that it satisfies the local maximum condition.",
+            "standardAnswer": "$b=-1, c=2$",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 1 point for correct differentiation, 2 points for listing the system of equations f'(1)=0 and f(1)=1, and 1 point for solving the values of b and c and verifying.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) When $x\\in[1,+\\infty)$, the curve $y=f(x)$ is above the curve $y=g(x)$, find the range of k;",
+            "solutionSteps": "1. From (Ⅰ), we get $f(x)=\\ln x - x + 2$. The curve $y=f(x)$ is above $y=g(x)$ means $f(x)-g(x)>0$ holds for all $x\\in[1,+\\infty)$, which simplifies to $\\ln x - x - kx^2>0$, that is, $k<\\frac{\\ln x - x}{x^2}$ holds for all $x\\in[1,+\\infty)$;\n2. Let $F(x)=\\frac{\\ln x - x}{x^2}$, find its derivative $F'(x)=\\frac{x - 2\\ln x + 1}{x^3}$;\n3. Let $h(x)=x - 2\\ln x + 1$, find its derivative $h'(x)=\\frac{x - 2}{x}$, analyze the monotonicity of h(x) on $[1,+\\infty)$, and get the minimum value of h(x) as h(2)=3-2\\ln2>0;\n4. Therefore, F'(x)>0, F(x) is monotonically increasing on $[1,+\\infty)$, and the minimum value of F(x) is F(1)=-1, so k<-1.",
+            "standardAnswer": "$(-\\infty,-1)$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for transforming the problem into an inequality constant establishment problem, 1 point for constructing the function F(x) and differentiating it correctly, 1 point for constructing h(x) and differentiating to analyze its monotonicity, 1 point for obtaining the monotonicity and minimum value of F(x), and 1 point for finding the range of k.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Let $k=1$, prove that there exist two lines that are tangent to both the curve $y=f(x)$ and the curve $y=g(x)$.",
+            "solutionSteps": "1. When k=1, $g(x)=x^2+2$. Let the tangent point on $f(x)$ be $(x_1,\\ln x_1 - x_1 + 2)$ and the tangent point on $g(x)$ be $(x_2,x_2^2+2)$. Differentiate to get $f'(x_1)=\\frac{1}{x_1}-1$ and $g'(x_2)=2x_2$;\n2. From the equality of the slopes of the common tangent, we have $\\frac{1}{x_1}-1=2x_2$, and from the equality of the tangent equations, we have $\\ln x_1 + 1 = -x_2^2 + 2$;\n3. Eliminate x_2 to get the equation about x_1: $\\ln x_1 + \\frac{1}{4x_1^2} - \\frac{1}{2x_1} - \\frac{3}{4}=0$;\n4. Let $t(x)=\\ln x + \\frac{1}{4x^2} - \\frac{1}{2x} - \\frac{3}{4}(x>0)$, find its derivative $t'(x)=\\frac{(x+1)(2x-1)}{2x^3}$, analyze the monotonicity of t(x), and get the minimum value of t(x) at x=1/2 as $-\\frac{3}{4}-\\ln2<0$;\n5. Verify that $t(e)>0$ and $t(\\frac{1}{e^2})>0$, so t(x) has two zeros on $(0,+\\infty)$, that is, there exist two x_1 corresponding to two x_2, so there are two common tangents.",
+            "standardAnswer": "Proof is shown in the analysis",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 1 point for setting two tangent points and differentiating correctly, 1 point for listing the system of equations according to the equality of the slope and equation of the common tangent, 1 point for eliminating x_2 to get the equation about x_1, 1 point for constructing the function t(x) and differentiating it correctly, 1 point for analyzing the monotonicity and minimum value of t(x), and 1 point for verifying the existence of zeros and drawing the conclusion.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设A是正整数集的一个非空子集，如果对于任意$x\\in A$，都有$x-1\\in A$或$x+1\\in A$，则称A为自邻集。记集合$A_n={1,2,\\cdots,n}$（n≥2，n∈N）的所有子集中的自邻集的个数为$a_n$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）直接写出$A_4$的所有自邻集；",
+            "solutionSteps": "1. 根据自邻集的定义，逐一列举集合$A_4={1,2,3,4}$的非空子集；\n2. 验证每个子集是否满足：任意x∈子集，都有x-1∈子集或x+1∈子集；\n3. 筛选出所有符合条件的自邻集。",
+            "standardAnswer": "{1,2,3,4}，{1,2,3}，{2,3,4}，{1,2}，{2,3}，{3,4}",
+            "scoringCriteria": "第一问共4分，列举出所有自邻集，少1个扣1分，多写非自邻集每个扣1分，扣完为止。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若n为偶数且n≥6，求证：$A_n$的所有含5个元素的子集中，自邻集的个数是偶数；",
+            "solutionSteps": "1. 设$A_n$的含5个元素的自邻集$B={x_1,x_2,x_3,x_4,x_5}$（$x_1<x_2<x_3<x_4<x_5$），由自邻集定义得$x_2=x_1+1$，$x_4=x_5-1$，$x_3=x_2+1$或$x_3=x_4-1$；\n2. 构造集合$C={n+1-x_5,n+1-x_4,n+1-x_3,n+1-x_2,n+1-x_1}$，验证$C\\subseteq A_n$且C也是含5个元素的自邻集；\n3. 由n为偶数，得$x_3≠n+1-x_3$，故B≠C，即每个自邻集都能找到唯一不同的自邻集与之配对；\n4. 因此含5个元素的自邻集的个数为偶数。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问共5分，设出集合B并根据自邻集定义得出元素间关系得1分，构造集合C并验证C是自邻集得2分，证明B≠C得1分，得出个数为偶数的结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若n≥4，求证：$a_n ≤2 a_{n-1}$。",
+            "solutionSteps": "1. 记自邻集中最大元素为k的自邻集的个数为$b_k$，则$a_{n-1}=b_2+b_3+\\cdots+b_{n-1}$，$a_n=b_2+b_3+\\cdots+b_{n-1}+b_n$，即$a_n=a_{n-1}+b_n$，只需证明$b_n ≤a_{n-1}$；\n2. 对最大元素为n的自邻集$b_n$分类讨论：①含n-2,n-1,n的自邻集，个数为$b_{n-1}$；②含n-1,n、不含n-2且元素数≥3的自邻集，个数为$b_2+b_3+\\cdots+b_{n-3}$；③仅含n-1,n的自邻集，个数为1；\n3. 综上$b_n=b_2+b_3+\\cdots+b_{n-3}+b_{n-1}+1$，结合$a_{n-1}=b_2+b_3+\\cdots+b_{n-2}+b_{n-1}$，得$b_n ≤a_{n-1}$；\n4. 因此$a_n=a_{n-1}+b_n ≤a_{n-1}+a_{n-1}=2a_{n-1}$，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问共6分，定义$b_k$并转化待证结论为$b_n ≤a_{n-1}$得2分，对$b_n$进行正确分类并求出各类个数得2分，证明$b_n ≤a_{n-1}$得1分，最终推出$a_n ≤2a_{n-1}$得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let A be a non-empty subset of the set of positive integers. If for any $x\\in A$, there is $x-1\\in A$ or $x+1\\in A$, then A is called a self-adjacent set. Denote the number of self-adjacent sets among all subsets of the set $A_n={1,2,\\cdots,n}$ (n≥2, n∈N) as $a_n$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Directly write all self-adjacent sets of $A_4$;",
+            "solutionSteps": "1. Enumerate all non-empty subsets of the set $A_4={1,2,3,4}$ one by one according to the definition of self-adjacent sets;\n2. Verify whether each subset satisfies: for any x∈the subset, there is x-1∈the subset or x+1∈the subset;\n3. Screen out all self-adjacent sets that meet the conditions.",
+            "standardAnswer": "{1,2,3,4}, {1,2,3}, {2,3,4}, {1,2}, {2,3}, {3,4}",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 1 point is deducted for each missing self-adjacent set, 1 point is deducted for each extra non-self-adjacent set, until all points are deducted.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If n is an even number and n≥6, prove that the number of self-adjacent sets among all 5-element subsets of $A_n$ is an even number;",
+            "solutionSteps": "1. Let the 5-element self-adjacent set of $A_n$ be $B={x_1,x_2,x_3,x_4,x_5}$ ($x_1<x_2<x_3<x_4<x_5$). From the definition of self-adjacent sets, we have $x_2=x_1+1$, $x_4=x_5-1$, $x_3=x_2+1$ or $x_3=x_4-1$;\n2. Construct the set $C={n+1-x_5,n+1-x_4,n+1-x_3,n+1-x_2,n+1-x_1}$, verify that $C\\subseteq A_n$ and C is also a 5-element self-adjacent set;\n3. Since n is an even number, we have $x_3≠n+1-x_3$, so B≠C, that is, each self-adjacent set can find a unique different self-adjacent set to pair with it;\n4. Therefore, the number of 5-element self-adjacent sets is an even number.",
+            "standardAnswer": "Proof is shown in the analysis",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for setting the set B and obtaining the relationship between elements according to the definition of self-adjacent sets, 2 points for constructing the set C and verifying that C is a self-adjacent set, 1 point for proving B≠C, and 1 point for drawing the conclusion that the number is an even number.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If n≥4, prove that $a_n ≤2 a_{n-1}$.",
+            "solutionSteps": "1. Denote the number of self-adjacent sets with the maximum element k as $b_k$, then $a_{n-1}=b_2+b_3+\\cdots+b_{n-1}$, $a_n=b_2+b_3+\\cdots+b_{n-1}+b_n$, that is, $a_n=a_{n-1}+b_n$, and we only need to prove $b_n ≤a_{n-1}$;\n2. Classify and discuss the self-adjacent sets $b_n$ with the maximum element n: ① Self-adjacent sets containing n-2,n-1,n, the number is $b_{n-1}$; ② Self-adjacent sets containing n-1,n, not containing n-2 and with the number of elements ≥3, the number is $b_2+b_3+\\cdots+b_{n-3}$; ③ Self-adjacent sets only containing n-1,n, the number is 1;\n3. In summary, $b_n=b_2+b_3+\\cdots+b_{n-3}+b_{n-1}+1$. Combined with $a_{n-1}=b_2+b_3+\\cdots+b_{n-2}+b_{n-1}$, we get $b_n ≤a_{n-1}$;\n4. Therefore, $a_n=a_{n-1}+b_n ≤a_{n-1}+a_{n-1}=2a_{n-1}$, which is proved.",
+            "standardAnswer": "Proof is shown in the analysis",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for defining $b_k$ and transforming the conclusion to be proved into $b_n ≤a_{n-1}$, 2 points for correctly classifying $b_n$ and finding the number of each type, 1 point for proving $b_n ≤a_{n-1}$, and 1 point for finally deducing $a_n ≤2a_{n-1}$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

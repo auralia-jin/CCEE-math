@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2023 Beijing Xicheng Senior Three Second Mock Examination",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "体重指数(Body Mass Index ,简称BMI )是国际上衡量人体胖瘦程度的一项常用指标。已知 $BMI=\\frac{W}{H^2}$，其中 W 表示体重(单位:kg )，H 表示身高(单位:m )。对成人，若 $BMI ≥28$，则身体处于肥胖状态。某企业为了解员工的身体状况，从全体员工中随机抽取30 人，测量他们的体重(单位:kg )和身高 (单位:cm )，得到如下散点图(图中曲线表示 $BMI=28$ 时体重和身高的关系)。假设用频率估计概率。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）该企业员工总数为1500 人，试估计该企业员工身体处于肥胖状态的人数；",
+            "solutionSteps": "1. 确定样本中肥胖员工的数量：样本中身体处于肥胖状态的员工共6人；\\n2. 计算肥胖员工的频率：频率为 $\\frac{6}{30}$；\\n3. 用频率估计概率，计算企业肥胖员工人数：$1500 ×\\frac{6}{30}=300$。",
+            "standardAnswer": "300",
+            "scoringCriteria": "该问共4分，确定样本中肥胖员工数量得2分，正确计算频率并代入总人数计算得1分，最终答案正确得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从该企业身体处于肥胖状态的员工中随机抽取3人，设其中体重在80kg 以上的人数为 X，估计 X 的分布列和数学期望 $E X$；",
+            "solutionSteps": "1. 计算单人次体重80kg以上的概率：样本中肥胖员工6人，其中2人体重80kg以上，概率 $p=\\frac{2}{6}=\\frac{1}{3}$；\\n2. 确定分布类型：X 服从二项分布 $X \\sim B(3, \\frac{1}{3})$；\\n3. 计算各取值概率：$P(X=0)=(1-\\frac{1}{3})^3=\\frac{8}{27}$，$P(X=1)=C_3^1 ×\\frac{1}{3}×(1-\\frac{1}{3})^2=\\frac{4}{9}$，$P(X=2)=C_3^2 ×(\\frac{1}{3})^2×(1-\\frac{1}{3})=\\frac{2}{9}$，$P(X=3)=(\\frac{1}{3})^3=\\frac{1}{27}$；\\n4. 列出分布列；\\n5. 计算数学期望：$E X=0 ×\\frac{8}{27}+1 ×\\frac{4}{9}+2 ×\\frac{2}{9}+3 ×\\frac{1}{27}=1$。",
+            "standardAnswer": "分布列为：| X | 0 | 1 | 2 | 3 |\\n| --- | --- | --- | --- | --- |\\n| P | $\\frac{8}{27}$ | $\\frac{4}{9}$ | $\\frac{2}{9}$ | $\\frac{1}{27}$ |；数学期望 $E X=1$",
+            "scoringCriteria": "该问共9分，计算出单人次概率得1分，确定二项分布类型得1分，正确计算X各取值的概率各1分（共4分），列出正确的分布列得1分，正确计算数学期望得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）从样本中身高大于或等于 $a(a \\in{155,160,165,170,175,180})$ 的员工中随机抽取1人，若其身体处于肥胖状态的概率小于10%，写出 a 的所有可能取值。(结论不要求证明)",
+            "solutionSteps": "根据散点图及概率计算要求，直接判断满足条件的a的取值。",
+            "standardAnswer": "$a=165$ 或 $170$",
+            "scoringCriteria": "该问共0分，为题目附加探究问，无具体分值，答案正确即可。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Body Mass Index (BMI for short) is a commonly used international indicator to measure the degree of fatness and thinness of the human body. It is known that $BMI=\\frac{W}{H^2}$, where W represents body weight (unit: kg) and H represents height (unit: m). For adults, if $BMI ≥28$, the body is in an obese state. An enterprise wants to understand the physical condition of its employees, randomly selects 30 employees from all employees, measures their body weight (unit: kg) and height (unit: cm), and obtains the following scatter plot (the curve in the figure represents the relationship between body weight and height when $BMI=28$). Assume that frequency is used to estimate probability.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) The total number of employees in the enterprise is 1500, try to estimate the number of employees in the enterprise who are in an obese state;",
+            "solutionSteps": "1. Determine the number of obese employees in the sample: there are 6 employees in an obese state in the sample;\\n2. Calculate the frequency of obese employees: the frequency is $\\frac{6}{30}$;\\n3. Estimate the probability with frequency and calculate the number of obese employees in the enterprise: $1500 ×\\frac{6}{30}=300$.",
+            "standardAnswer": "300",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for determining the number of obese employees in the sample, 1 point for correctly calculating the frequency and substituting the total number of people for calculation, and 1 point for the correct final answer.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 3 people from the obese employees of the enterprise, let X be the number of people whose body weight is more than 80kg, estimate the distribution column and mathematical expectation $E X$ of X;",
+            "solutionSteps": "1. Calculate the probability that a single person's weight is more than 80kg: there are 6 obese employees in the sample, 2 of whom have a weight of more than 80kg, and the probability $p=\\frac{2}{6}=\\frac{1}{3}$;\\n2. Determine the distribution type: X follows a binomial distribution $X \\sim B(3, \\frac{1}{3})$;\\n3. Calculate the probability of each value: $P(X=0)=(1-\\frac{1}{3})^3=\\frac{8}{27}$, $P(X=1)=C_3^1 ×\\frac{1}{3}×(1-\\frac{1}{3})^2=\\frac{4}{9}$, $P(X=2)=C_3^2 ×(\\frac{1}{3})^2×(1-\\frac{1}{3})=\\frac{2}{9}$, $P(X=3)=(\\frac{1}{3})^3=\\frac{1}{27}$;\\n4. List the distribution column;\\n5. Calculate the mathematical expectation: $E X=0 ×\\frac{8}{27}+1 ×\\frac{4}{9}+2 ×\\frac{2}{9}+3 ×\\frac{1}{27}=1$.",
+            "standardAnswer": "The distribution column is: | X | 0 | 1 | 2 | 3 |\\n| --- | --- | --- | --- | --- |\\n| P | $\\frac{8}{27}$ | $\\frac{4}{9}$ | $\\frac{2}{9}$ | $\\frac{1}{27}$ |; The mathematical expectation $E X=1$",
+            "scoringCriteria": "This sub-question is worth 9 points in total. 1 point for calculating the probability of a single person, 1 point for determining the binomial distribution type, 1 point for correctly calculating the probability of each value of X (4 points in total), 1 point for listing the correct distribution column, and 2 points for correctly calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) Randomly select 1 person from the employees in the sample whose height is greater than or equal to $a(a \\in{155,160,165,170,175,180})$, if the probability that the person is in an obese state is less than 10%, write down all possible values of a. (Proof is not required for the conclusion)",
+            "solutionSteps": "Directly judge the values of a that meet the requirements according to the scatter plot and probability calculation requirements.",
+            "standardAnswer": "$a=165$ or $170$",
+            "scoringCriteria": "This sub-question is worth 0 points, it is an additional exploratory question of the topic, with no specific score, and the correct answer is acceptable.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆 $E: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$ 的短轴长为 $2\\sqrt{2}$，一个焦点为 $F_1(-2,0)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆 E 的方程和离心率；",
+            "solutionSteps": "1. 根据已知条件列方程：由短轴长 $2b=2\\sqrt{2}$ 得 $b=\\sqrt{2}$，由焦点 $F_1(-2,0)$ 得 $c=2$；\\n2. 结合椭圆关系 $a^2=b^2+c^2$ 计算 $a$：$a^2=(\\sqrt{2})^2+2^2=6$，即 $a=\\sqrt{6}$；\\n3. 写出椭圆方程：$\\frac{x^2}{6}+\\frac{y^2}{2}=1$；\\n4. 计算离心率：$e=\\frac{c}{a}=\\frac{2}{\\sqrt{6}}=\\frac{\\sqrt{6}}{3}$。",
+            "standardAnswer": "椭圆E的方程为 $\\frac{x^2}{6}+\\frac{y^2}{2}=1$，离心率为 $\\frac{\\sqrt{6}}{3}$",
+            "scoringCriteria": "该问共5分，根据短轴长求出b得1分，根据焦点求出c得1分，利用椭圆关系求出a得1分，写出正确的椭圆方程得1分，计算出正确的离心率得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设直线 $l: x-m y-2=0$ 与椭圆 E 交于两点 A，B，点 M 在线段 $A B$ 上，点 $F_1$ 关于点 M 的对称点为 C。当四边形 $A F_1 B C$ 的面积最大时，求 m 的值。",
+            "solutionSteps": "1. 确定直线l过椭圆右焦点 $F_2(2,0)$；\\n2. 联立直线与椭圆方程：将 $x=my+2$ 代入 $x^2+3y^2=6$，整理得 $(m^2+3)y^2+4my-2=0$；\\n3. 设点并利用韦达定理：设 $A(x_1,y_1)$，$B(x_2,y_2)$，得 $y_1+y_2=\\frac{-4m}{m^2+3}$，$y_1y_2=\\frac{-2}{m^2+3}$；\\n4. 转化四边形面积：由M是$F_1C$中点，得四边形$AF_1BC$面积为$2S_{\\triangle F_1AB}$，进而得 $S_{四边形AF_1BC}=4|y_1-y_2|$；\\n5. 计算弦长相关：$|y_1-y_2|=\\sqrt{(y_1+y_2)^2-4y_1y_2}=\\sqrt{\\frac{16m^2}{(m^2+3)^2}+\\frac{8}{m^2+3}}$，代入得 $S_{四边形AF_1BC}=8\\sqrt{6}\\sqrt{\\frac{m^2+1}{(m^2+3)^2}}$；\\n6. 换元求最值：令 $t=m^2+1(t≥1)$，则面积表达式变为 $8\\sqrt{6}\\sqrt{\\frac{t}{(t+2)^2}}=8\\sqrt{6}\\sqrt{\\frac{1}{t+\\frac{4}{t}+4}}$，根据对勾函数性质，当 $t=2$ 时取最大值；\\n7. 求解m：由 $t=2$ 即 $m^2+1=2$，得 $m=±1$。",
+            "standardAnswer": "$m=±1$",
+            "scoringCriteria": "该问共10分，确定直线过右焦点得1分，联立方程并正确消元得2分，正确使用韦达定理得2分，将四边形面积转化为三角形面积的2倍并推出面积表达式得2分，换元并利用对勾函数求最值得2分，求出正确的m值得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the length of the minor axis of the ellipse $E: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$ is $2\\sqrt{2}$, and one focus is $F_1(-2,0)$. ",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation and eccentricity of the ellipse E;",
+            "solutionSteps": "1. List the equations according to the known conditions: from the minor axis length $2b=2\\sqrt{2}$, we get $b=\\sqrt{2}$, and from the focus $F_1(-2,0)$, we get $c=2$;\\n2. Calculate a by combining the ellipse relationship $a^2=b^2+c^2$: $a^2=(\\sqrt{2})^2+2^2=6$, that is $a=\\sqrt{6}$;\\n3. Write the ellipse equation: $\\frac{x^2}{6}+\\frac{y^2}{2}=1$;\\n4. Calculate the eccentricity: $e=\\frac{c}{a}=\\frac{2}{\\sqrt{6}}=\\frac{\\sqrt{6}}{3}$.",
+            "standardAnswer": "The equation of ellipse E is $\\frac{x^2}{6}+\\frac{y^2}{2}=1$, and the eccentricity is $\\frac{\\sqrt{6}}{3}$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for finding b from the length of the minor axis, 1 point for finding c from the focus, 1 point for finding a using the ellipse relationship, 1 point for writing the correct ellipse equation, and 1 point for calculating the correct eccentricity.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let the straight line $l: x-m y-2=0$ intersect the ellipse E at two points A and B, the point M is on the line segment AB, and the symmetric point of point $F_1$ about point M is C. Find the value of m when the area of the quadrilateral $AF_1BC$ is the largest.",
+            "solutionSteps": "1. Determine that the straight line l passes through the right focus $F_2(2,0)$ of the ellipse;\\n2. Simultaneously solve the equations of the straight line and the ellipse: substitute $x=my+2$ into $x^2+3y^2=6$, and sort out to get $(m^2+3)y^2+4my-2=0$;\\n3. Set points and use Vieta's theorem: let $A(x_1,y_1)$, $B(x_2,y_2)$, then $y_1+y_2=\\frac{-4m}{m^2+3}$, $y_1y_2=\\frac{-2}{m^2+3}$;\\n4. Transform the area of the quadrilateral: since M is the midpoint of $F_1C$, the area of the quadrilateral $AF_1BC$ is $2S_{\\triangle F_1AB}$, and then we get $S_{quadrilateral AF_1BC}=4|y_1-y_2|$;\\n5. Calculate the chord length related content: $|y_1-y_2|=\\sqrt{(y_1+y_2)^2-4y_1y_2}=\\sqrt{\\frac{16m^2}{(m^2+3)^2}+\\frac{8}{m^2+3}}$, substitute to get $S_{quadrilateral AF_1BC}=8\\sqrt{6}\\sqrt{\\frac{m^2+1}{(m^2+3)^2}}$;\\n6. Substitute variables to find the maximum value: let $t=m^2+1(t≥1)$, then the area expression becomes $8\\sqrt{6}\\sqrt{\\frac{t}{(t+2)^2}}=8\\sqrt{6}\\sqrt{\\frac{1}{t+\\frac{4}{t}+4}}$, according to the properties of the hook function, the maximum value is obtained when $t=2$;\\n7. Solve for m: from $t=2$, that is $m^2+1=2$, we get $m=±1$.",
+            "standardAnswer": "$m=±1$",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 1 point for determining that the straight line passes through the right focus, 2 points for simultaneously solving the equations and eliminating variables correctly, 2 points for using Vieta's theorem correctly, 2 points for transforming the area of the quadrilateral into twice the area of the triangle and deducing the area expression, 2 points for substituting variables and finding the maximum value using the hook function, and 1 point for finding the correct value of m.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数 $f(x)=x^2+\\ln (x+1)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求 $f(x)$ 在区间 $[-\\frac{1}{2}, 0]$ 上的最大值和最小值；",
+            "solutionSteps": "1. 求函数的导数：$f'(x)=2x+\\frac{1}{x+1}$；\\n2. 判断导数在区间内的符号：化简 $f'(x)=\\frac{2x(x+1)+1}{x+1}=\\frac{2x^2+2x+1}{x+1}$，分子 $2x^2+2x+1=2(x+\\frac{1}{2})^2+\\frac{1}{2}>0$，分母 $x+1>0$ 在 $[-\\frac{1}{2},0]$ 上恒成立，故 $f'(x)>0$；\\n3. 确定函数单调性：$f(x)$ 在 $[-\\frac{1}{2},0]$ 上单调递增；\\n4. 求最值：最小值 $f(-\\frac{1}{2})=(\\frac{1}{2})^2+\\ln(-\\frac{1}{2}+1)=\\frac{1}{4}-\\ln2$，最大值 $f(0)=0^2+\\ln1=0$。",
+            "standardAnswer": "最大值为0，最小值为 $\\frac{1}{4}-\\ln2$",
+            "scoringCriteria": "该问共5分，正确求出函数导数得1分，正确化简并判断导数在区间内的符号得2分，确定函数单调性得1分，求出正确的最大值和最小值各得0.5分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若 $(e^x+a cos x) f(x) ≥0$ 恒成立，求实数a 的值。",
+            "solutionSteps": "1. 分析函数$f(x)$的符号：由（Ⅰ）知$f(0)=0$，且$f'(x)>0$在$(-1,+\\infty)$上恒成立，故$f(x)$在$(-1,+\\infty)$上单调递增；当$x>0$时，$f(x)>0$，当$-1<x<0$时，$f(x)<0$；\\n2. 分析恒成立条件：设$g(x)=e^x+a cos x$，则当$x>0$时，$g(x)≥0$；当$-1<x<0$时，$g(x)≤0$，故$g(0)=0$；\\n3. 求a的初步值：由$g(0)=e^0+a cos0=1+a=0$，得$a=-1$；\\n4. 证明$a=-1$时恒成立：此时$g(x)=e^x-cos x$，$g'(x)=e^x+sin x$；\\n   ① 当$x>0$时，$g'(x)>1+sin x≥0$，$g(x)$在$(0,+\\infty)$上单调递增，$g(x)>g(0)=0$；\\n   ② 当$-1<x<0$时，设$h(x)=g'(x)$，$h'(x)=e^x+cos x>0$，故$g'(x)$在$(-1,0)$上单调递增，又$g'(-1)=e^{-1}-sin1<0$，$g'(0)=1>0$，存在唯一$x_0\\in(-1,0)$使$g'(x_0)=0$，则$g(x)$在$(-1,x_0)$递减，在$(x_0,0)$递增，且$g(-1)=e^{-1}-cos1<0$，$g(0)=0$，故$-1<x<0$时$g(x)<0$；\\n5. 综上，$a=-1$。",
+            "standardAnswer": "$a=-1$",
+            "scoringCriteria": "该问共10分，正确分析$f(x)$在定义域内的符号得2分，根据恒成立条件推出$g(0)=0$得2分，求出$a=-1$得1分，证明$x>0$时$g(x)>0$得2分，证明$-1<x<0$时$g(x)<0$得3分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=x^2+\\ln (x+1)$. ",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the maximum and minimum values of $f(x)$ on the interval $[-\\frac{1}{2}, 0]$;",
+            "solutionSteps": "1. Find the derivative of the function: $f'(x)=2x+\\frac{1}{x+1}$;\\n2. Judge the sign of the derivative in the interval: simplify $f'(x)=\\frac{2x(x+1)+1}{x+1}=\\frac{2x^2+2x+1}{x+1}$, the numerator $2x^2+2x+1=2(x+\\frac{1}{2})^2+\\frac{1}{2}>0$, the denominator $x+1>0$ holds for all $x\\in[-\\frac{1}{2},0]$, so $f'(x)>0$;\\n3. Determine the monotonicity of the function: $f(x)$ is monotonically increasing on $[-\\frac{1}{2},0]$;\\n4. Find the maximum and minimum values: the minimum value $f(-\\frac{1}{2})=(\\frac{1}{2})^2+\\ln(-\\frac{1}{2}+1)=\\frac{1}{4}-\\ln2$, the maximum value $f(0)=0^2+\\ln1=0$.",
+            "standardAnswer": "The maximum value is 0, and the minimum value is $\\frac{1}{4}-\\ln2$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for correctly finding the derivative of the function, 2 points for correctly simplifying and judging the sign of the derivative in the interval, 1 point for determining the monotonicity of the function, and 0.5 points for finding the correct maximum and minimum values respectively.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $(e^x+a cos x) f(x) ≥0$ holds for all x, find the value of the real number a.",
+            "solutionSteps": "1. Analyze the sign of the function $f(x)$: from (Ⅰ), we know $f(0)=0$, and $f'(x)>0$ holds for all $x\\in(-1,+\\infty)$, so $f(x)$ is monotonically increasing on $(-1,+\\infty)$; when $x>0$, $f(x)>0$, when $-1<x<0$, $f(x)<0$;\\n2. Analyze the constant establishment condition: let $g(x)=e^x+a cos x$, then when $x>0$, $g(x)≥0$; when $-1<x<0$, $g(x)≤0$, so $g(0)=0$;\\n3. Find the preliminary value of a: from $g(0)=e^0+a cos0=1+a=0$, we get $a=-1$;\\n4. Prove that it holds for all x when $a=-1$: at this time $g(x)=e^x-cos x$, $g'(x)=e^x+sin x$;\\n   ① When $x>0$, $g'(x)>1+sin x≥0$, $g(x)$ is monotonically increasing on $(0,+\\infty)$, $g(x)>g(0)=0$;\\n   ② When $-1<x<0$, let $h(x)=g'(x)$, $h'(x)=e^x+cos x>0$, so $g'(x)$ is monotonically increasing on $(-1,0)$, and $g'(-1)=e^{-1}-sin1<0$, $g'(0)=1>0$, there exists a unique $x_0\\in(-1,0)$ such that $g'(x_0)=0$, then $g(x)$ is decreasing on $(-1,x_0)$ and increasing on $(x_0,0)$, and $g(-1)=e^{-1}-cos1<0$, $g(0)=0$, so $g(x)<0$ when $-1<x<0$;\\n5. In conclusion, $a=-1$.",
+            "standardAnswer": "$a=-1$",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 2 points for correctly analyzing the sign of $f(x)$ in the domain, 2 points for deducing $g(0)=0$ according to the constant establishment condition, 1 point for finding $a=-1$, 2 points for proving $g(x)>0$ when $x>0$, and 3 points for proving $g(x)<0$ when $-1<x<0$.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "给定奇数 $n ≥3$，设 $A_0$ 是 $n ×n$ 的数阵，$a_{ij}$ 表示数阵第 i 行第 j 列的数，$a_{ij}= \\begin{cases}1 或 -1, i ≠j, \\\\0, i=j,\\end{cases}$ 且 $a_{ij}=a_{ji}(i=1,2, \\dots, n ; j=1,2, \\dots, n)$。定义变换 $\\varphi_t$ 为“将数阵中第 t 行和第 t 列的数都乘以 -1”，其中 $t \\in{1,2, \\dots, n}$。设 $T=(t_1, t_2, \\dots, t_s)$，$t_r \\in{1,2, \\dots, n}$，$r=1,2, \\dots,s(s \\in N^*)$。将 $A_0$ 经过 $\\varphi_{t_1}$ 变换到 $A_1$，$A_1$ 经过 $\\varphi_{t_2}$ 变换到 $A_2$，…，$A_{s-1}$ 经过 $\\varphi_{t_s}$ 变换到 $A_s$，记 $T_{A_0}(s)$ 为数阵 $A_s$ 中所有1的个数。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当 $n=3$ 时，设 $A_0=\\begin{pmatrix}0 & 1 & -1 \\\\1 & 0 & 1 \\\\-1 & 1 & 0\\end{pmatrix}$，$T=(1,3)$，写出 $A_1$，$A_2$，并求 $T_{A_0}(1)$，$T_{A_0}(2)$；",
+            "solutionSteps": "1. 求$A_1$：对$A_0$做变换$\\varphi_1$，将第1行第1列乘-1，得$A_1=\\begin{pmatrix}0 & -1 & 1 \\\\-1 & 0 & 1 \\\\1 & 1 & 0\\end{pmatrix}$；\\n2. 求$T_{A_0}(1)$：数$A_1$中1的个数，得$T_{A_0}(1)=4$；\\n3. 求$A_2$：对$A_1$做变换$\\varphi_3$，将第3行第3列乘-1，得$A_2=\\begin{pmatrix}0 & -1 & -1 \\\\-1 & 0 & -1 \\\\-1 & -1 & 0\\end{pmatrix}$；\\n4. 求$T_{A_0}(2)$：数$A_2$中1的个数，得$T_{A_0}(2)=0$。",
+            "standardAnswer": "$A_1=\\begin{pmatrix}0 & -1 & 1 \\\\-1 & 0 & 1 \\\\1 & 1 & 0\\end{pmatrix}$，$A_2=\\begin{pmatrix}0 & -1 & -1 \\\\-1 & 0 & -1 \\\\-1 & -1 & 0\\end{pmatrix}$，$T_{A_0}(1)=4$，$T_{A_0}(2)=0$",
+            "scoringCriteria": "该问共4分，正确写出$A_1$得1分，正确求出$T_{A_0}(1)$得1分，正确写出$A_2$得1分，正确求出$T_{A_0}(2)$得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）当 $n=5$，$s ≥2$ 时，对给定的数阵 $A_0$，证明：$T_{A_0}(2)-T_{A_0}(1)$ 是偶数；",
+            "solutionSteps": "1. 设数阵$A_1$中第$t_2$行和第$t_2$列中1的个数均为$x_{t_2}$，则变换$\\varphi_{t_2}$后，该位置1的个数变为$(n-1)-x_{t_2}$；\\n2. 推导$T_{A_0}(2)$与$T_{A_0}(1)$的关系：$T_{A_0}(2)=T_{A_0}(1)-x_{t_2}+[(n-1)-x_{t_2}]=T_{A_0}(1)+(n-1)-2x_{t_2}$；\\n3. 变形得差值：$T_{A_0}(2)-T_{A_0}(1)=(n-1)-2x_{t_2}$；\\n4. 分析奇偶性：$n=5$，故$n-1=4$为偶数，$2x_{t_2}$为偶数，偶数减偶数仍为偶数，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问共5分，合理设出$A_1$中第$t_2$行第$t_2$列1的个数得1分，正确推导$T_{A_0}(2)$与$T_{A_0}(1)$的数量关系得2分，正确变形得到差值表达式得1分，结合$n=5$分析出差值为偶数得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）证明：对给定的数阵 $A_0$，总存在 T，使得 $T_{A_0}(s) ≤\\frac{(n-1)^2}{2}$；",
+            "solutionSteps": "1. 设数阵$A_m$经过变换$\\varphi_{t_{m+1}}$得到$A_{m+1}$，记$A_m$中第$t_{m+1}$行和第$t_{m+1}$列中1的个数为$y_{t_{m+1}}$，则$T_{A_0}(m+1)=T_{A_0}(m)+2(n-1)-4y_{t_{m+1}}$；\\n2. 取$T'$使$T_{A_0}'(s)$为最小值，记$A_s$每行中1的个数为$z_1,z_2,\\dots,z_n$，若存在$z_j>\\frac{n-1}{2}$，则再做变换$\\varphi_j$，$T_{A_0}''(s+1)<T_{A_0}'(s)$，与最小值矛盾，故$z_i≤\\frac{n-1}{2}$；\\n3. 分情况讨论：\\n   ① 若$z_i=\\frac{n-1}{2}$的个数不超过$\\frac{n+1}{2}$，则$T_{A_0}'(s) ≤\\frac{n+1}{2}×\\frac{n-1}{2}+(n-\\frac{n+1}{2})×(\\frac{n-1}{2}-1)=\\frac{(n-1)^2}{2}$；\\n   ② 若$z_i=\\frac{n-1}{2}$的个数大于$\\frac{n+1}{2}$，则必存在$i,j$使$a_{ij}=-1$且$z_i=z_j=\\frac{n-1}{2}$，否则矛盾；对$j,i$依次做变换，得$T_{A_0}'''(s+2)<T_{A_0}'(s)$，与最小值矛盾，故该情况不存在；\\n4. 综上，总存在T使得$T_{A_0}(s) ≤\\frac{(n-1)^2}{2}$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "该问共6分，正确推导变换后1的个数的递推关系得1分，假设最小值并推出每行1的个数的上限得1分，第一种情况的不等式证明正确得2分，推出第二种情况不存在的关键推理得1分，最终综合得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given an odd number $n ≥3$, let $A_0$ be an $n ×n$ matrix, $a_{ij}$ denotes the number in the i-th row and j-th column of the matrix, $a_{ij}= \\begin{cases}1 or -1, i ≠j, \\\\0, i=j,\\end{cases}$ and $a_{ij}=a_{ji}(i=1,2, \\dots, n ; j=1,2, \\dots, n)$. Define the transformation $\\varphi_t$ as \"multiply all the numbers in the t-th row and t-th column of the matrix by -1\", where $t \\in{1,2, \\dots, n}$. Let $T=(t_1, t_2, \\dots, t_s)$，$t_r \\in{1,2, \\dots, n}$，$r=1,2, \\dots,s(s \\in N^*)$. Transform $A_0$ to $A_1$ through $\\varphi_{t_1}$, $A_1$ to $A_2$ through $\\varphi_{t_2}$, …, $A_{s-1}$ to $A_s$ through $\\varphi_{t_s}$, and denote $T_{A_0}(s)$ as the number of all 1s in the matrix $A_s$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $n=3$, let $A_0=\\begin{pmatrix}0 & 1 & -1 \\\\1 & 0 & 1 \\\\-1 & 1 & 0\\end{pmatrix}$, $T=(1,3)$, write down $A_1$, $A_2$, and find $T_{A_0}(1)$, $T_{A_0}(2)$;",
+            "solutionSteps": "1. Find $A_1$: perform the transformation $\\varphi_1$ on $A_0$, multiply the 1st row and 1st column by -1, we get $A_1=\\begin{pmatrix}0 & -1 & 1 \\\\-1 & 0 & 1 \\\\1 & 1 & 0\\end{pmatrix}$;\\n2. Find $T_{A_0}(1)$: count the number of 1s in $A_1$, we get $T_{A_0}(1)=4$;\\n3. Find $A_2$: perform the transformation $\\varphi_3$ on $A_1$, multiply the 3rd row and 3rd column by -1, we get $A_2=\\begin{pmatrix}0 & -1 & -1 \\\\-1 & 0 & -1 \\\\-1 & -1 & 0\\end{pmatrix}$;\\n4. Find $T_{A_0}(2)$: count the number of 1s in $A_2$, we get $T_{A_0}(2)=0$.",
+            "standardAnswer": "$A_1=\\begin{pmatrix}0 & -1 & 1 \\\\-1 & 0 & 1 \\\\1 & 1 & 0\\end{pmatrix}$, $A_2=\\begin{pmatrix}0 & -1 & -1 \\\\-1 & 0 & -1 \\\\-1 & -1 & 0\\end{pmatrix}$, $T_{A_0}(1)=4$, $T_{A_0}(2)=0$",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 1 point for writing $A_1$ correctly, 1 point for finding $T_{A_0}(1)$ correctly, 1 point for writing $A_2$ correctly, and 1 point for finding $T_{A_0}(2)$ correctly.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) When $n=5$, $s ≥2$, for a given matrix $A_0$, prove that $T_{A_0}(2)-T_{A_0}(1)$ is an even number;",
+            "solutionSteps": "1. Let the number of 1s in the $t_2$-th row and $t_2$-th column of matrix $A_1$ be $x_{t_2}$, then after the transformation $\\varphi_{t_2}$, the number of 1s in this position becomes $(n-1)-x_{t_2}$;\\n2. Deduce the relationship between $T_{A_0}(2)$ and $T_{A_0}(1)$: $T_{A_0}(2)=T_{A_0}(1)-x_{t_2}+[(n-1)-x_{t_2}]=T_{A_0}(1)+(n-1)-2x_{t_2}$;\\n3. Deform to get the difference: $T_{A_0}(2)-T_{A_0}(1)=(n-1)-2x_{t_2}$;\\n4. Analyze the parity: $n=5$, so $n-1=4$ which is an even number, $2x_{t_2}$ is an even number, and the difference between two even numbers is still an even number, thus the proof is completed.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for reasonably setting the number of 1s in the $t_2$-th row and $t_2$-th column of $A_1$, 2 points for correctly deducing the quantitative relationship between $T_{A_0}(2)$ and $T_{A_0}(1)$, 1 point for correctly deforming to get the difference expression, and 1 point for analyzing that the difference is an even number combined with $n=5$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Prove that for a given matrix $A_0$, there always exists T such that $T_{A_0}(s) ≤\\frac{(n-1)^2}{2}$;",
+            "solutionSteps": "1. Let the matrix $A_m$ be transformed into $A_{m+1}$ through $\\varphi_{t_{m+1}}$, denote the number of 1s in the $t_{m+1}$-th row and $t_{m+1}$-th column of $A_m$ as $y_{t_{m+1}}$, then $T_{A_0}(m+1)=T_{A_0}(m)+2(n-1)-4y_{t_{m+1}}$;\\n2. Take $T'$ such that $T_{A_0}'(s)$ is the minimum value, denote the number of 1s in each row of $A_s$ as $z_1,z_2,\\dots,z_n$. If there exists $z_j>\\frac{n-1}{2}$, then perform the transformation $\\varphi_j$ again, $T_{A_0}''(s+1)<T_{A_0}'(s)$, which contradicts the minimum value, so $z_i≤\\frac{n-1}{2}$;\\n3. Discuss by cases: \\n   ① If the number of $z_i=\\frac{n-1}{2}$ is no more than $\\frac{n+1}{2}$, then $T_{A_0}'(s) ≤\\frac{n+1}{2}×\\frac{n-1}{2}+(n-\\frac{n+1}{2})×(\\frac{n-1}{2}-1)=\\frac{(n-1)^2}{2}$;\\n   ② If the number of $z_i=\\frac{n-1}{2}$ is more than $\\frac{n+1}{2}$, then there must exist $i,j$ such that $a_{ij}=-1$ and $z_i=z_j=\\frac{n-1}{2}$, otherwise it is a contradiction; perform transformations on $j,i$ in turn, we get $T_{A_0}'''(s+2)<T_{A_0}'(s)$, which contradicts the minimum value, so this case does not exist;\\n4. In conclusion, there always exists T such that $T_{A_0}(s) ≤\\frac{(n-1)^2}{2}$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 1 point for correctly deducing the recursive relationship of the number of 1s after transformation, 1 point for assuming the minimum value and deducing the upper limit of the number of 1s in each row, 2 points for the correct inequality proof in the first case, 1 point for the key reasoning that the second case does not exist, and 1 point for finally drawing the conclusion comprehensively.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

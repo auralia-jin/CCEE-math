@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2024 Beijing Fengtai Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "激光的单光子通讯过程可用如下模型表述：发送方将信息加密后选择某种特定偏振状态的单光子进行发送。在信息传输过程中，若存在窃听者，由于密码本的缺失，窃听者不一定能正确解密并获取准确信息。某次实验中，假设原始信息的单光子的偏振状态0,1,2,3等可能地出现，原始信息的单光子的偏振状态与窃听者的解密信息的单光子的偏振状态有如下对应关系：原始信息的单光子的偏振状态1对应解密信息的单光子的偏振状态0,1,2；原始信息的单光子的偏振状态2对应解密信息的单光子的偏振状态3,1,2。已知原始信息的任意一种单光子的偏振状态，对应的窃听者解密信息的单光子的偏振状态等可能地出现。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若发送者发送的原始信息的单光子的偏振状态为1，求窃听者解密信息的单光子的偏振状态与原始信息的单光子的偏振状态相同的概率；",
+            "solutionSteps": "设事件A为“解密信息的单光子的偏振状态与原始信息的单光子的偏振状态相同”，原始信息偏振状态为1时，解密信息有0,1,2三种等可能结果，其中与原始状态相同的结果只有1这1种，根据古典概型概率公式$P(A)=\\frac{符合条件的结果数}{总结果数}$，计算得概率。",
+            "standardAnswer": "$\\frac{1}{3}$",
+            "scoringCriteria": "第一问，正确设定事件得1分；明确总结果数和符合条件的结果数得1分；正确运用古典概型概率公式计算得1分；最终答案正确得1分，共3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若发送者连续三次发送的原始信息的单光子的偏振状态均为1，设窃听者解密信息的单光子的偏振状态为1的个数为X，求X的分布列和数学期望$E(X)$；",
+            "solutionSteps": "1. 确定X的可能取值为0,1,2,3，由题意知X服从二项分布$X\\sim B(3,\\frac{1}{3})$；\\n2. 根据二项分布概率公式$P(X=k)=C_{3}^{k}(\\frac{1}{3})^{k}(\\frac{2}{3})^{3-k}$，分别计算$P(X=0)$、$P(X=1)$、$P(X=2)$、$P(X=3)$；\\n3. 列出X的分布列；\\n4. 根据二项分布数学期望公式$E(X)=np$，代入$n=3$，$p=\\frac{1}{3}$计算期望，或通过分布列$E(X)=0\\times P(X=0)+1\\times P(X=1)+2\\times P(X=2)+3\\times P(X=3)$计算。",
+            "standardAnswer": "分布列：| X | 0 | 1 | 2 | 3 |\\n| P | $\\frac{8}{27}$ | $\\frac{4}{9}$ | $\\frac{2}{9}$ | $\\frac{1}{27}$ |；数学期望$E(X)=1$",
+            "scoringCriteria": "第二问，正确确定X的可能取值得1分；正确判断二项分布并写出概率公式得2分；依次计算出四个概率值各得1分，共4分；正确列出分布列得2分；正确计算出数学期望得2分，共9分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）已知发送者连续三次发送信息，窃听者解密信息的单光子的偏振状态均为1。设原始信息的单光子只有一种偏振状态的可能性为a，有两种偏振状态的可能性为b，有三种偏振状态的可能性为c，试比较a，b，c的大小关系。（结论不要求证明）",
+            "solutionSteps": "根据题意直接判断原始信息单光子偏振状态的不同情况的可能性大小，得出a、b、c的大小关系。",
+            "standardAnswer": "$a<c<b$",
+            "scoringCriteria": "第三问，直接写出正确的大小关系得1分，共1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The single-photon communication process of laser can be described by the following model: the sender encrypts the information and then sends a single photon with a specific polarization state. During the information transmission, if there is an eavesdropper, due to the lack of the codebook, the eavesdropper may not be able to decrypt correctly and obtain accurate information. In an experiment, it is assumed that the polarization states 0,1,2,3 of the single photon of the original information appear equally likely, and the corresponding relationship between the polarization state of the single photon of the original information and that of the single photon of the decrypted information by the eavesdropper is as follows: the polarization state 1 of the single photon of the original information corresponds to the polarization states 0,1,2 of the single photon of the decrypted information; the polarization state 2 of the single photon of the original information corresponds to the polarization states 3,1,2 of the single photon of the decrypted information. It is known that for any polarization state of the single photon of the original information, the corresponding polarization states of the single photon of the decrypted information by the eavesdropper appear equally likely.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If the polarization state of the single photon of the original information sent by the sender is 1, find the probability that the polarization state of the single photon of the decrypted information by the eavesdropper is the same as that of the single photon of the original information;",
+            "solutionSteps": "Let event A be \"the polarization state of the single photon of the decrypted information is the same as that of the single photon of the original information\". When the polarization state of the original information is 1, there are three equally likely results 0,1,2 for the decrypted information, among which only 1 result is the same as the original state. Calculate the probability according to the probability formula of classical probability model $P(A)=\\frac{Number of favorable outcomes}{Total number of outcomes}$.",
+            "standardAnswer": "$\\frac{1}{3}$",
+            "scoringCriteria": "Question (Ⅰ), 1 point for correctly defining the event; 1 point for clarifying the total number of outcomes and the number of favorable outcomes; 1 point for correctly calculating by using the probability formula of classical probability model; 1 point for the correct final answer, total 3 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If the sender sends the single photon of the original information with polarization state 1 for three consecutive times, let X be the number of times that the polarization state of the single photon of the decrypted information by the eavesdropper is 1, find the probability mass function of X and the mathematical expectation $E(X)$;",
+            "solutionSteps": "1. Determine the possible values of X are 0,1,2,3, and X follows the binomial distribution $X\\sim B(3,\\frac{1}{3})$ according to the meaning of the question;\\n2. Calculate $P(X=0)$, $P(X=1)$, $P(X=2)$, $P(X=3)$ respectively according to the probability formula of binomial distribution $P(X=k)=C_{3}^{k}(\\frac{1}{3})^{k}(\\frac{2}{3})^{3-k}$;\\n3. List the probability mass function of X;\\n4. Calculate the expectation by substituting $n=3$, $p=\\frac{1}{3}$ into the mathematical expectation formula of binomial distribution $E(X)=np$, or calculate by the probability mass function $E(X)=0\\times P(X=0)+1\\times P(X=1)+2\\times P(X=2)+3\\times P(X=3)$.",
+            "standardAnswer": "Probability mass function: | X | 0 | 1 | 2 | 3 |\\n| P | $\\frac{8}{27}$ | $\\frac{4}{9}$ | $\\frac{2}{9}$ | $\\frac{1}{27}$ |; Mathematical expectation $E(X)=1$",
+            "scoringCriteria": "Question (Ⅱ), 1 point for correctly determining the possible values of X; 2 points for correctly judging the binomial distribution and writing the probability formula; 1 point for each of the four probability values calculated in turn, total 4 points; 2 points for correctly listing the probability mass function; 2 points for correctly calculating the mathematical expectation, total 9 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) It is known that the sender sends information three consecutive times, and the polarization state of the single photon of the decrypted information by the eavesdropper is 1 every time. Let a be the possibility that the single photon of the original information has only one polarization state, b be the possibility that it has two polarization states, and c be the possibility that it has three polarization states. Compare the magnitude relationship of a, b and c. (Proof is not required for the conclusion)",
+            "solutionSteps": "Directly judge the magnitude of the possibility of different situations of the polarization state of the single photon of the original information according to the meaning of the question, and obtain the magnitude relationship of a, b and c.",
+            "standardAnswer": "$a<c<b$",
+            "scoringCriteria": "Question (Ⅲ), 1 point for directly writing the correct magnitude relationship, total 1 point.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当$a=1$时，求曲线$y=f(x)$在点$(1, f(1))$处的切线方程；",
+            "solutionSteps": "1. 当$a=1$时，代入得$f(x)=x+2\\sqrt{x}-2\\ln x$，计算$f(1)=1+2\\times1-2\\ln1=3$，确定切点为$(1,3)$；\\n2. 求导得$f'(x)=1+\\frac{1}{\\sqrt{x}}-\\frac{2}{x}$，计算$f'(1)=1+1-2=0$，得到切线斜率；\\n3. 根据点斜式$y-y_0=f'(x_0)(x-x_0)$，代入切点和斜率求出切线方程。",
+            "standardAnswer": "$y=3$",
+            "scoringCriteria": "第一问，正确代入a的值求出函数解析式得1分；正确计算$f(1)$的值确定切点得1分；正确求导并计算$f'(1)$的值得到切线斜率得1分；根据点斜式求出正确的切线方程得1分，共4分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若函数$f(x)$有两个零点，求a的取值范围。",
+            "solutionSteps": "1. 确定函数$f(x)=a^2x+2a\\sqrt{x}-2\\ln x(a≠0)$的定义域为$(0,+\\infty)$；\\n2. 求导并化简$f'(x)=\\frac{(a\\sqrt{x}+2)(a\\sqrt{x}-1)}{x}$；\\n3. 分$a>0$和$a<0$两种情况讨论：\\n   ①当$a>0$时，分析$f'(x)$的符号，得$f(x)$在$(0,\\frac{1}{a^2})$上单调递减，在$(\\frac{1}{a^2},+\\infty)$上单调递增，求出极小值$f(\\frac{1}{a^2})=3+4\\ln a$，根据零点存在性，令极小值小于0，结合$x\\to0^+$和$x\\to+\\infty$时$f(x)$的趋势，得$0<a<e^{-\\frac{3}{4}}$；\\n   ②当$a<0$时，分析$f'(x)$的符号，得$f(x)$在$(0,\\frac{4}{a^2})$上单调递减，在$(\\frac{4}{a^2},+\\infty)$上单调递增，求出极小值$f(\\frac{4}{a^2})=-2\\ln\\frac{4}{a^2}$，令极小值小于0，结合$x\\to0^+$和$x\\to+\\infty$时$f(x)$的趋势，得$-2<a<0$；\\n4. 综合两种情况得出a的取值范围。",
+            "standardAnswer": "$(-2,0)\\cup(0,e^{-\\frac{3}{4}})$",
+            "scoringCriteria": "第二问，正确写出函数定义域得1分；正确求导并化简导数表达式得2分；分$a>0$和$a<0$进行分类讨论，每种情况中正确分析导数符号确定函数单调性得2分，共4分；正确求出对应极小值并令其小于0求解得4分；结合函数极限趋势验证零点存在性得2分；综合得出正确的取值范围得1分，共10分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When $a=1$, find the tangent equation of the curve $y=f(x)$ at the point $(1, f(1))$;",
+            "solutionSteps": "1. When $a=1$, substitute to get $f(x)=x+2\\sqrt{x}-2\\ln x$, calculate $f(1)=1+2\\times1-2\\ln1=3$, and determine the tangent point as $(1,3)$;\\n2. Find the derivative $f'(x)=1+\\frac{1}{\\sqrt{x}}-\\frac{2}{x}$, calculate $f'(1)=1+1-2=0$ to get the slope of the tangent line;\\n3. Find the tangent equation according to the point-slope form $y-y_0=f'(x_0)(x-x_0)$ by substituting the tangent point and the slope.",
+            "standardAnswer": "$y=3$",
+            "scoringCriteria": "Question (Ⅰ), 1 point for correctly substituting the value of a to find the function expression; 1 point for correctly calculating the value of $f(1)$ to determine the tangent point; 1 point for correctly finding the derivative and calculating the value of $f'(1)$ to get the slope of the tangent line; 1 point for finding the correct tangent equation according to the point-slope form, total 4 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If the function $f(x)$ has two zeros, find the range of values of a.",
+            "solutionSteps": "1. Determine the domain of the function $f(x)=a^2x+2a\\sqrt{x}-2\\ln x(a≠0)$ is $(0,+\\infty)$;\\n2. Find and simplify the derivative $f'(x)=\\frac{(a\\sqrt{x}+2)(a\\sqrt{x}-1)}{x}$;\\n3. Discuss in two cases: $a>0$ and $a<0$: \\n   ①When $a>0$, analyze the sign of $f'(x)$, obtain that $f(x)$ is monotonically decreasing on $(0,\\frac{1}{a^2})$ and monotonically increasing on $(\\frac{1}{a^2},+\\infty)$, find the minimum value $f(\\frac{1}{a^2})=3+4\\ln a$. According to the zero existence theorem, let the minimum value be less than 0, and combine the trend of $f(x)$ when $x\\to0^+$ and $x\\to+\\infty$, get $0<a<e^{-\\frac{3}{4}}$;\\n   ②When $a<0$, analyze the sign of $f'(x)$, obtain that $f(x)$ is monotonically decreasing on $(0,\\frac{4}{a^2})$ and monotonically increasing on $(\\frac{4}{a^2},+\\infty)$, find the minimum value $f(\\frac{4}{a^2})=-2\\ln\\frac{4}{a^2}$. Let the minimum value be less than 0, and combine the trend of $f(x)$ when $x\\to0^+$ and $x\\to+\\infty$, get $-2<a<0$;\\n4. Synthesize the two cases to get the range of values of a.",
+            "standardAnswer": "$(-2,0)\\cup(0,e^{-\\frac{3}{4}})$",
+            "scoringCriteria": "Question (Ⅱ), 1 point for correctly writing the domain of the function; 2 points for correctly finding and simplifying the derivative expression; discuss in two cases of $a>0$ and $a<0$, 2 points for correctly analyzing the sign of the derivative to determine the monotonicity of the function in each case, total 4 points; 4 points for correctly finding the corresponding minimum value and solving by letting it be less than 0; 2 points for verifying the existence of zeros by combining the limit trend of the function; 1 point for synthesizing to get the correct range of values, total 10 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知两点$F_1(-1,0)$，$F_2(1,0)$，曲线$Ω$上的动点M满足$|MF_1|+|MF_2|=2|F_1F_2|$，直线$MF_2$与曲线$Ω$交于另一点N。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求曲线$Ω$的方程；",
+            "solutionSteps": "1. 由$|MF_1|+|MF_2|=2|F_1F_2|=4>|F_1F_2|=2$，根据椭圆的定义，判断曲线$Ω$为以$F_1,F_2$为焦点的椭圆；\\n2. 确定椭圆的基本量：$2a=4$，$c=1$，解得$a=2$，$c=1$；\\n3. 根据$a^2=b^2+c^2$，计算$b^2=a^2-c^2=4-1=3$；\\n4. 写出椭圆的标准方程。",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "第一问，正确根据椭圆定义判断曲线类型得1分；正确计算$2a$和$c$的值得1分；正确利用$a^2=b^2+c^2$求出$b^2$得1分；写出正确的椭圆标准方程得1分，共4分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设曲线$Ω$与x轴的交点分别为A，B（点A在点B的左侧，且M不与A，B重合），直线AM与直线BN交于点P。当点B为线段NP的中点时，求点N的横坐标。",
+            "solutionSteps": "解法1：\\n1. 先判断直线MN斜率不存在时不符合题意；\\n2. 设直线MN的方程为$y=k(x-1)$，联立椭圆方程$\\frac{x^2}{4}+\\frac{y^2}{3}=1$，消元得$(4k^2+3)x^2-8k^2x+4k^2-12=0$；\\n3. 设$M(x_1,y_1)$，$N(x_2,y_2)$，由韦达定理得$x_1+x_2=\\frac{8k^2}{4k^2+3}$，$x_1x_2=\\frac{4k^2-12}{4k^2+3}$；\\n4. 写出直线AM：$y=\\frac{y_1}{x_1+2}(x+2)$和直线BN：$y=\\frac{y_2}{x_2-2}(x-2)$的方程，联立得$\\frac{x_P+2}{x_P-2}=\\frac{k(x_2-1)(x_1+2)}{k(x_1-1)(x_2-2)}$，化简后代入韦达定理结果得$\\frac{x_P+2}{x_P-2}=3$，解得$x_P=4$；\\n5. 由B为NP中点，$B(2,0)$，根据中点坐标公式得$2=\\frac{x_P+x_2}{2}$，代入$x_P=4$解得$x_2=0$。\\n解法2：\\n1. 设直线MN的方程为$x=my+1$，联立椭圆方程得$(3m^2+4)y^2+6my-9=0$；\\n2. 设$M(x_1,y_1)$，$N(x_2,y_2)$，$P(x_P,y_P)$，由韦达定理得$y_1+y_2=-\\frac{6m}{3m^2+4}$，$y_1y_2=-\\frac{9}{3m^2+4}$；\\n3. 写出直线AM和BN的方程，联立得$y_P=\\frac{4y_1y_2}{(x_1+2)y_2-(x_2-2)y_1}$；\\n4. 由B为NP中点得$y_P=-y_2$，代入化简得$5y_1=-3y_2$，结合韦达定理求出$m^2=\\frac{1}{3}$，进而求得$x_2=0$。",
+            "standardAnswer": "0",
+            "scoringCriteria": "第二问，正确设出直线方程得2分；联立椭圆方程并正确消元得2分；正确运用韦达定理得出根与系数的关系得2分；写出直线AM和BN的方程并联立化简得3分；利用中点坐标公式建立等式并正确求解得4分，共11分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given two points $F_1(-1,0)$ and $F_2(1,0)$, the moving point M on the curve $Ω$ satisfies $|MF_1|+|MF_2|=2|F_1F_2|$, and the line $MF_2$ intersects the curve $Ω$ at another point N.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the curve $Ω$;",
+            "solutionSteps": "1. From $|MF_1|+|MF_2|=2|F_1F_2|=4>|F_1F_2|=2$, judge that the curve $Ω$ is an ellipse with $F_1,F_2$ as the foci according to the definition of an ellipse;\\n2. Determine the basic quantities of the ellipse: $2a=4$, $c=1$, solve to get $a=2$, $c=1$;\\n3. Calculate $b^2=a^2-c^2=4-1=3$ according to $a^2=b^2+c^2$;\\n4. Write the standard equation of the ellipse.",
+            "standardAnswer": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$",
+            "scoringCriteria": "Question (Ⅰ), 1 point for correctly judging the curve type according to the definition of an ellipse; 1 point for correctly calculating the values of $2a$ and $c$; 1 point for correctly finding $b^2$ by using $a^2=b^2+c^2$; 1 point for writing the correct standard equation of the ellipse, total 4 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let the intersection points of the curve $Ω$ and the x-axis be A and B respectively (point A is on the left of point B, and M does not coincide with A and B), the line AM and the line BN intersect at point P. When point B is the midpoint of the line segment NP, find the abscissa of point N.",
+            "solutionSteps": "Method 1:\\n1. First judge that the case where the slope of the line MN does not exist is not in line with the meaning of the question;\\n2. Let the equation of the line MN be $y=k(x-1)$,联立 the ellipse equation $\\frac{x^2}{4}+\\frac{y^2}{3}=1$, eliminate y to get $(4k^2+3)x^2-8k^2x+4k^2-12=0$;\\n3. Let $M(x_1,y_1)$, $N(x_2,y_2)$, get $x_1+x_2=\\frac{8k^2}{4k^2+3}$, $x_1x_2=\\frac{4k^2-12}{4k^2+3}$ by Vieta's formulas;\\n4. Write the equations of line AM: $y=\\frac{y_1}{x_1+2}(x+2)$ and line BN: $y=\\frac{y_2}{x_2-2}(x-2)$,联立 them to get $\\frac{x_P+2}{x_P-2}=\\frac{k(x_2-1)(x_1+2)}{k(x_1-1)(x_2-2)}$, substitute the results of Vieta's formulas after simplification to get $\\frac{x_P+2}{x_P-2}=3$, solve to get $x_P=4$;\\n5. Since B is the midpoint of NP and $B(2,0)$, get $2=\\frac{x_P+x_2}{2}$ according to the midpoint coordinate formula, substitute $x_P=4$ to solve for $x_2=0$.\\nMethod 2:\\n1. Let the equation of the line MN be $x=my+1$,联立 the ellipse equation to get $(3m^2+4)y^2+6my-9=0$;\\n2. Let $M(x_1,y_1)$, $N(x_2,y_2)$, $P(x_P,y_P)$, get $y_1+y_2=-\\frac{6m}{3m^2+4}$, $y_1y_2=-\\frac{9}{3m^2+4}$ by Vieta's formulas;\\n3. Write the equations of line AM and BN,联立 them to get $y_P=\\frac{4y_1y_2}{(x_1+2)y_2-(x_2-2)y_1}$;\\n4. Get $y_P=-y_2$ because B is the midpoint of NP, substitute and simplify to get $5y_1=-3y_2$, find $m^2=\\frac{1}{3}$ combined with Vieta's formulas, and then obtain $x_2=0$.",
+            "standardAnswer": "0",
+            "scoringCriteria": "Question (Ⅱ), 2 points for correctly setting up the equation of the line; 2 points for联立 the ellipse equation and eliminating the variable correctly; 2 points for correctly obtaining the relationship between roots and coefficients by using Vieta's formulas; 3 points for writing the equations of line AM and BN and联立 and simplifying them; 4 points for establishing an equation by using the midpoint coordinate formula and solving it correctly, total 11 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "将正整数数列$N_0:1,2,3,4,\\cdots$中项数为平方数的项依次选出构成数列$A_1:1,4,9,16,\\cdots$，此时数列$N_0$中剩下的项构成数列$N_1:2,3,5,6,\\cdots$；再将数列$N_1$项数为平方数的项依次选出构成数列$A_2:2,6,12,20,\\cdots$，剩下的项构成数列$N_2$；$\\cdots$，如此操作下去，将数列$N_{k-1}(k\\in N^*)$中项数为平方数的项依次选出构成数列$A_k$，剩下的项构成数列$N_k$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）分别写出数列$A_3$，$A_4$的前2项；",
+            "solutionSteps": "根据题目中给出的数列构造规则，依次分析数列$N_2$中项数为平方数的项得到$A_3$的前2项，再分析数列$N_3$中项数为平方数的项得到$A_4$的前2项。",
+            "standardAnswer": "$A_3$的前2项：3，8；$A_4$的前2项：5，11",
+            "scoringCriteria": "第一问，正确写出$A_3$的前2项得2分；正确写出$A_4$的前2项得2分，共4分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）记数列$A_m$的第n项为$f(m, n)$。求证：当$n ≥2$时，$f(m, n)-f(m, n-1)=2 n+m-2$；",
+            "solutionSteps": "1. 先验证$m=1$时，$f(1,n)=n^2$，$f(1,n)-f(1,n-1)=2n-1$，结论成立；\\n2. 当$m≥2$时，分析数列$A_m$与$A_{m-1}$的项的大小关系，得到$f(m,n-1)<f(m-1,n)<f(m,n)$，进而推出$f(m,n)-f(m,n-1)=f(m-1,n)-f(m-1,n-1)+1$；\\n3. 得出$\\{f(m, n)-f(m, n-1)\\}$构成首项为$2n-1$，公差为1的等差数列；\\n4. 根据等差数列通项公式证明$f(m,n)-f(m,n-1)=(2n-1)+(m-1)=2n+m-2$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问，正确验证$m=1$时结论成立得1分；正确分析$A_m$与$A_{m-1}$项的大小关系并推出递推式得2分；正确判断数列类型并写出首项和公差得1分；根据等差数列通项公式完成证明得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若$f(m, n)=108$，求$m, n$的值。",
+            "solutionSteps": "1. 由（Ⅱ）的结论，通过累加法得到$f(m,n)=(n-1)(n+m)+f(m,1)$，并分$m$为偶数和奇数得出$f(m,1)$的表达式，进而得到$f(m,n)$的分段表达式；\\n2. 先讨论$m$为偶数的情况：$f(m,n)=(\\frac{m}{2}+n-1)^2+n=108$，变形得$(\\frac{m}{2}+n-1)^2=108-n$，分析得$\\sqrt{108-n}=10$，解得$n=8$，再代入求出$m=6$；\\n3. 再讨论$m$为奇数的情况：$f(m,n)=(\\frac{m}{2}+n-1)^2+n-\\frac{1}{4}=108$，变形得$(m+2n-2)^2=433-4n$，分析得$\\sqrt{433-4n}$不是正整数，故此情况无解；\\n4. 综合得出$m, n$的值。",
+            "standardAnswer": "$m=6$，$n=8$",
+            "scoringCriteria": "第三问，通过累加法正确推导$f(m,n)$的表达式得2分；分$m$为偶数和奇数进行讨论，正确分析偶数情况并求出解得2分；正确判断奇数情况无解得1分；综合得出正确结果得1分，共6分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Select the terms whose term numbers are perfect squares from the positive integer sequence $N_0:1,2,3,4,\\cdots$ in turn to form the sequence $A_1:1,4,9,16,\\cdots$. At this time, the remaining terms in the sequence $N_0$ form the sequence $N_1:2,3,5,6,\\cdots$; then select the terms whose term numbers are perfect squares from the sequence $N_1$ in turn to form the sequence $A_2:2,6,12,20,\\cdots$, and the remaining terms form the sequence $N_2$; $\\cdots$, repeat this operation, select the terms whose term numbers are perfect squares from the sequence $N_{k-1}(k\\in N^*)$ in turn to form the sequence $A_k$, and the remaining terms form the sequence $N_k$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Write the first 2 terms of the sequences $A_3$ and $A_4$ respectively;",
+            "solutionSteps": "According to the sequence construction rules given in the question, analyze the terms whose term numbers are perfect squares in the sequence $N_2$ in turn to get the first 2 terms of $A_3$, and then analyze the terms whose term numbers are perfect squares in the sequence $N_3$ in turn to get the first 2 terms of $A_4$.",
+            "standardAnswer": "The first 2 terms of $A_3$: 3, 8; The first 2 terms of $A_4$: 5, 11",
+            "scoringCriteria": "Question (Ⅰ), 2 points for correctly writing the first 2 terms of $A_3$; 2 points for correctly writing the first 2 terms of $A_4$, total 4 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) Denote the nth term of the sequence $A_m$ as $f(m, n)$. Prove that when $n ≥2$, $f(m, n)-f(m, n-1)=2 n+m-2$;",
+            "solutionSteps": "1. First verify that when $m=1$, $f(1,n)=n^2$, $f(1,n)-f(1,n-1)=2n-1$, and the conclusion holds;\\n2. When $m≥2$, analyze the magnitude relationship between the terms of sequence $A_m$ and $A_{m-1}$, get $f(m,n-1)<f(m-1,n)<f(m,n)$, and then deduce $f(m,n)-f(m,n-1)=f(m-1,n)-f(m-1,n-1)+1$;\\n3. Conclude that $\\{f(m, n)-f(m, n-1)\\}$ forms an arithmetic sequence with the first term $2n-1$ and the common difference 1;\\n4. Prove $f(m,n)-f(m,n-1)=(2n-1)+(m-1)=2n+m-2$ according to the general term formula of the arithmetic sequence.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "Question (Ⅱ), 1 point for correctly verifying that the conclusion holds when $m=1$; 2 points for correctly analyzing the magnitude relationship between the terms of $A_m$ and $A_{m-1}$ and deducing the recurrence relation; 1 point for correctly judging the sequence type and writing the first term and the common difference; 1 point for completing the proof according to the general term formula of the arithmetic sequence, total 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If $f(m, n)=108$, find the values of $m$ and $n$.",
+            "solutionSteps": "1. From the conclusion of (Ⅱ), get $f(m,n)=(n-1)(n+m)+f(m,1)$ by the method of summing successive differences, and obtain the expression of $f(m,1)$ by dividing into the cases where $m$ is even and odd, then get the piecewise expression of $f(m,n)$;\\n2. First discuss the case where $m$ is even: $f(m,n)=(\\frac{m}{2}+n-1)^2+n=108$, transform to get $(\\frac{m}{2}+n-1)^2=108-n$, analyze to get $\\sqrt{108-n}=10$, solve to get $n=8$, then substitute to find $m=6$;\\n3. Then discuss the case where $m$ is odd: $f(m,n)=(\\frac{m}{2}+n-1)^2+n-\\frac{1}{4}=108$, transform to get $(m+2n-2)^2=433-4n$, analyze to get that $\\sqrt{433-4n}$ is not a positive integer, so there is no solution in this case;\\n4. Synthesize to get the values of $m$ and $n$.",
+            "standardAnswer": "$m=6$, $n=8$",
+            "scoringCriteria": "Question (Ⅲ), 2 points for correctly deriving the expression of $f(m,n)$ by the method of summing successive differences; 2 points for discussing the cases where $m$ is even and odd, correctly analyzing the even case and finding the solution; 1 point for correctly judging that there is no solution in the odd case; 1 point for synthesizing to get the correct result, total 6 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2022 Beijing Haidian Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "《黄帝内经》中十二时辰养生法认为:子时的睡眠对一天至关重要(子时是指23点到次日凌晨1点)。相关数据表明，入睡时间越晚，沉睡时间越少，睡眠指数也就越低。根据某次的抽样数据，对早睡群体和晚睡群体睡眠指数的统计如下表：\n| 组别 | 睡眠指数 | 早睡人群占比 | 晚睡人群占比 |\n| --- | --- | --- | --- |\n| 1 | [0,51) | 0.1% | 9.2% |\n| 2 | [51,66) | 11.1% | 47.4% |\n| 3 | [66,76) | 34.6% | 31.6% |\n| 4 | [76,90) | 48.6% | 11.8% |\n| 5 | [90,100] | 5.6% | 0.0% |\n注:早睡人群为23:00前入睡的人群，晚睡人群为01:00后入睡的人群。",
+                "subQuestions": [
+                    {
+                        "question": "（1）根据表中数据，估计早睡人群睡眠指数25%分位数与晚睡人群睡眠指数25%分位数分别在第几组？",
+                        "solutionSteps": "1. 计算早睡人群累计占比：第1组累计0.1%，第2组累计0.1%+11.1%=11.2%，第3组累计11.2%+34.6%=45.8%，25%处于11.2%和45.8%之间，故早睡人群25%分位数在第3组；\n2. 计算晚睡人群累计占比：第1组累计9.2%，第2组累计9.2%+47.4%=56.6%，25%处于9.2%和56.6%之间，故晚睡人群25%分位数在第2组。",
+                        "standardAnswer": "早睡人群睡眠指数25%分位数在第3组，晚睡人群睡眠指数25%分位数在第2组",
+                        "scoringCriteria": "本问共4分，正确计算早睡人群累计占比并判断分位数所在组得2分，正确计算晚睡人群累计占比并判断分位数所在组得2分",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "（2）据统计，睡眠指数得分在区间[76,90)内的人群中，早睡人群约占80%。从睡眠指数得分在区间[76,90)内的人群中随机抽取3人，以X表示这3人中属于早睡人群的人数，求X的分布列与数学期望$E(X)$。",
+                        "solutionSteps": "1. 由题意可知，X服从参数为n=3，p=4/5的二项分布，即$X \\sim B(3, \\frac{4}{5})$；\n2. 计算X取不同值的概率：$P(X=0)=\\left(\\frac{1}{5}\\right)^{3}=\\frac{1}{125}$，$P(X=1)=C_{3}^{1} \\cdot\\left(\\frac{1}{5}\\right)^{2} \\cdot \\frac{4}{5}=\\frac{12}{125}$，$P(X=2)=C_{3}^{2} \\cdot \\frac{1}{5} \\cdot\\left(\\frac{4}{5}\\right)^{2}=\\frac{48}{125}$，$P(X=3)=\\left(\\frac{4}{5}\\right)^{3}=\\frac{64}{125}$；\n3. 列出X的分布列；\n4. 根据二项分布期望公式计算：$E(X)=np=3 \\times \\frac{4}{5}=\\frac{12}{5}$。",
+                        "standardAnswer": "X的分布列为：\n| X | 0 | 1 | 2 | 3 |\n| --- | --- | --- | --- | --- |\n| P | $\\frac{1}{125}$ | $\\frac{12}{125}$ | $\\frac{48}{125}$ | $\\frac{64}{125}$ |\n数学期望$E(X)=\\frac{12}{5}$",
+                        "scoringCriteria": "本问共6分，判断X服从二项分布得1分，正确计算出4个概率值各得1分（共4分），正确计算出数学期望得1分",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（3）根据表中数据，有人认为，早睡人群的睡眠指数平均值一定落在区间[76,90)。试判断这种说法是否正确，并说明理由。",
+                        "solutionSteps": "1. 该说法不正确，采用赋值法验证；\n2. 取各区间均值为区间左端点（第1组0，第2组51，第3组66，第4组76，第5组90），计算早睡人群睡眠指数均值：$0 \\times 0.001 + 51 \\times 0.111 + 66 \\times 0.346 + 76 \\times 0.486 + 90 \\times 0.056$，计算结果小于76，故平均值不一定落在[76,90)区间。",
+                        "standardAnswer": "这种说法不正确，理由：取第1组均值为0，第2组均值为51，第3组均值为66，第4组均值为76，第5组均值为90，计算得早睡人群睡眠指数均值为$0 \\times 0.001+51 \\times 0.111+66 \\times 0.346+76 \\times 0.486+90 \\times 0.056<76$，因此平均值不一定落在区间[76,90)内",
+                        "scoringCriteria": "本问共3分，判断说法不正确得1分，给出合理的验证方法并进行计算说明得2分",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "The twelve two-hour period health preservation method in Huangdi Neijing holds that sleep in the Zi hour is crucial for a day (the Zi hour refers to 23:00 to 01:00 the next day). Relevant data show that the later one falls asleep, the less deep sleep one has, and the lower the sleep index is. According to the sampling data of a certain time, the statistics of sleep indexes of the early sleep group and the late sleep group are shown in the following table:\n| Group | Sleep Index | Proportion of Early Sleep Group | Proportion of Late Sleep Group |\n| --- | --- | --- | --- |\n| 1 | [0,51) | 0.1% | 9.2% |\n| 2 | [51,66) | 11.1% | 47.4% |\n| 3 | [66,76) | 34.6% | 31.6% |\n| 4 | [76,90) | 48.6% | 11.8% |\n| 5 | [90,100] | 5.6% | 0.0% |\nNote: The early sleep group refers to people who fall asleep before 23:00, and the late sleep group refers to people who fall asleep after 01:00.",
+                "subQuestions": [
+                    {
+                        "question": "(1) According to the data in the table, estimate in which groups the 25th percentiles of the sleep indexes of the early sleep group and the late sleep group are respectively located?",
+                        "solutionSteps": "1. Calculate the cumulative proportion of the early sleep group: the cumulative proportion of Group 1 is 0.1%, the cumulative proportion of Group 2 is 0.1% + 11.1% = 11.2%, the cumulative proportion of Group 3 is 11.2% + 34.6% = 45.8%. 25% is between 11.2% and 45.8%, so the 25th percentile of the sleep index of the early sleep group is in Group 3;\n2. Calculate the cumulative proportion of the late sleep group: the cumulative proportion of Group 1 is 9.2%, the cumulative proportion of Group 2 is 9.2% + 47.4% = 56.6%. 25% is between 9.2% and 56.6%, so the 25th percentile of the sleep index of the late sleep group is in Group 2.",
+                        "standardAnswer": "The 25th percentile of the sleep index of the early sleep group is in Group 3, and the 25th percentile of the sleep index of the late sleep group is in Group 2",
+                        "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for correctly calculating the cumulative proportion of the early sleep group and judging the group where the percentile is located, and 2 points for correctly calculating the cumulative proportion of the late sleep group and judging the group where the percentile is located",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "(2) According to statistics, among the people whose sleep index scores are in the interval [76,90), the early sleep group accounts for about 80%. Randomly select 3 people from the people whose sleep index scores are in the interval [76,90), let X denote the number of people in these 3 who belong to the early sleep group, find the probability mass function of X and the mathematical expectation $E(X)$.",
+                        "solutionSteps": "1. It can be known from the meaning of the question that X follows a binomial distribution with parameters n=3 and p=4/5, that is, $X \\sim B(3, \\frac{4}{5})$;\n2. Calculate the probabilities of X taking different values: $P(X=0)=\\left(\\frac{1}{5}\\right)^{3}=\\frac{1}{125}$, $P(X=1)=C_{3}^{1} \\cdot\\left(\\frac{1}{5}\\right)^{2} \\cdot \\frac{4}{5}=\\frac{12}{125}$, $P(X=2)=C_{3}^{2} \\cdot \\frac{1}{5} \\cdot\\left(\\frac{4}{5}\\right)^{2}=\\frac{48}{125}$, $P(X=3)=\\left(\\frac{4}{5}\\right)^{3}=\\frac{64}{125}$;\n3. List the probability mass function of X;\n4. Calculate according to the expected formula of binomial distribution: $E(X)=np=3 \\times \\frac{4}{5}=\\frac{12}{5}$.",
+                        "standardAnswer": "The probability mass function of X is:\n| X | 0 | 1 | 2 | 3 |\n| --- | --- | --- | --- | --- |\n| P | $\\frac{1}{125}$ | $\\frac{12}{125}$ | $\\frac{48}{125}$ | $\\frac{64}{125}$ |\nThe mathematical expectation $E(X)=\\frac{12}{5}$",
+                        "scoringCriteria": "This sub-question is worth 6 points in total. 1 point for judging that X follows a binomial distribution, 1 point for each of the 4 correct probability values (4 points in total), and 1 point for correctly calculating the mathematical expectation",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(3) According to the data in the table, some people think that the average sleep index of the early sleep group must fall in the interval [76,90). Judge whether this statement is correct and explain the reason.",
+                        "solutionSteps": "1. This statement is incorrect, which is verified by the assignment method;\n2. Take the left endpoint of each interval as the mean of the interval (0 for Group 1, 51 for Group 2, 66 for Group 3, 76 for Group 4, 90 for Group 5), calculate the average sleep index of the early sleep group: $0 \\times 0.001 + 51 \\times 0.111 + 66 \\times 0.346 + 76 \\times 0.486 + 90 \\times 0.056$, the calculation result is less than 76, so the average value does not necessarily fall in the interval [76,90).",
+                        "standardAnswer": "This statement is incorrect. Reason: Take the mean of Group 1 as 0, Group 2 as 51, Group 3 as 66, Group 4 as 76, Group 5 as 90, the calculated average sleep index of the early sleep group is $0 \\times 0.001+51 \\times 0.111+66 \\times 0.346+76 \\times 0.486+90 \\times 0.056<76$, so the average value does not necessarily fall in the interval [76,90)",
+                        "scoringCriteria": "This sub-question is worth 3 points in total. 1 point for judging the statement is incorrect, and 2 points for giving a reasonable verification method and conducting calculation explanation",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数 $f(x)=e^{x}(a x^{2}-x+1)$。",
+                "subQuestions": [
+                    {
+                        "question": "（1）求曲线 $y=f(x)$ 在点 $(0, f(0))$ 处的切线的方程；",
+                        "solutionSteps": "1. 求函数的导数：$f'(x)=e^{x}(a x^{2}-x+1)+e^{x}(2 a x-1)=e^{x}(a x^{2}+2 a x-x)$；\n2. 计算切点处的导数值和函数值：$f'(0)=0$，$f(0)=e^0(0-0+1)=1$；\n3. 根据点斜式写出切线方程：$y-1=0 \\times (x-0)$，即$y=1$。",
+                        "standardAnswer": "$y=1$",
+                        "scoringCriteria": "本问共4分，正确求导得2分，正确计算$f'(0)$和$f(0)$各得1分（共2分）",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）若函数 $f(x)$ 在 $x=0$ 处取得极大值，求a的取值范围；",
+                        "solutionSteps": "1. 化简导数：$f'(x)=x e^{x}(a x+2 a-1)$，$e^x>0$恒成立，故只需分析$x(ax+2a-1)$的符号；\n2. 函数在$x=0$处取极大值，需满足$x<0$时$f'(x)>0$，$x>0$时$f'(x)<0$；\n3. 分类讨论a的取值：\n① 当$a<0$时，令$ax+2a-1=0$，解得$x=\\frac{1-2a}{a}<0$，满足符号要求；\n② 当$a=0$时，$f'(x)=-x e^x$，$x<0$时$f'(x)>0$，$x>0$时$f'(x)<0$，满足要求；\n③ 当$0<a<\\frac{1}{2}$时，$x=\\frac{1-2a}{a}>0$，满足符号要求；\n④ 当$a=\\frac{1}{2}$时，$f'(x)=\\frac{1}{2}x^2 e^x \\geq 0$，函数单调递增，无极值，不满足；\n4. 综上，a的取值范围为$(-\\infty, \\frac{1}{2})$。",
+                        "standardAnswer": "$(-\\infty, \\frac{1}{2})$",
+                        "scoringCriteria": "本问共6分，正确化简导数得1分，明确极大值的导数符号要求得1分，分类讨论a<0、a=0、0<a<1/2的情况各得1分（共3分），得出正确取值范围得1分",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（3）若函数 $f(x)$ 存在最小值，直接写出a的取值范围。",
+                        "solutionSteps": "1. 结合（2）的导数分析，分$a \\leq 0$、$0<a<\\frac{1}{2}$、$a \\geq \\frac{1}{2}$三类讨论函数单调性；\n2. 当$a \\leq 0$时，函数无最小值；当$a \\geq \\frac{1}{2}$时，函数无最小值；\n3. 当$0<a<\\frac{1}{2}$时，令$f'(x)=0$得$x=0$或$x=\\frac{1-2a}{a}$，需$f(\\frac{1-2a}{a}) \\leq 0$，解得$0<a \\leq \\frac{1}{4}$，此时函数存在最小值。",
+                        "standardAnswer": "$(0, \\frac{1}{4}]$",
+                        "scoringCriteria": "本问共5分，正确给出a的取值范围得5分，范围书写有误但核心区间正确得2-3分",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=e^{x}(a x^{2}-x+1)$.",
+                "subQuestions": [
+                    {
+                        "question": "(1) Find the equation of the tangent line to the curve $y=f(x)$ at the point $(0, f(0))$;",
+                        "solutionSteps": "1. Find the derivative of the function: $f'(x)=e^{x}(a x^{2}-x+1)+e^{x}(2 a x-1)=e^{x}(a x^{2}+2 a x-x)$;\n2. Calculate the derivative value and the function value at the tangent point: $f'(0)=0$, $f(0)=e^0(0-0+1)=1$;\n3. Write the tangent line equation according to the point-slope form: $y-1=0 \\times (x-0)$, that is $y=1$.",
+                        "standardAnswer": "$y=1$",
+                        "scoringCriteria": "This sub-question is worth 4 points in total. 2 points for correctly finding the derivative, 1 point for each of the correct calculation of $f'(0)$ and $f(0)$ (2 points in total)",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) If the function $f(x)$ attains a local maximum at $x=0$, find the range of the value of a;",
+                        "solutionSteps": "1. Simplify the derivative: $f'(x)=x e^{x}(a x+2 a-1)$, $e^x>0$ holds for all x, so it is only necessary to analyze the sign of $x(ax+2a-1)$;\n2. For the function to attain a local maximum at $x=0$, it is required that $f'(x)>0$ when $x<0$ and $f'(x)<0$ when $x>0$;\n3. Discuss the value of a by classification:\n① When $a<0$, let $ax+2a-1=0$, solve for x to get $x=\\frac{1-2a}{a}<0$, which meets the sign requirement;\n② When $a=0$, $f'(x)=-x e^x$, $f'(x)>0$ when $x<0$ and $f'(x)<0$ when $x>0$, which meets the requirement;\n③ When $0<a<\\frac{1}{2}$, $x=\\frac{1-2a}{a}>0$, which meets the sign requirement;\n④ When $a=\\frac{1}{2}$, $f'(x)=\\frac{1}{2}x^2 e^x \\geq 0$, the function is monotonically increasing and has no extreme value, which does not meet the requirement;\n4. In conclusion, the range of a is $(-\\infty, \\frac{1}{2})$.",
+                        "standardAnswer": "$(-\\infty, \\frac{1}{2})$",
+                        "scoringCriteria": "This sub-question is worth 6 points in total. 1 point for correctly simplifying the derivative, 1 point for clarifying the derivative sign requirement for the local maximum, 1 point for each of the classification discussions of a<0, a=0 and 0<a<1/2 (3 points in total), and 1 point for drawing the correct range of values",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(3) If the function $f(x)$ has a minimum value, write down the range of the value of a directly.",
+                        "solutionSteps": "1. Combined with the derivative analysis in (2), discuss the monotonicity of the function by classifying into $a \\leq 0$, $0<a<\\frac{1}{2}$ and $a \\geq \\frac{1}{2}$;\n2. The function has no minimum value when $a \\leq 0$ and $a \\geq \\frac{1}{2}$;\n3. When $0<a<\\frac{1}{2}$, let $f'(x)=0$ to get $x=0$ or $x=\\frac{1-2a}{a}$, it is required that $f(\\frac{1-2a}{a}) \\leq 0$, solve to get $0<a \\leq \\frac{1}{4}$, at this time the function has a minimum value.",
+                        "standardAnswer": "$(0, \\frac{1}{4}]$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 5 points for correctly giving the range of a, 2-3 points for incorrect writing of the range but the core interval is correct",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的一个下顶点和右顶点B都在直线 $l_{1}: y=\\frac{1}{2}(x-2)$ 上。",
+                "subQuestions": [
+                    {
+                        "question": "（1）求椭圆方程及其离心率；",
+                        "solutionSteps": "1. 求椭圆的顶点坐标：直线$l_1$与y轴交点为下顶点，令x=0，得y=-1，即下顶点A(0,-1)，故$b=1$；直线$l_1$与x轴交点为右顶点B，令y=0，得x=2，即B(2,0)，故$a=2$；\n2. 写出椭圆方程：$\\frac{x^2}{4}+y^2=1$；\n3. 计算c的值：$c=\\sqrt{a^2-b^2}=\\sqrt{4-1}=\\sqrt{3}$；\n4. 计算离心率：$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$。",
+                        "standardAnswer": "椭圆方程为$\\frac{x^2}{4}+y^2=1$，离心率为$\\frac{\\sqrt{3}}{2}$",
+                        "scoringCriteria": "本问共5分，正确求出a和b的值各得1分（共2分），写出正确的椭圆方程得1分，正确计算c的值得1分，正确计算离心率得1分",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（2）不经过点B的直线 $l_{2}: y=k x+m$ 交椭圆C于两点P，Q，过点P作x轴的垂线交$l_1$于点D，点P关于点D的对称点为E，若E，B，Q三点共线，求证：直线$l_2$经过定点。",
+                        "solutionSteps": "1. 设点$P(x_1,y_1)$，$Q(x_2,y_2)$，则D点坐标为$(x_1, \\frac{1}{2}(x_1-2))$，由对称性质得E点坐标为$(x_1, x_1-y_1-2)$；\n2. 由E、B、Q三点共线，得斜率相等：$\\frac{y_2}{x_2-2}=\\frac{x_1-y_1-2}{x_1-2}$，整理得$x_1 y_2 + x_2 y_1 = 2(y_1 + y_2) + x_1 x_2 - 2(x_1 + x_2) + 4$；\n3. 将$y_1=kx_1+m$，$y_2=kx_2+m$代入上式，化简得$(2k-1)x_1 x_2 + (m-2k+2)(x_1+x_2) -4m-4=0$；\n4. 联立直线$l_2$与椭圆方程：$\\begin{cases}\\frac{x^2}{4}+y^2=1 \\\\ y=kx+m\\end{cases}$，消去y得$(1+4k^2)x^2+8kmx+4m^2-4=0$；\n5. 由韦达定理得$x_1+x_2=-\\frac{8km}{1+4k^2}$，$x_1 x_2=\\frac{4m^2-4}{1+4k^2}$；\n6. 将韦达定理结果代入化简后的等式，整理得$(m+2k)(m+2k+1)=0$；\n7. 分析解的情况：若$m=-2k$，直线$l_2$过点B(2,0)，与题意矛盾；若$m=-2k-1$，直线$l_2$方程为$y=kx-2k-1=k(x-2)-1$，过定点(2,-1)；\n8. 综上，直线$l_2$经过定点。",
+                        "standardAnswer": "证明见解析，直线$l_2$经过定点$(2, -1)$",
+                        "scoringCriteria": "本问共10分，正确求出E点坐标得1分，由三点共线推出等式并整理得2分，代入直线方程化简得1分，联立椭圆与直线方程并消元得1分，正确写出韦达定理结果得1分，代入等式整理得2分，分析解的情况并得出定点得2分",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that a lower vertex and the right vertex B of the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ are both on the line $l_{1}: y=\\frac{1}{2}(x-2)$.",
+                "subQuestions": [
+                    {
+                        "question": "(1) Find the equation of the ellipse and its eccentricity;",
+                        "solutionSteps": "1. Find the vertex coordinates of the ellipse: the intersection of the line $l_1$ and the y-axis is the lower vertex, let x=0, get y=-1, that is the lower vertex A(0,-1), so $b=1$; the intersection of the line $l_1$ and the x-axis is the right vertex B, let y=0, get x=2, that is B(2,0), so $a=2$;\n2. Write the equation of the ellipse: $\\frac{x^2}{4}+y^2=1$;\n3. Calculate the value of c: $c=\\sqrt{a^2-b^2}=\\sqrt{4-1}=\\sqrt{3}$;\n4. Calculate the eccentricity: $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$.",
+                        "standardAnswer": "The equation of the ellipse is $\\frac{x^2}{4}+y^2=1$, and the eccentricity is $\\frac{\\sqrt{3}}{2}$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for each of the correct calculation of a and b (2 points in total), 1 point for writing the correct ellipse equation, 1 point for correctly calculating the value of c, and 1 point for correctly calculating the eccentricity",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(2) The line $l_{2}: y=k x+m$ that does not pass through point B intersects the ellipse C at two points P and Q. Draw a vertical line to the x-axis through point P and intersect $l_1$ at point D, and E is the symmetric point of point P about point D. If points E, B and Q are collinear, prove that the line $l_{2}$ passes through a fixed point.",
+                        "solutionSteps": "1. Let $P(x_1,y_1)$ and $Q(x_2,y_2)$, then the coordinate of point D is $(x_1, \\frac{1}{2}(x_1-2))$, and the coordinate of point E is $(x_1, x_1-y_1-2)$ by the property of symmetry;\n2. Since E, B and Q are collinear, the slopes are equal: $\\frac{y_2}{x_2-2}=\\frac{x_1-y_1-2}{x_1-2}$, which is arranged to $x_1 y_2 + x_2 y_1 = 2(y_1 + y_2) + x_1 x_2 - 2(x_1 + x_2) + 4$;\n3. Substitute $y_1=kx_1+m$ and $y_2=kx_2+m$ into the above formula and simplify to get $(2k-1)x_1 x_2 + (m-2k+2)(x_1+x_2) -4m-4=0$;\n4. Simultaneously solve the equations of the line $l_2$ and the ellipse: $\\begin{cases}\\frac{x^2}{4}+y^2=1 \\\\ y=kx+m\\end{cases}$, eliminate y to get $(1+4k^2)x^2+8kmx+4m^2-4=0$;\n5. From Vieta's formulas, we get $x_1+x_2=-\\frac{8km}{1+4k^2}$ and $x_1 x_2=\\frac{4m^2-4}{1+4k^2}$;\n6. Substitute the results of Vieta's formulas into the simplified equation and arrange to get $(m+2k)(m+2k+1)=0$;\n7. Analyze the solution situation: if $m=-2k$, the line $l_2$ passes through point B(2,0), which contradicts the meaning of the question; if $m=-2k-1$, the equation of the line $l_2$ is $y=kx-2k-1=k(x-2)-1$, which passes through the fixed point (2,-1);\n8. In conclusion, the line $l_2$ passes through a fixed point.",
+                        "standardAnswer": "See the analysis for the proof, the line $l_2$ passes through the fixed point $(2, -1)$",
+                        "scoringCriteria": "This sub-question is worth 10 points in total. 1 point for correctly finding the coordinate of point E, 2 points for deducing and arranging the equation from the collinearity of three points, 1 point for substituting the line equation and simplifying, 1 point for simultaneously solving the ellipse and line equations and eliminating variables, 1 point for correctly writing the results of Vieta's formulas, 2 points for substituting the equation and arranging, and 2 points for analyzing the solution situation and drawing the fixed point",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "设m为正整数，若无穷数列 $\\{a_{n}\\}$ 满足 $|a_{i k+i}|=|a_{i k}+i|(i=1,2, \\cdots, m ; k=1,2, \\cdots)$，则称 $\\{a_{n}\\}$ 为 $P_{m}$ 数列。",
+                "subQuestions": [
+                    {
+                        "question": "（1）数列 $\\{n\\}$ 是否为 $P_{1}$ 数列？说明理由；",
+                        "solutionSteps": "1. 根据$P_1$数列的定义，$i=1$，需验证$|a_{1 \\times k +1}|=|a_{1 \\times k}+1|(k=1,2,\\cdots)$；\n2. 对于数列$\\{n\\}$，$a_n=n$，则$a_{k+1}=k+1$，$a_k +1=k+1$；\n3. 因此$|a_{k+1}|=|a_k +1|$，满足$P_1$数列的定义。",
+                        "standardAnswer": "是$P_1$数列，理由：对于数列$\\{n\\}$，$a_n=n$，则$|a_{k+1}|=|k+1|=|a_k +1|$，满足$P_1$数列的定义$|a_{1 \\times k +1}|=|a_{1 \\times k}+1|(k=1,2,\\cdots)$",
+                        "scoringCriteria": "本问共4分，正确写出$P_1$数列的验证条件得1分，正确代入数列$\\{n\\}$的通项公式得1分，正确推导等式关系得1分，得出正确结论并说明理由得1分",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（2）已知$a_{n}= \\begin{cases}s, n为奇数, \\\\ t, n为偶数, \\end{cases}$其中s,t为常数。若数列$\\{a_{n}\\}$为$P_{2}$数列，求s,t；",
+                        "solutionSteps": "1. 根据$P_2$数列定义，需满足$i=1$和$i=2$的条件：① $i=1$时，$|a_{k+1}|=|a_k +1|$；② $i=2$时，$|a_{2k+2}|=|a_{2k}+2|$；\n2. 由数列通项，$a_1=a_3=s$，$a_2=a_4=t$；\n3. 令$k=1$，$i=1$：$|a_2|=|a_1+1|$，即$|t|=|s+1|$；\n4. 令$k=1$，$i=2$：$|a_4|=|a_2+2|$，即$|t|=|t+2|$，解得$t=-1$；\n5. 将$t=-1$代入$|t|=|s+1|$，得$|s+1|=1$，结合$k=2$，$i=1$时$|a_3|=|a_2+1|$，即$|s|=0$，解得$s=0$。",
+                        "standardAnswer": "$s=0$，$t=-1$",
+                        "scoringCriteria": "本问共5分，正确列出$P_2$数列的两个验证条件得1分，正确写出数列的前几项得1分，代入$i=2$的条件解得t的值得1分，代入$i=1$的条件并结合额外验证解得s的值得2分",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（3）已知$P_{3}$数列$\\{a_{n}\\}$满足$a_{1}<0$，$a_{8}=2$，$a_{6 k}<a_{6 k+6}(k=1,2, \\cdots)$，求$a_{n}$；",
+                        "solutionSteps": "1. 根据$P_3$数列定义，$i=1,2,3$，结合$a_8=2$，得：$|a_8|=|a_{1 \\times7+1}|=|a_7+1|=2$，$|a_8|=|a_{2 \\times3+2}|=|a_6+2|=2$，故$|a_7+1|=|a_6+2|=2$；$|a_9|=|a_{1 \\times8+1}|=|a_8+1|=3$，$|a_9|=|a_{3 \\times2+3}|=|a_6+3|=3$，故$|a_6+3|=3$；\n2. 联立$|a_6+2|=2$和$|a_6+3|=3$，解得$a_6=0$，代入$|a_7+1|=2$，结合数列的单调性条件$a_{6k}<a_{6k+6}$，解得$a_7=1$；\n3. 结合$a_1<0$和单调性条件，猜想$a_n$是首项为-5，公差为1的等差数列，即$a_n=n-6$；\n4. 验证猜想：分别验证$i=1,2,3$时均满足$P_m$数列的定义，且$a_1=-5<0$，$a_8=2$，$a_{6k}=6k-6$，$a_{6k+6}=6k$，满足$a_{6k}<a_{6k+6}$，猜想成立。",
+                        "standardAnswer": "$a_n=n-6$",
+                        "scoringCriteria": "本问共6分，根据$P_3$数列定义列出$a_8$、$a_9$的相关等式得2分，正确解得$a_6$和$a_7$的值得1分，结合条件提出合理猜想得1分，验证猜想满足所有已知条件得2分",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let m be a positive integer, if an infinite sequence $\\{a_{n}\\}$ satisfies $|a_{i k+i}|=|a_{i k}+i|(i=1,2, \\cdots, m ; k=1,2, \\cdots)$, then $\\{a_{n}\\}$ is called a $P_{m}$ sequence.",
+                "subQuestions": [
+                    {
+                        "question": "(1) Is the sequence $\\{n\\}$ a $P_1$ sequence? Explain the reason;",
+                        "solutionSteps": "1. According to the definition of the $P_1$ sequence, $i=1$, it is necessary to verify $|a_{1 \\times k +1}|=|a_{1 \\times k}+1|(k=1,2,\\cdots)$;\n2. For the sequence $\\{n\\}$, $a_n=n$, then $a_{k+1}=k+1$ and $a_k +1=k+1$;\n3. Therefore $|a_{k+1}|=|a_k +1|$, which satisfies the definition of the $P_1$ sequence.",
+                        "standardAnswer": "It is a $P_1$ sequence. Reason: For the sequence $\\{n\\}$, $a_n=n$, then $|a_{k+1}|=|k+1|=|a_k +1|$, which satisfies the definition of the $P_1$ sequence $|a_{1 \\times k +1}|=|a_{1 \\times k}+1|(k=1,2,\\cdots)$",
+                        "scoringCriteria": "This sub-question is worth 4 points in total. 1 point for correctly writing the verification condition of the $P_1$ sequence, 1 point for correctly substituting the general term formula of the sequence $\\{n\\}$, 1 point for correctly deriving the equality relationship, and 1 point for drawing the correct conclusion and explaining the reason",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(2) Given $a_{n}= \\begin{cases}s, n is odd, \\\\ t, n is even, \\end{cases}$ where s and t are constants. If the sequence $\\{a_{n}\\}$ is a $P_2$ sequence, find the values of s and t;",
+                        "solutionSteps": "1. According to the definition of the $P_2$ sequence, it is necessary to satisfy the conditions for $i=1$ and $i=2$: ① When $i=1$, $|a_{k+1}|=|a_k +1|$; ② When $i=2$, $|a_{2k+2}|=|a_{2k}+2|$;\n2. From the general term of the sequence, $a_1=a_3=s$ and $a_2=a_4=t$;\n3. Let $k=1$, $i=1$: $|a_2|=|a_1+1|$, that is $|t|=|s+1|$;\n4. Let $k=1$, $i=2$: $|a_4|=|a_2+2|$, that is $|t|=|t+2|$, solve to get $t=-1$;\n5. Substitute $t=-1$ into $|t|=|s+1|$, get $|s+1|=1$, combined with $k=2$, $i=1$: $|a_3|=|a_2+1|$, that is $|s|=0$, solve to get $s=0$.",
+                        "standardAnswer": "$s=0$, $t=-1$",
+                        "scoringCriteria": "This sub-question is worth 5 points in total. 1 point for correctly listing the two verification conditions of the $P_2$ sequence, 1 point for correctly writing the first several terms of the sequence, 1 point for solving the value of t by substituting the condition of $i=2$, and 2 points for solving the value of s by substituting the condition of $i=1$ and combining with additional verification",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(3) Given a $P_3$ sequence $\\{a_{n}\\}$ satisfying $a_{1}<0$, $a_{8}=2$, $a_{6 k}<a_{6 k+6}(k=1,2, \\cdots)$, find $a_{n}$;",
+                        "solutionSteps": "1. According to the definition of the $P_3$ sequence, $i=1,2,3$, combined with $a_8=2$, we get: $|a_8|=|a_{1 \\times7+1}|=|a_7+1|=2$, $|a_8|=|a_{2 \\times3+2}|=|a_6+2|=2$, so $|a_7+1|=|a_6+2|=2$; $|a_9|=|a_{1 \\times8+1}|=|a_8+1|=3$, $|a_9|=|a_{3 \\times2+3}|=|a_6+3|=3$, so $|a_6+3|=3$;\n2. Simultaneously solve $|a_6+2|=2$ and $|a_6+3|=3$, get $a_6=0$, substitute into $|a_7+1|=2$, combined with the monotonicity condition of the sequence $a_{6k}<a_{6k+6}$, solve to get $a_7=1$;\n3. Combined with $a_1<0$ and the monotonicity condition, conjecture that $a_n$ is an arithmetic sequence with the first term -5 and the common difference 1, that is $a_n=n-6$;\n4. Verify the conjecture: verify that it satisfies the definition of the $P_m$ sequence for $i=1,2,3$ respectively, and $a_1=-5<0$, $a_8=2$, $a_{6k}=6k-6$, $a_{6k+6}=6k$, which satisfies $a_{6k}<a_{6k+6}$, so the conjecture is valid.",
+                        "standardAnswer": "$a_n=n-6$",
+                        "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for listing the relevant equations of $a_8$ and $a_9$ according to the definition of the $P_3$ sequence, 1 point for correctly solving the values of $a_6$ and $a_7$, 1 point for putting forward a reasonable conjecture combined with the conditions, and 2 points for verifying that the conjecture satisfies all known conditions",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

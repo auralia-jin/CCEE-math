@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2025 Beijing Haidian Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "某工厂有一组型号相同的设备，在日常维护中发现部分设备有发热的情况，经过查阅历史数据，发现设备是否发热与设备状态(完好或损坏)有较强的相关性，从发热和未发热情况的数据中各自随机抽取1000条数据并整理，同时给出不同设备状态下三种操作（保留观察、停机更换、检查维修）给工厂带来的经济损失（单位：千元）。假设用频率估计概率，且各设备之间的状态相互独立。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）已知某设备未出现发热情况，试估计该设备损坏的概率；",
+                        "solutionSteps": "1. 设“一台设备未出现发热情况时该设备损坏”为事件A；\\n2. 由统计数据可知，未出现发热情况时，设备损坏的频数为400，完好的频数为600，总频数为1000；\\n3. 根据频率估计概率的方法，计算$P(A)=\\frac{400}{400+600}$；\\n4. 化简得出结果。",
+                        "standardAnswer": "$\\frac{2}{5}$",
+                        "scoringCriteria": "第一问，正确设出事件得1分；明确未发热时设备损坏和完好的频数得1分；写出概率计算公式得1分；计算结果正确得1分，共4分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）该工厂现有2台设备出现发热情况，准备对这2台设备都进行检查维修。记检查维修这2台设备给工厂带来的总经济损失为X千元，求X的分布列和数学期望EX；",
+                        "solutionSteps": "1. 确定X的取值范围为10、12、14；\\n2. 由频率估计概率，得出一台设备出现发热情况下损坏的概率为$\\frac{7}{10}$，完好的概率为$\\frac{3}{10}$；\\n3. 分别计算各取值的概率：$P(X=10)=\\frac{3}{10}×\\frac{3}{10}=\\frac{9}{100}$，$P(X=12)=2×\\frac{3}{10}×\\frac{7}{10}=\\frac{21}{50}$，$P(X=14)=\\frac{7}{10}×\\frac{7}{10}=\\frac{49}{100}$；\\n4. 列出X的分布列；\\n5. 根据数学期望公式计算$EX=10×\\frac{9}{100}+12×\\frac{21}{50}+14×\\frac{49}{100}$，化简得出结果。",
+                        "standardAnswer": "X的分布列为：| X | 10 | 12 | 14 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{9}{100}$ | $\\frac{21}{50}$ | $\\frac{49}{100}$ |；数学期望$EX=\\frac{64}{5}$",
+                        "scoringCriteria": "第二问，正确确定X的取值得1分；求出单台发热设备损坏和完好的概率得1分；正确计算出三个概率值各得1分，共3分；规范列出分布列得1分；写出数学期望计算公式得1分；计算结果正确得1分，共8分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "（Ⅲ）该工厂的某车间现有2台设备，维护时发现其中一台出现发热情况，另一台未出现发热情况。有三种维护这2台设备的操作方案，直接写出使得工厂总经济损失的期望最小的方案的编号。",
+                        "solutionSteps": "1. 分别计算三种操作方案下工厂总经济损失的数学期望；\\n2. 对比三个期望的大小，确定期望最小的方案编号。",
+                        "standardAnswer": "①",
+                        "scoringCriteria": "第三问，正确得出使总经济损失期望最小的方案编号得2分，共2分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "A factory has a set of equipment of the same model. During daily maintenance, it is found that some equipment has heating problems. By consulting historical data, it is found that whether the equipment heats up is strongly correlated with the equipment status (intact or damaged). 1000 pieces of data are randomly selected from the data of heating and non-heating conditions and sorted out. At the same time, the economic losses (in thousands of yuan) brought to the factory by three operations (retain observation, shutdown replacement, inspection and maintenance) under different equipment statuses are given. Assume that the frequency is used to estimate the probability, and the statuses of each equipment are independent of each other.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) It is known that a certain equipment has no heating condition, try to estimate the probability that the equipment is damaged;",
+                        "solutionSteps": "1. Let event A be that a piece of equipment is damaged when there is no heating condition;\\n2. According to the statistical data, when there is no heating condition, the frequency of damaged equipment is 400, the frequency of intact equipment is 600, and the total frequency is 1000;\\n3. Calculate $P(A)=\\frac{400}{400+600}$ by the method of estimating probability with frequency;\\n4. Simplify to get the result.",
+                        "standardAnswer": "$\\frac{2}{5}$",
+                        "scoringCriteria": "For the first sub-question, 1 point for correctly defining the event; 1 point for clarifying the frequencies of damaged and intact equipment without heating; 1 point for writing the probability calculation formula; 1 point for the correct calculation result, total 4 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) The factory currently has 2 pieces of equipment with heating conditions and plans to conduct inspection and maintenance on both of them. Let X (in thousands of yuan) be the total economic loss brought to the factory by inspecting and maintaining these 2 pieces of equipment, find the distribution column and mathematical expectation EX of X;",
+                        "solutionSteps": "1. Determine the value range of X as 10, 12, 14;\\n2. Estimate the probability by frequency, the probability that a piece of equipment is damaged under heating condition is $\\frac{7}{10}$, and the probability of being intact is $\\frac{3}{10}$;\\n3. Calculate the probability of each value separately: $P(X=10)=\\frac{3}{10}×\\frac{3}{10}=\\frac{9}{100}$, $P(X=12)=2×\\frac{3}{10}×\\frac{7}{10}=\\frac{21}{50}$, $P(X=14)=\\frac{7}{10}×\\frac{7}{10}=\\frac{49}{100}$;\\n4. List the distribution column of X;\\n5. Calculate $EX=10×\\frac{9}{100}+12×\\frac{21}{50}+14×\\frac{49}{100}$ according to the mathematical expectation formula and simplify to get the result.",
+                        "standardAnswer": "The distribution column of X is: | X | 10 | 12 | 14 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{9}{100}$ | $\\frac{21}{50}$ | $\\frac{49}{100}$ |; The mathematical expectation $EX=\\frac{64}{5}$",
+                        "scoringCriteria": "For the second sub-question, 1 point for correctly determining the values of X; 1 point for finding the probabilities of a single heating equipment being damaged and intact; 1 point for each correct calculation of the three probability values, total 3 points; 1 point for standardly listing the distribution column; 1 point for writing the mathematical expectation calculation formula; 1 point for the correct calculation result, total 8 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    },
+                    {
+                        "question": "(Ⅲ) A workshop of the factory currently has 2 pieces of equipment. During maintenance, it is found that one of them has heating condition and the other has no heating condition. There are three operation schemes for maintaining these 2 pieces of equipment, directly write the number of the scheme that minimizes the expected total economic loss of the factory.",
+                        "solutionSteps": "1. Calculate the mathematical expectations of the total economic loss of the factory under the three operation schemes respectively;\\n2. Compare the sizes of the three expectations and determine the number of the scheme with the minimum expectation.",
+                        "standardAnswer": "①",
+                        "scoringCriteria": "For the third sub-question, 2 points for correctly obtaining the number of the scheme that minimizes the expected total economic loss, total 2 points.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知椭圆W: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$，A,B分别是W的左、右顶点，C是W的上顶点，$\\triangle ABC$的面积为2，且$|AC|=\\sqrt{5}$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆W的方程及长轴长；",
+                        "solutionSteps": "1. 由椭圆性质得A(-a,0)，B(a,0)，C(0,b)；\\n2. 根据$\\triangle ABC$的面积为2，得$\\frac{1}{2}·2a·b=2$，即$ab=2$；\\n3. 根据$|AC|=\\sqrt{5}$，由两点间距离公式得$\\sqrt{a^2+b^2}=\\sqrt{5}$，即$a^2+b^2=5$；\\n4. 联立方程组$\\begin{cases}ab=2\\\\a^2+b^2=5\\end{cases}$，结合$a>b>0$，解得$a=2$，$b=1$；\\n5. 写出椭圆方程，并求出长轴长$2a$。",
+                        "standardAnswer": "椭圆W的方程为$\\frac{x^2}{4}+y^2=1$，长轴长为4",
+                        "scoringCriteria": "第一问，正确写出椭圆顶点坐标得1分；根据三角形面积列出等式得1分；根据两点间距离公式列出等式得1分；联立方程组并正确求解a、b的值得1分；写出椭圆方程和长轴长得1分，共5分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）已知点$M(2,1)$，点P在直线AC上，设直线PM与x轴交于点E，直线BP与直线EC交于点Q，判断点Q是否在椭圆W上，并说明理由。",
+                        "solutionSteps": "1. 由（Ⅰ）得A(-2,0)，B(2,0)，C(0,1)，求出直线AC的方程为$y=\\frac{1}{2}x+1$；\\n2. 设$P(x_0,\\frac{1}{2}x_0+1)$，分$x_0=2$和$x_0≠2$两种情况讨论；\\n3. 当$x_0=2$时，PM为$x=2$，E(2,0)与B重合，交点Q即B，显然在椭圆上；\\n4. 当$x_0≠2$时，求出直线PM的方程，令$y=0$得E点坐标$(\\frac{4}{x_0},0)$；\\n5. 求出直线BP和直线EC的方程；\\n6. 联立直线BP和EC的方程，解得Q点坐标$(\\frac{8x_0}{x_0^2+4},\\frac{x_0^2-4}{x_0^2+4})$；\\n7. 将Q点坐标代入椭圆方程，验证左边等于1，故Q在椭圆上；\\n8. 综合两种情况得出结论。",
+                        "standardAnswer": "点Q在椭圆W上，理由见解析",
+                        "scoringCriteria": "第二问，正确求出直线AC的方程得1分；合理设出P点坐标并分情况讨论得1分；$x_0=2$时正确判断Q点位置得1分；$x_0≠2$时正确求出直线PM方程及E点坐标得2分；正确求出直线BP和EC的方程得2分；联立方程正确解得Q点坐标得1分；代入椭圆方程验证成立得1分；综合得出结论得1分，共10分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given an ellipse W: $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$, A and B are the left and right vertices of W respectively, C is the upper vertex of W, the area of $\\triangle ABC$ is 2, and $|AC|=\\sqrt{5}$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation of ellipse W and the length of its major axis;",
+                        "solutionSteps": "1. Obtain the vertex coordinates A(-a,0), B(a,0), C(0,b) from the properties of the ellipse;\\n2. According to the area of $\\triangle ABC$ being 2, we get $\\frac{1}{2}·2a·b=2$, that is $ab=2$;\\n3. According to $|AC|=\\sqrt{5}$, get $\\sqrt{a^2+b^2}=\\sqrt{5}$ by the distance formula between two points, that is $a^2+b^2=5$;\\n4. Solve the system of equations $\\begin{cases}ab=2\\\\a^2+b^2=5\\end{cases}$ combined with $a>b>0$, and get $a=2$, $b=1$;\\n5. Write the equation of the ellipse and find the length of the major axis $2a$.",
+                        "standardAnswer": "The equation of ellipse W is $\\frac{x^2}{4}+y^2=1$, and the length of the major axis is 4",
+                        "scoringCriteria": "For the first sub-question, 1 point for correctly writing the vertex coordinates of the ellipse; 1 point for listing the equation according to the area of the triangle; 1 point for listing the equation according to the distance formula between two points; 1 point for solving the values of a and b correctly by solving the system of equations; 1 point for writing the equation of the ellipse and the length of the major axis, total 5 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Given the point $M(2,1)$, the point P is on the line AC, let the line PM intersect the x-axis at point E, the line BP intersects the line EC at point Q, judge whether point Q is on the ellipse W and explain the reason.",
+                        "solutionSteps": "1. Obtain A(-2,0), B(2,0), C(0,1) from (Ⅰ), and find the equation of line AC is $y=\\frac{1}{2}x+1$;\\n2. Let $P(x_0,\\frac{1}{2}x_0+1)$, discuss in two cases: $x_0=2$ and $x_0≠2$;\\n3. When $x_0=2$, PM is $x=2$, E(2,0) coincides with B, the intersection point Q is B, which is obviously on the ellipse;\\n4. When $x_0≠2$, find the equation of line PM, let $y=0$ to get the coordinate of point E $(\\frac{4}{x_0},0)$;\\n5. Find the equations of line BP and line EC;\\n6. Solve the system of equations of line BP and EC, and get the coordinate of point Q $(\\frac{8x_0}{x_0^2+4},\\frac{x_0^2-4}{x_0^2+4})$;\\n7. Substitute the coordinate of point Q into the ellipse equation, verify that the left side equals 1, so Q is on the ellipse;\\n8. Draw a conclusion by synthesizing the two cases.",
+                        "standardAnswer": "Point Q is on the ellipse W, see the analysis for reasons",
+                        "scoringCriteria": "For the second sub-question, 1 point for correctly finding the equation of line AC; 1 point for reasonably setting the coordinate of point P and discussing in cases; 1 point for correctly judging the position of point Q when $x_0=2$; 2 points for correctly finding the equation of line PM and the coordinate of point E when $x_0≠2$; 2 points for correctly finding the equations of line BP and EC; 1 point for correctly solving the coordinate of point Q by solving the system of equations; 1 point for verifying the establishment by substituting into the ellipse equation; 1 point for drawing a conclusion synthetically, total 10 points.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知函数$f(x)=-sinx+kx$，函数$g(x)=\\frac{k}{6}x^3+x+sinx$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若曲线$y=f(x)$在点$(0, f(0))$处的切线为$y=-\\frac{3}{2}x$，求k的值；",
+                        "solutionSteps": "1. 求$f(x)$的导数$f'(x)=-cosx+k$；\\n2. 曲线在某点处的切线斜率等于该点的导数值，故$f'(0)$为切线$y=-\\frac{3}{2}x$的斜率$-\\frac{3}{2}$；\\n3. 计算$f'(0)=-1+k$，列方程$-1+k=-\\frac{3}{2}$；\\n4. 解方程求出k的值，并检验$f(0)=0$符合切线过原点。",
+                        "standardAnswer": "$k=-\\frac{1}{2}$",
+                        "scoringCriteria": "第一问，正确求出函数$f(x)$的导数得1分；明确切线斜率与导数值的关系得1分；代入x=0列出关于k的方程得1分；解方程并检验得1分，共4分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若$f(x)$为R上的单调函数，求k的取值范围；",
+                        "solutionSteps": "1. 由$f(x)$在R上单调，可知$f'(x)≥0$恒成立或$f'(x)≤0$恒成立；\\n2. $f'(x)=-cosx+k$，$cosx$的取值范围为$[-1,1]$；\\n3. 若$f'(x)≥0$恒成立，则$k≥cosx$恒成立，故k≥1；\\n4. 若$f'(x)≤0$恒成立，则$k≤cosx$恒成立，故k≤-1；\\n5. 综合得出k的取值范围。",
+                        "standardAnswer": "$(-\\infty,-1] \\cup [1,+\\infty)$",
+                        "scoringCriteria": "第二问，正确将函数单调转化为导数恒正或恒负得1分；写出$cosx$的取值范围得1分；分别求出$f'(x)≥0$和$f'(x)≤0$恒成立时k的范围各得1分；综合得出最终取值范围得1分，共5分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）若函数$g(x)=\\frac{k}{6}x^3+x+sinx$，求证：k可以取无数个值，使得每一个k的取值都让$g(x)$恰有三个不同的零点。",
+                        "solutionSteps": "1. 由$g(x)$是奇函数，只需证明k存在无数个取值使$g(x)$在$(0,+\\infty)$上恰有一个零点；\\n2. 求$g(x)$的导数$g'(x)=\\frac{k}{2}x^2+1+cosx$，令$h(x)=\\frac{k}{2}x^2+1+cosx$，求$h'(x)=kx-sinx=f(x)$；\\n3. 由（Ⅱ）知$k≤-1$时，$h'(x)$在$(0,+\\infty)$上单调递减，故$h'(x)<h'(0)=0$，$h(x)$在$(0,+\\infty)$上单调递减；\\n4. 计算$h(0)=2$，$h(\\pi)=\\frac{k\\pi^2}{2}<0$，故存在$x_0\\in(0,\\pi)$使$h(x_0)=0$；\\n5. 分析$g(x)$的单调性：$x\\in(0,x_0)$时$g'(x)>0$，$g(x)$递增；$x\\in(x_0,+\\infty)$时$g'(x)<0$，$g(x)$递减；\\n6. 得$g(x)$在$(0,x_0]$上$g(x)>g(0)=0$，且$g(\\pi)≤-\\frac{\\pi^3}{6}+\\pi<0$，故存在唯一$x_1\\in(x_0,\\pi)$使$g(x_1)=0$；\\n7. 因$k≤-1$有无数个值，故得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，利用奇函数性质简化问题得1分；正确求出$g'(x)$和$h'(x)$并关联$f(x)$得1分；分析$k≤-1$时$h'(x)$和$h(x)$的单调性得1分；利用零点存在定理确定$h(x)$的零点得1分；分析$g(x)$的单调性并确定其在$(0,+\\infty)$的唯一零点得1分；结合$k≤-1$有无数个值得出结论得1分，共6分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=-sinx+kx$ and the function $g(x)=\\frac{k}{6}x^3+x+sinx$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If the tangent line of the curve $y=f(x)$ at the point $(0, f(0))$ is $y=-\\frac{3}{2}x$, find the value of k;",
+                        "solutionSteps": "1. Find the derivative of $f(x)$: $f'(x)=-cosx+k$;\\n2. The slope of the tangent line of the curve at a certain point is equal to the derivative value at that point, so $f'(0)$ is the slope $-\\frac{3}{2}$ of the tangent line $y=-\\frac{3}{2}x$;\\n3. Calculate $f'(0)=-1+k$ and list the equation $-1+k=-\\frac{3}{2}$;\\n4. Solve the equation to find the value of k, and verify that $f(0)=0$ is consistent with the tangent line passing through the origin.",
+                        "standardAnswer": "$k=-\\frac{1}{2}$",
+                        "scoringCriteria": "For the first sub-question, 1 point for correctly finding the derivative of the function $f(x)$; 1 point for clarifying the relationship between the slope of the tangent line and the derivative value; 1 point for substituting x=0 to list the equation about k; 1 point for solving the equation and verifying, total 4 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If $f(x)$ is a monotonic function on R, find the range of k;",
+                        "solutionSteps": "1. Since $f(x)$ is monotonic on R, it is known that $f'(x)≥0$ holds for all x or $f'(x)≤0$ holds for all x;\\n2. $f'(x)=-cosx+k$, the value range of $cosx$ is $[-1,1]$;\\n3. If $f'(x)≥0$ holds for all x, then $k≥cosx$ holds for all x, so k≥1;\\n4. If $f'(x)≤0$ holds for all x, then $k≤cosx$ holds for all x, so k≤-1;\\n5. Synthesize to get the range of k.",
+                        "standardAnswer": "$(-\\infty,-1] \\cup [1,+\\infty)$",
+                        "scoringCriteria": "For the second sub-question, 1 point for correctly converting the monotonicity of the function into the derivative being always positive or always negative; 1 point for writing the value range of $cosx$; 1 point for finding the range of k when $f'(x)≥0$ and $f'(x)≤0$ hold for all x respectively; 1 point for synthesizing to get the final value range, total 5 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Given the function $g(x)=\\frac{k}{6}x^3+x+sinx$, prove that there are infinitely many values of k such that $g(x)$ has exactly three different zeros for each value of k.",
+                        "solutionSteps": "1. Since $g(x)$ is an odd function, it is only necessary to prove that there are infinitely many values of k such that $g(x)$ has exactly one zero on $(0,+\\infty)$;\\n2. Find the derivative of $g(x)$: $g'(x)=\\frac{k}{2}x^2+1+cosx$, let $h(x)=\\frac{k}{2}x^2+1+cosx$, then $h'(x)=kx-sinx=f(x)$;\\n3. From (Ⅱ), when $k≤-1$, $h'(x)$ is monotonically decreasing on $(0,+\\infty)$, so $h'(x)<h'(0)=0$, and $h(x)$ is monotonically decreasing on $(0,+\\infty)$;\\n4. Calculate $h(0)=2$, $h(\\pi)=\\frac{k\\pi^2}{2}<0$, so there exists $x_0\\in(0,\\pi)$ such that $h(x_0)=0$;\\n5. Analyze the monotonicity of $g(x)$: $g'(x)>0$ when $x\\in(0,x_0)$, $g(x)$ is increasing; $g'(x)<0$ when $x\\in(x_0,+\\infty)$, $g(x)$ is decreasing;\\n6. Obtain that $g(x)>g(0)=0$ on $(0,x_0]$ for $g(x)$, and $g(\\pi)≤-\\frac{\\pi^3}{6}+\\pi<0$, so there exists a unique $x_1\\in(x_0,\\pi)$ such that $g(x_1)=0$;\\n7. Since there are infinitely many values for $k≤-1$, the proof is completed.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the third sub-question, 1 point for simplifying the problem by using the property of odd functions; 1 point for correctly finding $g'(x)$ and $h'(x)$ and associating with $f(x)$; 1 point for analyzing the monotonicity of $h'(x)$ and $h(x)$ when $k≤-1$; 1 point for determining the zero of $h(x)$ by using the zero existence theorem; 1 point for analyzing the monotonicity of $g(x)$ and determining its unique zero on $(0,+\\infty)$; 1 point for drawing a conclusion by combining that there are infinitely many values for $k≤-1$, total 6 points.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "设正整数$n ≥2$，对于数列$A: a_1,a_2,\\cdots,a_n$定义变换T，T将数列A变换成数列$T(A): a_1a_2,a_2a_3,\\cdots,a_{n-1}a_n,a_na_1$。已知数列$A_0: a_1,a_2,\\cdots,a_n$满足$a_i \\in \\{-1,1\\}(i=1,2,\\cdots,n)$，记$A_{k+1}=T(A_k)(k=0,1,2,\\cdots)$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）若$A_0:-1,1,1$，写出数列$A_1$、$A_2$；",
+                        "solutionSteps": "1. 根据变换T的定义，计算$A_1=T(A_0)$，即各项为前一项与后一项的乘积，最后一项为末项与首项的乘积；\\n2. 计算$A_1$：$(-1)×1=-1$，$1×1=1$，$1×(-1)=-1$，即$A_1:-1,1,-1$；\\n3. 再根据变换T的定义，计算$A_2=T(A_1)$；\\n4. 计算$A_2$：$(-1)×1=-1$，$1×(-1)=-1$，$(-1)×(-1)=1$，即$A_2:-1,-1,1$。",
+                        "standardAnswer": "$A_1:-1,1,-1$，$A_2:-1,-1,1$",
+                        "scoringCriteria": "第一问，正确根据变换T的定义计算出$A_1$的各项值得2分；正确根据变换T的定义计算出$A_2$的各项值得2分，共4分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若n为奇数且$A_0$不是常数列，求证：对任意正整数k，$A_k$都不是常数列；",
+                        "solutionSteps": "1. 设$n=2t-1(t\\in N^*)$，采用反证法，假设存在正整数k使$A_k$为常数列，不妨设$A_{k-1}:b_1,b_2,\\cdots,b_{2t-1}$，$A_k=T(A_{k-1})$为常数列；\\n2. 由$A_k$为常数列得$b_ib_{i+1}=b_{i+1}b_{i+2}$，因$b_{i+1}\\in\\{-1,1\\}$，故$b_i=b_{i+2}$；\\n3. 由此推出$b_1=b_3=\\cdots=b_{2t-1}=b_2=b_4=\\cdots=b_{2t-2}$，即$A_{k-1}$为常数列，与假设矛盾；\\n4. 或另法：若$A_k$为全1常数列，推出$A_{k-1}$为常数列；若$A_k$为全-1常数列，推出$(-1)^{2t-1}=1$，矛盾；\\n5. 故原命题成立。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第二问，合理设出n的表达式并采用反证法得1分；根据常数列性质推出$b_i=b_{i+2}$得1分；推出$A_{k-1}$为常数列从而产生矛盾得2分；综合得出结论得1分，共5分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）求证：当且仅当$n=2^m(m \\in N^*)$时，对任意$A_0$，都存在正整数k，使得$A_k$为常数列。",
+                        "solutionSteps": "1. 先证必要性：若$n=2^m·(2s-1)(m\\in N^*,s≥2,s\\in N^*)$，构造特定数列$C_0$和$A_0$，由（Ⅱ）知$C_k$非空数列，故$A_k$也非常数列，即n不是2的幂次时，存在$A_0$使$A_k$恒非常数列；\\n2. 再证充分性：若$n=2^m(m\\in N^*)$，用数学归纳法，当$m_0=1$时，n=2，$A_1=T(A_0)$必为常数列，矛盾；\\n3. 当$m_0≥2$时，将数列$A_0$拆分为$E_0$和$F_0$，依变换T可得$A_{2k}$由$E_k$和$F_k$交替组成；\\n4. 存在$k_1,k_2$使$E_{k_1}$、$F_{k_2}$为常数列，取$k_0=max\\{k_1,k_2\\}$，则$A_{2k_0}$为交替常数列，$A_{2k_0+1}$为常数列；\\n5. 综上，当且仅当$n=2^m(m\\in N^*)$时，对任意$A_0$，存在k使$A_k$为常数列。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "第三问，正确证明必要性，构造数列并推出矛盾得2分；正确证明充分性，利用数学归纳法并拆分数列得2分；分析得出$A_{2k_0+1}$为常数列得1分；综合得出充要结论得1分，共6分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Let the positive integer $n ≥2$, for the sequence $A: a_1,a_2,\\cdots,a_n$, a transformation T is defined, which transforms the sequence A into the sequence $T(A): a_1a_2,a_2a_3,\\cdots,a_{n-1}a_n,a_na_1$. Given the sequence $A_0: a_1,a_2,\\cdots,a_n$ satisfying $a_i \\in \\{-1,1\\}(i=1,2,\\cdots,n)$, denote $A_{k+1}=T(A_k)(k=0,1,2,\\cdots)$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) If $A_0:-1,1,1$, write the sequences $A_1$ and $A_2$;",
+                        "solutionSteps": "1. Calculate $A_1=T(A_0)$ according to the definition of transformation T, that is, each term is the product of the previous term and the next term, and the last term is the product of the last term and the first term;\\n2. Calculate $A_1$: $(-1)×1=-1$, $1×1=1$, $1×(-1)=-1$, that is $A_1:-1,1,-1$;\\n3. Calculate $A_2=T(A_1)$ according to the definition of transformation T again;\\n4. Calculate $A_2$: $(-1)×1=-1$, $1×(-1)=-1$, $(-1)×(-1)=1$, that is $A_2:-1,-1,1$.",
+                        "standardAnswer": "$A_1:-1,1,-1$, $A_2:-1,-1,1$",
+                        "scoringCriteria": "For the first sub-question, 2 points for correctly calculating each term of $A_1$ according to the definition of transformation T; 2 points for correctly calculating each term of $A_2$ according to the definition of transformation T, total 4 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If n is an odd number and $A_0$ is not a constant sequence, prove that for any positive integer k, $A_k$ is not a constant sequence;",
+                        "solutionSteps": "1. Let $n=2t-1(t\\in N^*)$, use proof by contradiction, assume that there exists a positive integer k such that $A_k$ is a constant sequence, without loss of generality, let $A_{k-1}:b_1,b_2,\\cdots,b_{2t-1}$, and $A_k=T(A_{k-1})$ is a constant sequence;\\n2. From $A_k$ being a constant sequence, we get $b_ib_{i+1}=b_{i+1}b_{i+2}$, since $b_{i+1}\\in\\{-1,1\\}$, so $b_i=b_{i+2}$;\\n3. From this, it is deduced that $b_1=b_3=\\cdots=b_{2t-1}=b_2=b_4=\\cdots=b_{2t-2}$, that is, $A_{k-1}$ is a constant sequence, which contradicts the assumption;\\n4. Or another method: if $A_k$ is a constant sequence of all 1s, it is deduced that $A_{k-1}$ is a constant sequence; if $A_k$ is a constant sequence of all -1s, it is deduced that $(-1)^{2t-1}=1$, which is a contradiction;\\n5. Therefore, the original proposition holds.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the second sub-question, 1 point for reasonably setting the expression of n and using proof by contradiction; 1 point for deducing $b_i=b_{i+2}$ according to the property of constant sequence; 2 points for deducing that $A_{k-1}$ is a constant sequence thus leading to a contradiction; 1 point for drawing a conclusion synthetically, total 5 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Prove that if and only if $n=2^m(m \\in N^*)$, for any $A_0$, there exists a positive integer k such that $A_k$ is a constant sequence.",
+                        "solutionSteps": "1. First prove the necessity: if $n=2^m·(2s-1)(m\\in N^*,s≥2,s\\in N^*)$, construct specific sequences $C_0$ and $A_0$, from (Ⅱ), $C_k$ is a non-constant sequence, so $A_k$ is also a non-constant sequence, that is, when n is not a power of 2, there exists $A_0$ such that $A_k$ is always a non-constant sequence;\\n2. Then prove the sufficiency: if $n=2^m(m\\in N^*)$, use mathematical induction, when $m_0=1$, n=2, $A_1=T(A_0)$ must be a constant sequence, which is a contradiction;\\n3. When $m_0≥2$, split the sequence $A_0$ into $E_0$ and $F_0$, $A_{2k}$ is composed of $E_k$ and $F_k$ alternately according to transformation T;\\n4. There exist $k_1,k_2$ such that $E_{k_1}$ and $F_{k_2}$ are constant sequences, take $k_0=max\\{k_1,k_2\\}$, then $A_{2k_0}$ is an alternating constant sequence, and $A_{2k_0+1}$ is a constant sequence;\\n5. In conclusion, if and only if $n=2^m(m\\in N^*)$, for any $A_0$, there exists k such that $A_k$ is a constant sequence.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "For the third sub-question, 2 points for correctly proving the necessity, constructing sequences and deducing contradictions; 2 points for correctly proving the sufficiency, using mathematical induction and splitting the sequence; 1 point for analyzing that $A_{2k_0+1}$ is a constant sequence; 1 point for drawing a sufficient and necessary conclusion synthetically, total 6 points.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

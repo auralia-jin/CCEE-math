@@ -1,0 +1,233 @@
+{
+    "paperTitle": "2023 Beijing Chaoyang Senior Three First Mock Examination Mathematics",
+    "questions": [
+        {
+            "number": 18,
+            "chinese": {
+                "stem": "某地区组织所有高一学生参加了“科技的力量”主题知识竞答活动，根据答题得分情况评选出一二三 等奖若干。为了解不同性别学生的获奖情况，从该地区随机抽取了500 名参加活动的高一学生，获奖情况 统计结果如下：\n| 性别 | 人数 | 一等奖获奖人数 | 二等奖获奖人数 | 三等奖获奖人数 |\n| --- | --- | --- | --- | --- |\n| 男生 | 200 | 10 | 15 | 15 |\n| 女生 | 300 | 25 | 25 | 40 |\n假设所有学生的获奖情况相互独立。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）分别从上述200 名男生和300 名女生中各随机抽取1 名，求抽到的2 名学生都获一等奖的概率；",
+                        "solutionSteps": "1. 设事件A为“分别从200名男生和300名女生中各随机抽取1名，抽到的2名学生都获一等奖”；\n2. 计算从男生中抽中一等奖的概率为$\\frac{10}{200}$，从女生中抽中一等奖的概率为$\\frac{25}{300}$；\n3. 由于两次抽取相互独立，根据独立事件概率乘法公式，$P(A)=\\frac{10}{200}×\\frac{25}{300}$；\n4. 化简计算得$P(A)=\\frac{1}{240}$。",
+                        "standardAnswer": "$\\frac{1}{240}$",
+                        "scoringCriteria": "（Ⅰ）共4分，正确设出事件得1分，正确写出男生、女生抽中一等奖的概率各1分，运用独立事件乘法公式计算并得出正确结果得1分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）用频率估计概率，从该地区高一男生中随机抽取1 名，从该地区高一女生中随机抽取1 名，以 X 表示这2 名学生中获奖的人数，求 X 的分布列和数学期望 $E X$；",
+                        "solutionSteps": "1. 确定X的所有可能取值为0，1，2；\n2. 记事件B为“从高一男生中随机抽取1名，该学生获奖”，事件C为“从高一女生中随机抽取1名，该学生获奖”，计算得$P(B)=\\frac{10+15+15}{200}=\\frac{1}{5}$，$P(C)=\\frac{25+25+40}{300}=\\frac{3}{10}$，且B、C相互独立；\n3. 计算$P(X=0)=P(\\bar{B}\\bar{C})=P(\\bar{B})P(\\bar{C})=(1-\\frac{1}{5})×(1-\\frac{3}{10})=\\frac{28}{50}$；\n4. 计算$P(X=1)=P(B\\bar{C}∪\\bar{B}C)=P(B)P(\\bar{C})+P(\\bar{B})P(C)=\\frac{1}{5}×(1-\\frac{3}{10})+(1-\\frac{1}{5})×\\frac{3}{10}=\\frac{19}{50}$；\n5. 计算$P(X=2)=P(BC)=P(B)P(C)=\\frac{1}{5}×\\frac{3}{10}=\\frac{3}{50}$；\n6. 列出X的分布列；\n7. 根据数学期望公式计算$E X=0×\\frac{28}{50}+1×\\frac{19}{50}+2×\\frac{3}{50}=\\frac{1}{2}$。",
+                        "standardAnswer": "X的分布列：\n| X | 0 | 1 | 2 |\n| --- | --- | --- | --- |\n| P | $\\frac{28}{50}$ | $\\frac{19}{50}$ | $\\frac{3}{50}$ |\n数学期望$E X=\\frac{1}{2}$",
+                        "scoringCriteria": "（Ⅱ）共6分，正确确定X的取值得1分，正确计算出P(B)和P(C)得1分，分别正确计算出P(X=0)、P(X=1)、P(X=2)各得1分，正确列出分布列得0.5分，正确计算出数学期望得0.5分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅲ）用频率估计概率，从该地区高一学生中随机抽取1 名，设抽到的学生获奖的概率为 $p_{0}$；从该地区高一男生中随机抽取1 名，设抽到的学生获奖的概率为 $p_{1}$；从该地区高一女生中随机抽取1 名，设抽到的学生获奖的概率为 $p_{2}$，试比较 $p_{0}$ 与 $\\frac{p_{1}+p_{2}}{2}$ 的大小。(结论不要求证明)",
+                        "solutionSteps": "1. 计算该地区高一学生总获奖人数为$10+15+15+25+25+40=130$；\n2. 计算$p_0=\\frac{130}{500}=0.26$，$p_1=\\frac{1}{5}=0.2$，$p_2=\\frac{3}{10}=0.3$；\n3. 计算$\\frac{p_1+p_2}{2}=\\frac{0.2+0.3}{2}=0.25$；\n4. 比较可得$p_0>\\frac{p_1+p_2}{2}$。",
+                        "standardAnswer": "$p_{0}>\\frac{p_{1}+p_{2}}{2}$",
+                        "scoringCriteria": "（Ⅲ）共3分，正确得出大小比较的结论得3分。",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "A region organized all senior one students to participate in the theme knowledge quiz activity of \"The Power of Science and Technology\". According to the scores of the quiz, several first, second and third prizes were selected. To understand the award-winning situation of students of different genders, 500 senior one students who participated in the activity were randomly selected from the region, and the statistical results of the award-winning situation are as follows:\n| Gender | Number of People | Number of First Prize Winners | Number of Second Prize Winners | Number of Third Prize Winners |\n| --- | --- | --- | --- | --- |\n| Male | 200 | 10 | 15 | 15 |\n| Female | 300 | 25 | 25 | 40 |\nAssume that the award-winning situations of all students are independent of each other.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Randomly select 1 student from the above 200 male students and 300 female students respectively, find the probability that both selected students win the first prize;",
+                        "solutionSteps": "1. Let event A be \"Randomly select 1 student from 200 male students and 300 female students respectively, and both selected students win the first prize\"; \n2. Calculate the probability of drawing a first prize winner from male students is $\\frac{10}{200}$, and the probability of drawing a first prize winner from female students is $\\frac{25}{300}$; \n3. Since the two draws are independent, according to the multiplication formula of probability of independent events, $P(A)=\\frac{10}{200}×\\frac{25}{300}$; \n4. Simplify and calculate to get $P(A)=\\frac{1}{240}$.",
+                        "standardAnswer": "$\\frac{1}{240}$",
+                        "scoringCriteria": "(Ⅰ) Total 4 points, 1 point for correctly setting up the event, 1 point each for correctly writing the probabilities of male and female students winning the first prize, and 1 point for calculating the correct result by using the multiplication formula of independent events.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Estimate the probability by frequency, randomly select 1 student from the senior one male students in the region and 1 student from the senior one female students in the region, let X represent the number of award-winning students among these 2 students, find the probability distribution of X and the mathematical expectation $E X$;",
+                        "solutionSteps": "1. Determine all possible values of X are 0, 1, 2; \n2. Let event B be \"Randomly select 1 student from senior one male students, and the student wins an award\", event C be \"Randomly select 1 student from senior one female students, and the student wins an award\". Calculate $P(B)=\\frac{10+15+15}{200}=\\frac{1}{5}$, $P(C)=\\frac{25+25+40}{300}=\\frac{3}{10}$, and B and C are independent; \n3. Calculate $P(X=0)=P(\\bar{B}\\bar{C})=P(\\bar{B})P(\\bar{C})=(1-\\frac{1}{5})×(1-\\frac{3}{10})=\\frac{28}{50}$; \n4. Calculate $P(X=1)=P(B\\bar{C}∪\\bar{B}C)=P(B)P(\\bar{C})+P(\\bar{B})P(C)=\\frac{1}{5}×(1-\\frac{3}{10})+(1-\\frac{1}{5})×\\frac{3}{10}=\\frac{19}{50}$; \n5. Calculate $P(X=2)=P(BC)=P(B)P(C)=\\frac{1}{5}×\\frac{3}{10}=\\frac{3}{50}$; \n6. List the probability distribution of X; \n7. Calculate the mathematical expectation according to the formula $E X=0×\\frac{28}{50}+1×\\frac{19}{50}+2×\\frac{3}{50}=\\frac{1}{2}$.",
+                        "standardAnswer": "The probability distribution of X: \n| X | 0 | 1 | 2 |\n| --- | --- | --- | --- |\n| P | $\\frac{28}{50}$ | $\\frac{19}{50}$ | $\\frac{3}{50}$ |\nThe mathematical expectation $E X=\\frac{1}{2}$",
+                        "scoringCriteria": "(Ⅱ) Total 6 points, 1 point for correctly determining the values of X, 1 point for correctly calculating P(B) and P(C), 1 point each for correctly calculating P(X=0), P(X=1) and P(X=2) respectively, 0.5 points for correctly listing the probability distribution, and 0.5 points for correctly calculating the mathematical expectation.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅲ) Estimate the probability by frequency, randomly select 1 student from the senior one students in the region, let $p_{0}$ be the probability that the selected student wins an award; randomly select 1 student from the senior one male students in the region, let $p_{1}$ be the probability that the selected student wins an award; randomly select 1 student from the senior one female students in the region, let $p_{2}$ be the probability that the selected student wins an award. Compare the sizes of $p_{0}$ and $\\frac{p_{1}+p_{2}}{2}$. (No need to prove the conclusion)",
+                        "solutionSteps": "1. Calculate the total number of award-winning senior one students in the region is $10+15+15+25+25+40=130$; \n2. Calculate $p_0=\\frac{130}{500}=0.26$, $p_1=\\frac{1}{5}=0.2$, $p_2=\\frac{3}{10}=0.3$; \n3. Calculate $\\frac{p_1+p_2}{2}=\\frac{0.2+0.3}{2}=0.25$; \n4. Compare to get $p_0>\\frac{p_1+p_2}{2}$.",
+                        "standardAnswer": "$p_{0}>\\frac{p_{1}+p_{2}}{2}$",
+                        "scoringCriteria": "(Ⅲ) Total 3 points, 3 points for correctly drawing the conclusion of the size comparison.",
+                        "knowledgePoint": "PROBABILITY_STATISTICS",
+                        "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "chinese": {
+                "stem": "已知函数 $f(x)=e^{2 x}-a x-1 (a \\in R)$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求 $f(x)$ 的单调区间；",
+                        "solutionSteps": "1. 求函数$f(x)$的定义域为$R$，对$f(x)$求导得$f'(x)=2e^{2x}-a$；\n2. 当$a ≤0$时，$2e^{2x}>0$，故$f'(x)>0$恒成立，$f(x)$在$(-\\infty,+\\infty)$上单调递增；\n3. 当$a>0$时，令$f'(x)=0$，解得$x=\\frac{1}{2}\\ln\\frac{a}{2}$；\n4. 当$x \\in (-\\infty,\\frac{1}{2}\\ln\\frac{a}{2})$时，$f'(x)<0$，$f(x)$单调递减；当$x \\in (\\frac{1}{2}\\ln\\frac{a}{2},+\\infty)$时，$f'(x)>0$，$f(x)$单调递增。",
+                        "standardAnswer": "当$a ≤0$时，$f(x)$的单调递增区间为$(-\\infty,+\\infty)$，无单调递减区间；当$a>0$时，$f(x)$的单调递减区间为$(-\\infty,\\frac{1}{2}\\ln\\frac{a}{2})$，单调递增区间为$(\\frac{1}{2}\\ln\\frac{a}{2},+\\infty)$",
+                        "scoringCriteria": "（Ⅰ）共5分，正确求导得1分，对$a ≤0$的情况正确分析单调性得2分，对$a>0$的情况正确求出极值点并分析单调区间得2分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若 $f(x)>0$ 对 $x \\in(0,+\\infty)$ 恒成立，求 a 的取值范围；",
+                        "solutionSteps": "1. 当$a ≤2$时，$x>0$，则$2e^{2x}>2$，故$f'(x)=2e^{2x}-a>0$，$f(x)$在$(0,+\\infty)$上单调递增；\n2. 因此$f(x)>f(0)=e^0 -0 -1=0$，满足$f(x)>0$恒成立；\n3. 当$a>2$时，$\\frac{1}{2}\\ln\\frac{a}{2}>0$，由（Ⅰ）知$f(x)$在$(0,\\frac{1}{2}\\ln\\frac{a}{2})$上单调递减；\n4. 故当$x \\in(0,\\frac{1}{2}\\ln\\frac{a}{2})$时，$f(x)<f(0)=0$，不满足$f(x)>0$恒成立；\n5. 综上，a的取值范围为$(-\\infty,2]$。",
+                        "standardAnswer": "$(-\\infty,2]$",
+                        "scoringCriteria": "（Ⅱ）共6分，正确分析$a ≤2$时$f(x)$的单调性并验证$f(x)>0$得3分，正确分析$a>2$时$f(x)$的单调性并指出不满足条件得2分，正确得出a的取值范围得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）证明：若 $f(x)$ 在区间 $(0,+\\infty)$ 上存在唯一零点 $x_{0}$，则 $x_{0}<a-2$。",
+                        "solutionSteps": "1. 由$f(x)$在$(0,+\\infty)$上存在唯一零点$x_0$，得$a>2$，且$e^{2x_0}-ax_0-1=0$，即$a=\\frac{e^{2x_0}-1}{x_0}$；\n2. 要证$x_0<a-2$，只需证$x_0<\\frac{e^{2x_0}-1}{x_0}-2$；\n3. 两边同乘$x_0$（$x_0>0$，不等号方向不变），只需证$x_0^2<e^{2x_0}-1-2x_0$，即$e^{2x_0}>(x_0+1)^2$；\n4. 进一步等价于证$e^{x_0}>x_0+1$；\n5. 由（Ⅱ）知，$e^{2x}-2x-1>0$在$(0,+\\infty)$上恒成立，令$t=x$，则$e^{2t}-2t-1>0$，即$e^t>t+1$在$(0,+\\infty)$上恒成立；\n6. 因为$x_0>0$，故$e^{x_0}>x_0+1$成立，因此$x_0<a-2$得证。",
+                        "standardAnswer": "证明见解析",
+                        "scoringCriteria": "（Ⅲ）共4分，由零点条件推出$a=\\frac{e^{2x_0}-1}{x_0}$得1分，正确进行等价转化得到需证$e^{x_0}>x_0+1$得2分，结合（Ⅱ）结论完成证明得1分。",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given the function $f(x)=e^{2 x}-a x-1 (a \\in R)$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the monotonic intervals of $f(x)$;",
+                        "solutionSteps": "1. The domain of the function $f(x)$ is $R$, find the derivative of $f(x)$ to get $f'(x)=2e^{2x}-a$; \n2. When $a ≤0$, $2e^{2x}>0$, so $f'(x)>0$ holds for all $x$, and $f(x)$ is monotonically increasing on $(-\\infty,+\\infty)$; \n3. When $a>0$, let $f'(x)=0$, solve to get $x=\\frac{1}{2}\\ln\\frac{a}{2}$; \n4. When $x \\in (-\\infty,\\frac{1}{2}\\ln\\frac{a}{2})$, $f'(x)<0$, $f(x)$ is monotonically decreasing; when $x \\in (\\frac{1}{2}\\ln\\frac{a}{2},+\\infty)$, $f'(x)>0$, $f(x)$ is monotonically increasing.",
+                        "standardAnswer": "When $a ≤0$, the monotonic increasing interval of $f(x)$ is $(-\\infty,+\\infty)$, and there is no monotonic decreasing interval; when $a>0$, the monotonic decreasing interval of $f(x)$ is $(-\\infty,\\frac{1}{2}\\ln\\frac{a}{2})$, and the monotonic increasing interval is $(\\frac{1}{2}\\ln\\frac{a}{2},+\\infty)$",
+                        "scoringCriteria": "(Ⅰ) Total 5 points, 1 point for correctly finding the derivative, 2 points for correctly analyzing the monotonicity when $a ≤0$, and 2 points for correctly finding the extreme point and analyzing the monotonic intervals when $a>0$.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If $f(x)>0$ holds for all $x \\in(0,+\\infty)$, find the range of the value of a;",
+                        "solutionSteps": "1. When $a ≤2$, $x>0$, then $2e^{2x}>2$, so $f'(x)=2e^{2x}-a>0$, and $f(x)$ is monotonically increasing on $(0,+\\infty)$; \n2. Therefore, $f(x)>f(0)=e^0 -0 -1=0$, which satisfies $f(x)>0$ for all $x$; \n3. When $a>2$, $\\frac{1}{2}\\ln\\frac{a}{2}>0$, it is known from (Ⅰ) that $f(x)$ is monotonically decreasing on $(0,\\frac{1}{2}\\ln\\frac{a}{2})$; \n4. So when $x \\in(0,\\frac{1}{2}\\ln\\frac{a}{2})$, $f(x)<f(0)=0$, which does not satisfy $f(x)>0$ for all $x$; \n5. In conclusion, the range of a is $(-\\infty,2]$.",
+                        "standardAnswer": "$(-\\infty,2]$",
+                        "scoringCriteria": "(Ⅱ) Total 6 points, 3 points for correctly analyzing the monotonicity of $f(x)$ and verifying $f(x)>0$ when $a ≤2$, 2 points for correctly analyzing the monotonicity of $f(x)$ and pointing out that the condition is not satisfied when $a>2$, and 1 point for correctly obtaining the range of a.",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) Prove that if $f(x)$ has a unique zero point $x_{0}$ in the interval $(0,+\\infty)$, then $x_{0}<a-2$.",
+                        "solutionSteps": "1. Since $f(x)$ has a unique zero point $x_0$ in $(0,+\\infty)$, we have $a>2$, and $e^{2x_0}-ax_0-1=0$, that is $a=\\frac{e^{2x_0}-1}{x_0}$; \n2. To prove $x_0<a-2$, it is only necessary to prove $x_0<\\frac{e^{2x_0}-1}{x_0}-2$; \n3. Multiply both sides by $x_0$ ($x_0>0$, the direction of the inequality sign remains unchanged), it is only necessary to prove $x_0^2<e^{2x_0}-1-2x_0$, that is $e^{2x_0}>(x_0+1)^2$; \n4. It is further equivalent to proving $e^{x_0}>x_0+1$; \n5. It is known from (Ⅱ) that $e^{2x}-2x-1>0$ holds for all $x \\in(0,+\\infty)$, let $t=x$, then $e^{2t}-2t-1>0$, that is $e^t>t+1$ holds for all $t \\in(0,+\\infty)$; \n6. Since $x_0>0$, $e^{x_0}>x_0+1$ holds, so $x_0<a-2$ is proved.",
+                        "standardAnswer": "See the analysis for the proof",
+                        "scoringCriteria": "(Ⅲ) Total 4 points, 1 point for deducing $a=\\frac{e^{2x_0}-1}{x_0}$ from the zero point condition, 2 points for correctly performing equivalent transformation to get that it is necessary to prove $e^{x_0}>x_0+1$, and 1 point for completing the proof combined with the conclusion of (Ⅱ).",
+                        "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+                        "questionType": "DEDUCTIVE_PROOF"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "chinese": {
+                "stem": "已知椭圆 $E: \\frac{x^{2}}{4}+\\frac{y^{2}}{n}=1(0<n<4)$ 经过点 $(\\sqrt{2},-1)$。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）求椭圆 E 的方程及离心率；",
+                        "solutionSteps": "1. 将点$(\\sqrt{2},-1)$代入椭圆方程$\\frac{x^2}{4}+\\frac{y^2}{n}=1$，得$\\frac{2}{4}+\\frac{1}{n}=1$；\n2. 解方程得$\\frac{1}{n}=\\frac{1}{2}$，即$n=2$，故椭圆E的方程为$\\frac{x^2}{4}+\\frac{y^2}{2}=1$；\n3. 由椭圆方程得$a^2=4$，$b^2=2$，根据$c^2=a^2-b^2$计算得$c=\\sqrt{4-2}=\\sqrt{2}$；\n4. 椭圆离心率$e=\\frac{c}{a}$，代入得$e=\\frac{\\sqrt{2}}{2}$。",
+                        "standardAnswer": "椭圆E的方程为$\\frac{x^2}{4}+\\frac{y^2}{2}=1$，离心率为$\\frac{\\sqrt{2}}{2}$",
+                        "scoringCriteria": "（Ⅰ）共5分，正确代入点的坐标求出n的值得2分，正确写出椭圆方程得1分，正确计算出c的值得1分，正确求出离心率得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "（Ⅱ）设椭圆 E 的左顶点为 A ,直线 $l: x=m y+1$ 与 E 相交于 M , N 两点,直线 $A M$ 与直线 $x=4$ 相交于 点 Q 。问:直线 $N Q$ 是否经过 x 轴上的定点?若过定点,求出该点坐标;若不过定点,说明理由。",
+                        "solutionSteps": "1. 由椭圆方程得左顶点$A(-2,0)$，联立直线$l$与椭圆E的方程$\\begin{cases}x=my+1\\\\x^2+2y^2=4\\end{cases}$，消去x得$(m^2+2)y^2+2my-3=0$，易知$\\Delta>0$；\n2. 设$M(x_1,y_1)$，$N(x_2,y_2)$，由韦达定理得$y_1+y_2=-\\frac{2m}{m^2+2}$，$y_1y_2=-\\frac{3}{m^2+2}$；\n3. 写出直线AM的方程为$y=\\frac{y_1}{x_1+2}(x+2)$，令$x=4$，得$y=\\frac{6y_1}{x_1+2}$，故点$Q(4,\\frac{6y_1}{x_1+2})$；\n4. 求直线NQ的斜率$k_{NQ}=\\frac{\\frac{6y_1}{x_1+2}-y_2}{4-x_2}$，写出直线NQ的方程为$y-y_2=k_{NQ}(x-x_2)$；\n5. 令$y=0$，求解x的值，将$x_1=my_1+1$代入并结合韦达定理化简；\n6. 经过化简计算得$x=2$，故直线NQ经过x轴上的定点(2,0)。",
+                        "standardAnswer": "直线NQ经过x轴上的定点，定点坐标为(2,0)",
+                        "scoringCriteria": "（Ⅱ）共10分，正确联立方程并消元得2分，正确运用韦达定理得出$y_1+y_2$和$y_1y_2$得2分，正确求出点Q的坐标得1分，正确写出直线NQ的方程得1分，令y=0后正确代入化简得3分，正确得出定点坐标得1分。",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "It is known that the ellipse $E: \\frac{x^{2}}{4}+\\frac{y^{2}}{n}=1(0<n<4)$ passes through the point $(\\sqrt{2},-1)$.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Find the equation and the eccentricity of the ellipse E;",
+                        "solutionSteps": "1. Substitute the point $(\\sqrt{2},-1)$ into the ellipse equation $\\frac{x^2}{4}+\\frac{y^2}{n}=1$, we get $\\frac{2}{4}+\\frac{1}{n}=1$; \n2. Solve the equation to get $\\frac{1}{n}=\\frac{1}{2}$, that is $n=2$, so the equation of the ellipse E is $\\frac{x^2}{4}+\\frac{y^2}{2}=1$; \n3. From the ellipse equation, we have $a^2=4$, $b^2=2$, calculate $c=\\sqrt{4-2}=\\sqrt{2}$ according to $c^2=a^2-b^2$; \n4. The eccentricity of the ellipse is $e=\\frac{c}{a}$, substitute the values to get $e=\\frac{\\sqrt{2}}{2}$.",
+                        "standardAnswer": "The equation of the ellipse E is $\\frac{x^2}{4}+\\frac{y^2}{2}=1$, and the eccentricity is $\\frac{\\sqrt{2}}{2}$",
+                        "scoringCriteria": "(Ⅰ) Total 5 points, 2 points for correctly substituting the coordinates of the point to find the value of n, 1 point for correctly writing the ellipse equation, 1 point for correctly calculating the value of c, and 1 point for correctly finding the eccentricity.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "BASIC_CALCULATION"
+                    },
+                    {
+                        "question": "(Ⅱ) Let A be the left vertex of the ellipse E, the line $l: x=m y+1$ intersects E at points M and N, and the line AM intersects the line $x=4$ at point Q. Question: Does the line NQ pass through a fixed point on the x-axis? If it passes through a fixed point, find the coordinates of the fixed point; if not, explain the reason.",
+                        "solutionSteps": "1. From the ellipse equation, the left vertex $A(-2,0)$ is obtained. Simultaneously solve the equations of the line $l$ and the ellipse E $\\begin{cases}x=my+1\\\\x^2+2y^2=4\\end{cases}$, eliminate x to get $(m^2+2)y^2+2my-3=0$, and it is easy to know that $\\Delta>0$; \n2. Let $M(x_1,y_1)$, $N(x_2,y_2)$, from Vieta's formulas, we get $y_1+y_2=-\\frac{2m}{m^2+2}$, $y_1y_2=-\\frac{3}{m^2+2}$; \n3. Write the equation of the line AM as $y=\\frac{y_1}{x_1+2}(x+2)$, let $x=4$, we get $y=\\frac{6y_1}{x_1+2}$, so the point $Q(4,\\frac{6y_1}{x_1+2})$; \n4. Find the slope of the line NQ $k_{NQ}=\\frac{\\frac{6y_1}{x_1+2}-y_2}{4-x_2}$, and write the equation of the line NQ as $y-y_2=k_{NQ}(x-x_2)$; \n5. Let $y=0$, solve for the value of x, substitute $x_1=my_1+1$ and simplify combined with Vieta's formulas; \n6. After simplification and calculation, we get $x=2$, so the line NQ passes through the fixed point (2,0) on the x-axis.",
+                        "standardAnswer": "The line NQ passes through a fixed point on the x-axis, and the coordinates of the fixed point are (2,0)",
+                        "scoringCriteria": "(Ⅱ) Total 10 points, 2 points for correctly simulating and eliminating the variables of the equations, 2 points for correctly using Vieta's formulas to obtain $y_1+y_2$ and $y_1y_2$, 1 point for correctly finding the coordinates of point Q, 1 point for correctly writing the equation of the line NQ, 3 points for correctly substituting and simplifying after letting y=0, and 1 point for correctly obtaining the coordinates of the fixed point.",
+                        "knowledgePoint": "ANALYTIC_GEOMETRY",
+                        "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "chinese": {
+                "stem": "已知有穷数列 $A: a_{1}, a_{2}, \\cdots, a_{N}(N \\in N^{*}, N ≥3)$ 满足 $a_{i} \\in{-1,0,1}(i=1,2, \\cdots, N)$。给定正整数 m ,若存在正整数 $s, t(s ≠t)$ ,使得对任意的 $k \\in{0,1,2, \\cdots, m-1}$ ,都有 $a_{s+k}=a_{t+k}$ ,则称数列 A 是 m -连续等项数列。",
+                "subQuestions": [
+                    {
+                        "question": "（Ⅰ）判断数列 $A:-1,1,0,1,0,1,-1$ 是否为3-连续等项数列?是否为4-连续等项数列 ? 说明理由；",
+                        "solutionSteps": "1. 判断是否为3-连续等项数列：验证存在$s=2$，$t=4$（$s≠t$），对$k=0,1,2$，有$a_{2+0}=a_{4+0}=1$，$a_{2+1}=a_{4+1}=0$，$a_{2+2}=a_{4+2}=1$，满足定义，故该数列是3-连续等项数列；\n2. 判断是否为4-连续等项数列：依次列出数列中所有连续4项的子列：$a_1a_2a_3a_4=-1,1,0,1$，$a_2a_3a_4a_5=1,0,1,0$，$a_3a_4a_5a_6=0,1,0,1$，$a_4a_5a_6a_7=1,0,1,-1$；\n3. 观察可知不存在$s≠t$，使得对$k=0,1,2,3$，$a_{s+k}=a_{t+k}$，故该数列不是4-连续等项数列。",
+                        "standardAnswer": "数列A是3-连续等项数列，不是4-连续等项数列，理由见解析",
+                        "scoringCriteria": "（Ⅰ）共4分，正确判断为3-连续等项数列并给出合理理由得2分，正确判断为不是4-连续等项数列并给出合理理由得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "（Ⅱ）若项数为 N 的任意数列 A 都是2 -连续等项数列,求 N 的最小值；",
+                        "solutionSteps": "1. 设集合$S={(x,y)|x \\in{-1,0,1},y \\in{-1,0,1}}$，则S中有$3^2=9$个不同的有序数对；\n2. 数列中连续两项的有序数对为$(a_1,a_2),(a_2,a_3),\\cdots,(a_{N-1},a_N)$，共$N-1$个；\n3. 若$N≥11$，则$N-1≥10>9$，由抽屉原理，至少有两个有序数对相同，即存在$s≠t$，使得$a_s=a_t$，$a_{s+1}=a_{t+1}$，满足2-连续等项数列的定义；\n4. 分别构造项数为3到10的数列，均能找到不是2-连续等项数列的例子，如$N=10$时，数列0,0,1,1,0,-1,1,-1,-1,0不是2-连续等项数列；\n5. 综上，N的最小值为11。",
+                        "standardAnswer": "11",
+                        "scoringCriteria": "（Ⅱ）共5分，正确构造集合S并得出元素个数得1分，运用抽屉原理解释N≥11时任意数列都是2-连续等项数列得2分，构造出3到10项不是2-连续等项数列的例子得1分，正确得出N的最小值得1分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "（Ⅲ）若数列 $A: a_{1}, a_{2}, \\cdots, a_{N}$ 不是4 -连续等项数列,而数列 $A_{1}: a_{1}, a_{2}, \\cdots, a_{N},-1$ ,数列 $A_{2}: a_{1}, a_{2}, \\cdots, a_{N}, 0$ 与 数列 $A_{3}: a_{1}, a_{2}, \\cdots, a_{N}, 1$ 都是4 -连续等项数列,且 $a_{3}=0$ ,求 $a_{N}$ 的值。",
+                        "solutionSteps": "1. 由$A_1$、$A_2$、$A_3$都是4-连续等项数列，A不是4-连续等项数列，得存在两两不等的正整数$i,j,k(i,j,k<N-2)$，使得$a_i=a_{N-2},a_{i+1}=a_{N-1},a_{i+2}=a_N,a_{i+3}=-1$；$a_j=a_{N-2},a_{j+1}=a_{N-1},a_{j+2}=a_N,a_{j+3}=0$；$a_k=a_{N-2},a_{k+1}=a_{N-1},a_{k+2}=a_N,a_{k+3}=1$；\n2. 用反证法证明$min\\{i,j,k\\}=1$：假设$min\\{i,j,k\\}>1$，则$a_{i-1},a_{j-1},a_{k-1},a_{N-3} \\in{-1,0,1}$，由抽屉原理至少有两个数相等，不妨设$a_{i-1}=a_{j-1}$，则$a_{i-1}=a_{j-1},a_i=a_j,a_{i+1}=a_{j+1},a_{i+2}=a_{j+2}$，即A是4-连续等项数列，与题设矛盾，故$min\\{i,j,k\\}=1$；\n3. 由$min\\{i,j,k\\}=1$，得$a_N=a_{1+2}=a_3$，又$a_3=0$，故$a_N=0$。",
+                        "standardAnswer": "0",
+                        "scoringCriteria": "（Ⅲ）共6分，由题设条件推出存在满足条件的i,j,k得2分，用反证法正确证明$min\\{i,j,k\\}=1$得2分，结合$a_3=0$正确推出$a_N=0$得2分。",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            },
+            "english": {
+                "stem": "Given a finite sequence $A: a_{1}, a_{2}, \\cdots, a_{N}(N \\in N^{*}, N ≥3)$ satisfying $a_{i} \\in\\{-1,0,1\\}(i=1,2, \\cdots, N)$. For a given positive integer m, if there exist positive integers $s, t(s ≠t)$ such that for any $k \\in\\{0,1,2, \\cdots, m-1\\}$, $a_{s+k}=a_{t+k}$ holds, then the sequence A is called an m-consecutive equal term sequence.",
+                "subQuestions": [
+                    {
+                        "question": "(Ⅰ) Judge whether the sequence $A:-1,1,0,1,0,1,-1$ is a 3-consecutive equal term sequence? Is it a 4-consecutive equal term sequence? Explain the reasons;",
+                        "solutionSteps": "1. Judge whether it is a 3-consecutive equal term sequence: Verify that there exist $s=2$, $t=4$ ($s≠t$), for $k=0,1,2$, $a_{2+0}=a_{4+0}=1$, $a_{2+1}=a_{4+1}=0$, $a_{2+2}=a_{4+2}=1$, which satisfies the definition, so the sequence is a 3-consecutive equal term sequence; \n2. Judge whether it is a 4-consecutive equal term sequence: List all sub-sequences of 4 consecutive terms in the sequence in turn: $a_1a_2a_3a_4=-1,1,0,1$, $a_2a_3a_4a_5=1,0,1,0$, $a_3a_4a_5a_6=0,1,0,1$, $a_4a_5a_6a_7=1,0,1,-1$; \n3. It can be seen that there is no $s≠t$ such that $a_{s+k}=a_{t+k}$ for $k=0,1,2,3$, so the sequence is not a 4-consecutive equal term sequence.",
+                        "standardAnswer": "The sequence A is a 3-consecutive equal term sequence and not a 4-consecutive equal term sequence, see the analysis for the reasons",
+                        "scoringCriteria": "(Ⅰ) Total 4 points, 2 points for correctly judging it as a 3-consecutive equal term sequence and giving reasonable reasons, and 2 points for correctly judging it as not a 4-consecutive equal term sequence and giving reasonable reasons.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+                    },
+                    {
+                        "question": "(Ⅱ) If any sequence A with N terms is a 2-consecutive equal term sequence, find the minimum value of N;",
+                        "solutionSteps": "1. Let the set $S={(x,y)|x \\in\\{-1,0,1\\},y \\in\\{-1,0,1\\}}$, then there are $3^2=9$ different ordered pairs in S; \n2. The ordered pairs of two consecutive terms in the sequence are $(a_1,a_2),(a_2,a_3),\\cdots,(a_{N-1},a_N)$, a total of $N-1$; \n3. If $N≥11$, then $N-1≥10>9$, by the pigeonhole principle, at least two ordered pairs are the same, that is, there exist $s≠t$ such that $a_s=a_t$, $a_{s+1}=a_{t+1}$, which satisfies the definition of a 2-consecutive equal term sequence; \n4. Construct sequences with 3 to 10 terms respectively, and examples of sequences that are not 2-consecutive equal term sequences can be found for all, such as the sequence 0,0,1,1,0,-1,1,-1,-1,0 with 10 terms is not a 2-consecutive equal term sequence; \n5. In conclusion, the minimum value of N is 11.",
+                        "standardAnswer": "11",
+                        "scoringCriteria": "(Ⅱ) Total 5 points, 1 point for correctly constructing the set S and obtaining the number of elements, 2 points for explaining that any sequence with N≥11 terms is a 2-consecutive equal term sequence by using the pigeonhole principle, 1 point for constructing examples of non-2-consecutive equal term sequences with 3 to 10 terms, and 1 point for correctly obtaining the minimum value of N.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    },
+                    {
+                        "question": "(Ⅲ) If the sequence $A: a_{1}, a_{2}, \\cdots, a_{N}$ is not a 4-consecutive equal term sequence, while the sequence $A_{1}: a_{1}, a_{2}, \\cdots, a_{N},-1$, the sequence $A_{2}: a_{1}, a_{2}, \\cdots, a_{N}, 0$ and the sequence $A_{3}: a_{1}, a_{2}, \\cdots, a_{N}, 1$ are all 4-consecutive equal term sequences, and $a_{3}=0$, find the value of $a_{N}$.",
+                        "solutionSteps": "1. Since $A_1$, $A_2$ and $A_3$ are all 4-consecutive equal term sequences, and A is not a 4-consecutive equal term sequence, there exist positive integers $i,j,k(i,j,k<N-2)$ that are pairwise unequal, such that $a_i=a_{N-2},a_{i+1}=a_{N-1},a_{i+2}=a_N,a_{i+3}=-1$; $a_j=a_{N-2},a_{j+1}=a_{N-1},a_{j+2}=a_N,a_{j+3}=0$; $a_k=a_{N-2},a_{k+1}=a_{N-1},a_{k+2}=a_N,a_{k+3}=1$; \n2. Prove $min\\{i,j,k\\}=1$ by contradiction: Assume $min\\{i,j,k\\}>1$, then $a_{i-1},a_{j-1},a_{k-1},a_{N-3} \\in\\{-1,0,1\\}$, at least two numbers are equal by the pigeonhole principle, let $a_{i-1}=a_{j-1}$ without loss of generality, then $a_{i-1}=a_{j-1},a_i=a_j,a_{i+1}=a_{j+1},a_{i+2}=a_{j+2}$, that is, A is a 4-consecutive equal term sequence, which contradicts the hypothesis, so $min\\{i,j,k\\}=1$; \n3. From $min\\{i,j,k\\}=1$, we get $a_N=a_{1+2}=a_3$, and $a_3=0$, so $a_N=0$.",
+                        "standardAnswer": "0",
+                        "scoringCriteria": "(Ⅲ) Total 6 points, 2 points for deducing the existence of i,j,k satisfying the conditions from the given conditions, 2 points for correctly proving $min\\{i,j,k\\}=1$ by contradiction, and 2 points for correctly deducing $a_N=0$ combined with $a_3=0$.",
+                        "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+                        "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+                    }
+                ]
+            }
+        }
+    ]
+}

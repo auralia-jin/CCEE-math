@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2025 Beijing Fangshan Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "随着科技的飞速发展，人工智能已经逐渐融入人们的日常生活，在教育领域，APP赋能潜力巨大。为了解某校学生对某款学习软件APP的使用情况，根据男女学生人数比例，使用分层抽样的方法随机抽取了90名学生，获得数据如下：\n| 是否使用该款学习软件APP | 男生 | 女生 |\n| --- | --- | --- |\n| 使用 | 40人 | 30人 |\n| 不使用 | 10人 | 10人 |\n假设学生是否使用该款学习软件APP相互独立。用频率估计概率。",
+        "subQuestions": [
+          {
+            "question": "（1）估计该校学生使用该款学习软件APP的概率；",
+            "solutionSteps": "1. 从抽取的90名学生中，统计使用该款学习软件APP的人数：40+30=70人；\n2. 根据频率估计概率的方法，用使用人数除以总抽取人数，计算概率：$P=\\frac{70}{90}=\\frac{7}{9}$。",
+            "standardAnswer": "$\\frac{7}{9}$",
+            "scoringCriteria": "第一问，正确统计出使用该软件的学生总人数得2分；正确运用频率估计概率的公式并代入数据计算得2分；最终化简得到正确答案得1分，共5分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）从该校全体男生中随机抽取2人，全体女生中随机抽取1人，记这3人中使用该学习软件APP的人数为X，求X的分布列和数学期望；",
+            "solutionSteps": "1. 计算男生、女生使用该软件的概率：男生使用概率$P(A)=\\frac{40}{50}=\\frac{4}{5}$，女生使用概率$P(B)=\\frac{30}{40}=\\frac{3}{4}$；\n2. 确定X的可能取值：0，1，2，3；\n3. 分别计算各取值的概率：\n   $P(X=0)=(\\frac{1}{5})^2×\\frac{1}{4}=\\frac{1}{100}$；\n   $P(X=1)=2×\\frac{4}{5}×\\frac{1}{5}×\\frac{1}{4}+(\\frac{1}{5})^2×\\frac{3}{4}=\\frac{11}{100}$；\n   $P(X=2)=2×\\frac{4}{5}×\\frac{1}{5}×\\frac{3}{4}+(\\frac{4}{5})^2×\\frac{1}{4}=\\frac{2}{5}$；\n   $P(X=3)=(\\frac{4}{5})^2×\\frac{3}{4}=\\frac{12}{25}$；\n4. 列出X的分布列；\n5. 根据数学期望公式计算：$E(X)=0×\\frac{1}{100}+1×\\frac{11}{100}+2×\\frac{2}{5}+3×\\frac{12}{25}=\\frac{47}{20}$。",
+            "standardAnswer": "分布列：\n| X | 0 | 1 | 2 | 3 |\n| --- | --- | --- | --- | --- |\n| P | $\\frac{1}{100}$ | $\\frac{11}{100}$ | $\\frac{2}{5}$ | $\\frac{12}{25}$ |\n数学期望：$\\frac{47}{20}$",
+            "scoringCriteria": "第二问，正确计算出男生、女生使用软件的概率得2分；准确确定X的所有可能取值得1分；正确计算出每个取值对应的概率各得1分（共4分）；完整列出分布列得1分；正确运用期望公式并计算出最终结果得1分，共9分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（3）从该校所有学生中随机抽取1人，“$Y_1=1$”表示该生使用该款学习软件APP，“$Y_1=0$”表示该生不使用该款学习软件APP。假设该校一年级有200名男生和180名女生，从除一年级外其他年级学生中随机抽取1人，“$Y_2=1$”表示该生使用该款学习软件APP，“$Y_2=0$”表示该生不使用该款学习软件APP。$Y_1$，$Y_2$的方差分别记为$D(Y_1)$，$D(Y_2)$，试比较$D(Y_1)$与$D(Y_2)$的大小（结论不要求证明）；",
+            "solutionSteps": "1. 计算一年级学生使用该软件的概率$P_1=\\frac{200×\\frac{4}{5}+180×\\frac{3}{4}}{200+180}=\\frac{59}{76}$，并计算其方差$D(Y_3)=\\frac{59}{76}×(1-\\frac{59}{76})$；\n2. 计算该校所有学生使用该软件的概率$P_2=\\frac{7}{9}$，并计算其方差$D(Y_1)=\\frac{7}{9}×(1-\\frac{7}{9})$；\n3. 比较$D(Y_3)$与$D(Y_1)$的大小，推出$D(Y_1)$与$D(Y_2)$的大小关系。",
+            "standardAnswer": "$D(Y_1)>D(Y_2)$",
+            "scoringCriteria": "第三问，直接写出正确的大小比较结论得3分，共3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "With the rapid development of science and technology, artificial intelligence has gradually integrated into people's daily lives. In the field of education, APPs have great empowerment potential. To understand the usage of a certain learning software APP among students in a school, 90 students were randomly selected using the stratified sampling method according to the gender ratio of students, and the following data were obtained:\n| Whether to use the learning software APP | Boys | Girls |\n| --- | --- | --- |\n| Use | 40 | 30 |\n| Do not use | 10 | 10 |\nIt is assumed that students' use of the learning software APP is independent of each other. Estimate the probability by frequency.",
+        "subQuestions": [
+          {
+            "question": "(1) Estimate the probability that students in this school use the learning software APP;",
+            "solutionSteps": "1. Count the number of students who use the learning software APP among the 90 selected students: 40+30=70;\\n2. According to the method of estimating probability by frequency, calculate the probability by dividing the number of users by the total number of selected students: $P=\\frac{70}{90}=\\frac{7}{9}$.",
+            "standardAnswer": "$\\frac{7}{9}$",
+            "scoringCriteria": "For the first question, 2 points for correctly counting the total number of students who use the software; 2 points for correctly applying the formula of estimating probability by frequency and substituting data for calculation; 1 point for simplifying to get the correct final answer, with a total of 5 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Randomly select 2 students from all boys in the school and 1 student from all girls, let X be the number of these 3 students who use the learning software APP, find the probability distribution and mathematical expectation of X;",
+            "solutionSteps": "1. Calculate the probability of boys and girls using the software: the probability of boys using it $P(A)=\\frac{40}{50}=\\frac{4}{5}$, the probability of girls using it $P(B)=\\frac{30}{40}=\\frac{3}{4}$;\\n2. Determine the possible values of X: 0, 1, 2, 3;\\n3. Calculate the probability of each value separately:\\n   $P(X=0)=(\\frac{1}{5})^2×\\frac{1}{4}=\\frac{1}{100}$;\\n   $P(X=1)=2×\\frac{4}{5}×\\frac{1}{5}×\\frac{1}{4}+(\\frac{1}{5})^2×\\frac{3}{4}=\\frac{11}{100}$;\\n   $P(X=2)=2×\\frac{4}{5}×\\frac{1}{5}×\\frac{3}{4}+(\\frac{4}{5})^2×\\frac{1}{4}=\\frac{2}{5}$;\\n   $P(X=3)=(\\frac{4}{5})^2×\\frac{3}{4}=\\frac{12}{25}$;\\n4. List the probability distribution of X;\\n5. Calculate according to the mathematical expectation formula: $E(X)=0×\\frac{1}{100}+1×\\frac{11}{100}+2×\\frac{2}{5}+3×\\frac{12}{25}=\\frac{47}{20}$.",
+            "standardAnswer": "Probability distribution:\\n| X | 0 | 1 | 2 | 3 |\\n| --- | --- | --- | --- | --- |\\n| P | $\\frac{1}{100}$ | $\\frac{11}{100}$ | $\\frac{2}{5}$ | $\\frac{12}{25}$ |\\nMathematical expectation: $\\frac{47}{20}$",
+            "scoringCriteria": "For the second question, 2 points for correctly calculating the probability of boys and girls using the software; 1 point for accurately determining all possible values of X; 1 point for correctly calculating the probability corresponding to each value (4 points in total); 1 point for completely listing the probability distribution; 1 point for correctly applying the expectation formula and calculating the final result, with a total of 9 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(3) Randomly select 1 student from all students in the school, “$Y_1=1$” means the student uses the learning software APP, “$Y_1=0$” means the student does not use the learning software APP. Assume that there are 200 boys and 180 girls in the first grade of the school, randomly select 1 student from other grades except the first grade, “$Y_2=1$” means the student uses the learning software APP, “$Y_2=0$” means the student does not use the learning software APP. The variances of $Y_1$ and $Y_2$ are denoted as $D(Y_1)$ and $D(Y_2)$ respectively, compare the sizes of $D(Y_1)$ and $D(Y_2)$ (no proof is required for the conclusion);",
+            "solutionSteps": "1. Calculate the probability $P_1=\\frac{200×\\frac{4}{5}+180×\\frac{3}{4}}{200+180}=\\frac{59}{76}$ of students in the first grade using the software, and calculate its variance $D(Y_3)=\\frac{59}{76}×(1-\\frac{59}{76})$;\\n2. Calculate the probability $P_2=\\frac{7}{9}$ of all students in the school using the software, and calculate its variance $D(Y_1)=\\frac{7}{9}×(1-\\frac{7}{9})$;\\n3. Compare the sizes of $D(Y_3)$ and $D(Y_1)$, and deduce the size relationship between $D(Y_1)$ and $D(Y_2)$.",
+            "standardAnswer": "$D(Y_1)>D(Y_2)$",
+            "scoringCriteria": "For the third question, 3 points for directly writing the correct conclusion of size comparison, with a total of 3 points.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（1）已知椭圆$E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的长轴长为4，一个焦点为$F(1,0)$，求椭圆E的方程及离心率；",
+            "solutionSteps": "1. 根据长轴长公式$2a=4$，解得$a=2$；\n2. 由焦点坐标知$c=1$；\n3. 根据椭圆中$a^2=b^2+c^2$，计算$b^2=a^2-c^2=4-1=3$；\n4. 写出椭圆E的方程：$\\frac{x^2}{4}+\\frac{y^2}{3}=1$；\n5. 根据离心率公式$e=\\frac{c}{a}$，计算得$e=\\frac{1}{2}$。",
+            "standardAnswer": "椭圆E的方程：$\\frac{x^2}{4}+\\frac{y^2}{3}=1$，离心率：$\\frac{1}{2}$",
+            "scoringCriteria": "第一问，由长轴长正确求出a的值得1分；确定c的值得1分；正确运用$a^2=b^2+c^2$求出$b^2$得1分；写出正确的椭圆方程得1分；正确计算出离心率得1分，共5分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）过点F且斜率存在的直线交椭圆E于A、B两点，在x轴上是否存在点M，使得$\\frac{S_{\\triangle AFM}}{S_{\\triangle BFM}}=\\frac{|AM|}{|BM|}$？若存在，求出点M的坐标；若不存在，说明理由。",
+            "solutionSteps": "1. 设直线AB的方程为$y=k(x-1)(k≠0)$，点$M(m,0)$，$A(x_1,y_1)$，$B(x_2,y_2)$；\n2. 联立椭圆方程与直线方程：$\\begin{cases}y=k(x-1)\\\\\\frac{x^2}{4}+\\frac{y^2}{3}=1\\end{cases}$，整理得$(3+4k^2)x^2-8k^2x+4k^2-12=0$；\n3. 由韦达定理得$x_1+x_2=\\frac{8k^2}{3+4k^2}$，$x_1x_2=\\frac{4k^2-12}{3+4k^2}$；\n4. 由$\\frac{S_{\\triangle AFM}}{S_{\\triangle BFM}}=\\frac{|AM|}{|BM|}$推出$sin\\angle AMF=sin\\angle BMF$，即$\\angle AMF=\\angle BMF$，直线AM与BM的斜率互为相反数，即$k_{AM}+k_{BM}=0$；\n5. 代入斜率公式得$\\frac{y_1}{x_1-m}+\\frac{y_2}{x_2-m}=0$，将$y_1=k(x_1-1)$，$y_2=k(x_2-1)$代入并化简，得$2x_1x_2-(m+1)(x_1+x_2)+2m=0$；\n6. 将韦达定理的结果代入上式，解得$m=4$；\n7. 得出结论：存在点M，坐标为$(4,0)$。",
+            "standardAnswer": "存在，点M的坐标为$(4,0)$",
+            "scoringCriteria": "第二问，正确设出直线方程、点的坐标得2分；联立椭圆与直线方程并正确整理得2分；准确运用韦达定理求出根与系数的关系得2分；由面积比推出斜率的关系并正确化简得2分；代入韦达定理结果求解出m的值得2分；写出正确的结论及点的坐标得1分，共11分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(1) Given that the major axis length of the ellipse $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ is 4 and one focus is $F(1,0)$, find the equation and eccentricity of ellipse E;",
+            "solutionSteps": "1. Solve for $a$ according to the major axis length formula $2a=4$, get $a=2$;\\n2. Know $c=1$ from the focus coordinates;\\n3. Calculate $b^2=a^2-c^2=4-1=3$ according to $a^2=b^2+c^2$ in the ellipse;\\n4. Write the equation of ellipse E: $\\frac{x^2}{4}+\\frac{y^2}{3}=1$;\\n5. Calculate the eccentricity $e=\\frac{1}{2}$ according to the eccentricity formula $e=\\frac{c}{a}$.",
+            "standardAnswer": "The equation of ellipse E: $\\frac{x^2}{4}+\\frac{y^2}{3}=1$, eccentricity: $\\frac{1}{2}$",
+            "scoringCriteria": "For the first question, 1 point for correctly finding the value of a from the major axis length; 1 point for determining the value of c; 1 point for correctly finding $b^2$ by applying $a^2=b^2+c^2$; 1 point for writing the correct ellipse equation; 1 point for correctly calculating the eccentricity, with a total of 5 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) A straight line with an existing slope passing through point F intersects ellipse E at points A and B. Is there a point M on the x-axis such that $\\frac{S_{\\triangle AFM}}{S_{\\triangle BFM}}=\\frac{|AM|}{|BM|}$? If it exists, find the coordinates of point M; if not, explain the reason.",
+            "solutionSteps": "1. Let the equation of line AB be $y=k(x-1)(k≠0)$, point $M(m,0)$, $A(x_1,y_1)$, $B(x_2,y_2)$;\\n2. Simultaneously solve the ellipse equation and the line equation: $\\begin{cases}y=k(x-1)\\\\\\frac{x^2}{4}+\\frac{y^2}{3}=1\\end{cases}$, and sort it out to get $(3+4k^2)x^2-8k^2x+4k^2-12=0$;\\n3. Get $x_1+x_2=\\frac{8k^2}{3+4k^2}$ and $x_1x_2=\\frac{4k^2-12}{3+4k^2}$ by Vieta's formulas;\\n4. Deduce $sin\\angle AMF=sin\\angle BMF$ from $\\frac{S_{\\triangle AFM}}{S_{\\triangle BFM}}=\\frac{|AM|}{|BM|}$, that is $\\angle AMF=\\angle BMF$, the slopes of line AM and BM are opposite numbers, i.e. $k_{AM}+k_{BM}=0$;\\n5. Substitute the slope formula to get $\\frac{y_1}{x_1-m}+\\frac{y_2}{x_2-m}=0$, substitute $y_1=k(x_1-1)$ and $y_2=k(x_2-1)$ and simplify to get $2x_1x_2-(m+1)(x_1+x_2)+2m=0$;\\n6. Substitute the results of Vieta's formulas into the above formula and solve for $m=4$;\\n7. Draw the conclusion: there exists point M with coordinates $(4,0)$.",
+            "standardAnswer": "Exists, the coordinates of point M are $(4,0)$",
+            "scoringCriteria": "For the second question, 2 points for correctly setting the line equation and the coordinates of points; 2 points for simultaneously solving the ellipse and line equations and sorting them out correctly; 2 points for accurately finding the relationship between roots and coefficients by applying Vieta's formulas; 2 points for deducing the relationship of slopes from the area ratio and simplifying correctly; 2 points for substituting the results of Vieta's formulas to solve for the value of m; 1 point for writing the correct conclusion and the coordinates of the point, with a total of 11 points.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（1）已知函数$f(x)=\\ln(x+a)-\\frac{1}{x+a}-2x$在$x=0$处取得极值，求$f(x)$的单调区间；",
+            "solutionSteps": "1. 求$f(x)$的导数：$f'(x)=\\frac{1}{x+a}+\\frac{1}{(x+a)^2}-2(x>-a)$；\n2. 由$x=0$处取极值得$f'(0)=0$，即$\\frac{1}{a}+\\frac{1}{a^2}-2=0$，解得$a=1$（$a=-\\frac{1}{2}$舍去，因$a>0$）；\n3. 代入$a=1$得$f(x)=\\ln(x+1)-\\frac{1}{x+1}-2x(x>-1)$，$f'(x)=\\frac{-x(2x+3)}{(x+1)^2}$；\n4. 令$f'(x)=0$，解得$x=0$（$x=-\\frac{3}{2}$舍去）；\n5. 分析导数符号：当$x∈(-1,0)$时，$f'(x)>0$，$f(x)$单调递增；当$x∈(0,+∞)$时，$f'(x)<0$，$f(x)$单调递减；\n6. 写出$f(x)$的单调区间。",
+            "standardAnswer": "单调递增区间为$(-1,0)$，单调递减区间为$(0,+∞)$",
+            "scoringCriteria": "第一问，正确求出函数的导数得2分；利用极值点的性质列出方程并正确解得a的值得2分；代入a后化简导数并正确求导函数的零点得1分；准确分析导数在不同区间的符号得1分；写出正确的单调区间得1分，共7分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（2）设$g(x)=x\\ln(x+a)-x^2-x$，求证：曲线$y=g(x)$存在两条斜率为-2且不重合的切线。",
+            "solutionSteps": "1. 由$a=1$得$g(x)=x\\ln(x+1)-x^2-x$，求导得$g'(x)=\\ln(x+1)-\\frac{1}{x+1}-2x=f(x)$；\n2. 由（1）知$g'(x)_{max}=f(0)=-1$；\n3. 计算特殊点的导数值：$g'(e^{-2}-1)=-e^2-\\frac{2}{e^2}<-2$，$g'(e-1)=3-2e-\\frac{1}{e}<-2$；\n4. 根据零点存在定理，存在$x_1∈(e^{-2}-1,0)$，$x_2∈(0,e-1)$，使得$g'(x_1)=g'(x_2)=-2$；\n5. 写出曲线在$(x_1,g(x_1))$和$(x_2,g(x_2))$处的切线方程：$y=-2x+g(x_i)+2x_i(i=1,2)$；\n6. 构造函数$G(x)=g(x)+2x$，求导得$G'(x)=f(x)+2≥0$在$[x_1,x_2]$上成立，故$G(x)$在$[x_1,x_2]$上单调递增；\n7. 由$x_1<x_2$得$G(x_1)<G(x_2)$，即$g(x_1)+2x_1≠g(x_2)+2x_2$，故两条切线不重合，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问，正确求出g(x)的导数并关联到f(x)得2分；求出g'(x)的最大值并计算两个特殊点的导数值得2分；根据零点存在定理推出存在两个点的导数为-2得2分；写出切线方程并构造函数G(x)得2分；正确分析G(x)的单调性并推出切线不重合得2分，共10分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(1) Given that the function $f(x)=\\ln(x+a)-\\frac{1}{x+a}-2x$ obtains an extreme value at $x=0$, find the monotonic intervals of $f(x)$;",
+            "solutionSteps": "1. Find the derivative of $f(x)$: $f'(x)=\\frac{1}{x+a}+\\frac{1}{(x+a)^2}-2(x>-a)$;\\n2. Get $f'(0)=0$ from the property of extreme point at $x=0$, that is $\\frac{1}{a}+\\frac{1}{a^2}-2=0$, solve for $a=1$ ($a=-\\frac{1}{2}$ is discarded because $a>0$);\\n3. Substitute $a=1$ to get $f(x)=\\ln(x+1)-\\frac{1}{x+1}-2x(x>-1)$, $f'(x)=\\frac{-x(2x+3)}{(x+1)^2}$;\\n4. Let $f'(x)=0$ and solve for $x=0$ ($x=-\\frac{3}{2}$ is discarded);\\n5. Analyze the sign of the derivative: when $x∈(-1,0)$, $f'(x)>0$, $f(x)$ is monotonically increasing; when $x∈(0,+∞)$, $f'(x)<0$, $f(x)$ is monotonically decreasing;\\n6. Write the monotonic intervals of $f(x)$.",
+            "standardAnswer": "The monotonically increasing interval is $(-1,0)$, and the monotonically decreasing interval is $(0,+∞)$",
+            "scoringCriteria": "For the first question, 2 points for correctly finding the derivative of the function; 2 points for listing the equation by using the property of extreme point and solving the value of a correctly; 1 point for simplifying the derivative after substituting a and finding the zero point of the derivative function correctly; 1 point for accurately analyzing the sign of the derivative in different intervals; 1 point for writing the correct monotonic intervals, with a total of 7 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(2) Let $g(x)=x\\ln(x+a)-x^2-x$, prove that the curve $y=g(x)$ has two non-coincident tangents with slope -2.",
+            "solutionSteps": "1. Get $g(x)=x\\ln(x+1)-x^2-x$ from $a=1$, find the derivative to get $g'(x)=\\ln(x+1)-\\frac{1}{x+1}-2x=f(x)$;\\n2. Know $g'(x)_{max}=f(0)=-1$ from (1);\\n3. Calculate the derivative values at special points: $g'(e^{-2}-1)=-e^2-\\frac{2}{e^2}<-2$, $g'(e-1)=3-2e-\\frac{1}{e}<-2$;\\n4. According to the Zero Existence Theorem, there exist $x_1∈(e^{-2}-1,0)$ and $x_2∈(0,e-1)$ such that $g'(x_1)=g'(x_2)=-2$;\\n5. Write the tangent equations at $(x_1,g(x_1))$ and $(x_2,g(x_2))$: $y=-2x+g(x_i)+2x_i(i=1,2)$;\\n6. Construct the function $G(x)=g(x)+2x$, find the derivative to get $G'(x)=f(x)+2≥0$ holds on $[x_1,x_2]$, so $G(x)$ is monotonically increasing on $[x_1,x_2]$;\\n7. Get $G(x_1)<G(x_2)$ from $x_1<x_2$, that is $g(x_1)+2x_1≠g(x_2)+2x_2$, so the two tangents are non-coincident, which proves the conclusion.",
+            "standardAnswer": "Proof is shown in the analysis",
+            "scoringCriteria": "For the second question, 2 points for correctly finding the derivative of g(x) and associating it with f(x); 2 points for finding the maximum value of g'(x) and calculating the derivative values at two special points; 2 points for deducing that there exist two points with derivative -2 according to the Zero Existence Theorem; 2 points for writing the tangent equations and constructing the function G(x); 2 points for correctly analyzing the monotonicity of G(x) and deducing that the tangents are non-coincident, with a total of 10 points.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设n为正整数，集合$A_n=\\{\\alpha|\\alpha=(a_1,a_2,\\cdots,a_n),|a_i|≤1,i=1,2,\\cdots,n\\}$，对于集合$A_n$中2个元素$\\alpha=(x_1,x_2,\\cdots,x_n)$，$\\beta=(y_1,y_2,\\cdots,y_n)$，若$x_1+x_2+\\cdots+x_n+y_1+y_2+\\cdots+y_n=0$，则称α，β具有性质M。记$S=x_1+x_2+\\cdots+x_n$，$T_i=x_i+y_i(i=1,2,\\cdots,n)$，$M(\\alpha,\\beta)$为$|S|,|T_i|(i=1,2,\\cdots,n)$中的最小值。",
+        "subQuestions": [
+          {
+            "question": "（1）当$n=3$时，若$\\alpha=(1,-0.9,1)$，$\\beta=(0.1,-1,-0.2)$，判断α，β是否具有性质M。如果是，求出$M(\\alpha,\\beta)$；如果不是，说明理由；",
+            "solutionSteps": "1. 计算$x_1+x_2+x_3+y_1+y_2+y_3$的值：$1-0.9+1+0.1-1-0.2=0$；\n2. 根据性质M的定义，判断α，β具有性质M；\n3. 计算$|S|=|1-0.9+1|=1.1$；\n4. 计算各$|T_i|$：$|T_1|=|1+0.1|=1.1$，$|T_2|=|-0.9-1|=1.9$，$|T_3|=|1-0.2|=0.8$；\n5. 找出$|S|,|T_1|,|T_2|,|T_3|$中的最小值，即$M(\\alpha,\\beta)=0.8$。",
+            "standardAnswer": "α，β具有性质M，$M(\\alpha,\\beta)=0.8$",
+            "scoringCriteria": "第一问，正确计算所有元素和并根据定义判断具有性质M得2分；正确计算出|S|的值得1分；准确计算出所有|T_i|的值得1分；找出最小值得到M(α,β)得1分，共5分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（2）当$n=3$时，若$\\alpha=(a,1,1)$，$\\beta=(-1,b,c)$具有性质M，求$M(\\alpha,\\beta)$的最大值；",
+            "solutionSteps": "1. 由性质M得$a+1+1-1+b+c=0$，化简得$a+b+c=-1$；\n2. 结合$|a|≤1$，$|b|≤1$，$|c|≤1$，分析得$S=a+2>0$，$T_1=a-1≤0$，$T_2=1+b≥0$，$T_3=1+c≥0$；\n3. 由$M(\\alpha,\\beta)$是$|S|,|T_1|,|T_2|,|T_3|$的最小值，得$3M(\\alpha,\\beta)≤S+T_2+T_3=a+b+c+4=3$，故$M(\\alpha,\\beta)≤1$；\n4. 取$a=-1$，$b=c=0$，验证α，β具有性质M，且此时$M(\\alpha,\\beta)=1$；\n5. 得出$M(\\alpha,\\beta)$的最大值为1。",
+            "standardAnswer": "1",
+            "scoringCriteria": "第二问，由性质M正确推出a+b+c=-1得2分；合理分析S和各T_i的符号得2分；通过不等式推导得出M(α,β)≤1得2分；举出实例验证等号可取得到1分，共7分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（3）给定不小于3的奇数n，对于集合$A_n$中任意2个具有性质M的元素α，β，求$M(\\alpha,\\beta)$的最大值。",
+            "solutionSteps": "1. 由性质M得$S=-(y_1+y_2+\\cdots+y_n)$，且$T_1+T_2+\\cdots+T_n=0$；\n2. 不妨设$S≥0$，$T_i≥0(i=1,2,\\cdots,m)$，$T_i<0(i=m+1,\\cdots,n)$，由对称性设$m≥\\frac{n+1}{2}$；\n3. 由$M(\\alpha,\\beta)$的定义得$(m+1)M(\\alpha,\\beta)≤S+T_1+\\cdots+T_m≤n$，故$M(\\alpha,\\beta)≤\\frac{n}{m+1}≤\\frac{2n}{n+3}$；\n4. 构造具体的α和β：α中有$\\frac{n+1}{2}$个1，$\\frac{n-1}{2}$个$-\\frac{n^2+3}{(n+3)(n-1)}$；β中有$\\frac{n+1}{2}$个$\\frac{n-3}{n+3}$，$\\frac{n-1}{2}$个-1；\n5. 验证α，β具有性质M，且此时$M(\\alpha,\\beta)=\\frac{2n}{n+3}$；\n6. 得出$M(\\alpha,\\beta)$的最大值为$\\frac{2n}{n+3}$。",
+            "standardAnswer": "$\\frac{2n}{n+3}$",
+            "scoringCriteria": "第三问，由性质M推出S与T_i的相关关系得2分；合理进行假设和对称性分析得2分；通过不等式推导得出M(α,β)的上界得2分；构造符合条件的α和β并验证等号可取得到2分，共8分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let n be a positive integer, the set $A_n=\\{\\alpha|\\alpha=(a_1,a_2,\\cdots,a_n),|a_i|≤1,i=1,2,\\cdots,n\\}$. For two elements $\\alpha=(x_1,x_2,\\cdots,x_n)$ and $\\beta=(y_1,y_2,\\cdots,y_n)$ in the set $A_n$, if $x_1+x_2+\\cdots+x_n+y_1+y_2+\\cdots+y_n=0$, then α and β are said to have property M. Denote $S=x_1+x_2+\\cdots+x_n$, $T_i=x_i+y_i(i=1,2,\\cdots,n)$, and $M(\\alpha,\\beta)$ is the minimum value of $|S|,|T_i|(i=1,2,\\cdots,n)$.",
+        "subQuestions": [
+          {
+            "question": "(1) When $n=3$, if $\\alpha=(1,-0.9,1)$ and $\\beta=(0.1,-1,-0.2)$, judge whether α and β have property M. If yes, find $M(\\alpha,\\beta)$; if not, explain the reason;",
+            "solutionSteps": "1. Calculate the value of $x_1+x_2+x_3+y_1+y_2+y_3$: $1-0.9+1+0.1-1-0.2=0$;\\n2. Judge that α and β have property M according to the definition of property M;\\n3. Calculate $|S|=|1-0.9+1|=1.1$;\\n4. Calculate each $|T_i|$: $|T_1|=|1+0.1|=1.1$, $|T_2|=|-0.9-1|=1.9$, $|T_3|=|1-0.2|=0.8$;\\n5. Find the minimum value of $|S|,|T_1|,|T_2|,|T_3|$, that is $M(\\alpha,\\beta)=0.8$.",
+            "standardAnswer": "α and β have property M, $M(\\alpha,\\beta)=0.8$",
+            "scoringCriteria": "For the first question, 2 points for correctly calculating the sum of all elements and judging to have property M according to the definition; 1 point for correctly calculating the value of |S|; 1 point for accurately calculating the values of all |T_i|; 1 point for finding the minimum value to get M(α,β), with a total of 5 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(2) When $n=3$, if $\\alpha=(a,1,1)$ and $\\beta=(-1,b,c)$ have property M, find the maximum value of $M(\\alpha,\\beta)$;",
+            "solutionSteps": "1. Get $a+1+1-1+b+c=0$ from property M, simplify to get $a+b+c=-1$;\\n2. Combined with $|a|≤1$, $|b|≤1$, $|c|≤1$, analyze to get $S=a+2>0$, $T_1=a-1≤0$, $T_2=1+b≥0$, $T_3=1+c≥0$;\\n3. Since $M(\\alpha,\\beta)$ is the minimum value of $|S|,|T_1|,|T_2|,|T_3|$, get $3M(\\alpha,\\beta)≤S+T_2+T_3=a+b+c+4=3$, so $M(\\alpha,\\beta)≤1$;\\n4. Take $a=-1$, $b=c=0$, verify that α and β have property M, and $M(\\alpha,\\beta)=1$ at this time;\\n5. Draw the conclusion that the maximum value of $M(\\alpha,\\beta)$ is 1.",
+            "standardAnswer": "1",
+            "scoringCriteria": "For the second question, 2 points for correctly deducing $a+b+c=-1$ from property M; 2 points for reasonably analyzing the signs of S and each T_i; 2 points for deducing $M(\\alpha,\\beta)≤1$ through inequality derivation; 1 point for giving an example to verify that the equal sign is attainable, with a total of 7 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(3) Given an odd number n not less than 3, for any two elements α and β with property M in the set $A_n$, find the maximum value of $M(\\alpha,\\beta)$.",
+            "solutionSteps": "1. Get $S=-(y_1+y_2+\\cdots+y_n)$ from property M, and $T_1+T_2+\\cdots+T_n=0$;\\n2. Without loss of generality, assume $S≥0$, $T_i≥0(i=1,2,\\cdots,m)$, $T_i<0(i=m+1,\\cdots,n)$, and assume $m≥\\frac{n+1}{2}$ by symmetry;\\n3. From the definition of $M(\\alpha,\\beta)$, get $(m+1)M(\\alpha,\\beta)≤S+T_1+\\cdots+T_m≤n$, so $M(\\alpha,\\beta)≤\\frac{n}{m+1}≤\\frac{2n}{n+3}$;\\n4. Construct specific α and β: α has $\\frac{n+1}{2}$ ones and $\\frac{n-1}{2}$ terms of $-\\frac{n^2+3}{(n+3)(n-1)}$; β has $\\frac{n+1}{2}$ terms of $\\frac{n-3}{n+3}$ and $\\frac{n-1}{2}$ negative ones;\\n5. Verify that α and β have property M, and $M(\\alpha,\\beta)=\\frac{2n}{n+3}$ at this time;\\n6. Draw the conclusion that the maximum value of $M(\\alpha,\\beta)$ is $\\frac{2n}{n+3}$.",
+            "standardAnswer": "$\\frac{2n}{n+3}$",
+            "scoringCriteria": "For the third question, 2 points for deducing the relevant relationship between S and T_i from property M; 2 points for reasonable assumption and symmetry analysis; 2 points for deducing the upper bound of M(α,β) through inequality derivation; 2 points for constructing eligible α and β and verifying that the equal sign is attainable, with a total of 8 points.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

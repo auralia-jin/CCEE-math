@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2025 Beijing Chaoyang Senior Three Second Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某电商平台为了解用户对配送服务的满意度，分别从A地区和B地区随机抽取了500名和100名用户进行问卷评分调查，将评分数据按[40,50), [50,60), …, [90,100]分组整理得到如下频率分布直方图：A地区频率分布直方图组距依次为[40,50)0.005、[50,60)0.010、[60,70)0.025、[70,80)0.035、[80,90)0.015、[90,100]0.005；B地区频率分布直方图组距依次为[40,50)0.005、[50,60)0.020、[60,70)0.025、[70,80)0.025、[80,90)0.010、[90,100]0.005。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从A地区抽取的500名用户中随机抽取一名，求该用户评分不低于60分的概率；",
+            "solutionSteps": "1. 设事件M为该用户评分不低于60分，先计算A地区评分不低于60分的频率，即1减去[40,50)和[50,60)的频率和；2. 计算[40,50)频率：0.005×10=0.05，[50,60)频率：0.010×10=0.10，两者和为0.15；3. 不低于60分的频率为1-0.15=0.80；4. 根据频率估计概率，得P(M)=0.8。",
+            "standardAnswer": "0.8",
+            "scoringCriteria": "第一问共4分，正确设出事件得1分，计算出[40,50)和[50,60)的频率各得0.5分，求出不低于60分的频率得1分，根据频率估计出概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从B地区评分为[80,100]的样本中随机抽取两名，记评分不低于90分的用户人数为X，求X的分布列和数学期望；",
+            "solutionSteps": "1. 计算B地区[80,90)的人数：100×0.010×10=10人，[90,100]的人数：100×0.005×10=5人，故[80,100]共15人；2. 确定X的可能取值为0、1、2；3. 计算各取值概率：P(X=0)=C_{10}^2/C_{15}^2=45/105=3/7，P(X=1)=C_{10}^1C_5^1/C_{15}^2=50/105=10/21，P(X=2)=C_5^2/C_{15}^2=10/105=2/21；4. 列出X的分布列；5. 计算数学期望E(X)=0×3/7 + 1×10/21 + 2×2/21=14/21=2/3。",
+            "standardAnswer": "X的分布列为：X:0，P:3/7；X:1，P:10/21；X:2，P:2/21；数学期望E(X)=$\\\\frac{2}{3}$",
+            "scoringCriteria": "第二问共7分，正确计算出[80,100]及各子区间的人数得1分，确定X的所有可能取值得1分，正确计算出P(X=0)、P(X=1)、P(X=2)各得1分，正确列出分布列得1分，正确计算出数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）根据图中的样本数据，假如同组中每个数据用该组区间的中点值代替，设A地区评分的平均值估计为$\\\\mu_1$，A、B两地区评分的平均值估计为$\\\\mu$，比较$\\\\mu_1$与$\\\\mu$的大小关系（直接写出结论）；",
+            "solutionSteps": "1. 明确比较方式为利用组中值计算平均值并比较，无需具体计算，根据频率分布直方图的特征直接判断；2. 结合A、B地区各区间的频率和组中值，得出$\\\\mu_1>\\\\mu$的结论。",
+            "standardAnswer": "$\\\\mu_1>\\\\mu$",
+            "scoringCriteria": "第三问共2分，直接写出正确的大小关系得2分，错误不得分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "An e-commerce platform wants to understand users' satisfaction with distribution services, and randomly selected 500 users from Area A and 100 users from Area B for a questionnaire rating survey. The rating data were grouped and sorted into the following frequency distribution histograms by [40,50), [50,60), …, [90,100]: The class widths of the frequency distribution histogram for Area A are 0.005 for [40,50), 0.010 for [50,60), 0.025 for [60,70), 0.035 for [70,80), 0.015 for [80,90), and 0.005 for [90,100] in turn; The class widths of the frequency distribution histogram for Area B are 0.005 for [40,50), 0.020 for [50,60), 0.025 for [60,70), 0.025 for [70,80), 0.010 for [80,90), and 0.005 for [90,100] in turn.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one user from the 500 users sampled from Area A, find the probability that the user's rating is not less than 60 points;",
+            "solutionSteps": "1. Let event M be that the user's rating is not less than 60 points, first calculate the frequency of ratings not less than 60 points in Area A, that is, 1 minus the sum of the frequencies of [40,50) and [50,60); 2. Calculate the frequency of [40,50): 0.005×10=0.05, the frequency of [50,60): 0.010×10=0.10, their sum is 0.15; 3. The frequency of ratings not less than 60 points is 1-0.15=0.80; 4. Estimate the probability according to the frequency, and get P(M)=0.8.",
+            "standardAnswer": "0.8",
+            "scoringCriteria": "The first sub-question is worth 4 points in total, 1 point for correctly setting the event, 0.5 points for calculating the frequency of [40,50) and [50,60) respectively, 1 point for finding the frequency of ratings not less than 60 points, and 1 point for estimating the probability according to the frequency.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select two users from the samples with ratings in [80,100] in Area B, let X be the number of users whose ratings are not less than 90 points, find the probability mass function and mathematical expectation of X;",
+            "solutionSteps": "1. Calculate the number of people in [80,90) in Area B: 100×0.010×10=10, the number of people in [90,100]: 100×0.005×10=5, so there are 15 people in total in [80,100]; 2. Determine the possible values of X as 0, 1, 2; 3. Calculate the probability of each value: P(X=0)=C_{10}^2/C_{15}^2=45/105=3/7, P(X=1)=C_{10}^1C_5^1/C_{15}^2=50/105=10/21, P(X=2)=C_5^2/C_{15}^2=10/105=2/21; 4. List the probability mass function of X; 5. Calculate the mathematical expectation E(X)=0×3/7 + 1×10/21 + 2×2/21=14/21=2/3.",
+            "standardAnswer": "The probability mass function of X is: X:0, P:3/7; X:1, P:10/21; X:2, P:2/21; The mathematical expectation E(X)=$\\\\frac{2}{3}$",
+            "scoringCriteria": "The second sub-question is worth 7 points in total, 1 point for correctly calculating the number of people in [80,100] and each sub-interval, 1 point for determining all possible values of X, 1 point for correctly calculating each of P(X=0), P(X=1) and P(X=2), 1 point for correctly listing the probability mass function, and 1 point for correctly calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) According to the sample data in the figure, if each data in the same group is replaced by the midpoint value of the group interval, let $\\\\mu_1$ be the estimated average rating of Area A, and $\\\\mu$ be the estimated average rating of Area A and Area B, compare the magnitude relationship between $\\\\mu_1$ and $\\\\mu$ (write the conclusion directly);",
+            "solutionSteps": "1. Clarify that the comparison method is to calculate the average value by using the group midpoint and compare, no specific calculation is needed, and judge directly according to the characteristics of the frequency distribution histogram; 2. Combine the frequency and group midpoint of each interval in Area A and Area B to draw the conclusion that $\\\\mu_1>\\\\mu$.",
+            "standardAnswer": "$\\\\mu_1>\\\\mu$",
+            "scoringCriteria": "The third sub-question is worth 2 points in total, 2 points for directly writing the correct magnitude relationship, and no points for mistakes.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）已知椭圆$E: \\\\frac{x^2}{a^2}+\\\\frac{y^2}{b^2}=1(a>b>0)$的焦距为2，且过点$(0, \\\\sqrt{3})$，求椭圆E的方程；",
+            "solutionSteps": "1. 由椭圆焦距为2，得2c=2，即c=1；2. 椭圆过点$(0, \\\\sqrt{3})$，该点为椭圆的上顶点，故b=$\\\\sqrt{3}$；3. 根据椭圆中$a^2=b^2+c^2$，计算得$a^2=3+1=4$；4. 代入椭圆标准方程，得椭圆E的方程为$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$。",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "第一问共4分，由焦距求出c的值得1分，由椭圆过点求出b的值得1分，正确运用$a^2=b^2+c^2$求出$a^2$得1分，写出椭圆的标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设直线$y=kx+2(k<0)$与椭圆E交于不同的两点A,B，直线$y=x$与直线AB交于点N，若$\\\\angle AON=\\\\angle BON$（O是坐标原点），求k的值；",
+            "solutionSteps": "1. 联立直线与椭圆方程：$\\\\begin{cases}y=kx+2, \\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1\\\\end{cases}$，消去y得$(3+4k^2)x^2+16kx+4=0$；2. 由直线与椭圆交于不同两点，得$\\\\Delta=256k^2-4(3+4k^2)×4>0$，解得$k^2>\\\\frac{1}{4}$，结合k<0得$k<-\\\\frac{1}{2}$；3. 设$A(x_1,y_1)$，$B(x_2,y_2)$，由韦达定理得$x_1+x_2=\\\\frac{-16k}{3+4k^2}$，$x_1x_2=\\\\frac{4}{3+4k^2}$；4. 由$\\\\angle AON=\\\\angle BON$推出直线OA和OB的斜率之积$k_{OA}·k_{OB}=1$，即$\\\\frac{y_1}{x_1}·\\\\frac{y_2}{x_2}=1$，故$x_1x_2=y_1y_2$；5. 代入$y_1=kx_1+2$，$y_2=kx_2+2$，得$x_1x_2=(kx_1+2)(kx_2+2)$，整理为$(1-k^2)x_1x_2=2k(x_1+x_2)+4$；6. 将韦达定理结果代入上式：$(1-k^2)·\\\\frac{4}{3+4k^2}=2k·\\\\frac{-16k}{3+4k^2}+4$，两边同乘$3+4k^2$化简得$4-4k^2=-32k^2+12+16k^2$，即$12k^2=8$，$k^2=\\\\frac{2}{3}$；7. 结合$k<-\\\\frac{1}{2}$，得$k=-\\\\frac{\\\\sqrt{6}}{3}$。",
+            "standardAnswer": "$-\\\\frac{\\\\sqrt{6}}{3}$",
+            "scoringCriteria": "第二问共11分，正确联立直线与椭圆方程并消元得2分，由判别式求出k的取值范围得2分，正确运用韦达定理求出$x_1+x_2$和$x_1x_2$得2分，由角相等推出斜率之积为1得1分，将$y_1,y_2$代入并整理等式得1分，代入韦达定理结果化简计算得2分，结合取值范围确定k的最终值得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Given that the focal length of the ellipse $E: \\\\frac{x^2}{a^2}+\\\\frac{y^2}{b^2}=1(a>b>0)$ is 2 and it passes through the point $(0, \\\\sqrt{3})$, find the equation of the ellipse E;",
+            "solutionSteps": "1. From the focal length of the ellipse being 2, we get 2c=2, that is c=1; 2. The ellipse passes through the point $(0, \\\\sqrt{3})$, which is the upper vertex of the ellipse, so b=$\\\\sqrt{3}$; 3. According to $a^2=b^2+c^2$ in the ellipse, calculate $a^2=3+1=4$; 4. Substitute into the standard equation of the ellipse to get the equation of ellipse E as $\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$.",
+            "standardAnswer": "$\\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1$",
+            "scoringCriteria": "The first sub-question is worth 4 points in total, 1 point for finding the value of c from the focal length, 1 point for finding the value of b from the ellipse passing through the point, 1 point for correctly using $a^2=b^2+c^2$ to find $a^2$, and 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let the straight line $y=kx+2(k<0)$ intersect the ellipse E at two distinct points A and B, the straight line $y=x$ intersects the straight line AB at point N, if $\\\\angle AON=\\\\angle BON$ (O is the origin of coordinates), find the value of k;",
+            "solutionSteps": "1. Simultaneously solve the equations of the straight line and the ellipse: $\\\\begin{cases}y=kx+2, \\\\frac{x^2}{4}+\\\\frac{y^2}{3}=1\\\\end{cases}$, eliminate y to get $(3+4k^2)x^2+16kx+4=0$; 2. Since the straight line intersects the ellipse at two distinct points, we have $\\\\Delta=256k^2-4(3+4k^2)×4>0$, solve to get $k^2>\\\\frac{1}{4}$, combined with k<0, we get $k<-\\\\frac{1}{2}$; 3. Let $A(x_1,y_1)$ and $B(x_2,y_2)$, from Vieta's formulas, we get $x_1+x_2=\\\\frac{-16k}{3+4k^2}$, $x_1x_2=\\\\frac{4}{3+4k^2}$; 4. From $\\\\angle AON=\\\\angle BON$, it is deduced that the product of the slopes of the straight lines OA and OB $k_{OA}·k_{OB}=1$, that is $\\\\frac{y_1}{x_1}·\\\\frac{y_2}{x_2}=1$, so $x_1x_2=y_1y_2$; 5. Substitute $y_1=kx_1+2$ and $y_2=kx_2+2$, we get $x_1x_2=(kx_1+2)(kx_2+2)$, which is sorted into $(1-k^2)x_1x_2=2k(x_1+x_2)+4$; 6. Substitute the results of Vieta's formulas into the above formula: $(1-k^2)·\\\\frac{4}{3+4k^2}=2k·\\\\frac{-16k}{3+4k^2}+4$, multiply both sides by $3+4k^2$ and simplify to get $4-4k^2=-32k^2+12+16k^2$, that is $12k^2=8$, $k^2=\\\\frac{2}{3}$; 7. Combined with $k<-\\\\frac{1}{2}$, we get $k=-\\\\frac{\\\\sqrt{6}}{3}$.",
+            "standardAnswer": "$-\\\\frac{\\\\sqrt{6}}{3}$",
+            "scoringCriteria": "The second sub-question is worth 11 points in total, 2 points for correctly simulating the equations of the straight line and the ellipse and eliminating the variable, 2 points for finding the range of k from the discriminant, 2 points for correctly using Vieta's formulas to find $x_1+x_2$ and $x_1x_2$, 1 point for deducing that the product of the slopes is 1 from the equality of the angles, 1 point for substituting $y_1,y_2$ and sorting the equation, 2 points for substituting the results of Vieta's formulas to simplify and calculate, and 1 point for determining the final value of k combined with the value range.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）已知函数$f(x)=\\\\frac{a \\\\ln x+1}{e^{x-1}}(a ≥0)$，若$a=0$，求函数$f(x)$在区间$[1,+\\\\infty)$上的最大值；",
+            "solutionSteps": "1. 当a=0时，$f(x)=\\\\frac{1}{e^{x-1}}(x>0)$；2. 求导得$f'(x)=-\\\\frac{1}{e^{x-1}}<0$，故$f(x)$在区间$[1,+\\\\infty)$上单调递减；3. 因此$f(x)$在$[1,+\\\\infty)$上的最大值为$f(1)=\\\\frac{1}{e^{0}}=1$。",
+            "standardAnswer": "1",
+            "scoringCriteria": "第一问共4分，代入a=0化简函数解析式得1分，正确求导并判断导数符号得2分，根据单调性求出最大值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若$f(x)$在区间(0,1)上存在单调递减区间，求a的取值范围；",
+            "solutionSteps": "1. 函数定义域为$(0,+\\\\infty)$，求导得$f'(x)=\\\\frac{\\\\frac{a}{x}-a \\\\ln x-1}{e^{x-1}}$，令$g(x)=\\\\frac{a}{x}-a \\\\ln x-1$，则$f'(x)$的符号由$g(x)$决定；2. 当a=0时，$f(x)=\\\\frac{1}{e^{x-1}}$，$f'(x)<0$，在(0,1)上单调递减，符合题意；3. 当a>0时，求$g'(x)=-\\\\frac{a(x+1)}{x^2}<0$，故$g(x)$在(0,1)上单调递减；4. 若$g(1)=a-1 ≥0$即a≥1时，$g(x)≥g(1)≥0$，$f'(x)≥0$，$f(x)$在(0,1)上单调递增，不符合题意；5. 若$g(1)=a-1<0$即0<a<1时，$g(a)=-a \\\\ln a>0$，由零点存在定理，存在唯一$t∈(a,1)$使$g(t)=0$，当$x∈(t,1)$时，$g(x)<0$，$f'(x)<0$，$f(x)$单调递减，符合题意；6. 综上，a的取值范围为$[0,1)$。",
+            "standardAnswer": "$[0,1)$",
+            "scoringCriteria": "第二问共5分，正确求导并构造函数g(x)得1分，分析a=0的情况得1分，求g(x)的导数并判断单调性得1分，分类讨论a≥1和0<a<1的情况各得0.5分，综合得出a的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若$f(x)$存在极值点$x_0$，且$f(x_0)=1$，求a的值；",
+            "solutionSteps": "1. 由极值点定义，$f'(x_0)=0$且$f(x_0)=1$，即$\\\\begin{cases}\\\\frac{a}{x_0}-a \\\\ln x_0-1=0, \\\\frac{a \\\\ln x_0+1}{e^{x_0-1}}=1\\\\end{cases}$；2. 由第一个方程得$a(\\\\frac{1}{x_0}-\\\\ln x_0)=1$，变形为$a=\\\\frac{x_0}{1-x_0 \\\\ln x_0}$，代入第二个方程得$\\\\frac{\\\\frac{x_0}{1-x_0 \\\\ln x_0}·\\\\ln x_0 +1}{e^{x_0-1}}=1$，整理得$e^{x_0-1}(1-x_0 \\\\ln x_0)-1=0$；3. 构造函数$h(x)=e^{x-1}(1-x \\\\ln x)-1$，求导得$h'(x)=-e^{x-1}(x+1)\\\\ln x$；4. 分析h'(x)符号：x∈(0,1)时，lnx<0，h'(x)>0，h(x)单调递增；x∈(1,+∞)时，lnx>0，h'(x)<0，h(x)单调递减；5. 故h(x)在x=1处取得最大值h(1)=e^0(1-0)-1=0，因此h(x)≤0，当且仅当x=1时取等号；6. 由$h(x_0)=0$得x_0=1，代入$a=\\\\frac{x_0}{1-x_0 \\\\ln x_0}$得a=1；7. 检验：a=1时，$f(x)=\\\\frac{\\\\ln x+1}{e^{x-1}}$，$f'(x)=\\\\frac{\\\\frac{1}{x}-\\\\ln x-1}{e^{x-1}}$，f'(1)=0，且x=1是极大值点，f(1)=1，符合题意。",
+            "standardAnswer": "1",
+            "scoringCriteria": "第三问共6分，根据极值点和f(x0)=1列出方程组得1分，变形消元得到关于x0的方程得1分，构造函数h(x)并正确求导得1分，分析h(x)的单调性和最值得1分，求出x0=1得1分，代入求出a并检验得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Given the function $f(x)=\\\\frac{a \\\\ln x+1}{e^{x-1}}(a ≥0)$, if $a=0$, find the maximum value of the function $f(x)$ on the interval $[1,+\\\\infty)$;",
+            "solutionSteps": "1. When a=0, $f(x)=\\\\frac{1}{e^{x-1}}(x>0)$; 2. Find the derivative: $f'(x)=-\\\\frac{1}{e^{x-1}}<0$, so $f(x)$ is monotonically decreasing on the interval $[1,+\\\\infty)$; 3. Therefore, the maximum value of $f(x)$ on $[1,+\\\\infty)$ is $f(1)=\\\\frac{1}{e^{0}}=1$.",
+            "standardAnswer": "1",
+            "scoringCriteria": "The first sub-question is worth 4 points in total, 1 point for substituting a=0 to simplify the function解析式, 2 points for correctly finding the derivative and judging the sign of the derivative, and 1 point for finding the maximum value according to monotonicity.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) If $f(x)$ has a monotonically decreasing interval on the interval (0,1), find the range of the value of a;",
+            "solutionSteps": "1. The domain of the function is $(0,+\\\\infty)$, find the derivative: $f'(x)=\\\\frac{\\\\frac{a}{x}-a \\\\ln x-1}{e^{x-1}}$, let $g(x)=\\\\frac{a}{x}-a \\\\ln x-1$, then the sign of $f'(x)$ is determined by $g(x)$; 2. When a=0, $f(x)=\\\\frac{1}{e^{x-1}}$, $f'(x)<0$, which is monotonically decreasing on (0,1), conforming to the meaning of the question; 3. When a>0, find $g'(x)=-\\\\frac{a(x+1)}{x^2}<0$, so $g(x)$ is monotonically decreasing on (0,1); 4. If $g(1)=a-1 ≥0$, that is a≥1, then $g(x)≥g(1)≥0$, $f'(x)≥0$, $f(x)$ is monotonically increasing on (0,1), not conforming to the meaning of the question; 5. If $g(1)=a-1<0$, that is 0<a<1, then $g(a)=-a \\\\ln a>0$, by the Zero Existence Theorem, there exists a unique $t∈(a,1)$ such that $g(t)=0$, when $x∈(t,1)$, $g(x)<0$, $f'(x)<0$, $f(x)$ is monotonically decreasing, conforming to the meaning of the question; 6. In summary, the range of a is $[0,1)$.",
+            "standardAnswer": "$[0,1)$",
+            "scoringCriteria": "The second sub-question is worth 5 points in total, 1 point for correctly finding the derivative and constructing the function g(x), 1 point for analyzing the case of a=0, 1 point for finding the derivative of g(x) and judging its monotonicity, 0.5 points for each of the classified discussions of a≥1 and 0<a<1, and 1 point for comprehensively obtaining the range of a.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) If $f(x)$ has an extreme point $x_0$ and $f(x_0)=1$, find the value of a;",
+            "solutionSteps": "1. By the definition of the extreme point, $f'(x_0)=0$ and $f(x_0)=1$, that is $\\\\begin{cases}\\\\frac{a}{x_0}-a \\\\ln x_0-1=0, \\\\frac{a \\\\ln x_0+1}{e^{x_0-1}}=1\\\\end{cases}$; 2. From the first equation, we get $a(\\\\frac{1}{x_0}-\\\\ln x_0)=1$, which is transformed into $a=\\\\frac{x_0}{1-x_0 \\\\ln x_0}$, substitute it into the second equation to get $\\\\frac{\\\\frac{x_0}{1-x_0 \\\\ln x_0}·\\\\ln x_0 +1}{e^{x_0-1}}=1$, and sort it out to get $e^{x_0-1}(1-x_0 \\\\ln x_0)-1=0$; 3. Construct the function $h(x)=e^{x-1}(1-x \\\\ln x)-1$, and find the derivative: $h'(x)=-e^{x-1}(x+1)\\\\ln x$; 4. Analyze the sign of h'(x): when x∈(0,1), lnx<0, h'(x)>0, h(x) is monotonically increasing; when x∈(1,+∞), lnx>0, h'(x)<0, h(x) is monotonically decreasing; 5. Therefore, h(x) attains its maximum value h(1)=e^0(1-0)-1=0 at x=1, so h(x)≤0, and the equality holds if and only if x=1; 6. From $h(x_0)=0$, we get x_0=1, substitute it into $a=\\\\frac{x_0}{1-x_0 \\\\ln x_0}$ to get a=1; 7. Verification: when a=1, $f(x)=\\\\frac{\\\\ln x+1}{e^{x-1}}$, $f'(x)=\\\\frac{\\\\frac{1}{x}-\\\\ln x-1}{e^{x-1}}$, f'(1)=0, and x=1 is a local maximum point, f(1)=1, which conforms to the meaning of the question.",
+            "standardAnswer": "1",
+            "scoringCriteria": "The third sub-question is worth 6 points in total, 1 point for listing the system of equations according to the extreme point and f(x0)=1, 1 point for transforming and eliminating variables to obtain the equation about x0, 1 point for constructing the function h(x) and correctly finding its derivative, 1 point for analyzing the monotonicity and the maximum and minimum values of h(x), 1 point for finding x0=1, and 1 point for substituting to find a and verifying.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知$\\\\{a_n\\\\}$是无穷正整数数列，且对任意的$n ≥3$，$a_{n+1}=card\\\\{k | a_k=a_n, k \\\\in{1,2, \\\\cdots, n}\\\\}$，其中$card S$表示有穷集合S的元素个数。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$a_1=2$，$a_2=3$，$a_4=2$，求$a_5$的所有可能取值；",
+            "solutionSteps": "1. 由$n≥3$时$a_{n+1}=card\\\\{k | a_k=a_n, k \\\\in{1,2, \\\\cdots, n}\\\\}$，当n=3时，$a_4=card\\\\{k | a_k=a_3, k \\\\in{1,2,3}\\\\}=2$，说明$a_3$在$a_1,a_2,a_3$中出现2次；2. 已知$a_1=2$，$a_2=3$，故$a_3$只能为2或3：若$a_3=2$，则$a_1=a_3=2$，满足出现2次；若$a_3=3$，则$a_2=a_3=3$，满足出现2次；3. 当$a_3=2$时，n=4，$a_5=card\\\\{k | a_k=a_4, k \\\\in{1,2,3,4}\\\\}=card\\\\{1,3,4\\\\}=3$；4. 当$a_3=3$时，n=4，$a_5=card\\\\{k | a_k=a_4, k \\\\in{1,2,3,4}\\\\}=card\\\\{1,4\\\\}=2$；5. 综上，$a_5$的可能取值为2,3。",
+            "standardAnswer": "2，3",
+            "scoringCriteria": "第一问共4分，根据定义由a4=2推出a3的可能取值得2分，分别计算两种情况下a5的值各得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）求证：数列$\\\\{a_n\\\\}$中存在等于1的项；",
+            "solutionSteps": "1. 采用反证法，假设$\\\\{a_n\\\\}$中不存在等于1的项，则对任意n∈N*，$a_n≥2$；2. 由定义，$a_4=card\\\\{k | a_k=a_3, k \\\\in{1,2,3}\\\\}≥2$且$a_4≤3$，故$a_4∈\\\\{2,3\\\\}$；3. 分情况讨论：①若$a_4=3$，则$a_1=a_2=a_3=3$，此时$a_5=card\\\\{k | a_k=a_4, k \\\\in{1,2,3,4}\\\\}=4$，$a_6=card\\\\{k | a_k=a_5, k \\\\in{1,2,3,4,5}\\\\}=1$，与假设矛盾；②若$a_4=2$，则$a_1,a_2,a_3$中恰有2个等于$a_3$，分四种子情况：(1)两项为2、一项为3，得$a_5=3$，$a_6=2$，$a_7=4$，$a_8=1$，矛盾；(2)两项为2、一项为m(m≥4)，得$a_5=3$，$a_6=1$，矛盾；(3)一项为2、两项为3，得$a_5=2$，$a_6=3$，$a_7=3$，$a_8=4$，$a_9=1$，矛盾；(4)一项为2、两项为k(k≥4)，得$a_5=2$，$a_6=3$，$a_7=1$，矛盾；4. 所有情况均推出矛盾，故假设不成立，数列$\\\\{a_n\\\\}$中存在等于1的项。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问共5分，采用反证法作出假设得1分，推出a4的取值范围得1分，对a4=3的情况推导矛盾得1分，对a4=2的情况分类推导矛盾得1分，得出结论否定假设得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）求证：存在$t \\\\in N^*$，使得集合$\\\\{k \\\\in N^* | a_k=t\\\\}$为无穷集合；",
+            "solutionSteps": "1. 采用反证法，假设对任意$t \\\\in N^*$，集合$\\\\{k \\\\in N^* | a_k=t\\\\}$均为有限集合；2. 由（Ⅱ）知数列中有项为1，设$\\\\{k \\\\in N^* | a_k=1\\\\}$的最大元素为$k_0$，则当$n>k_0$时，$a_n≥2$；3. 令$M=max \\\\{a_i | i \\\\in{1,2, \\\\cdots, k_0}\\\\}$，证明当$n>k_0$时，$a_n ≤M$：假设存在$n_0=min \\\\{n \\\\in N^* | a_n>M, n>k_0}\\\\}$，则$a_{n_0+1}=card\\\\{k | a_k=a_{n_0}, k \\\\in{1,2, \\\\cdots, n_0}\\\\}=1$，与$n_0+1>k_0$时$a_{n_0+1}≥2$矛盾，故$n>k_0$时，$2≤a_n≤M$；4. 数列$\\\\{a_n\\\\}$是无穷正整数数列，而$2≤a_n≤M$只有有限个正整数，根据抽屉原理，必存在$l \\\\in{2,3, \\\\cdots, M}$，使得集合$\\\\{n \\\\in N^* | a_n=l\\\\}$为无穷集合，与假设矛盾；5. 故假设不成立，存在$t \\\\in N^*$，使得集合$\\\\{k \\\\in N^* | a_k=t\\\\}$为无穷集合。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第三问共6分，采用反证法作出假设得1分，结合（Ⅱ）确定k0并得出n>k0时an≥2得1分，构造M并证明n>k0时an≤M得2分，利用抽屉原理推出矛盾得1分，得出结论否定假设得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given that $\\\\{a_n\\\\}$ is an infinite positive integer sequence, and for any $n ≥3$, $a_{n+1}=card\\\\{k | a_k=a_n, k \\\\in{1,2, \\\\cdots, n}\\\\}$, where $card S$ denotes the number of elements of the finite set S.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If $a_1=2$, $a_2=3$, $a_4=2$, find all possible values of $a_5$;",
+            "solutionSteps": "1. From $a_{n+1}=card\\\\{k | a_k=a_n, k \\\\in{1,2, \\\\cdots, n}\\\\}$ for $n≥3$, when n=3, $a_4=card\\\\{k | a_k=a_3, k \\\\in{1,2,3}\\\\}=2$, which means $a_3$ appears twice in $a_1,a_2,a_3$; 2. Given $a_1=2$ and $a_2=3$, so $a_3$ can only be 2 or 3: if $a_3=2$, then $a_1=a_3=2$, satisfying appearing twice; if $a_3=3$, then $a_2=a_3=3$, satisfying appearing twice; 3. When $a_3=2$, n=4, $a_5=card\\\\{k | a_k=a_4, k \\\\in{1,2,3,4}\\\\}=card\\\\{1,3,4\\\\}=3$; 4. When $a_3=3$, n=4, $a_5=card\\\\{k | a_k=a_4, k \\\\in{1,2,3,4}\\\\}=card\\\\{1,4\\\\}=2$; 5. In summary, the possible values of $a_5$ are 2 and 3.",
+            "standardAnswer": "2, 3",
+            "scoringCriteria": "The first sub-question is worth 4 points in total, 2 points for deducing the possible values of a3 from a4=2 according to the definition, and 1 point for calculating the value of a5 in each of the two cases.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) Prove that there exists a term equal to 1 in the sequence $\\\\{a_n\\\\}$;",
+            "solutionSteps": "1. Use proof by contradiction, assume that there is no term equal to 1 in $\\\\{a_n\\\\}$, then for any n∈N*, $a_n≥2$; 2. By definition, $a_4=card\\\\{k | a_k=a_3, k \\\\in{1,2,3}\\\\}≥2$ and $a_4≤3$, so $a_4∈\\\\{2,3\\\\}$; 3. Discuss by cases: ① If $a_4=3$, then $a_1=a_2=a_3=3$, at this time $a_5=card\\\\{k | a_k=a_4, k \\\\in{1,2,3,4}\\\\}=4$, $a_6=card\\\\{k | a_k=a_5, k \\\\in{1,2,3,4,5}\\\\}=1$, which contradicts the assumption; ② If $a_4=2$, then exactly 2 of $a_1,a_2,a_3$ are equal to $a_3$, discuss four subcases: (1) two terms are 2 and one term is 3, we get $a_5=3$, $a_6=2$, $a_7=4$, $a_8=1$, contradiction; (2) two terms are 2 and one term is m(m≥4), we get $a_5=3$, $a_6=1$, contradiction; (3) one term is 2 and two terms are 3, we get $a_5=2$, $a_6=3$, $a_7=3$, $a_8=4$, $a_9=1$, contradiction; (4) one term is 2 and two terms are k(k≥4), we get $a_5=2$, $a_6=3$, $a_7=1$, contradiction; 4. All cases lead to contradictions, so the assumption is not valid, and there exists a term equal to 1 in the sequence $\\\\{a_n\\\\}$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The second sub-question is worth 5 points in total, 1 point for making the assumption by proof by contradiction, 1 point for deducing the value range of a4, 1 point for deriving a contradiction in the case of a4=3, 1 point for deriving contradictions in the classified cases of a4=2, and 1 point for drawing the conclusion and negating the assumption.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Prove that there exists $t \\\\in N^*$ such that the set $\\\\{k \\\\in N^* | a_k=t\\\\}$ is an infinite set;",
+            "solutionSteps": "1. Use proof by contradiction, assume that for any $t \\\\in N^*$, the set $\\\\{k \\\\in N^* | a_k=t\\\\}$ is a finite set; 2. From (Ⅱ), we know there is a term equal to 1 in the sequence, let the maximum element of $\\\\{k \\\\in N^* | a_k=1\\\\}$ be $k_0$, then when $n>k_0$, $a_n≥2$; 3. Let $M=max \\\\{a_i | i \\\\in{1,2, \\\\cdots, k_0}\\\\}$, prove that when $n>k_0$, $a_n ≤M$: assume there exists $n_0=min \\\\{n \\\\in N^* | a_n>M, n>k_0}\\\\}$, then $a_{n_0+1}=card\\\\{k | a_k=a_{n_0}, k \\\\in{1,2, \\\\cdots, n_0}\\\\}=1$, which contradicts $a_{n_0+1}≥2$ when $n_0+1>k_0$, so when $n>k_0$, $2≤a_n≤M$; 4. The sequence $\\\\{a_n\\\\}$ is an infinite positive integer sequence, while there are only a finite number of positive integers satisfying $2≤a_n≤M$, according to the Pigeonhole Principle, there must exist $l \\\\in{2,3, \\\\cdots, M}$ such that the set $\\\\{n \\\\in N^* | a_n=l\\\\}$ is an infinite set, which contradicts the assumption; 5. So the assumption is not valid, and there exists $t \\\\in N^*$ such that the set $\\\\{k \\\\in N^* | a_k=t\\\\}$ is an infinite set.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "The third sub-question is worth 6 points in total, 1 point for making the assumption by proof by contradiction, 1 point for determining k0 combined with (Ⅱ) and concluding that an≥2 when n>k0, 2 points for constructing M and proving that an≤M when n>k0, 1 point for deriving a contradiction using the Pigeonhole Principle, and 1 point for drawing the conclusion and negating the assumption.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

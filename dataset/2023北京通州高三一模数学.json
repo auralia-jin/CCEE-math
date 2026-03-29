@@ -1,0 +1,233 @@
+{
+  "paperTitle": "2023 Beijing Tongzhou Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某企业有7个分行业，2020年这7个分行业的营业收入及营业成本情况统计如下表：<br/>|营业情况|营业收入 单位(亿元)|营业成本 单位(亿元)|<br/>|---|---|---|<br/>|分行业1|41|38|<br/>|分行业2|12|9|<br/>|分行业3|8|2|<br/>|分行业4|6|5|<br/>|分行业5|3|2|<br/>|分行业6|2|1|<br/>|分行业7|0.8|0.4|<br/>一般地，行业收益率一般指：$\\frac{营业收入-营业成本}{营业成本}×100\\%$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）任选一个分行业，求行业收益率不低于50%的概率；",
+            "solutionSteps": "1. 首先根据行业收益率公式计算各分行业的收益率，判断收益率不低于50%的分行业数量：分行业3：$\\frac{8-2}{2}×100\\%=300\\%$，分行业5：$\\frac{3-2}{2}×100\\%=50\\%$，分行业6：$\\frac{2-1}{1}×100\\%=100\\%$，分行业7：$\\frac{0.8-0.4}{0.4}×100\\%=100\\%$，共4个分行业收益率不低于50%；2. 设“任选一个分行业，行业收益率不低于50%”为事件A，根据古典概型概率公式$P(A)=\\frac{符合条件的基本事件数}{基本事件总数}$，基本事件总数为7，符合条件的为4；3. 计算得$P(A)=\\frac{4}{7}$。",
+            "standardAnswer": "$\\frac{4}{7}$",
+            "scoringCriteria": "本问共3分，正确找出收益率不低于50%的分行业数量得1分，正确列出古典概型概率公式得1分，代入数据计算出正确概率得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从7个分行业中任选3个，设X为选出的收益率高于50%的分行业的个数，求X的分布列及期望；",
+            "solutionSteps": "1. 先确定收益率高于50%的分行业有3个，收益率不高于50%的有4个，因此X的取值为0、1、2、3；2. 根据超几何分布概率公式$P(X=k)=\\frac{C_{M}^{k}C_{N-M}^{n-k}}{C_{N}^{n}}$（其中N=7，M=3，n=3）计算各取值概率：$P(X=0)=\\frac{C_{4}^{3}}{C_{7}^{3}}=\\frac{4}{35}$，$P(X=1)=\\frac{C_{4}^{2}C_{3}^{1}}{C_{7}^{3}}=\\frac{18}{35}$，$P(X=2)=\\frac{C_{4}^{1}C_{3}^{2}}{C_{7}^{3}}=\\frac{12}{35}$，$P(X=3)=\\frac{C_{3}^{3}}{C_{7}^{3}}=\\frac{1}{35}$；3. 列出X的分布列，以表格形式呈现X取0、1、2、3时对应的概率；4. 根据数学期望公式$E(X)=\\sum_{k=0}^{3}kP(X=k)$计算期望：$E(X)=0×\\frac{4}{35}+1×\\frac{18}{35}+2×\\frac{12}{35}+3×\\frac{1}{35}=\\frac{9}{7}$。",
+            "standardAnswer": "X的分布列为：<br/>|X|0|1|2|3|<br/>|---|---|---|---|---|<br/>|P|$\\frac{4}{35}$|$\\frac{18}{35}$|$\\frac{12}{35}$|$\\frac{1}{35}$|<br/>数学期望$E(X)=\\frac{9}{7}$",
+            "scoringCriteria": "本问共7分，正确确定X的所有取值得1分，正确计算出每个取值对应的概率各得1分（共4分），正确列出分布列得1分，正确计算出数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）设7个分行业营业收入的方差为$s_{1}^{2}$，营业成本的方差为$s_{2}^{2}$，写出$s_{1}^{2}$与$s_{2}^{2}$的大小关系。(结论不要求证明)",
+            "solutionSteps": "根据方差反映数据波动程度的性质，观察营业收入和营业成本的数据分布，营业收入的数据波动程度远大于营业成本，因此直接得出方差的大小关系。",
+            "standardAnswer": "$s_{1}^{2}>s_{2}^{2}$",
+            "scoringCriteria": "本问共3分，直接写出正确的方差大小关系即可得3分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "An enterprise has 7 sub-industries. The operating income and operating cost of these 7 sub-industries in 2020 are statistically shown in the following table:<br/>|Business Status|Operating Income (100 million yuan)|Operating Cost (100 million yuan)|<br/>|---|---|---|<br/>|Sub-industry 1|41|38|<br/>|Sub-industry 2|12|9|<br/>|Sub-industry 3|8|2|<br/>|Sub-industry 4|6|5|<br/>|Sub-industry 5|3|2|<br/>|Sub-industry 6|2|1|<br/>|Sub-industry 7|0.8|0.4|<br/>Generally, the industry return rate is defined as: $\\frac{Operating Income - Operating Cost}{Operating Cost}×100\\%$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one sub-industry, find the probability that the industry return rate is not less than 50%;",
+            "solutionSteps": "1. First, calculate the return rate of each sub-industry according to the industry return rate formula and determine the number of sub-industries with a return rate not less than 50%: Sub-industry 3: $\\frac{8-2}{2}×100\\%=300\\%$, Sub-industry 5: $\\frac{3-2}{2}×100\\%=50\\%$, Sub-industry 6: $\\frac{2-1}{1}×100\\%=100\\%$, Sub-industry 7: $\\frac{0.8-0.4}{0.4}×100\\%=100\\%$, a total of 4 sub-industries have a return rate not less than 50%; 2. Let event A be \"Randomly select one sub-industry, the industry return rate is not less than 50%\". According to the classical probability formula $P(A)=\\frac{Number of favorable basic events}{Total number of basic events}$, the total number of basic events is 7 and the number of favorable ones is 4; 3. Calculate and get $P(A)=\\frac{4}{7}$.",
+            "standardAnswer": "$\\frac{4}{7}$",
+            "scoringCriteria": "This sub-question is worth 3 points in total. 1 point for correctly finding the number of sub-industries with a return rate not less than 50%, 1 point for correctly listing the classical probability formula, and 1 point for substituting data to calculate the correct probability.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select 3 sub-industries from the 7 sub-industries, let X be the number of selected sub-industries with a return rate higher than 50%, find the probability mass function and mathematical expectation of X;",
+            "solutionSteps": "1. First, determine that there are 3 sub-industries with a return rate higher than 50% and 4 sub-industries with a return rate not higher than 50%, so the possible values of X are 0, 1, 2, 3; 2. Calculate the probability of each value according to the hypergeometric distribution probability formula $P(X=k)=\\frac{C_{M}^{k}C_{N-M}^{n-k}}{C_{N}^{n}}$ (where N=7, M=3, n=3): $P(X=0)=\\frac{C_{4}^{3}}{C_{7}^{3}}=\\frac{4}{35}$, $P(X=1)=\\frac{C_{4}^{2}C_{3}^{1}}{C_{7}^{3}}=\\frac{18}{35}$, $P(X=2)=\\frac{C_{4}^{1}C_{3}^{2}}{C_{7}^{3}}=\\frac{12}{35}$, $P(X=3)=\\frac{C_{3}^{3}}{C_{7}^{3}}=\\frac{1}{35}$; 3. List the probability mass function of X in the form of a table showing the corresponding probabilities when X takes 0, 1, 2, 3; 4. Calculate the mathematical expectation according to the formula $E(X)=\\sum_{k=0}^{3}kP(X=k)$: $E(X)=0×\\frac{4}{35}+1×\\frac{18}{35}+2×\\frac{12}{35}+3×\\frac{1}{35}=\\frac{9}{7}$.",
+            "standardAnswer": "The probability mass function of X is:<br/>|X|0|1|2|3|<br/>|---|---|---|---|---|<br/>|P|$\\frac{4}{35}$|$\\frac{18}{35}$|$\\frac{12}{35}$|$\\frac{1}{35}$|<br/>The mathematical expectation $E(X)=\\frac{9}{7}$",
+            "scoringCriteria": "This sub-question is worth 7 points in total. 1 point for correctly determining all possible values of X, 1 point for correctly calculating the probability corresponding to each value (4 points in total), 1 point for correctly listing the probability mass function, and 1 point for correctly calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) Let $s_{1}^{2}$ be the variance of the operating income of the 7 sub-industries and $s_{2}^{2}$ be the variance of the operating cost, write the size relationship between $s_{1}^{2}$ and $s_{2}^{2}$. (No proof is required for the conclusion)",
+            "solutionSteps": "According to the property that variance reflects the degree of data fluctuation, observe the data distribution of operating income and operating cost. The data fluctuation of operating income is much greater than that of operating cost, so the size relationship of variances is directly obtained.",
+            "standardAnswer": "$s_{1}^{2}>s_{2}^{2}$",
+            "scoringCriteria": "This sub-question is worth 3 points in total. 3 points for directly writing the correct size relationship of variances.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆$C:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$过点$A(2,1)$，离心率为$\\frac{\\sqrt{3}}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆C的标准方程；",
+            "solutionSteps": "1. 根据椭圆的离心率公式$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，可得$c=\\frac{\\sqrt{3}}{2}a$，又由椭圆的基本关系$a^2=b^2+c^2$，代入得$a^2=b^2+\\frac{3}{4}a^2$，化简得$a^2=4b^2$；2. 因为椭圆过点$A(2,1)$，将点代入椭圆方程得$\\frac{4}{a^2}+\\frac{1}{b^2}=1$；3. 将$a^2=4b^2$代入上式，得$\\frac{4}{4b^2}+\\frac{1}{b^2}=1$，即$\\frac{2}{b^2}=1$，解得$b^2=2$，进而得$a^2=8$；4. 写出椭圆C的标准方程为$\\frac{x^2}{8}+\\frac{y^2}{2}=1$。",
+            "standardAnswer": "$\\frac{x^2}{8}+\\frac{y^2}{2}=1$",
+            "scoringCriteria": "本问共5分，正确写出离心率公式及椭圆基本关系并化简得2分，将点代入椭圆方程得1分，代入求解$a^2$和$b^2$得1分，写出正确的椭圆标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设点A关于y轴的对称点为B，设与$OA$平行的直线l与椭圆C相交于M，N两点，直线$AM$，$AN$分别与y轴交于P，Q两点。求证四边形$APBQ$为菱形。",
+            "solutionSteps": "1. 求出点A关于y轴的对称点B的坐标为$(-2,1)$，计算直线OA的斜率$k_{OA}=\\frac{1}{2}$，设与OA平行的直线l的方程为$y=\\frac{1}{2}x+t(t≠0)$；2. 联立直线l与椭圆C的方程：$\\begin{cases}y=\\frac{1}{2}x+t\\\\x^2+4y^2=8\\end{cases}$，消去y整理得$x^2+2tx+2t^2-4=0$，由判别式$\\Delta=4t^2-4(2t^2-4)=16-4t^2>0$，得$-2<t<2$且$t≠0$；3. 设$M(x_1,y_1)$，$N(x_2,y_2)$，由韦达定理得$x_1+x_2=-2t$，$x_1x_2=2t^2-4$；4. 写出直线AM的方程$y-1=\\frac{y_1-1}{x_1-2}(x-2)$，令$x=0$，得P点纵坐标$y_P=\\frac{x_1-2y_1}{x_1-2}$，同理得Q点纵坐标$y_Q=\\frac{x_2-2y_2}{x_2-2}$；5. 计算$y_P+y_Q$，将$y_1=\\frac{1}{2}x_1+t$，$y_2=\\frac{1}{2}x_2+t$代入化简，最终得$y_P+y_Q=2$，故PQ的中点为$(0,1)$；6. 易知AB的中点也为$(0,1)$，且AB垂直于y轴，PQ在y轴上，故AB与PQ互相垂直且平分；7. 根据菱形的判定定理，对角线互相垂直且平分的四边形为菱形，故四边形APBQ为菱形。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问共10分，正确求出点B坐标及设出直线l方程得2分，联立方程并消元且求出判别式范围得2分，正确运用韦达定理得1分，正确求出P、Q点纵坐标表达式得1分，化简求出$y_P+y_Q=2$得2分，指出AB与PQ中点相同且互相垂直得1分，根据菱形判定定理得出结论得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the ellipse $C:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ passes through the point $A(2,1)$ and its eccentricity is $\\frac{\\sqrt{3}}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the standard equation of the ellipse C;",
+            "solutionSteps": "1. According to the eccentricity formula of the ellipse $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$, we get $c=\\frac{\\sqrt{3}}{2}a$. From the basic relationship of the ellipse $a^2=b^2+c^2$, substitute to get $a^2=b^2+\\frac{3}{4}a^2$, simplify to $a^2=4b^2$; 2. Since the ellipse passes through the point $A(2,1)$, substitute the point into the ellipse equation to get $\\frac{4}{a^2}+\\frac{1}{b^2}=1$; 3. Substitute $a^2=4b^2$ into the above equation, get $\\frac{4}{4b^2}+\\frac{1}{b^2}=1$, that is $\\frac{2}{b^2}=1$, solve to get $b^2=2$, then $a^2=8$; 4. Write the standard equation of the ellipse C as $\\frac{x^2}{8}+\\frac{y^2}{2}=1$.",
+            "standardAnswer": "$\\frac{x^2}{8}+\\frac{y^2}{2}=1$",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 2 points for correctly writing the eccentricity formula and the basic relationship of the ellipse and simplifying, 1 point for substituting the point into the ellipse equation, 1 point for substituting and solving $a^2$ and $b^2$, and 1 point for writing the correct standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let B be the symmetric point of point A about the y-axis, let the line l parallel to $OA$ intersect the ellipse C at points M and N, and the lines $AM$ and $AN$ intersect the y-axis at points P and Q respectively. Prove that the quadrilateral $APBQ$ is a rhombus.",
+            "solutionSteps": "1. Find the coordinates of point B, the symmetric point of point A about the y-axis, which is $(-2,1)$, calculate the slope of line OA $k_{OA}=\\frac{1}{2}$, let the equation of line l parallel to OA be $y=\\frac{1}{2}x+t(t≠0)$; 2. Simultaneously solve the equations of line l and ellipse C: $\\begin{cases}y=\\frac{1}{2}x+t\\\\x^2+4y^2=8\\end{cases}$, eliminate y and sort out to get $x^2+2tx+2t^2-4=0$. From the discriminant $\\Delta=4t^2-4(2t^2-4)=16-4t^2>0$, we get $-2<t<2$ and $t≠0$; 3. Let $M(x_1,y_1)$, $N(x_2,y_2)$, from Vieta's formulas, we get $x_1+x_2=-2t$, $x_1x_2=2t^2-4$; 4. Write the equation of line AM $y-1=\\frac{y_1-1}{x_1-2}(x-2)$, let $x=0$, get the ordinate of point P $y_P=\\frac{x_1-2y_1}{x_1-2}$, and get the ordinate of point Q $y_Q=\\frac{x_2-2y_2}{x_2-2}$ similarly; 5. Calculate $y_P+y_Q$, substitute $y_1=\\frac{1}{2}x_1+t$, $y_2=\\frac{1}{2}x_2+t$ and simplify, finally get $y_P+y_Q=2$, so the midpoint of PQ is $(0,1)$; 6. It is easy to know that the midpoint of AB is also $(0,1)$, AB is perpendicular to the y-axis, and PQ is on the y-axis, so AB and PQ are perpendicular and bisect each other; 7. According to the determination theorem of rhombus, a quadrilateral whose diagonals are perpendicular and bisect each other is a rhombus, so the quadrilateral APBQ is a rhombus.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 10 points in total. 2 points for correctly finding the coordinates of point B and setting the equation of line l, 2 points for simultaneous equations, elimination and finding the range of the discriminant, 1 point for correctly applying Vieta's formulas, 1 point for correctly finding the ordinate expressions of points P and Q, 2 points for simplifying and getting $y_P+y_Q=2$, 1 point for pointing out that AB and PQ have the same midpoint and are perpendicular to each other, and 1 point for drawing the conclusion according to the determination theorem of rhombus.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=e^x$，$g(x)=\\ln(x+a)(a\\in R)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求曲线$y=f(x)$在点$(1,f(1))$处的切线方程；",
+            "solutionSteps": "1. 求函数$f(x)=e^x$的导数，$f'(x)=e^x$；2. 计算切点处的导数值即切线斜率，$k=f'(1)=e$；3. 计算切点纵坐标，$f(1)=e$，故切点为$(1,e)$；4. 根据点斜式方程$y-y_0=k(x-x_0)$，写出切线方程为$y-e=e(x-1)$，化简得$y=ex$。",
+            "standardAnswer": "$y=ex$",
+            "scoringCriteria": "本问共4分，正确求出函数导数得1分，计算出切线斜率得1分，确定切点坐标得1分，根据点斜式写出并化简切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）设$\\varphi(x)=f(x)g(x)$，请判断$\\varphi(x)$是否存在极值？若存在，求出极值；若不存在，说明理由；",
+            "solutionSteps": "1. 确定$\\varphi(x)=e^x\\ln(x+a)$的定义域为$(-a,+\\infty)$；2. 求$\\varphi(x)$的导数，由乘积求导法则得$\\varphi'(x)=e^x\\left(\\ln(x+a)+\\frac{1}{x+a}\\right)$；3. 令$F(x)=\\ln(x+a)+\\frac{1}{x+a}$，求$F(x)$的导数$F'(x)=\\frac{1}{x+a}-\\frac{1}{(x+a)^2}=\\frac{x+a-1}{(x+a)^2}$；4. 令$F'(x)=0$，解得$x=1-a$，分析$F(x)$的单调性：当$x\\in(-a,1-a)$时，$F'(x)<0$，$F(x)$单调递减；当$x\\in(1-a,+\\infty)$时，$F'(x)>0$，$F(x)$单调递增；5. 求$F(x)$的最小值，$F(x)_{min}=F(1-a)=\\ln1+1=1$；6. 因为$e^x>0$恒成立，所以$\\varphi'(x)=e^xF(x)>0$在定义域$(-a,+\\infty)$上恒成立，故$\\varphi(x)$在定义域上单调递增，因此$\\varphi(x)$不存在极值。",
+            "standardAnswer": "$\\varphi(x)$不存在极值，理由见解析",
+            "scoringCriteria": "本问共5分，正确确定定义域并求出$\\varphi'(x)$得2分，正确构造$F(x)$并求出其导数及单调区间得2分，分析得出$\\varphi'(x)>0$恒成立并判断无极值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）当$a=0$时，若对于任意$s>t>0$，不等式$g(s)-g(t)>k\\left(\\frac{1}{f(s)}-\\frac{1}{f(t)}\\right)$恒成立，求k的取值范围。",
+            "solutionSteps": "1. 当$a=0$时，$g(x)=\\ln x$，$f(x)=e^x$，不等式化为$\\ln s-\\ln t>k\\left(\\frac{1}{e^s}-\\frac{1}{e^t}\\right)$，整理得$\\ln s-\\frac{k}{e^s}>\\ln t-\\frac{k}{e^t}$；2. 构造函数$G(x)=\\ln x-\\frac{k}{e^x}(x>0)$，由题意知$G(x)$在$(0,+\\infty)$上单调递增；3. 求$G(x)$的导数$G'(x)=\\frac{1}{x}+\\frac{k}{e^x}=\\frac{e^x+kx}{xe^x}$，因为$xe^x>0$在$(0,+\\infty)$上恒成立，故$G'(x)≥0$恒成立等价于$e^x+kx≥0$在$(0,+\\infty)$上恒成立，即$k≥-\\frac{e^x}{x}$；4. 令$A(x)=-\\frac{e^x}{x}(x>0)$，求$A(x)$的导数$A'(x)=-\\frac{e^x(x-1)}{x^2}$；5. 分析$A(x)$的单调性：当$x\\in(0,1)$时，$A'(x)>0$，$A(x)$单调递增；当$x\\in(1,+\\infty)$时，$A'(x)<0$，$A(x)$单调递减；6. 求$A(x)$的最大值，$A(x)_{max}=A(1)=-e$，故k的取值范围为$k≥-e$。",
+            "standardAnswer": "$[-e,+\\infty)$",
+            "scoringCriteria": "本问共6分，正确整理不等式并构造函数$G(x)$得2分，求出$G'(x)$并转化为恒成立问题得1分，构造函数$A(x)$并求出其导数得1分，分析$A(x)$的单调性并求出最大值得1分，得出k的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the functions $f(x)=e^x$ and $g(x)=\\ln(x+a)(a\\in R)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the tangent line to the curve $y=f(x)$ at the point $(1,f(1))$;",
+            "solutionSteps": "1. Find the derivative of the function $f(x)=e^x$, $f'(x)=e^x$; 2. Calculate the value of the derivative at the tangent point, which is the slope of the tangent line, $k=f'(1)=e$; 3. Calculate the ordinate of the tangent point, $f(1)=e$, so the tangent point is $(1,e)$; 4. According to the point-slope form equation $y-y_0=k(x-x_0)$, write the tangent line equation as $y-e=e(x-1)$, simplify to get $y=ex$.",
+            "standardAnswer": "$y=ex$",
+            "scoringCriteria": "This sub-question is worth 4 points in total. 1 point for correctly finding the derivative of the function, 1 point for calculating the slope of the tangent line, 1 point for determining the coordinates of the tangent point, and 1 point for writing and simplifying the tangent line equation according to the point-slope form.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Let $\\varphi(x)=f(x)g(x)$, judge whether $\\varphi(x)$ has extreme values? If yes, find the extreme values; if no, explain the reason;",
+            "solutionSteps": "1. Determine the domain of $\\varphi(x)=e^x\\ln(x+a)$ is $(-a,+\\infty)$; 2. Find the derivative of $\\varphi(x)$, by the product rule for differentiation, get $\\varphi'(x)=e^x\\left(\\ln(x+a)+\\frac{1}{x+a}\\right)$; 3. Let $F(x)=\\ln(x+a)+\\frac{1}{x+a}$, find the derivative of $F(x)$ $F'(x)=\\frac{1}{x+a}-\\frac{1}{(x+a)^2}=\\frac{x+a-1}{(x+a)^2}$; 4. Let $F'(x)=0$, solve to get $x=1-a$, analyze the monotonicity of $F(x)$: when $x\\in(-a,1-a)$, $F'(x)<0$, $F(x)$ is monotonically decreasing; when $x\\in(1-a,+\\infty)$, $F'(x)>0$, $F(x)$ is monotonically increasing; 5. Find the minimum value of $F(x)$, $F(x)_{min}=F(1-a)=\\ln1+1=1$; 6. Since $e^x>0$ holds for all x, $\\varphi'(x)=e^xF(x)>0$ holds for all x in the domain $(-a,+\\infty)$, so $\\varphi(x)$ is monotonically increasing on the domain, therefore $\\varphi(x)$ has no extreme values.",
+            "standardAnswer": "$\\varphi(x)$ has no extreme values, see the analysis for the reason",
+            "scoringCriteria": "This sub-question is worth 5 points in total. 2 points for correctly determining the domain and finding $\\varphi'(x)$, 2 points for correctly constructing $F(x)$, finding its derivative and monotonic intervals, and 1 point for analyzing that $\\varphi'(x)>0$ holds for all x and judging that there are no extreme values.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) When $a=0$, if for any $s>t>0$, the inequality $g(s)-g(t)>k\\left(\\frac{1}{f(s)}-\\frac{1}{f(t)}\\right)$ holds constantly, find the range of k.",
+            "solutionSteps": "1. When $a=0$, $g(x)=\\ln x$, $f(x)=e^x$, the inequality is transformed into $\\ln s-\\ln t>k\\left(\\frac{1}{e^s}-\\frac{1}{e^t}\\right)$, sorted out to $\\ln s-\\frac{k}{e^s}>\\ln t-\\frac{k}{e^t}$; 2. Construct the function $G(x)=\\ln x-\\frac{k}{e^x}(x>0)$, it is known from the question that $G(x)$ is monotonically increasing on $(0,+\\infty)$; 3. Find the derivative of $G(x)$ $G'(x)=\\frac{1}{x}+\\frac{k}{e^x}=\\frac{e^x+kx}{xe^x}$. Since $xe^x>0$ holds on $(0,+\\infty)$, $G'(x)≥0$ holding constantly is equivalent to $e^x+kx≥0$ holding constantly on $(0,+\\infty)$, that is $k≥-\\frac{e^x}{x}$; 4. Let $A(x)=-\\frac{e^x}{x}(x>0)$, find the derivative of $A(x)$ $A'(x)=-\\frac{e^x(x-1)}{x^2}$; 5. Analyze the monotonicity of $A(x)$: when $x\\in(0,1)$, $A'(x)>0$, $A(x)$ is monotonically increasing; when $x\\in(1,+\\infty)$, $A'(x)<0$, $A(x)$ is monotonically decreasing; 6. Find the maximum value of $A(x)$, $A(x)_{max}=A(1)=-e$, so the range of k is $k≥-e$.",
+            "standardAnswer": "$[-e,+\\infty)$",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for correctly sorting out the inequality and constructing the function $G(x)$, 1 point for finding $G'(x)$ and transforming it into a constant establishment problem, 1 point for constructing the function $A(x)$ and finding its derivative, 1 point for analyzing the monotonicity of $A(x)$ and finding the maximum value, and 1 point for obtaining the range of k.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "设集合A为含有n个元素的有限集。若集合A的m个子集$A_1,A_2,\\cdots,A_m$满足：①$A_1,A_2,\\cdots,A_m$均非空；②$A_1,A_2,\\cdots,A_m$中任意两个集合交集为空集；③$A_1\\cup A_2\\cup \\cdots \\cup A_m=A$。则称$A_1,A_2,\\cdots,A_m$为集合A的一个m阶分拆。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若$A={1,2,3}$，写出集合A的所有2阶分拆(其中$A_1$，$A_2$与$A_2$，$A_1$为集合A的同一个2阶分拆)；",
+            "solutionSteps": "1. 根据2阶分拆的定义，将集合$A={1,2,3}$拆分为两个非空、不交且并集为A的子集；2. 依次列举所有符合条件的拆分方式：将A拆为单元素集和双元素集的组合，分别为$\\{1,2\\}$与$\\{3\\}$、$\\{1,3\\}$与$\\{2\\}$、$\\{2,3\\}$与$\\{1\\}$；3. 确认无其他符合条件的拆分方式，且满足$A_1,A_2$与$A_2,A_1$为同一个分拆的要求。",
+            "standardAnswer": "$\\{1,2\\},\\{3\\}$；$\\{1,3\\},\\{2\\}$；$\\{2,3\\},\\{1\\}$",
+            "scoringCriteria": "本问共3分，正确理解2阶分拆的定义得1分，完整列举出所有符合条件的2阶分拆得2分，漏写一个扣1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若$A={1,2,3,\\cdots,n}$，$A_1$，$A_2$为A的2阶分拆，集合$A_1$所有元素的平均值为P，集合$A_2$所有元素的平均值为Q，求$|P-Q|$的最大值；",
+            "solutionSteps": "1. 不妨设$P>Q$，令$A_1$有p个元素，元素和为T，则$A_2$有$n-p$个元素，元素和为$\\frac{n(n+1)}{2}-T$，写出$|P-Q|=P-Q=\\frac{T}{p}-\\frac{\\frac{n(n+1)}{2}-T}{n-p}$；2. 对上述式子通分化简，得$|P-Q|=\\frac{n}{n-p}\\left(\\frac{T}{p}-\\frac{n+1}{2}\\right)$；3. 分析T的最大值，当$A_1$取A中最大的p个元素时，T取得最大值$\\frac{p(2n-p+1)}{2}$；4. 将T的最大值代入化简，最终得$|P-Q|≤\\frac{n}{2}$，当且仅当T取最大值时等号成立，故$|P-Q|$的最大值为$\\frac{n}{2}$。",
+            "standardAnswer": "$\\frac{n}{2}$",
+            "scoringCriteria": "本问共6分，正确写出P、Q的表达式并化简$|P-Q|$得2分，正确分析出T的最大值情况得2分，代入化简求出最大值得1分，写出最终结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）设$A_1$，$A_2$，$A_3$为正整数集合$A={a_1,a_2,\\cdots,a_n}(n\\in N^*,n≥3)$的3阶分拆。若$A_1$，$A_2$，$A_3$满足任取集合A中的一个元素$a_i$构成$A_1={a_i}$，其中$i\\in{1,2,3,\\cdots,n}$，且$A_2$与$A_3$中元素的和相等。求证：n为奇数。",
+            "solutionSteps": "1. 设集合A的所有元素和为S，$A_2$和$A_3$的元素和均为$m_i$，由3阶分拆的定义得$S=a_i+2m_i(i=1,2,\\cdots,n)$；2. 分两种情况讨论：情况一，若A中有元素$a_j$为奇数，由$S=2m_j+a_j$，2$m_j$为偶数，故S为奇数，对任意$a_i$，$a_i=S-2m_i$均为奇数，奇数个奇数的和为奇数，故n为奇数；3. 情况二，若A中有元素$a_j$为偶数，由$S=2m_j+a_j$，2$m_j$为偶数，故S为偶数，对任意$a_i$，$a_i=S-2m_i$均为偶数，将A中所有元素不断除以2，直至出现奇数，此时由情况一的结论可知n为奇数；4. 综合两种情况，得出n为奇数的结论。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "本问共6分，正确写出集合A的元素和表达式得2分，分情况讨论并正确分析第一种情况（有奇数元素）得2分，正确分析第二种情况（全偶数元素）得1分，综合两种情况得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Let set A be a finite set containing n elements. If m subsets $A_1,A_2,\\cdots,A_m$ of set A satisfy: ① Each of $A_1,A_2,\\cdots,A_m$ is non-empty; ② The intersection of any two sets among $A_1,A_2,\\cdots,A_m$ is an empty set; ③ $A_1\\cup A_2\\cup \\cdots \\cup A_m=A$. Then $A_1,A_2,\\cdots,A_m$ is called an m-order partition of set A.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If $A={1,2,3}$, write all 2-order partitions of set A (where $A_1,A_2$ and $A_2,A_1$ are the same 2-order partition of set A);",
+            "solutionSteps": "1. According to the definition of 2-order partition, split the set $A={1,2,3}$ into two non-empty, disjoint subsets whose union is A; 2. Enumerate all eligible splitting methods in turn: split A into combinations of single-element sets and two-element sets, which are $\\{1,2\\}$ and $\\{3\\}$, $\\{1,3\\}$ and $\\{2\\}$, $\\{2,3\\}$ and $\\{1\\}$ respectively; 3. Confirm that there are no other eligible splitting methods and meet the requirement that $A_1,A_2$ and $A_2,A_1$ are the same partition.",
+            "standardAnswer": "$\\{1,2\\},\\{3\\}$; $\\{1,3\\},\\{2\\}$; $\\{2,3\\},\\{1\\}$",
+            "scoringCriteria": "This sub-question is worth 3 points in total. 1 point for correctly understanding the definition of 2-order partition, 2 points for completely enumerating all eligible 2-order partitions, and 1 point deducted for missing one.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If $A={1,2,3,\\cdots,n}$, $A_1,A_2$ are a 2-order partition of A, the average value of all elements of set $A_1$ is P, and the average value of all elements of set $A_2$ is Q, find the maximum value of $|P-Q|$;",
+            "solutionSteps": "1. Without loss of generality, assume $P>Q$, let set $A_1$ have p elements with the sum of elements T, then set $A_2$ has $n-p$ elements with the sum of elements $\\frac{n(n+1)}{2}-T$, write $|P-Q|=P-Q=\\frac{T}{p}-\\frac{\\frac{n(n+1)}{2}-T}{n-p}$; 2. Reduce the above expression to a common denominator and simplify, get $|P-Q|=\\frac{n}{n-p}\\left(\\frac{T}{p}-\\frac{n+1}{2}\\right)$; 3. Analyze the maximum value of T, T attains the maximum value $\\frac{p(2n-p+1)}{2}$ when $A_1$ takes the largest p elements in A; 4. Substitute the maximum value of T and simplify, finally get $|P-Q|≤\\frac{n}{2}$, the equal sign holds if and only if T takes the maximum value, so the maximum value of $|P-Q|$ is $\\frac{n}{2}$.",
+            "standardAnswer": "$\\frac{n}{2}$",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for correctly writing the expressions of P and Q and simplifying $|P-Q|$, 2 points for correctly analyzing the maximum value of T, 1 point for substituting and simplifying to find the maximum value, and 1 point for writing the final conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Let $A_1,A_2,A_3$ be a 3-order partition of the positive integer set $A={a_1,a_2,\\cdots,a_n}(n\\in N^*,n≥3)$. If $A_1,A_2,A_3$ satisfy that for any element $a_i$ in set A, $A_1={a_i}$ is formed where $i\\in{1,2,3,\\cdots,n}$, and the sum of elements in $A_2$ and $A_3$ are equal. Prove that n is an odd number.",
+            "solutionSteps": "1. Let the sum of all elements of set A be S, and the sum of elements of $A_2$ and $A_3$ are both $m_i$. From the definition of 3-order partition, we get $S=a_i+2m_i(i=1,2,\\cdots,n)$; 2. Discuss in two cases: Case 1, if there is an element $a_j$ in A that is an odd number, from $S=2m_j+a_j$, 2$m_j$ is an even number, so S is an odd number. For any $a_i$, $a_i=S-2m_i$ are all odd numbers, and the sum of an odd number of odd numbers is an odd number, so n is an odd number; 3. Case 2, if there is an element $a_j$ in A that is an even number, from $S=2m_j+a_j$, 2$m_j$ is an even number, so S is an even number. For any $a_i$, $a_i=S-2m_i$ are all even numbers. Divide all elements in A by 2 continuously until an odd number appears, then according to the conclusion of Case 1, n is an odd number; 4. Synthesize the two cases and draw the conclusion that n is an odd number.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question is worth 6 points in total. 2 points for correctly writing the sum expression of the elements of set A, 2 points for discussing by cases and correctly analyzing the first case (with odd elements), 1 point for correctly analyzing the second case (all even elements), and 1 point for synthesizing the two cases to draw the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

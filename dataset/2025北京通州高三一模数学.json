@@ -1,0 +1,217 @@
+{
+  "paperTitle": "2025 Beijing Tongzhou Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某艺术研究中心对春节档6部影片观众满意度进行调查，评分如下：<br/>| | 第一部 | 第二部 | 第三部 | 第四部 | 第五部 | 第六部 |<br/>| --- | --- | --- | --- | --- | --- | --- |<br/>| 普通观众评分 | 87.2 | 85.4 | 84.9 | 84.9 | 84.7 | 83.6 |<br/>| 专业观众评分 | 88.7 | 80.0 | 81.6 | 77.4 | 76.1 | 72.2 |",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从这6部影片中随机选取1部，恰好选到普通观众评分与专业观众评分都低于85分的影片的概率；",
+            "solutionSteps": "1. 确定符合条件的影片数量：统计得普通观众评分与专业观众评分都低于85分的影片有4部；<br/>2. 根据古典概型概率公式，概率P=符合条件的基本事件数/总基本事件数；<br/>3. 代入数据计算：P=4/6=2/3。",
+            "standardAnswer": "$\\\\frac{2}{3}$",
+            "scoringCriteria": "第一问共4分，确定符合条件的影片数量得2分，写出古典概型概率公式得1分，代入数据计算出正确结果得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）现有4名观众，每位观众从这6部影片中各随机选取1部观看。(i)若不同观众可选相同影片（假设每位观众的选择相互独立），记X为选到普通观众评分与专业观众评分都低于85分的影片的人数，求X的分布列及数学期望E(X)。(ii)若任意2名观众不能选看相同影片，记Y为选到普通观众评分与专业观众评分都低于85分的影片的人数，试比较这种情况下数学期望E(Y)与(i)中E(X)的大小关系。（结论不要求证明）",
+            "solutionSteps": "(i) 1. 确定X的分布类型：由题意知X服从二项分布X~B(4,2/3)；<br/>2. 计算X取不同值的概率：P(X=0)=(1/3)^4=1/81，P(X=1)=C_4^1×(2/3)×(1/3)^3=8/81，P(X=2)=C_4^2×(2/3)^2×(1/3)^2=24/81=8/27，P(X=3)=C_4^3×(2/3)^3×(1/3)=32/81，P(X=4)=C_4^4×(2/3)^4=16/81；<br/>3. 列出X的分布列；<br/>4. 计算数学期望：E(X)=4×2/3=8/3（或通过分布列计算E(X)=0×1/81+1×8/81+2×8/27+3×32/81+4×16/81=216/81=8/3）；<br/>(ii) 直接给出结论：E(X)=E(Y)。",
+            "standardAnswer": "(i) 分布列为<br/>| X | 0 | 1 | 2 | 3 | 4 |<br/>| --- | --- | --- | --- | --- | --- |<br/>| P | $\\\\frac{1}{81}$ | $\\\\frac{8}{81}$ | $\\\\frac{8}{27}$ | $\\\\frac{32}{81}$ | $\\\\frac{16}{81}$ |，数学期望$E(X)=\\\\frac{8}{3}$；(ii) $E(X)=E(Y)$",
+            "scoringCriteria": "第二问共9分，其中(i)7分，判断X服从二项分布得1分，正确计算出各概率值共3分（每个正确概率得0.75分），列出分布列得1分，计算出数学期望得2分；(ii)2分，给出正确的大小关系结论得2分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      },
+      "english": {
+        "stem": "An art research center investigated the audience satisfaction of 6 films in the Spring Festival file, with the following scores:<br/>| | Film 1 | Film 2 | Film 3 | Film 4 | Film 5 | Film 6 |<br/>| --- | --- | --- | --- | --- | --- | --- |<br/>| Score by ordinary audience | 87.2 | 85.4 | 84.9 | 84.9 | 84.7 | 83.6 |<br/>| Score by professional audience | 88.7 | 80.0 | 81.6 | 77.4 | 76.1 | 72.2 |",
+        "subQuestions": [
+          {
+            "question": "(I) Randomly select one film from these 6 films, find the probability of exactly selecting a film whose scores by both ordinary and professional audiences are lower than 85 points;",
+            "solutionSteps": "1. Determine the number of films that meet the conditions: count and get that there are 4 films whose scores by both ordinary and professional audiences are lower than 85 points;<br/>2. According to the probability formula of classical probability model, probability P = number of basic events that meet the conditions / total number of basic events;<br/>3. Substitute the data for calculation: P=4/6=2/3.",
+            "standardAnswer": "$\\\\frac{2}{3}$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 2 points for determining the number of films that meet the conditions, 1 point for writing the probability formula of the classical probability model, and 1 point for substituting the data to calculate the correct result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) There are 4 audiences, and each audience randomly selects one film to watch from these 6 films. (i) If different audiences can choose the same film (assuming the choices of each audience are independent of each other), let X be the number of audiences who select a film whose scores by both ordinary and professional audiences are lower than 85 points, find the probability mass function and mathematical expectation E(X) of X. (ii) If any 2 audiences cannot choose the same film, let Y be the number of audiences who select a film whose scores by both ordinary and professional audiences are lower than 85 points, compare the mathematical expectation E(Y) in this case with E(X) in (i). (No need to prove the conclusion)",
+            "solutionSteps": "(i) 1. Determine the distribution type of X: it is known from the meaning of the question that X follows the binomial distribution X~B(4,2/3);<br/>2. Calculate the probability of X taking different values: P(X=0)=(1/3)^4=1/81, P(X=1)=C_4^1×(2/3)×(1/3)^3=8/81, P(X=2)=C_4^2×(2/3)^2×(1/3)^2=24/81=8/27, P(X=3)=C_4^3×(2/3)^3×(1/3)=32/81, P(X=4)=C_4^4×(2/3)^4=16/81;<br/>3. List the probability mass function of X;<br/>4. Calculate the mathematical expectation: E(X)=4×2/3=8/3 (or calculate through the probability mass function E(X)=0×1/81+1×8/81+2×8/27+3×32/81+4×16/81=216/81=8/3);<br/>(ii) Give the conclusion directly: E(X)=E(Y).",
+            "standardAnswer": "(i) The probability mass function is<br/>| X | 0 | 1 | 2 | 3 | 4 |<br/>| --- | --- | --- | --- | --- | --- |<br/>| P | $\\\\frac{1}{81}$ | $\\\\frac{8}{81}$ | $\\\\frac{8}{27}$ | $\\\\frac{32}{81}$ | $\\\\frac{16}{81}$ |, the mathematical expectation is $E(X)=\\\\frac{8}{3}$; (ii) $E(X)=E(Y)$",
+            "scoringCriteria": "This sub-question has a total of 9 points, among which (i) has 7 points, 1 point for judging that X follows the binomial distribution, 3 points for correctly calculating each probability value (0.75 points for each correct probability), 1 point for listing the probability mass function, and 2 points for calculating the mathematical expectation; (ii) has 2 points, 2 points for giving the correct conclusion of the size relationship.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "CONTEXT_MODELING_AND_COMPARISON"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆E：$\\\\frac{x^2}{a^2}+\\\\frac{y^2}{b^2}=1(a>b>0)$的离心率为$\\\\frac{\\\\sqrt{3}}{2}$，点$A(-2,0)$在椭圆E上。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆E的方程；",
+            "solutionSteps": "1. 由椭圆的性质及已知条件得：a=2，离心率e=c/a=√3/2，解得c=√3；<br/>2. 根据椭圆中a²=b²+c²的关系，计算b²=a²-c²=4-3=1，即b=1；<br/>3. 代入椭圆标准方程得椭圆E的方程为x²/4 + y² = 1。",
+            "standardAnswer": "$\\\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "第一问共4分，由点A的坐标得出a=2得1分，根据离心率求出c得1分，利用a²=b²+c²求出b²得1分，写出椭圆的标准方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）若过A的直线l（斜率不为0）与椭圆E的另一个交点为B，线段AB中点为M，射线OM交椭圆E于点N，交直线x=-2于点Q。求证：$|ON|^2=|OM||OQ|$。（O为坐标原点）",
+            "solutionSteps": "1. 设直线l的方程为y=k(x+2)(k≠0)，设B(x_B,y_B)，中点M(x_M,y_M)；<br/>2. 联立直线l与椭圆E的方程：$\\\\begin{cases}y=k(x+2) \\\\ \\\\frac{x^2}{4}+y^2=1\\end{cases}$，整理得(4k²+1)x²+16k²x+16k²-4=0；<br/>3. 利用韦达定理，结合A(-2,0)得x_M=(-16k²)/(2(4k²+1))=-8k²/(4k²+1)，代入直线方程得y_M=2k/(4k²+1)；<br/>4. 求出射线OM的方程：由M点坐标得OM的斜率为y_M/x_M=-1/(4k)，方程为y=-1/(4k)x；<br/>5. 求点Q的坐标：令x=-2，得y_Q=1/(2k)，即Q(-2,1/(2k))，计算|OM|和|OQ|：$|OM|=\\\\sqrt{x_M^2+y_M^2}=\\\\frac{2|k|\\\\sqrt{16k^2+1}}{4k^2+1}$，$|OQ|=\\\\sqrt{(-2)^2+(\\\\frac{1}{2k})^2}=\\\\frac{\\\\sqrt{16k^2+1}}{2|k|}$，则|OM|·|OQ|=(16k²+1)/(4k²+1)；<br/>6. 求点N的坐标：联立OM的方程与椭圆E的方程，解得N点坐标，计算得$|ON|^2=\\\\frac{16k^2+1}{4k^2+1}$；<br/>7. 比较得|ON|²=|OM|·|OQ|，得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问共11分，设出直线l的方程得1分，联立直线与椭圆方程并整理正确得2分，利用韦达定理求出中点M的坐标得2分，求出射线OM的方程得1分，求出点Q的坐标并计算|OM|·|OQ|得2分，联立OM方程与椭圆求出|ON|²得2分，得出等式完成证明得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the eccentricity of the ellipse E: $\\\\frac{x^2}{a^2}+\\\\frac{y^2}{b^2}=1(a>b>0)$ is $\\\\frac{\\\\sqrt{3}}{2}$, and the point $A(-2,0)$ is on the ellipse E.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the equation of the ellipse E;",
+            "solutionSteps": "1. From the properties of the ellipse and the known conditions: a=2, the eccentricity e=c/a=√3/2, solve to get c=√3;<br/>2. According to the relationship a²=b²+c² in the ellipse, calculate b²=a²-c²=4-3=1, that is, b=1;<br/>3. Substitute into the standard equation of the ellipse to get the equation of ellipse E as x²/4 + y² = 1.",
+            "standardAnswer": "$\\\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for obtaining a=2 from the coordinates of point A, 1 point for finding c according to the eccentricity, 1 point for finding b² by using a²=b²+c², and 1 point for writing the standard equation of the ellipse.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) If a straight line l passing through A (the slope is not 0) intersects the ellipse E at another point B, M is the midpoint of the line segment AB, the ray OM intersects the ellipse E at point N and the straight line x=-2 at point Q. Prove that $|ON|^2=|OM||OQ|$. (O is the origin of coordinates)",
+            "solutionSteps": "1. Let the equation of the straight line l be y=k(x+2)(k≠0), let B(x_B,y_B), the midpoint M(x_M,y_M);<br/>2. Simultaneously solve the equations of the straight line l and the ellipse E: $\\\\begin{cases}y=k(x+2) \\\\ \\\\frac{x^2}{4}+y^2=1\\end{cases}$, sort out to get (4k²+1)x²+16k²x+16k²-4=0;<br/>3. Use Vieta's formulas, combined with A(-2,0) to get x_M=(-16k²)/(2(4k²+1))=-8k²/(4k²+1), substitute into the straight line equation to get y_M=2k/(4k²+1);<br/>4. Find the equation of the ray OM: the slope of OM is y_M/x_M=-1/(4k) from the coordinates of point M, and the equation is y=-1/(4k)x;<br/>5. Find the coordinates of point Q: let x=-2, get y_Q=1/(2k), that is, Q(-2,1/(2k)), calculate |OM| and |OQ|: $|OM|=\\\\sqrt{x_M^2+y_M^2}=\\\\frac{2|k|\\\\sqrt{16k^2+1}}{4k^2+1}$, $|OQ|=\\\\sqrt{(-2)^2+(\\\\frac{1}{2k})^2}=\\\\frac{\\\\sqrt{16k^2+1}}{2|k|}$, then |OM|·|OQ|=(16k²+1)/(4k²+1);<br/>6. Find the coordinates of point N: simultaneously solve the equation of OM and the ellipse E, solve to get the coordinates of point N, and calculate to get $|ON|^2=\\\\frac{16k^2+1}{4k^2+1}$;<br/>7. Compare to get |ON|²=|OM|·|OQ|, the proof is completed.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 11 points, 1 point for setting the equation of the straight line l, 2 points for simultaneously solving the equations of the straight line and the ellipse and sorting out correctly, 2 points for finding the coordinates of the midpoint M by using Vieta's formulas, 1 point for finding the equation of the ray OM, 2 points for finding the coordinates of point Q and calculating |OM|·|OQ|, 2 points for finding |ON|² by simultaneously solving the equation of OM and the ellipse, and 1 point for drawing the equality to complete the proof.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数$f(x)=\\\\frac{x}{e^x}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求函数$f(x)$的单调区间；",
+            "solutionSteps": "1. 确定函数的定义域为R；<br/>2. 求导函数：$f'(x)=\\\\frac{x'e^x - x(e^x)'}{(e^x)^2}=\\\\frac{1-x}{e^x}$；<br/>3. 分析导函数的符号：当x∈(-∞,1)时，f'(x)>0，函数单调递增；当x∈(1,+∞)时，f'(x)<0，函数单调递减。",
+            "standardAnswer": "单调递增区间为$(-\\\\infty,1)$，单调递减区间为$(1,+\\\\infty)$",
+            "scoringCriteria": "第一问共4分，确定函数定义域得1分，正确求出导函数得2分，准确分析出单调区间得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）曲线$y=f(x)$在点$(t,f(t))(t>0)$处的切线为l，记l与y轴交点的纵坐标为$g(t)$，求$g(t)$的最大值；",
+            "solutionSteps": "1. 求切线的斜率：$k=f'(t)=\\\\frac{1-t}{e^t}$，且$f(t)=\\\\frac{t}{e^t}$；<br/>2. 写出切线l的方程：$y-\\\\frac{t}{e^t}=\\\\frac{1-t}{e^t}(x-t)$；<br/>3. 求g(t)的表达式：令x=0，解得$g(t)=\\\\frac{t^2}{e^t}(t>0)$；<br/>4. 求g(t)的导函数：$g'(t)=\\\\frac{2t-t^2}{e^t}=\\\\frac{t(2-t)}{e^t}$；<br/>5. 分析g(t)的单调性：当t∈(0,2)时，g'(t)>0，g(t)单调递增；当t∈(2,+∞)时，g'(t)<0，g(t)单调递减；<br/>6. 求最大值：g(t)在t=2处取得最大值，$g(2)=\\\\frac{4}{e^2}$。",
+            "standardAnswer": "$\\\\frac{4}{e^2}$",
+            "scoringCriteria": "第二问共5分，求出切线斜率并写出切线方程得2分，求出g(t)的表达式得1分，正确求导并分析单调性得1分，求出最大值得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）若$f(x)=a$有两个根$x_1$，$x_2$，写出a的范围并证明$x_1 x_2<1$。",
+            "solutionSteps": "1. 确定a的取值范围：由函数$f(x)$的单调性和极值知，$f(x)_{max}=f(1)=\\\\frac{1}{e}$，且x→-∞时f(x)→-∞，x→+∞时f(x)→0，故a的范围为$(0,\\\\frac{1}{e})$；<br/>2. 证明$x_1 x_2<1$：不妨设$0<x_1<1<x_2$，则$0<\\\\frac{1}{x_2}<1$，要证$x_1 x_2<1$，只需证$x_1<\\\\frac{1}{x_2}$；<br/>3. 利用函数单调性：因$f(x)$在(0,1)上单调递增，只需证$f(x_1)<f(\\\\frac{1}{x_2})$，又$f(x_1)=f(x_2)$，故只需证$f(x_2)<f(\\\\frac{1}{x_2})$；<br/>4. 构造函数：令$h(x)=x e^{\\\\frac{1}{x}} - \\\\frac{e^x}{x}(x>1)$，求导分析其单调性：$h'(x)=(1-\\\\frac{1}{x})(e^{\\\\frac{1}{x}}-\\\\frac{e^x}{x})$，由$f(x)$的性质知$\\\\frac{e^x}{x}>e>e^{\\\\frac{1}{x}}$，故h'(x)<0，h(x)在(1,+∞)上单调递减；<br/>5. 得出结论：$h(x)<h(1)=0$，即$f(x_2)<f(\\\\frac{1}{x_2})$，故$x_1 x_2<1$得证。",
+            "standardAnswer": "a的取值范围为$(0,\\\\frac{1}{e})$，证明见解析",
+            "scoringCriteria": "第三问共6分，写出a的取值范围得2分，合理构造函数得1分，正确求导并分析函数单调性得2分，完成证明过程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the function $f(x)=\\\\frac{x}{e^x}$.",
+        "subQuestions": [
+          {
+            "question": "(I) Find the monotonic intervals of the function $f(x)$;",
+            "solutionSteps": "1. Determine the domain of the function is R;<br/>2. Find the derivative function: $f'(x)=\\\\frac{x'e^x - x(e^x)'}{(e^x)^2}=\\\\frac{1-x}{e^x}$;<br/>3. Analyze the sign of the derivative function: when x∈(-∞,1), f'(x)>0, the function is monotonically increasing; when x∈(1,+∞), f'(x)<0, the function is monotonically decreasing.",
+            "standardAnswer": "The monotonically increasing interval is $(-\\\\infty,1)$, and the monotonically decreasing interval is $(1,+\\\\infty)$",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for determining the domain of the function, 2 points for correctly finding the derivative function, and 1 point for accurately analyzing the monotonic intervals.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(II) The tangent line l of the curve $y=f(x)$ at the point $(t,f(t))(t>0)$, let the ordinate of the intersection point of l and the y-axis be $g(t)$, find the maximum value of $g(t)$;",
+            "solutionSteps": "1. Find the slope of the tangent line: $k=f'(t)=\\\\frac{1-t}{e^t}$, and $f(t)=\\\\frac{t}{e^t}$;<br/>2. Write the equation of the tangent line l: $y-\\\\frac{t}{e^t}=\\\\frac{1-t}{e^t}(x-t)$;<br/>3. Find the expression of g(t): let x=0, solve to get $g(t)=\\\\frac{t^2}{e^t}(t>0)$;<br/>4. Find the derivative function of g(t): $g'(t)=\\\\frac{2t-t^2}{e^t}=\\\\frac{t(2-t)}{e^t}$;<br/>5. Analyze the monotonicity of g(t): when t∈(0,2), g'(t)>0, g(t) is monotonically increasing; when t∈(2,+∞), g'(t)<0, g(t) is monotonically decreasing;<br/>6. Find the maximum value: g(t) attains the maximum value at t=2, $g(2)=\\\\frac{4}{e^2}$.",
+            "standardAnswer": "$\\\\frac{4}{e^2}$",
+            "scoringCriteria": "This sub-question has a total of 5 points, 2 points for finding the slope of the tangent line and writing the equation of the tangent line, 1 point for finding the expression of g(t), 1 point for correctly finding the derivative and analyzing the monotonicity, and 1 point for finding the maximum value.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(III) If the equation $f(x)=a$ has two roots $x_1$ and $x_2$, write the range of a and prove that $x_1 x_2<1$.",
+            "solutionSteps": "1. Determine the range of a: from the monotonicity and extreme value of the function $f(x)$, $f(x)_{max}=f(1)=\\\\frac{1}{e}$, and f(x)→-∞ as x→-∞, f(x)→0 as x→+∞, so the range of a is $(0,\\\\frac{1}{e})$;<br/>2. Prove $x_1 x_2<1$: without loss of generality, let $0<x_1<1<x_2$, then $0<\\\\frac{1}{x_2}<1$, to prove $x_1 x_2<1$, it is only necessary to prove $x_1<\\\\frac{1}{x_2}$;<br/>3. Use the monotonicity of the function: since f(x) is monotonically increasing on (0,1), it is only necessary to prove $f(x_1)<f(\\\\frac{1}{x_2})$, and since $f(x_1)=f(x_2)$, it is only necessary to prove $f(x_2)<f(\\\\frac{1}{x_2})$;<br/>4. Construct a function: let $h(x)=x e^{\\\\frac{1}{x}} - \\\\frac{e^x}{x}(x>1)$, find the derivative and analyze its monotonicity: $h'(x)=(1-\\\\frac{1}{x})(e^{\\\\frac{1}{x}}-\\\\frac{e^x}{x})$, from the properties of f(x), $\\\\frac{e^x}{x}>e>e^{\\\\frac{1}{x}}$, so h'(x)<0, h(x) is monotonically decreasing on (1,+∞);<br/>5. Draw the conclusion: $h(x)<h(1)=0$, that is, $f(x_2)<f(\\\\frac{1}{x_2})$, so $x_1 x_2<1$ is proved.",
+            "standardAnswer": "The range of a is $(0,\\\\frac{1}{e})$, see the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 6 points, 2 points for writing the range of a, 1 point for constructing the function reasonably, 2 points for correctly finding the derivative and analyzing the monotonicity of the function, and 1 point for completing the proof process.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知数列A:$a_1,a_2,\\\\cdots,a_N$（N是大于3的整数）为有穷数列，定义$w=(x,y,z)$为“卷积核”，数列B按卷积核规则生成。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若数列A:1,4,6,3,2，卷积核$w=(3,2,1)$，求数列B；",
+            "solutionSteps": "1. 根据卷积核的生成规则，依次计算数列B的各项：<br/>$b_1=3×a_1+2×a_2+1×a_3=3×1+2×4+1×6=17$；<br/>$b_2=3×a_2+2×a_3+1×a_4=3×4+2×6+1×3=27$；<br/>$b_3=3×a_3+2×a_4+1×a_5=3×6+2×3+1×2=26$；<br/>$b_4=3×a_4+2×a_5+1×a_1=3×3+2×2+1×1=14$；<br/>$b_5=3×a_5+2×a_1+1×a_2=3×2+2×1+1×4=12$；<br/>2. 整理得出数列B。",
+            "standardAnswer": "17,27,26,14,12",
+            "scoringCriteria": "第一问共4分，正确掌握卷积核的计算规则得1分，每正确计算出一个b_k值得0.6分，全部计算正确并整理出数列B得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）设$N=2m-1(m>3)$，已知$a_k=a_{2m-k} ≥0$且$a_1<a_2<\\\\cdots<a_m$，$k=1,2,\\\\cdots,2m-1$，若$x>y>z>0$，求证：数列B中最大的项为$max \\{b_m, b_{m-1}\\}$。（$max \\{a, b\\}$表示a,b中的最大值）",
+            "solutionSteps": "1. 由$a_k=a_{2m-k}$得数列A关于$a_m$对称，即$a_1<a_2<\\\\cdots<a_m>a_{m+1}>\\\\cdots>a_{2m-1}$；<br/>2. 分析$2 ≤k ≤m-2$时的单调性：计算$b_k - b_{k-1}=x(a_k-a_{k-1})+y(a_{k+1}-a_k)+z(a_{k+2}-a_{k+1})>0$，故$b_1<b_2<\\\\cdots<b_{m-2}$；<br/>3. 分析$m+1 ≤k ≤2m-3$时的单调性：计算$b_k - b_{k-1}=x(a_k-a_{k-1})+y(a_{k+1}-a_k)+z(a_{k+2}-a_{k+1})<0$，故$b_m>b_{m+1}>\\\\cdots>b_{2m-3}$；<br/>4. 分析末尾项的单调性：计算得$b_{2m-2}<b_{2m-3}$，$b_{2m-1}<b_{2m-2}$，故$b_m>b_{m+1}>\\\\cdots>b_{2m-1}$；<br/>5. 比较$b_m$与$b_{m-2}$：计算$b_m - b_{m-2}=(x-z)(a_m - a_{m+2})>0$，故$b_m>b_{m-2}$；<br/>6. 得出结论：数列B的前半部分递增至$b_{m-1}$、$b_m$，后半部分递减，故最大项为$max \\{b_m, b_{m-1}\\}$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "第二问共5分，由数列的对称性得出单调性特征得1分，分析2 ≤k ≤m-2时数列B的单调性得1分，分析m+1 ≤k ≤2m-3及末尾项的单调性得1分，比较$b_m$与$b_{m-2}$的大小得1分，完成证明得出结论得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）已知$a_1+a_2+a_3+\\\\cdots+a_N=0$且$a_1,a_2,\\\\cdots,a_N$不全为0，卷积核$w=(1,2,1)$，是否存在数列A，使得数列B的任意一项均为0？若存在，请写出一个满足条件的数列A，若不存在，请说明理由。",
+            "solutionSteps": "1. 分N为偶数和奇数讨论：<br/>①当N为偶数时，存在满足条件的数列A，构造示例：$a_k=\\\\begin{cases}1, k为奇数且k<N \\\\ -1, k为偶数\\end{cases}$，验证得数列B的各项均为0；<br/>②当N为奇数时，假设存在这样的数列A，由卷积核w=(1,2,1)得$a_k+2a_{k+1}+a_{k+2}=0$（k=1,2,⋯,N，下标循环），变形得$a_k+a_{k+1}=-(a_{k+1}+a_{k+2})$；<br/>2. 推导数列的特征：由上式得$a_1+a_2=a_3+a_4=\\\\cdots=a_N+a_1$，$a_2+a_3=a_4+a_5=\\\\cdots=a_1+a_2$，故$a_1=a_3=a_5=\\\\cdots=a_N$，$a_2=a_4=a_6=\\\\cdots=a_{N-1}=a_1$，即所有项相等；<br/>3. 推出矛盾：因$a_1+a_2+\\\\cdots+a_N=0$，故所有项均为0，与“$a_1,a_2,\\\\cdots,a_N$不全为0”矛盾，故N为奇数时不存在。",
+            "standardAnswer": "当N为偶数时，存在，示例：$a_k=\\\\begin{cases}1, k为奇数且k<N \\\\ -1, k为偶数\\end{cases}$（答案不唯一）；当N为奇数时，不存在，理由见解析",
+            "scoringCriteria": "第三问共6分，分N奇偶讨论并指出偶数时存在得1分，写出一个满足条件的数列A得1分，奇数时作出假设并根据卷积核列出等式得1分，推导得出数列所有项相等的特征得2分，推出矛盾完成证明得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "It is known that the sequence A: $a_1,a_2,\\\\cdots,a_N$ (N is an integer greater than 3) is a finite sequence, define $w=(x,y,z)$ as the \"convolution kernel\", and the sequence B is generated according to the rules of the convolution kernel.",
+        "subQuestions": [
+          {
+            "question": "(I) If the sequence A:1,4,6,3,2 and the convolution kernel $w=(3,2,1)$, find the sequence B;",
+            "solutionSteps": "1. Calculate each term of the sequence B in turn according to the generation rule of the convolution kernel:<br/>$b_1=3×a_1+2×a_2+1×a_3=3×1+2×4+1×6=17$；<br/>$b_2=3×a_2+2×a_3+1×a_4=3×4+2×6+1×3=27$；<br/>$b_3=3×a_3+2×a_4+1×a_5=3×6+2×3+1×2=26$；<br/>$b_4=3×a_4+2×a_5+1×a_1=3×3+2×2+1×1=14$；<br/>$b_5=3×a_5+2×a_1+1×a_2=3×2+2×1+1×4=12$；<br/>2. Sort out and get the sequence B.",
+            "standardAnswer": "17,27,26,14,12",
+            "scoringCriteria": "This sub-question has a total of 4 points, 1 point for correctly mastering the calculation rule of the convolution kernel, 0.6 points for correctly calculating each b_k value, and 1 point for calculating all correctly and sorting out the sequence B.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(II) Let $N=2m-1(m>3)$, it is known that $a_k=a_{2m-k} ≥0$ and $a_1<a_2<\\\\cdots<a_m$ for $k=1,2,\\\\cdots,2m-1$, if $x>y>z>0$, prove that the maximum term of the sequence B is $max \\{b_m, b_{m-1}\\}$. ($max \\{a, b\\}$ represents the maximum value of a and b)",
+            "solutionSteps": "1. From $a_k=a_{2m-k}$, the sequence A is symmetric about $a_m$, that is, $a_1<a_2<\\\\cdots<a_m>a_{m+1}>\\\\cdots>a_{2m-1}$；<br/>2. Analyze the monotonicity when $2 ≤k ≤m-2$: calculate $b_k - b_{k-1}=x(a_k-a_{k-1})+y(a_{k+1}-a_k)+z(a_{k+2}-a_{k+1})>0$, so $b_1<b_2<\\\\cdots<b_{m-2}$；<br/>3. Analyze the monotonicity when $m+1 ≤k ≤2m-3$: calculate $b_k - b_{k-1}=x(a_k-a_{k-1})+y(a_{k+1}-a_k)+z(a_{k+2}-a_{k+1})<0$, so $b_m>b_{m+1}>\\\\cdots>b_{2m-3}$；<br/>4. Analyze the monotonicity of the last terms: calculate to get $b_{2m-2}<b_{2m-3}$, $b_{2m-1}<b_{2m-2}$, so $b_m>b_{m+1}>\\\\cdots>b_{2m-1}$；<br/>5. Compare $b_m$ and $b_{m-2}$: calculate $b_m - b_{m-2}=(x-z)(a_m - a_{m+2})>0$, so $b_m>b_{m-2}$；<br/>6. Draw the conclusion: the first half of the sequence B increases to $b_{m-1}$, $b_m$, and the second half decreases, so the maximum term is $max \\{b_m, b_{m-1}\\}$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "This sub-question has a total of 5 points, 1 point for obtaining the monotonicity characteristic from the symmetry of the sequence, 1 point for analyzing the monotonicity of the sequence B when $2 ≤k ≤m-2$, 1 point for analyzing the monotonicity of $m+1 ≤k ≤2m-3$ and the last terms, 1 point for comparing the sizes of $b_m$ and $b_{m-2}$, and 1 point for completing the proof and drawing the conclusion.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(III) It is known that $a_1+a_2+a_3+\\\\cdots+a_N=0$ and $a_1,a_2,\\\\cdots,a_N$ are not all zero, the convolution kernel $w=(1,2,1)$, is there a sequence A such that every term of the sequence B is zero? If it exists, write a sequence A that satisfies the condition; if it does not exist, explain the reason.",
+            "solutionSteps": "1. Discuss by dividing N into even and odd numbers:<br/>①When N is an even number, there exists a sequence A that satisfies the condition, construct an example: $a_k=\\\\begin{cases}1, k is an odd number and k<N \\\\ -1, k is an even number\\end{cases}$, verify that all terms of the sequence B are zero；<br/>②When N is an odd number, assume that there exists such a sequence A, from the convolution kernel w=(1,2,1), we have $a_k+2a_{k+1}+a_{k+2}=0$ (k=1,2,⋯,N, subscripts are cyclic), which can be transformed into $a_k+a_{k+1}=-(a_{k+1}+a_{k+2})$；<br/>2. Derive the characteristics of the sequence: from the above formula, we get $a_1+a_2=a_3+a_4=\\\\cdots=a_N+a_1$, $a_2+a_3=a_4+a_5=\\\\cdots=a_1+a_2$, so $a_1=a_3=a_5=\\\\cdots=a_N$, $a_2=a_4=a_6=\\\\cdots=a_{N-1}=a_1$, that is, all terms are equal；<br/>3. Deduce a contradiction: since $a_1+a_2+\\\\cdots+a_N=0$, all terms are zero, which contradicts the fact that \"$a_1,a_2,\\\\cdots,a_N$ are not all zero\", so it does not exist when N is an odd number.",
+            "standardAnswer": "When N is an even number, it exists, an example: $a_k=\\\\begin{cases}1, k is an odd number and k<N \\\\ -1, k is an even number\\end{cases}$ (the answer is not unique); when N is an odd number, it does not exist, see the analysis for the reason",
+            "scoringCriteria": "This sub-question has a total of 6 points, 1 point for discussing by dividing N into even and odd numbers and pointing out that it exists when N is even, 1 point for writing a sequence A that satisfies the condition, 1 point for making an assumption and listing the equation according to the convolution kernel when N is odd, 2 points for deriving the characteristic that all terms of the sequence are equal, and 1 point for deducing a contradiction and completing the proof.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}

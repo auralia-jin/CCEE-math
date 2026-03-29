@@ -1,0 +1,249 @@
+{
+  "paperTitle": "2021 Beijing Fengtai Senior Three First Mock Examination Mathematics",
+  "questions": [
+    {
+      "number": 18,
+      "chinese": {
+        "stem": "某电影制片厂从2011年至2020年生产的科教影片、动画影片、纪录影片的时长（单位：分钟）如图所示。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）从2011年至2020年中任选一年，求此年动画影片时长大于纪录影片时长的概率；",
+            "solutionSteps": "1. 确定总年份数：2011年至2020年共10年。2. 统计动画影片时长大于纪录影片时长的年份数：通过图表分析，符合条件的年份为2011年、2015年、2017年、2018年、2019年、2020年，共6年。3. 应用古典概型概率公式计算：P=符合条件的年份数/总年份数=6/10=3/5。",
+            "standardAnswer": "$\\frac{3}{5}$",
+            "scoringCriteria": "（Ⅰ）总分4分，正确确定总年份数得1分；准确统计符合条件的年份数得2分；正确运用古典概型公式并计算出结果得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）从2011年至2020年中任选两年，设X为选出的两年中动画影片时长大于纪录影片时长的年数，求X的分布列和数学期望E(X)；",
+            "solutionSteps": "1. 确定X的可能取值：0，1，2。2. 计算各取值对应的概率：P(X=0)=C_4^2/C_10^2=6/45=2/15；P(X=1)=C_4^1C_6^1/C_10^2=24/45=8/15；P(X=2)=C_6^2/C_10^2=15/45=1/3。3. 列出X的分布列，以表格形式呈现X取0、1、2时对应的概率。4. 根据数学期望公式计算：E(X)=0×2/15 + 1×8/15 + 2×1/3=6/5。",
+            "standardAnswer": "分布列为：| X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{2}{15}$ | $\\frac{8}{15}$ | $\\frac{1}{3}$ |；数学期望为$\\frac{6}{5}$",
+            "scoringCriteria": "（Ⅱ）总分6分，正确确定X的可能取值得1分；准确计算出三个概率值各得1分（共3分）；正确列出分布列得1分；计算出数学期望得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅲ）将2011年至2020年生产的科教影片、动画影片、纪录影片时长的方差分别记为$s_1^2$，$s_2^2$，$s_3^2$，试比较$s_1^2$，$s_2^2$，$s_3^2$的大小（只需写出结论）；",
+            "solutionSteps": "1. 分析方差的意义：方差反映数据的波动程度，波动越大，方差越大。2. 观察图表数据波动情况：科教影片时长的波动最大；将动画影片和纪录影片时长从小到大排列后，发现纪录影片的每个数据均比动画影片对应数据小50，两者波动程度相同。3. 得出方差大小关系：$s_3^2 = s_2^2 < s_1^2$。",
+            "standardAnswer": "$s_3^2 = s_2^2 < s_1^2$",
+            "scoringCriteria": "（Ⅲ）总分3分，正确判断出科教影片方差最大得1分；正确判断出动画影片和纪录影片方差相等得1分；完整写出方差大小关系得1分。",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "The duration (in minutes) of educational films, animated films, and documentary films produced by a film studio from 2011 to 2020 is shown in the figure.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Randomly select one year from 2011 to 2020, find the probability that the duration of animated films is greater than that of documentary films in this year;",
+            "solutionSteps": "1. Determine the total number of years: There are 10 years from 2011 to 2020. 2. Count the number of years where the duration of animated films is greater than that of documentary films: Through chart analysis, the qualifying years are 2011, 2015, 2017, 2018, 2019, 2020, totaling 6 years. 3. Calculate using the classical probability formula: P=Number of qualifying years/Total number of years=6/10=3/5.",
+            "standardAnswer": "$\\frac{3}{5}$",
+            "scoringCriteria": "(Ⅰ) Total score 4 points, 1 point for correctly determining the total number of years; 2 points for accurately counting the number of qualifying years; 1 point for correctly applying the classical probability formula and calculating the result.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ) Randomly select two years from 2011 to 2020, let X denote the number of years among the selected two years where the duration of animated films is greater than that of documentary films, find the probability distribution and mathematical expectation E(X) of X;",
+            "solutionSteps": "1. Determine the possible values of X: 0, 1, 2. 2. Calculate the probability corresponding to each value: P(X=0)=C_4^2/C_10^2=6/45=2/15；P(X=1)=C_4^1C_6^1/C_10^2=24/45=8/15；P(X=2)=C_6^2/C_10^2=15/45=1/3. 3. List the probability distribution of X in the form of a table showing the corresponding probabilities when X takes 0, 1 and 2. 4. Calculate according to the mathematical expectation formula: E(X)=0×2/15 + 1×8/15 + 2×1/3=6/5.",
+            "standardAnswer": "The probability distribution is: | X | 0 | 1 | 2 |\\n| --- | --- | --- | --- |\\n| P | $\\frac{2}{15}$ | $\\frac{8}{15}$ | $\\frac{1}{3}$ |; The mathematical expectation is $\\frac{6}{5}$",
+            "scoringCriteria": "(Ⅱ) Total score 6 points, 1 point for correctly determining the possible values of X; 1 point for each accurate calculation of the three probability values (3 points in total); 1 point for correctly listing the probability distribution; 1 point for calculating the mathematical expectation.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅲ) Let $s_1^2$, $s_2^2$, $s_3^2$ be the variances of the durations of educational films, animated films, and documentary films produced from 2011 to 2020 respectively. Compare the sizes of $s_1^2$, $s_2^2$, $s_3^2$ (only write the conclusion);",
+            "solutionSteps": "1. Analyze the meaning of variance: Variance reflects the degree of data fluctuation; the greater the fluctuation, the larger the variance. 2. Observe the data fluctuation from the chart: The duration of educational films has the largest fluctuation; after arranging the durations of animated films and documentary films in ascending order, it is found that each data of documentary films is 50 less than the corresponding data of animated films, and the fluctuation degree of the two is the same. 3. Draw the variance size relationship: $s_3^2 = s_2^2 < s_1^2$.",
+            "standardAnswer": "$s_3^2 = s_2^2 < s_1^2$",
+            "scoringCriteria": "(Ⅲ) Total score 3 points, 1 point for correctly judging that the variance of educational films is the largest; 1 point for correctly judging that the variances of animated films and documentary films are equal; 1 point for completely writing the variance size relationship.",
+            "knowledgePoint": "PROBABILITY_STATISTICS",
+            "questionType": "BASIC_CALCULATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "chinese": {
+        "stem": "已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 长轴的两个端点为 $A(-2,0)$，$B(2,0)$，离心率为 $\\frac{\\sqrt{3}}{2}$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）求椭圆 C 的方程；",
+            "solutionSteps": "1. 由长轴端点确定a的值：椭圆长轴端点为A(-2,0)、B(2,0)，故a=2。2. 由离心率公式求c的值：离心率e=c/a=√3/2，代入a=2得c=√3。3. 根据椭圆中a、b、c的关系求b²：a²=b²+c²，即4=b²+3，解得b²=1。4. 写出椭圆C的方程：$\\frac{x^2}{4}+y^2=1$。",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "（Ⅰ）总分4分，正确求出a的值得1分；由离心率求出c的值得1分；利用a、b、c的关系求出b²得1分；写出正确的椭圆方程得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）(i)求证：直线AP，AN的斜率之积为定值；",
+            "solutionSteps": "1. 设动点P的坐标：设P(x₀,y₀)（x₀≠±2），因P在椭圆上，故$\\frac{x_0^2}{4}+y_0^2=1$，即$y_0^2=1-\\frac{x_0^2}{4}$。2. 求直线AP、PB的斜率：$k_{AP}=\\frac{y_0}{x_0+2}$，$k_{PB}=\\frac{y_0}{x_0-2}$。3. 求直线PB的方程并确定点N的坐标：直线PB的方程为$y=\\frac{y_0}{x_0-2}(x-2)$，令x=-6，解得y=$\\frac{-8y_0}{x_0-2}$，故N(-6, $\\frac{-8y_0}{x_0-2}$)。4. 求直线AN的斜率并计算斜率之积：$k_{AN}=\\frac{\\frac{-8y_0}{x_0-2}}{-6+2}=\\frac{2y_0}{x_0-2}$，则$k_{AP}·k_{AN}=\\frac{y_0}{x_0+2}·\\frac{2y_0}{x_0-2}=\\frac{2y_0^2}{x_0^2-4}$，代入$y_0^2=1-\\frac{x_0^2}{4}$，化简得$\\frac{2(1-\\frac{x_0^2}{4})}{x_0^2-4}=-\\frac{1}{2}$，即为定值。",
+            "standardAnswer": "证明见解析，定值为$-\\frac{1}{2}$",
+            "scoringCriteria": "（Ⅱ）(i)总分5分，正确设出P点坐标并利用椭圆方程得到$y_0^2$的表达式得1分；求出直线AP、PB的斜率得1分；正确求出点N的坐标得1分；求出直线AN的斜率并计算斜率之积得1分；化简后得到定值得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "（Ⅱ）(ii)判断M，B，Q三点是否共线，并说明理由；",
+            "solutionSteps": "1. 设直线AP的斜率并确定点M的坐标：设直线AP的斜率为k，则直线AP的方程为y=k(x+2)，令x=-6，解得y=-4k，故M(-6,-4k)。2. 由(i)的结论求直线AN的斜率及方程：由(i)知$k_{AP}·k_{AN}=-\\frac{1}{2}$，故$k_{AN}=-\\frac{1}{2k}$，直线AN的方程为$y=-\\frac{1}{2k}(x+2)$。3. 联立直线AN与椭圆方程求点Q的坐标：联立$\\begin{cases}y=-\\frac{1}{2k}(x+2)\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$，消去x得(4+4k²)y²+8ky=0，解得y=0或$y=\\frac{-2k}{1+k²}$，对应Q点坐标为($\\frac{2k²-2}{1+k²}$，$\\frac{-2k}{1+k²}$)。4. 计算直线BQ、BM的斜率并判断共线：$k_{BQ}=\\frac{\\frac{-2k}{1+k²}-0}{\\frac{2k²-2}{1+k²}-2}=\\frac{k}{2}$，$k_{BM}=\\frac{-4k-0}{-6-2}=\\frac{k}{2}$，因$k_{BQ}=k_{BM}$，且B为公共点，故M、B、Q三点共线。",
+            "standardAnswer": "M、B、Q三点共线，理由见解析",
+            "scoringCriteria": "（Ⅱ）(ii)总分6分，正确设出直线AP的斜率并求出点M的坐标得1分；根据(i)的结论求出直线AN的斜率及方程得1分；联立方程并正确求出点Q的坐标得2分；计算直线BQ、BM的斜率得1分；通过斜率相等判断三点共线得1分。",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the ellipse $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ with the two endpoints of the major axis being $A(-2,0)$ and $B(2,0)$, and the eccentricity is $\\frac{\\sqrt{3}}{2}$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) Find the equation of the ellipse C;",
+            "solutionSteps": "1. Determine the value of a from the major axis endpoints: The endpoints of the major axis of the ellipse are A(-2,0) and B(2,0), so a=2. 2. Find the value of c from the eccentricity formula: Eccentricity e=c/a=√3/2, substitute a=2 to get c=√3. 3. Find b² according to the relationship of a, b, c in the ellipse: a²=b²+c², that is, 4=b²+3, solve to get b²=1. 4. Write the equation of the ellipse C: $\\frac{x^2}{4}+y^2=1$.",
+            "standardAnswer": "$\\frac{x^2}{4}+y^2=1$",
+            "scoringCriteria": "(Ⅰ) Total score 4 points, 1 point for correctly finding the value of a; 1 point for finding the value of c from the eccentricity; 1 point for finding b² by using the relationship of a, b, c; 1 point for writing the correct ellipse equation.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ)(i) Prove that the product of the slopes of lines AP and AN is a constant value;",
+            "solutionSteps": "1. Set the coordinates of the moving point P: Let P(x₀,y₀) (x₀≠±2). Since P is on the ellipse, $\\frac{x_0^2}{4}+y_0^2=1$, that is, $y_0^2=1-\\frac{x_0^2}{4}$. 2. Find the slopes of lines AP and PB: $k_{AP}=\\frac{y_0}{x_0+2}$, $k_{PB}=\\frac{y_0}{x_0-2}$. 3. Find the equation of line PB and determine the coordinates of point N: The equation of line PB is $y=\\frac{y_0}{x_0-2}(x-2)$, let x=-6, solve to get y=$\\frac{-8y_0}{x_0-2}$, so N(-6, $\\frac{-8y_0}{x_0-2}$). 4. Find the slope of line AN and calculate the product of the slopes: $k_{AN}=\\frac{\\frac{-8y_0}{x_0-2}}{-6+2}=\\frac{2y_0}{x_0-2}$, then $k_{AP}·k_{AN}=\\frac{y_0}{x_0+2}·\\frac{2y_0}{x_0-2}=\\frac{2y_0^2}{x_0^2-4}$, substitute $y_0^2=1-\\frac{x_0^2}{4}$, simplify to get $\\frac{2(1-\\frac{x_0^2}{4})}{x_0^2-4}=-\\frac{1}{2}$, which is a constant value.",
+            "standardAnswer": "See the analysis for the proof, the constant value is $-\\frac{1}{2}$",
+            "scoringCriteria": "(Ⅱ)(i) Total score 5 points, 1 point for correctly setting the coordinates of point P and obtaining the expression of $y_0^2$ using the ellipse equation; 1 point for finding the slopes of lines AP and PB; 1 point for correctly finding the coordinates of point N; 1 point for finding the slope of line AN and calculating the product of the slopes; 1 point for simplifying to get the constant value.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "DEDUCTIVE_PROOF"
+          },
+          {
+            "question": "(Ⅱ)(ii) Determine whether points M, B, Q are collinear, and explain the reason;",
+            "solutionSteps": "1. Set the slope of line AP and determine the coordinates of point M: Let the slope of line AP be k, then the equation of line AP is y=k(x+2), let x=-6, solve to get y=-4k, so M(-6,-4k). 2. Find the slope and equation of line AN based on the conclusion of (i): From (i), we know $k_{AP}·k_{AN}=-\\frac{1}{2}$, so $k_{AN}=-\\frac{1}{2k}$, the equation of line AN is $y=-\\frac{1}{2k}(x+2)$. 3. Combine the equation of line AN with the ellipse equation to find the coordinates of point Q: Combine $\\begin{cases}y=-\\frac{1}{2k}(x+2)\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$, eliminate x to get (4+4k²)y²+8ky=0, solve to get y=0 or $y=\\frac{-2k}{1+k²}$, the corresponding coordinates of Q are ($\\frac{2k²-2}{1+k²}$, $\\frac{-2k}{1+k²}$). 4. Calculate the slopes of lines BQ and BM and judge collinearity: $k_{BQ}=\\frac{\\frac{-2k}{1+k²}-0}{\\frac{2k²-2}{1+k²}-2}=\\frac{k}{2}$, $k_{BM}=\\frac{-4k-0}{-6-2}=\\frac{k}{2}$. Since $k_{BQ}=k_{BM}$ and B is a common point, points M, B, Q are collinear.",
+            "standardAnswer": "Points M, B, Q are collinear, see the analysis for the reason",
+            "scoringCriteria": "(Ⅱ)(ii) Total score 6 points, 1 point for correctly setting the slope of line AP and finding the coordinates of point M; 1 point for finding the slope and equation of line AN based on the conclusion of (i); 2 points for combining the equations and correctly finding the coordinates of point Q; 1 point for calculating the slopes of lines BQ and BM; 1 point for judging the collinearity of the three points through equal slopes.",
+            "knowledgePoint": "ANALYTIC_GEOMETRY",
+            "questionType": "GEOMETRY_ALGEBRA_TRANSFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "chinese": {
+        "stem": "已知函数 $f(x)=x^{3}-3 x^{2}+b(b \\in R)$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）当b=1时，求曲线y=f(x)在点(1, f(1))处的切线方程；",
+            "solutionSteps": "1. 求函数在b=1时的表达式及切点纵坐标：当b=1时，f(x)=x³-3x²+1，f(1)=1-3+1=-1，故切点为(1,-1)。2. 求函数的导数及切线斜率：f’(x)=3x²-6x，切线斜率k=f’(1)=3-6=-3。3. 由点斜式写出切线方程：y-(-1)=-3(x-1)，化简得3x+y-2=0。",
+            "standardAnswer": "$3x+y-2=0$",
+            "scoringCriteria": "（Ⅰ）总分4分，正确求出切点纵坐标得1分；正确求导得1分；计算出切线斜率得1分；写出正确的切线方程得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "（Ⅱ）(i)求b的取值范围；",
+            "solutionSteps": "1. 将函数零点问题转化为方程根的问题：f(x)=0即x³-3x²+b=0，变形为b=-x³+3x²，设g(x)=-x³+3x²，问题转化为y=g(x)与y=b的图象有三个不同交点。2. 求g(x)的导数分析单调性：g’(x)=-3x²+6x=-3x(x-2)，令g’(x)=0，得x=0或x=2。当x<0时，g’(x)<0，g(x)单调递减；当0<x<2时，g’(x)>0，g(x)单调递增；当x>2时，g’(x)<0，g(x)单调递减。3. 求g(x)的极值：g(0)=0（极小值），g(2)=4（极大值）。4. 确定b的取值范围：由图象可知，当0<b<4时，y=g(x)与y=b的图象有三个不同交点，故b的取值范围为(0,4)。",
+            "standardAnswer": "$(0,4)$",
+            "scoringCriteria": "（Ⅱ）(i)总分5分，正确将零点问题转化为方程根的问题并构造函数g(x)得1分；正确求导得1分；分析g(x)的单调性得1分；求出g(x)的极值得1分；确定b的取值范围得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅱ）(ii)证明：$x_1+x_2>0$；",
+            "solutionSteps": "1. 由零点定义列出等式：因x₁、x₂、x₃是f(x)的零点，故$\\begin{cases}-x_1^3+3x_1^2=b\\\\-x_2^3+3x_2^2=b\\end{cases}$，两式相减得$x_2^3 - x_1^3 = 3(x_2^2 - x_1^2)$。2. 因式分解并化简：左边因式分解为$(x_2 - x_1)(x_2^2 + x_1x_2 + x_1^2)$，右边因式分解为$3(x_2 - x_1)(x_2 + x_1)$，因x₁≠x₂，两边约去(x₂ - x₁)得$x_1^2 + x_1x_2 + x_2^2 = 3(x_1 + x_2)$。3. 变形得到关键关系式：整理得$(x_1 + x_2)^2 - x_1x_2 = 3(x_1 + x_2)$，即$(x_1 + x_2)^2 - 3(x_1 + x_2) = x_1x_2$。4. 结合函数图象分析x₁、x₂的符号：由g(x)的图象可知，x₁<0<x₂<2，故x₁x₂<0，因此$(x_1 + x_2)^2 - 3(x_1 + x_2) < 0$，解得0<x₁+x₂<3，故x₁+x₂>0得证。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）(ii)总分6分，正确列出零点对应的等式并相减得1分；对等式两边因式分解并化简得2分；变形得到关于x₁+x₂和x₁x₂的关系式得1分；分析x₁、x₂的符号并推出不等式得1分；最终证明x₁+x₂>0得1分。",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the function $f(x)=x^{3}-3 x^{2}+b(b \\in R)$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) When b=1, find the equation of the tangent line to the curve y=f(x) at the point (1, f(1));",
+            "solutionSteps": "1. Find the expression of the function when b=1 and the ordinate of the tangent point: When b=1, f(x)=x³-3x²+1, f(1)=1-3+1=-1, so the tangent point is (1,-1). 2. Find the derivative of the function and the slope of the tangent line: f’(x)=3x²-6x, the slope of the tangent line k=f’(1)=3-6=-3. 3. Write the tangent line equation according to the point-slope form: y-(-1)=-3(x-1), simplify to get 3x+y-2=0.",
+            "standardAnswer": "$3x+y-2=0$",
+            "scoringCriteria": "(Ⅰ) Total score 4 points, 1 point for correctly finding the ordinate of the tangent point; 1 point for correctly finding the derivative; 1 point for calculating the slope of the tangent line; 1 point for writing the correct tangent line equation.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "BASIC_CALCULATION"
+          },
+          {
+            "question": "(Ⅱ)(i) Find the range of b;",
+            "solutionSteps": "1. Transform the function zero point problem into an equation root problem: f(x)=0 is x³-3x²+b=0, which is transformed into b=-x³+3x². Let g(x)=-x³+3x², the problem is transformed into the graphs of y=g(x) and y=b having three different intersection points. 2. Find the derivative of g(x) to analyze monotonicity: g’(x)=-3x²+6x=-3x(x-2), let g’(x)=0, get x=0 or x=2. When x<0, g’(x)<0, g(x) is monotonically decreasing; when 0<x<2, g’(x)>0, g(x) is monotonically increasing; when x>2, g’(x)<0, g(x) is monotonically decreasing. 3. Find the extreme values of g(x): g(0)=0 (minimum value), g(2)=4 (maximum value). 4. Determine the range of b: From the graph, when 0<b<4, the graphs of y=g(x) and y=b have three different intersection points, so the range of b is (0,4).",
+            "standardAnswer": "$(0,4)$",
+            "scoringCriteria": "(Ⅱ)(i) Total score 5 points, 1 point for correctly transforming the zero point problem into an equation root problem and constructing the function g(x); 1 point for correctly finding the derivative; 1 point for analyzing the monotonicity of g(x); 1 point for finding the extreme values of g(x); 1 point for determining the range of b.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "COMPREHENSIVE_ANALYSIS_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅱ)(ii) Prove that $x_1+x_2>0$;",
+            "solutionSteps": "1. List the equations according to the definition of zero points: Since x₁, x₂, x₃ are the zero points of f(x), $\\begin{cases}-x_1^3+3x_1^2=b\\\\-x_2^3+3x_2^2=b\\end{cases}$. Subtract the two equations to get $x_2^3 - x_1^3 = 3(x_2^2 - x_1^2)$. 2. Factorize and simplify: The left side is factorized into $(x_2 - x_1)(x_2^2 + x_1x_2 + x_1^2)$, and the right side is factorized into $3(x_2 - x_1)(x_2 + x_1)$. Since x₁≠x₂, divide both sides by (x₂ - x₁) to get $x_1^2 + x_1x_2 + x_2^2 = 3(x_1 + x_2)$. 3. Transform to get the key relationship: Rearrange to get $(x_1 + x_2)^2 - x_1x_2 = 3(x_1 + x_2)$, that is, $(x_1 + x_2)^2 - 3(x_1 + x_2) = x_1x_2$. 4. Analyze the signs of x₁ and x₂ combined with the function graph: From the graph of g(x), x₁<0<x₂<2, so x₁x₂<0. Therefore, $(x_1 + x_2)^2 - 3(x_1 + x_2) < 0$, solve to get 0<x₁+x₂<3, so x₁+x₂>0 is proved.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅱ)(ii) Total score 6 points, 1 point for correctly listing the equations corresponding to the zero points and subtracting them; 2 points for factorizing and simplifying both sides of the equation; 1 point for transforming to get the relationship between x₁+x₂ and x₁x₂; 1 point for analyzing the signs of x₁ and x₂ and deriving the inequality; 1 point for finally proving x₁+x₂>0.",
+            "knowledgePoint": "FUNCTIONS_DERIVATIVES",
+            "questionType": "DEDUCTIVE_PROOF"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "chinese": {
+        "stem": "已知数列 $A: a_1, a_2, ..., a_{2n}(n \\in N^{*})$，现将数列 A 的项分成个数相同的两组，第一组为 $B: b_1, b_2, ..., b_n$，满足 $b_i ≥ b_{i+1}(i=1,2, ..., n-1)$；第二组为 $C: c_1, c_2, ..., c_n$，满足 $c_i ≤ c_{i+1}(i=1,2, ..., n-1)$，记 $M=\\sum_{i=1}^{n}|b_i - c_i|$。",
+        "subQuestions": [
+          {
+            "question": "（Ⅰ）若数列 A:1,2,4,8，写出数列 A 的一种分组结果，并求出此时 M 的值；",
+            "solutionSteps": "1. 根据分组要求进行分组：第一组B需满足递减顺序，第二组C需满足递增顺序。选择分组B:8,4（递减），C:1,2（递增）。2. 计算M的值：M=|8-1| + |4-2|=7 + 2=9。",
+            "standardAnswer": "分组结果：B:8,4，C:1,2（答案不唯一）；M的值为$9$",
+            "scoringCriteria": "（Ⅰ）总分4分，给出符合要求的分组结果得2分；正确计算出M的值得2分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "（Ⅱ）若数列 A:1,2,3, ..., 2n，证明：$max\\{b_i, c_i\\} ≥n+1(i=1,2, ..., n)$；",
+            "solutionSteps": "1. 利用分组的单调性推导范围：由B组递减（$b_i ≥ b_{i+1}$）和C组递增（$c_i ≤ c_{i+1}$），可得$b_i ≥ b_{i+1} ≥ ... ≥ b_n$，$c_i ≤ c_{i+1} ≤ ... ≤ c_n$。2. 确定相关项的总数及范围：集合$\\{b_i, b_{i+1}, ..., b_n, c_1, c_2, ..., c_i\\}$共有$n - i + 1 + i = n + 1$项，且这些项均来自数列A:1,2,...,2n。3. 利用最值性质证明：数列A中前n项为1到n，后n项为n+1到2n，共2n项。由于上述集合有n+1项，根据抽屉原理，至少有一项来自后n项（n+1到2n），故$max\\{b_i, b_{i+1}, ..., b_n, c_1, c_2, ..., c_i\\} ≥n+1$。4. 得出结论：因$max\\{b_i, c_i\\} ≥ max\\{b_i, b_{i+1}, ..., b_n, c_1, c_2, ..., c_i\\}$，故$max\\{b_i, c_i\\} ≥n+1$。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅱ）总分5分，正确推导B组和C组的单调性相关范围得1分；确定集合的项数及来源得1分；利用抽屉原理分析集合中至少有一项来自n+1到2n得2分；最终推出$max\\{b_i, c_i\\} ≥n+1$得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "（Ⅲ）证明：M的值与数列 A 的分组方式无关；",
+            "solutionSteps": "1. 对数列A进行排序：将数列A的各项重新排序为$A': a_1', a_2', ..., a_{2n}'$，满足$a_1' ≤ a_2' ≤ ... ≤ a_{2n}'$。2. 分析$|b_i - c_i|$的本质：由于B组递减、C组递增，对任意i，$max\\{b_i, c_i\\}$必为$A'$中后n项（$a_{n+1}', ..., a_{2n}'$）中的某一项，$min\\{b_i, c_i\\}$必为$A'$中前n项（$a_1', ..., a_n'$）中的某一项，故$|b_i - c_i|=max\\{b_i, c_i\\} - min\\{b_i, c_i\\}$。3. 计算M的总和：$M=\\sum_{i=1}^{n}|b_i - c_i|=\\sum_{i=1}^{n}[max\\{b_i, c_i\\} - min\\{b_i, c_i\\}]$，由于前n项的最小值和后n项的最大值恰好各被选取n次，且一一对应，故总和为$(a_{n+1}' + a_{n+2}' + ... + a_{2n}') - (a_1' + a_2' + ... + a_n')$。4. 得出结论：该总和仅与数列A的各项数值有关，与分组方式无关，故M的值与数列A的分组方式无关。",
+            "standardAnswer": "证明见解析",
+            "scoringCriteria": "（Ⅲ）总分5分，正确对数列A排序得1分；分析出$|b_i - c_i|$等于最大值减最小值且对应前后n项得2分；正确推导M的总和表达式得1分；明确总和与分组方式无关得1分。",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      },
+      "english": {
+        "stem": "Given the sequence $A: a_1, a_2, ..., a_{2n}(n \\in N^{*})$, the terms of sequence A are now divided into two groups with the same number of terms. The first group is $B: b_1, b_2, ..., b_n$ satisfying $b_i ≥ b_{i+1}(i=1,2, ..., n-1)$; the second group is $C: c_1, c_2, ..., c_n$ satisfying $c_i ≤ c_{i+1}(i=1,2, ..., n-1)$. Let $M=\\sum_{i=1}^{n}|b_i - c_i|$.",
+        "subQuestions": [
+          {
+            "question": "(Ⅰ) If sequence A:1,2,4,8, write a grouping result of sequence A and find the value of M at this time;",
+            "solutionSteps": "1. Group according to the grouping requirements: The first group B needs to be in decreasing order, and the second group C needs to be in increasing order. Choose the grouping B:8,4 (decreasing) and C:1,2 (increasing). 2. Calculate the value of M: M=|8-1| + |4-2|=7 + 2=9.",
+            "standardAnswer": "Grouping result: B:8,4, C:1,2 (the answer is not unique); The value of M is $9$",
+            "scoringCriteria": "(Ⅰ) Total score 4 points, 2 points for giving a grouping result that meets the requirements; 2 points for correctly calculating the value of M.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_DIRECT_APPLICATION"
+          },
+          {
+            "question": "(Ⅱ) If sequence A:1,2,3, ..., 2n, prove that $max\\{b_i, c_i\\} ≥n+1(i=1,2, ..., n)$;",
+            "solutionSteps": "1. Derive the range related to the monotonicity of groups B and C: From the decreasing property of group B ($b_i ≥ b_{i+1}$) and the increasing property of group C ($c_i ≤ c_{i+1}$), we get $b_i ≥ b_{i+1} ≥ ... ≥ b_n$ and $c_i ≤ c_{i+1} ≤ ... ≤ c_n$. 2. Determine the total number of terms and source of the set: The set $\\{b_i, b_{i+1}, ..., b_n, c_1, c_2, ..., c_i\\}$ has a total of $n - i + 1 + i = n + 1$ terms, and these terms all come from sequence A:1,2,...,2n. 3. Prove using the maximum value property: The first n terms of sequence A are 1 to n, and the last n terms are n+1 to 2n, totaling 2n terms. Since the above set has n+1 terms, according to the pigeonhole principle, at least one term comes from the last n terms (n+1 to 2n), so $max\\{b_i, b_{i+1}, ..., b_n, c_1, c_2, ..., c_i\\} ≥n+1$. 4. Draw the conclusion: Since $max\\{b_i, c_i\\} ≥ max\\{b_i, b_{i+1}, ..., b_n, c_1, c_2, ..., c_i\\}$, then $max\\{b_i, c_i\\} ≥n+1$.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅱ) Total score 5 points, 1 point for correctly deriving the range related to the monotonicity of groups B and C; 1 point for determining the number of terms and source of the set; 2 points for analyzing that at least one term in the set comes from n+1 to 2n using the pigeonhole principle; 1 point for finally deriving $max\\{b_i, c_i\\} ≥n+1$.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          },
+          {
+            "question": "(Ⅲ) Prove that the value of M is independent of the grouping method of sequence A;",
+            "solutionSteps": "1. Sort sequence A: Reorder the terms of sequence A into $A': a_1', a_2', ..., a_{2n}'$ satisfying $a_1' ≤ a_2' ≤ ... ≤ a_{2n}'$. 2. Analyze the essence of $|b_i - c_i|$: Since group B is decreasing and group C is increasing, for any i, $max\\{b_i, c_i\\}$ must be a term from the last n terms ($a_{n+1}', ..., a_{2n}'$) of $A'$, and $min\\{b_i, c_i\\}$ must be a term from the first n terms ($a_1', ..., a_n'$) of $A'$, so $|b_i - c_i|=max\\{b_i, c_i\\} - min\\{b_i, c_i\\}$. 3. Calculate the total sum of M: $M=\\sum_{i=1}^{n}|b_i - c_i|=\\sum_{i=1}^{n}[max\\{b_i, c_i\\} - min\\{b_i, c_i\\}]$. Since the minimum values of the first n terms and the maximum values of the last n terms are exactly selected n times each and correspond one-to-one, the total sum is $(a_{n+1}' + a_{n+2}' + ... + a_{2n}') - (a_1' + a_2' + ... + a_n')$. 4. Draw the conclusion: This total sum is only related to the values of the terms of sequence A and has nothing to do with the grouping method, so the value of M is independent of the grouping method of sequence A.",
+            "standardAnswer": "See the analysis for the proof",
+            "scoringCriteria": "(Ⅲ) Total score 5 points, 1 point for correctly sorting sequence A; 2 points for analyzing that $|b_i - c_i|$ is equal to the maximum value minus the minimum value and corresponds to the first and last n terms; 1 point for correctly deriving the total sum expression of M; 1 point for clarifying that the total sum has nothing to do with the grouping method.",
+            "knowledgePoint": "NEW_DEFINITION_INNOVATION",
+            "questionType": "NEW_DEFINITION_PROOF_AND_INQUIRY"
+          }
+        ]
+      }
+    }
+  ]
+}
